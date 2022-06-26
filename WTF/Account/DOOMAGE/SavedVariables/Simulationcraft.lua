@@ -12,17 +12,17 @@ SimulationCraftDB = {
 		["Abel - Turalyon"] = "Abel - Turalyon",
 		["Adamancy - Turalyon"] = "Adamancy - Turalyon",
 		["Furrys - Turalyon"] = "Furrys - Turalyon",
-		["Artoc - Zul'jin"] = "Artoc - Zul'jin",
-		["Badam - Turalyon"] = "Badam - Turalyon",
-		["Adreya - Bloodscalp"] = "Adreya - Bloodscalp",
+		["Asaam - Turalyon"] = "Asaam - Turalyon",
+		["Svend - Turalyon"] = "Svend - Turalyon",
+		["Allevin - Turalyon"] = "Allevin - Turalyon",
 		["Caris - Turalyon"] = "Caris - Turalyon",
-		["Adris - Turalyon"] = "Adris - Turalyon",
+		["Adamn - Turalyon"] = "Adamn - Turalyon",
 		["Artoc - Silvermoon"] = "Artoc - Silvermoon",
 		["Amdam - Turalyon"] = "Amdam - Turalyon",
-		["Adamn - Turalyon"] = "Adamn - Turalyon",
-		["Allevin - Turalyon"] = "Allevin - Turalyon",
-		["Svend - Turalyon"] = "Svend - Turalyon",
-		["Asaam - Turalyon"] = "Asaam - Turalyon",
+		["Adris - Turalyon"] = "Adris - Turalyon",
+		["Adreya - Bloodscalp"] = "Adreya - Bloodscalp",
+		["Badam - Turalyon"] = "Badam - Turalyon",
+		["Artoc - Zul'jin"] = "Artoc - Zul'jin",
 	},
 	["profiles"] = {
 		["Christifur - Turalyon"] = {
@@ -47,37 +47,37 @@ SimulationCraftDB = {
 		["Abel - Turalyon"] = {
 		},
 		["Adamancy - Turalyon"] = {
-			["minimap"] = {
-				["minimapPos"] = 42.40893992104903,
-			},
 			["frame"] = {
 				["ofsx"] = -20.74081802368164,
 				["ofsy"] = 16.00015640258789,
 			},
+			["minimap"] = {
+				["minimapPos"] = 42.40893992104903,
+			},
 		},
 		["Furrys - Turalyon"] = {
 		},
-		["Artoc - Zul'jin"] = {
+		["Asaam - Turalyon"] = {
 		},
-		["Badam - Turalyon"] = {
+		["Svend - Turalyon"] = {
 		},
-		["Adreya - Bloodscalp"] = {
+		["Allevin - Turalyon"] = {
 		},
 		["Caris - Turalyon"] = {
 		},
-		["Adris - Turalyon"] = {
+		["Adamn - Turalyon"] = {
 		},
 		["Artoc - Silvermoon"] = {
 		},
 		["Amdam - Turalyon"] = {
 		},
-		["Adamn - Turalyon"] = {
+		["Adris - Turalyon"] = {
 		},
-		["Allevin - Turalyon"] = {
+		["Adreya - Bloodscalp"] = {
 		},
-		["Svend - Turalyon"] = {
+		["Badam - Turalyon"] = {
 		},
-		["Asaam - Turalyon"] = {
+		["Artoc - Zul'jin"] = {
 		},
 	},
 }

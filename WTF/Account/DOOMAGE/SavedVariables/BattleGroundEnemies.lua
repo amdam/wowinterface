@@ -7,12 +7,12 @@ BattleGroundEnemiesDB = {
 		["Kayne - Turalyon"] = "Default",
 		["Adrid - Turalyon"] = "Default",
 		["Badam - Turalyon"] = "Default",
-		["Amdam - Turalyon"] = "Default",
-		["Christoff - Turalyon"] = "Default",
-		["Adamn - Turalyon"] = "Default",
-		["Dreg - Turalyon"] = "Default",
-		["Allevin - Turalyon"] = "Default",
 		["Asaam - Turalyon"] = "Default",
+		["Allevin - Turalyon"] = "Default",
+		["Christoff - Turalyon"] = "Default",
+		["Dreg - Turalyon"] = "Default",
+		["Adamn - Turalyon"] = "Default",
+		["Amdam - Turalyon"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

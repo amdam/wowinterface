@@ -8,8 +8,8 @@ HandyNotesDB = {
 		["Amdam - Turalyon"] = "Amdam - Turalyon",
 		["Badam - Turalyon"] = "Badam - Turalyon",
 		["Adamn - Turalyon"] = "Adamn - Turalyon",
-		["Asaam - Turalyon"] = "Asaam - Turalyon",
 		["Christoff - Turalyon"] = "Christoff - Turalyon",
+		["Asaam - Turalyon"] = "Asaam - Turalyon",
 	},
 	["profiles"] = {
 		["Abel - Turalyon"] = {
@@ -26,9 +26,9 @@ HandyNotesDB = {
 		},
 		["Adamn - Turalyon"] = {
 		},
-		["Asaam - Turalyon"] = {
-		},
 		["Christoff - Turalyon"] = {
+		},
+		["Asaam - Turalyon"] = {
 		},
 	},
 }
@@ -41,8 +41,8 @@ HandyNotes_HandyNotesDB = {
 		["Amdam - Turalyon"] = "Amdam - Turalyon",
 		["Badam - Turalyon"] = "Badam - Turalyon",
 		["Adamn - Turalyon"] = "Adamn - Turalyon",
-		["Asaam - Turalyon"] = "Asaam - Turalyon",
 		["Christoff - Turalyon"] = "Christoff - Turalyon",
+		["Asaam - Turalyon"] = "Asaam - Turalyon",
 	},
 	["profiles"] = {
 		["Abel - Turalyon"] = {
@@ -59,9 +59,9 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Adamn - Turalyon"] = {
 		},
-		["Asaam - Turalyon"] = {
-		},
 		["Christoff - Turalyon"] = {
+		},
+		["Asaam - Turalyon"] = {
 		},
 	},
 }

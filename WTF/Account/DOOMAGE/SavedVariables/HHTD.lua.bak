@@ -4,19 +4,19 @@ HHTD_SavedVariables = {
 		["Adamancy - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
+		["Amdam - Turalyon"] = {
+			["settingsMigrated"] = false,
+		},
 		["Furrys - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
-		["Allevin - Turalyon"] = {
+		["Adris - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
 		["Asaam - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
-		["Svend - Turalyon"] = {
-			["settingsMigrated"] = false,
-		},
-		["Artoc - Zul'jin"] = {
+		["Adreya - Bloodscalp"] = {
 			["settingsMigrated"] = false,
 		},
 		["Adrid - Turalyon"] = {
@@ -31,21 +31,42 @@ HHTD_SavedVariables = {
 		["Artoc - Silvermoon"] = {
 			["settingsMigrated"] = false,
 		},
-		["Dewt - Turalyon"] = {
-			["settingsMigrated"] = false,
-		},
 		["Adamn - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
-		["Adreya - Bloodscalp"] = {
+		["Dewt - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
-		["Adris - Turalyon"] = {
+		["Artoc - Zul'jin"] = {
 			["settingsMigrated"] = false,
 		},
-		["Amdam - Turalyon"] = {
+		["Svend - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
+		["Allevin - Turalyon"] = {
+			["settingsMigrated"] = false,
+		},
+	},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 2,
+	},
+	["profileKeys"] = {
+		["Adamancy - Turalyon"] = "Adamancy - Turalyon",
+		["Amdam - Turalyon"] = "Amdam - Turalyon",
+		["Furrys - Turalyon"] = "Furrys - Turalyon",
+		["Adris - Turalyon"] = "Adris - Turalyon",
+		["Asaam - Turalyon"] = "Asaam - Turalyon",
+		["Adreya - Bloodscalp"] = "Adreya - Bloodscalp",
+		["Adrid - Turalyon"] = "Adrid - Turalyon",
+		["Caris - Turalyon"] = "Caris - Turalyon",
+		["Badam - Turalyon"] = "Badam - Turalyon",
+		["Artoc - Silvermoon"] = "Artoc - Silvermoon",
+		["Adamn - Turalyon"] = "Adamn - Turalyon",
+		["Dewt - Turalyon"] = "Dewt - Turalyon",
+		["Artoc - Zul'jin"] = "Artoc - Zul'jin",
+		["Svend - Turalyon"] = "Svend - Turalyon",
+		["Allevin - Turalyon"] = "Allevin - Turalyon",
 	},
 	["namespaces"] = {
 		["Announcer"] = {
@@ -54,26 +75,5 @@ HHTD_SavedVariables = {
 		},
 		["NPH"] = {
 		},
-	},
-	["profileKeys"] = {
-		["Adamancy - Turalyon"] = "Adamancy - Turalyon",
-		["Furrys - Turalyon"] = "Furrys - Turalyon",
-		["Allevin - Turalyon"] = "Allevin - Turalyon",
-		["Asaam - Turalyon"] = "Asaam - Turalyon",
-		["Svend - Turalyon"] = "Svend - Turalyon",
-		["Artoc - Zul'jin"] = "Artoc - Zul'jin",
-		["Adrid - Turalyon"] = "Adrid - Turalyon",
-		["Caris - Turalyon"] = "Caris - Turalyon",
-		["Badam - Turalyon"] = "Badam - Turalyon",
-		["Artoc - Silvermoon"] = "Artoc - Silvermoon",
-		["Dewt - Turalyon"] = "Dewt - Turalyon",
-		["Adamn - Turalyon"] = "Adamn - Turalyon",
-		["Adreya - Bloodscalp"] = "Adreya - Bloodscalp",
-		["Adris - Turalyon"] = "Adris - Turalyon",
-		["Amdam - Turalyon"] = "Amdam - Turalyon",
-	},
-	["global"] = {
-		["settingsMigrated"] = false,
-		["oldNameEnableState"] = 2,
 	},
 }

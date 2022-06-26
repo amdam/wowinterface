@@ -15,20 +15,20 @@ TomTomDB = {
 		["Amdamn - Bloodscalp"] = "Default",
 		["Fife - The Forgotten Coast"] = "Default",
 		["Adamancy - Turalyon"] = "Default",
-		["Adamn - Terokkar"] = "Default",
+		["Asaam - Turalyon"] = "Default",
 		["Furrys - Turalyon"] = "Default",
 		["Abel - Turalyon"] = "Default",
-		["Amdam - Turalyon"] = "Default",
+		["Dreg - Turalyon"] = "Default",
 		["Christoff - Turalyon"] = "Default",
 		["Badam - Bloodscalp"] = "Default",
-		["Christos - Turalyon"] = "Default",
-		["Badam - Turalyon"] = "Default",
-		["Bears - Bloodscalp"] = "Default",
 		["Adrid - Turalyon"] = "Default",
+		["Bears - Bloodscalp"] = "Default",
+		["Badam - Turalyon"] = "Default",
+		["Christos - Turalyon"] = "Default",
 		["Adamn - Turalyon"] = "Default",
-		["Dreg - Turalyon"] = "Default",
+		["Amdam - Turalyon"] = "Default",
 		["Elpy - Bloodscalp"] = "Default",
-		["Asaam - Turalyon"] = "Default",
+		["Adamn - Terokkar"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -63,8 +63,8 @@ TomTomWaypointsM = {
 		["Amdam - Turalyon"] = "Amdam - Turalyon",
 		["Christoff - Turalyon"] = "Christoff - Turalyon",
 		["Dreg - Turalyon"] = "Dreg - Turalyon",
-		["Adrid - Turalyon"] = "Adrid - Turalyon",
 		["Asaam - Turalyon"] = "Asaam - Turalyon",
+		["Adrid - Turalyon"] = "Adrid - Turalyon",
 	},
 	["profiles"] = {
 		["Abel - Turalyon"] = {
@@ -81,9 +81,9 @@ TomTomWaypointsM = {
 		},
 		["Dreg - Turalyon"] = {
 		},
-		["Adrid - Turalyon"] = {
-		},
 		["Asaam - Turalyon"] = {
+		},
+		["Adrid - Turalyon"] = {
 		},
 	},
 }
