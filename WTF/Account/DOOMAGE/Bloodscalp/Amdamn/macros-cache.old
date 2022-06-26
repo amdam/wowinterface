@@ -1,0 +1,4 @@
+MACRO 16777217 " " Spell_Holy_PowerWordShield
+#showtooltip Power Word: Shield
+/cast [target=mouseover, exists] [help] [target=player] Power Word: Shield
+END

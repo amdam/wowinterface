@@ -1,0 +1,70 @@
+VER 3 0100000000000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomodifier,spec:1] Penance; [nomodifier,spec:2] Smite; [modifier:alt] Holy Nova;
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift,spec:3,talent:6/3] Void Torrent; [mod:alt] Mind Sear; Smite;
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/use [@mouseover, help, nodead,spec:2][help, nodead,spec:2][@player,spec:2] Guardian Spirit; [@mouseover, help, nodead,spec:1][help, nodead,spec:1][@player,spec:1] Pain Suppression
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/use [@mouseover, help, nodead][help, nodead][@player] Levitate
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [modifier:alt,talent:3/3] Searing NIghtmare; Devouring Plague;
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Angelic Feather
+END
+VER 3 0100000000000008 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/use [@mouseover, help, nodead][help, nodead][@player] Rapture
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/use [@mouseover, help, nodead][help, nodead][@player] Holy Word: Serenity
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000009 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/use [@mouseover, help, nodead][help, nodead][@player] Leap of Faith
+/script UIErrorsFrame:Clear()
+END
+VER 3 010000000000000A " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, nodead][help,nodead][@player] Power Infusion;
+/use 13
+/script UIErrorsFrame:Clear()
+END
+VER 3 010000000000000B " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt,spec:3] Void Eruption; Mind Blast;
+/script UIErrorsFrame:Clear()
+END
+VER 3 010000000000000C " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Shadow Word: Pain; [mod:shift,spec:3,talent:5/3,@cursor] Shadow Crash; [spec:3] Vampiric Touch; Shadow Word: Pain;
+/script UIErrorsFrame:Clear()
+END
+VER 3 010000000000000D " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt,spec:3,talent7/3] Surrender to Madness; Shadow Word: Death;
+/script UIErrorsFrame:Clear()
+END

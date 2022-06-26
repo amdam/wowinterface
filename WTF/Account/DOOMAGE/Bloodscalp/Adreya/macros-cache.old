@@ -1,0 +1,73 @@
+VER 3 010000000000000A " " "Spell_Frost_FrostArmor"
+#showtooltip Unbreakable Armor
+/cast Blood Tap
+/cast Unbreakable Armor
+END
+VER 3 0100000000000009 " " "Spell_Shadow_DeathCoil"
+#showtooltip Death Coil
+/startattack
+/cast Death Coil
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000008 " " "Spell_DeathKnight_Butcher2"
+#showtooltip Death Strike
+/startattack
+/cast [nomodifier] Death Strike; /cast [modifier:alt] Rune Tap;
+/script UIErrorsFrame:Clear()
+END
+VER 3 010000000000000C " " "SPELL_DEATHKNIGHT_MINDFREEZE"
+#showtooltip Mind Freeze
+/cast [nomodifier] Mind Freeze; /cast [modifier:alt] Asphyxiate
+END
+VER 3 010000000000000D " " "SPELL_SHADOW_ANTIMAGICSHELL"
+#showtooltip Anti-Magic Shell
+/cast [nomodifier] Anti-Magic Shell; /cast [modifier;alt] Anti-Magic Zone
+END
+VER 3 010000000000000B " " "INV_WEAPON_SHORTBLADE_40"
+#showtooltip Heart Strike
+/startattack
+/cast [nomodifier] Heart Strike; /cast [modifier:alt] Blood Boil;
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000002 "  " "Spell_DeathKnight_EmpowerRuneBlade"
+#showtooltip Plague Strike
+/startattack
+/cast [nomodifier] Plague Strike; /cast [modifier:alt] Death and Decay;
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000001 "  " "Spell_DeathKnight_IceTouch"
+#showtooltip Icy Touch
+/startattack
+/cast [nomodifier] Icy Touch; /cast [modifier:alt] Outbreak;
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000003 "   " "Spell_Deathknight_DeathStrike"
+#showtooltip Blood Strike
+/startattack
+/cast Blood Strike
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000004 "    " "Spell_Deathknight_ClassIcon"
+#showtooltip Obliterate
+/startattack
+/cast Obliterate
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000005 "     " "Spell_DeathKnight_EmpowerRuneBlade2"
+#showtooltip Frost Strike
+/startattack
+/cast Frost Strike
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000006 "      " "Spell_Frost_ArcticWinds"
+#showtooltip Howling Blast
+/startattack
+/cast [nomodifier] Howling Blast; /cast [modifier:alt] Icy Touch
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000007 "       " "Spell_DeathKnight_ScourgeStrike"
+#showtooltip Scourge Strike
+/startattack
+/cast Scourge Strike
+/script UIErrorsFrame:Clear()
+END

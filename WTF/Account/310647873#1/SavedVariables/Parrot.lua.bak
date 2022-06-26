@@ -1,0 +1,31 @@
+
+ParrotDB = {
+	["namespaces"] = {
+		["CombatEvents"] = {
+			["profiles"] = {
+				["Default"] = {
+					["dbver"] = 5,
+				},
+			},
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["Suppressions"] = {
+		},
+		["Cooldowns"] = {
+		},
+		["ScrollAreas"] = {
+		},
+		["Display"] = {
+		},
+		["Triggers"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Releaf - Turalyon"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

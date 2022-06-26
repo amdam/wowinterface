@@ -1,0 +1,14 @@
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomodifier] Flame Shock; /cast [modifier:alt] Frost Shock
+END
+VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, nodead][help, nodead][@player] Healing Surge
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomodifier] Lightning Bolt; /cast [modifier:alt] Chain Lightning
+/script UIErrorsFrame:Clear()
+END

@@ -1,0 +1,31 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0218,
+	["LastPlayerFullName"] = "Releaf-Turalyon",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
+	["Artifacts"] = {
+		[128858] = {
+			["Relics"] = {
+				{
+					["ItemLevel"] = 62,
+					["Type"] = "Arcane",
+				}, -- [1]
+				{
+					["ItemLevel"] = 67,
+					["Type"] = "Life",
+				}, -- [2]
+				{
+					["ItemLevel"] = 61,
+					["Type"] = "Arcane",
+				}, -- [3]
+			},
+			["Name"] = "Scythe of Elune",
+		},
+	},
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "DRUID",
+	["LastAdded"] = 1,
+}

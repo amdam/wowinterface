@@ -1,0 +1,73 @@
+
+Quartz3DB = {
+	["namespaces"] = {
+		["Swing"] = {
+		},
+		["Buff"] = {
+		},
+		["Interrupt"] = {
+		},
+		["Flight"] = {
+		},
+		["Pet"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 950.256469726562,
+				},
+			},
+		},
+		["Procs"] = {
+			["profiles"] = {
+				["Default"] = {
+					["spells"] = {
+						["heroism"] = {
+							["sound"] = "None",
+						},
+						["bloodlust"] = {
+							["sound"] = "None",
+						},
+					},
+					["fixCustomProcCaps"] = false,
+				},
+			},
+		},
+		["EnemyCasts"] = {
+		},
+		["Player"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 925.256469726562,
+				},
+			},
+		},
+		["GCD"] = {
+		},
+		["Focus"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 950.256469726562,
+				},
+			},
+		},
+		["Target"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 950.256469726562,
+				},
+			},
+		},
+		["Range"] = {
+		},
+		["Mirror"] = {
+		},
+		["Latency"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Asteriia - Turalyon"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

@@ -1,0 +1,23 @@
+
+HHTD_SavedVariables = {
+	["char"] = {
+		["Releaf - Turalyon"] = {
+			["settingsMigrated"] = false,
+		},
+	},
+	["namespaces"] = {
+		["Announcer"] = {
+		},
+		["CM"] = {
+		},
+		["NPH"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Releaf - Turalyon"] = "Releaf - Turalyon",
+	},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 0,
+	},
+}

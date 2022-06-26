@@ -1,0 +1,102 @@
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:5/2] Holy Avenger; [talent:5/3] Seraphim;
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [@player,modifier:alt] Word of Glory ; [spec:2] Shield of the Righteous; [spec:3] Wake of Ashes; 
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [modifier:alt,talent:7/3] Final Reckoning; Templar's Verdict
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/use [@mouseover, help, nodead][help, nodead][@player] Blessing of Protection
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000009 " " "SPELL_HOLY_LAYONHANDS"
+#showtooltip Lay on Hands
+/stopcasting
+/use [@mouseover, help, nodead][help, nodead][@player] Lay on Hands
+/script UIErrorsFrame:Clear()
+END
+VER 3 010000000000000A " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/use [@mouseover, help, nodead][help, nodead][@player] Blessing of Freedom
+/script UIErrorsFrame:Clear()
+END
+VER 3 010000000000000B " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/use [@mouseover, help, nodead][help, nodead][@player] Blessing of Sacrifice
+/script UIErrorsFrame:Clear()
+END
+VER 3 010000000000000C " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/use [@mouseover, help, nodead][help, nodead][@player] Cleanse Toxins
+/script UIErrorsFrame:Clear()
+END
+VER 3 010000000000000F " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [modifier:alt] Divine Toll; [spec:3] Judgment; [spec:2] Avenger's Shield; [spec:1] Holy Shock;
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000010 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Consecration; Crusader Strike
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000012 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Flash of Light
+/cast [modifier:alt] Light of Dawn
+END
+VER 3 0100000000000013 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast [nomodifier] Beacon of Light; /cast [modifier:alt] Beacon of Faith
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000015 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Avenging Wrath
+/use 13
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000017 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Consecration; Blade of Justice;
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000018 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura Divine Shield
+/cancelaura Blessing of Protection
+/cast Divine Shield
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000019 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [modifier:alt,spec:3,talent:1/3] Execution Sentence; Hammer of Wrath
+/script UIErrorsFrame:Clear()
+END
+VER 3 010000000000001A " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, nodead][help, nodead][@player] Word of Glory
+/script UIErrorsFrame:Clear()
+END
+VER 3 010000000000001B " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:3/2,@focus][talent:3/2] Repentance; [talent:3/3] Blinding Light;
+/script UIErrorsFrame:Clear()
+END

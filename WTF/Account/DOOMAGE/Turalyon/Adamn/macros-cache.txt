@@ -1,0 +1,69 @@
+VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomodifier,spec:1] Ambush; [nomodifier,spec:2] Ghostly Strike; [nomodifier,spec:3] Symbols of Death; /cast [modifier:alt] Shiv;
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomodifier] Slice and Dice; /cast [modifier:alt,spec:2] Roll the Bones; [modifier:alt,spec:1] Garrote; [modifier:alt,spec:3] Shadow Dance;
+/script UIErrorsFrame:Clear()
+END
+VER 3 010000000000000B " " "ABILITY_ROGUE_TRICKSOFTHETRADE"
+#showtooltip Tricks of the Trade
+/stopcasting
+/use [@mouseover, help, nodead][help, nodead][@player] Tricks of the Trade
+/script UIErrorsFrame:Clear()
+END
+VER 3 010000000000000C " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [spec:1] Vendetta; [spec:2] Adrenaline Rush; [spec:3] Shadow Blades;
+/use 13
+/script UIErrorsFrame:Clear();
+END
+VER 3 010000000000000D " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomodifier] Shadow Dance; /cast [modifier:alt] Crimson Vial
+/script UIErrorsFrame:Clear()
+END
+VER 3 010000000000000E " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [nomodifier] Pistol Shot; /cast [modifier:alt] Marked for Death
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000012 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Distract
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000013 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=focus] Blind
+END
+VER 3 0100000000000014 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomodifier] Between the Eyes; /cast [modifier:alt,talent:7/2] Blade Rush; [modifier:alt,talent:7/3] Killing Spree;] 
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000015 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomodifier,nostance,spec:3][nomodifier,nospec:3] Sinister Strike; [nomodifier,stance,spec:3] Shadowstrike; [modifier:alt,spec:1] Fan of Knives; [modifier:alt,spec:3] Shuriken Storm; [modifier:alt,spec:2] Blade Flurry;
+END
+VER 3 0100000000000016 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [nomodifier] Rupture; [modifier:alt] Crimson Tempest;
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000017 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [nomodifier,spec:1] Garrote; [nomodifier,spec:3] Secret Technique;[modifier:alt,spec:1] Poisoned Knife;  [modifier:alt,spec:3] Shuriken Toss
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000018 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [nomodifier] Eviscerate; [modifier:alt,spec:3] Black Powder
+/script UIErrorsFrame:Clear()
+END

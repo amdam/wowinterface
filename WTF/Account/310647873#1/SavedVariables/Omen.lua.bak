@@ -1,0 +1,17 @@
+
+Omen3DB = {
+	["profileKeys"] = {
+		["Asteriia - Turalyon"] = "Asteriia - Turalyon",
+	},
+	["profiles"] = {
+		["Asteriia - Turalyon"] = {
+			["PositionW"] = 138.735015869141,
+			["PositionH"] = 191.208114624023,
+			["VGrip2"] = 79.7726341247559,
+			["PositionY"] = 567.01708984375,
+			["Shown"] = true,
+			["PositionX"] = 468.422973632813,
+			["VGrip1"] = 58.9623817443848,
+		},
+	},
+}

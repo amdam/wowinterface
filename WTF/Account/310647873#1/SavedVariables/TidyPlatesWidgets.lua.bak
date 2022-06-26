@@ -1,0 +1,17 @@
+
+TidyPlatesWidgetData = {
+	["UnitLastSeen"] = {
+		["Asteriia"] = 3338,
+		["Prince Liam Greymane"] = 3338,
+		["Gilneas City Guard"] = 3338,
+	},
+	["UnitDescriptions"] = {
+	},
+	["UnitGuild"] = {
+	},
+	["CachedAuraDurations"] = {
+	},
+	["UnitClass"] = {
+		["Asteriia"] = "HUNTER",
+	},
+}

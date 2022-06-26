@@ -1,0 +1,68 @@
+VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [nomodifier] Heart Strike; /cast [modifier:alt] Death and Decay
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [nomodifier,talent:4/3] Obliterate; /cast [modifier:alt,talent:4/3] Frostscythe; Obliterate
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [nomodifier,talent:6/3] Frost Strike; /cast [modifier:alt,talent:6/3] Glacial Advance; Frost Strike
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomodifier] Dark Command; /cast [modifier:alt] Death's Caress
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [nomodifier] Death Strike; /cast [modifier:alt] Bonestorm
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomodifier] Blood Boil; /cast [modifier:alt] Blooddrinker
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000008 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Dancing Rune Weapon
+/use 13
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Empower Rune Weapon
+/use 13
+END
+VER 3 0100000000000009 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [nomodifier] Festering Strike; /cast [modifier:alt] Death Strike
+/script UIErrorsFrame:Clear()
+END
+VER 3 010000000000000A " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [nomodifier] Death Coil; /cast [modifier:alt] Epidemic
+/script UIErrorsFrame:Clear()
+END
+VER 3 010000000000000B " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomodifier] Remorseless Winter; /cast [modifier:alt] Breath of Sindragosa
+/script UIErrorsFrame:Clear()
+END
+VER 3 010000000000000C " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [nomodifier] Howling Blast; /cast [modifier:alt] Death Strike
+/script UIErrorsFrame:Clear()
+END
