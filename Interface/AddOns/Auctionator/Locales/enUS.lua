@@ -374,6 +374,7 @@ AUCTIONATOR_LOCALES.enUS = function()
   L["IS_UNDERCUT"] = "Undercut?"
   L["UNDERCUT_YES"] ="Yes"
   L["UNDERCUT_NO"] = "No"
+  L["UNDERCUT_BID"] = "Bid"
   L["UNDERCUT_UNKNOWN"] = "?"
   L["YOU"] = "You"
 
@@ -542,13 +543,11 @@ AUCTIONATOR_LOCALES.enUS = function()
   L["PURCHASED_X_XX"] = "Purchased %s x%s"
   L["DEFAULT_STACK_SIZES"] = "Default Stack Sizes"
   L["CONFIG_SELLING_TBC_ALL_ITEMS"] = "Options to set the default posting settings for all items."
-  L["CONFIG_SELLING_TBC_SHOW_ALL_RESULTS"] = "Include auctions not needed to get the minimum price in results"
-  L["CONFIG_SELLING_TBC_SHOW_ALL_RESULTS_TOOLTIP_HEADER"] = "Show All Results"
-  L["CONFIG_SELLING_TBC_SHOW_ALL_RESULTS_TOOLTIP_TEXT"] = "Enabling this setting causes all pages of results to be searched and all the auctions found to be listed, even though only the first page is needed to determine the minimum price."
   L["CONFIG_RESET_STACK_SIZE_MEMORY"] = "Reset stack size memory"
   L["CHAIN_BUY"] = "Chain buy"
   L["CHAIN_BUY_TOOLTIP_HEADER"] = "Chain multiple purchases"
   L["CHAIN_BUY_TOOLTIP_TEXT"] = "When finished purchasing at the current price and stack size select the next price and stack size."
+  L["LOAD_HIGHER_PRICES"] = "Load higher prices"
 
   return L
 end

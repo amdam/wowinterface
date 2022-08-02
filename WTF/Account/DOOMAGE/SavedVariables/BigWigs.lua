@@ -31,11 +31,11 @@ BigWigs3DB = {
 			["profiles"] = {
 				["Default"] = {
 					["BigWigsEmphasizeAnchor_y"] = 555.6222877034452,
-					["BigWigsEmphasizeAnchor_height"] = 22.00000762939453,
 					["BigWigsAnchor_x"] = 837.0445645111613,
-					["BigWigsEmphasizeAnchor_width"] = 300.0000610351563,
-					["BigWigsAnchor_width"] = 215.4076080322266,
+					["BigWigsEmphasizeAnchor_height"] = 22.00000762939453,
 					["BigWigsAnchor_y"] = 301.1560300332712,
+					["BigWigsAnchor_width"] = 215.4076080322266,
+					["BigWigsEmphasizeAnchor_width"] = 300.0000610351563,
 					["BigWigsEmphasizeAnchor_x"] = 925.1111207449867,
 					["BigWigsAnchor_height"] = 21.03703880310059,
 				},
@@ -43,7 +43,7 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Plugins_Statistics"] = {
+		["LibDualSpec-1.0"] = {
 		},
 		["BigWigs_Plugins_Wipe"] = {
 		},
@@ -62,7 +62,7 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Pull"] = {
 		},
-		["LibDualSpec-1.0"] = {
+		["BigWigs_Plugins_Statistics"] = {
 		},
 	},
 	["profileKeys"] = {

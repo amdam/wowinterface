@@ -2,28 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"hi adam", -- [1]
-			"Wumborama-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			272, -- [11]
-			"Player-3685-08CF9F04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Wumborama|r",
-			[51] = 1621616735,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [1]
-		{
 			"hi wade", -- [1]
 			"Adrid-Turalyon", -- [2]
 			"", -- [3]
@@ -44,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621616824,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [2]
+		}, -- [1]
 		{
 			"this fel dash shit is pretty good", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -66,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621616854,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [3]
+		}, -- [2]
 		{
 			"lol", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -88,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621616855,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [4]
+		}, -- [3]
 		{
 			"its good cause its uncapped dmg", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -110,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621616906,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [5]
+		}, -- [4]
 		{
 			"can def do a lot of aoe dmg on big pulls", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -132,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621616935,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [6]
+		}, -- [5]
 		{
 			"and it costs nothing", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -154,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621616946,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [7]
+		}, -- [6]
 		{
 			"yeah will be very useful now that dos can see our cooldowns", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -176,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621616961,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [8]
+		}, -- [7]
 		{
 			"so he will know when he can pull big", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -198,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621616972,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [9]
+		}, -- [8]
 		{
 			"oh I just use it every 26s", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -220,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621616982,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [10]
+		}, -- [9]
 		{
 			"unless immo gets reduced cd from my haste buffs", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -242,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621616990,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [11]
+		}, -- [10]
 		{
 			"im just replacing glaive tempest with my unbound chaos fel dash", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -264,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621617018,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [12]
+		}, -- [11]
 		{
 			"oh not really a cd more of a rotational ability", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -286,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621617024,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [13]
+		}, -- [12]
 		{
 			"yes", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -308,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621617030,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [14]
+		}, -- [13]
 		{
 			"glaive tempest is capped at 5 targets and costs 30 fury on a 17s cd", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -330,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621617064,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [15]
+		}, -- [14]
 		{
 			"fel dash is not capped and I can cast it within 20s of my immo when I get the buff", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -352,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621617077,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [16]
+		}, -- [15]
 		{
 			"are you going to switch to night fae if valla goes venthyr next patch?", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -374,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621617122,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [17]
+		}, -- [16]
 		{
 			"prob", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -396,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621617132,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [18]
+		}, -- [17]
 		{
 			"the hunt hits like a truck", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -418,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621617156,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [19]
+		}, -- [18]
 		{
 			"ya", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -440,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621617161,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [20]
+		}, -- [19]
 		{
 			"in an rbg one time i almost got one shot by a veng dh", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -462,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621617172,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [21]
+		}, -- [20]
 		{
 			"and they're buffing it with a conduit next patch", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -484,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621617177,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [22]
+		}, -- [21]
 		{
 			"just had a quiz on dec,bin,oct,hex conversions and logic gates", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -506,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621617295,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [23]
+		}, -- [22]
 		{
 			"easy peasy", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -528,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621617296,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [24]
+		}, -- [23]
 		{
 			"easy stuff", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -550,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621617352,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [25]
+		}, -- [24]
 		{
 			"quaking is ok as long as I dont get caught in an eyebeam with it", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -572,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621617543,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [26]
+		}, -- [25]
 		{
 			"thats my only channel", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -594,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621617567,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [27]
+		}, -- [26]
 		{
 			"cant you just cancel it", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -616,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621617569,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [28]
+		}, -- [27]
 		{
 			"I can", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -638,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621617573,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [29]
+		}, -- [28]
 		{
 			"right before it goes off", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -660,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621617573,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [30]
+		}, -- [29]
 		{
 			"with a dash", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -682,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621617576,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [31]
+		}, -- [30]
 		{
 			"I got the WA anyways", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -704,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621617585,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [32]
+		}, -- [31]
 		{
 			"I just hold it off", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -726,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621617587,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [33]
+		}, -- [32]
 		{
 			"but I can get it off if the quaking starts as I cast it", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -748,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621617605,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [34]
+		}, -- [33]
 		{
 			"imagine having to always be casting", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -770,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621617655,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [35]
+		}, -- [34]
 		{
 			"just got my last covenant building upgrade", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -792,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621617790,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [36]
+		}, -- [35]
 		{
 			"all done", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -814,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621617791,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [37]
+		}, -- [36]
 		{
 			"got all my covenant xmog pieces I wanted too", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -836,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621617807,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [38]
+		}, -- [37]
 		{
 			"nice i think im on the last one", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -858,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621617818,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [39]
+		}, -- [38]
 		{
 			"tier 5 of the garden one", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -880,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621617832,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [40]
+		}, -- [39]
 		{
 			"only base and renown venthyr coves are worth", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -902,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621617835,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [41]
+		}, -- [40]
 		{
 			"the other ones are just awful", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -924,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621617841,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [42]
+		}, -- [41]
 		{
 			"for xmog", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -946,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621617845,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [43]
+		}, -- [42]
 		{
 			"yeah i might try and get the mog on my mage just for fun, might be able to make a cooler looking set someday using pieces from it", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -968,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621617866,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [44]
+		}, -- [43]
 		{
 			"its too bad too because the night fae sets are all kinda ass and its the best covenant for most classes", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -990,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621617967,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [45]
+		}, -- [44]
 		{
 			"I like that 9.1 set", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -1012,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621618007,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [46]
+		}, -- [45]
 		{
 			"yeah wtf is that", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -1034,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621618021,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [47]
+		}, -- [46]
 		{
 			"i hate it when cloth looks the same as plate", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -1056,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621618034,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [48]
+		}, -- [47]
 		{
 			"thats not right", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -1078,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621618035,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [49]
+		}, -- [48]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14493:Player-3685-0717BEFC:1:5:21:21:4294967295:4294967295:4294967295:4294967295|h[The Upper Reaches]|h|r!", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -1100,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621619499,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [50]
+		}, -- [49]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14808:Player-3685-0717BEFC:1:5:21:21:4294967295:4294967295:4294967295:4294967295|h[Touring Torghast]|h|r!", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -1122,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621622025,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [51]
+		}, -- [50]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14809:Player-3685-0717BEFC:1:5:21:21:4294967295:4294967295:4294967295:4294967295|h[Traversing Torghast]|h|r!", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -1144,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621622025,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [52]
+		}, -- [51]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14810:Player-3685-0717BEFC:1:5:21:21:4294967295:4294967295:4294967295:4294967295|h[Terror of Torghast]|h|r!", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -1166,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621622025,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [53]
+		}, -- [52]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14488:Player-3685-0717BEFC:1:5:21:21:4294967295:4294967295:4294967295:4294967295|h[Mort'regar]|h|r!", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -1188,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621622025,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [54]
+		}, -- [53]
 		{
 			"zug ag ruk", -- [1]
 			"Vacovid-Azralon", -- [2]
@@ -1210,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcVacovid-Azralon|r",
 			[51] = 1621620110,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [55]
+		}, -- [54]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:5229:Player-3685-0717BEFC:1:5:22:21:4294967295:4294967295:4294967295:4294967295|h[Drag a Maw]|h|r!", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -1232,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621701843,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [56]
+		}, -- [55]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:515:Player-3685-0717BEFC:1:5:22:21:4294967295:4294967295:4294967295:4294967295|h[500 Honorable Kills]|h|r!", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -1254,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621702224,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [57]
+		}, -- [56]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:227:Player-3685-0717BEFC:1:5:22:21:4294967295:4294967295:4294967295:4294967295|h[Damage Control]|h|r!", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -1276,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621702465,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [58]
+		}, -- [57]
 		{
 			"fuck i got qd into this trash", -- [1]
 			"Ôõ-Thrall", -- [2]
@@ -1298,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ôõ-Thrall|r",
 			[51] = 1621702487,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [59]
+		}, -- [58]
 		{
 			"no one going for flag?D", -- [1]
 			"Ôõ-Thrall", -- [2]
@@ -1320,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ôõ-Thrall|r",
 			[51] = 1621702558,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [60]
+		}, -- [59]
 		{
 			"retards lol", -- [1]
 			"Ôõ-Thrall", -- [2]
@@ -1342,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ôõ-Thrall|r",
 			[51] = 1621702564,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [61]
+		}, -- [60]
 		{
 			"hi adam", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -1364,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621748268,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [62]
+		}, -- [61]
 		{
 			"power back on?", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -1386,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621748270,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [63]
+		}, -- [62]
 		{
 			"yep", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -1408,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621748280,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [64]
+		}, -- [63]
 		{
 			"lol I triggered a tank by aggroing the abom in top", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -1430,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621748543,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [65]
+		}, -- [64]
 		{
 			"the one that you pass", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -1452,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621748559,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [66]
+		}, -- [65]
 		{
 			"and I said I have meld why did you follow me", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -1474,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621748565,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [67]
+		}, -- [66]
 		{
 			"lol I carried that dungeon anyways", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -1496,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621748573,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [68]
+		}, -- [67]
 		{
 			"we werent gonna time it with a meme mage", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -1518,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621748579,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [69]
+		}, -- [68]
 		{
 			"and 13 deaths", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -1540,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621748584,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [70]
+		}, -- [69]
 		{
 			"yikes", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -1562,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621748609,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [71]
+		}, -- [70]
 		{
 			"meme arcane", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -1584,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1621748610,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [72]
+		}, -- [71]
 		{
 			"i thought arcane could do okay in m+ if they didnt die to melee stuff", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -1606,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621748633,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [73]
+		}, -- [72]
 		{
 			"lol this mage died a lot", -- [1]
 			"Taelyria-Turalyon", -- [2]
@@ -1628,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeTaelyria|r",
 			[51] = 1621748887,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [74]
+		}, -- [73]
 		{
 			"and only did 3.8k overall", -- [1]
 			"Taelyria-Turalyon", -- [2]
@@ -1650,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeTaelyria|r",
 			[51] = 1621748893,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [75]
+		}, -- [74]
 		{
 			"lol the other dh made fun of me at the end saying I gOt AgGrO I gOtTa MeLd", -- [1]
 			"Taelyria-Turalyon", -- [2]
@@ -1672,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeTaelyria|r",
 			[51] = 1621748915,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [76]
+		}, -- [75]
 		{
 			"I said you're a dumbass for using meta on the ancient captain while he was up, don't you know he reduces aoe by 75% to the other mobs", -- [1]
 			"Taelyria-Turalyon", -- [2]
@@ -1694,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeTaelyria|r",
 			[51] = 1621748936,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [77]
+		}, -- [76]
 		{
 			"I gOtTa MeTa", -- [1]
 			"Taelyria-Turalyon", -- [2]
@@ -1716,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeTaelyria|r",
 			[51] = 1621748944,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [78]
+		}, -- [77]
 		{
 			"AsAp", -- [1]
 			"Taelyria-Turalyon", -- [2]
@@ -1738,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeTaelyria|r",
 			[51] = 1621748949,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [79]
+		}, -- [78]
 		{
 			"lol", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -1760,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621748954,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [80]
+		}, -- [79]
 		{
 			"GOTTA GET MY BEAMS OFF", -- [1]
 			"Taelyria-Turalyon", -- [2]
@@ -1782,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeTaelyria|r",
 			[51] = 1621749086,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [81]
+		}, -- [80]
 		{
 			"and then wonders why I destroyed him on that pull lol", -- [1]
 			"Taelyria-Turalyon", -- [2]
@@ -1804,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeTaelyria|r",
 			[51] = 1621749101,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [82]
+		}, -- [81]
 		{
 			"cause I waited", -- [1]
 			"Taelyria-Turalyon", -- [2]
@@ -1826,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeTaelyria|r",
 			[51] = 1621749109,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [83]
+		}, -- [82]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14631:Player-3685-0717BEFC:1:5:22:21:4294967295:4294967295:4294967295:4294967295|h[Champion of the Covenant]|h|r!", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -1848,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621750631,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [84]
+		}, -- [83]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1258:Player-3685-0717BEFC:1:5:23:21:4294967295:4294967295:4294967295:4294967295|h[Take a Chill Pill]|h|r!", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -1870,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621796358,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [85]
+		}, -- [84]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:208:Player-3685-0717BEFC:1:5:23:21:4294967295:4294967295:4294967295:4294967295|h[Eye of the Storm Victory]|h|r!", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -1892,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621796719,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [86]
+		}, -- [85]
 		{
 			"GG", -- [1]
 			"Wreckquiem-BurningBlade", -- [2]
@@ -1914,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edWreckquiem-BurningBlade|r",
 			[51] = 1621796723,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [87]
+		}, -- [86]
 		{
 			"nice", -- [1]
 			"Valdemorth-Nemesis", -- [2]
@@ -1936,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Valdemorth-Nemesis|r",
 			[51] = 1621797344,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [88]
+		}, -- [87]
 		{
 			"are they campng GY?", -- [1]
 			"Wøof-Stormrage", -- [2]
@@ -1958,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWøof-Stormrage|r",
 			[51] = 1621797607,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [89]
+		}, -- [88]
 		{
 			"looks like it", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -1980,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621797646,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [90]
+		}, -- [89]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:203:Player-3685-0717BEFC:1:5:23:21:4294967295:4294967295:4294967295:4294967295|h[Not In My House]|h|r!", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -2002,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621797653,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [91]
+		}, -- [90]
 		{
 			"gg nice team", -- [1]
 			"Valdemorth-Nemesis", -- [2]
@@ -2024,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Valdemorth-Nemesis|r",
 			[51] = 1621798069,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [92]
+		}, -- [91]
 		{
 			"GG all", -- [1]
 			"Kxxaine-Stormrage", -- [2]
@@ -2046,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cKxxaine-Stormrage|r",
 			[51] = 1621798077,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [93]
+		}, -- [92]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:166:Player-3685-0717BEFC:1:5:23:21:4294967295:4294967295:4294967295:4294967295|h[Warsong Gulch Victory]|h|r!", -- [1]
 			"Adrid-Turalyon", -- [2]
@@ -2068,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Adrid|r",
 			[51] = 1621798084,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [94]
+		}, -- [93]
 		{
 			"L gi g No'ku gi Kagg ", -- [1]
 			"Gamon-Turalyon", -- [2]
@@ -2090,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGamon|r",
 			[51] = 1622171611,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [95]
+		}, -- [94]
 		{
 			"Lust Detector: Tavin-Kel'Thuzad Used an haste spell or drum on the party |cff71d5ff|Hspell:32182:0|h[Heroism]|h|r!", -- [1]
 			"Wakandazonta-Sargeras", -- [2]
@@ -2112,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaWakandazonta-Sargeras|r",
 			[51] = 1622172361,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [96]
+		}, -- [95]
 		{
 			"Lust Detector: Shamoonn-Alexstrasza Used an haste spell or drum on the party |cff71d5ff|Hspell:32182:0|h[Heroism]|h|r!", -- [1]
 			"Wakandazonta-Sargeras", -- [2]
@@ -2134,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaWakandazonta-Sargeras|r",
 			[51] = 1622172372,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [97]
+		}, -- [96]
 		{
 			"Lust Detector: Xiraven-Malfurion Used an haste spell or drum on the party |cff71d5ff|Hspell:272678:0|h[Primal Rage]|h|r!", -- [1]
 			"Wakandazonta-Sargeras", -- [2]
@@ -2156,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaWakandazonta-Sargeras|r",
 			[51] = 1622172389,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [98]
+		}, -- [97]
 		{
 			"LOKA", -- [1]
 			"Diizzyr-Illidan", -- [2]
@@ -2178,6 +2156,28 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Diizzyr-Illidan|r",
 			[51] = 1622172419,
 			[50] = "CHAT_MSG_YELL",
+		}, -- [98]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14329:Player-3685-0717BEFC:1:7:22:21:4294967295:4294967295:4294967295:4294967295|h[Working the Afterlife]|h|r!", -- [1]
+			"Adrid-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Adrid-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1164, -- [11]
+			"Player-3685-0717BEFC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Adrid|r",
+			[51] = 1626979902,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {

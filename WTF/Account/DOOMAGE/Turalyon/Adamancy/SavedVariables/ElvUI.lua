@@ -2,204 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"{rt1}Wicked Star 1", -- [1]
-			"Adamancy-Turalyon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			3355, -- [11]
-			"Player-3685-07F1620A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaAdamancy|r",
-			[51] = 1649305485,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [1]
-		{
-			"{rt1}3", -- [1]
-			"Adamancy-Turalyon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			3356, -- [11]
-			"Player-3685-07F1620A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaAdamancy|r",
-			[51] = 1649305486,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [2]
-		{
-			"{rt1}2", -- [1]
-			"Adamancy-Turalyon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			3358, -- [11]
-			"Player-3685-07F1620A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaAdamancy|r",
-			[51] = 1649305487,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [3]
-		{
-			"{rt2}Wicked Star 2", -- [1]
-			"Tynan-Turalyon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Tynan-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			3359, -- [11]
-			"Player-3685-07247D55", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edTynan|r",
-			[51] = 1649305488,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [4]
-		{
-			"{rt1}1", -- [1]
-			"Adamancy-Turalyon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			3360, -- [11]
-			"Player-3685-07F1620A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaAdamancy|r",
-			[51] = 1649305488,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [5]
-		{
-			"{rt2}3", -- [1]
-			"Tynan-Turalyon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Tynan-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			3361, -- [11]
-			"Player-3685-07247D55", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edTynan|r",
-			[51] = 1649305489,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [6]
-		{
-			"{rt2}2", -- [1]
-			"Tynan-Turalyon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Tynan-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			3362, -- [11]
-			"Player-3685-07247D55", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edTynan|r",
-			[51] = 1649305490,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [7]
-		{
-			"{rt3}Wicked Star 3", -- [1]
-			"Wandappy-Turalyon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Wandappy-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			3363, -- [11]
-			"Player-3685-07251FD1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcWandappy|r",
-			[51] = 1649305491,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [8]
-		{
-			"{rt2}1", -- [1]
-			"Tynan-Turalyon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Tynan-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			3364, -- [11]
-			"Player-3685-07247D55", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edTynan|r",
-			[51] = 1649305491,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [9]
-		{
 			"{rt3}3", -- [1]
 			"Wandappy-Turalyon", -- [2]
 			"Common", -- [3]
@@ -220,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcWandappy|r",
 			[51] = 1649305492,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [10]
+		}, -- [1]
 		{
 			"{rt3}2", -- [1]
 			"Wandappy-Turalyon", -- [2]
@@ -242,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcWandappy|r",
 			[51] = 1649305493,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [11]
+		}, -- [2]
 		{
 			"{rt3}1", -- [1]
 			"Wandappy-Turalyon", -- [2]
@@ -264,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcWandappy|r",
 			[51] = 1649305494,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
+		}, -- [3]
 		{
 			"Healing Tide Dropped!", -- [1]
 			"Valla-Turalyon", -- [2]
@@ -286,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcValla|r",
 			[51] = 1649305502,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [13]
+		}, -- [4]
 		{
 			"{rt3}", -- [1]
 			"Ctair-Turalyon", -- [2]
@@ -308,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Ctair|r",
 			[51] = 1649305514,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [14]
+		}, -- [5]
 		{
 			"{rt1}", -- [1]
 			"Fecklarr-Turalyon", -- [2]
@@ -330,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edFecklarr|r",
 			[51] = 1649305514,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [15]
+		}, -- [6]
 		{
 			"{rt1}{rt1}", -- [1]
 			"Valla-Turalyon", -- [2]
@@ -352,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcValla|r",
 			[51] = 1649305514,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [16]
+		}, -- [7]
 		{
 			"{rt3}", -- [1]
 			"Addler-Turalyon", -- [2]
@@ -374,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Addler|r",
 			[51] = 1649305514,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [17]
+		}, -- [8]
 		{
 			"{rt3}", -- [1]
 			"Adamancy-Turalyon", -- [2]
@@ -396,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaAdamancy|r",
 			[51] = 1649305514,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [18]
+		}, -- [9]
 		{
 			"{rt1}{rt1}", -- [1]
 			"Achiron-Fenris", -- [2]
@@ -418,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Achiron-Fenris|r",
 			[51] = 1649305514,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [19]
+		}, -- [10]
 		{
 			"{rt3}", -- [1]
 			"Adamancy-Turalyon", -- [2]
@@ -440,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaAdamancy|r",
 			[51] = 1649305516,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [20]
+		}, -- [11]
 		{
 			"{rt3}", -- [1]
 			"Adamancy-Turalyon", -- [2]
@@ -462,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaAdamancy|r",
 			[51] = 1649305517,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [21]
+		}, -- [12]
 		{
 			"{rt1}", -- [1]
 			"Tynan-Turalyon", -- [2]
@@ -484,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edTynan|r",
 			[51] = 1649305519,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [22]
+		}, -- [13]
 		{
 			"{rt1}Wicked Star 1", -- [1]
 			"Wandappy-Turalyon", -- [2]
@@ -506,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcWandappy|r",
 			[51] = 1649305520,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [23]
+		}, -- [14]
 		{
 			"{rt1}3", -- [1]
 			"Wandappy-Turalyon", -- [2]
@@ -528,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcWandappy|r",
 			[51] = 1649305521,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [24]
+		}, -- [15]
 		{
 			"{rt1}2", -- [1]
 			"Wandappy-Turalyon", -- [2]
@@ -550,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcWandappy|r",
 			[51] = 1649305522,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [25]
+		}, -- [16]
 		{
 			"{rt1}1", -- [1]
 			"Wandappy-Turalyon", -- [2]
@@ -572,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcWandappy|r",
 			[51] = 1649305523,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [26]
+		}, -- [17]
 		{
 			"Star on Victorvonhun", -- [1]
 			"Victorvonhun-Turalyon", -- [2]
@@ -594,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Victorvonhun|r",
 			[51] = 1649305526,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [27]
+		}, -- [18]
 		{
 			"{rt3} 3", -- [1]
 			"Victorvonhun-Turalyon", -- [2]
@@ -616,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Victorvonhun|r",
 			[51] = 1649305527,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [28]
+		}, -- [19]
 		{
 			"{rt3} 2", -- [1]
 			"Victorvonhun-Turalyon", -- [2]
@@ -638,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Victorvonhun|r",
 			[51] = 1649305528,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [29]
+		}, -- [20]
 		{
 			"Earthbind Dropped!", -- [1]
 			"Valla-Turalyon", -- [2]
@@ -660,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcValla|r",
 			[51] = 1649305574,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [30]
+		}, -- [21]
 		{
 			"Mana Tide Dropped!", -- [1]
 			"Valla-Turalyon", -- [2]
@@ -682,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcValla|r",
 			[51] = 1649305596,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [31]
+		}, -- [22]
 		{
 			"Stun Dropped!", -- [1]
 			"Valla-Turalyon", -- [2]
@@ -704,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcValla|r",
 			[51] = 1649305656,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [32]
+		}, -- [23]
 		{
 			"Interrupted Grim Reflection's |cff71d5ff|Hspell:365008:0|h[Psychic Terror]|h|r!", -- [1]
 			"Adverbs-Turalyon", -- [2]
@@ -726,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Adverbs|r",
 			[51] = 1649305681,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [33]
+		}, -- [24]
 		{
 			"{rt1}Wicked Star 1", -- [1]
 			"Dragonshot-Turalyon", -- [2]
@@ -748,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Dragonshot|r",
 			[51] = 1649305688,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [34]
+		}, -- [25]
 		{
 			"{rt1}3", -- [1]
 			"Dragonshot-Turalyon", -- [2]
@@ -770,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Dragonshot|r",
 			[51] = 1649305689,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [35]
+		}, -- [26]
 		{
 			"{rt1}2", -- [1]
 			"Dragonshot-Turalyon", -- [2]
@@ -792,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Dragonshot|r",
 			[51] = 1649305690,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [36]
+		}, -- [27]
 		{
 			"{rt2}Wicked Star 2", -- [1]
 			"Mooncrest-Turalyon", -- [2]
@@ -814,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMooncrest|r",
 			[51] = 1649305691,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [37]
+		}, -- [28]
 		{
 			"{rt1}1", -- [1]
 			"Dragonshot-Turalyon", -- [2]
@@ -836,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Dragonshot|r",
 			[51] = 1649305691,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [38]
+		}, -- [29]
 		{
 			"{rt2}3", -- [1]
 			"Mooncrest-Turalyon", -- [2]
@@ -858,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMooncrest|r",
 			[51] = 1649305692,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [39]
+		}, -- [30]
 		{
 			"{rt3}Wicked Star 3", -- [1]
 			"Tynan-Turalyon", -- [2]
@@ -880,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edTynan|r",
 			[51] = 1649305694,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [40]
+		}, -- [31]
 		{
 			"{rt3}3", -- [1]
 			"Tynan-Turalyon", -- [2]
@@ -902,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edTynan|r",
 			[51] = 1649305695,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [41]
+		}, -- [32]
 		{
 			"{rt3}2", -- [1]
 			"Tynan-Turalyon", -- [2]
@@ -924,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edTynan|r",
 			[51] = 1649305696,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [42]
+		}, -- [33]
 		{
 			"{rt3}1", -- [1]
 			"Tynan-Turalyon", -- [2]
@@ -946,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edTynan|r",
 			[51] = 1649305697,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [43]
+		}, -- [34]
 		{
 			"{rt2}1", -- [1]
 			"Dragonshot-Turalyon", -- [2]
@@ -968,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Dragonshot|r",
 			[51] = 1649305759,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
+		}, -- [35]
 		{
 			"Star on Achiron", -- [1]
 			"Achiron-Fenris", -- [2]
@@ -990,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Achiron-Fenris|r",
 			[51] = 1649305759,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [45]
+		}, -- [36]
 		{
 			"Interrupted Grim Reflection's |cff71d5ff|Hspell:365008:0|h[Psychic Terror]|h|r!", -- [1]
 			"Adverbs-Turalyon", -- [2]
@@ -1012,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Adverbs|r",
 			[51] = 1649305769,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
+		}, -- [37]
 		{
 			"Star on Victorvonhun", -- [1]
 			"Victorvonhun-Turalyon", -- [2]
@@ -1034,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Victorvonhun|r",
 			[51] = 1649305784,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [47]
+		}, -- [38]
 		{
 			"{rt1} 3", -- [1]
 			"Victorvonhun-Turalyon", -- [2]
@@ -1056,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Victorvonhun|r",
 			[51] = 1649305785,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [48]
+		}, -- [39]
 		{
 			"Star on Achrinah", -- [1]
 			"Achrinah-Turalyon", -- [2]
@@ -1078,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAchrinah|r",
 			[51] = 1649305787,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [49]
+		}, -- [40]
 		{
 			"{rt2} 3", -- [1]
 			"Achrinah-Turalyon", -- [2]
@@ -1100,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAchrinah|r",
 			[51] = 1649305788,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [50]
+		}, -- [41]
 		{
 			"{rt2} 2", -- [1]
 			"Achrinah-Turalyon", -- [2]
@@ -1122,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAchrinah|r",
 			[51] = 1649305789,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
+		}, -- [42]
 		{
 			"{rt2} 1", -- [1]
 			"Achrinah-Turalyon", -- [2]
@@ -1144,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAchrinah|r",
 			[51] = 1649305790,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [52]
+		}, -- [43]
 		{
 			"{rt3}3", -- [1]
 			"Addler-Turalyon", -- [2]
@@ -1166,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Addler|r",
 			[51] = 1649305791,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [53]
+		}, -- [44]
 		{
 			"{rt1}Wicked Star 1", -- [1]
 			"Mikya-Turalyon", -- [2]
@@ -1188,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMikya|r",
 			[51] = 1649305803,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [54]
+		}, -- [45]
 		{
 			"Star on Mikya", -- [1]
 			"Mikya-Turalyon", -- [2]
@@ -1210,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMikya|r",
 			[51] = 1649305803,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [55]
+		}, -- [46]
 		{
 			"{rt1} 3", -- [1]
 			"Mikya-Turalyon", -- [2]
@@ -1232,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMikya|r",
 			[51] = 1649305804,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [56]
+		}, -- [47]
 		{
 			"{rt1}3", -- [1]
 			"Mikya-Turalyon", -- [2]
@@ -1254,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMikya|r",
 			[51] = 1649305804,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [57]
+		}, -- [48]
 		{
 			"{rt1} 2", -- [1]
 			"Mikya-Turalyon", -- [2]
@@ -1276,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMikya|r",
 			[51] = 1649305805,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [58]
+		}, -- [49]
 		{
 			"{rt1}2", -- [1]
 			"Mikya-Turalyon", -- [2]
@@ -1298,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMikya|r",
 			[51] = 1649305805,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
+		}, -- [50]
 		{
 			"{rt1} 1", -- [1]
 			"Mikya-Turalyon", -- [2]
@@ -1320,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMikya|r",
 			[51] = 1649305806,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [60]
+		}, -- [51]
 		{
 			"{rt1}1", -- [1]
 			"Mikya-Turalyon", -- [2]
@@ -1342,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMikya|r",
 			[51] = 1649305806,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
+		}, -- [52]
 		{
 			"Mana Tide Dropped!", -- [1]
 			"Valla-Turalyon", -- [2]
@@ -1364,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcValla|r",
 			[51] = 1649305839,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [62]
+		}, -- [53]
 		{
 			"Stun Dropped!", -- [1]
 			"Valla-Turalyon", -- [2]
@@ -1386,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcValla|r",
 			[51] = 1649305861,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [63]
+		}, -- [54]
 		{
 			"holds her |Hitem:64383|h|cff0070dd[Kaldorei Wind Chimes]|r|h to the wind.", -- [1]
 			"Adverbs-Turalyon", -- [2]
@@ -1408,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Adverbs|r",
 			[51] = 1649305925,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [64]
+		}, -- [55]
 		{
 			"Healing Tide Dropped!", -- [1]
 			"Valla-Turalyon", -- [2]
@@ -1430,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcValla|r",
 			[51] = 1649305935,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [65]
+		}, -- [56]
 		{
 			"Hopelessness on Glorzenberg", -- [1]
 			"Glorzenberg-Turalyon", -- [2]
@@ -1452,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Glorzenberg|r",
 			[51] = 1649305939,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [66]
+		}, -- [57]
 		{
 			"Hopelessness on Mikya", -- [1]
 			"Mikya-Turalyon", -- [2]
@@ -1474,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMikya|r",
 			[51] = 1649305939,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [67]
+		}, -- [58]
 		{
 			"Hopelessness on Fantalo", -- [1]
 			"Fantalo-Arathor", -- [2]
@@ -1496,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fantalo-Arathor|r",
 			[51] = 1649305939,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [68]
+		}, -- [59]
 		{
 			"Hopelessness on Dragonshot", -- [1]
 			"Dragonshot-Turalyon", -- [2]
@@ -1518,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Dragonshot|r",
 			[51] = 1649305939,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [69]
+		}, -- [60]
 		{
 			"Hopelessness on Ctair", -- [1]
 			"Ctair-Turalyon", -- [2]
@@ -1540,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Ctair|r",
 			[51] = 1649305939,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [70]
+		}, -- [61]
 		{
 			"Hopelessness on Jexïa", -- [1]
 			"Jexïa-Turalyon", -- [2]
@@ -1562,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jexïa|r",
 			[51] = 1649305939,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [71]
+		}, -- [62]
 		{
 			"3", -- [1]
 			"Glorzenberg-Turalyon", -- [2]
@@ -1584,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Glorzenberg|r",
 			[51] = 1649305941,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [72]
+		}, -- [63]
 		{
 			"3", -- [1]
 			"Jexïa-Turalyon", -- [2]
@@ -1606,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Jexïa|r",
 			[51] = 1649305941,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [73]
+		}, -- [64]
 		{
 			"3", -- [1]
 			"Fantalo-Arathor", -- [2]
@@ -1628,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Fantalo-Arathor|r",
 			[51] = 1649305941,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [74]
+		}, -- [65]
 		{
 			"3", -- [1]
 			"Ctair-Turalyon", -- [2]
@@ -1650,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Ctair|r",
 			[51] = 1649305941,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [75]
+		}, -- [66]
 		{
 			"3", -- [1]
 			"Dragonshot-Turalyon", -- [2]
@@ -1672,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Dragonshot|r",
 			[51] = 1649305941,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [76]
+		}, -- [67]
 		{
 			"rez in 5", -- [1]
 			"Tynan-Turalyon", -- [2]
@@ -1694,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edTynan|r",
 			[51] = 1649305942,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [77]
+		}, -- [68]
 		{
 			"3", -- [1]
 			"Fecklarr-Turalyon", -- [2]
@@ -1716,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edFecklarr|r",
 			[51] = 1649305944,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [78]
+		}, -- [69]
 		{
 			"Star on Victorvonhun", -- [1]
 			"Victorvonhun-Turalyon", -- [2]
@@ -1738,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Victorvonhun|r",
 			[51] = 1649305956,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [79]
+		}, -- [70]
 		{
 			"{rt1} 3", -- [1]
 			"Victorvonhun-Turalyon", -- [2]
@@ -1760,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Victorvonhun|r",
 			[51] = 1649305957,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [80]
+		}, -- [71]
 		{
 			"{rt1} 2", -- [1]
 			"Victorvonhun-Turalyon", -- [2]
@@ -1782,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Victorvonhun|r",
 			[51] = 1649305958,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [81]
+		}, -- [72]
 		{
 			"{rt1} 1", -- [1]
 			"Victorvonhun-Turalyon", -- [2]
@@ -1804,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Victorvonhun|r",
 			[51] = 1649305959,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [82]
+		}, -- [73]
 		{
 			"{rt3}Wicked Star 3", -- [1]
 			"Dragonshot-Turalyon", -- [2]
@@ -1826,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Dragonshot|r",
 			[51] = 1649305962,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [83]
+		}, -- [74]
 		{
 			"bittersweet", -- [1]
 			"Achiron-Fenris", -- [2]
@@ -1848,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Achiron-Fenris|r",
 			[51] = 1649305992,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [84]
+		}, -- [75]
 		{
 			"Protector of the First Ones (100%) |cffffff00|Hworldmap:1970:3885:2760|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Jadiik-AeriePeak", -- [2]
@@ -1870,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Jadiik-AeriePeak|r",
 			[51] = 1649803350,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [76]
 		{
 			"Hirukon w/lure - have mnt listed in pre-mades", -- [1]
 			"Barristen-Turalyon", -- [2]
@@ -1892,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Barristen|r",
 			[51] = 1656179033,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [77]
 		{
 			"Hirukon 100.00% ~(51.3, 73.69) |cffffff00|Hworldmap:1970:5130:7368|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Chedder-Stormrage", -- [2]
@@ -1914,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cChedder-Stormrage|r",
 			[51] = 1656179440,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [78]
 		{
 			"Bored of dat family life Adam?", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -1936,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1656181248,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [88]
+		}, -- [79]
 		{
 			"Finally came back to your senses and returned to the only true family you have?", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -1958,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1656181203,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [89]
+		}, -- [80]
 		{
 			"[WeakAuras: Azados-Turalyon - Spiteful Fixate Nameplate Indicator]", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -1980,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Azados|r",
 			[51] = 1656222620,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [90]
+		}, -- [81]
 		{
 			"[WeakAuras: Azados-Turalyon - M+ Spiteful - Target on Nameplate]", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -2002,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Azados|r",
 			[51] = 1656222622,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [91]
+		}, -- [82]
 		{
 			"Otaris is up and ready to go", -- [1]
 			"Killim-Nesingwary", -- [2]
@@ -2024,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Killim-Nesingwary|r",
 			[51] = 1656224211,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [83]
 		{
 			"Otaris the Provoked is up", -- [1]
 			"Forestsong-Nesingwary", -- [2]
@@ -2046,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Forestsong-Nesingwary|r",
 			[51] = 1656224213,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [84]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15177:Player-3685-0DD571F7:1:6:25:22:4294967295:4294967295:4294967295:4294967295|h[Tazavesh, the Veiled Market]|h|r!", -- [1]
 			"Dotsvader-Turalyon", -- [2]
@@ -2068,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDotsvader|r",
 			[51] = 1656224390,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [94]
+		}, -- [85]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15652:Player-3685-0DD571F7:1:6:25:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: So'leah's Gambit]|h|r!", -- [1]
 			"Dotsvader-Turalyon", -- [2]
@@ -2090,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDotsvader|r",
 			[51] = 1656224390,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [95]
+		}, -- [86]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15651:Player-3685-0DD571F7:1:6:25:22:4294967295:4294967295:4294967295:4294967295|h[Myths of the Shadowlands Dungeons]|h|r!", -- [1]
 			"Dotsvader-Turalyon", -- [2]
@@ -2112,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDotsvader|r",
 			[51] = 1656224391,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [96]
+		}, -- [87]
 		{
 			"thanks for the group", -- [1]
 			"Dinari-Skywall", -- [2]
@@ -2134,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Dinari-Skywall|r",
 			[51] = 1656224350,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [97]
+		}, -- [88]
 		{
 			"need help w feasting", -- [1]
 			"Zombiexx-Turalyon", -- [2]
@@ -2156,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeZombiexx|r",
 			[51] = 1656224479,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [89]
 		{
 			"<RA> Feasting 100% ~(61.04, 52.98) |cffffff00|Hworldmap:1970:6104:5298|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Elyrra-Turalyon", -- [2]
@@ -2178,29 +1980,227 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaElyrra|r",
 			[51] = 1656224564,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"<RA> Xy'rath the Covetous 100% ~(64.06, 49.76) |cffffff00|Hworldmap:1970:6406:4976|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Elyrra-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Elyrra-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			271, -- [11]
+			"Player-3685-0718017A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaElyrra|r",
+			[51] = 1656484353,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"Garudeon ready", -- [1]
+			"Tamsynn-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Tamsynn-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			4, -- [11]
+			"Player-3685-06FF39A1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Tamsynn|r",
+			[51] = 1656783929,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"corrupted architect up", -- [1]
+			"Tamsynn-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Tamsynn-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			110, -- [11]
+			"Player-3685-06FF39A1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Tamsynn|r",
+			[51] = 1656786448,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:13878:Player-3685-0DD57214:1:7:3:22:4294967295:4294967295:4294967295:4294967295|h[The Master of Revendreth]|h|r!", -- [1]
+			"Shamamigans-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shamamigans-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			73, -- [11]
+			"Player-3685-0DD57214", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcShamamigans|r",
+			[51] = 1656874055,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [94]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14206:Player-3685-0DD57214:1:7:3:22:4294967295:4294967295:4294967295:4294967295|h[Blade of the Primus]|h|r!", -- [1]
+			"Shamamigans-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shamamigans-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			74, -- [11]
+			"Player-3685-0DD57214", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcShamamigans|r",
+			[51] = 1656874055,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [95]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14164:Player-3685-0DD57214:1:7:3:22:4294967295:4294967295:4294967295:4294967295|h[Awaken, Ardenweald]|h|r!", -- [1]
+			"Shamamigans-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shamamigans-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			75, -- [11]
+			"Player-3685-0DD57214", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcShamamigans|r",
+			[51] = 1656874055,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [96]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14281:Player-3685-0DD57214:1:7:3:22:4294967295:4294967295:4294967295:4294967295|h[The Path to Ascension]|h|r!", -- [1]
+			"Shamamigans-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shamamigans-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			76, -- [11]
+			"Player-3685-0DD57214", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcShamamigans|r",
+			[51] = 1656874055,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [97]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14334:Player-3685-0DD57214:1:7:3:22:4294967295:4294967295:4294967295:4294967295|h[Into the Maw]|h|r!", -- [1]
+			"Shamamigans-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shamamigans-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			79, -- [11]
+			"Player-3685-0DD57214", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcShamamigans|r",
+			[51] = 1656874055,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [98]
+		{
+			"golar", -- [1]
+			"Shinedown-Turalyon", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Shinedown-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			482, -- [11]
+			"Player-3685-09003B09", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeShinedown|r",
+			[51] = 1656882531,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/raid ascendancy primal strike gogo", -- [1]
-		"/s weird flex", -- [2]
-		"/g was real bad in legion when glacial spike was meta for frost", -- [3]
-		"/g every cast would rip threat off 2 mobs", -- [4]
-		"/raid not to mention it punishes you for someone else's mistake", -- [5]
-		"/raid was not expecting those :S", -- [6]
-		"/raid its pretty quick", -- [7]
-		"/raid who has spares", -- [8]
-		"/raid spread out close together?", -- [9]
-		"/raid arent you a little young to drive", -- [10]
-		"/raid the raids this expansion kinda blur together", -- [11]
-		"/raid i can't get those out", -- [12]
-		"/s ty my dude", -- [13]
-		"/raid prepare to find your soulmates", -- [14]
-		"/raid now try playing with a real toddler on your lap", -- [15]
-		"/raid who likes to smash timewarp randomly", -- [16]
-		"/raid instead of a fake gnome toddler", -- [17]
-		"/raid i'd be your soulmate fog", -- [18]
-		"/raid but i am racist against short people", -- [19]
-		"/console camerafov 120", -- [20]
+		"/s weird flex", -- [1]
+		"/g was real bad in legion when glacial spike was meta for frost", -- [2]
+		"/g every cast would rip threat off 2 mobs", -- [3]
+		"/raid not to mention it punishes you for someone else's mistake", -- [4]
+		"/raid was not expecting those :S", -- [5]
+		"/raid its pretty quick", -- [6]
+		"/raid who has spares", -- [7]
+		"/raid spread out close together?", -- [8]
+		"/raid arent you a little young to drive", -- [9]
+		"/raid the raids this expansion kinda blur together", -- [10]
+		"/raid i can't get those out", -- [11]
+		"/s ty my dude", -- [12]
+		"/raid prepare to find your soulmates", -- [13]
+		"/raid now try playing with a real toddler on your lap", -- [14]
+		"/raid who likes to smash timewarp randomly", -- [15]
+		"/raid instead of a fake gnome toddler", -- [16]
+		"/raid i'd be your soulmate fog", -- [17]
+		"/raid but i am racist against short people", -- [18]
+		"/console camerafov 120", -- [19]
+		"/who", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

@@ -259,6 +259,8 @@ L["LIST_EXTENDED_SEARCH_HEADER"] = "Opciones de búsqueda extendida"
 L["LIST_IMPORT_HEADER"] = "Importar listas de compras"
 L["LIST_SEARCH_START"] = "Buscando elementos en %s ..."
 L["LIST_SEARCH_STATUS"] = "Busque el elemento %s/%s en %s"
+--[[Translation missing --]]
+L["LOAD_HIGHER_PRICES"] = "Load higher prices"
 L["MAIL_TOOLTIP_TOOLTIP_HEADER"] = "Información sobre herramientas de buzón"
 L["MAIL_TOOLTIP_TOOLTIP_TEXT"] = [=[Muestra información del Auctionator para los objetos en su buzón al pasar el mouse.
 ]=]
@@ -496,6 +498,8 @@ L["TRANSLATORS_RUSSIAN"] = "Ruso"
 L["TRANSLATORS_SIMPLIFIED_CHINESE"] = "Chino simplificado"
 L["TRANSLATORS_SPANISH"] = "Español"
 L["TRANSLATORS_TRADITIONAL_CHINESE"] = "Chino tradicional"
+--[[Translation missing --]]
+L["UNDERCUT_BID"] = "Bid"
 L["UNDERCUT_NO"] = "No"
 L["UNDERCUT_PREFERENCE"] = "Preferencia de descuento"
 L["UNDERCUT_SCAN"] = "Escaneo de descuentos"

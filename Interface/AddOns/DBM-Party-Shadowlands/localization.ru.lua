@@ -2,15 +2,6 @@ if GetLocale() ~= "ruRU" then return end
 local L
 
 -----------------------
--- <<<Global (M+ Affixes) >>> --
------------------------
-L = DBM:GetModLocalization("MPlusAffixes")
-
-L:SetGeneralLocalization({
-	name =	"Аффиксы М+"
-})
-
------------------------
 -- <<<The Necrotic Wake (1182J/2286M) >>> --
 -----------------------
 -----------------------
@@ -306,7 +297,12 @@ L:SetGeneralLocalization({
 -----------------------
 -- The Menagerie --
 -----------------------
---L= DBM:GetModLocalization(2454)
+L= DBM:GetModLocalization(2454)
+
+L:SetMiscLocalization({
+	AchilliteRPTrigger	= "Докучают разъяренные звери? У нас есть решение!",
+	VenzaRPTrigger		= "Вот мой шанс! Топор будет моим!"
+})
 
 -----------------------
 -- Mailroom Mayhem --
@@ -321,7 +317,11 @@ L:SetGeneralLocalization({
 -----------------------
 -- So'azmi --
 -----------------------
---L= DBM:GetModLocalization(2451)
+L= DBM:GetModLocalization(2451)
+
+L:SetMiscLocalization({
+	RPTrigger	= "Прости нас за вторжение, Со'лея. Кажется, сейчас не самое подходящее время."
+})
 
 -----------------------
 -- Hylbrande --

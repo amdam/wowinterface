@@ -12,17 +12,18 @@ SimulationCraftDB = {
 		["Abel - Turalyon"] = "Abel - Turalyon",
 		["Adamancy - Turalyon"] = "Adamancy - Turalyon",
 		["Furrys - Turalyon"] = "Furrys - Turalyon",
-		["Asaam - Turalyon"] = "Asaam - Turalyon",
-		["Svend - Turalyon"] = "Svend - Turalyon",
-		["Allevin - Turalyon"] = "Allevin - Turalyon",
-		["Caris - Turalyon"] = "Caris - Turalyon",
-		["Adamn - Turalyon"] = "Adamn - Turalyon",
-		["Artoc - Silvermoon"] = "Artoc - Silvermoon",
-		["Amdam - Turalyon"] = "Amdam - Turalyon",
-		["Adris - Turalyon"] = "Adris - Turalyon",
-		["Adreya - Bloodscalp"] = "Adreya - Bloodscalp",
-		["Badam - Turalyon"] = "Badam - Turalyon",
 		["Artoc - Zul'jin"] = "Artoc - Zul'jin",
+		["Badam - Turalyon"] = "Badam - Turalyon",
+		["Adreya - Bloodscalp"] = "Adreya - Bloodscalp",
+		["Adris - Turalyon"] = "Adris - Turalyon",
+		["Caris - Turalyon"] = "Caris - Turalyon",
+		["Amdam - Turalyon"] = "Amdam - Turalyon",
+		["Artoc - Silvermoon"] = "Artoc - Silvermoon",
+		["Allevin - Turalyon"] = "Allevin - Turalyon",
+		["Adamn - Turalyon"] = "Adamn - Turalyon",
+		["Svend - Turalyon"] = "Svend - Turalyon",
+		["Asaam - Turalyon"] = "Asaam - Turalyon",
+		["Shado - Turalyon"] = "Shado - Turalyon",
 	},
 	["profiles"] = {
 		["Christifur - Turalyon"] = {
@@ -47,37 +48,39 @@ SimulationCraftDB = {
 		["Abel - Turalyon"] = {
 		},
 		["Adamancy - Turalyon"] = {
+			["minimap"] = {
+				["minimapPos"] = 42.40893992104903,
+			},
 			["frame"] = {
 				["ofsx"] = -20.74081802368164,
 				["ofsy"] = 16.00015640258789,
 			},
-			["minimap"] = {
-				["minimapPos"] = 42.40893992104903,
-			},
 		},
 		["Furrys - Turalyon"] = {
 		},
-		["Asaam - Turalyon"] = {
-		},
-		["Svend - Turalyon"] = {
-		},
-		["Allevin - Turalyon"] = {
-		},
-		["Caris - Turalyon"] = {
-		},
-		["Adamn - Turalyon"] = {
-		},
-		["Artoc - Silvermoon"] = {
-		},
-		["Amdam - Turalyon"] = {
-		},
-		["Adris - Turalyon"] = {
-		},
-		["Adreya - Bloodscalp"] = {
+		["Artoc - Zul'jin"] = {
 		},
 		["Badam - Turalyon"] = {
 		},
-		["Artoc - Zul'jin"] = {
+		["Adreya - Bloodscalp"] = {
+		},
+		["Adris - Turalyon"] = {
+		},
+		["Caris - Turalyon"] = {
+		},
+		["Amdam - Turalyon"] = {
+		},
+		["Artoc - Silvermoon"] = {
+		},
+		["Allevin - Turalyon"] = {
+		},
+		["Adamn - Turalyon"] = {
+		},
+		["Svend - Turalyon"] = {
+		},
+		["Asaam - Turalyon"] = {
+		},
+		["Shado - Turalyon"] = {
 		},
 	},
 }

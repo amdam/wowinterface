@@ -7,7 +7,6 @@ VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
-/startattack
 /cast [nomodifier,spec:1] Cobra Shot; [nomodifier,nochanneling,spec:2] Arcane Shot; [mod:shift,spec:2,nochanneling] Hunter's Mark; [modifier:alt] Multi-Shot
 /script UIErrorsFrame:Clear()
 END

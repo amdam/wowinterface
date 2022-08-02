@@ -12,23 +12,24 @@ TomTomDB = {
 		["Amdam - Bloodscalp"] = "Default",
 		["Thugo - Bloodscalp"] = "Default",
 		["Adreya - Bloodscalp"] = "Default",
+		["Adamn - Terokkar"] = "Default",
 		["Amdamn - Bloodscalp"] = "Default",
 		["Fife - The Forgotten Coast"] = "Default",
 		["Adamancy - Turalyon"] = "Default",
 		["Asaam - Turalyon"] = "Default",
 		["Furrys - Turalyon"] = "Default",
-		["Abel - Turalyon"] = "Default",
-		["Dreg - Turalyon"] = "Default",
-		["Christoff - Turalyon"] = "Default",
-		["Badam - Bloodscalp"] = "Default",
-		["Adrid - Turalyon"] = "Default",
-		["Bears - Bloodscalp"] = "Default",
-		["Badam - Turalyon"] = "Default",
-		["Christos - Turalyon"] = "Default",
-		["Adamn - Turalyon"] = "Default",
 		["Amdam - Turalyon"] = "Default",
+		["Dreg - Turalyon"] = "Default",
+		["Christos - Turalyon"] = "Default",
+		["Badam - Bloodscalp"] = "Default",
+		["Badam - Turalyon"] = "Default",
+		["Bears - Bloodscalp"] = "Default",
+		["Adrid - Turalyon"] = "Default",
+		["Christoff - Turalyon"] = "Default",
+		["Adamn - Turalyon"] = "Default",
+		["Abel - Turalyon"] = "Default",
 		["Elpy - Bloodscalp"] = "Default",
-		["Adamn - Terokkar"] = "Default",
+		["Shado - Turalyon"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -61,10 +62,11 @@ TomTomWaypointsM = {
 		["Allevin - Turalyon"] = "Allevin - Turalyon",
 		["Kayne - Turalyon"] = "Kayne - Turalyon",
 		["Amdam - Turalyon"] = "Amdam - Turalyon",
+		["Adrid - Turalyon"] = "Adrid - Turalyon",
 		["Christoff - Turalyon"] = "Christoff - Turalyon",
 		["Dreg - Turalyon"] = "Dreg - Turalyon",
 		["Asaam - Turalyon"] = "Asaam - Turalyon",
-		["Adrid - Turalyon"] = "Adrid - Turalyon",
+		["Shado - Turalyon"] = "Shado - Turalyon",
 	},
 	["profiles"] = {
 		["Abel - Turalyon"] = {
@@ -77,13 +79,15 @@ TomTomWaypointsM = {
 		},
 		["Amdam - Turalyon"] = {
 		},
+		["Adrid - Turalyon"] = {
+		},
 		["Christoff - Turalyon"] = {
 		},
 		["Dreg - Turalyon"] = {
 		},
 		["Asaam - Turalyon"] = {
 		},
-		["Adrid - Turalyon"] = {
+		["Shado - Turalyon"] = {
 		},
 	},
 }

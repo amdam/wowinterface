@@ -101,6 +101,7 @@ function HealBot_Lang_enALL()
     HEALBOT_OPTIONS_BARALPHA                = "Enabled opacity";
     HEALBOT_OPTIONS_BARALPHAINHEAL          = "Incoming heals opacity";
     HEALBOT_OPTIONS_BARALPHABACK            = "Background bar opacity";
+    HEALBOT_OPTIONS_BARALPHABOR             = "Background border opacity";
     HEALBOT_OPTIONS_BARALPHAEOR             = "Out of range opacity";
     HEALBOT_OPTIONS_ACTIONLOCKED            = "Lock frame";
     HEALBOT_OPTIONS_UNITINCOMBAT            = "Group/Raid member enters combat"
@@ -179,9 +180,7 @@ function HealBot_Lang_enALL()
     HEALBOT_OPTIONS_RAIDGROUPWARN           = "Raid filter";
     HEALBOT_OPTIONS_BUFFWARNINGS            = "Buff warnings";
     HEALBOT_OPTIONS_BUFFCUSTOM              = "Custom buffs";
-    HEALBOT_OPTIONS_BUFFCUSTOMURL           = "Custom buffs are available at  "..HEALBOT_ABOUT_URL
     HEALBOT_OPTIONS_DEBUFFCUSTOM            = "Custom debuffs"
-    HEALBOT_OPTIONS_DEBUFFCUSTOMURL         = "Raid and Instance custom debuffs are available at  "..HEALBOT_ABOUT_URL
     HEALBOT_OPTIONS_BUFFMISSING             = "Missing buffs";
     HEALBOT_OPTIONS_BUFFEXTRA               = "Extra Buffs";
     HEALBOT_OPTIONS_CHECKWELLFED            = "Check well fed";
@@ -397,10 +396,8 @@ function HealBot_Lang_enALL()
     HEALBOT_OPTIONS_HLTHTXTANCHORLEFT       = "Left of Name Text"
     HEALBOT_OPTIONS_HLTHTXTANCHORBELOW      = "Below Name Text"
     HEALBOT_OPTIONS_HLTHTXTANCHORABOVE      = "Above Name Text"
-    HEALBOT_OPTIONS_AGGROTXTANCHORRIGHT     = "Right of Health Text"
-    HEALBOT_OPTIONS_AGGROTXTANCHORBELOW     = "Below Health Text"
-    HEALBOT_OPTIONS_AGGROTXTANCHORABOVE     = "Above Health Text"
-    
+    HEALBOT_OPTIONS_STATECOLNOTAVAIL        = "State col"..HEALBOT_enWORD_COLOUR_SUFFIX.." options are inherited from the Name text\nwhen "..HEALBOT_OPTIONS_STATETEXTANCHOR.." is set to "..HEALBOT_OPTIONS_HLTHTXTANCHORLEFT;
+
     HEALBOT_OPTIONS_AUXBARANCHOR            = "Anchor"
     HEALBOT_OPTIONS_AUXBARANCHOR01          = "Below Health Bar"
     HEALBOT_OPTIONS_AUXBARANCHOR02          = "Above Health Bar"
@@ -499,16 +496,22 @@ function HealBot_Lang_enALL()
     HEALBOT_OPTION_MANAONLY                 = "Show mana only"
     HEALBOT_OPTION_BARUPDFREQ               = "Refresh Speed"
     HEALBOT_OPTION_USEFLUIDBARS             = "Use fluid bars"
+    HEALBOT_OPTION_FLUIDBARSINCALPHA        = "Include col"..HEALBOT_enWORD_COLOUR_SUFFIX.." and alpha"
     HEALBOT_OPTION_HEALTHDROP               = "Health drop"
     HEALBOT_OPTION_USEHEALTHDROP            = "Show on Health bar"
     HEALBOT_OPTION_HEALTHDROPPCT            = "Alert threshold "
+    HEALBOT_OPTION_HOTBARHEALTHPCT          = "Min Health threshold "
     HEALBOT_OPTION_HEALTHDROPSPEED          = "Flash speed"
     HEALBOT_OPTION_USEFOCUSGROUPS           = "Use focus groups"
     HEALBOT_OPTION_FOCUSGROUPDIMMING        = "Unfocused groups - Opacity reduction"
+    HEALBOT_OPTION_NONHOTBARSDIMMING        = "Non Hot Bars - Opacity reduction"
     HEALBOT_OPTION_GLOBALDIMMING            = "Mouse not over frames - Opacity reduction"
     HEALBOT_OPTION_FLUIDBARS                = "Fluid Bars"
     HEALBOT_OPTION_HEALTHDROPALERT          = "Health Drop Alert"
+    HEALBOT_OPTION_HOTBARS                  = "Hot Bars"
+    HEALBOT_OPTION_HOTBARSDEBUFFPRIO        = "Lowest Debuff Priority"           
     HEALBOT_OPTIONS_RELOADUIMSG             = "This option requires a UI Reload, Reload now?"
+    HEALBOT_OPTION_USE                      = "Use"
 
     HEALBOT_BUFF_PVP                        = "PvP"
     HEALBOT_BUFF_PVE                        = "PvE"
@@ -542,14 +545,14 @@ function HealBot_Lang_enALL()
     HEALBOT_OPTIONS_MYFRIEND                = "My Friend"
 
     HEALBOT_DISCONNECTED_LABEL              = "Disconnected"
-    HEALBOT_DISCONNECTED_TAG                = "DC-"
+    HEALBOT_DISCONNECTED_TAG                = "DC "
     HEALBOT_DEAD_LABEL                      = "Dead"
-    HEALBOT_DEAD_TAG                        = "RIP-"
-    HEALBOT_RES_TAG                         = "RES-"
-    HEALBOT_SUMMONS_TAG                     = "SUM-"
-    HEALBOT_OUTOFRANGE_LABEL                = "Out Of Range"
+    HEALBOT_DEAD_TAG                        = "RIP "
+    HEALBOT_RES_TAG                         = "RES "
+    HEALBOT_SUMMONS_TAG                     = "SUM "
+    HEALBOT_OUTOFRANGE_LABEL                = "Out of range"
     HEALBOT_RANGE30                         = "In Range 30"
-    HEALBOT_RECENTHEALS                     = "Your recent heals"
+    HEALBOT_RECENTHEALS                     = "Recent heals"
     HEALBOT_OUTOFRANGE_TAG                  = "OOR-"
     HEALBOT_RESERVED_LABEL                  = "Reserved"
     HEALBOT_RESERVED_TAG                    = "R-"
@@ -591,6 +594,7 @@ function HealBot_Lang_enALL()
     HEALBOT_OPTIONS_CUSTOMCOLBACK           = "Background bar custom col"..HEALBOT_enWORD_COLOUR_SUFFIX.."s"
     HEALBOT_OPTIONS_CUSTOMCOLINHEAL         = "Incoming heals bar custom col"..HEALBOT_enWORD_COLOUR_SUFFIX.."s"
     HEALBOT_OPTIONS_CUSTOMCOLABSORB         = "Absorb effects bar custom col"..HEALBOT_enWORD_COLOUR_SUFFIX.."s"
+    HEALBOT_OPTIONS_CUSTOMCOLBACKBOR        = "Background border custom col"..HEALBOT_enWORD_COLOUR_SUFFIX.."s"
     HEALBOT_OPTIONS_CUSTOMTEXTCOLNAME       = "Name text custom col"..HEALBOT_enWORD_COLOUR_SUFFIX.."s"
     HEALBOT_OPTIONS_CUSTOMTEXTCOLHEALTH     = "Health text custom col"..HEALBOT_enWORD_COLOUR_SUFFIX.."s"
     HEALBOT_OPTIONS_CUSTOMTEXTCOLSTATE      = "State text bar custom col"..HEALBOT_enWORD_COLOUR_SUFFIX.."s"
@@ -905,9 +909,16 @@ function HealBot_Lang_enALL()
     HEALBOT_OPTIONS_SAME_AS_HLTH_FUTURE     = "Same as health (future health)"
     HEALBOT_OPTIONS_FUTURE_HLTH             = "Future health"
     HEALBOT_OPTIONS_CLASSHLTHMIX            = "Class Health mix"
-    HEALBOT_SKIN_HEALTHBARCOL_TEXT          = "Health bar";
+    HEALBOT_OPTIONS_ADAPTIVE                = "Adaptive"
+    HEALBOT_OPTIONS_ADAPTIVECLASSMIX        = "Adaptive Class mix"
+    HEALBOT_OPTIONS_ADAPTIVECUSTOMMIX       = "Adaptive Custom mix"
+    HEALBOT_OPTIONS_ADAPTIVEONLY            = "Adaptive only"
+    HEALBOT_SKIN_HEALTHBARCOL_TEXT          = "Health bar"
+    HEALBOT_SKIN_BORDER_HAZARD              = "Border hazard"
     HEALBOT_SKIN_NAMETEXTCOL_TEXT           = "Text col"..HEALBOT_enWORD_COLOUR_SUFFIX
+    HEALBOT_SKIN_OVERLAYCOL_TEXT            = "Overlay col"..HEALBOT_enWORD_COLOUR_SUFFIX
     HEALBOT_SKIN_HEALTHBACKCOL_TEXT         = "Background bar";
+    HEALBOT_SKIN_BACKBORDERCOL_TEXT         = "Background border";
     HEALBOT_SKIN_INCHEALBARCOL_TEXT         = "Incoming heals";
     HEALBOT_OPTIONS_GROUP_PETS_BY_FIVE      = "Pets: Groups of five"
     HEALBOT_OPTIONS_OWN_PET_WITH_SELF       = "Own pet: with self"
@@ -1276,8 +1287,6 @@ function HealBot_Lang_enALL()
                                       [18]  = HEALBOT_ABOUT_FAQ_SPELLS_ANSWER01,
                                       [19]  = "Yes\n\n" ..
                                               "On the Import/Export>Skins tab\nselect Extra Skins from the dropdown and Import\n\n" ..
-                                              "Images of the Extra Skins are\navailable at "..HEALBOT_ABOUT_URL.."\n\n" ..
-                                              "Additional skins are also\navailable at "..HEALBOT_ABOUT_URL.."\n\n" ..
                                               "Additional skins might have been\nshared at "..HEALBOT_ABOUT_CATD,
                                       [20]  = "Check if the frame is locked on\nthe Skins>Frames>General tab\n\n" ..
                                               "To move the frame, select near the edge of the frame\n\n" ..
@@ -1404,12 +1413,7 @@ function HealBot_Lang_enALL()
     HEALBOT_WORDS_PROFILE                   = "Profile"
     HEALBOT_WORDS_GLOBALPROFILE             = "Global profile"
     HEALBOT_SHARE_SCREENSHOT                = "ScreenShot taken"
-    HEALBOT_SHARE_INSTRUCTION               = "Go to the website for instructions on sharing at "..HEALBOT_ABOUT_URL
-    HEALBOT_INOUT_STATUS_SKINSINIT          = "Skins can be shared at "..HEALBOT_ABOUT_URL
-    HEALBOT_INOUT_STATUS_CDEBUFFINIT        = "Custom Debuffs can be shared at "..HEALBOT_ABOUT_URL
-    HEALBOT_INOUT_STATUS_BUFFINIT           = "Custom Buffs can be shared at "..HEALBOT_ABOUT_URL
-    HEALBOT_INOUT_STATUS_SPELLINIT          = "Spells can be shared at "..HEALBOT_ABOUT_URL
-    HEALBOT_INOUT_STATUS_PRESETCOLINIT      = HEALBOT_OPTIONS_PRESET.." Col"..HEALBOT_enWORD_COLOUR_SUFFIX.."s can be shared at "..HEALBOT_ABOUT_URL
+    HEALBOT_SHARE_EXPORTED                  = "Successfully Exported"
     HEALBOT_ENEMY_USE_FRAME                 = "Use frame"
     HEALBOT_ENEMY_INCLUDE_SELF              = "Include Target"
     HEALBOT_ENEMY_INCLUDE_FOCUS             = "Include Focus"
@@ -1453,6 +1457,7 @@ function HealBot_Lang_enALL()
     HEALBOT_ENEMY_INCLUDE_ARENA             = "Include Arena opponents"
     HEALBOT_ENEMY_INCLUDE_ARENAPETS         = "Including Pets"
     HEALBOT_ENEMY_EXISTS_SHOW               = "Show when exists"
+    HEALBOT_ENEMY_NOBOSS_SHOW               = "Show when not on boss"
     HEALBOT_CMD_TOGGLECUSTOMCURECASTBY      = "Toggle Custom Cures - Default Cast By"
     HEALBOT_CMD_TOGGLEMAINASSIST            = "Toggle include Main Assist with Tanks"
     HEALBOT_CMD_RESETSKINGROUP              = "Recover Group skin"

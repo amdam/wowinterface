@@ -9,10 +9,10 @@ OneRing_Config = {
 			["Bindings"] = {
 				["ipmentSets1"] = "NUMPAD5",
 				["CommonTrades"] = false,
-				["OPieTracking"] = false,
+				["PaladinAuras"] = "ALT-P",
 				["ipmentSets2"] = "NUMPAD5",
 				["ipmentSets"] = false,
-				["PaladinAuras"] = "ALT-P",
+				["OPieTracking"] = false,
 				["MageTravel"] = "ALT-P",
 				["WorldMarkers"] = "SHIFT-R",
 				["OPieTrinkets"] = false,
@@ -372,8 +372,8 @@ OneRing_Config = {
 				{
 					"equipmentset", -- [1]
 					"arcane", -- [2]
-					["sliceToken"] = "ABue376TIGe",
 					["show"] = "[spec:64/63] hide;",
+					["sliceToken"] = "ABue376TIGe",
 				}, -- [10]
 				["limit"] = "Adamancy-Turalyon",
 				["save"] = true,

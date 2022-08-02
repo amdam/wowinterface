@@ -1,6 +1,6 @@
 local AUCTIONATOR_EVENTS = {
   -- Addon Initialization Events
-  "VARIABLES_LOADED",
+  "PLAYER_LOGIN",
   -- Trade Window Initialization Events
   "TRADE_SKILL_SHOW",
   -- Cache vendor prices event
@@ -20,8 +20,8 @@ end
 
 function AuctionatorInitializeMixin:OnEvent(event, ...)
   -- Auctionator.Debug.Message("AuctionatorInitializeMixin", event, ...)
-  if event == "VARIABLES_LOADED" then
-    self:VariablesLoaded()
+  if event == "PLAYER_LOGIN" then
+    self:AddonDataLoaded()
   elseif event == "TRADE_SKILL_SHOW" then
     Auctionator.ReagentSearch.InitializeSearchButton()
   elseif event == "MERCHANT_SHOW" then
@@ -33,7 +33,7 @@ function AuctionatorInitializeMixin:OnEvent(event, ...)
   end
 end
 
-function AuctionatorInitializeMixin:VariablesLoaded(event, ...)
+function AuctionatorInitializeMixin:AddonDataLoaded(event, ...)
   Auctionator.Debug.Message("AuctionatorInitializeMixin:VariablesLoaded")
   Auctionator.Variables.Initialize()
 

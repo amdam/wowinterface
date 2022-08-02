@@ -1,27 +1,37 @@
 
 TomCats_Account = {
-	["notifications"] = {
-		["LIITA2018"] = true,
+	["loveisintheair"] = {
 	},
-	["tutorials"] = {
-		["Rares Log Toggle"] = true,
-	},
-	["versionInfo"] = {
-		["encoded"] = "Fu06UShTm9VSLypOcGbBrrglegVvBiAnjXeelcZ9uNeX3SoyiZlsFV+TRmMBAQYBAgEEAwMBBAYEAQQIBQEEBgYBBAYHAQQXCAECCAkCBgAKAQADCwEGBQwAAQYNAQASDgEAGg8BAAY=",
-		["messageID"] = 1603487331,
-	},
+	["discoveriesVersion"] = "2.4.12",
+	["lastVersionSeen"] = "2.4.12",
 	["preferences"] = {
-		["TomCatsWorldmapRaresButton"] = {
-			["position"] = -2.65665054579379,
+		["MapOptions"] = {
+			["iconScale"] = 1,
+			["iconAnimationEnabled"] = true,
 		},
-		["TomCatsWorldmapRaresButton118"] = {
-			["position"] = -2.656650544173709,
+		["TomCats-LunarFestivalMinimapButton"] = {
+			["hidden"] = false,
+			["position"] = -2.514,
 		},
-		["TomCatsMinimapButton"] = {
-			["position"] = 3,
+		["TomCats-LoveIsInTheAirMinimapButton"] = {
+			["hidden"] = false,
+			["position"] = -3.262,
 		},
-		["TomCatsBundledDeathsRisingMinimapButton"] = {
-			["position"] = -2.656650544173709,
+		["TomCats-MinimapButton"] = {
+			["hidden"] = false,
+			["position"] = -2.888,
 		},
+		["betaEnabled"] = false,
+		["defaultVignetteIcon"] = "default",
+	},
+	["lastExpirationWarning"] = 0,
+	["discoveriesResetCount"] = 0,
+	["discoveries"] = {
+		["vignetteAtlases"] = {
+		},
+		["vignettes"] = {
+		},
+	},
+	["lunarfestival"] = {
 	},
 }
