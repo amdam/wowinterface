@@ -415,7 +415,7 @@ do
 			self:SayCountdown(332664, 10, icon)
 			self:OpenProximity(332664, 8)
 		end
-		self:NewTargetsMessage(332664, "yellow", playerList, CL.adds)
+		self:NewTargetsMessage(332664, "yellow", playerList, nil, CL.adds)
 
 		self:CustomIcon(concentratedAnimaMarker, args.destName, icon)
 		if not isOnMe then
@@ -445,7 +445,7 @@ end
 
 function mod:UnconscionableGuiltApplied(args)
 	local amount = args.amount or 1
-	self:NewStackMessage(args.spellId, "yellow", args.destName, amount)
+	self:NewStackMessage(args.spellId, "yellow", args.destName, amount, amount)
 	self:PlaySound(args.spellId, "alarm", nil, args.destName)
 end
 

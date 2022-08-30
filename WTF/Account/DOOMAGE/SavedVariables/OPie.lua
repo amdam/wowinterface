@@ -2,8 +2,8 @@
 OneRing_Config = {
 	["CharProfiles"] = {
 	},
-	["_GameVersion"] = "9.2.5",
-	["_OPieVersion"] = "Xe 6 (3.106)",
+	["_GameVersion"] = "9.2.7",
+	["_OPieVersion"] = "Xe 8 (3.107)",
 	["ProfileStorage"] = {
 		["default"] = {
 			["Bindings"] = {
@@ -337,8 +337,8 @@ OneRing_Config = {
 				{
 					"equipmentset", -- [1]
 					"frost", -- [2]
-					["sliceToken"] = "ABueaL4inxn",
 					["show"] = "[spec:63/62] hide;",
+					["sliceToken"] = "ABueaL4inxn",
 				}, -- [4]
 				{
 					"equipmentset", -- [1]

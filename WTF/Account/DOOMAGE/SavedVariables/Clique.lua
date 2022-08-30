@@ -33,13 +33,13 @@ CliqueDB3 = {
 		},
 		["Christoff - Turalyon"] = {
 			["spec1_profileKey"] = "Christoff - Turalyon",
-			["spec2_profileKey"] = "Christoff - Turalyon",
+			["spec3_profileKey"] = "Christoff - Turalyon",
 			["downclick"] = false,
 			["spec4_profileKey"] = "Christoff - Turalyon",
 			["fastooc"] = false,
+			["spec2_profileKey"] = "Christoff - Turalyon",
 			["alerthidden"] = true,
 			["specswap"] = false,
-			["spec3_profileKey"] = "Christoff - Turalyon",
 		},
 		["Kayne - Turalyon"] = {
 			["alerthidden"] = true,
@@ -55,12 +55,12 @@ CliqueDB3 = {
 		},
 		["Amdam - Turalyon"] = {
 			["spec1_profileKey"] = "Amdam - Turalyon",
-			["alerthidden"] = true,
+			["spec3_profileKey"] = "Amdam - Turalyon",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Amdam - Turalyon",
 			["spec2_profileKey"] = "Amdam - Turalyon",
 			["specswap"] = false,
+			["alerthidden"] = true,
 		},
 	},
 	["profileKeys"] = {
@@ -1111,11 +1111,14 @@ CliqueDB3 = {
 					["spell"] = "Bestow Faith",
 				}, -- [6]
 				{
-					["type"] = "menu",
-					["key"] = "ALT-CTRL-SHIFT-BUTTON2",
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON1",
 					["sets"] = {
-						["spec1"] = true,
+						["spec3"] = true,
+						["spec2"] = true,
 					},
+					["icon"] = 133192,
+					["spell"] = "Word of Glory",
 				}, -- [7]
 				{
 					["spell"] = "Holy Light",
@@ -1136,6 +1139,13 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [9]
 				{
+					["type"] = "menu",
+					["key"] = "ALT-CTRL-SHIFT-BUTTON2",
+					["sets"] = {
+						["spec1"] = true,
+					},
+				}, -- [10]
+				{
 					["spell"] = "Flash of Light",
 					["key"] = "SHIFT-BUTTON1",
 					["sets"] = {
@@ -1143,26 +1153,13 @@ CliqueDB3 = {
 					},
 					["icon"] = 135907,
 					["type"] = "spell",
-				}, -- [10]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON1",
-					["sets"] = {
-						["spec3"] = true,
-						["spec2"] = true,
-					},
-					["icon"] = 133192,
-					["spell"] = "Word of Glory",
 				}, -- [11]
 				{
-					["type"] = "spell",
-					["key"] = "BUTTON3",
+					["type"] = "target",
+					["key"] = "ALT-CTRL-SHIFT-BUTTON1",
 					["sets"] = {
-						["spec3"] = true,
-						["spec2"] = true,
+						["spec1"] = true,
 					},
-					["icon"] = 135953,
-					["spell"] = "Cleanse Toxins",
 				}, -- [12]
 				{
 					["spell"] = "Absolution",
@@ -1184,19 +1181,22 @@ CliqueDB3 = {
 				}, -- [14]
 				{
 					["type"] = "spell",
+					["key"] = "BUTTON3",
+					["sets"] = {
+						["spec3"] = true,
+						["spec2"] = true,
+					},
+					["icon"] = 135953,
+					["spell"] = "Cleanse Toxins",
+				}, -- [15]
+				{
+					["type"] = "spell",
 					["key"] = "BUTTON2",
 					["sets"] = {
 						["spec1"] = true,
 					},
 					["icon"] = 133192,
 					["spell"] = "Word of Glory",
-				}, -- [15]
-				{
-					["type"] = "target",
-					["key"] = "ALT-CTRL-SHIFT-BUTTON1",
-					["sets"] = {
-						["spec1"] = true,
-					},
 				}, -- [16]
 				{
 					["spell"] = "Cleanse",

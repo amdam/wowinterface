@@ -313,8 +313,8 @@ Omen3DB = {
 			["PositionY"] = 252.6084594726563,
 			["PositionW"] = 157.3332672119141,
 			["Shown"] = false,
-			["PositionX"] = 1652.663818359375,
 			["VGrip1"] = 66.86663856506347,
+			["PositionX"] = 1652.663818359375,
 			["PositionH"] = 214.1481018066406,
 		},
 		["Adreya - Bloodscalp"] = {
@@ -442,13 +442,13 @@ Omen3DB = {
 			["VGrip2"] = 82.2890122421155,
 			["PositionY"] = 189.7171020507813,
 			["PositionW"] = 143.1113891601563,
-			["VGrip1"] = 60.8223133963462,
+			["PositionH"] = 188.9110412597656,
 			["Shown"] = false,
-			["PositionX"] = 1690.745361328125,
 			["MinimapIcon"] = {
 				["minimapPos"] = 47.7249860870362,
 			},
-			["PositionH"] = 188.9110412597656,
+			["PositionX"] = 1690.745361328125,
+			["VGrip1"] = 60.8223133963462,
 		},
 		["Adris - Turalyon"] = {
 			["Shown"] = false,

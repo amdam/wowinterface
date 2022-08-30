@@ -88,15 +88,18 @@ L["CONFIG_LIFO_CATEGORY"] = "Vendita"
 L["CONFIG_MAIL_TOOLTIP"] = "Visualizza il tooltips della casella postale."
 L["CONFIG_NOT_LIFO_CATEGORY"] = "Equipaggiamento/Mascotte"
 L["CONFIG_PET_TOOLTIP"] = "Mostra tooltip Mascotte"
-L["CONFIG_PRICE_HISTORY"] = "Mostra lo storico dei prezzi nella scheda Vendite (richiesto il riavvio)"
-L["CONFIG_PRICE_HISTORY_TOOLTIP_HEADER"] = "Storico Prezzi"
-L["CONFIG_PRICE_HISTORY_TOOLTIP_TEXT"] = "Se questa opzione non è attiva lo storico dei prezzi nella scheda Vendite non verrà mostrato"
 L["CONFIG_PROFILE_CATEGORY"] = "Profilo"
 L["CONFIG_PROFILE_TEXT"] = "Imposta opzioni per ogni personaggio."
 L["CONFIG_PROFILE_TOGGLE"] = "Applica solo a questo personaggio"
 L["CONFIG_QUANTITIES_CATEGORY"] = "Vendi: Quantità"
 L["CONFIG_QUANTITIES_TEXT"] = "Scegli le quantità predefinite per ogni oggetto di ogni categoria."
 L["CONFIG_RESET_STACK_SIZE_MEMORY"] = "Reimposta dimensione stack di memoria"
+--[[Translation missing --]]
+L["CONFIG_SAVE_LAST_DURATION_AS_DEFAULT"] = "Save the last used auction duration as the default"
+--[[Translation missing --]]
+L["CONFIG_SAVE_LAST_DURATION_AS_DEFAULT_TOOLTIP_HEADER"] = "Overwrite default duration with last used"
+--[[Translation missing --]]
+L["CONFIG_SAVE_LAST_DURATION_AS_DEFAULT_TOOLTIP_TEXT"] = "Overwrite default duration with last used"
 L["CONFIG_SCAN_SETTINGS"] = "Impostazioni Scansione"
 L["CONFIG_SCANNING"] = "Impostazioni Scansione Completa"
 L["CONFIG_SELLING_ALL_ITEMS_CATEGORY"] = "Vendi: Tutti gli Oggetti"
@@ -138,18 +141,15 @@ L["CONFIG_SELLING_SHOW_BID_PRICE_TOOLTIP_HEADER"] = "Opzioni Offerta"
 L["CONFIG_SELLING_SHOW_BID_PRICE_TOOLTIP_TEXT"] = "Controlla se attivare o meno l'opzione per il prezzo d'asta per un'oggetto."
 L["CONFIG_SELLING_SKIP_SHORTCUT"] = "La scorciatoia per saltare l'asta dell'oggetto corrente è"
 L["CONFIG_SELLING_TBC_ALL_ITEMS"] = "Opzione per impostare la creazione predefinita delle aste per tutti gli oggetti."
-L["CONFIG_SELLING_TBC_SHOW_ALL_RESULTS"] = "Include aste non necessarie per recuperare il prezzo minimo dei risultati"
-L["CONFIG_SELLING_TBC_SHOW_ALL_RESULTS_TOOLTIP_HEADER"] = "Mostra tutti i risultati"
-L["CONFIG_SELLING_TBC_SHOW_ALL_RESULTS_TOOLTIP_TEXT"] = "Abilitare questa impostazione forza la ricerca dei risultati in tutte le pagine per tutte le aste trovate, anche se è necessaria solamente la prima pagina per determinare il prezzo minimo."
 L["CONFIG_SELLING_TEXT"] = "Opzioni per modificare il comportamento della scheda Acquista."
+--[[Translation missing --]]
+L["CONFIG_SHOPPING_ALWAYS_LOAD_MORE"] = "Always load all available results."
+--[[Translation missing --]]
+L["CONFIG_SHOPPING_ALWAYS_LOAD_MORE_TOOLTIP_HEADER"] = "Always load more"
+--[[Translation missing --]]
+L["CONFIG_SHOPPING_ALWAYS_LOAD_MORE_TOOLTIP_TEXT"] = "While still getting an accurate minimum price some pages are skipped to speed up the shopping search. This prevents any pages from being skipped and ensures all possible results display."
 L["CONFIG_SHOPPING_CATEGORY"] = "Vendi"
 L["CONFIG_SHOPPING_LIST"] = "Impostazioni Lista Acquisti"
-L["CONFIG_SHOPPING_LIST_EXCLUDE_RESULTS_FOR_SPEED"] = "Ignora risultati che non sono visualizzati nella prima pagina della ricerca."
-L["CONFIG_SHOPPING_LIST_EXCLUDE_RESULTS_FOR_SPEED_TOOLTIP_HEADER"] = "Escludi risultati in favore di Velocità"
-L["CONFIG_SHOPPING_LIST_EXCLUDE_RESULTS_FOR_SPEED_TOOLTIP_TEXT"] = "Ignorare i risultati che non sono in prima pagina potrebbe causare la non visualizzazione di alcuni oggetti estremamente cari. Le quantità nello storico prezzi e i risultati di ricerca non saranno accurate."
-L["CONFIG_SHOPPING_LIST_FULL_REFRESH"] = "Aggiorna tutte le pagine quando fai clic sul pulsante Aggiorna"
-L["CONFIG_SHOPPING_LIST_FULL_REFRESH_TOOLTIP_HEADER"] = "Aggiorna Tutte le Pagine"
-L["CONFIG_SHOPPING_LIST_FULL_REFRESH_TOOLTIP_TEXT"] = "È necessaria solo la prima pagina per determinare il prezzo più conveniente, se sei interessato solo al prezzo più conveniente e non hai bisogno di vedere il resto dei risultati puoi disattivare questa opzione per aumentare la velocità."
 L["CONFIG_SHOPPING_LIST_MISSING_TERMS"] = "Una nuova casella di ricerca veloce e storico delle ricerche nella rivisitata scheda Acquista."
 L["CONFIG_SHOPPING_LIST_MISSING_TERMS_TOOLTIP_HEADER"] = "Ricerche senza risultati"
 L["CONFIG_SHOPPING_LIST_MISSING_TERMS_TOOLTIP_TEXT"] = "Quando una ricerca non riporta nessun risultato viene aggiunta una voce con uno zero."
@@ -176,6 +176,8 @@ L["CRAFTED_LEVEL"] = "Livello di creazione"
 L["CREATE"] = "Crea"
 L["CREATE_LIST_DIALOG"] = "Inserisci il nome di una nuova shopping list:"
 L["CURRENT"] = "Attuale"
+--[[Translation missing --]]
+L["CURRENT_PRICES"] = "Current Prices"
 L["CUSTOM_KEYBOARD_SHORTCUTS"] = "Scorciatoie tastiera personalizzate"
 L["DATE"] = "Data"
 L["DAY_1"] = "Domenica"
@@ -218,6 +220,10 @@ L["FINISHED_PROCESSING"] = "Elaborazione di %s oggetti terminata."
 L["FULL_SCAN_ALTERNATE_FAILED"] = "Sansione completa (metodo alternativo) non completata."
 L["FULL_SCAN_BUTTON"] = "Scansione Completa"
 L["FULL_SCAN_FAILED"] = "Scansione completa fallita."
+--[[Translation missing --]]
+L["FULL_SCAN_FAILED_REPLICATE"] = "Full scan (replicate mode) failed to complete."
+--[[Translation missing --]]
+L["FULL_SCAN_FAILED_SUMMARY"] = "Full scan (summary mode) failed to complete."
 L["FULL_SCAN_IN_PROGRESS"] = "Scansione completa in corso."
 L["GEAR_VENDOR_PRICE_MULTIPLIER"] = "Moltiplicatore prezzo vendita Equipaggiamento"
 L["HIDE"] = "Nascondi"
@@ -244,6 +250,8 @@ L["LIST_SEARCH_START"] = "Ricerca di oggetti in %s..."
 L["LIST_SEARCH_STATUS"] = "Ricerca dell'oggetto %s/%s in %s"
 --[[Translation missing --]]
 L["LOAD_HIGHER_PRICES"] = "Load higher prices"
+--[[Translation missing --]]
+L["LOAD_MORE_RESULTS"] = "Load more results"
 L["MAIL_TOOLTIP_TOOLTIP_HEADER"] = "Tooltips Cassetta Postale"
 L["MAIL_TOOLTIP_TOOLTIP_TEXT"] = "Visualizza le informazioni di Auctionator per gli oggetti nella casetta postale al passaggio del mouse."
 L["MAX"] = "Max"
@@ -272,6 +280,8 @@ L["NONE"] = "Nessuno"
 L["NONE_LEFT"] = "Nessuno Rimasto"
 L["NUMBER_SEPARATOR"] = "."
 L["OPEN_ADDON_OPTIONS"] = "Apri Impostazioni Addon"
+--[[Translation missing --]]
+L["OPEN_IN_SHOPPING_TAB"] = "Open in Shopping Tab"
 L["OWNED_COLUMN"] = "Proprio?"
 L["PERCENTAGE"] = "Percentuale"
 L["PERCENTAGE_SUFFIX"] = "% Ribasso"
@@ -433,6 +443,36 @@ L["SPLASH_9108_FEATURES_7"] = "È possibile impostare Il massimo numero di messa
 L["SPLASH_9108_FEATURES_8"] = "Aggiunto, quando è aperta la Casa d'Aste, un pulsante ricerca dei Reagenti alla scheda Creazione che mostra il costo totale dei reagenti richiesti."
 L["SPLASH_9108_FEATURES_9"] = "Puoi cancellare le tue aste, sia da dentro la scheda acquisti sia dalla scheda dedicata alla scansione al ribasso."
 L["SPLASH_9108_FEATURES_HEADER"] = "Caratteristiche della versione Classic"
+--[[Translation missing --]]
+L["SPLASH_9225_ALL_VERSIONS_1"] = "Uses seen vendor prices when calculating crafting costs."
+--[[Translation missing --]]
+L["SPLASH_9225_ALL_VERSIONS_2"] = "Right-click any auction in the Cancelling tab to search for competing auctions."
+--[[Translation missing --]]
+L["SPLASH_9225_ALL_VERSIONS_3"] = "Quality filters for Shopping searches."
+--[[Translation missing --]]
+L["SPLASH_9225_ALL_VERSIONS_4"] = "Shift-click any column headers to reset sorting."
+--[[Translation missing --]]
+L["SPLASH_9225_ALL_VERSIONS_5"] = "Selling tab warns when posting an item below vendor price."
+--[[Translation missing --]]
+L["SPLASH_9225_ALL_VERSIONS_HEADER"] = "Recent features for all versions"
+--[[Translation missing --]]
+L["SPLASH_9225_CLASSIC_1"] = "Now loads fewer pages from the AH when selling or shopping, saving time on busy realms."
+--[[Translation missing --]]
+L["SPLASH_9225_CLASSIC_2"] = "Option for right-clicking an item in your bag to be a way to select it for the selling tab."
+--[[Translation missing --]]
+L["SPLASH_9225_CLASSIC_3"] = "Optional \"Seller(s)\" column when posting or buying auctions (right-click column headers to enable)."
+--[[Translation missing --]]
+L["SPLASH_9225_CLASSIC_4"] = "Blizzard Enchant view shows crafting cost when you are at the AH."
+--[[Translation missing --]]
+L["SPLASH_9225_CLASSIC_5"] = "Click on the item's icon in the Shopping buy screen to view it in the vanilla AH."
+--[[Translation missing --]]
+L["SPLASH_9225_CLASSIC_HEADER"] = "Recent features for Classic"
+--[[Translation missing --]]
+L["SPLASH_9225_DESCRIPTION"] = "Numerous improvements, including selling and shopping on busy classic realms becoming much faster."
+--[[Translation missing --]]
+L["SPLASH_9225_RETAIL_1"] = "Selling tab warns when posting a commodity for an abnormally low price compared to the others listed."
+--[[Translation missing --]]
+L["SPLASH_9225_RETAIL_HEADER"] = "Recent features for Retail"
 L["SPLASH_HIDE_MESSAGE"] = "Non visualizzare fino ad un prossimo aggiornamento"
 L["SPLASH_SCREEN_HEADER"] = "Benvenuto su Auctionator"
 L["STACK_AUCTION_INFO"] = "%s per %s (a %s ognuno)"
@@ -443,6 +483,10 @@ L["STACK_TOOLTIP_TOOLTIP_HEADER"] = "Prezzi Pila"
 L["STACK_TOOLTIP_TOOLTIP_TEXT"] = "Se selezionato, è necessario tenere premuto il tast shift per visualizzare il valore della pila. Se non selezionato, il valore della pila è visualizzato di default."
 L["STARTING_FULL_SCAN"] = "Avvio scansione completa"
 L["STARTING_FULL_SCAN_ALTERNATE"] = "Inizio scansione completa (metodo alternativo)"
+--[[Translation missing --]]
+L["STARTING_FULL_SCAN_REPLICATE"] = "Starting a full scan (replicate mode)."
+--[[Translation missing --]]
+L["STARTING_FULL_SCAN_SUMMARY"] = "Starting a full scan (summary mode)."
 L["STARTING_PRICE_PERCENTAGE"] = "Prezzo di Partenza"
 L["STARTING_PRICE_PERCENTAGE_SUFFIX"] = "% del prezzo pila"
 L["STARTING_PRICE_PERCENTAGE_TOOLTIP_HEADER"] = "Prezzo iniziale di offerta"

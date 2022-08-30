@@ -2,94 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"2", -- [1]
-			"Alânonn-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alânonn-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1375, -- [11]
-			"Player-76-0B74BB3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Alânonn-Sargeras|r",
-			[51] = 1658008239,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [1]
-		{
-			"1", -- [1]
-			"Alânonn-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alânonn-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1376, -- [11]
-			"Player-76-0B74BB3A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Alânonn-Sargeras|r",
-			[51] = 1658008240,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [2]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:15492:Player-3685-0722C2B9:1:7:16:22:4294967295:4294967295:4294967295:4294967295|h[Cornerstone of Creation]|h|r!", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Amdam-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1379, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Amdam|r",
-			[51] = 1658008255,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [3]
-		{
-			"Xy'rath the Covetous 61.97% ~(63.59, 49.05) |cffffff00|Hworldmap:1970:6359:4905|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Thanebrunor-Turalyon", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Thanebrunor-Turalyon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			1419, -- [11]
-			"Player-3685-0797E946", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Thanebrunor|r",
-			[51] = 1658008215,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
 			"Garudeon attackable", -- [1]
 			"Willmaulyou-Bloodhoof", -- [2]
 			"", -- [3]
@@ -110,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Willmaulyou-Bloodhoof|r",
 			[51] = 1658008743,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
+		}, -- [1]
 		{
 			"Tahkwitz 63.78% ~(49.75, 39.61) |cffffff00|Hworldmap:1970:4975:3961|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Rhoysn-Eonar", -- [2]
@@ -132,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaRhoysn-Eonar|r",
 			[51] = 1658009350,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
+		}, -- [2]
 		{
 			"anyone interested in Zatojin", -- [1]
 			"Faelahna-Turalyon", -- [2]
@@ -154,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Faelahna|r",
 			[51] = 1658078433,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
+		}, -- [3]
 		{
 			"furidian up", -- [1]
 			"Devilishbabe-Duskwood", -- [2]
@@ -176,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDevilishbabe-Duskwood|r",
 			[51] = 1658359441,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
+		}, -- [4]
 		{
 			"makes some strange gestures.", -- [1]
 			"Chetalaa-Bloodhoof", -- [2]
@@ -198,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Chetalaa-Bloodhoof|r",
 			[51] = 1658707396,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [9]
+		}, -- [5]
 		{
 			"*-+", -- [1]
 			"Amdam-Turalyon", -- [2]
@@ -220,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Amdam|r",
 			[51] = 1658707493,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [10]
+		}, -- [6]
 		{
 			"Sand Matriarchup", -- [1]
 			"Varíant-Duskwood", -- [2]
@@ -242,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Varíant-Duskwood|r",
 			[51] = 1658707565,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
+		}, -- [7]
 		{
 			"Matriarch up*", -- [1]
 			"Varíant-Duskwood", -- [2]
@@ -264,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Varíant-Duskwood|r",
 			[51] = 1658707575,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
+		}, -- [8]
 		{
 			"who's got a |cff0070dd|Hitem:114943::::::::54:73:::::::::|h[Ultimate Gnomish Army Knife]|h|r?", -- [1]
 			"Wothar-Turalyon", -- [2]
@@ -286,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWothar|r",
 			[51] = 1658707973,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
+		}, -- [9]
 		{
 			"someone come help me kill the gluttonous overgrowth please? |cffffff00|Hworldmap:1970:5357:9358|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Chucklz-DarkIron", -- [2]
@@ -308,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcChucklz-DarkIron|r",
 			[51] = 1658797612,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
+		}, -- [10]
 		{
 			"Corrupted Architect |cffffff00|Hworldmap:1970:4750:6230|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Lictoria-Bloodhoof", -- [2]
@@ -330,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLictoria-Bloodhoof|r",
 			[51] = 1658864111,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
+		}, -- [11]
 		{
 			"Helmix |cffffff00|Hworldmap:1970:5820:6835|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Taitu-Kel'Thuzad", -- [2]
@@ -352,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaTaitu-Kel'Thuzad|r",
 			[51] = 1658864285,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
+		}, -- [12]
 		{
 			"Sand Matriarch Ileus 100.00% ~(53.63, 46.94) |cffffff00|Hworldmap:1970:5363:4694|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Poplockndot-Proudmoore", -- [2]
@@ -374,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edPoplockndot-Proudmoore|r",
 			[51] = 1658864705,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
+		}, -- [13]
 		{
 			"Ganot cast |cff71d5ff|Hspell:34477:0|h[Misdirection]|h|r -> Amdam", -- [1]
 			"Getovrit-Thunderhorn", -- [2]
@@ -396,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Getovrit-Thunderhorn|r",
 			[51] = 1658864718,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [18]
+		}, -- [14]
 		{
 			"Sand Matriarch Ileus died at 10:47 server time!", -- [1]
 			"Poplockndot-Proudmoore", -- [2]
@@ -418,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edPoplockndot-Proudmoore|r",
 			[51] = 1658864797,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
+		}, -- [15]
 		{
 			"|cffffff00|Hworldmap:1970:4361:3206|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r Zatojin event", -- [1]
 			"Incantatore-Proudmoore", -- [2]
@@ -440,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edIncantatore-Proudmoore|r",
 			[51] = 1658864762,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
+		}, -- [16]
 		{
 			"Mother Phestis is also up", -- [1]
 			"Boopasaurus-Proudmoore", -- [2]
@@ -462,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBoopasaurus-Proudmoore|r",
 			[51] = 1658864777,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
+		}, -- [17]
 		{
 			"|cffffff00|Hworldmap:1970:5491:3323|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Blastednutz-Proudmoore", -- [2]
@@ -484,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Blastednutz-Proudmoore|r",
 			[51] = 1658864848,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
+		}, -- [18]
 		{
 			"need more for mother", -- [1]
 			"Blastednutz-Proudmoore", -- [2]
@@ -506,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Blastednutz-Proudmoore|r",
 			[51] = 1658864911,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
+		}, -- [19]
 		{
 			"doing Zatojin first", -- [1]
 			"Boopasaurus-Proudmoore", -- [2]
@@ -528,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBoopasaurus-Proudmoore|r",
 			[51] = 1658864920,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [20]
 		{
 			"ty all", -- [1]
 			"Allixa-Windrunner", -- [2]
@@ -550,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Allixa-Windrunner|r",
 			[51] = 1658864926,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [25]
+		}, -- [21]
 		{
 			"k", -- [1]
 			"Blastednutz-Proudmoore", -- [2]
@@ -572,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Blastednutz-Proudmoore|r",
 			[51] = 1658864927,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [22]
 		{
 			"Reanimatrox Marzan (3.75m/4.21m 89.18%) 63.75 25.81 |cffffff00|Hworldmap:1970:6374:2580|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Tmmerlin-Sargeras", -- [2]
@@ -594,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Tmmerlin-Sargeras|r",
 			[51] = 1658865282,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [23]
 		{
 			"Reanimatrox Marzan died at 12:55 server time!", -- [1]
 			"Tmmerlin-Sargeras", -- [2]
@@ -616,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Tmmerlin-Sargeras|r",
 			[51] = 1658865323,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [24]
 		{
 			"Tahkwitz waiting to die |cffffff00|Hworldmap:1970:4972:3926|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Feeniixx-Duskwood", -- [2]
@@ -638,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Feeniixx-Duskwood|r",
 			[51] = 1658865882,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [25]
 		{
 			"Need peeps for ", -- [1]
 			"Feeniixx-Duskwood", -- [2]
@@ -660,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Feeniixx-Duskwood|r",
 			[51] = 1658865991,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [26]
 		{
 			"antro group forming", -- [1]
 			"Justfreaknme-Mok'Nathal", -- [2]
@@ -682,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaJustfreaknme-Mok'Nathal|r",
 			[51] = 1658865994,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [27]
 		{
 			"Tahkwitz |cffffff00|Hworldmap:1970:4972:3926|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Feeniixx-Duskwood", -- [2]
@@ -704,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Feeniixx-Duskwood|r",
 			[51] = 1658866011,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [28]
 		{
 			"Zatojin 100.00% ~(42.96, 33.39) |cffffff00|Hworldmap:1970:4296:3339|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Mulkin-Bloodhoof", -- [2]
@@ -726,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Mulkin-Bloodhoof|r",
 			[51] = 1659050038,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [29]
 		{
 			"Sand Matriarch Ileus 100.00% ~(51.64, 47.87) |cffffff00|Hworldmap:1970:5164:4787|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Mulkin-Bloodhoof", -- [2]
@@ -748,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Mulkin-Bloodhoof|r",
 			[51] = 1659051259,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [30]
 		{
 			"Mother's up", -- [1]
 			"Daría-Bloodhoof", -- [2]
@@ -770,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Daría-Bloodhoof|r",
 			[51] = 1659051315,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [31]
 		{
 			"Tahkwitz (747.17k/747.17k 100.00%) 49.57 40.01 |cffffff00|Hworldmap:1970:4956:4000|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Lockwarlock-Bloodhoof", -- [2]
@@ -792,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edLockwarlock-Bloodhoof|r",
 			[51] = 1659051471,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [32]
 		{
 			"<RA> Zatojin 98% ~(43.52, 32.94) |cffffff00|Hworldmap:1970:4352:3294|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Ozymndias-Turalyon", -- [2]
@@ -814,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ozymndias|r",
 			[51] = 1659140473,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [33]
 		{
 			"<RA> Xy'rath the Covetous 99% ~(64.06, 49.76) |cffffff00|Hworldmap:1970:6406:4976|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Ozymndias-Turalyon", -- [2]
@@ -836,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Ozymndias|r",
 			[51] = 1659141300,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [34]
 		{
 			"hey hows the s4 team looking?", -- [1]
 			"|Kq22|k", -- [2]
@@ -859,7 +771,7 @@ ElvCharacterDB = {
 			[51] = 1659141736,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "GingerHeals",
-		}, -- [39]
+		}, -- [35]
 		{
 			"Currently we have about 27-28ish people confirmed", -- [1]
 			"|Kq22|k", -- [2]
@@ -882,7 +794,7 @@ ElvCharacterDB = {
 			[51] = 1659142086,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "GingerHeals",
-		}, -- [40]
+		}, -- [36]
 		{
 			"Were you wanting to come back for S4?", -- [1]
 			"|Kq22|k", -- [2]
@@ -905,7 +817,7 @@ ElvCharacterDB = {
 			[51] = 1659142090,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "GingerHeals",
-		}, -- [41]
+		}, -- [37]
 		{
 			"i was thinking about it, as long as perfect attendance isn't expected", -- [1]
 			"|Kq22|k", -- [2]
@@ -928,7 +840,7 @@ ElvCharacterDB = {
 			[51] = 1659142239,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "GingerHeals",
-		}, -- [42]
+		}, -- [38]
 		{
 			"i had heard bench squad was going to do something in s4 but I haven't heard from them in a while so idk if those plans fell through or what", -- [1]
 			"|Kq22|k", -- [2]
@@ -951,7 +863,7 @@ ElvCharacterDB = {
 			[51] = 1659142215,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "GingerHeals",
-		}, -- [43]
+		}, -- [39]
 		{
 			"so if there's a category for \"interested but tentative\" i'd fall into that :)", -- [1]
 			"|Kq22|k", -- [2]
@@ -974,7 +886,7 @@ ElvCharacterDB = {
 			[51] = 1659142311,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "GingerHeals",
-		}, -- [44]
+		}, -- [40]
 		{
 			"Well we're always happy to bring you back in if BS isn't doing anything. Id have to ask Erin if the attendance would be okay to make sure though. :)", -- [1]
 			"|Kq22|k", -- [2]
@@ -997,7 +909,7 @@ ElvCharacterDB = {
 			[51] = 1659142265,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "GingerHeals",
-		}, -- [45]
+		}, -- [41]
 		{
 			"sounds good, I'll be around when i am able and can always be benched if the groups full", -- [1]
 			"|Kq22|k", -- [2]
@@ -1020,7 +932,7 @@ ElvCharacterDB = {
 			[51] = 1659142412,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "GingerHeals",
-		}, -- [46]
+		}, -- [42]
 		{
 			"Nice, I hit up Erin but I think we'd be happy to take you - just have to confirm. You're a solid raider so I dont see any issues, especially since we're only doing norm/heroic.", -- [1]
 			"|Kq22|k", -- [2]
@@ -1043,7 +955,7 @@ ElvCharacterDB = {
 			[51] = 1659142522,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "GingerHeals",
-		}, -- [47]
+		}, -- [43]
 		{
 			"|cffffff00|Hworldmap:1970:5868:3974|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r Otaris the Provoked 100%", -- [1]
 			"Salii-Tanaris", -- [2]
@@ -1065,7 +977,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSalii-Tanaris|r",
 			[51] = 1659142599,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [44]
 		{
 			"awesome! Assuming my prior commitment to BS is no longer needed I'll see you tuesday", -- [1]
 			"|Kq22|k", -- [2]
@@ -1088,7 +1000,7 @@ ElvCharacterDB = {
 			[51] = 1659142754,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "GingerHeals",
-		}, -- [49]
+		}, -- [45]
 		{
 			"Nice! Ill let you know when Erin replies too. :)", -- [1]
 			"|Kq22|k", -- [2]
@@ -1111,7 +1023,7 @@ ElvCharacterDB = {
 			[51] = 1659142807,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "GingerHeals",
-		}, -- [50]
+		}, -- [46]
 		{
 			"Sounds good", -- [1]
 			"|Kq22|k", -- [2]
@@ -1134,7 +1046,7 @@ ElvCharacterDB = {
 			[51] = 1659142904,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "GingerHeals",
-		}, -- [51]
+		}, -- [47]
 		{
 			"Furidian 100.00% ~(63.46, 58.36) |cffffff00|Hworldmap:1970:6346:5836|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Kaullasso-Bloodhoof", -- [2]
@@ -1156,7 +1068,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Kaullasso-Bloodhoof|r",
 			[51] = 1659201872,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [48]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9041:Player-3685-0D06F612:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[Shadowmoon Burial Grounds]|h|r!", -- [1]
 			"Curses-Turalyon", -- [2]
@@ -1178,7 +1090,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edCurses|r",
 			[51] = 1659201905,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [53]
+		}, -- [49]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9054:Player-3685-0D06F612:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Shadowmoon Burial Grounds]|h|r!", -- [1]
 			"Curses-Turalyon", -- [2]
@@ -1200,7 +1112,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edCurses|r",
 			[51] = 1659201905,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [54]
+		}, -- [50]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4476:Player-3685-0D06F612:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[Looking For More]|h|r!", -- [1]
 			"Curses-Turalyon", -- [2]
@@ -1222,7 +1134,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edCurses|r",
 			[51] = 1659201906,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [55]
+		}, -- [51]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13878:Player-3685-0ABFD12C:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[The Master of Revendreth]|h|r!", -- [1]
 			"Myeyeshurt-Turalyon", -- [2]
@@ -1244,7 +1156,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Myeyeshurt|r",
 			[51] = 1659202124,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [56]
+		}, -- [52]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14206:Player-3685-0ABFD12C:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[Blade of the Primus]|h|r!", -- [1]
 			"Myeyeshurt-Turalyon", -- [2]
@@ -1266,7 +1178,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Myeyeshurt|r",
 			[51] = 1659202124,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [57]
+		}, -- [53]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14281:Player-3685-0ABFD12C:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[The Path to Ascension]|h|r!", -- [1]
 			"Myeyeshurt-Turalyon", -- [2]
@@ -1288,7 +1200,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Myeyeshurt|r",
 			[51] = 1659202124,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [58]
+		}, -- [54]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14164:Player-3685-0ABFD12C:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[Awaken, Ardenweald]|h|r!", -- [1]
 			"Myeyeshurt-Turalyon", -- [2]
@@ -1310,7 +1222,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Myeyeshurt|r",
 			[51] = 1659202124,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [59]
+		}, -- [55]
 		{
 			"gluttonous overgrown will not pop up and im in the area", -- [1]
 			"Amarisola-Duskwood", -- [2]
@@ -1332,7 +1244,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Amarisola-Duskwood|r",
 			[51] = 1659202358,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [56]
 		{
 			"did you try rubbing it's vine?", -- [1]
 			"Lucavias-Turalyon", -- [2]
@@ -1354,7 +1266,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Lucavias|r",
 			[51] = 1659202373,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [57]
 		{
 			"all i could do was pull it and still nothing", -- [1]
 			"Amarisola-Duskwood", -- [2]
@@ -1376,7 +1288,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Amarisola-Duskwood|r",
 			[51] = 1659202348,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [58]
 		{
 			"ED meds?", -- [1]
 			"Disastrous-Bloodhoof", -- [2]
@@ -1398,7 +1310,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDisastrous-Bloodhoof|r",
 			[51] = 1659202438,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [59]
 		{
 			"lol", -- [1]
 			"Amarisola-Duskwood", -- [2]
@@ -1420,7 +1332,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Amarisola-Duskwood|r",
 			[51] = 1659202383,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [60]
 		{
 			"yea :)", -- [1]
 			"Stormwraith-Bloodhoof", -- [2]
@@ -1442,7 +1354,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcStormwraith-Bloodhoof|r",
 			[51] = 1659202394,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [61]
 		{
 			"Garudeon's up", -- [1]
 			"Ashen-Bloodhoof", -- [2]
@@ -1464,7 +1376,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edAshen-Bloodhoof|r",
 			[51] = 1659202484,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [62]
 		{
 			"Furidian 90.60% ~(63.94, 59) |cffffff00|Hworldmap:1970:6394:5899|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Kaullasso-Bloodhoof", -- [2]
@@ -1486,7 +1398,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Kaullasso-Bloodhoof|r",
 			[51] = 1659202914,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [63]
 		{
 			"Otiosen is up. |cffffff00|Hworldmap:1970:4342:8780|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Ashen-Bloodhoof", -- [2]
@@ -1508,7 +1420,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edAshen-Bloodhoof|r",
 			[51] = 1659203348,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [64]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9044:Player-3685-0ABFD12C:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[The Everbloom]|h|r!", -- [1]
 			"Myeyeshurt-Turalyon", -- [2]
@@ -1530,7 +1442,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Myeyeshurt|r",
 			[51] = 1659203448,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [69]
+		}, -- [65]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9053:Player-3685-0ABFD12C:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Everbloom]|h|r!", -- [1]
 			"Myeyeshurt-Turalyon", -- [2]
@@ -1552,7 +1464,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Myeyeshurt|r",
 			[51] = 1659203448,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [70]
+		}, -- [66]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9223:Player-3685-0ABFD12C:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[Weed Whacker]|h|r!", -- [1]
 			"Myeyeshurt-Turalyon", -- [2]
@@ -1574,7 +1486,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Myeyeshurt|r",
 			[51] = 1659203448,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [71]
+		}, -- [67]
 		{
 			"Destabilized Core 100.00% ~(53.6, 45.09) |cffffff00|Hworldmap:1970:5360:4509|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Galbrek-Medivh", -- [2]
@@ -1596,7 +1508,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Galbrek-Medivh|r",
 			[51] = 1659290601,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [68]
 		{
 			"|cffffff00|Hworldmap:1970:4374:8837|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r Otiosen up", -- [1]
 			"Jillaco-Alexstrasza", -- [2]
@@ -1618,7 +1530,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeJillaco-Alexstrasza|r",
 			[51] = 1659290786,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [69]
 		{
 			"Furudion up", -- [1]
 			"Danian-Duskwood", -- [2]
@@ -1640,7 +1552,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDanian-Duskwood|r",
 			[51] = 1659291114,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [70]
 		{
 			"Otaris the Provoked 100.00% ~(58.78, 39.44) |cffffff00|Hworldmap:1970:5878:3944|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Voidthree-Turalyon", -- [2]
@@ -1662,7 +1574,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Voidthree|r",
 			[51] = 1659296403,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [71]
 		{
 			"misaligned enforcer is trapped if anyone needs", -- [1]
 			"Tãble-Sargeras", -- [2]
@@ -1684,7 +1596,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Tãble-Sargeras|r",
 			[51] = 1659296708,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [72]
 		{
 			"|cffffff00|Hworldmap:1970:5601:4290|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Tãble-Sargeras", -- [2]
@@ -1706,7 +1618,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Tãble-Sargeras|r",
 			[51] = 1659296712,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [73]
 		{
 			"Tahkwitz 100.00% ~(48.71, 39.11) |cffffff00|Hworldmap:1970:4871:3911|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Voidthree-Turalyon", -- [2]
@@ -1728,7 +1640,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Voidthree|r",
 			[51] = 1659296874,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [74]
 		{
 			"misaligned enforcer is trapped if anyone needs|cffffff00|Hworldmap:1970:5600:4290|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Tãble-Sargeras", -- [2]
@@ -1750,7 +1662,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Tãble-Sargeras|r",
 			[51] = 1659296939,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [75]
 		{
 			"omw", -- [1]
 			"Kynlareth-Turalyon", -- [2]
@@ -1772,7 +1684,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kynlareth|r",
 			[51] = 1659296902,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [76]
 		{
 			"~2min left", -- [1]
 			"Tãble-Sargeras", -- [2]
@@ -1794,7 +1706,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Tãble-Sargeras|r",
 			[51] = 1659296910,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [77]
 		{
 			"Euv'ouk 100.00% ~(47.47, 45.73) |cffffff00|Hworldmap:1970:4747:4573|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Geryone-Turalyon", -- [2]
@@ -1816,7 +1728,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaGeryone|r",
 			[51] = 1659421078,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [78]
 		{
 			"Sand Matriarch Ileus 100.00% ~(52.87, 47.43) |cffffff00|Hworldmap:1970:5287:4743|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Geryone-Turalyon", -- [2]
@@ -1838,7 +1750,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaGeryone|r",
 			[51] = 1659421145,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [79]
 		{
 			"otaris", -- [1]
 			"Lethaline-Duskwood", -- [2]
@@ -1860,7 +1772,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lethaline-Duskwood|r",
 			[51] = 1659421883,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [80]
 		{
 			"<RA> Otaris the Provoked 96% ~(58.65, 40.36) |cffffff00|Hworldmap:1970:5865:4036|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Dnuta-Turalyon", -- [2]
@@ -1882,7 +1794,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Dnuta|r",
 			[51] = 1659421890,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [81]
 		{
 			"Protector of the First Ones 100.00% ~(39.77, 26.36) |cffffff00|Hworldmap:1970:3977:2636|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Geryone-Turalyon", -- [2]
@@ -1904,7 +1816,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaGeryone|r",
 			[51] = 1659422130,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [82]
 		{
 			"any rares?", -- [1]
 			"Iamhavi-Sargeras", -- [2]
@@ -1926,7 +1838,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcIamhavi-Sargeras|r",
 			[51] = 1659423161,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [83]
 		{
 			"Gen Z just came up", -- [1]
 			"Alythiia-Stormrage", -- [2]
@@ -1948,7 +1860,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Alythiia-Stormrage|r",
 			[51] = 1659423188,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [84]
 		{
 			"Corrupted Arch up too", -- [1]
 			"Iamhavi-Sargeras", -- [2]
@@ -1970,7 +1882,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcIamhavi-Sargeras|r",
 			[51] = 1659423269,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [85]
 		{
 			"Protector up", -- [1]
 			"Tazzaroni-Turalyon", -- [2]
@@ -1992,7 +1904,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cTazzaroni|r",
 			[51] = 1659481790,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [86]
 		{
 			"summoning Furidian in one minute", -- [1]
 			"Dooran-Bloodhoof", -- [2]
@@ -2014,7 +1926,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcDooran-Bloodhoof|r",
 			[51] = 1659482183,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [87]
 		{
 			"Feasting is up ", -- [1]
 			"Audrianna-Duskwood", -- [2]
@@ -2036,7 +1948,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edAudrianna-Duskwood|r",
 			[51] = 1659482274,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [88]
 		{
 			"his name is lavaborn see him kill him for fun ", -- [1]
 			"Rumplebump-Turalyon", -- [2]
@@ -2058,7 +1970,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rumplebump|r",
 			[51] = 1659482229,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [89]
 		{
 			"|cffffff00|Hworldmap:1970:5437:3507|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r mother", -- [1]
 			"Shrekisthere-Tichondrius", -- [2]
@@ -2080,7 +1992,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Shrekisthere-Tichondrius|r",
 			[51] = 1659483118,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [90]
 		{
 			"Mother Phestis 100.00% ~(54.51, 34.37) |cffffff00|Hworldmap:1970:5450:3437|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Lacei-Stormrage", -- [2]
@@ -2102,7 +2014,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lacei-Stormrage|r",
 			[51] = 1659483095,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [91]
 		{
 			"Feasting 41.67% ~(61.12, 51.57) |cffffff00|Hworldmap:1970:6111:5157|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Neuria-Proudmoore", -- [2]
@@ -2124,7 +2036,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Neuria-Proudmoore|r",
 			[51] = 1659483306,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [92]
 		{
 			"Xy'rath the Covetous 76.98% ~(63.7, 49) |cffffff00|Hworldmap:1970:6370:4900|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Lacei-Stormrage", -- [2]
@@ -2146,7 +2058,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lacei-Stormrage|r",
 			[51] = 1659483405,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [93]
 		{
 			"...", -- [1]
 			"Danian-Duskwood", -- [2]
@@ -2168,7 +2080,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDanian-Duskwood|r",
 			[51] = 1659483426,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [94]
 		{
 			"Gluttonous Overgrowth 98.98% ~(52.7, 93.02) |cffffff00|Hworldmap:1970:5270:9302|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Lacei-Stormrage", -- [2]
@@ -2189,6 +2101,94 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cfffe7b09Lacei-Stormrage|r",
 			[51] = 1659483570,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"Tahkwitz 44.41% ~(48.7, 37.35) |cffffff00|Hworldmap:1970:4870:3735|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Stormdorf-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Stormdorf-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			7, -- [11]
+			"Player-3685-0DDA9A09", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcStormdorf|r",
+			[51] = 1659571976,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"Mother Phestis 100.00% ~(54.8, 34.09) |cffffff00|Hworldmap:1970:5480:3409|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Stormdorf-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Stormdorf-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			16, -- [11]
+			"Player-3685-0DDA9A09", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcStormdorf|r",
+			[51] = 1659572436,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"Shifting Stargorger 90.26% ~(41.71, 22.06) |cffffff00|Hworldmap:1970:4171:2206|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Yontropekim-Elune", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Yontropekim-Elune", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			14, -- [11]
+			"Player-67-0119D0AA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Yontropekim-Elune|r",
+			[51] = 1659574522,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"Garudeon (1.20m/1.20m 100.00%) 68.46 37.37 |cffffff00|Hworldmap:1970:6845:3736|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Knicknac-Elune", -- [2]
+			"", -- [3]
+			"1. General - Zereth Mortis", -- [4]
+			"Knicknac-Elune", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zereth Mortis", -- [9]
+			0, -- [10]
+			83, -- [11]
+			"Player-67-004D2CC8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Knicknac-Elune|r",
+			[51] = 1659575148,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},

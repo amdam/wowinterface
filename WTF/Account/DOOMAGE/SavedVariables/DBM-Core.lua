@@ -135,7 +135,7 @@ DBM_AllSavedOptions = {
 		["HUDAlpha1"] = 0.5,
 		["StatusEnabled"] = true,
 		["ShowAdvSWSounds"] = false,
-		["CoreSavedRevision"] = 20220802031754,
+		["CoreSavedRevision"] = 20220816161347,
 		["RangeFrameX"] = -360.460571289063,
 		["AlwaysShowSpeedKillTimer"] = true,
 		["HUDColor2"] = {
@@ -326,13 +326,13 @@ DBM_AllSavedOptions = {
 		["SpecialWarningFlashAlph5"] = 0.5,
 		["SpecialWarningDuration2"] = 1.5,
 		["HealthFrameWidth"] = 200,
+		["ShowAdvSWSound"] = true,
+		["ShowEngageMessage"] = true,
 		["SpecialWarningFontColor"] = {
 			0.827450980392157, -- [1]
 			0.145098039215686, -- [2]
 			1, -- [3]
 		},
-		["ShowEngageMessage"] = true,
-		["RangeFrameSound1"] = "none",
 		["HPFrameY"] = 226.418319702148,
 		["WarningFontSize"] = 20,
 		["EventSoundVictory2"] = "None",
@@ -355,7 +355,7 @@ DBM_AllSavedOptions = {
 		["HUDSize1"] = 5,
 		["AutoRespond"] = true,
 		["EventDungMusicMythicFilter"] = true,
-		["ShowAdvSWSound"] = true,
+		["RangeFrameSound1"] = "none",
 		["RangeFrameFrames"] = "radar",
 		["EventSoundWipe"] = "None",
 		["ShowBigBrotherOnCombatStart"] = false,
@@ -527,7 +527,7 @@ DBM_AllSavedOptions = {
 		["RangeFrameRadarY"] = 130.863861083984,
 		["HUDAlpha2"] = 0.5,
 		["StatusEnabled"] = true,
-		["CoreSavedRevision"] = 20220802031754,
+		["CoreSavedRevision"] = 20220823223311,
 		["RangeFrameX"] = 430.817260742188,
 		["AlwaysShowSpeedKillTimer"] = true,
 		["RangeFrameY"] = -189.244369506836,

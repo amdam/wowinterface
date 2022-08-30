@@ -325,14 +325,14 @@ function HealBot_Panel_ClearBlackList()
     for x,_ in pairs(HealBot_Panel_BlackList) do
         HealBot_Panel_BlackList[x]=nil
     end 
-    HealBot_Timers_Set("PARTYSLOW","RefreshPartyNextRecalcAll")
+    HealBot_Timers_Set("INIT","RefreshPartyNextRecalcAll")
 end
 
 function HealBot_Panel_AddBlackList(unit)
     xGUID=UnitGUID(unit)
     if xGUID then
         HealBot_Panel_BlackList[xGUID]=true;
-        HealBot_Timers_Set("PARTYSLOW","RefreshPartyNextRecalcAll")
+        HealBot_Timers_Set("INIT","RefreshPartyNextRecalcAll")
     end
 end
 
@@ -363,9 +363,9 @@ function HealBot_Panel_ToggelHealTarget(unit, perm)
             table.insert(HealBot_MyHealTargets,xGUID)
         end
     end
-    HealBot_Timers_Set("PARTYSLOW","RefreshPartyNextRecalcPlayers")
-    HealBot_Timers_Set("PARTYSLOW","RefreshPartyNextRecalcPets")
-    --HealBot_Timers_Set("PARTYSLOW","RefreshPartyNextRecalcAll")
+    HealBot_Timers_Set("INIT","RefreshPartyNextRecalcPlayers")
+    HealBot_Timers_Set("INIT","RefreshPartyNextRecalcPets")
+    --HealBot_Timers_Set("INIT","RefreshPartyNextRecalcAll")
 end
 
 function HealBot_Panel_ToggelPrivateTanks(unit, perm)
@@ -385,9 +385,9 @@ function HealBot_Panel_ToggelPrivateTanks(unit, perm)
         end
     end
     --HealBot_Panel_buildDataStore(true, true)
-    HealBot_Timers_Set("PARTYSLOW","RefreshPartyNextRecalcPlayers")
-    HealBot_Timers_Set("PARTYSLOW","RefreshPartyNextRecalcPets")
-    --HealBot_Timers_Set("PARTYSLOW","RefreshPartyNextRecalcAll")
+    HealBot_Timers_Set("INIT","RefreshPartyNextRecalcPlayers")
+    HealBot_Timers_Set("INIT","RefreshPartyNextRecalcPets")
+    --HealBot_Timers_Set("INIT","RefreshPartyNextRecalcAll")
 end
 
 function HealBot_Panel_ToggelPrivateHealers(unit, perm)
@@ -407,9 +407,9 @@ function HealBot_Panel_ToggelPrivateHealers(unit, perm)
         end
     end
     --HealBot_Panel_buildDataStore(true, true)
-    HealBot_Timers_Set("PARTYSLOW","RefreshPartyNextRecalcPlayers")
-    HealBot_Timers_Set("PARTYSLOW","RefreshPartyNextRecalcPets")
-    --HealBot_Timers_Set("PARTYSLOW","RefreshPartyNextRecalcAll")
+    HealBot_Timers_Set("INIT","RefreshPartyNextRecalcPlayers")
+    HealBot_Timers_Set("INIT","RefreshPartyNextRecalcPets")
+    --HealBot_Timers_Set("INIT","RefreshPartyNextRecalcAll")
 end
 
 function HealBot_Panel_RetMyHealTarget(unit, perm)
@@ -469,18 +469,18 @@ local roleTextures={
     }
     
 local classTextures={
-    ["DEAT"]="Interface\\Addons\\HealBot\\Images\\Deathknight",
-    ["DEMO"]="Interface\\Addons\\HealBot\\Images\\Demonhunter",
-    ["DRUI"]="Interface\\Addons\\HealBot\\Images\\Druid",
-    ["HUNT"]="Interface\\Addons\\HealBot\\Images\\Hunter",
-    ["MAGE"]="Interface\\Addons\\HealBot\\Images\\Mage",
-    ["MONK"]="Interface\\Addons\\HealBot\\Images\\Monk",
-    ["PALA"]="Interface\\Addons\\HealBot\\Images\\Paladin",
-    ["PRIE"]="Interface\\Addons\\HealBot\\Images\\Priest",
-    ["ROGU"]="Interface\\Addons\\HealBot\\Images\\Rogue",
-    ["SHAM"]="Interface\\Addons\\HealBot\\Images\\Shaman",
-    ["WARL"]="Interface\\Addons\\HealBot\\Images\\Warlock",
-    ["WARR"]="Interface\\Addons\\HealBot\\Images\\Warrior",
+    ["DEAT"]="Interface\\Addons\\HealBot\\Images\\Deathknight-round",
+    ["DEMO"]="Interface\\Addons\\HealBot\\Images\\Demonhunter-round",
+    ["DRUI"]="Interface\\Addons\\HealBot\\Images\\Druid-round",
+    ["HUNT"]="Interface\\Addons\\HealBot\\Images\\Hunter-round",
+    ["MAGE"]="Interface\\Addons\\HealBot\\Images\\Mage-round",
+    ["MONK"]="Interface\\Addons\\HealBot\\Images\\Monk-round",
+    ["PALA"]="Interface\\Addons\\HealBot\\Images\\Paladin-round",
+    ["PRIE"]="Interface\\Addons\\HealBot\\Images\\Priest-round",
+    ["ROGU"]="Interface\\Addons\\HealBot\\Images\\Rogue-round",
+    ["SHAM"]="Interface\\Addons\\HealBot\\Images\\Shaman-round",
+    ["WARL"]="Interface\\Addons\\HealBot\\Images\\Warlock-round",
+    ["WARR"]="Interface\\Addons\\HealBot\\Images\\Warrior-round",
     }
 
 function HealBot_Panel_retClassRoleIcon(id)
@@ -813,6 +813,7 @@ function HealBot_Panel_ToggleTestBars()
         HealBot_setTestBars=true
         HealBot_Panel_luVars["TestBarsDelAll"]=true
         HealBot_Options_TestBarsButton:SetText(HEALBOT_OPTIONS_TURNTESTBARSOFF)
+        HealBot_Timers_Set("AUX","UpdateAllAuxByType")
     end
 end
 
@@ -929,7 +930,7 @@ function HealBot_Panel_PositionBars(preCombat)
                 end
             end
         elseif vPosButton.id and hbAnchoredButtons[vPosButton.id] then
-            HealBot_Timers_Set("DELAYED","RefreshPartyNextRecalcAll")
+            HealBot_Timers_Set("INIT","RefreshPartyNextRecalcAll")
             HealBot_AddDebug("AnchorButton button and relButton as the same - unit="..(xUnit or "nil"), "Panel", true)
         end
     end)
@@ -1559,7 +1560,7 @@ function HealBot_Panel_TestBarsOn()
     HealBot_Text_UpdateButtons()
     HealBot_Panel_TestBarColUpdate()
     HealBot_Aux_TestUpdate()
-    --HealBot_Timers_Set("INITSLOW","TextUpdateHealth")
+    --HealBot_Timers_Set("SKINS","TextUpdateHealth")
 end
 
 function HealBot_Panel_resetTestCols(force)
@@ -2386,6 +2387,9 @@ function HealBot_Panel_PetsChanged(preCombat)
             end
         end
         HealBot_Panel_SetupExtraBars(hbCurrentFrame, preCombat)
+        if HealBot_Panel_luVars["NumPets"]>HealBot_retLuVars("NumPetUnits") then
+            HealBot_setLuVars("NumPetUnits", HealBot_Panel_luVars["NumPets"])
+        end
     else
         for xUnit,xButton in pairs(HealBot_Pet_Button) do
             if xButton.status.unittype==8 then
@@ -2413,6 +2417,7 @@ function HealBot_Panel_TargetChanged(preCombat)
                     HealBot_Emerg_Button[vTargetButton.id]:Show()
                 end
                 HealBot_Panel_TargetChangedCheckFocus()
+                HealBot_AuxSetTargetBar()
             else
                 HealBot_Action_HidePanel(hbCurrentFrame)
             end
@@ -2425,6 +2430,7 @@ function HealBot_Panel_TargetChanged(preCombat)
         end
         HealBot_Action_HidePanel(hbCurrentFrame)
     end
+    HealBot_setLuVars("PlayerTargetChanged", false)
         --HealBot_setCall("HealBot_Panel_TargetChanged")
 end
 
@@ -2508,6 +2514,7 @@ function HealBot_Panel_FocusChanged(preCombat)
     elseif Healbot_Config_Skins.HealGroups[Healbot_Config_Skins.Current_Skin][10]["STATE"] then
         Healbot_Config_Skins.HealGroups[Healbot_Config_Skins.Current_Skin][10]["STATE"]=false
     end
+    HealBot_setLuVars("PlayerTargetChanged", false)
 end
 
 function HealBot_Panel_IsTargetingEnemy(unit)
@@ -2577,6 +2584,7 @@ function HealBot_Panel_PlayersChanged(preCombat)
     end
     if Healbot_Config_Skins.HealGroups[Healbot_Config_Skins.Current_Skin][9]["FRAME"]<6 then
         vTargetWithPlayers=true
+        HealBot_setLuVars("PlayerTargetChanged", false)
     else
         vTargetWithPlayers=false
     end
@@ -2665,6 +2673,9 @@ function HealBot_Panel_PlayersChanged(preCombat)
             HealBot_Action_MarkDeleteButton(xButton)
         end
     end
+    if HealBot_Panel_luVars["NumPrivate"]>HealBot_retLuVars("NumPrivateUnits") then
+        HealBot_setLuVars("NumPrivateUnits", HealBot_Panel_luVars["NumPrivate"])
+    end
     if vPetsWithPlayers then
         for xUnit,xButton in pairs(HealBot_Pet_Button) do
             if HealBot_TrackUnit[xUnit] then
@@ -2690,6 +2701,9 @@ function HealBot_Panel_PlayersChanged(preCombat)
                 HealBot_Action_MarkDeleteButton(xButton)
             end
         end
+    end
+    if HealBot_Panel_luVars["NumPets"]>HealBot_retLuVars("NumPetUnits") then
+        HealBot_setLuVars("NumPetUnits", HealBot_Panel_luVars["NumPets"])
     end
     if vTargetWithPlayers and HealBot_Extra_Button["target"] then
         if HealBot_TrackUnit["target"] then
@@ -2913,16 +2927,6 @@ function HealBot_Panel_PrePartyChanged(preCombat, changeType)
         if Healbot_Config_Skins.HealGroups[Healbot_Config_Skins.Current_Skin][10]["FRAME"]==9 then HealBot_Panel_DoPartyChanged(preCombat, 4) end
         HealBot_Panel_DoPartyChanged(preCombat, 6)
     end 
-    
-    local nMembers=GetNumGroupMembers()+HealBot_Panel_luVars["NumPrivate"]+HealBot_Panel_luVars["NumPets"]+1
-    if nMembers>HealBot_Globals.AutoCacheSize then    
-        HealBot_Globals.AutoCacheSize=nMembers
-    end
-    if HealBot_Panel_luVars["resetAuxText"] then
-        HealBot_Panel_luVars["resetAuxText"]=false
-        HealBot_Aux_ResetTextButtons()
-    end
-    HealBot_Timers_Set("DELAYED","ProcCacheButtons")
 end
 
 function HealBot_Panel_PartyChanged(preCombat, changeType)

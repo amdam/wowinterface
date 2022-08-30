@@ -61,6 +61,7 @@ function HealBot_Lang_Options_enALL()
                                  ["SPELLSSELECTMACRO"]=HEALBOT_WORD_MACROS,
                                  ["SPELLSSELECTITEMS"]=HEALBOT_OPTIONS_ITEMS,
                                  ["SPELLSSELECTCMDS"]=HEALBOT_WORD_COMMANDS,
+                                 ["SPELLSSELECTEMOTES"]=HEALBOT_EMOTES,
                                  ["SPELLSSELECTCANCEL"]=HEALBOT_WORD_CANCEL,
                                  ["SMARTCAST"]=HEALBOT_OPTIONS_ENABLESMARTCAST,
                                  ["SMARTCASTAVOIDPVP"]=HEALBOT_OPTIONS_PROTECTPVP,
@@ -80,7 +81,9 @@ function HealBot_Lang_Options_enALL()
                                  ["HIDEBLIZPARTYFRAMES"]=HEALBOT_OPTIONS_HIDEPARTYFRAMES,
                                  ["HIDEBLIZBOSSFRAMES"]=HEALBOT_OPTIONS_HIDEMINIBOSSFRAMES,
                                  ["HIDEBLIZRAIDFRAMES"]=HEALBOT_OPTIONS_HIDERAIDFRAMES,
+                                 ["HIDEBLIZFOCUSFRAMES"]=HEALBOT_OPTIONS_HIDEFOCUSFRAME,
                                  ["FADEWHENNOMOUSE"]=HEALBOT_OPTION_GLOBALDIMMING,
+                                 ["ALWAYRUNEVENTS"]=HEALBOT_OPTIONS_ALWAYRUNEVENTS,
                         -- Skins Effects tab
                                  ["USEFLUIDBARS"]=HEALBOT_OPTION_USEFLUIDBARS,
                                  ["FLUIDBARSINCALPHA"]=HEALBOT_OPTION_FLUIDBARSINCALPHA,
@@ -371,9 +374,12 @@ function HealBot_Lang_Options_enALL()
                         -- Skins Frames Icons Extra tabs
                                  ["ICONSCLASSROLE"]="Icons Extras Class / Role",
                                  ["ICONSRAIDTARGET"]="Icons Extras Raid Target",
-                                 ["ICONSREADYCHECK"]="Icons Extras Ready Check",
+                                 ["ICONSREADYCHECK"]="Icons Extras State",
                                  ["ICONSOORARROW"]="Icons Extras Out of Range Arrow.",
                                  ["ICONSHOWRC"]=HEALBOT_OPTIONS_SHOWREADYCHECK,
+                                 ["ICONSHOWCOMBAT"]=HEALBOT_OPTIONS_SHOWCOMBATSTATE,
+                                 ["ICONSHOWHOSTILE"]=HEALBOT_OPTIONS_SHOWHOSTILE,
+                                 ["ICONSHOWRESTING"]=HEALBOT_OPTIONS_SHOWRESTING,
                                  ["ICONSHOWCLASS"]=HEALBOT_OPTIONS_SHOWCLASSICON,
                                  ["ICONSHOWRT"]=HEALBOT_OPTIONS_BARBUTTONSHOWRAIDICON,
                                  ["ICONSHOWDIR"]=HEALBOT_OPTIONS_SHOWDIRECTION,
@@ -515,10 +521,8 @@ function HealBot_Lang_Options_enALL()
                                  ["TOOLTIPPOSITIONLINK"]=HEALBOT_OPTIONS_SETTOOLTIP_POSITION,
                                  ["TOOLTIPCUSTOMANCHOR"]=HEALBOT_OPTIONS_SETTOOLTIP_CUSTOMANCHOR,
                                  ["TOOLTIPALPHA"]=HEALBOT_OPTIONS_TTALPHA,
-                        -- Mouse Wheel tab
-                                 ["BUFFSMOUSEWHEELUSE"]=HEALBOT_OPTIONS_MOUSEWHEEL,
-                                 ["BUFFSMOUSEWHEELCMD"]="Mouse Wheel Commands",
-                                 ["BUFFSMOUSEWHEELEMOTE"]="Mouse Wheel Emotes",
+                        -- Binds tab
+                                 ["BINDTOCLICK"]=HEALBOT_OPTIONS_BINDTOCLICK,
                         -- Test tab
                                  ["TESTUSE"]=HEALBOT_OPTIONS_TESTBARS,
                                  ["TESTPROFILE"]=HEALBOT_WORDS_PROFILE,
@@ -585,7 +589,7 @@ function HealBot_Lang_Options_enALL()
                                ["PROFILE"]="Select to use Class or Character for saving\nsettings related to Spells, Buffs and Debuffs.",
                                ["SETPROFILE"]="Set the profile selected.",
                                ["OPTTHEME"]="Set the options Title Box, Borders and Contents text Col"..HEALBOT_enWORD_COLOUR_SUFFIX..".",
-                               ["CLASSTYPES"]="Classes can be grouped as Melee, Ranged, Healers and Custom.\nGroups of classes are available in options:\n- Bars Visibility\n- General Debuffs\n- General Buffs\n--\nThese settings date back to Classic and have little use in today's WoW.\nThey have near zero overhead and so are kept as some might find them useful.",
+                               ["CLASSTYPES"]="Classes can be grouped as Melee, Ranged, Healers and Custom.\nGroups of classes are available in options:\n- General Debuffs\n- General Buffs\n--\nThese settings date back to Classic and have little use in today's WoW.\nThey have near zero overhead and so are kept as some might find them useful.",
                         -- Overrides tab
                                ["OVERRIDESEFFECTS"]="Show the Overrides Effects tab.",
                                ["OVERRIDESCHAT"]="Show the Overrides Chat tab.",
@@ -594,21 +598,22 @@ function HealBot_Lang_Options_enALL()
                         -- Spells tab
                                ["SETSPELLSFOR"]="Set spells that can be used on Friendly and Hostile characters:\n--\n".._G["GREEN_FONT_COLOR_CODE"].."* Health Bars - Spells that can be cast on the health bars.\n".._G["GREEN_FONT_COLOR_CODE"].."* Emergency Bars - Spells that can be cast on the emergency bars.\n".._G["GREEN_FONT_COLOR_CODE"].."* Icons - Commands that can be used on icons.",
                                ["SPELLSUSEICONCMDS"]="Turn On/Off the use of Icon Commands set on this tab.\n--\n".._G["GREEN_FONT_COLOR_CODE"].."On: Click on buff/debuff icons to run commands with icon tooltips.\n".._G["GREEN_FONT_COLOR_CODE"].."Off: Click through icons to cast spells on the health/emergancy bar with normal tooltips.",
-                               ["SPELLSBUTTON"]="Modifier key held when casting.",
+                               ["SPELLSBUTTON"]="Modifier key held when casting.\n--\n".."|cff77c8ff".."TIP: Set spells with the same range on the same modifier keys combination.",
                                ["SPELLSBUTTONCAST"]="Timing of the spell cast\n".._G["GREEN_FONT_COLOR_CODE"].."Cast when the button is Pressed or Released.",
                                ["SPELLSAVOIDBLUE"]="Cast an invalid spell and ended up with\na blue cursor? this option is your friend.",
                                ["SPELLSAUTOTARGET"]="Set the healers target to the character\nreceiving the current spell cast.",
                                ["SPELLSAUTOTRINKET"]="Attempt to use trinkets automatically when casting spells.\n".._G["ORANGE_FONT_COLOR_CODE"].."-------------\n".._G["ORANGE_FONT_COLOR_CODE"].."WARNING\n".._G["ORANGE_FONT_COLOR_CODE"].."-------------\n".._G["ORANGE_FONT_COLOR_CODE"].."Some trinkets break the cast using this method\n".._G["ORANGE_FONT_COLOR_CODE"].."ensure the trinket works with the spell selected.",
-                               ["SPELLSBUTTONCLICK"]="Spell to cast on the Left Button.\n--\n".._G["GREEN_FONT_COLOR_CODE"].."NOTE: The spell can be typed directly into the textbox.\n--\n".."|cff77c8ff".."TIP: When typed correctly the text will change col"..HEALBOT_enWORD_COLOUR_SUFFIX.."\n".."|cff77c8ff".."and show up in Healbot's tooltip.\n--\n".."|cffffffff".."White: Spells\n".."|cff51ff7f".."Green: Macros\n".."|cff517fff".."Blue: Items\n".."|cffffff00".."Yellow: Commands",
-                               ["SPELLSBUTTONSHIFTCLICK"]="Spell to cast on the Middle Button.\n--\n".._G["GREEN_FONT_COLOR_CODE"].."NOTE: The spell can be typed directly into the textbox.\n--\n".."|cff77c8ff".."TIP: When typed correctly the text will change col"..HEALBOT_enWORD_COLOUR_SUFFIX.."\n".."|cff77c8ff".."and show up in Healbot's tooltip.\n--\n".."|cffffffff".."White: Spells\n".."|cff51ff7f".."Green: Macros\n".."|cff517fff".."Blue: Items\n".."|cffffff00".."Yellow: Commands",
-                               ["SPELLSBUTTONCTRLCLICK"]="Spell to cast on the Right Button.\n--\n".._G["GREEN_FONT_COLOR_CODE"].."NOTE: The spell can be typed directly into the textbox.\n--\n".."|cff77c8ff".."TIP: When typed correctly the text will change col"..HEALBOT_enWORD_COLOUR_SUFFIX.."\n".."|cff77c8ff".."and show up in Healbot's tooltip.\n--\n".."|cffffffff".."White: Spells\n".."|cff51ff7f".."Green: Macros\n".."|cff517fff".."Blue: Items\n".."|cffffff00".."Yellow: Commands",
-                               ["SPELLSBUTTONALTCLICK"]="Spell to cast on Button 4.\n--\n".._G["GREEN_FONT_COLOR_CODE"].."NOTE: The spell can be typed directly into the textbox.\n--\n".."|cff77c8ff".."TIP: When typed correctly the text will change col"..HEALBOT_enWORD_COLOUR_SUFFIX.."\n".."|cff77c8ff".."and show up in Healbot's tooltip.\n--\n".."|cffffffff".."White: Spells\n".."|cff51ff7f".."Green: Macros\n".."|cff517fff".."Blue: Items\n".."|cffffff00".."Yellow: Commands",
-                               ["SPELLSBUTTONSHIFTCTRLCLICK"]="Spell to cast on Button 5.\n--\n".._G["GREEN_FONT_COLOR_CODE"].."NOTE: The spell can be typed directly into the textbox.\n--\n".."|cff77c8ff".."TIP: When typed correctly the text will change col"..HEALBOT_enWORD_COLOUR_SUFFIX.."\n".."|cff77c8ff".."and show up in Healbot's tooltip.\n--\n".."|cffffffff".."White: Spells\n".."|cff51ff7f".."Green: Macros\n".."|cff517fff".."Blue: Items\n".."|cffffff00".."Yellow: Commands",
+                               ["SPELLSBUTTONCLICK"]="Spell to cast on the Left Button.\n--\n".._G["GREEN_FONT_COLOR_CODE"].."NOTE: The spell can be typed directly into the textbox.\n--\n".."|cff77c8ff".."TIP: When typed correctly the text will change col"..HEALBOT_enWORD_COLOUR_SUFFIX.."\n".."|cff77c8ff".."and show up in Healbot's tooltip.\n--\n".."|cffffffff".."White: Spells\n".."|cff51ff7f".."Green: Macros\n".."|cff517fff".."Blue: Items\n".."|cffffff00".."Yellow: Commands\n".."|cffff8800".."Orange: Emotes\n--\n".._G["GREEN_FONT_COLOR_CODE"].."NOTE: For each modifier key combination, range checking is done on the Left click.\n".._G["GREEN_FONT_COLOR_CODE"].."NOTE: On the Left click, range checking is only done when a spell is set.\n".."|cff77c8ff".."TIP: Do not set a macro, item or command on the Left click.\n".."|cff77c8ff".."TIP: Set spells with the same range on the same modifier keys combination.",
+                               ["SPELLSBUTTONSHIFTCLICK"]="Spell to cast on the Middle Button.\n--\n".._G["GREEN_FONT_COLOR_CODE"].."NOTE: The spell can be typed directly into the textbox.\n--\n".."|cff77c8ff".."TIP: When typed correctly the text will change col"..HEALBOT_enWORD_COLOUR_SUFFIX.."\n".."|cff77c8ff".."and show up in Healbot's tooltip.\n--\n".."|cffffffff".."White: Spells\n".."|cff51ff7f".."Green: Macros\n".."|cff517fff".."Blue: Items\n".."|cffffff00".."Yellow: Commands\n".."|cffff8800".."Orange: Emotes\n--\n".."|cff77c8ff".."TIP: Set spells with the same range on the same modifier keys combination.",
+                               ["SPELLSBUTTONCTRLCLICK"]="Spell to cast on the Right Button.\n--\n".._G["GREEN_FONT_COLOR_CODE"].."NOTE: The spell can be typed directly into the textbox.\n--\n".."|cff77c8ff".."TIP: When typed correctly the text will change col"..HEALBOT_enWORD_COLOUR_SUFFIX.."\n".."|cff77c8ff".."and show up in Healbot's tooltip.\n--\n".."|cffffffff".."White: Spells\n".."|cff51ff7f".."Green: Macros\n".."|cff517fff".."Blue: Items\n".."|cffffff00".."Yellow: Commands\n".."|cffff8800".."Orange: Emotes\n--\n".."|cff77c8ff".."TIP: Set spells with the same range on the same modifier keys combination.",
+                               ["SPELLSBUTTONALTCLICK"]="Spell to cast on Button 4.\n--\n".._G["GREEN_FONT_COLOR_CODE"].."NOTE: The spell can be typed directly into the textbox.\n--\n".."|cff77c8ff".."TIP: When typed correctly the text will change col"..HEALBOT_enWORD_COLOUR_SUFFIX.."\n".."|cff77c8ff".."and show up in Healbot's tooltip.\n--\n".."|cffffffff".."White: Spells\n".."|cff51ff7f".."Green: Macros\n".."|cff517fff".."Blue: Items\n".."|cffffff00".."Yellow: Commands\n".."|cffff8800".."Orange: Emotes\n--\n".."|cff77c8ff".."TIP: Set spells with the same range on the same modifier keys combination.",
+                               ["SPELLSBUTTONSHIFTCTRLCLICK"]="Spell to cast on Button 5.\n--\n".._G["GREEN_FONT_COLOR_CODE"].."NOTE: The spell can be typed directly into the textbox.\n--\n".."|cff77c8ff".."TIP: When typed correctly the text will change col"..HEALBOT_enWORD_COLOUR_SUFFIX.."\n".."|cff77c8ff".."and show up in Healbot's tooltip.\n--\n".."|cffffffff".."White: Spells\n".."|cff51ff7f".."Green: Macros\n".."|cff517fff".."Blue: Items\n".."|cffffff00".."Yellow: Commands\n".."|cffff8800".."Orange: Emotes\n--\n".."|cff77c8ff".."TIP: Set spells with the same range on the same modifier keys combination.",
                                ["SPELLSHELPSELECT"]="Displays dropdowns for selecting various\nspells, macros and other commands.",
                                ["SPELLSSELECTSPELL"]="Select a spell for the spells tab.",
                                ["SPELLSSELECTMACRO"]="Select a macro for the spells tab.",
                                ["SPELLSSELECTITEMS"]="Select an item for the spells tab.",
                                ["SPELLSSELECTCMDS"]="Select a command for the spells tab.",
+                               ["SPELLSSELECTEMOTES"]="Select an emote for the spells tab.",
                                ["SPELLSSELECTCANCEL"]="Do not select anything and\nreturn to the spells tab.",
                                ["SMARTCAST"]="Select and cast an appropriate spell for the situation.\nThis only works out of combat.",
                                ["SMARTCASTAVOIDPVP"]="Do not use SmartCast\non PVP flagged players.\n--\n".._G["YELLOW_FONT_COLOR_CODE"].."Note: This will also block all spells when out of combat.",
@@ -625,9 +630,11 @@ function HealBot_Lang_Options_enALL()
                         -- Skins General tab
                                ["SKINDEFAULTFOR"]="Set when the skin is displayed.\n--\n".._G["YELLOW_FONT_COLOR_CODE"].."NOTE: This setting is Per Character.",
                                ["STICKFRAMES"]="When turned on a frame will stick to\nanother frame higher up in the list.\nLocked frames will remain stuck.\nUnlocked frames can be moved away.\n--\n".."|cff77c8ff".."TIP: Use the 1st frame as your main frame\n".."|cff77c8ff".."move other frames to your main frame\n".."|cff77c8ff".."and when stuck lock them.",
-                               ["HIDEBLIZPARTYFRAMES"]="Hide the standard Blizzard party frames\noptionally include the player and pet frames.\n--\n".._G["YELLOW_FONT_COLOR_CODE"].."NOTE: Changing this setting requires a UI Reload.",
-                               ["HIDEBLIZBOSSFRAMES"]="Hide the standard Blizzard boss frames.\n--\n".._G["YELLOW_FONT_COLOR_CODE"].."NOTE: Changing this setting requires a UI Reload.",
-                               ["HIDEBLIZRAIDFRAMES"]="Hide the standard Blizzard raid frames.\n--\n".._G["YELLOW_FONT_COLOR_CODE"].."NOTE: Changing this setting requires a UI Reload.",
+                               ["HIDEBLIZPARTYFRAMES"]="Hide the standard Blizzard party frames\noptionally include the player, pet and target frames.\n--\n".._G["YELLOW_FONT_COLOR_CODE"].."NOTE: Unless always run events is turned on, if target exist\n".._G["YELLOW_FONT_COLOR_CODE"].."when unhiding the frame, target a different unit to show.",
+                               ["HIDEBLIZBOSSFRAMES"]="Hide the standard Blizzard boss frames.",
+                               ["HIDEBLIZRAIDFRAMES"]="Hide the standard Blizzard raid frames.\n--\n".._G["YELLOW_FONT_COLOR_CODE"].."NOTE: Unless always run events is turned on, if the frames\n".._G["YELLOW_FONT_COLOR_CODE"].."exist when unhiding, a UI reload might be required to update.",
+                               ["HIDEBLIZFOCUSFRAMES"]="Hide the standard Blizzard focus frame.\n--\n".._G["YELLOW_FONT_COLOR_CODE"].."NOTE: Unless always run events is turned on, if focus exist\n".._G["YELLOW_FONT_COLOR_CODE"].."when unhiding the frame, focus on a different unit to show.",
+                               ["ALWAYRUNEVENTS"]="Always run Blizzard frame events.\n--\n".._G["ORANGE_FONT_COLOR_CODE"].."WARNING: This option results in unnecessary resource usage\n".._G["ORANGE_FONT_COLOR_CODE"].."Only use if there is a good reason\n--\n".._G["GREEN_FONT_COLOR_CODE"].."Pros:\n".._G["GREEN_FONT_COLOR_CODE"].."- Frames always up to date and shown when unhidden\n".._G["GREEN_FONT_COLOR_CODE"].."- UI reload never required.\n--\n".._G["YELLOW_FONT_COLOR_CODE"].."Cons:\n".._G["YELLOW_FONT_COLOR_CODE"].."- Additional CPU use might result in lower FPS.",
                         -- Skins Effects tab
                                ["USEFLUIDBARS"]="Bar updates due to health changes are done in a fluid motion.\n--\n".._G["YELLOW_FONT_COLOR_CODE"].."NOTE: This option is only available at performance level 3+",
                                ["FLUIDBARSINCALPHA"]="Include col"..HEALBOT_enWORD_COLOUR_SUFFIX.." and alpha changes.",
@@ -921,10 +928,13 @@ function HealBot_Lang_Options_enALL()
                                ["ICONSRAIDTARGET"]="Show the Skins Frames Icons Extras Raid Target tab.",
                                ["ICONSHOWCLASS"]="Shows the Class or Role when set.",
                                ["ICONSHOWRC"]="Shows the ready check status.",
+                               ["ICONSHOWCOMBAT"]="Shows when a player is in combat.",
+                               ["ICONSHOWHOSTILE"]="Shows when a unit is the enemy.",
+                               ["ICONSHOWRESTING"]="Shows when you are resting.\n--\n".._G["YELLOW_FONT_COLOR_CODE"].."NOTE: This only applies to you.",
                                ["ICONSHOWRT"]="Show the raid target when assigned to a player.\nThe target types can be individually filtered.",
                                ["ICONSHOWDIR"]="Show a direction arrow pointing at players out of range.\n--\n".._G["YELLOW_FONT_COLOR_CODE"].."NOTE: This only works outside.",
                                ["ICONSHOWDIRMO"]="Only show the direction arrow\nwhen the mouse is over the bar.",
-                               ["ICONSREADYCHECK"]="Show the Skins Frames Icons Extras Ready Check tab.",
+                               ["ICONSREADYCHECK"]="Show the Skins Frames Icons Extras State tab.",
                                ["ICONSOORARROW"]="Show the Skins Frames Icons Extras Out of Range Arrow tab.",
                                ["ICONOFFSET"]="Offset the icon relative to the anchor.",
                                ["EXTRAICONSCALE"]="The icon scale relative to the bar.",
@@ -1062,10 +1072,8 @@ function HealBot_Lang_Options_enALL()
                                ["TOOLTIPPOSITIONLINK"]="Links to the Skins Frame General tab,\nallowing for different positions per frame.",
                                ["TOOLTIPCUSTOMANCHOR"]="Show the Set custom anchor frame.\nA single custom anchor can be set per Skin.",
                                ["TOOLTIPALPHA"]="Set the transparency of the tooltip.",
-                        -- Mouse Wheel tab
-                               ["BUFFSMOUSEWHEELUSE"]="Turn On/Off usage of the mouse wheel.\n--\n".._G["YELLOW_FONT_COLOR_CODE"].."NOTE: When this is on mouse over macros will not work on HealBot bars",
-                               ["BUFFSMOUSEWHEELCMD"]="Set a command to run with an optional key press\nand mouse wheel up or down combination.",
-                               ["BUFFSMOUSEWHEELEMOTE"]="Select the emote to be used on mouse wheel scroll.",
+                        -- Binds tab
+                               ["BINDTOCLICK"]="Select a key to bind to a button click.",
                         -- Test tab
                                ["TESTUSE"]="Click to Turn On/Turn Off the test bars.\n--\n".."|cff77c8ff".."Tip: Turn on the test bars to easily move frames.",
                                ["TESTPROFILE"]="Profile limits the total number of bars for Groups or Raids.",
@@ -1110,10 +1118,6 @@ function HealBot_Lang_Options_enALL()
                                ["SELECTPLUGIN"]="Select plugin.\n--\nInformation on plugins can be found at "..HEALBOT_ABOUT_URL.."\n--\n".._G["GREEN_FONT_COLOR_CODE"].."- HealBot Threat: ".._G["FONT_COLOR_CODE_CLOSE"].."See threat for all players on multiple mobs.\n".._G["GREEN_FONT_COLOR_CODE"].."- HealBot TimeToDie: ".._G["FONT_COLOR_CODE_CLOSE"].."Player damage tracker showing how soon players will die.\n".._G["GREEN_FONT_COLOR_CODE"].."- HealBot TimeToLive: ".._G["FONT_COLOR_CODE_CLOSE"].."Resurrection monitor tracking incoming and pending resurrections.\n".._G["GREEN_FONT_COLOR_CODE"].."- HealBot ExtraButtons: ".._G["FONT_COLOR_CODE_CLOSE"].."Set spells for use with an MMO mouse on buttons 6 - 15\n".._G["GREEN_FONT_COLOR_CODE"].."- HealBot CombatProt: ".._G["FONT_COLOR_CODE_CLOSE"].."Reserve bars for missing players, protects against missing bars in combat.\n".._G["GREEN_FONT_COLOR_CODE"].."- HealBot Performance: ".._G["FONT_COLOR_CODE_CLOSE"].."Tweak internal timers and effects.\n".._G["GREEN_FONT_COLOR_CODE"].."- HealBot MyCooldowns: ".._G["FONT_COLOR_CODE_CLOSE"].."Track cooldowns for your spells and abilities.",  
                               }
 
-    if HEALBOT_GAME_VERSION<4 then
-        HEALBOT_OPTIONS_HELP_TEXT["HEALBARSTXTCHANGESUMMONTEXTCOL"]="Change the text col"..HEALBOT_enWORD_COLOUR_SUFFIX.."when the player is being summoned.\n".._G["ORANGE_FONT_COLOR_CODE"].."-------------\n".._G["ORANGE_FONT_COLOR_CODE"].."WARNING\n".._G["ORANGE_FONT_COLOR_CODE"].."-------------\n".._G["ORANGE_FONT_COLOR_CODE"].."This setting is only recommended in Retail."
-        HEALBOT_OPTIONS_HELP_TEXT["HEALBARSCOLSUMMONTEXTNAME"]="Set the name text col"..HEALBOT_enWORD_COLOUR_SUFFIX.." when the player is being summoned.\n".._G["ORANGE_FONT_COLOR_CODE"].."-------------\n".._G["ORANGE_FONT_COLOR_CODE"].."WARNING\n".._G["ORANGE_FONT_COLOR_CODE"].."-------------\n".._G["ORANGE_FONT_COLOR_CODE"].."This setting is only recommended in Retail."
-    end
 end
 
 if HealBot_Version_Target() then

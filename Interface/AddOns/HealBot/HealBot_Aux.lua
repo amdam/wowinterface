@@ -16,6 +16,7 @@ HealBot_Aux_luVars["AuxFluidBarOpacityUpdate"]=0.02
 HealBot_Aux_luVars["AuxFluidBarOpacityFreq"]=0.088
 HealBot_Aux_luVars["AuxFluidBarFreq"]=0.088
 HealBot_Aux_luVars["FluidBarSmoothAdj"]=5
+HealBot_Aux_luVars["TestBarsOn"]=false
 
 function HealBot_Aux_setLuVars(vName, vValue)
     HealBot_Aux_luVars[vName]=vValue
@@ -166,7 +167,7 @@ local function HealBot_Aux_setBar(button, id, value, isFluid, text, endTime, Cas
         end
     end
     if text then
-        if Healbot_Config_Skins.AuxBar[Healbot_Config_Skins.Current_Skin][id][button.frame]["ANCHOR"]>2 then
+        if Healbot_Config_Skins.AuxBar[Healbot_Config_Skins.Current_Skin][id][button.frame]["ANCHOR"]>2 and Healbot_Config_Skins.AuxBar[Healbot_Config_Skins.Current_Skin][id][button.frame]["ANCHOR"]<5 then
             text=HealBot_Aux_VerticalText(text)
         end
         if Healbot_Config_Skins.AuxBarText[Healbot_Config_Skins.Current_Skin][id][button.frame]["COLTYPE"]==2 then
@@ -260,9 +261,9 @@ function HealBot_Aux_resetBars()
         HealBot_Timers_Set("AUX","UpdateAllAuxBars")
         HealBot_Timers_Set("AUX","UpdateAllAuxByType")
         HealBot_Timers_Set("PLAYER","PlayerTargetChanged")
-        HealBot_Timers_Set("INITSLOW","AuxFramesChanged")
-        HealBot_Timers_Set("INITSLOW","UpdateAllUnitBars")
-        HealBot_Timers_Set("INITSLOW","AuraCheckUnits")
+        HealBot_Timers_Set("SKINS","AuxFramesChanged")
+        HealBot_Timers_Set("LAST","UpdateAllUnitBars")
+        HealBot_Timers_Set("AURA","CheckUnits")
     else
         HealBot_Timers_Set("AUX","ResetBars")
     end
@@ -800,8 +801,12 @@ function HealBot_Aux_UpdateAbsorbBar(button)
                 button.aux[id]["G"]=button.health.absorbg
                 button.aux[id]["B"]=button.health.absorbb
             end
-            hbAuxHlth10=floor(1000/((button.health.max/10)/button.health.auxabsorbs))
-            if hbAuxHlth10>1000 then hbAuxHlth10=1000 end
+            if button.health.auxabsorbs>0 then
+                hbAuxHlth10=floor(1000/((button.health.max/10)/button.health.auxabsorbs))
+                if hbAuxHlth10>1000 then hbAuxHlth10=1000 end
+            else
+                hbAuxHlth10=0
+            end
             if Healbot_Config_Skins.AuxBar[Healbot_Config_Skins.Current_Skin][id][button.frame]["TEXT"] then
                 if Healbot_Config_Skins.AuxBarText[Healbot_Config_Skins.Current_Skin][id][button.frame]["COLTYPE"]==1 then
                     button.auxtxt[id]["R"],button.auxtxt[id]["G"],button.auxtxt[id]["B"]=(button.health.absorbr+0.2),(button.health.absorbg+0.2),(button.health.absorbb+0.2)
@@ -834,8 +839,12 @@ function HealBot_Aux_UpdateHealInBar(button)
                 button.aux[id]["G"]=button.health.inhealg
                 button.aux[id]["B"]=button.health.inhealb
             end
-            hbAuxHlth10=floor(1000/((button.health.max/10)/button.health.auxincoming))
-            if hbAuxHlth10>1000 then hbAuxHlth10=1000 end
+            if button.health.auxincoming>0 then
+                hbAuxHlth10=floor(1000/((button.health.max/10)/button.health.auxincoming))
+                if hbAuxHlth10>1000 then hbAuxHlth10=1000 end
+            else
+                hbAuxHlth10=0
+            end
             if Healbot_Config_Skins.AuxBar[Healbot_Config_Skins.Current_Skin][id][button.frame]["TEXT"] then
                 if Healbot_Config_Skins.AuxBarText[Healbot_Config_Skins.Current_Skin][id][button.frame]["COLTYPE"]==1 then
                     button.auxtxt[id]["R"],button.auxtxt[id]["G"],button.auxtxt[id]["B"]=(button.health.inhealr+0.2),(button.health.inhealg+0.2),(button.health.inhealb+0.2)
@@ -1092,7 +1101,7 @@ end
 function HealBot_Aux_setOORAssigned(frame, id)
     hbAuxOORAssigned[frame][id]=true
     HealBot_setAuxAssigns("OORBar", frame, true)
-    HealBot_Timers_Set("PARTYSLOW","AuxResetRange")
+    HealBot_Timers_Set("AUX","ResetRange")
 end
 
 function HealBot_Aux_UpdateOORBar(button)
@@ -1149,7 +1158,7 @@ function HealBot_Aux_setRange30Assigned(frame, id)
     hbAuxRange30Assigned[frame][id]=true
     HealBot_setAuxAssigns("Range30Bar", frame, true)
     HealBot_setLuVars("AuxRange30InUse", true)
-    HealBot_Timers_Set("PARTYSLOW","AuxResetRange")
+    HealBot_Timers_Set("AUX","ResetRange")
 end
 
 function HealBot_Aux_UpdateRange30Bar(button)
@@ -1798,33 +1807,33 @@ end
 
 local function HealBot_Aux_UpdateAllAuxByTypeById(f, x)
     if hbAuxNameAssigned[f][x] then
-        HealBot_Timers_Set("INITSLOW","TextUpdateNames")
+        HealBot_Timers_Set("SKINS","TextUpdateNames")
         HealBot_Timers_Set("AUX","CheckAllAuxOverLays")
     elseif hbAuxHealthAssigned[f][x] then
-        HealBot_Timers_Set("INITSLOW","TextUpdateHealth")
+        HealBot_Timers_Set("SKINS","TextUpdateHealth")
         HealBot_Timers_Set("AUX","CheckAllAuxOverLays")
     elseif hbAuxStateAssigned[f][x] then
-        HealBot_Timers_Set("INITSLOW","TextResetState")
+        HealBot_Timers_Set("SKINS","TextUpdateState")
     elseif hbAuxPowerAssigned[f][x] then
-        HealBot_Timers_Set("INITSLOW","UpdateAllAuxPowerBars")
+        HealBot_Timers_Set("AUX","UpdateAllAuxPowerBars")
     elseif hbAuxBuffAssigned[f][x] then
-        HealBot_Timers_Set("INITSLOW","updAllAuxBuffBars")
+        HealBot_Timers_Set("AUX","updAllAuxBuffBars")
     elseif hbAuxDebuffAssigned[f][x] then
-        HealBot_Timers_Set("INITSLOW","updAllAuxDebuffBars")
+        HealBot_Timers_Set("AUX","updAllAuxDebuffBars")
     elseif hbAuxTargetAssigned[f][x] then
         HealBot_Timers_Set("PLAYER","PlayerTargetChanged")
     elseif hbAuxOORAssigned[f][x] then
-        HealBot_Timers_Set("INITSLOW","updAllAuxRangeBars")
+        HealBot_Timers_Set("AUX","updAllAuxRangeBars")
     elseif hbAuxRange30Assigned[f][x] then
-        HealBot_Timers_Set("INITSLOW","updAllAuxRange30Bars")
+        HealBot_Timers_Set("AUX","updAllAuxRange30Bars")
     elseif hbAuxOverHealAssigned[f][x] then
-        HealBot_Timers_Set("INITSLOW","UpdateAllAuxOverHealsBars")
+        HealBot_Timers_Set("AUX","UpdateAllAuxOverHealsBars")
     elseif hbAuxHealInAssigned[f][x] then
-        HealBot_Timers_Set("INITSLOW","UpdateAllAuxInHealsBars")
+        HealBot_Timers_Set("AUX","UpdateAllAuxInHealsBars")
     elseif hbAuxAbsorbAssigned[f][x] then
-        HealBot_Timers_Set("INITSLOW","UpdateAllAuxAbsorbBars")
+        HealBot_Timers_Set("AUX","UpdateAllAuxAbsorbBars")
     elseif hbAuxThreatAssigned[f][x] then
-        HealBot_Timers_Set("INITSLOW","UpdateAllAuxThreatBars")
+        HealBot_Timers_Set("AUX","UpdateAllAuxThreatBars")
     end
 end
 
@@ -1838,6 +1847,7 @@ function HealBot_Aux_UpdateAllAuxByType(frame, id)
             end
         end
     end
+    
 end
 
 
@@ -2196,7 +2206,7 @@ local function HealBot_Aux_SetTestButton(button)
                     auxTestText=HEALBOT_OPTIONS_TAB_STATETEXT
                 end
             end
-            if Healbot_Config_Skins.AuxBar[Healbot_Config_Skins.Current_Skin][x][button.frame]["ANCHOR"]>2 then
+            if Healbot_Config_Skins.AuxBar[Healbot_Config_Skins.Current_Skin][x][button.frame]["ANCHOR"]>2 and Healbot_Config_Skins.AuxBar[Healbot_Config_Skins.Current_Skin][x][button.frame]["ANCHOR"]<5 then
                 auxTestText=""
             elseif auxTestCol then
                 if Healbot_Config_Skins.AuxBarText[Healbot_Config_Skins.Current_Skin][x][button.frame]["COLTYPE"]==2 then

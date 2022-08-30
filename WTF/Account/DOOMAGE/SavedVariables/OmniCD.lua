@@ -15,9 +15,9 @@ OmniCDDB = {
 		["Shado - Turalyon"] = "Default",
 	},
 	["global"] = {
-		["oodVer"] = 2700,
-		["oodChk"] = 220323,
 		["disableElvMsg"] = true,
+		["oodChk"] = 220803,
+		["oodVer"] = 9252720,
 	},
 	["namespaces"] = {
 		["LibDualSpec-1.0"] = {

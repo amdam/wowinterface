@@ -2,8 +2,8 @@
 OneRing_Config = {
 	["CharProfiles"] = {
 	},
-	["_GameVersion"] = "9.2.5",
-	["_OPieVersion"] = "Xe 6 (3.106)",
+	["_GameVersion"] = "9.2.7",
+	["_OPieVersion"] = "Xe 8 (3.107)",
 	["ProfileStorage"] = {
 		["default"] = {
 			["Bindings"] = {
@@ -47,8 +47,8 @@ OneRing_Config = {
 				{
 					"equipmentset", -- [1]
 					"frost", -- [2]
-					["sliceToken"] = "ABueaL4inxn",
 					["show"] = "[spec:63/62] hide;",
+					["sliceToken"] = "ABueaL4inxn",
 				}, -- [4]
 				{
 					"equipmentset", -- [1]
@@ -85,10 +85,10 @@ OneRing_Config = {
 					["show"] = "[spec:64/63] hide;",
 					["sliceToken"] = "ABue376TIGe",
 				}, -- [10]
-				["name"] = "Equipment sets",
+				["limit"] = "Adamancy-Turalyon",
 				["save"] = true,
 				["hotkey"] = "NUMPAD5",
-				["limit"] = "Adamancy-Turalyon",
+				["name"] = "Equipment sets",
 			},
 			["CommonTrades"] = {
 				{
@@ -156,10 +156,10 @@ OneRing_Config = {
 					["c"] = "ffac3d",
 					["id"] = 2656,
 				}, -- [11]
-				["name"] = "Trade Skills",
+				["version"] = 4,
 				["save"] = true,
 				["hotkey"] = "ALT-T",
-				["version"] = 4,
+				["name"] = "Trade Skills",
 			},
 			["OPieFlagStore"] = {
 				["StoreVersion"] = 2,
@@ -275,10 +275,10 @@ OneRing_Config = {
 					["sliceToken"] = "ABuekYV=u8a",
 					["id"] = "/cast [mod] {{spell:344597}}; {{spell:344587}}",
 				}, -- [15]
-				["limit"] = "MAGE",
+				["name"] = "Portals and Teleports",
 				["save"] = true,
 				["hotkey"] = "ALT-G",
-				["name"] = "Portals and Teleports",
+				["limit"] = "MAGE",
 			},
 			["ipmentSets"] = {
 				{

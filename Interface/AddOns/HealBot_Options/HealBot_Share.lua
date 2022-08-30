@@ -283,7 +283,7 @@ function HealBot_Share_LoadPresetCols(sIn)
             HealBot_Globals.PresetColours[x]["A"]=a
         end
     end
-    HealBot_Timers_Set("INITSLOW","OptionsInitExtraTabs")
+    HealBot_Timers_InitExtraOptions()
 end
 
 function HealBot_Share_ImportPresetCols_OnClick()
@@ -409,7 +409,7 @@ function HealBot_Share_LoadSpells(sIn)
         HealBot_Class_Spells[HealBot_Data["PCLASSTRIM"]]=nil 
         HealBot_Options_hbProfile_setClass()
     end
-    HealBot_Timers_Set("INITSLOW","OptionsInitExtraTabs")
+    HealBot_Timers_InitExtraOptions()
     HealBot_Options_ComboClass_Text()
     HealBot_Timers_Set("INIT","PrepSetAllAttribs")
 end
@@ -428,6 +428,11 @@ function HealBot_Share_ExportBuffs(lData)
         for bId,x  in pairs(HealBot_configClassHoTClass) do
             ssStr=ssStr..(GetSpellInfo(bId) or HEALBOT_WORDS_UNKNOWN).."~"
             ssStr=ssStr..xClass.."~"
+            if not HealBot_Globals.HealBot_Custom_Buffs_ShowBarCol[bId] then
+                HealBot_Globals.HealBot_Custom_Buffs_ShowBarCol[bId]=1
+            elseif HealBot_Globals.HealBot_Custom_Buffs_ShowBarCol[bId]==true then
+                HealBot_Globals.HealBot_Custom_Buffs_ShowBarCol[bId]=3
+            end
             ssStr=ssStr..bId..","..(HealBot_Globals.HealBot_Custom_Buffs[bId] or 0)..","..x..","..HealBot_Globals.HealBot_Custom_Buffs_ShowBarCol[bId]..","
             if HealBot_Globals.CustomBuffBarColour[bId] then
                 ssStr=ssStr..(HealBot_Globals.CustomBuffBarColour[bId]["R"] or 0.25)..","
@@ -458,6 +463,7 @@ function HealBot_Share_ExportBuffs_OnClick()
     HealBot_Share_ExportBuffs()
 end
 
+local customBuffPriority=HEALBOT_CUSTOM_en.."Buff"
 function HealBot_Share_LoadBuffs(sIn)
     local scbStr=HealBot_Share_Decompress(sIn)
     local ssTab={}
@@ -508,9 +514,12 @@ function HealBot_Share_LoadBuffs(sIn)
                 elseif show=="false" then 
                     HealBot_Globals.HealBot_Custom_Buffs_ShowBarCol[bId]=1
                     if bName then HealBot_Globals.HealBot_Custom_Buffs_ShowBarCol[bName]=1 end
-                else
+                elseif type(show)=="number" then
                     HealBot_Globals.HealBot_Custom_Buffs_ShowBarCol[bId]=show
                     if bName then HealBot_Globals.HealBot_Custom_Buffs_ShowBarCol[bName]=show end
+                else
+                    HealBot_Globals.HealBot_Custom_Buffs_ShowBarCol[bId]=1
+                    if bName then HealBot_Globals.HealBot_Custom_Buffs_ShowBarCol[bName]=1 end
                 end
                 if r then
                     HealBot_Globals.CustomBuffBarColour[bId]={}
@@ -542,7 +551,7 @@ function HealBot_Share_LoadBuffs(sIn)
             end
         end
     end
-    HealBot_Timers_Set("INITSLOW","OptionsInitExtraTabs")
+    HealBot_Timers_InitExtraOptions()
     HealBot_Options_setCustomBuffList()
 end
 
@@ -558,6 +567,11 @@ function HealBot_Share_ExportDebuffs(lData)
         if (HealBot_Globals.Custom_Debuff_Categories[dId] or 10)>1 then
             ssStr=ssStr..(GetSpellInfo(dId) or HEALBOT_WORDS_UNKNOWN).."~"
             ssStr=ssStr..(HealBot_Globals.Custom_Debuff_Categories[dId] or 10).."~"
+            if not HealBot_Globals.HealBot_Custom_Debuffs_ShowBarCol[dId] then
+                HealBot_Globals.HealBot_Custom_Debuffs_ShowBarCol[dId]=1
+            elseif HealBot_Globals.HealBot_Custom_Debuffs_ShowBarCol[dId]==true then
+                HealBot_Globals.HealBot_Custom_Debuffs_ShowBarCol[dId]=3
+            end                
             ssStr=ssStr..dId..","..x..","..(HealBot_Globals.FilterCustomDebuff[dId] or "")..","..HealBot_Globals.HealBot_Custom_Debuffs_ShowBarCol[dId]..","
             if HealBot_Globals.CDCBarColour[dId] then
                 ssStr=ssStr..(HealBot_Globals.CDCBarColour[dId]["R"] or 0.8)..","
@@ -588,6 +602,7 @@ function HealBot_Share_ExportDebuffs_OnClick()
     HealBot_Share_ExportDebuffs()
 end
 
+local customDebuffPriority=HEALBOT_CUSTOM_en.."15"
 function HealBot_Share_LoadDebuffs(sIn)
     local scdStr=HealBot_Share_Decompress(sIn)
     local ssTab={}
@@ -638,8 +653,10 @@ function HealBot_Share_LoadDebuffs(sIn)
                     HealBot_Globals.HealBot_Custom_Debuffs_ShowBarCol[dId]=3
                 elseif show=="false" then
                     HealBot_Globals.HealBot_Custom_Debuffs_ShowBarCol[dId]=1
-                else
+                elseif type(show)=="number" then
                     HealBot_Globals.HealBot_Custom_Debuffs_ShowBarCol[dId]=show
+                else
+                    HealBot_Globals.HealBot_Custom_Debuffs_ShowBarCol[dId]=1
                 end
                 if r then
                     HealBot_Globals.CDCBarColour[dId]={}
@@ -668,7 +685,7 @@ function HealBot_Share_LoadDebuffs(sIn)
             end
         end
     end
-    HealBot_Timers_Set("INITSLOW","OptionsInitExtraTabs")
+    HealBot_Timers_InitExtraOptions()
     HealBot_Options_setCustomDebuffList()
 end
 
@@ -818,7 +835,7 @@ function HealBot_Share_BuildSkinData(cmd, msg, lData)
     if cmd=="Init" then
         HealBot_Share_ExportComplete(HEALBOT_OPTIONS_SKIN, msg)
         if tonumber(msg) then msg=UnitName("player").."-"..msg end
-        if msg==HEALBOT_SKINS_STD then msg=UnitName("player").."-"..HEALBOT_SKINS_STD end
+        --if msg==HEALBOT_SKINS_STD then msg=UnitName("player").."-"..HEALBOT_SKINS_STD end
         ssData=validType[1].."\n"..msg
     elseif cmd and msg then
         ssData=ssData.."\n"..cmd.."!"..msg
@@ -932,7 +949,7 @@ end
 
 local hbOptGetSkinName=" "
 local hbWarnSharedMedia=false
-function HealBot_Share_SkinLoad(sIn)
+function HealBot_Share_SkinLoad(sIn, internal)
     local ssStr=HealBot_Share_Decompress(sIn)
     local ssTab={}
     local i=0
@@ -954,10 +971,12 @@ function HealBot_Share_SkinLoad(sIn)
         Healbot_Config_Skins.Skin_ID = 2;
     end
     HealBot_Skins_Check_Skin(hbOptGetSkinName, true)
-    HealBot_Options_Set_Current_Skin(hbOptGetSkinName, nil, nil, true)
-    HealBot_Options_NewSkin:SetText("")
-    hbWarnSharedMedia=false
-    HealBot_AddChat(HEALBOT_CHAT_ADDONID..hbOptGetSkinName..HEALBOT_CHAT_SKINREC)
+    if not internal then
+        HealBot_Options_Set_Current_Skin(hbOptGetSkinName, nil, nil, true)
+        HealBot_Options_NewSkin:SetText("")
+        hbWarnSharedMedia=false
+        HealBot_AddChat(HEALBOT_CHAT_ADDONID..hbOptGetSkinName..HEALBOT_CHAT_SKINREC)
+    end
 end
 
 function HealBot_Share_ImportSkin_OnClick()
