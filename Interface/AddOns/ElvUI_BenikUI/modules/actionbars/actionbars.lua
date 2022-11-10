@@ -1,6 +1,7 @@
 local BUI, E, L, V, P, G = unpack(select(2, ...))
 local mod = BUI:GetModule('Actionbars')
 local AB = E:GetModule('ActionBars')
+local T = E:GetModule('TotemTracker')
 
 if E.private.actionbar.enable ~= true then return; end
 
@@ -8,6 +9,9 @@ local _G = _G
 local pairs = pairs
 local C_TimerAfter = C_Timer.After
 local MAX_TOTEMS = MAX_TOTEMS
+local MAX_STANCES = GetNumShapeshiftForms()
+local Masque = E.Masque
+local MasqueGroup = Masque and E.private.actionbar.masque.actionbars
 
 -- GLOBALS: NUM_PET_ACTION_SLOTS
 -- GLOBALS: ElvUI_BarPet, ElvUI_StanceBar
@@ -26,7 +30,7 @@ function mod:StyleBackdrops()
 			end
 
 			-- Button Shadows
-			if BUI.ShadowMode then
+			if BUI.ShadowMode and not MasqueGroup then
 				for k = 1, 12 do
 					local buttonBars = {_G["ElvUI_Bar"..i.."Button"..k]}
 					for _, button in pairs(buttonBars) do
@@ -82,12 +86,12 @@ function mod:StyleColor()
 				r, g, b = BUI:unpackColor(db.customAbStyleColor)
 			elseif db.abStyleColor == 3 then
 				r, g, b = BUI:unpackColor(E.db.general.valuecolor)
-			elseif db.abStyleColor == 5 then
-				r, g, b = BUI:getCovenantColor()
 			else
 				r, g, b = BUI:unpackColor(E.db.general.backdropcolor)
 			end
-			bar.backdrop.style:SetBackdropColor(r, g, b, db.abAlpha or 1)
+			if bar.backdrop.style then
+				bar.backdrop.style:SetBackdropColor(r, g, b, db.abAlpha or 1)
+			end
 		end
 	end
 
@@ -100,8 +104,6 @@ function mod:StyleColor()
 			r, g, b = BUI:unpackColor(db.customAbStyleColor)
 		elseif db.abStyleColor == 3 then
 			r, g, b = BUI:unpackColor(E.db.general.valuecolor)
-		elseif db.abStyleColor == 5 then
-			r, g, b = BUI:getCovenantColor()
 		else
 			r, g, b = BUI:unpackColor(E.db.general.backdropcolor)
 		end
@@ -117,7 +119,7 @@ function mod:PetShadows()
 		local petButtons = {_G['PetActionButton'..i]}
 		for _, button in pairs(petButtons) do
 			if button.backdrop then
-				if BUI.ShadowMode then
+				if BUI.ShadowMode and not MasqueGroup then
 					if not button.backdrop.shadow then
 						button.backdrop:CreateSoftShadow()
 					end
@@ -127,16 +129,22 @@ function mod:PetShadows()
 	end
 end
 
-function mod:TotemShadows()
-	if not BUI.ShadowMode then return end
-
-	for i=1, MAX_TOTEMS do
-		local button = _G["ElvUI_TotemBarTotem"..i];
-		if button then
-			if not button.shadow then
+function mod:StancebarShadows()
+	for i = 1, MAX_STANCES do
+		local button = _G['ElvUI_StanceBarButton'..i]
+		if BUI.ShadowMode and not MasqueGroup then
+			if button and not button.shadow then
 				button:CreateSoftShadow()
 			end
 		end
+	end
+end
+
+function mod:TotemShadows()
+	if not E.private.general.totemTracker then return end
+	for i = 1, MAX_TOTEMS do
+		local button = T.bar[i]
+		button:BuiStyle("Outside")
 	end
 end
 
@@ -190,6 +198,15 @@ local function VehicleExit()
 	f:GetPushedTexture():SetTexCoord(0, 1, 0, 1)
 end
 
+function mod:UpdateMicroButtons()
+	local btns = AB:ShownMicroButtons()
+
+	for i, name in next, btns do
+		local button = _G[name]
+		button:Size(22, 24)
+	end
+end
+
 function mod:Initialize()
 	C_TimerAfter(1, mod.StyleBackdrops)
 	C_TimerAfter(1, mod.PetShadows)
@@ -197,10 +214,15 @@ function mod:Initialize()
 	C_TimerAfter(2, mod.LoadToggleButtons)
 	C_TimerAfter(2, mod.ToggleStyle)
 	C_TimerAfter(2, mod.TotemShadows)
+	C_TimerAfter(2, mod.StancebarShadows)
+
 	VehicleExit()
-	self:LoadRequestButton()
-	self:RegisterEvent("ACTIVE_TALENT_GROUP_CHANGED", "StyleColor");
+
+	mod:LoadRequestButton()
+	mod:RegisterEvent("ACTIVE_TALENT_GROUP_CHANGED", "StyleColor")
+
 	hooksecurefunc(BUI, "SetupColorThemes", mod.StyleColor)
+	hooksecurefunc(AB, "UpdateMicroButtons", mod.UpdateMicroButtons)
 
 	if not BUI.ShadowMode then return end
 	hooksecurefunc(_G.SpellFlyout, 'Show', mod.FlyoutShadows)

@@ -1,3 +1,10 @@
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Eye Beam
+/startattack
+/use 13
+/cast Eye Beam;
+/script UIErrorsFrame:Clear()
+END
 VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack

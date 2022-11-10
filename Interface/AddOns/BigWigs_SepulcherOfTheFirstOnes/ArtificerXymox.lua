@@ -7,6 +7,7 @@ if not mod then return end
 mod:RegisterEnableMob(183501) -- Artificer Xy'mox -- New Model
 mod:SetEncounterID(2553)
 mod:SetRespawnTime(25)
+mod:SetStage(1)
 
 --------------------------------------------------------------------------------
 -- Locals
@@ -186,7 +187,7 @@ function mod:MarkAcolytes()
 	end
 end
 
-function mod:MarkAdds(event, unit, guid)
+function mod:MarkAdds(_, unit, guid)
 	if not mobCollector[guid] then
 		local id = self:MobId(guid)
 		if id == 183707 and self:GetOption(spellslingerMarker) then -- Xy Spellslinger
@@ -307,7 +308,7 @@ end
 
 do
 	local playerList = {}
-	function mod:InterdimensionalWormholes(args)
+	function mod:InterdimensionalWormholes()
 		playerList = {}
 		wormholeCount = wormholeCount + 1
 	end
@@ -322,7 +323,7 @@ do
 			self:PlaySound(362721, "warning")
 		end
 		self:CustomIcon(interdimensionalWormholesMarker, args.destName, count)
-		self:NewTargetsMessage(362721, "yellow", playerList, 2, CL.count:format(L.wormhole, wormholeCount-1))
+		self:TargetsMessage(362721, "yellow", playerList, 2, CL.count:format(L.wormhole, wormholeCount-1))
 	end
 
 	function mod:InterdimensionalWormholesRemoved(args)
@@ -387,6 +388,6 @@ end
 
 function mod:MassiveBlastApplied(args)
 	if self:Tank() then
-		self:NewStackMessage(args.spellId, "purple", args.destName, args.amount, 2)
+		self:StackMessage(args.spellId, "purple", args.destName, args.amount, 2)
 	end
 end

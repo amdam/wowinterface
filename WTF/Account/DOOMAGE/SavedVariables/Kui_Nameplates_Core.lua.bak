@@ -7,7 +7,7 @@ KuiNameplatesCoreSaved = {
 	["226_TARGET_SIZE"] = true,
 	["profiles"] = {
 		["default"] = {
-			["target_arrows_size"] = 50,
+			["castbar_height"] = 12,
 			["target_arrows"] = true,
 			["target_glow_colour"] = {
 				0.368627450980392, -- [1]
@@ -15,7 +15,7 @@ KuiNameplatesCoreSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["castbar_height"] = 12,
+			["target_arrows_size"] = 50,
 		},
 	},
 }

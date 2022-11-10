@@ -103,9 +103,9 @@ myBigIgnite: disabled
 Dongle: enabled
 LibBabble-Boss-3.0: enabled
 ArkInventoryRules: enabled
-Kui_Nameplates_Core_Config: enabled
-Kui_Nameplates: enabled
-Kui_Nameplates_Core: enabled
+Kui_Nameplates_Core_Config: disabled
+Kui_Nameplates: disabled
+Kui_Nameplates_Core: disabled
 MikScrollingBattleText: enabled
 OmniCC: enabled
 OmniCC_Config: enabled
@@ -194,3 +194,8 @@ RaiderIO_DB_KR_R: disabled
 RaiderIO_DB_KR_M: disabled
 RaiderIO_DB_EU_R: disabled
 RaiderIO_DB_EU_M: disabled
+Kui_Media: disabled
+OmniCD: disabled
+Blizzard_ObjectiveTracker: enabled
+Blizzard_CompactRaidFrames: enabled
+ElvUI_UnitFramePlugin: disabled

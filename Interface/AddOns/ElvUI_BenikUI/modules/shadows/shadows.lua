@@ -21,8 +21,9 @@ local function mirrorTimersShadows()
 	if E.private.skins.blizzard.enable ~= true or E.private.skins.blizzard.mirrorTimers ~= true then return end
 
 	for i = 1, _G.MIRRORTIMER_NUMTIMERS do
-		local statusBar = _G['MirrorTimer'..i..'StatusBar']
-		statusBar.backdrop:CreateSoftShadow()
+		local mirrorTimer = _G['MirrorTimer'..i]
+		local statusBar = mirrorTimer.StatusBar or _G[mirrorTimer:GetName()..'StatusBar']
+		statusBar:CreateSoftShadow()
 	end
 end
 
@@ -71,28 +72,37 @@ function mod:TabShadows(tab)
 end
 hooksecurefunc(S, "HandleTab", mod.TabShadows)
 
--- SpellBook tabs shadow
-local function SpellbookTabShadows()
-	if E.private.skins.blizzard.enable ~= true or BUI.ShadowMode ~= true or E.private.skins.blizzard.spellbook ~= true then
-		return
-	end
+-- ElvUI item buttons
+function mod:ItemButtonShadows(button)
+	if not BUI.ShadowMode then return end
+	if not button then return end
 
-	hooksecurefunc("SpellBookFrame_UpdateSkillLineTabs",
-		function()
-			for i = 1, MAX_SKILLLINE_TABS do
-				local tab = _G['SpellBookSkillLineTab'..i]
-				tab.backdrop:CreateSoftShadow()
-			end
-		end)
+	if button.backdrop then
+		button.backdrop:SetTemplate("Transparent")
+		button.backdrop:CreateSoftShadow()
+	end
 end
-S:AddCallback("BenikUI_Spellbook", SpellbookTabShadows)
+hooksecurefunc(S, "HandleItemButton", mod.ItemButtonShadows)
+
+local MICRO_BUTTONS = _G.MICRO_BUTTONS or {
+	'CharacterMicroButton',
+	'SpellbookMicroButton',
+	'TalentMicroButton',
+	'AchievementMicroButton',
+	'QuestLogMicroButton',
+	'GuildMicroButton',
+	'LFDMicroButton',
+	'EJMicroButton',
+	'CollectionsMicroButton',
+	'MainMenuMicroButton',
+	'HelpMicroButton',
+	'StoreMicroButton',
+}
 
 -- MicroBar
 local function MicroBarShadows()
-	for i=1, #MICRO_BUTTONS do
-		if _G[MICRO_BUTTONS[i]].backdrop then
-			_G[MICRO_BUTTONS[i]].backdrop:CreateSoftShadow()
-		end
+	for _, x in pairs(MICRO_BUTTONS) do
+		_G[x]:CreateSoftShadow()
 	end
 end
 
@@ -119,6 +129,115 @@ function mod:ChatBubbles(frame, holder)
 	end
 end
 
+-- thanks to Repooc for guidance
+local function CharacterFrameShadows()
+	if E.private.skins.blizzard.enable ~= true or E.private.skins.blizzard.character ~= true then
+		return
+	end
+	local i = 1
+	local tab = _G['CharacterFrameTab'..i]
+	while tab do
+		if not tab then return end
+
+		if tab.backdrop then
+			tab.backdrop:SetTemplate("Transparent")
+			tab.backdrop:CreateSoftShadow()
+		end
+
+		i = i + 1
+		tab = _G['CharacterFrameTab'..i]
+	end
+end
+
+local function SpellBookFrameShadows()
+	if E.private.skins.blizzard.enable ~= true or E.private.skins.blizzard.spellbook ~= true then
+		return
+	end
+	local i = 1
+	local tab = _G['SpellBookFrameTabButton'..i]
+	while tab do
+		if not tab then return end
+
+		if tab.backdrop then
+			tab.backdrop:SetTemplate("Transparent")
+			tab.backdrop:CreateSoftShadow()
+		end
+
+		i = i + 1
+		tab = _G['SpellBookFrameTabButton'..i]
+	end
+
+	for j = 1, MAX_SKILLLINE_TABS do
+		local tab = _G['SpellBookSkillLineTab'..j]
+		tab:CreateSoftShadow()
+	end
+
+	hooksecurefunc("SpellBookFrame_UpdateSkillLineTabs",
+			function()
+				for i = 1, MAX_SKILLLINE_TABS do
+					local tab = _G['SpellBookSkillLineTab'..i]
+					tab:CreateSoftShadow()
+				end
+			end)
+end
+
+local function PVEFrameShadows()
+	if E.private.skins.blizzard.enable ~= true or E.private.skins.blizzard.lfg ~= true then
+		return
+	end
+	local i = 1
+	local tab = _G['PVEFrameTab'..i]
+	while tab do
+		if not tab then return end
+
+		if tab.backdrop then
+			tab.backdrop:SetTemplate("Transparent")
+			tab.backdrop:CreateSoftShadow()
+		end
+
+		i = i + 1
+		tab = _G['PVEFrameTab'..i]
+	end
+end
+
+local function FriendsFrameShadows()
+	if E.private.skins.blizzard.enable ~= true or E.private.skins.blizzard.friends ~= true then
+		return
+	end
+	local i = 1
+	local tab = _G['FriendsFrameTab'..i]
+	while tab do
+		if not tab then return end
+
+		if tab.backdrop then
+			tab.backdrop:SetTemplate("Transparent")
+			tab.backdrop:CreateSoftShadow()
+		end
+
+		i = i + 1
+		tab = _G['FriendsFrameTab'..i]
+	end
+end
+
+local function MerchantFrameShadows()
+	if E.private.skins.blizzard.enable ~= true or E.private.skins.blizzard.merchant ~= true then
+		return
+	end
+	local i = 1
+	local tab = _G['MerchantFrameTab'..i]
+	while tab do
+		if not tab then return end
+
+		if tab.backdrop then
+			tab.backdrop:SetTemplate("Transparent")
+			tab.backdrop:CreateSoftShadow()
+		end
+
+		i = i + 1
+		tab = _G['MerchantFrameTab'..i]
+	end
+end
+
 function mod:Initialize()
 	if not BUI.ShadowMode then return end
 
@@ -127,6 +246,11 @@ function mod:Initialize()
 
 	miscShadows()
 	MicroBarShadows()
+	CharacterFrameShadows()
+	SpellBookFrameShadows()
+	PVEFrameShadows()
+	FriendsFrameShadows()
+	MerchantFrameShadows()
 	mod:RegisterEvent('START_TIMER')
 
 	-- AddonSkins

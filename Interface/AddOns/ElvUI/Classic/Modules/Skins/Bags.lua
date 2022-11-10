@@ -1,5 +1,6 @@
 local E, L, V, P, G = unpack(ElvUI)
 local S = E:GetModule('Skins')
+local B = E:GetModule('Bags')
 
 local _G = _G
 local select, unpack = select, unpack
@@ -62,7 +63,7 @@ function S:ContainerFrame()
 			local questIcon = _G['ContainerFrame'..i..'Item'..j..'IconQuestTexture']
 			local cooldown = _G['ContainerFrame'..i..'Item'..j..'Cooldown']
 
-			item:SetNormalTexture('')
+			item:SetNormalTexture(E.ClearTexture)
 			item:SetTemplate(nil, true)
 			item:StyleButton()
 
@@ -74,8 +75,7 @@ function S:ContainerFrame()
 			questIcon:SetTexCoord(0, 1, 0, 1)
 			questIcon:SetInside()
 
-			cooldown.CooldownOverride = 'bags'
-			E:RegisterCooldown(cooldown)
+			E:RegisterCooldown(cooldown, 'bags')
 		end
 	end
 
@@ -99,24 +99,25 @@ function S:ContainerFrame()
 		local frameName = frame:GetName()
 		local id = frame:GetID()
 		local _, bagType = GetContainerNumFreeSlots(id)
-		local item, questIcon, link
 
 		for i = 1, frame.size do
-			item = _G[frameName..'Item'..i]
-			questIcon = _G[frameName..'Item'..i..'IconQuestTexture']
-			link = GetContainerItemLink(id, item:GetID())
+			local item = _G[frameName..'Item'..i]
+			local questIcon = _G[frameName..'Item'..i..'IconQuestTexture']
+			local link = GetContainerItemLink(id, item:GetID())
 
 			questIcon:Hide()
 
-			if E.Bags.ProfessionColors[bagType] then
-				item:SetBackdropBorderColor(unpack(E.Bags.ProfessionColors[bagType]))
+			local profession = B.ProfessionColors[bagType]
+			if profession then
+				item:SetBackdropBorderColor(profession.r, profession.g, profession.b, profession.a)
 				item.ignoreBorderColors = true
 			elseif link then
 				local _, _, quality, _, _, _, _, _, _, _, _, itemClassID = GetItemInfo(link)
 
 				if itemClassID == LE_ITEM_CLASS_QUESTITEM then
-					item:SetBackdropBorderColor(unpack(E.Bags.QuestColors.questItem))
+					item:SetBackdropBorderColor(unpack(B.QuestColors.questItem))
 					item.ignoreBorderColors = true
+
 					if questIcon then
 						questIcon:Show()
 					end
@@ -148,7 +149,7 @@ function S:ContainerFrame()
 		local icon = _G['BankFrameItem'..i..'IconTexture']
 		local cooldown = _G['BankFrameItem'..i..'Cooldown']
 
-		button:SetNormalTexture('')
+		button:SetNormalTexture(E.ClearTexture)
 		button:SetTemplate(nil, true)
 		button:StyleButton()
 		button.IconBorder:StripTextures()
@@ -162,8 +163,7 @@ function S:ContainerFrame()
 		button.IconQuestTexture:SetTexCoord(0, 1, 0, 1)
 		button.IconQuestTexture:SetInside()
 
-		cooldown.CooldownOverride = 'bags'
-		E:RegisterCooldown(cooldown)
+		E:RegisterCooldown(cooldown, 'bags')
 	end
 
 	BankFrame.itemBackdrop = CreateFrame('Frame', 'BankFrameItemBackdrop', BankFrame)
@@ -184,9 +184,7 @@ function S:ContainerFrame()
 		local id = button:GetID()
 
 		if button.isBag then
-			local link = GetInventoryItemLink('player', ContainerIDToInventoryID(id))
-
-			button:SetNormalTexture('')
+			button:SetNormalTexture(E.ClearTexture)
 			button:SetTemplate(nil, true)
 			button:StyleButton()
 
@@ -196,9 +194,9 @@ function S:ContainerFrame()
 			button.HighlightFrame.HighlightTexture:SetInside()
 			button.HighlightFrame.HighlightTexture:SetTexture(unpack(E.media.rgbvaluecolor), 0.3)
 
+			local link = GetInventoryItemLink('player', ContainerIDToInventoryID(id))
 			if link then
-				local quality = select(3, GetItemInfo(link))
-
+				local _, _, quality = GetItemInfo(link)
 				if quality and quality > 1 then
 					button:SetBackdropBorderColor(GetItemQualityColor(quality))
 					button.ignoreBorderColors = true
@@ -212,29 +210,27 @@ function S:ContainerFrame()
 			end
 		else
 			local questIcon = button.IconQuestTexture
-			local link = GetContainerItemLink(BANK_CONTAINER, id)
-
 			if questIcon then
 				questIcon:Hide()
 			end
 
+			local link = GetContainerItemLink(BANK_CONTAINER, id)
 			if link then
 				local _, _, quality, _, _, _, _, _, _, _, _, itemClassID = GetItemInfo(link)
 
 				if itemClassID == LE_ITEM_CLASS_QUESTITEM then
-					button:SetBackdropBorderColor(unpack(E.Bags.QuestColors.questItem))
+					button:SetBackdropBorderColor(unpack(B.QuestColors.questItem))
 					button.ignoreBorderColors = true
+
 					if questIcon then
 						questIcon:Show()
 					end
+				elseif quality and quality > 1 then
+					button:SetBackdropBorderColor(GetItemQualityColor(quality))
+					button.ignoreBorderColors = true
 				else
-					if quality and quality > 1 then
-						button:SetBackdropBorderColor(GetItemQualityColor(quality))
-						button.ignoreBorderColors = true
-					else
-						button:SetBackdropBorderColor(unpack(E.media.bordercolor))
-						button.ignoreBorderColors = nil
-					end
+					button:SetBackdropBorderColor(unpack(E.media.bordercolor))
+					button.ignoreBorderColors = nil
 				end
 			else
 				button:SetBackdropBorderColor(unpack(E.media.bordercolor))

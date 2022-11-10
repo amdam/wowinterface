@@ -1,13 +1,13 @@
 # Auctionator
 
-## [9.2.30](https://github.com/Auctionator/Auctionator/tree/9.2.30) (2022-08-21)
-[Full Changelog](https://github.com/Auctionator/Auctionator/compare/9.2.29...9.2.30) 
+## [10.0.8](https://github.com/Auctionator/Auctionator/tree/10.0.8) (2022-11-09)
+[Full Changelog](https://github.com/Auctionator/Auctionator/compare/10.0.7...10.0.8) 
 
-- ReagentSearch: Overwrite vendor prices with newer ones  
-- Selling: All Items Config: Name parameters the same between classic and mainline  
-- [#1142] Option to use last auction duration instead of default value  
-- Mainline: Selling: Remove extra not lifo settings for undercuts/durations  
-- Mainline: Add "Open in Shopping Tab" button in favourites dropdown in Buy tab  
-- [Fixes #1184] Searching in the cancelling tab doesn't always work  
-- Mainline: Selling: Commodities: Tweak threshold for price warnings  
-- Tweak sniper protection for selling detection threshold  
+- [Fixes #1267] Unable to drag items in shopping lists  
+- Attempt workaround #1264, again (Blizz API missing quantity for some reagents)  
+- Mainline: Attempt to fix nil reference error in reagent tooltips [#1264]  
+- Credit Romanian translation  
+- Classic: Buying: Fix scroll resetting when selecting item at the bottom  
+- Delete FUNDING.xml  
+- Create FUNDING.yml  
+- Update Github links  

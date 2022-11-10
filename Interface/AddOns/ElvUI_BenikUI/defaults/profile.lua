@@ -10,12 +10,6 @@ P['unitframe']['units']['target']['power']['vertical'] = false
 P['unitframe']['units']['party']['portrait']['height'] = 0
 P['unitframe']['units']['party']['portrait']['transparent'] = false
 
--- Add raid classHover to ElvUI defaults
-P['unitframe']['units']['raid']['classHover'] = false
-
--- Add raid40 classHover to ElvUI defaults
-P['unitframe']['units']['raid40']['classHover'] = false
-
 -- Databars text yOffset
 P['databars']['experience']['textYoffset'] = 0
 P['databars']['azerite']['textYoffset'] = 0
@@ -36,7 +30,7 @@ P['datatexts']['panels']['BuiLeftChatDTPanel'] = {
 }
 
 P['datatexts']['panels']['BuiRightChatDTPanel'] = {
-	[1] = 'Spec Switch (BenikUI)',
+	[1] = 'Talent/Loot Specialization',
 	[2] = 'Gold',
 	[3] = 'Bags',
 }

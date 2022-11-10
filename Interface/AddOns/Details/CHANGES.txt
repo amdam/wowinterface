@@ -1,40 +1,16 @@
-tag 199bf7adbe9819325921224c0f10e29155b3b4d0 DetailsRetail.v9.2.7.10008.146
+tag d8c07e343f99678ef49b14772a4f20ee9b999b6a Details.DF.Wrath.10259.146
 Author:	Tercio Jose <terciob19@hotmail.com>
-Date:	Mon Aug 29 18:34:34 2022 -0300
+Date:	Wed Nov 2 20:42:10 2022 -0300
 
-commit e092c4d0aa4ad7cb2a5cbc331797f04b04d030d4
+commit 32e0a5b8dfbcee5710e6d7b4fcec771e2964585e
 Author: Tercio Jose <terciob19@hotmail.com>
-Date:   Mon Aug 29 18:33:41 2022 -0300
+Date:   Wed Nov 2 20:41:43 2022 -0300
 
-    Framework update
+    Removed the encounter_start message from Wrath
 
-commit e092c4d0aa4ad7cb2a5cbc331797f04b04d030d4
+commit c48d032c1676bc5c4789fb12396a3d22a28a2d01
 Author: Tercio Jose <terciob19@hotmail.com>
-Date:   Mon Aug 29 18:33:41 2022 -0300
+Date:   Wed Nov 2 20:08:36 2022 -0300
 
-    Framework update
-
-commit 82757a69041d21b9104d56b86afe0ebb6a9e618b
-Author: Flamanis <Flamanis@users.noreply.github.com>
-Date:   Mon Aug 29 16:18:39 2022 -0500
-
-    Edit Custom Right Text autofilling with Custom Left
-
-commit 82757a69041d21b9104d56b86afe0ebb6a9e618b
-Author: Flamanis <Flamanis@users.noreply.github.com>
-Date:   Mon Aug 29 16:18:39 2022 -0500
-
-    Edit Custom Right Text autofilling with Custom Left
-
-commit 2c1cc9484378ce9c42485ab9b10787535395f0ef
-Author: Flamanis <Flamanis@users.noreply.github.com>
-Date:   Mon Aug 29 16:17:37 2022 -0500
-
-    Too many arguments in heal call during shield refresh
-
-commit f6f12f42a1240f989c137d8d8b73ba4b539ec968
-Author: Flamanis <Flamanis@users.noreply.github.com>
-Date:   Mon Aug 29 16:16:45 2022 -0500
-
-    Fix for Buff Uptime Tooltip with nil uptime
+    Fix for some error involving gradient color
 

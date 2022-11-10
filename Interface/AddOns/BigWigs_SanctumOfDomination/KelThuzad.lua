@@ -28,58 +28,7 @@ local frostBlastCount = 1
 local glacialWrathCount = 1
 local soulReaverCollector = {}
 local soulReaverCount = 0
-local soulReaverSpawnTime = 0
 local soulReaverMarkScheduler = nil
-
--- local timersHeroic = { -- XXX Old timers used before hotfix, leaving it in for now to check incase.
--- 	[100] = { -- Mana on cast_start
--- 		[347292] = 62, -- Oblivion's Echo
--- 	},
--- 	[80] = {
--- 		[346459] = 118, -- Glacial Wrath
--- 		[347292] = nil, -- Oblivion's Echo
--- 	},
--- 	[60] = {
--- 		[346459] = nil, -- Glacial Wrath
--- 		[347292] = 69.7, -- Oblivion's Echo
--- 		[348760] = 42.5, -- Frost Blast
--- 	},
--- 	[40] = {
--- 		[346459] = 69, -- Glacial Wrath
--- 		[347292] = 42.5, -- Oblivion's Echo
--- 		[348760] = nil, -- Frost Blast
--- 	},
--- 	[20] = {
--- 		[346459] = 44.1, -- Glacial Wrath
--- 		[347292] = nil, -- Oblivion's Echo
--- 		[348760] = 69.5, -- Frost Blast
--- 	},
--- }
-
--- local timersMythic = {
--- 	[100] = { -- Mana on cast_start
--- 		[347292] = 61, -- Oblivion's Echo
--- 	},
--- 	[80] = {
--- 		[346459] = 113, -- Glacial Wrath
--- 		[347292] = nil, -- Oblivion's Echo
--- 	},
--- 	[60] = {
--- 		[346459] = nil, -- Glacial Wrath
--- 		[347292] = 69.7, -- Oblivion's Echo
--- 		[348760] = 39, -- Frost Blast
--- 	},
--- 	[40] = {
--- 		[346459] = 69, -- Glacial Wrath
--- 		[347292] = 50, -- Oblivion's Echo
--- 		[348760] = nil, -- Frost Blast
--- 	},
--- 	[20] = {
--- 		[346459] = 50, -- Glacial Wrath
--- 		[347292] = nil, -- Oblivion's Echo
--- 		[348760] = 69.5, -- Frost Blast
--- 	},
--- }
 
 --------------------------------------------------------------------------------
 -- Localization
@@ -264,7 +213,7 @@ function mod:MarkReavers()
 	soulReaverMarkScheduler = nil
 end
 
-function mod:MarkUnits(event, unit, guid)
+function mod:MarkUnits(_, unit, guid)
 	if not mobCollector[guid] then
 		if soulShardCollector[guid] then
 			self:CustomIcon(soulShardMarker, unit, soulShardCollector[guid])
@@ -429,7 +378,7 @@ do
 			self:SayCountdown(346459, 5, count)
 			self:PlaySound(346459, "warning")
 		end
-		self:NewTargetsMessage(346459, "orange", playerList, nil, L.spike)
+		self:TargetsMessage(346459, "orange", playerList, nil, L.spike)
 		self:CustomIcon(glacialWrathMarker, args.destName, icon)
 	end
 
@@ -449,7 +398,7 @@ do
 	local scheduled = nil
 
 	local function FrozenDestructionStackMessage()
-		mod:NewStackMessage(346530, "blue", playerName, stacks, stacks)
+		mod:StackMessage(346530, "blue", playerName, stacks, stacks)
 		mod:PlaySound(346530, stacks > 4 and "warning" or "info") -- How many stacks is too much?
 		scheduled = nil
 	end
@@ -466,7 +415,7 @@ end
 
 do
 	local playerList = {}
-	function mod:OblivionsEcho(args)
+	function mod:OblivionsEcho()
 		playerList = {}
 		oblivionsEchoCount = oblivionsEchoCount + 1
 		self:CDBar(347292, oblivionsEchoCount % 2 == 0 and 61.5 or 40.5, CL.count:format(L.silence, oblivionsEchoCount)) -- XXX Need to confirm the (3)+ casts
@@ -480,7 +429,7 @@ do
 			self:SayCountdown(args.spellId, 6)
 			self:PlaySound(args.spellId, "warning")
 		end
-		self:NewTargetsMessage(args.spellId, "yellow", playerList, nil, CL.count:format(L.silence, oblivionsEchoCount-1))
+		self:TargetsMessage(args.spellId, "yellow", playerList, nil, CL.count:format(L.silence, oblivionsEchoCount-1))
 	end
 end
 
@@ -490,12 +439,12 @@ function mod:OblivionsEchoRemoved(args)
 	end
 end
 
-function mod:FrostBlast(args)
+function mod:FrostBlast()
 	-- Fix timer
 	self:CDBar(348760, 3, CL.count:format(CL.meteor, frostBlastCount))
 end
 
-function mod:FrostBlastSuccess(args)
+function mod:FrostBlastSuccess()
 	frostBlastCount = frostBlastCount + 1
 	if self:GetStage() == 1 then
 		self:CDBar(348760, frostBlastCount % 2 == 0 and 40 or 70, CL.count:format(CL.meteor, frostBlastCount))
@@ -532,7 +481,7 @@ function mod:SinisterMiasmaApplied(args)
 	if self:Me(args.destGUID) then
 		local amount = args.amount or 1
 		if amount % 3 == 0 or amount > 15 then -- 16+ or every 3
-			self:NewStackMessage(args.spellId, "blue", args.destName, amount, 16, L.miasma)
+			self:StackMessage(args.spellId, "blue", args.destName, amount, 16, L.miasma)
 			if amount > 15 then
 				self:PlaySound(args.spellId, "alert")
 			end
@@ -576,7 +525,7 @@ end
 function mod:NecroticSurgeApplied(args)
 	if not self:IsEngaged() then return end -- starts with stacks on mythic
 	if args.amount and args.amount > 4 then -- Don't show for Stage 3 (Custom message for that)
-		self:NewStackMessage(args.spellId, "cyan", args.destName, args.amount, 5)
+		self:StackMessage(args.spellId, "cyan", args.destName, args.amount, 5)
 		self:PlaySound(args.spellId, "info")
 	end
 	self:StopBar(CL.cast:format(self:SpellName(249436))) -- Destruction
@@ -612,7 +561,7 @@ function mod:RemnantDeath()
 end
 
 function mod:FreezingBlast(args)
-	if GetPlayerAuraBySpellID(348787) then -- inPhylactery doesn't work for some reason?
+	if inPhylactery then
 		self:Message(args.spellId, "orange")
 		self:PlaySound(args.spellId, "alarm")
 		self:CDBar(args.spellId, 6.1)
@@ -620,7 +569,7 @@ function mod:FreezingBlast(args)
 end
 
 function mod:GlacialWinds(args)
-	if GetPlayerAuraBySpellID(348787) then -- inPhylactery doesn't work for some reason?
+	if inPhylactery then
 		self:Message(args.spellId, "cyan", L.glacial_winds)
 		self:CDBar(args.spellId, 13.5, L.glacial_winds)
 		self:PlaySound(args.spellId, "info")
@@ -628,7 +577,7 @@ function mod:GlacialWinds(args)
 end
 
 function mod:FoulWinds(args)
-	if GetPlayerAuraBySpellID(348787) then -- inPhylactery doesn't work for some reason?
+	if inPhylactery then
 		self:Message(args.spellId, "yellow", L.foul_winds)
 		self:CDBar(args.spellId, 25.5, L.foul_winds)
 		self:PlaySound(args.spellId, "alert")
@@ -638,7 +587,7 @@ end
 function mod:UndyingWrath(args)
 	self:Message(args.spellId, "red")
 	self:CastBar(args.spellId, 10)
-	if GetPlayerAuraBySpellID(348787) then -- inPhylactery doesn't work for some reason?
+	if inPhylactery then
 		self:PlaySound(args.spellId, "warning")
 	end
 
@@ -699,7 +648,6 @@ do
 			prev = t
 			soulReaverCollector = {}
 			soulReaverCount = 0
-			soulReaverSpawnTime = GetTime()
 			if not soulReaverMarkScheduler then
 				soulReaverMarkScheduler = self:ScheduleTimer("MarkReavers", 5)
 			end

@@ -2,710 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"need rush it", -- [1]
-			"Descriador-Gallywix", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Descriador-Gallywix", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			51, -- [11]
-			"Player-3234-0E5800ED", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cDescriador-Gallywix|r",
-			[51] = 1616030047,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [1]
-		{
-			"we're summoning our last dps", -- [1]
-			"Christoff-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Christoff-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			53, -- [11]
-			"Player-3685-09491807", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Christoff|r",
-			[51] = 1616030050,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [2]
-		{
-			"if youre in such a hurry then u can step out of the group if u need, dont wanna make u late", -- [1]
-			"Holydaz-Eonar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Holydaz-Eonar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			56, -- [11]
-			"Player-96-0B496FDD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeHolydaz-Eonar|r",
-			[51] = 1616030078,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [3]
-		{
-			"Christoff-Turalyon interrupted Atal'ai Hoodoo Hexxer's |cff71d5ff|Hspell:332612:0|h[Healing Wave]|h|r", -- [1]
-			"Holydaz-Eonar", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Holydaz-Eonar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			61, -- [11]
-			"Player-96-0B496FDD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeHolydaz-Eonar|r",
-			[51] = 1616030128,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [4]
-		{
-			"bruh you just gonna make this take longer if you wipe us", -- [1]
-			"Christoff-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Christoff-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			66, -- [11]
-			"Player-3685-09491807", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Christoff|r",
-			[51] = 1616030156,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [5]
-		{
-			"just let the tank pull", -- [1]
-			"Holydaz-Eonar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Holydaz-Eonar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			67, -- [11]
-			"Player-96-0B496FDD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeHolydaz-Eonar|r",
-			[51] = 1616030163,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [6]
-		{
-			"Christoff-Turalyon interrupted Atal'ai Hoodoo Hexxer's |cff71d5ff|Hspell:332605:0|h[Hex]|h|r", -- [1]
-			"Holydaz-Eonar", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Holydaz-Eonar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			68, -- [11]
-			"Player-96-0B496FDD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeHolydaz-Eonar|r",
-			[51] = 1616030177,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [7]
-		{
-			"Descriador-Gallywix interrupted Atal'ai Hoodoo Hexxer's |cff71d5ff|Hspell:332608:0|h[Lightning Discharge]|h|r", -- [1]
-			"Holydaz-Eonar", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Holydaz-Eonar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			70, -- [11]
-			"Player-96-0B496FDD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeHolydaz-Eonar|r",
-			[51] = 1616030185,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [8]
-		{
-			"Interrupted |cff71d5ff|Hspell:332608:0|h[Descarga Elétrica]|h|r on Mandingueira Azarenta Atal'ai", -- [1]
-			"Descriador-Gallywix", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Descriador-Gallywix", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			71, -- [11]
-			"Player-3234-0E5800ED", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cDescriador-Gallywix|r",
-			[51] = 1616030185,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [9]
-		{
-			"Sangue Corrompido em Descriador!", -- [1]
-			"Descriador-Gallywix", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Descriador-Gallywix", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			76, -- [11]
-			"Player-3234-0E5800ED", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cDescriador-Gallywix|r",
-			[51] = 1616030217,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [10]
-		{
-			"¡Sangre corrupta en Akukaos!", -- [1]
-			"Akukaos-Eonar", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Akukaos-Eonar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			77, -- [11]
-			"Player-96-0853EDB9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcAkukaos-Eonar|r",
-			[51] = 1616030217,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [11]
-		{
-			"¡Sangre corrupta en Zepelewe!", -- [1]
-			"Zepelewe-Ragnaros", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Zepelewe-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			90, -- [11]
-			"Player-1427-07FBE8B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cZepelewe-Ragnaros|r",
-			[51] = 1616030237,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
-		{
-			"Corrupted Blood on Christoff", -- [1]
-			"Christoff-Turalyon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Christoff-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			101, -- [11]
-			"Player-3685-09491807", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Christoff|r",
-			[51] = 1616030252,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [13]
-		{
-			"bye", -- [1]
-			"Descriador-Gallywix", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Descriador-Gallywix", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			112, -- [11]
-			"Player-3234-0E5800ED", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cDescriador-Gallywix|r",
-			[51] = 1616030268,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [14]
-		{
-			"typical gallywix", -- [1]
-			"Christoff-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Christoff-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			116, -- [11]
-			"Player-3685-09491807", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Christoff|r",
-			[51] = 1616030280,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [15]
-		{
-			"lol", -- [1]
-			"Akukaos-Eonar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Akukaos-Eonar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			118, -- [11]
-			"Player-96-0853EDB9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcAkukaos-Eonar|r",
-			[51] = 1616030289,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [16]
-		{
-			"can I get a summ? :D", -- [1]
-			"Khansus-Shadowmoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Khansus-Shadowmoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			131, -- [11]
-			"Player-154-09FC7A95", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Khansus-Shadowmoon|r",
-			[51] = 1616030471,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [17]
-		{
-			"sure", -- [1]
-			"Christoff-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Christoff-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			134, -- [11]
-			"Player-3685-09491807", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Christoff|r",
-			[51] = 1616030482,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [18]
-		{
-			"one sec", -- [1]
-			"Christoff-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Christoff-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			135, -- [11]
-			"Player-3685-09491807", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Christoff|r",
-			[51] = 1616030498,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [19]
-		{
-			"seomone go with himn", -- [1]
-			"Holydaz-Eonar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Holydaz-Eonar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			137, -- [11]
-			"Player-96-0B496FDD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeHolydaz-Eonar|r",
-			[51] = 1616030516,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [20]
-		{
-			"ive got wm on", -- [1]
-			"Holydaz-Eonar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Holydaz-Eonar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			138, -- [11]
-			"Player-96-0B496FDD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeHolydaz-Eonar|r",
-			[51] = 1616030519,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [21]
-		{
-			"that warrior just whispered me saying that i was the most aggressive party leader hes ever played with", -- [1]
-			"Holydaz-Eonar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Holydaz-Eonar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			141, -- [11]
-			"Player-96-0B496FDD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeHolydaz-Eonar|r",
-			[51] = 1616030554,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [22]
-		{
-			"i was like ???", -- [1]
-			"Holydaz-Eonar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Holydaz-Eonar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			142, -- [11]
-			"Player-96-0B496FDD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeHolydaz-Eonar|r",
-			[51] = 1616030560,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [23]
-		{
-			"lmao", -- [1]
-			"Christoff-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Christoff-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			143, -- [11]
-			"Player-3685-09491807", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Christoff|r",
-			[51] = 1616030562,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [24]
-		{
-			"i guess he usually plays with mutes?", -- [1]
-			"Christoff-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Christoff-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			144, -- [11]
-			"Player-3685-09491807", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Christoff|r",
-			[51] = 1616030567,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [25]
-		{
-			"xd", -- [1]
-			"Zepelewe-Ragnaros", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zepelewe-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			145, -- [11]
-			"Player-1427-07FBE8B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cZepelewe-Ragnaros|r",
-			[51] = 1616030568,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [26]
-		{
-			"like u said", -- [1]
-			"Holydaz-Eonar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Holydaz-Eonar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			148, -- [11]
-			"Player-96-0B496FDD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeHolydaz-Eonar|r",
-			[51] = 1616030579,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [27]
-		{
-			"typical gallywix", -- [1]
-			"Holydaz-Eonar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Holydaz-Eonar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			149, -- [11]
-			"Player-96-0B496FDD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeHolydaz-Eonar|r",
-			[51] = 1616030583,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [28]
-		{
-			"lol", -- [1]
-			"Christoff-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Christoff-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			150, -- [11]
-			"Player-3685-09491807", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Christoff|r",
-			[51] = 1616030586,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [29]
-		{
-			"ok", -- [1]
-			"Akukaos-Eonar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Akukaos-Eonar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			153, -- [11]
-			"Player-96-0853EDB9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcAkukaos-Eonar|r",
-			[51] = 1616030620,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [30]
-		{
-			"Christoff-Turalyon interrupted Headless Client's |cff71d5ff|Hspell:332196:0|h[Discharge]|h|r", -- [1]
-			"Holydaz-Eonar", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Holydaz-Eonar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			155, -- [11]
-			"Player-96-0B496FDD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeHolydaz-Eonar|r",
-			[51] = 1616030649,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [31]
-		{
-			"Khansus-Shadowmoon interrupted Headless Client's |cff71d5ff|Hspell:332196:0|h[Discharge]|h|r", -- [1]
-			"Holydaz-Eonar", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Holydaz-Eonar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			156, -- [11]
-			"Player-96-0B496FDD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeHolydaz-Eonar|r",
-			[51] = 1616030650,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [32]
-		{
 			"Khansus-Shadowmoon interrupted Lubricator's |cff71d5ff|Hspell:332084:0|h[Self-Cleaning Cycle]|h|r", -- [1]
 			"Holydaz-Eonar", -- [2]
 			"Common", -- [3]
@@ -726,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHolydaz-Eonar|r",
 			[51] = 1616030700,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [33]
+		}, -- [1]
 		{
 			"Zepelewe-Ragnaros interrupted Lubricator's |cff71d5ff|Hspell:332084:0|h[Self-Cleaning Cycle]|h|r", -- [1]
 			"Holydaz-Eonar", -- [2]
@@ -748,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHolydaz-Eonar|r",
 			[51] = 1616030738,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [34]
+		}, -- [2]
 		{
 			"Christoff-Turalyon interrupted Lubricator's |cff71d5ff|Hspell:332084:0|h[Self-Cleaning Cycle]|h|r", -- [1]
 			"Holydaz-Eonar", -- [2]
@@ -770,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHolydaz-Eonar|r",
 			[51] = 1616030741,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [35]
+		}, -- [3]
 		{
 			"Christoff-Turalyon interrupted Sentient Oil's |cff71d5ff|Hspell:332234:0|h[Essential Oil]|h|r", -- [1]
 			"Holydaz-Eonar", -- [2]
@@ -792,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHolydaz-Eonar|r",
 			[51] = 1616030768,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [36]
+		}, -- [4]
 		{
 			"heroism here", -- [1]
 			"Holydaz-Eonar", -- [2]
@@ -814,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHolydaz-Eonar|r",
 			[51] = 1616030813,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [37]
+		}, -- [5]
 		{
 			"if u want hero crate otour own shaman lol", -- [1]
 			"Akukaos-Eonar", -- [2]
@@ -836,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAkukaos-Eonar|r",
 			[51] = 1616030851,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [38]
+		}, -- [6]
 		{
 			"lol", -- [1]
 			"Zepelewe-Ragnaros", -- [2]
@@ -858,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cZepelewe-Ragnaros|r",
 			[51] = 1616030859,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [39]
+		}, -- [7]
 		{
 			"that's the spirit", -- [1]
 			"Christoff-Turalyon", -- [2]
@@ -880,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Christoff|r",
 			[51] = 1616030861,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [40]
+		}, -- [8]
 		{
 			"i have my own shaman D:", -- [1]
 			"Holydaz-Eonar", -- [2]
@@ -902,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHolydaz-Eonar|r",
 			[51] = 1616030864,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [41]
+		}, -- [9]
 		{
 			"lego", -- [1]
 			"Khansus-Shadowmoon", -- [2]
@@ -924,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Khansus-Shadowmoon|r",
 			[51] = 1616030864,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [42]
+		}, -- [10]
 		{
 			"Christoff-Turalyon interrupted Millhouse Manastorm's |cff71d5ff|Hspell:320008:0|h[Frostbolt]|h|r", -- [1]
 			"Holydaz-Eonar", -- [2]
@@ -946,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHolydaz-Eonar|r",
 			[51] = 1616030871,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [43]
+		}, -- [11]
 		{
 			"Zepelewe-Ragnaros interrupted Millhouse Manastorm's |cff71d5ff|Hspell:320008:0|h[Frostbolt]|h|r", -- [1]
 			"Holydaz-Eonar", -- [2]
@@ -968,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHolydaz-Eonar|r",
 			[51] = 1616030878,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
+		}, -- [12]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14374:Player-3685-09491807:1:3:17:21:4294967295:4294967295:4294967295:4294967295|h[Couple's Therapy]|h|r!", -- [1]
 			"Christoff-Turalyon", -- [2]
@@ -990,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Christoff|r",
 			[51] = 1616030905,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [45]
+		}, -- [13]
 		{
 			"rekt D:", -- [1]
 			"Khansus-Shadowmoon", -- [2]
@@ -1012,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Khansus-Shadowmoon|r",
 			[51] = 1616030954,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [46]
+		}, -- [14]
 		{
 			"Christoff-Turalyon interrupted Spriggan Barkbinder's |cff71d5ff|Hspell:321764:0|h[Bark Armor]|h|r", -- [1]
 			"Holydaz-Eonar", -- [2]
@@ -1034,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHolydaz-Eonar|r",
 			[51] = 1616031157,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [47]
+		}, -- [15]
 		{
 			"Arcane Lightning on Christoff", -- [1]
 			"Christoff-Turalyon", -- [2]
@@ -1056,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Christoff|r",
 			[51] = 1616031260,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [48]
+		}, -- [16]
 		{
 			"¡Ardid explosivo localizado en Zepelewe!", -- [1]
 			"Zepelewe-Ragnaros", -- [2]
@@ -1078,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cZepelewe-Ragnaros|r",
 			[51] = 1616031268,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [49]
+		}, -- [17]
 		{
 			"¡Relámpagos arcanos en Zepelewe!", -- [1]
 			"Zepelewe-Ragnaros", -- [2]
@@ -1100,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cZepelewe-Ragnaros|r",
 			[51] = 1616031270,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [50]
+		}, -- [18]
 		{
 			"3", -- [1]
 			"Zepelewe-Ragnaros", -- [2]
@@ -1122,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cZepelewe-Ragnaros|r",
 			[51] = 1616031270,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
+		}, -- [19]
 		{
 			"2", -- [1]
 			"Zepelewe-Ragnaros", -- [2]
@@ -1144,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cZepelewe-Ragnaros|r",
 			[51] = 1616031271,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [52]
+		}, -- [20]
 		{
 			"1", -- [1]
 			"Zepelewe-Ragnaros", -- [2]
@@ -1166,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cZepelewe-Ragnaros|r",
 			[51] = 1616031272,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [53]
+		}, -- [21]
 		{
 			"Arcane Lightning on Khansus", -- [1]
 			"Khansus-Shadowmoon", -- [2]
@@ -1188,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Khansus-Shadowmoon|r",
 			[51] = 1616031279,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [54]
+		}, -- [22]
 		{
 			"oh i forgot to loot", -- [1]
 			"Holydaz-Eonar", -- [2]
@@ -1210,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHolydaz-Eonar|r",
 			[51] = 1616031298,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [55]
+		}, -- [23]
 		{
 			"oh well", -- [1]
 			"Holydaz-Eonar", -- [2]
@@ -1232,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHolydaz-Eonar|r",
 			[51] = 1616031300,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [56]
+		}, -- [24]
 		{
 			"postmaster to the rescue", -- [1]
 			"Christoff-Turalyon", -- [2]
@@ -1254,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Christoff|r",
 			[51] = 1616031312,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [57]
+		}, -- [25]
 		{
 			"me and tank fl", -- [1]
 			"Holydaz-Eonar", -- [2]
@@ -1276,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHolydaz-Eonar|r",
 			[51] = 1616031343,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [58]
+		}, -- [26]
 		{
 			"dk fr", -- [1]
 			"Holydaz-Eonar", -- [2]
@@ -1298,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHolydaz-Eonar|r",
 			[51] = 1616031344,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [59]
+		}, -- [27]
 		{
 			"shaman br", -- [1]
 			"Holydaz-Eonar", -- [2]
@@ -1320,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHolydaz-Eonar|r",
 			[51] = 1616031346,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [60]
+		}, -- [28]
 		{
 			"warr bl", -- [1]
 			"Holydaz-Eonar", -- [2]
@@ -1342,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHolydaz-Eonar|r",
 			[51] = 1616031350,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [61]
+		}, -- [29]
 		{
 			"got it", -- [1]
 			"Khansus-Shadowmoon", -- [2]
@@ -1364,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Khansus-Shadowmoon|r",
 			[51] = 1616031353,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [62]
+		}, -- [30]
 		{
 			"save cds for intermission phase", -- [1]
 			"Christoff-Turalyon", -- [2]
@@ -1386,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Christoff|r",
 			[51] = 1616031366,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [63]
+		}, -- [31]
 		{
 			"Cosmic Artifice on Khansus", -- [1]
 			"Khansus-Shadowmoon", -- [2]
@@ -1408,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Khansus-Shadowmoon|r",
 			[51] = 1616031373,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [64]
+		}, -- [32]
 		{
 			"¡Artificio cósmico en Zepelewe!", -- [1]
 			"Zepelewe-Ragnaros", -- [2]
@@ -1430,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cZepelewe-Ragnaros|r",
 			[51] = 1616031374,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [65]
+		}, -- [33]
 		{
 			"3", -- [1]
 			"Khansus-Shadowmoon", -- [2]
@@ -1452,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Khansus-Shadowmoon|r",
 			[51] = 1616031376,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [66]
+		}, -- [34]
 		{
 			"3", -- [1]
 			"Zepelewe-Ragnaros", -- [2]
@@ -1474,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cZepelewe-Ragnaros|r",
 			[51] = 1616031377,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [67]
+		}, -- [35]
 		{
 			"2", -- [1]
 			"Khansus-Shadowmoon", -- [2]
@@ -1496,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Khansus-Shadowmoon|r",
 			[51] = 1616031377,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [68]
+		}, -- [36]
 		{
 			"2", -- [1]
 			"Zepelewe-Ragnaros", -- [2]
@@ -1518,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cZepelewe-Ragnaros|r",
 			[51] = 1616031378,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [69]
+		}, -- [37]
 		{
 			"1", -- [1]
 			"Zepelewe-Ragnaros", -- [2]
@@ -1540,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cZepelewe-Ragnaros|r",
 			[51] = 1616031379,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [70]
+		}, -- [38]
 		{
 			"1", -- [1]
 			"Khansus-Shadowmoon", -- [2]
@@ -1562,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Khansus-Shadowmoon|r",
 			[51] = 1616031404,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [71]
+		}, -- [39]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14409:Player-3685-09491807:1:3:17:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: De Other Side]|h|r!", -- [1]
 			"Christoff-Turalyon", -- [2]
@@ -1584,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Christoff|r",
 			[51] = 1616031492,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [72]
+		}, -- [40]
 		{
 			"gg", -- [1]
 			"Holydaz-Eonar", -- [2]
@@ -1606,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHolydaz-Eonar|r",
 			[51] = 1616031494,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [73]
+		}, -- [41]
 		{
 			"ez", -- [1]
 			"Christoff-Turalyon", -- [2]
@@ -1628,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Christoff|r",
 			[51] = 1616031498,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [74]
+		}, -- [42]
 		{
 			"lol", -- [1]
 			"Akukaos-Eonar", -- [2]
@@ -1650,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcAkukaos-Eonar|r",
 			[51] = 1616031498,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [75]
+		}, -- [43]
 		{
 			"man", -- [1]
 			"Holydaz-Eonar", -- [2]
@@ -1672,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHolydaz-Eonar|r",
 			[51] = 1616031506,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [76]
+		}, -- [44]
 		{
 			"Astral Keys: New key |cffa335ee|Hkeystone:180653:382:14:10:123:12:121|h[Keystone: Theater of Pain (14)]|h|r", -- [1]
 			"Khansus-Shadowmoon", -- [2]
@@ -1694,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Khansus-Shadowmoon|r",
 			[51] = 1616031506,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [77]
+		}, -- [45]
 		{
 			"no hear", -- [1]
 			"Holydaz-Eonar", -- [2]
@@ -1716,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHolydaz-Eonar|r",
 			[51] = 1616031507,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [78]
+		}, -- [46]
 		{
 			"gear", -- [1]
 			"Holydaz-Eonar", -- [2]
@@ -1738,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHolydaz-Eonar|r",
 			[51] = 1616031508,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [79]
+		}, -- [47]
 		{
 			"thx all", -- [1]
 			"Christoff-Turalyon", -- [2]
@@ -1760,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Christoff|r",
 			[51] = 1616031516,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [80]
+		}, -- [48]
 		{
 			"thanks guys", -- [1]
 			"Khansus-Shadowmoon", -- [2]
@@ -1782,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Khansus-Shadowmoon|r",
 			[51] = 1616031519,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [81]
+		}, -- [49]
 		{
 			"neeed ring?", -- [1]
 			"Holydaz-Eonar", -- [2]
@@ -1804,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHolydaz-Eonar|r",
 			[51] = 1616031524,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [82]
+		}, -- [50]
 		{
 			"yeah:c", -- [1]
 			"Zepelewe-Ragnaros", -- [2]
@@ -1826,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cZepelewe-Ragnaros|r",
 			[51] = 1616031531,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [83]
+		}, -- [51]
 		{
 			"darn", -- [1]
 			"Holydaz-Eonar", -- [2]
@@ -1848,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHolydaz-Eonar|r",
 			[51] = 1616031537,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [84]
+		}, -- [52]
 		{
 			"back to bgs", -- [1]
 			"Holydaz-Eonar", -- [2]
@@ -1870,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeHolydaz-Eonar|r",
 			[51] = 1616031538,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [85]
+		}, -- [53]
 		{
 			"gonna do a run or 2 adam if you're interested in joining?", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -1892,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Azados|r",
 			[51] = 1621475541,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [86]
+		}, -- [54]
 		{
 			"was gonna see if CN is going to do their achivement run tonight", -- [1]
 			"Christoff-Turalyon", -- [2]
@@ -1914,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Christoff|r",
 			[51] = 1621475574,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [87]
+		}, -- [55]
 		{
 			"or did valla say theyre not doing it?", -- [1]
 			"Christoff-Turalyon", -- [2]
@@ -1936,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Christoff|r",
 			[51] = 1621475626,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [88]
+		}, -- [56]
 		{
 			"i didn't talk to her", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -1958,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Azados|r",
 			[51] = 1621475644,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [89]
+		}, -- [57]
 		{
 			"no we haven't talked to her", -- [1]
 			"Taugul-Turalyon", -- [2]
@@ -1980,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Taugul|r",
 			[51] = 1621475644,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [90]
+		}, -- [58]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14328:Player-3685-09491807:1:6:26:21:4294967295:4294967295:4294967295:4294967295|h[Professional Shadowlands Master]|h|r!", -- [1]
 			"Christoff-Turalyon", -- [2]
@@ -2002,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Christoff|r",
 			[51] = 1624734908,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [91]
+		}, -- [59]
 		{
 			"h", -- [1]
 			"Maaddix-Bloodhoof", -- [2]
@@ -2024,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Maaddix-Bloodhoof|r",
 			[51] = 1629852153,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [60]
 		{
 			"uh..... bootay?", -- [1]
 			"Deathtsar-Hellscream", -- [2]
@@ -2046,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDeathtsar-Hellscream|r",
 			[51] = 1629852165,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [61]
 		{
 			"I", -- [1]
 			"Çaylarn-Duskwood", -- [2]
@@ -2068,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Çaylarn-Duskwood|r",
 			[51] = 1629852167,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [62]
 		{
 			"w", -- [1]
 			"Deathtsar-Hellscream", -- [2]
@@ -2090,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDeathtsar-Hellscream|r",
 			[51] = 1629852184,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [63]
 		{
 			"time for badam to make a comeback?", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -2112,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Azados|r",
 			[51] = 1631582242,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [96]
+		}, -- [64]
 		{
 			"it may be time", -- [1]
 			"Christoff-Turalyon", -- [2]
@@ -2134,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Christoff|r",
 			[51] = 1631582272,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [97]
+		}, -- [65]
 		{
 			"lol that fury dps boggled your mind didn't it", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -2156,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Azados|r",
 			[51] = 1631582323,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [98]
+		}, -- [66]
 		{
 			"yeah its pretty nuts", -- [1]
 			"Christoff-Turalyon", -- [2]
@@ -2178,6 +1474,710 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Christoff|r",
 			[51] = 1631582353,
 			[50] = "CHAT_MSG_GUILD",
+		}, -- [67]
+		{
+			"dope", -- [1]
+			"Dissick-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			558, -- [11]
+			"Player-3685-09A3CFFD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Dissick|r",
+			[51] = 1663110080,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [68]
+		{
+			"I chose |cffa335ee|Hitem:189754::::::::60:65::91:4:8758:6652:1537:6646::::::|h[Genesis Lathe]|h|r", -- [1]
+			"Dissick-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			559, -- [11]
+			"Player-3685-09A3CFFD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Dissick|r",
+			[51] = 1663110082,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [69]
+		{
+			"everything about this game is frustrating now", -- [1]
+			"Spiritmonger-Ysera", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Spiritmonger-Ysera", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			105, -- [11]
+			"Player-63-0A999B0B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa330c9Spiritmonger-Ysera|r",
+			[51] = 1667323175,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [70]
+		{
+			"fair lol", -- [1]
+			"Koraro-Dalaran", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Koraro-Dalaran", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			106, -- [11]
+			"Player-3683-093D75B0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff0070ddKoraro-Dalaran|r",
+			[51] = 1667323181,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [71]
+		{
+			"now I have to find a new class to main im thinking of not even buying the expansion at this point", -- [1]
+			"Koraro-Dalaran", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Koraro-Dalaran", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			111, -- [11]
+			"Player-3683-093D75B0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff0070ddKoraro-Dalaran|r",
+			[51] = 1667323197,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [72]
+		{
+			"gonna be a long winter if I don't buy it lol", -- [1]
+			"Finalwhisper-Bloodhoof", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Finalwhisper-Bloodhoof", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			114, -- [11]
+			"Player-64-0BDFD970", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Finalwhisper-Bloodhoof|r",
+			[51] = 1667323223,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [73]
+		{
+			"LOL God of War and COD are calling me", -- [1]
+			"Koraro-Dalaran", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Koraro-Dalaran", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			115, -- [11]
+			"Player-3683-093D75B0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff0070ddKoraro-Dalaran|r",
+			[51] = 1667323235,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [74]
+		{
+			"yeah very true.", -- [1]
+			"Finalwhisper-Bloodhoof", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Finalwhisper-Bloodhoof", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			116, -- [11]
+			"Player-64-0BDFD970", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Finalwhisper-Bloodhoof|r",
+			[51] = 1667323246,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [75]
+		{
+			"I looked for a refund for pre-purchase, but couldn't find a way", -- [1]
+			"Barbi-Hellscream", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Barbi-Hellscream", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			118, -- [11]
+			"Player-53-0CCFDFB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffBarbi-Hellscream|r",
+			[51] = 1667323259,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [76]
+		{
+			"i dddnt pre purchase it because i had a feeling something like this would happen", -- [1]
+			"Koraro-Dalaran", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Koraro-Dalaran", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			125, -- [11]
+			"Player-3683-093D75B0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff0070ddKoraro-Dalaran|r",
+			[51] = 1667323280,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [77]
+		{
+			"I tried to get a refund for a enhance boost in wrath next day wouldn't give it either.", -- [1]
+			"Finalwhisper-Bloodhoof", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Finalwhisper-Bloodhoof", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			127, -- [11]
+			"Player-64-0BDFD970", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Finalwhisper-Bloodhoof|r",
+			[51] = 1667323284,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [78]
+		{
+			"massive nerf instead of tweaking a class", -- [1]
+			"Koraro-Dalaran", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Koraro-Dalaran", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			134, -- [11]
+			"Player-3683-093D75B0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff0070ddKoraro-Dalaran|r",
+			[51] = 1667323289,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [79]
+		{
+			"LOL", -- [1]
+			"Koraro-Dalaran", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Koraro-Dalaran", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			136, -- [11]
+			"Player-3683-093D75B0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff0070ddKoraro-Dalaran|r",
+			[51] = 1667323310,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [80]
+		{
+			"I'll prob still play it and try to shine as a nerfed class probably a pipe dream.", -- [1]
+			"Finalwhisper-Bloodhoof", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Finalwhisper-Bloodhoof", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			138, -- [11]
+			"Player-64-0BDFD970", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Finalwhisper-Bloodhoof|r",
+			[51] = 1667323263,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [81]
+		{
+			"do you think there is any chance they rework the nerf or na", -- [1]
+			"Koraro-Dalaran", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Koraro-Dalaran", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			139, -- [11]
+			"Player-3683-093D75B0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff0070ddKoraro-Dalaran|r",
+			[51] = 1667323328,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [82]
+		{
+			"My shammy finally felt good in Torghast. RIP", -- [1]
+			"Mortadella-AeriePeak", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Mortadella-AeriePeak", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			140, -- [11]
+			"Player-1426-0DBDA6AA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3fc7ebMortadella-AeriePeak|r",
+			[51] = 1667323339,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [83]
+		{
+			"maybe once the raids results are out", -- [1]
+			"Finalwhisper-Bloodhoof", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Finalwhisper-Bloodhoof", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			141, -- [11]
+			"Player-64-0BDFD970", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Finalwhisper-Bloodhoof|r",
+			[51] = 1667323341,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [84]
+		{
+			"so dissapointed man kinda sucks ", -- [1]
+			"Koraro-Dalaran", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Koraro-Dalaran", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			146, -- [11]
+			"Player-3683-093D75B0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff0070ddKoraro-Dalaran|r",
+			[51] = 1667323352,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [85]
+		{
+			"always wanted to main shaman", -- [1]
+			"Koraro-Dalaran", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Koraro-Dalaran", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			158, -- [11]
+			"Player-3683-093D75B0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff0070ddKoraro-Dalaran|r",
+			[51] = 1667323369,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [86]
+		{
+			"so do it", -- [1]
+			"Barbi-Hellscream", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Barbi-Hellscream", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			163, -- [11]
+			"Player-53-0CCFDFB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffBarbi-Hellscream|r",
+			[51] = 1667323377,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [87]
+		{
+			"shadow priest got everything buffed", -- [1]
+			"Finalwhisper-Bloodhoof", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Finalwhisper-Bloodhoof", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			165, -- [11]
+			"Player-64-0BDFD970", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Finalwhisper-Bloodhoof|r",
+			[51] = 1667323323,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"but the nerf is insane barbi ", -- [1]
+			"Koraro-Dalaran", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Koraro-Dalaran", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			167, -- [11]
+			"Player-3683-093D75B0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff0070ddKoraro-Dalaran|r",
+			[51] = 1667323392,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"even demo warlock", -- [1]
+			"Koraro-Dalaran", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Koraro-Dalaran", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			169, -- [11]
+			"Player-3683-093D75B0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff0070ddKoraro-Dalaran|r",
+			[51] = 1667323403,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"shaman was always a utility class, not a straight dps class", -- [1]
+			"Barbi-Hellscream", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Barbi-Hellscream", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			170, -- [11]
+			"Player-53-0CCFDFB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffBarbi-Hellscream|r",
+			[51] = 1667323413,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"warlocks are only good for cookies and dps", -- [1]
+			"Barbi-Hellscream", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Barbi-Hellscream", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			171, -- [11]
+			"Player-53-0CCFDFB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffBarbi-Hellscream|r",
+			[51] = 1667323423,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"pay to play how they want it I guess.", -- [1]
+			"Finalwhisper-Bloodhoof", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Finalwhisper-Bloodhoof", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			172, -- [11]
+			"Player-64-0BDFD970", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Finalwhisper-Bloodhoof|r",
+			[51] = 1667323424,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"the fact that we follow the \"always been\" trend is what caused the massive nerf :/", -- [1]
+			"Koraro-Dalaran", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Koraro-Dalaran", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			173, -- [11]
+			"Player-3683-093D75B0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff0070ddKoraro-Dalaran|r",
+			[51] = 1667323452,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"go back to stat templates and turn a knob in legion to adjust ", -- [1]
+			"Finalwhisper-Bloodhoof", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Finalwhisper-Bloodhoof", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			174, -- [11]
+			"Player-64-0BDFD970", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Finalwhisper-Bloodhoof|r",
+			[51] = 1667323455,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"30 ilvl was 3% more damage.. now its like 30k health difference", -- [1]
+			"Finalwhisper-Bloodhoof", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Finalwhisper-Bloodhoof", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			176, -- [11]
+			"Player-64-0BDFD970", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Finalwhisper-Bloodhoof|r",
+			[51] = 1667323495,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"getting back to the DAY of the Dead question... calendar says it starts at 10am server... but nothing going on in cemetary", -- [1]
+			"Aeri-Staghelm", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Aeri-Staghelm", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			185, -- [11]
+			"Player-160-00372772", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Aeri-Staghelm|r",
+			[51] = 1667323613,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"is it starting at 10am PST?", -- [1]
+			"Aeri-Staghelm", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Aeri-Staghelm", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			197, -- [11]
+			"Player-160-00372772", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Aeri-Staghelm|r",
+			[51] = 1667323640,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"WTS |cffffffff|Hitem:178926::::::::60:72::69:4:7193:7882:8156:1588:1:28:2142::::Player-52-0D462FF0:|h[Shadowghast Ring]|h|r ", -- [1]
+			"Kathor-Alleria", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Kathor-Alleria", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			30, -- [11]
+			"Player-52-0863D956", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dKathor-Alleria|r",
+			[51] = 1667344955,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {

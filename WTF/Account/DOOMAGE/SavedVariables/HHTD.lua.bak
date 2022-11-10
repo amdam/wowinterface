@@ -7,7 +7,7 @@ HHTD_SavedVariables = {
 		["Adamancy - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
-		["Asaam - Turalyon"] = {
+		["Svend - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
 		["Allevin - Turalyon"] = {
@@ -16,7 +16,7 @@ HHTD_SavedVariables = {
 		["Artoc - Zul'jin"] = {
 			["settingsMigrated"] = false,
 		},
-		["Svend - Turalyon"] = {
+		["Asaam - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
 		["Dewt - Turalyon"] = {
@@ -37,13 +37,13 @@ HHTD_SavedVariables = {
 		["Adrid - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
-		["Adamn - Turalyon"] = {
+		["Adris - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
 		["Adreya - Bloodscalp"] = {
 			["settingsMigrated"] = false,
 		},
-		["Adris - Turalyon"] = {
+		["Adamn - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
 		["Shado - Turalyon"] = {
@@ -58,26 +58,26 @@ HHTD_SavedVariables = {
 		["NPH"] = {
 		},
 	},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 2,
+	},
 	["profileKeys"] = {
 		["Furrys - Turalyon"] = "Furrys - Turalyon",
 		["Adamancy - Turalyon"] = "Adamancy - Turalyon",
-		["Asaam - Turalyon"] = "Asaam - Turalyon",
+		["Svend - Turalyon"] = "Svend - Turalyon",
 		["Allevin - Turalyon"] = "Allevin - Turalyon",
 		["Artoc - Zul'jin"] = "Artoc - Zul'jin",
-		["Svend - Turalyon"] = "Svend - Turalyon",
+		["Asaam - Turalyon"] = "Asaam - Turalyon",
 		["Dewt - Turalyon"] = "Dewt - Turalyon",
 		["Amdam - Turalyon"] = "Amdam - Turalyon",
 		["Caris - Turalyon"] = "Caris - Turalyon",
 		["Badam - Turalyon"] = "Badam - Turalyon",
 		["Artoc - Silvermoon"] = "Artoc - Silvermoon",
 		["Adrid - Turalyon"] = "Adrid - Turalyon",
-		["Adamn - Turalyon"] = "Adamn - Turalyon",
-		["Adreya - Bloodscalp"] = "Adreya - Bloodscalp",
 		["Adris - Turalyon"] = "Adris - Turalyon",
+		["Adreya - Bloodscalp"] = "Adreya - Bloodscalp",
+		["Adamn - Turalyon"] = "Adamn - Turalyon",
 		["Shado - Turalyon"] = "Shado - Turalyon",
-	},
-	["global"] = {
-		["settingsMigrated"] = false,
-		["oldNameEnableState"] = 2,
 	},
 }

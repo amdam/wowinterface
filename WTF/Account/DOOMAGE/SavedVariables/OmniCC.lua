@@ -1,9 +1,5 @@
 
 OmniCCDB = {
-	["global"] = {
-		["dbVersion"] = 6,
-		["addonVersion"] = "9.2.1",
-	},
 	["profileKeys"] = {
 		["Allevin - Turalyon"] = "Default",
 		["Asaam - Turalyon"] = "Default",
@@ -16,14 +12,18 @@ OmniCCDB = {
 		["Adamancy - Turalyon"] = "Default",
 		["Furrys - Turalyon"] = "Default",
 		["Christifur - Turalyon"] = "Default",
-		["Adrid - Turalyon"] = "Default",
-		["Artoc - Zul'jin"] = "Default",
+		["Aduum - Turalyon"] = "Default",
+		["Kayne - Turalyon"] = "Default",
 		["Artoc - Silvermoon"] = "Default",
 		["Svend - Turalyon"] = "Default",
 		["Adamn - Turalyon"] = "Default",
-		["Kayne - Turalyon"] = "Default",
-		["Aduum - Turalyon"] = "Default",
+		["Artoc - Zul'jin"] = "Default",
+		["Adrid - Turalyon"] = "Default",
 		["Shado - Turalyon"] = "Default",
+	},
+	["global"] = {
+		["dbVersion"] = 6,
+		["addonVersion"] = "10.0.1",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -37,8 +37,28 @@ OmniCCDB = {
 					["priority"] = 1,
 					["theme"] = "Ignore",
 				}, -- [1]
+				{
+					["patterns"] = {
+						"PlaterMainAuraIcon", -- [1]
+						"PlaterSecondaryAuraIcon", -- [2]
+						"ExtraIconRowIcon", -- [3]
+					},
+					["id"] = "Plater Nameplates Rule",
+					["priority"] = 2,
+					["theme"] = "Plater Nameplates Theme",
+				}, -- [2]
 			},
 			["themes"] = {
+				["Plater Nameplates Theme"] = {
+					["textStyles"] = {
+						["seconds"] = {
+						},
+						["soon"] = {
+						},
+						["minutes"] = {
+						},
+					},
+				},
 				["Default"] = {
 					["textStyles"] = {
 						["soon"] = {
@@ -70,9 +90,9 @@ OmniCCDB = {
 				},
 				["Ignore"] = {
 					["textStyles"] = {
-						["minutes"] = {
-						},
 						["seconds"] = {
+						},
+						["minutes"] = {
 						},
 						["soon"] = {
 						},
@@ -94,7 +114,17 @@ OmniCCDB = {
 	},
 }
 OmniCC4Config = {
-	["engine"] = "AniUpdater",
+	["groups"] = {
+		{
+			["id"] = "Ignore",
+			["rules"] = {
+				"LossOfControl", -- [1]
+				"TotemFrame", -- [2]
+			},
+			["enabled"] = true,
+		}, -- [1]
+	},
+	["version"] = "8.2.5",
 	["groupSettings"] = {
 		["base"] = {
 			["styles"] = {
@@ -148,11 +178,11 @@ OmniCC4Config = {
 			["yOff"] = 0,
 			["xOff"] = 0,
 			["version"] = "3.1.4",
-			["scaleText"] = true,
-			["minSize"] = 0.5,
-			["minEffectDuration"] = 30,
-			["fontSize"] = 18,
 			["fontFace"] = "Fonts\\FRIZQT__.TTF",
+			["fontSize"] = 18,
+			["minEffectDuration"] = 30,
+			["minSize"] = 0.5,
+			["scaleText"] = true,
 		},
 		["Ignore"] = {
 			["fontSize"] = 18,
@@ -167,7 +197,9 @@ OmniCC4Config = {
 			["yOff"] = 0,
 			["xOff"] = 0,
 			["version"] = "3.1.4",
-			["fontFace"] = "Fonts\\FRIZQT__.TTF",
+			["scaleText"] = true,
+			["minSize"] = 0.5,
+			["minEffectDuration"] = 30,
 			["styles"] = {
 				["soon"] = {
 					["a"] = 1,
@@ -207,20 +239,8 @@ OmniCC4Config = {
 				["controlled"] = {
 				},
 			},
-			["minEffectDuration"] = 30,
-			["minSize"] = 0.5,
-			["scaleText"] = true,
+			["fontFace"] = "Fonts\\FRIZQT__.TTF",
 		},
 	},
-	["groups"] = {
-		{
-			["id"] = "Ignore",
-			["rules"] = {
-				"LossOfControl", -- [1]
-				"TotemFrame", -- [2]
-			},
-			["enabled"] = true,
-		}, -- [1]
-	},
-	["version"] = "8.2.5",
+	["engine"] = "AniUpdater",
 }

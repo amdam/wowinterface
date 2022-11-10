@@ -1,3 +1,75 @@
+4.22 (Nov 5th, 2022)
+Updated the Patreon team
+Resize the ugly Micro buttons
+Fixed the Tooltip Header Font during install
+Fixed SLEEEEE :D Location panel shadow overlap
+Fixed the Talking Head Style/Shadows
+Mini corrections in the Installer
+Removed the Covenant Color option and its Crest from the AFK Mode
+Styled the EditMode frames
+Style new Encounter Journal side tabs
+Fix DropDown Menu Strata and Closing Game Menu
+Fix hiding minimap mail icon
+
+4.21 (Oct 28th, 2022)
+Add more safety on castbars
+Fixed a typo ;)
+HandleScrollBar is bugged atm
+Fixes for missing icons on castbar and chat error on reload
+Fix for SetVertexColor on Target loss
+
+4.20 (Oct 26th, 2022)
+Updated for WoW Patch 10.00
+Removed Spec Switch Datatext.
+Hide the Tracking button from Minimap while on flightMode
+Fixup merchant and void storage tab style
+Rep tooltip
+Updated the Renown Datatext to the new system
+Update Reputation Dashboard with the new Renown/Rep feature
+Replace font style
+Added Missions at the Game menu
+Styled Expansion Landing Page
+Fixed Dropmenu v2
+Styled Major Factions frame
+Styled the Generic Trait Frame
+Fixed Professions Dashboard init position to the new ElvUI_MinimapClusterHolder
+Removed the BackdropTemplate
+Fixed Dropmenu
+Fixed Reputation Dashboard
+Chat DTs to have a look at
+Class Talents frame
+Shadow fixes
+Fixed fonts and Widget bars
+Various beta fixes
+Prevent a castbar error
+Fixed Stancebar shadows and added support for Masque
+Fixed all unit castbar shadows.
+Fixed AuraBars Shadows for good this time. Need options tweaks
+donors/patrons
+TotemTracker failsafe
+Fixed Aurabars Shadows
+Disable Actionbar step during install, when ElvUI Actionbars are disabled
+Style new totem tracker
+Attempt to fix Torghast powers frame
+Fixed InfoPanel color feature
+Fixed the double castbar shadow
+More uf fixes
+Disable InfoPanel fix when EltreumUI is loaded and its "InfoPanel on top" option is enabled
+
+4.19 (Sep 12th, 2022)
+Update raid movers in installer
+Fixed PlayerChoice style
+Donators, Patrons and Nitros
+Cleanup
+Fixed ShapeShift texture glitch
+Merge remote-tracking branch 'origin/dev_yeet' into development
+Fixed the Texture hooks for  health/power
+Remove class hover
+Installer for new raid frames and more clenup
+Initial changes for new raid frames
+Remove bui style for guild bank tabs, only shadows now
+Style tabs on Character, Spellbook, Friends, PVE frames
+
 4.18 (Aug 18th, 2022)
 *Big thanks to thurin for the updates <3
 *Follow ElvUI aurabar changes

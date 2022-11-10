@@ -1,4 +1,5 @@
 if not WeakAuras.IsLibsOK() then return end
+--- @type string, Private
 local AddonName, Private = ...
 
 local WeakAuras = WeakAuras;
@@ -291,7 +292,7 @@ Private.format_types = {
       addOption(symbol .. "_time_legacy_floor", {
         type = "toggle",
         name = L["Use Legacy floor rounding"],
-        desc = L["Enables (incorrect) round down of seconds, which was the previous default behaviour."],
+        desc = L["Enables (incorrect) round down of seconds, which was the previous default behavior."],
         width = WeakAuras.normalWidth,
         hidden = hidden,
         disabled = function() return get(symbol .. "_time_format", 0) ~= 0 end
@@ -918,7 +919,7 @@ Private.unit_threat_situation_types = {
 WeakAuras.class_types = {}
 for classID = 1, 20 do -- 20 is for GetNumClasses() but that function doesn't exists on Classic
   local classInfo = C_CreatureInfo.GetClassInfo(classID)
-  if classInfo then
+  if classInfo and classID ~=14 then -- 14 == Adventurer
     WeakAuras.class_types[classInfo.classFile] = WrapTextInColorCode(classInfo.className, WA_GetClassColor(classInfo.classFile))
   end
 end
@@ -926,32 +927,41 @@ end
 
 WeakAuras.race_types = {}
 do
-  local unplayableRace = {
-    [12] = true,
-    [13] = true,
-    [14] = true,
-    [15] = true,
-    [16] = true,
-    [17] = true,
-    [18] = true,
-    [19] = true,
-    [20] = true,
-    [21] = true,
-    [23] = true,
-    [33] = true
+  local races = {
+    [1] = true,
+    [2] = true,
+    [3] = true,
+    [4] = true,
+    [5] = true,
+    [6] = true,
+    [7] = true,
+    [8] = true,
+    [9] = not WeakAuras.IsClassicOrBCCOrWrath() and true or nil, -- Goblin
+    [10] = true,
+    [11] = true,
+    [22] = true,
+    [24] = true,
+    [25] = true,
+    [26] = true,
+    [27] = true,
+    [28] = true,
+    [29] = true,
+    [30] = true,
+    [31] = true,
+    [32] = true,
+    [34] = true,
+    [35] = true,
+    [36] = true,
+    [37] = true,
+    [52] = true, -- Dracthyr
+    [70] = true, -- Dracthyr
   }
-  if WeakAuras.IsClassicOrBCCOrWrath() then
-    unplayableRace[9] = true
-  end
 
-  local raceID = 1
-  local raceInfo = C_CreatureInfo.GetRaceInfo(raceID)
-  while raceInfo do
-    if not unplayableRace[raceID] then
+  for raceId, enabled in pairs(races) do
+    local raceInfo = C_CreatureInfo.GetRaceInfo(raceId)
+    if raceInfo then
       WeakAuras.race_types[raceInfo.clientFileString] = raceInfo.raceName
     end
-    raceID = raceID + 1
-    raceInfo = C_CreatureInfo.GetRaceInfo(raceID)
   end
 end
 
@@ -1171,6 +1181,9 @@ Private.subevent_suffix_types = {
   _CAST_START = L["Cast Start"],
   _CAST_SUCCESS = L["Cast Success"],
   _CAST_FAILED = L["Cast Failed"],
+  _EMPOWER_START = L["Empower Cast Start"],
+  _EMPOWER_END = L["Empower Cast End"],
+  _EMPOWER_INTERRUPT = L["Empower Cast Interrupt"],
   _INSTAKILL = L["Instakill"],
   _DURABILITY_DAMAGE = L["Durability Damage"],
   _DURABILITY_DAMAGE_ALL = L["Durability Damage All"],
@@ -1196,25 +1209,10 @@ Private.power_types = {
   [17] = POWER_TYPE_FURY_DEMONHUNTER,
   [18] = POWER_TYPE_PAIN
 }
-
-Private.power_types_with_stagger = {
-  [0] = POWER_TYPE_MANA,
-  [1] = POWER_TYPE_RED_POWER,
-  [2] = POWER_TYPE_FOCUS,
-  [3] = POWER_TYPE_ENERGY,
-  [4] = COMBO_POINTS,
-  [6] = RUNIC_POWER,
-  [7] = SOUL_SHARDS_POWER,
-  [8] = POWER_TYPE_LUNAR_POWER,
-  [9] = HOLY_POWER,
-  [11] = POWER_TYPE_MAELSTROM,
-  [12] = CHI_POWER,
-  [13] = POWER_TYPE_INSANITY,
-  [16] = POWER_TYPE_ARCANE_CHARGES,
-  [17] = POWER_TYPE_FURY_DEMONHUNTER,
-  [18] = POWER_TYPE_PAIN,
-  [99] = STAGGER
-}
+if WeakAuras.IsRetail() then
+  Private.power_types[99] = STAGGER
+  Private.power_types[19] = POWER_TYPE_ESSENCE
+end
 
 Private.miss_types = {
   ABSORB = L["Absorb"],
@@ -1368,16 +1366,15 @@ Private.spec_types_all = {}
 local function update_specs()
   for classFileName, classID in pairs(WeakAuras.class_ids) do
     WeakAuras.spec_types_specific[classFileName] = {}
-    local classTexcoords = CLASS_ICON_TCOORDS[classFileName]
     local numSpecs = GetNumSpecializationsForClassID(classID)
     for i=1, numSpecs do
       local specId, tabName, _, icon = GetSpecializationInfoForClassID(classID, i);
       if tabName then
         tinsert(WeakAuras.spec_types_specific[classFileName], "|T"..(icon or "error")..":0|t "..(tabName or "error"));
-        Private.spec_types_all[specId] = "|TInterface\\GLUES\\CHARACTERCREATE\\UI-CHARACTERCREATE-CLASSES:0:0:0:0:256:256:"
-         .. classTexcoords[1] * 256 .. ":" .. classTexcoords[2] * 256 .. ":" .. classTexcoords[3] * 256 .. ":" .. classTexcoords[4] * 256
-         .. ":0|t"
-         .. "|T"..(icon or "error")..":0|t "..(tabName or "error");
+        if WeakAuras.IsRetail() then
+          Private.spec_types_all[specId] = CreateAtlasMarkup(GetClassAtlas(classFileName:lower()))
+          .. "|T"..(icon or "error")..":0|t "..(tabName or "error");
+        end
       end
     end
   end
@@ -1389,20 +1386,6 @@ if WeakAuras.IsRetail() then
   local spec_frame = CreateFrame("Frame");
   spec_frame:RegisterEvent("PLAYER_LOGIN")
   spec_frame:SetScript("OnEvent", update_specs);
-  local numTalents, numTiers, numColumns = MAX_TALENT_TIERS * NUM_TALENT_COLUMNS, MAX_TALENT_TIERS, NUM_TALENT_COLUMNS
-  local talentId, tier, column = 1, 1, 1
-  while talentId <= numTalents do
-    while tier <= numTiers do
-      while column <= numColumns do
-        Private.talent_types[talentId] = L["Tier "]..tier.." - "..column
-        column = column + 1
-        talentId = talentId + 1
-      end
-      column = 1
-      tier = tier + 1
-    end
-    tier = 1
-  end
 else
   for tab = 1, GetNumTalentTabs() do
     for num_talent = 1, GetNumTalents(tab) do
@@ -1434,6 +1417,7 @@ for i = 1, 5 do
 end
 
 Private.loss_of_control_types = {
+  NONE = "NONE",
   CHARM = "CHARM",
   CONFUSE = "CONFUSE",
   DISARM = "DISARM",
@@ -1991,7 +1975,7 @@ Private.texture_types["PowerAuras Separated"] = {
   [PowerAurasPath.."Aura104"] = "Shield Center",
   [PowerAurasPath.."Aura105"] = "Shield Full",
   [PowerAurasPath.."Aura106"] = "Shield Top Right",
-  [PowerAurasPath.."Aura107"] = "Shiled Top Left",
+  [PowerAurasPath.."Aura107"] = "Shield Top Left",
   [PowerAurasPath.."Aura108"] = "Shield Bottom Right",
   [PowerAurasPath.."Aura109"] = "Shield Bottom Left",
   [PowerAurasPath.."Aura121"] = "Vine Top Right Leaf",
@@ -2130,6 +2114,16 @@ Private.grid_types = {
   DR = L["Down, then Right"],
   LD = L["Left, then Down"],
   DL = L["Down, then Left"],
+  HD = L["Centered Horizontal, then Down"],
+  HU = L["Centered Horizontal, then Up"],
+  VR = L["Centered Vertical, then Right"],
+  VL = L["Centered Vertical, then Left"],
+  DH = L["Down, then Centered Horizontal"],
+  UH = L["Up, then Centered Horizontal"],
+  LV = L["Left, then Centered Vertical"],
+  RV = L["Right, then Centered Vertical"],
+  HV = L["Centered Horizontal, then Centered Vertical"],
+  VH = L["Centered Vertical, then Centered Horizontal"]
 }
 
 Private.text_rotate_types = {
@@ -2257,7 +2251,7 @@ Private.instance_difficulty_types = {
 
 do
   -- Fill out instance_difficulty_types automatically.
-  -- Unfourtunately the names BLizzard gives are not entirely unique,
+  -- Unfortunately the names BLizzard gives are not entirely unique,
   -- so try hard to disambiguate them via the type, and if nothing works by
   -- including the plain id.
 
@@ -2311,6 +2305,7 @@ do
     [174] = L["Heroic Party"],
     [175] = L["10 Player Raid"],
     [176] = L["25 Player Raid"],
+    [192] = L["Dungeon (Mythic+)"], -- "Challenge Level 1" TODO: check if this label is correct
     [193] = L["10 Player Raid (Heroic)"],
     [194] = L["25 Player Raid (Heroic)"],
   }
@@ -2324,7 +2319,7 @@ do
         end
       else
         Private.instance_difficulty_types[i] = name
-        WeakAuras.prettyPrint(string.format("Unknown difficulty id found. Please report as a bug: %s %s %s", i, name, type))
+        WeakAuras.prettyPrint(string.format("Unknown difficulty id found. You are probably running an outdated version. Debug Information: %s %s %s", i, name, type))
       end
     end
   end
@@ -2382,6 +2377,12 @@ if WeakAuras.IsWrathOrRetail() then
     HEALER = INLINE_HEALER_ICON.." "..HEALER
   }
 end
+
+Private.group_member_types = {
+  LEADER = L["Leader"],
+  ASSIST = L["Assist"],
+  NONE = L["None"]
+}
 
 Private.classification_types = {
   worldboss = L["World Boss"],
@@ -2666,7 +2667,7 @@ Private.pet_behavior_types = {
   assist = PET_MODE_ASSIST
 }
 
-if WeakAuras.IsClassic() then
+if WeakAuras.IsClassicOrBCCOrWrath() then
   Private.pet_behavior_types.aggressive = PET_MODE_AGGRESSIVE
   Private.pet_behavior_types.assist = nil
 end
@@ -2782,7 +2783,7 @@ end
 Private.update_categories = {
   {
     name = "anchor",
-    -- Note, these are special cased for child auras and considered arrangment
+    -- Note, these are special cased for child auras and considered arrangement
     fields = {
       "xOffset",
       "yOffset",
@@ -2918,6 +2919,9 @@ Private.non_transmissable_fields = {
   skipWagoUpdate = true,
   ignoreWagoUpdate = true,
   preferToUpdate = true,
+  information = {
+    saved = true
+  }
 }
 
 -- For nested groups, we do transmit parent + controlledChildren
@@ -2926,9 +2930,12 @@ Private.non_transmissable_fields_v2000 = {
   skipWagoUpdate = true,
   ignoreWagoUpdate = true,
   preferToUpdate = true,
+  information = {
+    saved = true
+  }
 }
 
-WeakAuras.data_stub = {
+Private.data_stub = {
   -- note: this is the minimal data stub which prevents false positives in diff upon reimporting an aura.
   -- pending a refactor of other code which adds unnecessary fields, it is possible to shrink it
   triggers = {
@@ -3515,6 +3522,169 @@ WeakAuras.StopMotion.texture_data["Interface\\AddOns\\WeakAurasStopMotion\\Textu
      ["columns"] = 4
   }
 
+if WeakAuras.IsRetail() then
+  WeakAuras.StopMotion.texture_types.Blizzard = {
+    ["Skillbar_Fill_Flipbook_Alchemy"] = L["Alchemy Cast Bar"],
+    ["Skillbar_Fill_Flipbook_Blacksmithing"] = L["Blacksmithing Cast Bar"],
+    ["Skillbar_Fill_Flipbook_Jewelcrafting"] = L["Jewelcrafting Cast Bar"],
+    ["Skillbar_Fill_Flipbook_Tailoring"] = L["Tailoring Cast Bar"],
+    ["Skillbar_Fill_Flipbook_Leatherworking"] = L["Leatherworking Cast Bar"],
+    ["Skillbar_Fill_Flipbook_Enchanting"] = L["Enchanting Cast Bar"],
+    ["groupfinder-eye-flipbook-initial"] = L["Group Finder Eye Initial"],
+    ["groupfinder-eye-flipbook-searching"] = L["Group Finder Eye"],
+    ["groupfinder-eye-flipbook-mouseover"] = L["Group Finder Mouse Over"],
+    ["groupfinder-eye-flipbook-foundfx"] = L["Group Finder Found Initial"],
+    ["groupfinder-eye-flipbook-found-loop"] = L["Group Finder Found"],
+    ["groupfinder-eye-flipbook-poke-initial"] = L["Group Finder Poke Initial"],
+    ["groupfinder-eye-flipbook-poke-loop"] = L["Group Finder Poke"],
+    ["groupfinder-eye-flipbook-poke-end"] = L["Group Finder Poke End"],
+    ["UI-HUD-UnitFrame-Player-Rest-Flipbook"] = L["Player Rest"],
+  }
+
+
+  WeakAuras.StopMotion.texture_data["Skillbar_Fill_Flipbook_Alchemy"] = {
+    ["count"] = 60,
+    ["rows"] = 30,
+    ["columns"] = 2
+  }
+
+  WeakAuras.StopMotion.texture_data["Skillbar_Fill_Flipbook_Blacksmithing"] = {
+    ["count"] = 60,
+    ["rows"] = 30,
+    ["columns"] = 2
+  }
+
+  WeakAuras.StopMotion.texture_data["Skillbar_Fill_Flipbook_Jewelcrafting"] = {
+    ["count"] = 44,
+    ["rows"] = 22,
+    ["columns"] = 2
+  }
+
+  WeakAuras.StopMotion.texture_data["Skillbar_Fill_Flipbook_Tailoring"] = {
+    ["count"] = 58,
+    ["rows"] = 29,
+    ["columns"] = 2
+  }
+
+  WeakAuras.StopMotion.texture_data["Skillbar_Fill_Flipbook_Leatherworking"] = {
+    ["count"] = 60,
+    ["rows"] = 30,
+    ["columns"] = 2
+  }
+
+  WeakAuras.StopMotion.texture_data["Skillbar_Fill_Flipbook_Enchanting"] = {
+    ["count"] = 74,
+    ["rows"] = 37,
+    ["columns"] = 2
+  }
+  WeakAuras.StopMotion.texture_data["groupfinder-eye-flipbook-initial"] = {
+    ["count"] = 52,
+    ["rows"] = 5,
+    ["columns"] = 11
+  }
+  WeakAuras.StopMotion.texture_data["groupfinder-eye-flipbook-searching"] = {
+    ["count"] = 80,
+    ["rows"] = 8,
+    ["columns"] = 11
+  }
+  WeakAuras.StopMotion.texture_data["groupfinder-eye-flipbook-mouseover"] = {
+    ["count"] = 12,
+    ["rows"] = 1,
+    ["columns"] = 12
+  }
+  WeakAuras.StopMotion.texture_data["groupfinder-eye-flipbook-foundfx"] = {
+    ["count"] = 75,
+    ["rows"] = 5,
+    ["columns"] = 15
+  }
+  WeakAuras.StopMotion.texture_data["groupfinder-eye-flipbook-found-loop"] = {
+    ["count"] = 41,
+    ["rows"] = 4,
+    ["columns"] = 11
+  }
+  WeakAuras.StopMotion.texture_data["groupfinder-eye-flipbook-poke-initial"] = {
+    ["count"] = 66,
+    ["rows"] = 6,
+    ["columns"] = 11
+  }
+  WeakAuras.StopMotion.texture_data["groupfinder-eye-flipbook-poke-loop"] = {
+    ["count"] = 62,
+    ["rows"] = 6,
+    ["columns"] = 11
+  }
+  WeakAuras.StopMotion.texture_data["groupfinder-eye-flipbook-poke-end"] = {
+    ["count"] = 38,
+    ["rows"] = 4,
+    ["columns"] = 11
+  }
+  WeakAuras.StopMotion.texture_data["UI-HUD-UnitFrame-Player-Rest-Flipbook"] = {
+    ["count"] = 8,
+    ["rows"] = 1,
+    ["columns"] = 8
+  }
+
+  local professions = {
+    "Blacksmithing",
+    "Enchanting",
+    "Tailoring",
+    "Jewelcrafting",
+    "Alchemy",
+    "Leatherworking",
+    "Engineering",
+    "Herbalism",
+    "Mining",
+    "Skinning",
+    "Inscription",
+  }
+  for _, profession in ipairs(professions) do
+    local name = ("SpecDial_Pip_Flipbook_%s"):format(profession)
+    WeakAuras.StopMotion.texture_data[name] = {
+      ["count"] = 24,
+      ["rows"] = 4,
+      ["columns"] = 4
+    }
+    WeakAuras.StopMotion.texture_types.Blizzard[name] = name
+    name = ("SpecDial_EndPip_Flipbook_%s"):format(profession)
+    WeakAuras.StopMotion.texture_data[name] = {
+      ["count"] = 16,
+      ["rows"] = 4,
+      ["columns"] = 6
+    }
+    WeakAuras.StopMotion.texture_types.Blizzard[name] = name
+    name = ("SpecDial_Fill_Flipbook_%s"):format(profession)
+    WeakAuras.StopMotion.texture_data[name] = {
+      ["count"] = 36,
+      ["rows"] = 6,
+      ["columns"] = 6
+    }
+    WeakAuras.StopMotion.texture_types.Blizzard[name] = name
+  end
+  for i = 1, 5 do
+    local name = ("GemAppear_T%d_Flipbook"):format(i)
+    WeakAuras.StopMotion.texture_data[name] = {
+      ["count"] = 12,
+      ["rows"] = 3,
+      ["columns"] = 4
+    }
+    WeakAuras.StopMotion.texture_types.Blizzard[name] = name
+    name = ("Quality-BarFill-Flipbook-T%d-x2"):format(i)
+    WeakAuras.StopMotion.texture_data[name] = {
+      ["count"] = 60,
+      ["rows"] = 15,
+      ["columns"] = 4
+    }
+    WeakAuras.StopMotion.texture_types.Blizzard[name] = name
+  end
+  for i = 1, 4 do
+    local name = ("GemDissolve_T%d_Flipbook"):format(i)
+    WeakAuras.StopMotion.texture_data[name] = {
+      ["count"] = 12,
+      ["rows"] = 3,
+      ["columns"] = 4
+    }
+    WeakAuras.StopMotion.texture_types.Blizzard[name] = name
+  end
+end
 
 WeakAuras.StopMotion.animation_types = {
   loop = L["Loop"],

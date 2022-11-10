@@ -7,29 +7,17 @@ RaiderIO_Config = {
 	["showDropDownCopyURL"] = true,
 	["disableScoreColors"] = false,
 	["enableLFGTooltips"] = true,
-	["showSimpleScoreColors"] = false,
+	["enableWhoTooltips"] = true,
 	["showMainsScore"] = true,
 	["enableWhoMessages"] = true,
-	["enableWhoTooltips"] = true,
+	["showSimpleScoreColors"] = false,
 	["enableLFGDropdown"] = true,
 	["enableGuildTooltips"] = true,
 }
-RaiderIO_LastCharacter = "us-Adamancy-turalyon"
+RaiderIO_LastCharacter = "us-Kayne-turalyon"
 RaiderIO_MissingCharacters = {
-	["us-Myndy-bloodhoof"] = true,
-	["us-Logoutt-area-52"] = true,
-	["us-Schoundrel-turalyon"] = true,
-	["us-Mtndew-duskwood"] = true,
-	["us-Katrini-bloodhoof"] = true,
-	["us-Venger-turalyon"] = true,
-	["us-Ondar-quelthalas"] = true,
-	["us-Thepriestx-tichondrius"] = true,
-	["us-Zisa-turalyon"] = true,
-	["us-Missdemeanor-bloodhoof"] = true,
-	["us-Adrid-turalyon"] = true,
-	["us-Abel-turalyon"] = true,
-	["us-Mendarise-area-52"] = true,
-	["us-Slaminshaman-turalyon"] = true,
+	["us-Kayne-turalyon"] = true,
+	["us-Monkchikyto-area-52"] = true,
 }
 RaiderIO_MissingServers = {
 }

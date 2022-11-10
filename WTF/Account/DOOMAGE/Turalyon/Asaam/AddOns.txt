@@ -40,3 +40,8 @@ RaiderIO_DB_TW_F: disabled
 RaiderIO_DB_KR_F: disabled
 RaiderIO_DB_EU_F: disabled
 BigWigs: disabled
+Kui_Media: disabled
+Kui_Nameplates: disabled
+Kui_Nameplates_Core: disabled
+Kui_Nameplates_Core_Config: disabled
+OmniCD: disabled

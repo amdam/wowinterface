@@ -1,6 +1,7 @@
 # TomTom
 
-## [v3.1.3](https://github.com/jnwhiteh/TomTom/tree/v3.1.3) (2022-08-17)
-[Full Changelog](https://github.com/jnwhiteh/TomTom/compare/v3.1.2...v3.1.3) [Previous Releases](https://github.com/jnwhiteh/TomTom/releases)
+## [v3.3.4-release](https://github.com/jnwhiteh/TomTom/tree/v3.3.4-release) (2022-11-07)
+[Full Changelog](https://github.com/jnwhiteh/TomTom/compare/v3.3.3-release...v3.3.4-release) [Previous Releases](https://github.com/jnwhiteh/TomTom/releases)
 
-- Update TOC for 9.2.7  
+- Don't package .vscode or .github  
+- Add an OnUpdate to catch issues with the new world map integration  

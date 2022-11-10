@@ -11,7 +11,9 @@ local color = "|cff00ffff"
 local WOWVERSION = select(4, GetBuildInfo())
 
 local function GetMapTitleText()
-	if (WOWVERSION >= 80200) then
+	if (WOWVERSION >= 100000) then
+		return WorldMapFrameTitleText
+	elseif (WOWVERSION >= 80200) then
 		return WorldMapFrame.BorderFrame.TitleText
 	else
 		local regions = {WorldMapFrame.BorderFrame:GetRegions()}
@@ -151,24 +153,19 @@ function Coordinates_UpdateCoordinates()
 	end
 end
 
-if (TomCats and TomCats.Register) then
-    TomCats:Register(
-        {
-			slashCommands = {
-				{
-					command = "COORDINATES WORLDMAP TOGGLE",
-					desc = "Toggle Coordinates visibility on the world map",
-					func = addon.toggleWorldMap
-				},
-				{
-					command = "COORDINATES MINIMAP TOGGLE",
-					desc = "Toggle Coordinates visibility on the minimap",
-					func = addon.toggleMiniMap
-				}
-			},
-            name = "Coordinates",
-            version = "2.1.0"
-        }
-    )
+
+SLASH_COORDINATES1 = "/COORDINATES"
+SlashCmdList["COORDINATES"] = function(msg)
+	msg = string.upper(msg)
+	if (msg == "WORLDMAP TOGGLE") then
+		addon.toggleWorldMap()
+		return
+	end
+	if (msg == "MINIMAP TOGGLE") then
+		addon.toggleMiniMap()
+		return
+	end
+	DEFAULT_CHAT_FRAME:AddMessage("Usage:\n/COORDINATES WORLDMAP TOGGLE\n/COORDINATES MINIMAP TOGGLE")
 end
+
 

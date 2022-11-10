@@ -1,11 +1,11 @@
 Version: 1
-Frame: ObjectiveTrackerFrame
+Frame: ScriptErrorsFrame
 FrameLevel: 1
-Anchor: RIGHT
-X: -157
-Y: 89
-W: 235
-H: 750
+Anchor: CENTER
+X: -49
+Y: 11
+W: 784
+H: 260
 Frame: PlayerPowerBarAlt
 FrameLevel: 2
 Anchor: TOP

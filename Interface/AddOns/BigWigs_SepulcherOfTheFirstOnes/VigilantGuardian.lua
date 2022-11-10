@@ -7,6 +7,7 @@ if not mod then return end
 mod:RegisterEnableMob(184522, 180773) -- Vigilant Custodian, Vigilant Guardian
 mod:SetEncounterID(2512)
 mod:SetRespawnTime(30)
+mod:SetStage(1)
 
 --------------------------------------------------------------------------------
 -- Locals
@@ -191,7 +192,7 @@ do
 		if self:Tank() or self:Me(args.destGUID) then
 			local amount = args.amount or 1
 			if amount % 2 == 1 then -- XXX Finetune
-				self:NewStackMessage(args.spellId, "purple", args.destName, amount, 5)
+				self:StackMessage(args.spellId, "purple", args.destName, amount, 5)
 				if self:Me(args.destGUID) then
 					self:PlaySound(args.spellId, "alarm")
 				end
@@ -274,7 +275,7 @@ do
 	end
 end
 
-function mod:AncientDefensesRemoved(args)
+function mod:AncientDefensesRemoved()
 	self:StopBar(CL.count:format(self:SpellName(360412), exposedCoreCount)) -- Exposed Core
 	self:StopBar(CL.count:format(self:SpellName(360906), refractedBlastCount)) -- Refracted Blast
 	self:StopBar(CL.count:format(L.sentry, tankAddCount)) -- Pre-Fabricated Sentry
@@ -337,7 +338,7 @@ do
 				self:SayCountdown(args.spellId, timeLeft)
 			end
 		end
-		self:NewTargetsMessage(args.spellId, "yellow", playerList, nil, CL.count:format(args.spellName, matterDisolutionCount-1))
+		self:TargetsMessage(args.spellId, "yellow", playerList, nil, CL.count:format(args.spellName, matterDisolutionCount-1))
 	end
 
 	function mod:MatterDisolutionRemoved(args)

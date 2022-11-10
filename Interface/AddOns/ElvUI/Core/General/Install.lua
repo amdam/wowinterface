@@ -152,6 +152,7 @@ function E:SetupCVars(noDisplayMsg)
 	SetCVar('threatWarning', 3)
 	SetCVar('alwaysShowActionBars', 1)
 	SetCVar('lockActionBars', 1)
+	SetCVar('ActionButtonUseKeyDown', 1)
 	SetCVar('fstack_preferParentKeys', 0) -- Add back the frame names via fstack!
 
 	if E.Retail then
@@ -160,8 +161,11 @@ function E:SetupCVars(noDisplayMsg)
 		SetCVar('chatClassColorOverride', 0)
 	end
 
-	_G.InterfaceOptionsActionBarsPanelPickupActionKeyDropDown:SetValue('SHIFT')
-	_G.InterfaceOptionsActionBarsPanelPickupActionKeyDropDown:RefreshValue()
+	local ActionButtonPickUp = _G.InterfaceOptionsActionBarsPanelPickupActionKeyDropDown
+	if ActionButtonPickUp then
+		ActionButtonPickUp:SetValue('SHIFT')
+		ActionButtonPickUp:RefreshValue()
+	end
 
 	if E.private.nameplates.enable then
 		NP:CVarReset()
@@ -425,29 +429,23 @@ function E:SetupLayout(layout, noDataReset, noDisplayMsg)
 			--Party
 				E.db.unitframe.units.party.height = 74
 				E.db.unitframe.units.party.power.height = 13
-				E.db.unitframe.units.party.rdebuffs.font = 'PT Sans Narrow'
 				E.db.unitframe.units.party.width = 231
 			--Raid
-				E.db.unitframe.units.raid.growthDirection = 'RIGHT_UP'
-				E.db.unitframe.units.raid.infoPanel.enable = true
-				E.db.unitframe.units.raid.name.attachTextTo = 'InfoPanel'
-				E.db.unitframe.units.raid.name.position = 'BOTTOMLEFT'
-				E.db.unitframe.units.raid.name.xOffset = 2
-				E.db.unitframe.units.raid.numGroups = 8
-				E.db.unitframe.units.raid.rdebuffs.font = 'PT Sans Narrow'
-				E.db.unitframe.units.raid.rdebuffs.size = 30
-				E.db.unitframe.units.raid.rdebuffs.xOffset = 30
-				E.db.unitframe.units.raid.rdebuffs.yOffset = 25
-				E.db.unitframe.units.raid.resurrectIcon.attachTo = 'BOTTOMRIGHT'
-				E.db.unitframe.units.raid.roleIcon.attachTo = 'InfoPanel'
-				E.db.unitframe.units.raid.roleIcon.position = 'BOTTOMRIGHT'
-				E.db.unitframe.units.raid.roleIcon.size = 12
-				E.db.unitframe.units.raid.roleIcon.xOffset = 0
-				E.db.unitframe.units.raid.visibility = '[@raid6,noexists] hide;show'
-				E.db.unitframe.units.raid.width = 92
-			--Raid40
-				E.db.unitframe.units.raid40.enable = false
-				E.db.unitframe.units.raid40.rdebuffs.font = 'PT Sans Narrow'
+				E.db.unitframe.units.raid1.growthDirection = 'RIGHT_UP'
+				E.db.unitframe.units.raid1.infoPanel.enable = true
+				E.db.unitframe.units.raid1.name.attachTextTo = 'InfoPanel'
+				E.db.unitframe.units.raid1.name.position = 'BOTTOMLEFT'
+				E.db.unitframe.units.raid1.name.xOffset = 2
+				E.db.unitframe.units.raid1.numGroups = 8
+				E.db.unitframe.units.raid1.rdebuffs.size = 30
+				E.db.unitframe.units.raid1.rdebuffs.xOffset = 30
+				E.db.unitframe.units.raid1.rdebuffs.yOffset = 25
+				E.db.unitframe.units.raid1.resurrectIcon.attachTo = 'BOTTOMRIGHT'
+				E.db.unitframe.units.raid1.roleIcon.attachTo = 'InfoPanel'
+				E.db.unitframe.units.raid1.roleIcon.position = 'BOTTOMRIGHT'
+				E.db.unitframe.units.raid1.roleIcon.size = 12
+				E.db.unitframe.units.raid1.roleIcon.xOffset = 0
+				E.db.unitframe.units.raid1.width = 92
 
 			--[[
 				Layout Tweaks will be handled below,

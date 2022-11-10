@@ -8,9 +8,10 @@ HandyNotesDB = {
 		["Amdam - Turalyon"] = "Amdam - Turalyon",
 		["Badam - Turalyon"] = "Badam - Turalyon",
 		["Adrid - Turalyon"] = "Adrid - Turalyon",
+		["Kaydan - Turalyon"] = "Kaydan - Turalyon",
 		["Adamn - Turalyon"] = "Adamn - Turalyon",
-		["Christoff - Turalyon"] = "Christoff - Turalyon",
 		["Asaam - Turalyon"] = "Asaam - Turalyon",
+		["Christoff - Turalyon"] = "Christoff - Turalyon",
 		["Shado - Turalyon"] = "Shado - Turalyon",
 	},
 	["profiles"] = {
@@ -28,11 +29,13 @@ HandyNotesDB = {
 		},
 		["Adrid - Turalyon"] = {
 		},
+		["Kaydan - Turalyon"] = {
+		},
 		["Adamn - Turalyon"] = {
 		},
-		["Christoff - Turalyon"] = {
-		},
 		["Asaam - Turalyon"] = {
+		},
+		["Christoff - Turalyon"] = {
 		},
 		["Shado - Turalyon"] = {
 		},
@@ -47,9 +50,10 @@ HandyNotes_HandyNotesDB = {
 		["Amdam - Turalyon"] = "Amdam - Turalyon",
 		["Badam - Turalyon"] = "Badam - Turalyon",
 		["Adrid - Turalyon"] = "Adrid - Turalyon",
+		["Kaydan - Turalyon"] = "Kaydan - Turalyon",
 		["Adamn - Turalyon"] = "Adamn - Turalyon",
-		["Christoff - Turalyon"] = "Christoff - Turalyon",
 		["Asaam - Turalyon"] = "Asaam - Turalyon",
+		["Christoff - Turalyon"] = "Christoff - Turalyon",
 		["Shado - Turalyon"] = "Shado - Turalyon",
 	},
 	["profiles"] = {
@@ -67,11 +71,13 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Adrid - Turalyon"] = {
 		},
+		["Kaydan - Turalyon"] = {
+		},
 		["Adamn - Turalyon"] = {
 		},
-		["Christoff - Turalyon"] = {
-		},
 		["Asaam - Turalyon"] = {
+		},
+		["Christoff - Turalyon"] = {
 		},
 		["Shado - Turalyon"] = {
 		},

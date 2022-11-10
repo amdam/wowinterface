@@ -44,3 +44,8 @@ NPCScan: disabled
 ElvUI_OptionsUI: enabled
 TipTac: disabled
 TipTacItemRef: disabled
+Kui_Media: disabled
+Kui_Nameplates: disabled
+Kui_Nameplates_Core: disabled
+Kui_Nameplates_Core_Config: disabled
+OmniCD: disabled

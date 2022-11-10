@@ -1,9 +1,10 @@
 
-OneRing_Config = {
+OneRing_Config = nil
+OPie_SavedData = {
 	["CharProfiles"] = {
 	},
-	["_GameVersion"] = "9.2.7",
-	["_OPieVersion"] = "Xe 8 (3.107)",
+	["_GameVersion"] = "10.0.0",
+	["_OPieVersion"] = "Yuzu 1 (4.110)",
 	["ProfileStorage"] = {
 		["default"] = {
 			["Bindings"] = {
@@ -144,10 +145,10 @@ OneRing_Config = {
 					["c"] = "ffac3d",
 					["id"] = 2656,
 				}, -- [11]
-				["version"] = 4,
+				["name"] = "Trade Skills",
 				["save"] = true,
 				["hotkey"] = "ALT-T",
-				["name"] = "Trade Skills",
+				["version"] = 4,
 			},
 			["OPieFlagStore"] = {
 				["StoreVersion"] = 2,
@@ -195,10 +196,10 @@ OneRing_Config = {
 					["id"] = 25780,
 					["sliceToken"] = "OPCPAf",
 				}, -- [4]
-				["name"] = "Paladin Buffs",
+				["limit"] = "PALADIN",
 				["save"] = true,
 				["hotkey"] = "ALT-P",
-				["limit"] = "PALADIN",
+				["name"] = "Paladin Buffs",
 			},
 			["MageTravel"] = {
 				{
@@ -343,8 +344,8 @@ OneRing_Config = {
 				{
 					"equipmentset", -- [1]
 					"fire", -- [2]
-					["sliceToken"] = "ABueaL4inxm",
 					["show"] = "[spec:62/64] hide;",
+					["sliceToken"] = "ABueaL4inxm",
 				}, -- [5]
 				{
 					"equipmentset", -- [1]
@@ -384,4 +385,3 @@ OneRing_Config = {
 	},
 	["_GameLocale"] = "enUS",
 }
-OPie_SavedData = nil

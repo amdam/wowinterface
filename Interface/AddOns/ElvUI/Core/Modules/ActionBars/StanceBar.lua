@@ -3,7 +3,8 @@ local AB = E:GetModule('ActionBars')
 
 local _G = _G
 local gsub = gsub
-local format, ipairs = format, ipairs
+local ipairs = ipairs
+local format = format
 local CreateFrame = CreateFrame
 local GetBindingKey = GetBindingKey
 local GetNumShapeshiftForms = GetNumShapeshiftForms
@@ -13,7 +14,7 @@ local GetShapeshiftFormInfo = GetShapeshiftFormInfo
 local GetSpellTexture = GetSpellTexture
 local InCombatLockdown = InCombatLockdown
 local RegisterStateDriver = RegisterStateDriver
-local NUM_STANCE_SLOTS = NUM_STANCE_SLOTS
+local NUM_STANCE_SLOTS = NUM_STANCE_SLOTS or 10
 
 local Masque = E.Masque
 local MasqueGroup = Masque and Masque:Group('ElvUI', 'Stance Bar')
@@ -56,7 +57,9 @@ function AB:StyleShapeShift()
 				button.cooldown:SetAlpha(texture and 1 or 0)
 
 				if isActive then
-					_G.StanceBarFrame.lastSelected = button:GetID()
+					if not E.Retail then
+						_G.StanceBarFrame.lastSelected = button:GetID()
+					end
 
 					button:SetChecked(numForms == 1 and darken)
 					button.checked:SetColorTexture(1, 1, 1, 0.3)
@@ -93,7 +96,6 @@ function AB:PositionAndSizeBarShapeShift()
 	local buttonsPerRow = db.buttonsPerRow
 	local numButtons = db.buttons
 	local point = db.point
-	local visibility = db.visibility
 
 	bar.db = db
 	bar.mouseover = db.mouseover
@@ -162,14 +164,13 @@ function AB:PositionAndSizeBarShapeShift()
 	AB:HandleBackdropMover(bar, backdropSpacing)
 
 	if db.enabled then
-		visibility = gsub(visibility,'[\n\r]','')
-
-		RegisterStateDriver(bar, 'visibility', (GetNumShapeshiftForms() == 0 and 'hide') or visibility)
-		E:EnableMover(bar.mover:GetName())
+		E:EnableMover(bar.mover.name)
 	else
-		RegisterStateDriver(bar, 'visibility', 'hide')
-		E:DisableMover(bar.mover:GetName())
+		E:DisableMover(bar.mover.name)
 	end
+
+	local visibility = gsub(db.visibility, '[\n\r]', '')
+	RegisterStateDriver(bar, 'visibility', (not db.enabled or GetNumShapeshiftForms() == 0) and 'hide' or visibility)
 
 	if useMasque then
 		MasqueGroup:ReSkin()
@@ -227,6 +228,7 @@ function AB:UpdateStanceBindings()
 
 		button.HotKey:SetText(GetBindingKey('SHAPESHIFTBUTTON'..i))
 		AB:FixKeybindText(button)
+		AB:FixKeybindColor(button)
 	end
 end
 

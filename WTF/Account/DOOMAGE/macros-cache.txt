@@ -1,11 +1,3 @@
-VER 3 000000000000001D " " "ACHIEVEMENT_GUILDPERK_MOUNTUP"
-/dismount
-END
-VER 3 0000000000000032 " " "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cancelaura Flaming Hoop
-/use Flaming Hoop
-END
 VER 3 000000000000005F " " "INV_MISC_QUESTIONMARK"
 /way 20.5 43.9 Elder Gwenna 
 /way 20.6 32.9 Foreman Thorodir
@@ -22,6 +14,14 @@ END
 VER 3 0000000000000013 " " "ACHIEVEMENT_GUILDPERK_MRPOPULARITY_RANK2"
 /stopcasting
 /click [target=mouseover] ExtraActionButton1
+END
+VER 3 000000000000001D " " "ACHIEVEMENT_GUILDPERK_MOUNTUP"
+/dismount
+END
+VER 3 0000000000000032 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura Flaming Hoop
+/use Flaming Hoop
 END
 VER 3 000000000000001C " dia" "INV_MISC_QUESTIONMARK"
 /click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton

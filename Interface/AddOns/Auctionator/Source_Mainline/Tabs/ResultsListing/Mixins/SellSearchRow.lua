@@ -1,22 +1,35 @@
 AuctionatorSellSearchRowMixin = CreateFromMixins(AuctionatorResultsRowTemplateMixin)
 
 local function BuyEntry(entry)
-  if entry.itemType == Auctionator.Constants.ITEM_TYPES.COMMODITY then
-    C_AuctionHouse.StartCommoditiesPurchase(entry.itemID, entry.quantity)
-  end
   Auctionator.EventBus
     :RegisterSource(BuyEntry, "BuyEntry")
-    :Fire(BuyEntry, Auctionator.Selling.Events.ConfirmCallback, entry)
+    :Fire(BuyEntry, Auctionator.Selling.Events.ShowConfirmPurchase, entry)
     :UnregisterSource(BuyEntry)
 end
 
 function AuctionatorSellSearchRowMixin:OnEnter()
-  AuctionHouseUtil.LineOnEnterCallback(self, self.rowData)
+  -- Process itemLink directly (as bug in Blizz code prevents potions with a
+  -- quality rating having their tooltip show)
+  if self.rowData.itemLink then
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    if Auctionator.Utilities.IsPetLink(self.rowData.itemLink) then
+      BattlePetToolTip_ShowLink(self.rowData.itemLink)
+    else
+      GameTooltip:SetHyperlink(self.rowData.itemLink)
+      GameTooltip:Show()
+    end
+  end
   AuctionatorResultsRowTemplateMixin.OnEnter(self)
 end
 
 function AuctionatorSellSearchRowMixin:OnLeave()
-  AuctionHouseUtil.LineOnLeaveCallback(self, self.rowData)
+  if self.rowData.itemLink then
+    if Auctionator.Utilities.IsPetLink(self.rowData.itemLink) then
+      BattlePetTooltip:Hide()
+    else
+      GameTooltip:Hide()
+    end
+  end
   AuctionatorResultsRowTemplateMixin.OnLeave(self)
 end
 

@@ -55,3 +55,8 @@ BigWigs_Options: enabled
 BigWigs_Plugins: enabled
 ElvUI_QuestXP: disabled
 ElvUI_CustomTags: disabled
+Kui_Media: disabled
+Kui_Nameplates: disabled
+Kui_Nameplates_Core: disabled
+Kui_Nameplates_Core_Config: disabled
+OmniCD: disabled

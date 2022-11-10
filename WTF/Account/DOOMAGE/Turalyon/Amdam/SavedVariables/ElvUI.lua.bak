@@ -2,754 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"Garudeon attackable", -- [1]
-			"Willmaulyou-Bloodhoof", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Willmaulyou-Bloodhoof", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			1435, -- [11]
-			"Player-64-05B06422", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Willmaulyou-Bloodhoof|r",
-			[51] = 1658008743,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"Tahkwitz 63.78% ~(49.75, 39.61) |cffffff00|Hworldmap:1970:4975:3961|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Rhoysn-Eonar", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Rhoysn-Eonar", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			1440, -- [11]
-			"Player-96-0C5046A6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaRhoysn-Eonar|r",
-			[51] = 1658009350,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"anyone interested in Zatojin", -- [1]
-			"Faelahna-Turalyon", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Faelahna-Turalyon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			102, -- [11]
-			"Player-3685-0D8468E0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Faelahna|r",
-			[51] = 1658078433,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"furidian up", -- [1]
-			"Devilishbabe-Duskwood", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Devilishbabe-Duskwood", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			5, -- [11]
-			"Player-64-0C1E5DF1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaDevilishbabe-Duskwood|r",
-			[51] = 1658359441,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"makes some strange gestures.", -- [1]
-			"Chetalaa-Bloodhoof", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chetalaa-Bloodhoof", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2, -- [11]
-			"Player-64-01C73A4F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Chetalaa-Bloodhoof|r",
-			[51] = 1658707396,
-			[50] = "CHAT_MSG_EMOTE",
-		}, -- [5]
-		{
-			"*-+", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Amdam-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			3, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Amdam|r",
-			[51] = 1658707493,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [6]
-		{
-			"Sand Matriarchup", -- [1]
-			"Varíant-Duskwood", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Varíant-Duskwood", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			6, -- [11]
-			"Player-64-0EC3E93F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Varíant-Duskwood|r",
-			[51] = 1658707565,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"Matriarch up*", -- [1]
-			"Varíant-Duskwood", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Varíant-Duskwood", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			9, -- [11]
-			"Player-64-0EC3E93F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Varíant-Duskwood|r",
-			[51] = 1658707575,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"who's got a |cff0070dd|Hitem:114943::::::::54:73:::::::::|h[Ultimate Gnomish Army Knife]|h|r?", -- [1]
-			"Wothar-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Wothar-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			79, -- [11]
-			"Player-3685-072055B2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cWothar|r",
-			[51] = 1658707973,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"someone come help me kill the gluttonous overgrowth please? |cffffff00|Hworldmap:1970:5357:9358|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Chucklz-DarkIron", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Chucklz-DarkIron", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			32, -- [11]
-			"Player-157-0B804F00", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcChucklz-DarkIron|r",
-			[51] = 1658797612,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"Corrupted Architect |cffffff00|Hworldmap:1970:4750:6230|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Lictoria-Bloodhoof", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Lictoria-Bloodhoof", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			7, -- [11]
-			"Player-64-0EB45C5B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cLictoria-Bloodhoof|r",
-			[51] = 1658864111,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"Helmix |cffffff00|Hworldmap:1970:5820:6835|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Taitu-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Taitu-Kel'Thuzad", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			16, -- [11]
-			"Player-3693-0D56DF25", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaTaitu-Kel'Thuzad|r",
-			[51] = 1658864285,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"Sand Matriarch Ileus 100.00% ~(53.63, 46.94) |cffffff00|Hworldmap:1970:5363:4694|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Poplockndot-Proudmoore", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Poplockndot-Proudmoore", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			73, -- [11]
-			"Player-5-0DF7B083", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edPoplockndot-Proudmoore|r",
-			[51] = 1658864705,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
-		{
-			"Ganot cast |cff71d5ff|Hspell:34477:0|h[Misdirection]|h|r -> Amdam", -- [1]
-			"Getovrit-Thunderhorn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Getovrit-Thunderhorn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			93, -- [11]
-			"Player-1129-0B770BEA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Getovrit-Thunderhorn|r",
-			[51] = 1658864718,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [14]
-		{
-			"Sand Matriarch Ileus died at 10:47 server time!", -- [1]
-			"Poplockndot-Proudmoore", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Poplockndot-Proudmoore", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			117, -- [11]
-			"Player-5-0DF7B083", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edPoplockndot-Proudmoore|r",
-			[51] = 1658864797,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"|cffffff00|Hworldmap:1970:4361:3206|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r Zatojin event", -- [1]
-			"Incantatore-Proudmoore", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Incantatore-Proudmoore", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			124, -- [11]
-			"Player-5-0E1F3A72", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edIncantatore-Proudmoore|r",
-			[51] = 1658864762,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"Mother Phestis is also up", -- [1]
-			"Boopasaurus-Proudmoore", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Boopasaurus-Proudmoore", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			126, -- [11]
-			"Player-5-0E347633", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaBoopasaurus-Proudmoore|r",
-			[51] = 1658864777,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
-		{
-			"|cffffff00|Hworldmap:1970:5491:3323|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Blastednutz-Proudmoore", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Blastednutz-Proudmoore", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			130, -- [11]
-			"Player-5-0B841F60", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Blastednutz-Proudmoore|r",
-			[51] = 1658864848,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
-		{
-			"need more for mother", -- [1]
-			"Blastednutz-Proudmoore", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Blastednutz-Proudmoore", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			189, -- [11]
-			"Player-5-0B841F60", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Blastednutz-Proudmoore|r",
-			[51] = 1658864911,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
-		{
-			"doing Zatojin first", -- [1]
-			"Boopasaurus-Proudmoore", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Boopasaurus-Proudmoore", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			199, -- [11]
-			"Player-5-0E347633", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaBoopasaurus-Proudmoore|r",
-			[51] = 1658864920,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
-		{
-			"ty all", -- [1]
-			"Allixa-Windrunner", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Allixa-Windrunner", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			210, -- [11]
-			"Player-113-0A26E381", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Allixa-Windrunner|r",
-			[51] = 1658864926,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [21]
-		{
-			"k", -- [1]
-			"Blastednutz-Proudmoore", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Blastednutz-Proudmoore", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			219, -- [11]
-			"Player-5-0B841F60", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Blastednutz-Proudmoore|r",
-			[51] = 1658864927,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
-		{
-			"Reanimatrox Marzan (3.75m/4.21m 89.18%) 63.75 25.81 |cffffff00|Hworldmap:1970:6374:2580|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Tmmerlin-Sargeras", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Tmmerlin-Sargeras", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			251, -- [11]
-			"Player-76-0B642DCC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Tmmerlin-Sargeras|r",
-			[51] = 1658865282,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
-		{
-			"Reanimatrox Marzan died at 12:55 server time!", -- [1]
-			"Tmmerlin-Sargeras", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Tmmerlin-Sargeras", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			258, -- [11]
-			"Player-76-0B642DCC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Tmmerlin-Sargeras|r",
-			[51] = 1658865323,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
-		{
-			"Tahkwitz waiting to die |cffffff00|Hworldmap:1970:4972:3926|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Feeniixx-Duskwood", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Feeniixx-Duskwood", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			309, -- [11]
-			"Player-64-08872726", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Feeniixx-Duskwood|r",
-			[51] = 1658865882,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
-		{
-			"Need peeps for ", -- [1]
-			"Feeniixx-Duskwood", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Feeniixx-Duskwood", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			324, -- [11]
-			"Player-64-08872726", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Feeniixx-Duskwood|r",
-			[51] = 1658865991,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
-		{
-			"antro group forming", -- [1]
-			"Justfreaknme-Mok'Nathal", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Justfreaknme-Mok'Nathal", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			328, -- [11]
-			"Player-86-05E7E049", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaJustfreaknme-Mok'Nathal|r",
-			[51] = 1658865994,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
-		{
-			"Tahkwitz |cffffff00|Hworldmap:1970:4972:3926|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Feeniixx-Duskwood", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Feeniixx-Duskwood", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			332, -- [11]
-			"Player-64-08872726", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Feeniixx-Duskwood|r",
-			[51] = 1658866011,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
-		{
-			"Zatojin 100.00% ~(42.96, 33.39) |cffffff00|Hworldmap:1970:4296:3339|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Mulkin-Bloodhoof", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Mulkin-Bloodhoof", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			3, -- [11]
-			"Player-64-031115A4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Mulkin-Bloodhoof|r",
-			[51] = 1659050038,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
-		{
-			"Sand Matriarch Ileus 100.00% ~(51.64, 47.87) |cffffff00|Hworldmap:1970:5164:4787|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Mulkin-Bloodhoof", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Mulkin-Bloodhoof", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			154, -- [11]
-			"Player-64-031115A4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Mulkin-Bloodhoof|r",
-			[51] = 1659051259,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
-		{
-			"Mother's up", -- [1]
-			"Daría-Bloodhoof", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Daría-Bloodhoof", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			157, -- [11]
-			"Player-64-0B721C5C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Daría-Bloodhoof|r",
-			[51] = 1659051315,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
-		{
-			"Tahkwitz (747.17k/747.17k 100.00%) 49.57 40.01 |cffffff00|Hworldmap:1970:4956:4000|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Lockwarlock-Bloodhoof", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Lockwarlock-Bloodhoof", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			165, -- [11]
-			"Player-64-0E9B037A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edLockwarlock-Bloodhoof|r",
-			[51] = 1659051471,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
-		{
-			"<RA> Zatojin 98% ~(43.52, 32.94) |cffffff00|Hworldmap:1970:4352:3294|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Ozymndias-Turalyon", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Ozymndias-Turalyon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			3, -- [11]
-			"Player-3685-09523992", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Ozymndias|r",
-			[51] = 1659140473,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
-		{
-			"<RA> Xy'rath the Covetous 99% ~(64.06, 49.76) |cffffff00|Hworldmap:1970:6406:4976|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Ozymndias-Turalyon", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Ozymndias-Turalyon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			75, -- [11]
-			"Player-3685-09523992", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Ozymndias|r",
-			[51] = 1659141300,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
-		{
 			"hey hows the s4 team looking?", -- [1]
 			"|Kq22|k", -- [2]
 			"", -- [3]
@@ -771,7 +23,7 @@ ElvCharacterDB = {
 			[51] = 1659141736,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "GingerHeals",
-		}, -- [35]
+		}, -- [1]
 		{
 			"Currently we have about 27-28ish people confirmed", -- [1]
 			"|Kq22|k", -- [2]
@@ -794,7 +46,7 @@ ElvCharacterDB = {
 			[51] = 1659142086,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "GingerHeals",
-		}, -- [36]
+		}, -- [2]
 		{
 			"Were you wanting to come back for S4?", -- [1]
 			"|Kq22|k", -- [2]
@@ -817,7 +69,7 @@ ElvCharacterDB = {
 			[51] = 1659142090,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "GingerHeals",
-		}, -- [37]
+		}, -- [3]
 		{
 			"i was thinking about it, as long as perfect attendance isn't expected", -- [1]
 			"|Kq22|k", -- [2]
@@ -840,7 +92,7 @@ ElvCharacterDB = {
 			[51] = 1659142239,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "GingerHeals",
-		}, -- [38]
+		}, -- [4]
 		{
 			"i had heard bench squad was going to do something in s4 but I haven't heard from them in a while so idk if those plans fell through or what", -- [1]
 			"|Kq22|k", -- [2]
@@ -863,7 +115,7 @@ ElvCharacterDB = {
 			[51] = 1659142215,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "GingerHeals",
-		}, -- [39]
+		}, -- [5]
 		{
 			"so if there's a category for \"interested but tentative\" i'd fall into that :)", -- [1]
 			"|Kq22|k", -- [2]
@@ -886,7 +138,7 @@ ElvCharacterDB = {
 			[51] = 1659142311,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "GingerHeals",
-		}, -- [40]
+		}, -- [6]
 		{
 			"Well we're always happy to bring you back in if BS isn't doing anything. Id have to ask Erin if the attendance would be okay to make sure though. :)", -- [1]
 			"|Kq22|k", -- [2]
@@ -909,7 +161,7 @@ ElvCharacterDB = {
 			[51] = 1659142265,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "GingerHeals",
-		}, -- [41]
+		}, -- [7]
 		{
 			"sounds good, I'll be around when i am able and can always be benched if the groups full", -- [1]
 			"|Kq22|k", -- [2]
@@ -932,7 +184,7 @@ ElvCharacterDB = {
 			[51] = 1659142412,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "GingerHeals",
-		}, -- [42]
+		}, -- [8]
 		{
 			"Nice, I hit up Erin but I think we'd be happy to take you - just have to confirm. You're a solid raider so I dont see any issues, especially since we're only doing norm/heroic.", -- [1]
 			"|Kq22|k", -- [2]
@@ -955,7 +207,7 @@ ElvCharacterDB = {
 			[51] = 1659142522,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "GingerHeals",
-		}, -- [43]
+		}, -- [9]
 		{
 			"|cffffff00|Hworldmap:1970:5868:3974|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r Otaris the Provoked 100%", -- [1]
 			"Salii-Tanaris", -- [2]
@@ -977,7 +229,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeSalii-Tanaris|r",
 			[51] = 1659142599,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [10]
 		{
 			"awesome! Assuming my prior commitment to BS is no longer needed I'll see you tuesday", -- [1]
 			"|Kq22|k", -- [2]
@@ -1000,7 +252,7 @@ ElvCharacterDB = {
 			[51] = 1659142754,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "GingerHeals",
-		}, -- [45]
+		}, -- [11]
 		{
 			"Nice! Ill let you know when Erin replies too. :)", -- [1]
 			"|Kq22|k", -- [2]
@@ -1023,7 +275,7 @@ ElvCharacterDB = {
 			[51] = 1659142807,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "GingerHeals",
-		}, -- [46]
+		}, -- [12]
 		{
 			"Sounds good", -- [1]
 			"|Kq22|k", -- [2]
@@ -1046,7 +298,7 @@ ElvCharacterDB = {
 			[51] = 1659142904,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "GingerHeals",
-		}, -- [47]
+		}, -- [13]
 		{
 			"Furidian 100.00% ~(63.46, 58.36) |cffffff00|Hworldmap:1970:6346:5836|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Kaullasso-Bloodhoof", -- [2]
@@ -1068,7 +320,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Kaullasso-Bloodhoof|r",
 			[51] = 1659201872,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [14]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9041:Player-3685-0D06F612:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[Shadowmoon Burial Grounds]|h|r!", -- [1]
 			"Curses-Turalyon", -- [2]
@@ -1090,7 +342,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edCurses|r",
 			[51] = 1659201905,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [49]
+		}, -- [15]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9054:Player-3685-0D06F612:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Shadowmoon Burial Grounds]|h|r!", -- [1]
 			"Curses-Turalyon", -- [2]
@@ -1112,7 +364,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edCurses|r",
 			[51] = 1659201905,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [50]
+		}, -- [16]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4476:Player-3685-0D06F612:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[Looking For More]|h|r!", -- [1]
 			"Curses-Turalyon", -- [2]
@@ -1134,7 +386,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edCurses|r",
 			[51] = 1659201906,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [51]
+		}, -- [17]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13878:Player-3685-0ABFD12C:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[The Master of Revendreth]|h|r!", -- [1]
 			"Myeyeshurt-Turalyon", -- [2]
@@ -1156,7 +408,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Myeyeshurt|r",
 			[51] = 1659202124,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [52]
+		}, -- [18]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14206:Player-3685-0ABFD12C:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[Blade of the Primus]|h|r!", -- [1]
 			"Myeyeshurt-Turalyon", -- [2]
@@ -1178,7 +430,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Myeyeshurt|r",
 			[51] = 1659202124,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [53]
+		}, -- [19]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14281:Player-3685-0ABFD12C:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[The Path to Ascension]|h|r!", -- [1]
 			"Myeyeshurt-Turalyon", -- [2]
@@ -1200,7 +452,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Myeyeshurt|r",
 			[51] = 1659202124,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [54]
+		}, -- [20]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14164:Player-3685-0ABFD12C:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[Awaken, Ardenweald]|h|r!", -- [1]
 			"Myeyeshurt-Turalyon", -- [2]
@@ -1222,7 +474,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Myeyeshurt|r",
 			[51] = 1659202124,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [55]
+		}, -- [21]
 		{
 			"gluttonous overgrown will not pop up and im in the area", -- [1]
 			"Amarisola-Duskwood", -- [2]
@@ -1244,7 +496,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Amarisola-Duskwood|r",
 			[51] = 1659202358,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [22]
 		{
 			"did you try rubbing it's vine?", -- [1]
 			"Lucavias-Turalyon", -- [2]
@@ -1266,7 +518,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Lucavias|r",
 			[51] = 1659202373,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [23]
 		{
 			"all i could do was pull it and still nothing", -- [1]
 			"Amarisola-Duskwood", -- [2]
@@ -1288,7 +540,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Amarisola-Duskwood|r",
 			[51] = 1659202348,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [24]
 		{
 			"ED meds?", -- [1]
 			"Disastrous-Bloodhoof", -- [2]
@@ -1310,7 +562,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaDisastrous-Bloodhoof|r",
 			[51] = 1659202438,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [25]
 		{
 			"lol", -- [1]
 			"Amarisola-Duskwood", -- [2]
@@ -1332,7 +584,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Amarisola-Duskwood|r",
 			[51] = 1659202383,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [26]
 		{
 			"yea :)", -- [1]
 			"Stormwraith-Bloodhoof", -- [2]
@@ -1354,7 +606,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcStormwraith-Bloodhoof|r",
 			[51] = 1659202394,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [27]
 		{
 			"Garudeon's up", -- [1]
 			"Ashen-Bloodhoof", -- [2]
@@ -1376,7 +628,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edAshen-Bloodhoof|r",
 			[51] = 1659202484,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [28]
 		{
 			"Furidian 90.60% ~(63.94, 59) |cffffff00|Hworldmap:1970:6394:5899|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Kaullasso-Bloodhoof", -- [2]
@@ -1398,7 +650,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Kaullasso-Bloodhoof|r",
 			[51] = 1659202914,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [29]
 		{
 			"Otiosen is up. |cffffff00|Hworldmap:1970:4342:8780|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Ashen-Bloodhoof", -- [2]
@@ -1420,7 +672,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edAshen-Bloodhoof|r",
 			[51] = 1659203348,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [30]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9044:Player-3685-0ABFD12C:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[The Everbloom]|h|r!", -- [1]
 			"Myeyeshurt-Turalyon", -- [2]
@@ -1442,7 +694,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Myeyeshurt|r",
 			[51] = 1659203448,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [65]
+		}, -- [31]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9053:Player-3685-0ABFD12C:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Everbloom]|h|r!", -- [1]
 			"Myeyeshurt-Turalyon", -- [2]
@@ -1464,7 +716,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Myeyeshurt|r",
 			[51] = 1659203448,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [66]
+		}, -- [32]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9223:Player-3685-0ABFD12C:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[Weed Whacker]|h|r!", -- [1]
 			"Myeyeshurt-Turalyon", -- [2]
@@ -1486,7 +738,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Myeyeshurt|r",
 			[51] = 1659203448,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [67]
+		}, -- [33]
 		{
 			"Destabilized Core 100.00% ~(53.6, 45.09) |cffffff00|Hworldmap:1970:5360:4509|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Galbrek-Medivh", -- [2]
@@ -1508,7 +760,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Galbrek-Medivh|r",
 			[51] = 1659290601,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [34]
 		{
 			"|cffffff00|Hworldmap:1970:4374:8837|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r Otiosen up", -- [1]
 			"Jillaco-Alexstrasza", -- [2]
@@ -1530,7 +782,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeJillaco-Alexstrasza|r",
 			[51] = 1659290786,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [35]
 		{
 			"Furudion up", -- [1]
 			"Danian-Duskwood", -- [2]
@@ -1552,7 +804,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDanian-Duskwood|r",
 			[51] = 1659291114,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [36]
 		{
 			"Otaris the Provoked 100.00% ~(58.78, 39.44) |cffffff00|Hworldmap:1970:5878:3944|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Voidthree-Turalyon", -- [2]
@@ -1574,7 +826,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Voidthree|r",
 			[51] = 1659296403,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [37]
 		{
 			"misaligned enforcer is trapped if anyone needs", -- [1]
 			"Tãble-Sargeras", -- [2]
@@ -1596,7 +848,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Tãble-Sargeras|r",
 			[51] = 1659296708,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [38]
 		{
 			"|cffffff00|Hworldmap:1970:5601:4290|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Tãble-Sargeras", -- [2]
@@ -1618,7 +870,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Tãble-Sargeras|r",
 			[51] = 1659296712,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [39]
 		{
 			"Tahkwitz 100.00% ~(48.71, 39.11) |cffffff00|Hworldmap:1970:4871:3911|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Voidthree-Turalyon", -- [2]
@@ -1640,7 +892,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Voidthree|r",
 			[51] = 1659296874,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [40]
 		{
 			"misaligned enforcer is trapped if anyone needs|cffffff00|Hworldmap:1970:5600:4290|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Tãble-Sargeras", -- [2]
@@ -1662,7 +914,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Tãble-Sargeras|r",
 			[51] = 1659296939,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [41]
 		{
 			"omw", -- [1]
 			"Kynlareth-Turalyon", -- [2]
@@ -1684,7 +936,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Kynlareth|r",
 			[51] = 1659296902,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [42]
 		{
 			"~2min left", -- [1]
 			"Tãble-Sargeras", -- [2]
@@ -1706,7 +958,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Tãble-Sargeras|r",
 			[51] = 1659296910,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [43]
 		{
 			"Euv'ouk 100.00% ~(47.47, 45.73) |cffffff00|Hworldmap:1970:4747:4573|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Geryone-Turalyon", -- [2]
@@ -1728,7 +980,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaGeryone|r",
 			[51] = 1659421078,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [44]
 		{
 			"Sand Matriarch Ileus 100.00% ~(52.87, 47.43) |cffffff00|Hworldmap:1970:5287:4743|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Geryone-Turalyon", -- [2]
@@ -1750,7 +1002,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaGeryone|r",
 			[51] = 1659421145,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [45]
 		{
 			"otaris", -- [1]
 			"Lethaline-Duskwood", -- [2]
@@ -1772,7 +1024,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lethaline-Duskwood|r",
 			[51] = 1659421883,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [46]
 		{
 			"<RA> Otaris the Provoked 96% ~(58.65, 40.36) |cffffff00|Hworldmap:1970:5865:4036|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Dnuta-Turalyon", -- [2]
@@ -1794,7 +1046,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Dnuta|r",
 			[51] = 1659421890,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [47]
 		{
 			"Protector of the First Ones 100.00% ~(39.77, 26.36) |cffffff00|Hworldmap:1970:3977:2636|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Geryone-Turalyon", -- [2]
@@ -1816,7 +1068,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaGeryone|r",
 			[51] = 1659422130,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [48]
 		{
 			"any rares?", -- [1]
 			"Iamhavi-Sargeras", -- [2]
@@ -1838,7 +1090,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcIamhavi-Sargeras|r",
 			[51] = 1659423161,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [49]
 		{
 			"Gen Z just came up", -- [1]
 			"Alythiia-Stormrage", -- [2]
@@ -1860,7 +1112,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Alythiia-Stormrage|r",
 			[51] = 1659423188,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [50]
 		{
 			"Corrupted Arch up too", -- [1]
 			"Iamhavi-Sargeras", -- [2]
@@ -1882,7 +1134,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcIamhavi-Sargeras|r",
 			[51] = 1659423269,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [51]
 		{
 			"Protector up", -- [1]
 			"Tazzaroni-Turalyon", -- [2]
@@ -1904,7 +1156,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cTazzaroni|r",
 			[51] = 1659481790,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [52]
 		{
 			"summoning Furidian in one minute", -- [1]
 			"Dooran-Bloodhoof", -- [2]
@@ -1926,7 +1178,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcDooran-Bloodhoof|r",
 			[51] = 1659482183,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [53]
 		{
 			"Feasting is up ", -- [1]
 			"Audrianna-Duskwood", -- [2]
@@ -1948,7 +1200,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edAudrianna-Duskwood|r",
 			[51] = 1659482274,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [54]
 		{
 			"his name is lavaborn see him kill him for fun ", -- [1]
 			"Rumplebump-Turalyon", -- [2]
@@ -1970,7 +1222,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Rumplebump|r",
 			[51] = 1659482229,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [55]
 		{
 			"|cffffff00|Hworldmap:1970:5437:3507|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r mother", -- [1]
 			"Shrekisthere-Tichondrius", -- [2]
@@ -1992,7 +1244,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Shrekisthere-Tichondrius|r",
 			[51] = 1659483118,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [56]
 		{
 			"Mother Phestis 100.00% ~(54.51, 34.37) |cffffff00|Hworldmap:1970:5450:3437|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Lacei-Stormrage", -- [2]
@@ -2014,7 +1266,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lacei-Stormrage|r",
 			[51] = 1659483095,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [57]
 		{
 			"Feasting 41.67% ~(61.12, 51.57) |cffffff00|Hworldmap:1970:6111:5157|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Neuria-Proudmoore", -- [2]
@@ -2036,7 +1288,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Neuria-Proudmoore|r",
 			[51] = 1659483306,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [58]
 		{
 			"Xy'rath the Covetous 76.98% ~(63.7, 49) |cffffff00|Hworldmap:1970:6370:4900|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Lacei-Stormrage", -- [2]
@@ -2058,7 +1310,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lacei-Stormrage|r",
 			[51] = 1659483405,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [59]
 		{
 			"...", -- [1]
 			"Danian-Duskwood", -- [2]
@@ -2080,7 +1332,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDanian-Duskwood|r",
 			[51] = 1659483426,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [60]
 		{
 			"Gluttonous Overgrowth 98.98% ~(52.7, 93.02) |cffffff00|Hworldmap:1970:5270:9302|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Lacei-Stormrage", -- [2]
@@ -2102,7 +1354,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lacei-Stormrage|r",
 			[51] = 1659483570,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [61]
 		{
 			"Tahkwitz 44.41% ~(48.7, 37.35) |cffffff00|Hworldmap:1970:4870:3735|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Stormdorf-Turalyon", -- [2]
@@ -2124,7 +1376,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcStormdorf|r",
 			[51] = 1659571976,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [62]
 		{
 			"Mother Phestis 100.00% ~(54.8, 34.09) |cffffff00|Hworldmap:1970:5480:3409|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Stormdorf-Turalyon", -- [2]
@@ -2146,7 +1398,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcStormdorf|r",
 			[51] = 1659572436,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [63]
 		{
 			"Shifting Stargorger 90.26% ~(41.71, 22.06) |cffffff00|Hworldmap:1970:4171:2206|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Yontropekim-Elune", -- [2]
@@ -2168,7 +1420,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Yontropekim-Elune|r",
 			[51] = 1659574522,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [64]
 		{
 			"Garudeon (1.20m/1.20m 100.00%) 68.46 37.37 |cffffff00|Hworldmap:1970:6845:3736|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Knicknac-Elune", -- [2]
@@ -2190,29 +1442,777 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Knicknac-Elune|r",
 			[51] = 1659575148,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [65]
+		{
+			"why is stormwind such a maze", -- [1]
+			"Faelayna-Area52", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Faelayna-Area52", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			447, -- [11]
+			"Player-3676-0DF1F446", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaFaelayna-Area52|r",
+			[51] = 1667154589,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [66]
+		{
+			"alliance players are smarter", -- [1]
+			"Bofur-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Bofur-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			449, -- [11]
+			"Player-3685-0A89C721", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Bofur|r",
+			[51] = 1667154685,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [67]
+		{
+			"they can find their stuff, horde players need a giant open circle ", -- [1]
+			"Bofur-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Bofur-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			451, -- [11]
+			"Player-3685-0A89C721", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Bofur|r",
+			[51] = 1667154696,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [68]
+		{
+			"you just get used to where you play most i guess lol", -- [1]
+			"Renallis-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Renallis-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			455, -- [11]
+			"Player-3685-071FAED6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3fc7ebRenallis|r",
+			[51] = 1667154740,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [69]
+		{
+			"i want to know its raining every time i log into sw ", -- [1]
+			"Renallis-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Renallis-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			456, -- [11]
+			"Player-3685-071FAED6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3fc7ebRenallis|r",
+			[51] = 1667154775,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [70]
+		{
+			"I can make it rain on you for the right amount of gold.", -- [1]
+			"Rawrlolxd-Area52", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Rawrlolxd-Area52", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			458, -- [11]
+			"Player-3676-0DDB12F3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffRawrlolxd-Area52|r",
+			[51] = 1667154813,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [71]
+		{
+			"ty boss", -- [1]
+			"Rawrlolxd-Area52", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Rawrlolxd-Area52", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			459, -- [11]
+			"Player-3676-0DDB12F3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffffffffRawrlolxd-Area52|r",
+			[51] = 1667154834,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [72]
+		{
+			"lol", -- [1]
+			"Renallis-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Renallis-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			460, -- [11]
+			"Player-3685-071FAED6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3fc7ebRenallis|r",
+			[51] = 1667154780,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [73]
+		{
+			"make it hail you mean lol", -- [1]
+			"Aenlanth-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Aenlanth-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			463, -- [11]
+			"Player-3685-0DD4181D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dAenlanth|r",
+			[51] = 1667154898,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [74]
+		{
+			"|cffffff00Trade District is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			3, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1667344750,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [75]
+		{
+			"what's the special move", -- [1]
+			"Superfragile-Whisperwind", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Superfragile-Whisperwind", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			27, -- [11]
+			"Player-55-049DD168", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc7ebSuperfragile-Whisperwind|r",
+			[51] = 1667344817,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [76]
+		{
+			"hi there adam", -- [1]
+			"Doridos-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4, -- [11]
+			"Player-3685-07EB3288", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Doridos|r",
+			[51] = 1667441764,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [77]
+		{
+			"hey dos", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			5, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1667441779,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [78]
+		{
+			"how are you and the family?", -- [1]
+			"Doridos-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			6, -- [11]
+			"Player-3685-07EB3288", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Doridos|r",
+			[51] = 1667441862,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [79]
+		{
+			"pretty good, Miles is becoming quite the character", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			7, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1667441826,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [80]
+		{
+			"got to experience his first trick or treating outing the other night", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			8, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1667441841,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [81]
+		{
+			"he was super confused but in the end he was just glad he had candy lol", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			9, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1667442051,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [82]
+		{
+			"how are you guys?", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			10, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1667442056,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [83]
+		{
+			"lol nice", -- [1]
+			"Doridos-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			11, -- [11]
+			"Player-3685-07EB3288", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Doridos|r",
+			[51] = 1667442008,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [84]
+		{
+			"we're doing well, aly's building up that reptile zoo nicely..we're going to a reptile expo nearby in a week and a half", -- [1]
+			"Doridos-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			14, -- [11]
+			"Player-3685-07EB3288", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Doridos|r",
+			[51] = 1667442098,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [85]
+		{
+			"she's pretty excited about that", -- [1]
+			"Doridos-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			15, -- [11]
+			"Player-3685-07EB3288", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Doridos|r",
+			[51] = 1667442111,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [86]
+		{
+			"a reptile zoo??", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			16, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1667442116,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [87]
+		{
+			"how's your cat handling that? lol", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			17, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1667442064,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [88]
+		{
+			"she likes to sit atop tanks and stare lol", -- [1]
+			"Doridos-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			19, -- [11]
+			"Player-3685-07EB3288", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Doridos|r",
+			[51] = 1667442169,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [89]
+		{
+			"lol gotta keep an eye on them", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			20, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1667442146,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [90]
+		{
+			"aly absolutely loves snakes now for whatever reason", -- [1]
+			"Doridos-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			22, -- [11]
+			"Player-3685-07EB3288", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Doridos|r",
+			[51] = 1667442228,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [91]
+		{
+			"Blame me", -- [1]
+			"Dissick-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			26, -- [11]
+			"Player-3685-09A3CFFD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaDissick|r",
+			[51] = 1667442182,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [92]
+		{
+			"you got her on the reptiles huh haha", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			30, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1667442290,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [93]
+		{
+			"WTS Flying Mount |cffa335ee|Hitem:153594::::::::60:105::13::1:28:872:::::|h[Xiwyllag ATV]|h|r 40k / two for 60k pst or inv me. Also |cff0070dd|Hitem:1973::::::::60:105::::1:28:32:::::|h[Orb of Deception]|h|r toy 30k", -- [1]
+			"Kokiriforest-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kokiriforest-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			47, -- [11]
+			"Player-3685-0DF2B50A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aKokiriforest|r",
+			[51] = 1667442255,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"She's always liked them to a degree.", -- [1]
+			"Dissick-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			48, -- [11]
+			"Player-3685-09A3CFFD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaDissick|r",
+			[51] = 1667442263,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [95]
+		{
+			"She just realised snakes are much more interactive than a lizard and enjoys it.", -- [1]
+			"Dissick-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			49, -- [11]
+			"Player-3685-09A3CFFD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaDissick|r",
+			[51] = 1667442344,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [96]
+		{
+			"i loved snakes crawling around on me until one pooped all over me :<", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			50, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1667442310,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [97]
+		{
+			"lol", -- [1]
+			"Dissick-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			52, -- [11]
+			"Player-3685-09A3CFFD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaDissick|r",
+			[51] = 1667442329,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [98]
+		{
+			"gotta go pick up miles from grandmas house, talk to you dudes later", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			76, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1667442533,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/1 bruh i wish i got that in months, i farmed for like 5 years", -- [1]
-		"/played", -- [2]
-		"/g why do you always ask me that", -- [3]
-		"/g good ol wade", -- [4]
-		"/g who says im back", -- [5]
-		"/g im still on dad time if thats what you're asking", -- [6]
-		"/point", -- [7]
-		"/i big boy dps", -- [8]
-		"/i darn i wish there was more trash -- No one, at all", -- [9]
-		"/i can dps the boss during that phase btw", -- [10]
-		"/i heroooo", -- [11]
-		"/s *-+", -- [12]
-		"/weakauras", -- [13]
-		"hey hows the s4 team looking?", -- [14]
-		"i was thinking about it, as long as perfect attendance isn't expected", -- [15]
-		"i had heard bench squad was going to do something in s4 but I haven't heard from them in a while so idk if those plans fell through or what", -- [16]
-		"so if there's a category for \"interested but tentative\" i'd fall into that :)", -- [17]
-		"sounds good, I'll be around when i am able and can always be benched if the groups full", -- [18]
-		"awesome! Assuming my prior commitment to BS is no longer needed I'll see you tuesday", -- [19]
-		"Sounds good", -- [20]
+		"/s *-+", -- [1]
+		"/weakauras", -- [2]
+		"hey hows the s4 team looking?", -- [3]
+		"i was thinking about it, as long as perfect attendance isn't expected", -- [4]
+		"i had heard bench squad was going to do something in s4 but I haven't heard from them in a while so idk if those plans fell through or what", -- [5]
+		"so if there's a category for \"interested but tentative\" i'd fall into that :)", -- [6]
+		"sounds good, I'll be around when i am able and can always be benched if the groups full", -- [7]
+		"awesome! Assuming my prior commitment to BS is no longer needed I'll see you tuesday", -- [8]
+		"Sounds good", -- [9]
+		"/g hey dos", -- [10]
+		"/g pretty good, Miles is becoming quite the character", -- [11]
+		"/g got to experience his first trick or treating outing the other night", -- [12]
+		"/g he was super confused but in the end he was just glad he had candy lol", -- [13]
+		"/g how are you guys?", -- [14]
+		"/g a reptile zoo??", -- [15]
+		"/g how's your cat handling that? lol", -- [16]
+		"/g lol gotta keep an eye on them", -- [17]
+		"/g you got her on the reptiles huh haha", -- [18]
+		"/g i loved snakes crawling around on me until one pooped all over me :<", -- [19]
+		"/g gotta go pick up miles from grandmas house, talk to you dudes later", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

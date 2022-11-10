@@ -51,3 +51,8 @@ ElvUI_CustomTags: disabled
 TipTacItemRef: disabled
 TipTacOptions: disabled
 TipTacTalents: disabled
+Kui_Media: disabled
+Kui_Nameplates: disabled
+Kui_Nameplates_Core: disabled
+Kui_Nameplates_Core_Config: disabled
+OmniCD: disabled

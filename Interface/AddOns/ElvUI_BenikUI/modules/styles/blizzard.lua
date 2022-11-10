@@ -22,14 +22,12 @@ local function LoadSkin()
 	end
 
 	if db.blizzardOptions then
-		_G.AudioOptionsFrame:BuiStyle("Outside")
+		_G.SettingsPanel.backdrop:BuiStyle("Outside")
 		_G.ChatConfigFrame:BuiStyle("Outside")
-		_G.InterfaceOptionsFrame:BuiStyle("Outside")
 		_G.ReadyCheckFrame:BuiStyle("Outside")
 		_G.ReadyCheckListenerFrame:BuiStyle("Outside")
 		_G.SplashFrame:CreateBackdrop("Transparent")
 		_G.SplashFrame.backdrop:BuiStyle("Outside")
-		_G.VideoOptionsFrame:BuiStyle("Outside")
 	end
 
 	local function repUpdate()
@@ -43,7 +41,6 @@ local function LoadSkin()
 	end
 
 	if db.character then
-		_G.GearManagerDialogPopup:BuiStyle("Outside")
 		_G.PaperDollFrame:BuiStyle("Outside")
 		_G.ReputationFrame:BuiStyle("Outside")
 		_G.TokenFrame:BuiStyle("Outside")
@@ -55,6 +52,16 @@ local function LoadSkin()
 		_G.DressUpFrame:BuiStyle("Outside")
 		_G.DressUpFrame.OutfitDetailsPanel:BuiStyle("Outside")
 		_G.WardrobeOutfitEditFrame:BuiStyle("Outside")
+	end
+
+	if db.editor then
+		_G.EditModeManagerFrame.backdrop:BuiStyle("Outside")
+		_G.EditModeNewLayoutDialog.backdrop:BuiStyle("Outside")
+		if _G.EditModeUnsavedChangesDialog.backdrop then
+			_G.EditModeUnsavedChangesDialog.backdrop:BuiStyle("Outside")
+		end
+		_G.EditModeImportLayoutDialog.backdrop:BuiStyle("Outside")
+		_G.EditModeSystemSettingsDialog.backdrop:BuiStyle("Outside")
 	end
 
 	if db.friends then
@@ -202,6 +209,16 @@ local function LoadSkin()
 
 	if db.tabard then
 		_G.TabardFrame:BuiStyle("Outside")
+	end
+
+	if db.talkinghead then
+		local TalkingHeadFrame = _G.TalkingHeadFrame
+
+		if E.db.general.talkingHeadFrameBackdrop then
+			TalkingHeadFrame:BuiStyle("Outside")
+		else
+			TalkingHeadFrame.MainFrame.Model.backdrop:BuiStyle("Outside")
+		end
 	end
 
 	if db.taxi then

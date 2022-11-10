@@ -24,6 +24,7 @@ VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
 /cast [spec:3] Icy Veins; [spec:1] Arcane Power; [spec:2] Combustion;
 /cast Berserking
 /use 13
+/use Soul Igniter
 /script UIErrorsFrame:Clear()
 END
 VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"

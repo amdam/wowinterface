@@ -1,6 +1,6 @@
-## Interface: 20503
+## Interface: 20504
 ## Title: Coordinates
-## Version: 2.2
+## Version: 2.4
 ## Author: TomCat
 ## Notes: Adds coordinates to the minimap and the world map
 ## SavedVariables: CoordinatesDB

@@ -1,27 +1,5 @@
 
 ElvCharacterDB = {
-	["ChatEditHistory"] = {
-		"/macro", -- [1]
-		"lol tinycamas", -- [2]
-		"haha gotta become filth to unlock them allied races", -- [3]
-		"while that rep buff is plump", -- [4]
-		"i did the whole zone yesterday", -- [5]
-		"got me to about 1/3 of the way through revered", -- [6]
-		"plus all the wqs", -- [7]
-		"i'm almost exalted with honorbound already", -- [8]
-		"doin the assaults gives a lot of rep", -- [9]
-		"the emisaries haven't been particularly helpful yet but those will be a nice chunk too", -- [10]
-		"just started yesterday but i had this toon 120 for a while", -- [11]
-		"so i had some rep already from leveling", -- [12]
-		"im shit geared too, i just sent some of my corrupted token things to this char and i can smash the wq open world content easy", -- [13]
-		"haven't tried to unlock visions or antyhing, just doing wqs for rep", -- [14]
-		"yep another reason i picked dh for my horde toon", -- [15]
-		"lol", -- [16]
-		"19.6k/21000 with honorbound", -- [17]
-		"got 2k rep from the assault", -- [18]
-		"just from the turn-in", -- [19]
-		"not counting the wqs", -- [20]
-	},
 	["ChatHistoryLog"] = {
 		{
 			"is away from keyboard.", -- [1]
@@ -2819,4 +2797,27 @@ ElvCharacterDB = {
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},
+	["ChatEditHistory"] = {
+		"/macro", -- [1]
+		"lol tinycamas", -- [2]
+		"haha gotta become filth to unlock them allied races", -- [3]
+		"while that rep buff is plump", -- [4]
+		"i did the whole zone yesterday", -- [5]
+		"got me to about 1/3 of the way through revered", -- [6]
+		"plus all the wqs", -- [7]
+		"i'm almost exalted with honorbound already", -- [8]
+		"doin the assaults gives a lot of rep", -- [9]
+		"the emisaries haven't been particularly helpful yet but those will be a nice chunk too", -- [10]
+		"just started yesterday but i had this toon 120 for a while", -- [11]
+		"so i had some rep already from leveling", -- [12]
+		"im shit geared too, i just sent some of my corrupted token things to this char and i can smash the wq open world content easy", -- [13]
+		"haven't tried to unlock visions or antyhing, just doing wqs for rep", -- [14]
+		"yep another reason i picked dh for my horde toon", -- [15]
+		"lol", -- [16]
+		"19.6k/21000 with honorbound", -- [17]
+		"got 2k rep from the assault", -- [18]
+		"just from the turn-in", -- [19]
+		"not counting the wqs", -- [20]
+	},
+	["ConvertKeybindings"] = true,
 }

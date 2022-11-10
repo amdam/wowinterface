@@ -62,3 +62,8 @@ TipTacOptions: disabled
 TipTacTalents: disabled
 DejaCharacterStats: enabled
 ElvUI_QuestXP: disabled
+Kui_Media: disabled
+Kui_Nameplates: disabled
+Kui_Nameplates_Core: disabled
+Kui_Nameplates_Core_Config: disabled
+OmniCD: disabled

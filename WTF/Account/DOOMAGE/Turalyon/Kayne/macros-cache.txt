@@ -1,7 +1,7 @@
 VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast [nomodifier] Heart Strike; /cast [modifier:alt] Death and Decay
+/cast [mod:alt,@cursor] Death and Decay; Heart Strike;
 /script UIErrorsFrame:Clear()
 END
 VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
@@ -13,23 +13,23 @@ END
 VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast [nomodifier,talent:6/3] Frost Strike; /cast [modifier:alt,talent:6/3] Glacial Advance; Frost Strike
+/cast [mod:alt] Glacial Advance; Frost Strike
 /script UIErrorsFrame:Clear()
 END
 VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [nomodifier] Dark Command; /cast [modifier:alt] Death's Caress
+/cast [mod:alt] Death's Caress; [mod:shift] Abomination Limb; Dark Command;
 /script UIErrorsFrame:Clear()
 END
 VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast [nomodifier] Death Strike; /cast [modifier:alt] Bonestorm
+/cast [mod:alt] Bonestorm; Death Strike;
 /script UIErrorsFrame:Clear()
 END
 VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [nomodifier] Blood Boil; /cast [modifier:alt] Blooddrinker
+/cast [mod:alt] Blinding Sleet; Blood Boil;
 /script UIErrorsFrame:Clear()
 END
 VER 3 0100000000000008 " " "INV_MISC_QUESTIONMARK"
@@ -42,6 +42,7 @@ VER 3 0100000000000005 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast Empower Rune Weapon
 /use 13
+/script UIErrorsFrame:Clear()
 END
 VER 3 0100000000000009 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -66,11 +67,6 @@ VER 3 010000000000000C " " "INV_MISC_QUESTIONMARK"
 /cast [nomodifier] Howling Blast; /cast [modifier:alt] Death Strike
 /script UIErrorsFrame:Clear()
 END
-VER 3 010000000000000D " " "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [talent:5/2] Wraith Walk; [talent:5/3] Death Pact;
-/script UIErrorsFrame:Clear()
-END
 VER 3 010000000000000E " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [mod:alt] Dark Command; Abomination Limb
@@ -89,5 +85,10 @@ END
 VER 3 0100000000000011 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [mod:alt,talent:4/3] Soul Reaper; Dark Transformation;
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000012 " " "134400"
+#showtooltip
+/cast [@cursor] Death and Decay;
 /script UIErrorsFrame:Clear()
 END

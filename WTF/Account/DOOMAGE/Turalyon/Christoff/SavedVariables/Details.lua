@@ -32,7 +32,7 @@ _detalhes_database = {
 			["defensive-personal"] = false,
 		},
 	},
-	["last_version"] = "9.2.79824",
+	["last_version"] = "10.0.0 10259",
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -44,10 +44,10 @@ _detalhes_database = {
 		},
 		["last_coach_name"] = false,
 	},
-	["on_death_menu"] = true,
+	["on_death_menu"] = false,
 	["nick_tag_cache"] = {
-		["nextreset"] = 1662678547,
-		["last_version"] = 14,
+		["last_version"] = 15,
+		["nextreset"] = 1668611526,
 	},
 	["last_instance_id"] = 2291,
 	["announce_interrupts"] = {
@@ -156,6 +156,7 @@ _detalhes_database = {
 				1, -- [3]
 				0.5, -- [4]
 			},
+			["scale"] = 1,
 			["main_frame_size"] = {
 				299.9998779296875, -- [1]
 				499.9999389648438, -- [2]
@@ -165,11 +166,11 @@ _detalhes_database = {
 				["radius"] = 160,
 				["hide"] = false,
 			},
-			["point"] = "CENTER",
-			["arrow_anchor_x"] = 0,
 			["row_height"] = 20,
+			["arrow_anchor_x"] = 0,
+			["point"] = "CENTER",
 			["row_texture"] = "Details Serenity",
-			["scale"] = 1,
+			["square_grow_direction"] = "right",
 			["use_square_mode"] = false,
 			["main_frame_strata"] = "LOW",
 			["square_amount"] = 5,
@@ -211,16 +212,16 @@ _detalhes_database = {
 			["arrow_anchor_y"] = 0,
 		},
 	},
-	["cached_talents"] = {
-	},
 	["announce_prepots"] = {
 		["enabled"] = false,
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
+	["last_day"] = "05",
 	["cached_roles"] = {
 	},
-	["last_day"] = "24",
+	["cached_talents"] = {
+	},
 	["benchmark_db"] = {
 		["frame"] = {
 		},
@@ -233,7 +234,7 @@ _detalhes_database = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["combat_counter"] = 1927,
+	["combat_counter"] = 1943,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -434,7 +435,7 @@ _detalhes_database = {
 		}, -- [2]
 	},
 	["character_data"] = {
-		["logons"] = 73,
+		["logons"] = 81,
 	},
 	["announce_cooldowns"] = {
 		["enabled"] = false,
@@ -452,7 +453,6 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
-		["Player-64-0EBAAE31"] = 65,
-		["Player-3685-09491807"] = 104,
+		["Player-3685-09491807"] = 102,
 	},
 }

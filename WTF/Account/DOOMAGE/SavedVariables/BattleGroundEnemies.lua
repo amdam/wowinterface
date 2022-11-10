@@ -7,12 +7,13 @@ BattleGroundEnemiesDB = {
 		["Kayne - Turalyon"] = "Default",
 		["Adrid - Turalyon"] = "Default",
 		["Amdam - Turalyon"] = "Default",
-		["Badam - Turalyon"] = "Default",
-		["Asaam - Turalyon"] = "Default",
-		["Adamn - Turalyon"] = "Default",
-		["Christoff - Turalyon"] = "Default",
-		["Dreg - Turalyon"] = "Default",
 		["Allevin - Turalyon"] = "Default",
+		["Badam - Turalyon"] = "Default",
+		["Christoff - Turalyon"] = "Default",
+		["Kaydan - Turalyon"] = "Default",
+		["Adamn - Turalyon"] = "Default",
+		["Dreg - Turalyon"] = "Default",
+		["Asaam - Turalyon"] = "Default",
 		["Shado - Turalyon"] = "Default",
 	},
 	["profiles"] = {
@@ -25,7 +26,7 @@ BattleGroundEnemiesDB = {
 					["Position_X"] = 3.71113060353261,
 				},
 			},
-			["lastReadVersion"] = "9.2.0.11",
+			["lastReadVersion"] = "9.2.7.2",
 			["Enemies"] = {
 				["40"] = {
 					["Position_Y"] = 688.5446232839204,

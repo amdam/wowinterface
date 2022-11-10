@@ -1,6 +1,7 @@
 local _, T = ...
 if T.SkipLocalActionBook then return end
 local MODERN = select(4,GetBuildInfo()) >= 8e4
+local CF_WRATH = not MODERN and select(4,GetBuildInfo()) >= 3e4
 local KR, EV = assert(T.ActionBook:compatible("Kindred", 1,12), "A compatible version of Kindred is required"), T.Evie
 local playerClassLocal, playerClass = UnitClass("player")
 
@@ -94,6 +95,11 @@ if MODERN then -- spec:id/name
 	if s then
 		RegisterStateConditional("spec", "spec", s, false)
 	end
+elseif CF_WRATH then
+	function EV:ACTIVE_TALENT_GROUP_CHANGED(ng)
+		KR:SetStateConditionalValue("spec", tostring(ng or 1))
+	end
+	KR:SetStateConditionalValue("spec", "1")
 else
 	KR:SetStateConditionalValue("spec", "")
 end
@@ -623,13 +629,9 @@ do -- [visual]
 	KR:SetSecureExternalConditional("visual", f, function() return true end)
 end
 if MODERN then -- [coven]
-	local noPendingSync, cv, covMap = true, false, {
-		[1]="kyrian",
-		[2]="venthyr",
-		[3]="fae/nightfae",
-		[4]="necro/necrolord",
-	}
-	local p8, c8 = {1, 4, 3, 2}, false
+	local cv, covMap = false, {"kyrian", "venthyr", "fae/nightfae", "necro/necrolord"}
+	local c8, p8 = false, {1, 4, 3, 2}
+	local noPendingSync, noPendingTimer, syncCovenTimer = true, true
 	local function syncCoven(e)
 		if InCombatLockdown() then
 			if noPendingSync then
@@ -643,17 +645,26 @@ if MODERN then -- [coven]
 			cv = nv
 			KR:SetStateConditionalValue("coven", nv)
 		end
-		local n8 = false
-		for i=1,4 do
-			if select(3, GetAchievementCriteriaInfo(15646, i)) then
-				n8 = n8 and (n8 .. "/" .. covMap[p8[i]]) or covMap[p8[i]]
+		if GetAchievementNumCriteria(15646) == 4 then
+			local n8 = false
+			for i=1,4 do
+				if select(3, GetAchievementCriteriaInfo(15646, i)) then
+					n8 = n8 and (n8 .. "/" .. covMap[p8[i]]) or covMap[p8[i]]
+				end
 			end
-		end
-		if n8 ~= c8 then
-			c8 = n8
-			KR:SetStateConditionalValue("acoven80", n8)
+			if n8 ~= c8 then
+				c8 = n8
+				KR:SetStateConditionalValue("acoven80", n8)
+			end
+		elseif noPendingTimer then
+			noPendingTimer = false
+			C_Timer.After(0.25, syncCovenTimer)
 		end
 		return e == "PLAYER_REGEN_ENABLED" and "remove"
+	end
+	function syncCovenTimer()
+		noPendingTimer = true
+		syncCoven()
 	end
 	KR:SetStateConditionalValue("coven", false)
 	KR:SetStateConditionalValue("acoven80", false)

@@ -5,18 +5,19 @@ Details_StreamerDB = {
 		["Kayne - Turalyon"] = "Adamancy - Turalyon",
 		["Amdam - Turalyon"] = "Adamancy - Turalyon",
 		["Aduum - Turalyon"] = "Adamancy - Turalyon",
+		["Kaydan - Turalyon"] = "Adamancy - Turalyon",
 		["Christoff - Turalyon"] = "Adamancy - Turalyon",
 		["Artoc - Zul'jin"] = "Adamancy - Turalyon",
 		["Abel - Turalyon"] = "Adamancy - Turalyon",
 		["Adamancy - Turalyon"] = "Adamancy - Turalyon",
 		["Furrys - Turalyon"] = "Adamancy - Turalyon",
 		["Badam - Turalyon"] = "Adamancy - Turalyon",
-		["Adrid - Turalyon"] = "Adamancy - Turalyon",
-		["Artoc - Silvermoon"] = "Adamancy - Turalyon",
-		["Dreg - Turalyon"] = "Adamancy - Turalyon",
-		["Adamn - Turalyon"] = "Adamancy - Turalyon",
-		["Svend - Turalyon"] = "Adamancy - Turalyon",
 		["Asaam - Turalyon"] = "Adamancy - Turalyon",
+		["Artoc - Silvermoon"] = "Adamancy - Turalyon",
+		["Svend - Turalyon"] = "Adamancy - Turalyon",
+		["Adamn - Turalyon"] = "Adamancy - Turalyon",
+		["Dreg - Turalyon"] = "Adamancy - Turalyon",
+		["Adrid - Turalyon"] = "Adamancy - Turalyon",
 		["Shado - Turalyon"] = "Adamancy - Turalyon",
 	},
 	["profiles"] = {
@@ -35,6 +36,7 @@ Details_StreamerDB = {
 				1, -- [3]
 				0.5, -- [4]
 			},
+			["point"] = "CENTER",
 			["main_frame_size"] = {
 				299.9998779296875, -- [1]
 				499.9999389648438, -- [2]
@@ -44,22 +46,22 @@ Details_StreamerDB = {
 				["radius"] = 160,
 				["hide"] = false,
 			},
-			["scale"] = 1,
-			["arrow_anchor_x"] = 0,
 			["row_height"] = 20,
+			["arrow_anchor_x"] = 0,
+			["scale"] = 1,
 			["row_texture"] = "Details Serenity",
-			["point"] = "CENTER",
+			["square_grow_direction"] = "right",
+			["author"] = "Details! Team",
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["use_spark"] = true,
+			["y"] = -4.57763671875e-05,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -67,8 +69,9 @@ Details_StreamerDB = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["author"] = "Details! Team",
+			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -80,11 +83,10 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["font_size"] = 10,
 			["x"] = -6.103515625e-05,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["y"] = -4.57763671875e-05,
+			["use_spark"] = true,
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = false,
 			["use_square_mode"] = false,

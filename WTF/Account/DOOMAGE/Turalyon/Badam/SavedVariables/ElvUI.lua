@@ -2,116 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"so i need to trust what? disengage SUPPOSE to go backward", -- [1]
-			"Chammo-Zul'jin", -- [2]
-			"", -- [3]
-			"1. General - Broken Shore", -- [4]
-			"Chammo-Zul'jin", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Broken Shore", -- [9]
-			0, -- [10]
-			245, -- [11]
-			"Player-61-0CDA2C24", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Chammo-Zul'jin|r",
-			[51] = 1640656952,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"i was to close from getting it so blizzard inverse my ability? lol", -- [1]
-			"Chammo-Zul'jin", -- [2]
-			"", -- [3]
-			"1. General - Broken Shore", -- [4]
-			"Chammo-Zul'jin", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Broken Shore", -- [9]
-			0, -- [10]
-			246, -- [11]
-			"Player-61-0CDA2C24", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Chammo-Zul'jin|r",
-			[51] = 1640657010,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			" ", -- [1]
-			"Æpex-Zul'jin", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Æpex-Zul'jin", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			247, -- [11]
-			"Player-61-0E85385B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Æpex-Zul'jin|r",
-			[51] = 1640657015,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [3]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14372:Player-3685-0989F59A:1:12:27:21:4294967295:4294967295:4294967295:4294967295|h[Theater of Pain]|h|r!", -- [1]
-			"Brewteaful-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Brewteaful-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			476, -- [11]
-			"Player-3685-0989F59A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Brewteaful|r",
-			[51] = 1640659623,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [4]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14416:Player-3685-0989F59A:1:12:27:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Theater of Pain]|h|r!", -- [1]
-			"Brewteaful-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Brewteaful-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			477, -- [11]
-			"Player-3685-0989F59A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Brewteaful|r",
-			[51] = 1640659623,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [5]
-		{
 			"%s has earned the achievement |cffffff00|Hachievement:14417:Player-3685-0989F59A:1:12:27:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Theater of Pain]|h|r!", -- [1]
 			"Brewteaful-Turalyon", -- [2]
 			"", -- [3]
@@ -132,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewteaful|r",
 			[51] = 1640659623,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [6]
+		}, -- [1]
 		{
 			"gotta dust him off so you can be big boy tank for dos", -- [1]
 			"Brewteaful-Turalyon", -- [2]
@@ -154,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewteaful|r",
 			[51] = 1640736079,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [7]
+		}, -- [2]
 		{
 			"shiiiiit", -- [1]
 			"Reuva-Turalyon", -- [2]
@@ -176,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Reuva|r",
 			[51] = 1640736137,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [8]
+		}, -- [3]
 		{
 			"no sarry", -- [1]
 			"Thbresde-Madoran", -- [2]
@@ -198,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Thbresde-Madoran|r",
 			[51] = 1640736235,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
+		}, -- [4]
 		{
 			"it's honestly all WA now", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -220,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Azados|r",
 			[51] = 1640736447,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [10]
+		}, -- [5]
 		{
 			"you can do so much with it, it's ridiculous", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -242,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Azados|r",
 			[51] = 1640736453,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [11]
+		}, -- [6]
 		{
 			"aly's UI is mostly WAs", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -264,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Azados|r",
 			[51] = 1640736457,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [12]
+		}, -- [7]
 		{
 			"dunno if it'll show both weapons because it isnt on mine", -- [1]
 			"Reuva-Turalyon", -- [2]
@@ -286,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Reuva|r",
 			[51] = 1640736807,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [13]
+		}, -- [8]
 		{
 			"|cffff80ff|Houtfit:5jP1gt9l;1gv&&&1;O1gz1gn1gx1gr1gl&&&0Jc&&&&&&&&'&&&|h[|T1598183:13:13:-1:0|tOutfit]|h|r", -- [1]
 			"Reuva-Turalyon", -- [2]
@@ -308,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Reuva|r",
 			[51] = 1640736812,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [14]
+		}, -- [9]
 		{
 			"weird, fist doesn't match on my screen", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -330,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Azados|r",
 			[51] = 1640736959,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [15]
+		}, -- [10]
 		{
 			"I can't find anything to match those fists", -- [1]
 			"Brewteaful-Turalyon", -- [2]
@@ -352,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewteaful|r",
 			[51] = 1640736962,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [16]
+		}, -- [11]
 		{
 			"what you mean it doesnt match", -- [1]
 			"Reuva-Turalyon", -- [2]
@@ -374,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Reuva|r",
 			[51] = 1640736984,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [17]
+		}, -- [12]
 		{
 			"color", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -396,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Azados|r",
 			[51] = 1640736989,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [18]
+		}, -- [13]
 		{
 			"sigh", -- [1]
 			"Reuva-Turalyon", -- [2]
@@ -418,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Reuva|r",
 			[51] = 1640737016,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [19]
+		}, -- [14]
 		{
 			"my color saturation might be different than yours", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -440,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Azados|r",
 			[51] = 1640737048,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [20]
+		}, -- [15]
 		{
 			"i have the red blue and green colors for those rock fists", -- [1]
 			"Reuva-Turalyon", -- [2]
@@ -462,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Reuva|r",
 			[51] = 1640737083,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [21]
+		}, -- [16]
 		{
 			"hard to find anything that matches it", -- [1]
 			"Reuva-Turalyon", -- [2]
@@ -484,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Reuva|r",
 			[51] = 1640737090,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [22]
+		}, -- [17]
 		{
 			"they're really cool, I love them. The green ones are like hulk fists but they match nothing lol", -- [1]
 			"Brewteaful-Turalyon", -- [2]
@@ -506,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewteaful|r",
 			[51] = 1640737115,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [23]
+		}, -- [18]
 		{
 			"|cffe6cc80|Hitem:128940::::::::53:268:::::::::|h[Fists of the Heavens]|h|r ", -- [1]
 			"Reuva-Turalyon", -- [2]
@@ -528,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Reuva|r",
 			[51] = 1640737252,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [24]
+		}, -- [19]
 		{
 			"wow ok", -- [1]
 			"Reuva-Turalyon", -- [2]
@@ -550,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Reuva|r",
 			[51] = 1640737258,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [25]
+		}, -- [20]
 		{
 			"that didnt work lol", -- [1]
 			"Reuva-Turalyon", -- [2]
@@ -572,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Reuva|r",
 			[51] = 1640737261,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [26]
+		}, -- [21]
 		{
 			"that's not bad, it still doesn't sit right with me how the fists are a greenish gray, but the outfit is brownish gray", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -594,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Azados|r",
 			[51] = 1640737489,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [27]
+		}, -- [22]
 		{
 			"they're stone gray on my screen", -- [1]
 			"Reuva-Turalyon", -- [2]
@@ -616,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Reuva|r",
 			[51] = 1640737512,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [28]
+		}, -- [23]
 		{
 			"you colorblind fool", -- [1]
 			"Reuva-Turalyon", -- [2]
@@ -638,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Reuva|r",
 			[51] = 1640737515,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [29]
+		}, -- [24]
 		{
 			"remember we had this issue before haha", -- [1]
 			"Reuva-Turalyon", -- [2]
@@ -660,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Reuva|r",
 			[51] = 1640737527,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [30]
+		}, -- [25]
 		{
 			"it's my color saturation", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -682,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Azados|r",
 			[51] = 1640737569,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [31]
+		}, -- [26]
 		{
 			"you can spam the net for catching the butterflies for the one ardenweald daily and it counts as two", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -704,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1640737956,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [32]
+		}, -- [27]
 		{
 			"for night fae", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -726,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1640737967,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [33]
+		}, -- [28]
 		{
 			"DOes prot paladin really suck at DPS in mage tower or does this thing have higher HP than other tank challenges?", -- [1]
 			"Sinnergee-Alleria", -- [2]
@@ -748,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Sinnergee-Alleria|r",
 			[51] = 1640738116,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [29]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14326:Player-3685-0989F59A:1:12:28:21:4294967295:4294967295:4294967295:4294967295|h[Spires of Ascension]|h|r!", -- [1]
 			"Brewteaful-Turalyon", -- [2]
@@ -770,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewteaful|r",
 			[51] = 1640738152,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [35]
+		}, -- [30]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14324:Player-3685-0989F59A:1:12:28:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Spires of Ascension]|h|r!", -- [1]
 			"Brewteaful-Turalyon", -- [2]
@@ -792,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewteaful|r",
 			[51] = 1640738152,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [36]
+		}, -- [31]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14325:Player-3685-0989F59A:1:12:28:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Spires of Ascension]|h|r!", -- [1]
 			"Brewteaful-Turalyon", -- [2]
@@ -814,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewteaful|r",
 			[51] = 1640738152,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [37]
+		}, -- [32]
 		{
 			"no it has the same hp from what ive read.", -- [1]
 			"Lunaly-Alexstrasza", -- [2]
@@ -836,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lunaly-Alexstrasza|r",
 			[51] = 1640738173,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [33]
 		{
 			"and because of scaleing i kinda thing we all suck at dps.", -- [1]
 			"Lunaly-Alexstrasza", -- [2]
@@ -858,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lunaly-Alexstrasza|r",
 			[51] = 1640738185,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [34]
 		{
 			"seems like it is taking forever to kill as a prot paladin for some reason", -- [1]
 			"Sinnergee-Alleria", -- [2]
@@ -880,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Sinnergee-Alleria|r",
 			[51] = 1640738190,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [35]
 		{
 			"I didn't have near this issue as a Bear druid", -- [1]
 			"Sinnergee-Alleria", -- [2]
@@ -902,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Sinnergee-Alleria|r",
 			[51] = 1640738206,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [36]
 		{
 			"i barely scrape 800dps", -- [1]
 			"Lunaly-Alexstrasza", -- [2]
@@ -924,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lunaly-Alexstrasza|r",
 			[51] = 1640738209,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [37]
 		{
 			"has lord hel'nurath spawned??", -- [1]
 			"Mordraxis-Stormrage", -- [2]
@@ -946,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edMordraxis-Stormrage|r",
 			[51] = 1640738214,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [38]
 		{
 			"primary stat seems to have helped a lot. siege of org socket gear old school enchants etc...", -- [1]
 			"Lunaly-Alexstrasza", -- [2]
@@ -968,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lunaly-Alexstrasza|r",
 			[51] = 1640738325,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [39]
 		{
 			"|cffff80ff|Houtfit:/]w1MP0ME1MR&&&1;O1J[1MJ1MT1MN1MH0t3&&&&&&&&&&&'&&&|h[|T1598183:13:13:-1:0|tOutfit]|h|r thoughts?", -- [1]
 			"Brewteaful-Turalyon", -- [2]
@@ -990,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewteaful|r",
 			[51] = 1640738378,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [45]
+		}, -- [40]
 		{
 			"2.20", -- [1]
 			"Invictusu-Zul'jin", -- [2]
@@ -1012,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Invictusu-Zul'jin|r",
 			[51] = 1640738423,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
+		}, -- [41]
 		{
 			"looks good, I dunno about the weps", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -1034,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1640738448,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [47]
+		}, -- [42]
 		{
 			"i like the color of the \"body\" of the weapon to the blue on the set, more than I like the color of the blades with the set.", -- [1]
 			"Ironclad-Turalyon", -- [2]
@@ -1056,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIronclad|r",
 			[51] = 1640738452,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [48]
+		}, -- [43]
 		{
 			"that's nice", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -1078,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Azados|r",
 			[51] = 1640738453,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [49]
+		}, -- [44]
 		{
 			"i like the helm with that tho", -- [1]
 			"Ironclad-Turalyon", -- [2]
@@ -1100,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIronclad|r",
 			[51] = 1640738459,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [50]
+		}, -- [45]
 		{
 			"this is the closest I can get for the weps. they're such a weird shade of red", -- [1]
 			"Brewteaful-Turalyon", -- [2]
@@ -1122,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewteaful|r",
 			[51] = 1640738475,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [51]
+		}, -- [46]
 		{
 			"|cffff80ff|Houtfit:5jP'm]0ME'mY1;N9k:'lz'mZ'mF'm\\('3.NB.NB&c{&c{&&&&&&|h[|T1598183:13:13:-1:0|tOutfit]|h|r", -- [1]
 			"Ironclad-Turalyon", -- [2]
@@ -1144,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIronclad|r",
 			[51] = 1640738486,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [52]
+		}, -- [47]
 		{
 			"I've always been a fan of those shoulders", -- [1]
 			"Brewteaful-Turalyon", -- [2]
@@ -1166,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewteaful|r",
 			[51] = 1640738529,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [53]
+		}, -- [48]
 		{
 			"dos is doing meme keys with me if anyone wants to come", -- [1]
 			"Brewteaful-Turalyon", -- [2]
@@ -1188,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewteaful|r",
 			[51] = 1640738562,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [54]
+		}, -- [49]
 		{
 			"blah, i got school in 15", -- [1]
 			"Ironclad-Turalyon", -- [2]
@@ -1210,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIronclad|r",
 			[51] = 1640738581,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [55]
+		}, -- [50]
 		{
 			"sadge", -- [1]
 			"Brewteaful-Turalyon", -- [2]
@@ -1232,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewteaful|r",
 			[51] = 1640738595,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [56]
+		}, -- [51]
 		{
 			"there it is again", -- [1]
 			"Ironclad-Turalyon", -- [2]
@@ -1254,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIronclad|r",
 			[51] = 1640738602,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [57]
+		}, -- [52]
 		{
 			"lol", -- [1]
 			"Brewteaful-Turalyon", -- [2]
@@ -1276,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewteaful|r",
 			[51] = 1640738606,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [58]
+		}, -- [53]
 		{
 			"ill meme keys", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -1298,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1640738660,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [59]
+		}, -- [54]
 		{
 			"what a chad", -- [1]
 			"Voridos-Turalyon", -- [2]
@@ -1320,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeVoridos|r",
 			[51] = 1640738675,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [60]
+		}, -- [55]
 		{
 			"you can carry me", -- [1]
 			"Brewteaful-Turalyon", -- [2]
@@ -1342,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewteaful|r",
 			[51] = 1640738676,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [61]
+		}, -- [56]
 		{
 			"i got called a gigachad in a run last week", -- [1]
 			"Voridos-Turalyon", -- [2]
@@ -1364,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeVoridos|r",
 			[51] = 1640738714,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [62]
+		}, -- [57]
 		{
 			"thats like, top chad bro", -- [1]
 			"Ironclad-Turalyon", -- [2]
@@ -1386,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIronclad|r",
 			[51] = 1640738745,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [63]
+		}, -- [58]
 		{
 			"good job", -- [1]
 			"Ironclad-Turalyon", -- [2]
@@ -1408,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIronclad|r",
 			[51] = 1640738746,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [64]
+		}, -- [59]
 		{
 			"the chad of chads", -- [1]
 			"Ironclad-Turalyon", -- [2]
@@ -1430,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIronclad|r",
 			[51] = 1640738758,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [65]
+		}, -- [60]
 		{
 			"maybe even.... a chadly", -- [1]
 			"Ironclad-Turalyon", -- [2]
@@ -1452,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIronclad|r",
 			[51] = 1640738764,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [66]
+		}, -- [61]
 		{
 			"the alpha chad", -- [1]
 			"Badam-Turalyon", -- [2]
@@ -1474,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBadam|r",
 			[51] = 1640738766,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [67]
+		}, -- [62]
 		{
 			"everyone died on 2nd boss of necrotic wake, i solo'd the last 10%", -- [1]
 			"Voridos-Turalyon", -- [2]
@@ -1496,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeVoridos|r",
 			[51] = 1640738774,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [68]
+		}, -- [63]
 		{
 			"whoa, more brown!", -- [1]
 			"Ironclad-Turalyon", -- [2]
@@ -1518,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIronclad|r",
 			[51] = 1640738775,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [69]
+		}, -- [64]
 		{
 			"kick this dhs's ass wade", -- [1]
 			"Brewteaful-Turalyon", -- [2]
@@ -1540,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewteaful|r",
 			[51] = 1640738790,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [70]
+		}, -- [65]
 		{
 			"fuck me, 1% wipe", -- [1]
 			"Badam-Turalyon", -- [2]
@@ -1562,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBadam|r",
 			[51] = 1640739883,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [71]
+		}, -- [66]
 		{
 			"god fucking damnit", -- [1]
 			"Badam-Turalyon", -- [2]
@@ -1584,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBadam|r",
 			[51] = 1640739885,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [72]
+		}, -- [67]
 		{
 			"agatha?", -- [1]
 			"Voridos-Turalyon", -- [2]
@@ -1606,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeVoridos|r",
 			[51] = 1640739899,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [73]
+		}, -- [68]
 		{
 			"yeah", -- [1]
 			"Badam-Turalyon", -- [2]
@@ -1628,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBadam|r",
 			[51] = 1640739903,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [74]
+		}, -- [69]
 		{
 			"big yikes", -- [1]
 			"Voridos-Turalyon", -- [2]
@@ -1650,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeVoridos|r",
 			[51] = 1640739907,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [75]
+		}, -- [70]
 		{
 			"idk what people are talking about this is way harder than the frost mage one", -- [1]
 			"Badam-Turalyon", -- [2]
@@ -1672,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBadam|r",
 			[51] = 1640739910,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [76]
+		}, -- [71]
 		{
 			"did that in like 8 or 9 attempts", -- [1]
 			"Badam-Turalyon", -- [2]
@@ -1694,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBadam|r",
 			[51] = 1640739920,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [77]
+		}, -- [72]
 		{
 			"it's dumb", -- [1]
 			"Ironclad-Turalyon", -- [2]
@@ -1716,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIronclad|r",
 			[51] = 1640739922,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [78]
+		}, -- [73]
 		{
 			"now im 21 into this one", -- [1]
 			"Badam-Turalyon", -- [2]
@@ -1738,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBadam|r",
 			[51] = 1640739925,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [79]
+		}, -- [74]
 		{
 			"and wiped at 1%", -- [1]
 			"Badam-Turalyon", -- [2]
@@ -1760,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBadam|r",
 			[51] = 1640739929,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [80]
+		}, -- [75]
 		{
 			"i did it to 8% and god so mad i havent gone back", -- [1]
 			"Ironclad-Turalyon", -- [2]
@@ -1782,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIronclad|r",
 			[51] = 1640739933,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [81]
+		}, -- [76]
 		{
 			"its so god damn long", -- [1]
 			"Badam-Turalyon", -- [2]
@@ -1804,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBadam|r",
 			[51] = 1640739943,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [82]
+		}, -- [77]
 		{
 			"it is. it's fucking absurd", -- [1]
 			"Ironclad-Turalyon", -- [2]
@@ -1826,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIronclad|r",
 			[51] = 1640739950,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [83]
+		}, -- [78]
 		{
 			"that attempt was 13 minutes and 43 seconds", -- [1]
 			"Badam-Turalyon", -- [2]
@@ -1848,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBadam|r",
 			[51] = 1640739952,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [84]
+		}, -- [79]
 		{
 			"thought about doing it as prot maybe, just to get it", -- [1]
 			"Ironclad-Turalyon", -- [2]
@@ -1870,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIronclad|r",
 			[51] = 1640739979,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [85]
+		}, -- [80]
 		{
 			"yeah im only doing this one because its supposed to be \"easy\"", -- [1]
 			"Badam-Turalyon", -- [2]
@@ -1892,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBadam|r",
 			[51] = 1640739999,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [86]
+		}, -- [81]
 		{
 			"ha, i did it for the same reason", -- [1]
 			"Ironclad-Turalyon", -- [2]
@@ -1914,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIronclad|r",
 			[51] = 1640740015,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [87]
+		}, -- [82]
 		{
 			"its near impossible on fire mage unless you were lucky enough to have 6%+ leech on your gear", -- [1]
 			"Badam-Turalyon", -- [2]
@@ -1936,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBadam|r",
 			[51] = 1640740045,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [88]
+		}, -- [83]
 		{
 			"then ofc all the cool shit everyone was doing to cheese it were all fixed by the time i could get to it lol", -- [1]
 			"Ironclad-Turalyon", -- [2]
@@ -1958,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIronclad|r",
 			[51] = 1640740121,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [89]
+		}, -- [84]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15309:Player-3685-0717C7FF:1:12:28:21:4294967295:4294967295:4294967295:4294967295|h[A Towering Success]|h|r!", -- [1]
 			"Badam-Turalyon", -- [2]
@@ -1980,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBadam|r",
 			[51] = 1640740817,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [90]
+		}, -- [85]
 		{
 			"there damn", -- [1]
 			"Badam-Turalyon", -- [2]
@@ -2002,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBadam|r",
 			[51] = 1640740824,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [91]
+		}, -- [86]
 		{
 			"i guess i just had to bitch a little", -- [1]
 			"Badam-Turalyon", -- [2]
@@ -2024,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cBadam|r",
 			[51] = 1640740829,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [92]
+		}, -- [87]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14197:Player-3685-0989F59A:1:12:28:21:4294967295:4294967295:4294967295:4294967295|h[Sanguine Depths]|h|r!", -- [1]
 			"Brewteaful-Turalyon", -- [2]
@@ -2046,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewteaful|r",
 			[51] = 1640741408,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [93]
+		}, -- [88]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14198:Player-3685-0989F59A:1:12:28:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Sanguine Depths]|h|r!", -- [1]
 			"Brewteaful-Turalyon", -- [2]
@@ -2068,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewteaful|r",
 			[51] = 1640741408,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [94]
+		}, -- [89]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14199:Player-3685-0989F59A:1:12:28:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Sanguine Depths]|h|r!", -- [1]
 			"Brewteaful-Turalyon", -- [2]
@@ -2090,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewteaful|r",
 			[51] = 1640741408,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [95]
+		}, -- [90]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14841:Player-3685-0989F59A:1:12:28:21:4294967295:4294967295:4294967295:4294967295|h[Adventures: Now You're Cooking]|h|r!", -- [1]
 			"Brewteaful-Turalyon", -- [2]
@@ -2112,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Brewteaful|r",
 			[51] = 1640741552,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [96]
+		}, -- [91]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13095:Player-3685-0DB0E514:1:12:28:21:4294967295:4294967295:4294967295:4294967295|h[Dread Chain]|h|r!", -- [1]
 			"Ironclad-Turalyon", -- [2]
@@ -2134,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIronclad|r",
 			[51] = 1640741612,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [97]
+		}, -- [92]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13096:Player-3685-0DB0E514:1:12:28:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Dread Chain]|h|r!", -- [1]
 			"Ironclad-Turalyon", -- [2]
@@ -2156,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIronclad|r",
 			[51] = 1640741612,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [98]
+		}, -- [93]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13097:Player-3685-0DB0E514:1:12:28:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Dread Chain]|h|r!", -- [1]
 			"Ironclad-Turalyon", -- [2]
@@ -2178,29 +2068,139 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cIronclad|r",
 			[51] = 1640741612,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [94]
+		{
+			"|cffa335ee|Hitem:171445::::::::60:254::13:2:6893:7881:5:9:60:28:391:29:40:30:49:45:187742:::::|h[Shadowsteel Helm]|h|r on the Ah for 4k ", -- [1]
+			"Ghostshot-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ghostshot-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			54, -- [11]
+			"Player-3685-092887C0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Ghostshot|r",
+			[51] = 1667504355,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"are there any new quest lines since the pre-dragonflight update?", -- [1]
+			"Hollyhood-Bloodhoof", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Hollyhood-Bloodhoof", -- [5]
+			"AFK", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			70, -- [11]
+			"Player-64-01EDC368", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aHollyhood-Bloodhoof|r",
+			[51] = 1667505193,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"I don't think so", -- [1]
+			"Ayrie-Duskwood", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Ayrie-Duskwood", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			72, -- [11]
+			"Player-64-089405BF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff98Ayrie-Duskwood|r",
+			[51] = 1667505351,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14840:Player-3685-0717C7FF:1:11:3:22:4294967295:4294967295:4294967295:4294967295|h[Adventures: Learning the Ropes]|h|r!", -- [1]
+			"Badam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Badam-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			82, -- [11]
+			"Player-3685-0717C7FF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dBadam|r",
+			[51] = 1667505489,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [98]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:15076:Player-3685-0717C7FF:1:11:3:22:4294967295:4294967295:4294967295:4294967295|h[The Box of Many Things]|h|r!", -- [1]
+			"Badam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Badam-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			99, -- [11]
+			"Player-3685-0717C7FF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dBadam|r",
+			[51] = 1667505758,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/g and the part you die is at the end lol", -- [1]
-		"/g such courage", -- [2]
-		"/g idk i already did the frost one on my mage", -- [3]
-		"/g figured if im gonna try some other ones no point in doing it on a class i already unlocked the mog for", -- [4]
-		"/g and i heard this one was relatively easy as fury", -- [5]
-		"/g yeah that was on my 3rd attempt too lol", -- [6]
-		"/g the alpha chad", -- [7]
-		"/g fuck me, 1% wipe", -- [8]
-		"/g god fucking damnit", -- [9]
-		"/g yeah", -- [10]
-		"/g idk what people are talking about this is way harder than the frost mage one", -- [11]
-		"/g did that in like 8 or 9 attempts", -- [12]
-		"/g now im 21 into this one", -- [13]
-		"/g and wiped at 1%", -- [14]
-		"/g its so god damn long", -- [15]
-		"/g that attempt was 13 minutes and 43 seconds", -- [16]
-		"/g yeah im only doing this one because its supposed to be \"easy\"", -- [17]
-		"/g its near impossible on fire mage unless you were lucky enough to have 6%+ leech on your gear", -- [18]
-		"/g there damn", -- [19]
-		"/g i guess i just had to bitch a little", -- [20]
+		"/g idk i already did the frost one on my mage", -- [1]
+		"/g figured if im gonna try some other ones no point in doing it on a class i already unlocked the mog for", -- [2]
+		"/g and i heard this one was relatively easy as fury", -- [3]
+		"/g yeah that was on my 3rd attempt too lol", -- [4]
+		"/g the alpha chad", -- [5]
+		"/g fuck me, 1% wipe", -- [6]
+		"/g god fucking damnit", -- [7]
+		"/g yeah", -- [8]
+		"/g idk what people are talking about this is way harder than the frost mage one", -- [9]
+		"/g did that in like 8 or 9 attempts", -- [10]
+		"/g now im 21 into this one", -- [11]
+		"/g and wiped at 1%", -- [12]
+		"/g its so god damn long", -- [13]
+		"/g that attempt was 13 minutes and 43 seconds", -- [14]
+		"/g yeah im only doing this one because its supposed to be \"easy\"", -- [15]
+		"/g its near impossible on fire mage unless you were lucky enough to have 6%+ leech on your gear", -- [16]
+		"/g there damn", -- [17]
+		"/g i guess i just had to bitch a little", -- [18]
+		"/weakauras", -- [19]
+		"/macro", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }
