@@ -1,25 +1,5 @@
 
 ElvCharacterDB = {
-	["ChatEditHistory"] = {
-		"/g :/", -- [1]
-		"/g mm i would but im gonna go work out here in about 20 minutes", -- [2]
-		"/cw Releaf |cff0070dd|Hbattlepet:1628:1:3:155:11:11:0000000000000000:0|h[Sister of Temptation]|h|r", -- [3]
-		"/g what does internal mail database error mean", -- [4]
-		"/g i had sold auctions and i clicked open all and i didnt get all my money", -- [5]
-		"/cw Releaf |cff0070dd|Hbattlepet:2833:1:3:164:11:10:0000000000000000:94706|h[Void-Scarred Anubisath]|h|r", -- [6]
-		"/g guess i need to open a ticket...", -- [7]
-		"/g so my 400k is poof?", -- [8]
-		"/ec", -- [9]
-		"/g i saw it in the mail, i moused over it and saw the amount it was going to give me, then i clicked open all and it opened everything but i didnt get the money", -- [10]
-		"/cw Releaf |cff0070dd|Hbattlepet:2692:1:3:152:11:12:0000000000000000:91028|h[Lightless Ambusher]|h|r", -- [11]
-		"/cw Releaf |cff0070dd|Hbattlepet:1623:1:3:158:11:11:0000000000000000:61887|h[Leviathan Hatchling]|h|r", -- [12]
-		"/g into my inventory?", -- [13]
-		"/cw Releaf |cff0070dd|Hbattlepet:2566:1:3:157:10:12:0000000000000000:77901|h[Albatross Hatchling]|h|r", -- [14]
-		"/cw Releaf |cff0070dd|Hbattlepet:1955:1:3:145:14:10:0000000000000000:73671|h[Magma Rageling]|h|r", -- [15]
-		"/cw Releaf |cff0070dd|Hbattlepet:2548:1:3:169:10:10:0000000000000000:90140|h[Everburning Treant]|h|r", -- [16]
-		"/cw Releaf |cff0070dd|Hbattlepet:1753:1:3:150:12:11:0000000000000000:65630|h[Bleakwater Jelly]|h|r", -- [17]
-		"/reload", -- [18]
-	},
 	["ChatHistoryLog"] = {
 		{
 			"the main issue is that you're using your library in general, it's a stupid system", -- [1]
@@ -2200,4 +2180,25 @@ ElvCharacterDB = {
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [99]
 	},
+	["ChatEditHistory"] = {
+		"/g :/", -- [1]
+		"/g mm i would but im gonna go work out here in about 20 minutes", -- [2]
+		"/cw Releaf |cff0070dd|Hbattlepet:1628:1:3:155:11:11:0000000000000000:0|h[Sister of Temptation]|h|r", -- [3]
+		"/g what does internal mail database error mean", -- [4]
+		"/g i had sold auctions and i clicked open all and i didnt get all my money", -- [5]
+		"/cw Releaf |cff0070dd|Hbattlepet:2833:1:3:164:11:10:0000000000000000:94706|h[Void-Scarred Anubisath]|h|r", -- [6]
+		"/g guess i need to open a ticket...", -- [7]
+		"/g so my 400k is poof?", -- [8]
+		"/ec", -- [9]
+		"/g i saw it in the mail, i moused over it and saw the amount it was going to give me, then i clicked open all and it opened everything but i didnt get the money", -- [10]
+		"/cw Releaf |cff0070dd|Hbattlepet:2692:1:3:152:11:12:0000000000000000:91028|h[Lightless Ambusher]|h|r", -- [11]
+		"/cw Releaf |cff0070dd|Hbattlepet:1623:1:3:158:11:11:0000000000000000:61887|h[Leviathan Hatchling]|h|r", -- [12]
+		"/g into my inventory?", -- [13]
+		"/cw Releaf |cff0070dd|Hbattlepet:2566:1:3:157:10:12:0000000000000000:77901|h[Albatross Hatchling]|h|r", -- [14]
+		"/cw Releaf |cff0070dd|Hbattlepet:1955:1:3:145:14:10:0000000000000000:73671|h[Magma Rageling]|h|r", -- [15]
+		"/cw Releaf |cff0070dd|Hbattlepet:2548:1:3:169:10:10:0000000000000000:90140|h[Everburning Treant]|h|r", -- [16]
+		"/cw Releaf |cff0070dd|Hbattlepet:1753:1:3:150:12:11:0000000000000000:65630|h[Bleakwater Jelly]|h|r", -- [17]
+		"/reload", -- [18]
+	},
+	["ConvertKeybindings"] = true,
 }

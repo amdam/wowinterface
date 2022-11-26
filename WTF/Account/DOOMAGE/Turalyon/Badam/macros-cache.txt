@@ -12,8 +12,7 @@ VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
-/startattack
-/cast [nomodifier,spec:2] Raging Blow; [nomodifier,spec:3] Shield Slam; /cast [modifier:alt] Heroic Leap
+/cast [mod:alt] Heroic Leap; [spec:2,noknown:Annihilator] Raging Blow; [spec:2,known:Annihilator] Slam; [spec:3] Shield Slam;
 /script UIErrorsFrame:Clear();
 END
 VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
@@ -29,7 +28,7 @@ VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000009 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] Heroic Throw; [spec:2] Odyn's Fury;
+/cast [mod:alt] Heroic Throw; [spec:2] Odyn's Fury; [spec:3] Taunt;
 /script UIErrorsFrame:Clear();
 END
 VER 3 010000000000000A " " "INV_MISC_QUESTIONMARK"
@@ -53,7 +52,7 @@ END
 VER 3 0100000000000011 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast [mod:alt] Whirlwind; Slam;
+/cast [mod:alt,known:Storm of Swords] Slam; Whirlwind;
 /script UIErrorsFrame:Clear()
 END
 VER 3 0100000000000016 " " "INV_MISC_QUESTIONMARK"
@@ -65,6 +64,13 @@ END
 VER 3 0100000000000017 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [talent:6/2] Avatar; [talent:6/3] Deadly Calm;
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000018 " " "458972"
+#showtooltip
+/cast [known:Recklessness] Recklessness;
+/cast [known:Avatar] Avatar;
+/use 13
 /script UIErrorsFrame:Clear()
 END
 VER 3 010000000000000E "  " "INV_MISC_QUESTIONMARK"

@@ -108,7 +108,7 @@ function ArkInventory.Search.GetContent( h )
 				txt = string.gsub( txt, s, "" )
 			end
 			
-			for _, z in pairs( ArkInventory.Const.Bindings.All ) do
+			for _, z in pairs( ArkInventory.Const.BindingText.All ) do
 				s = string.format( "#%s#", z )
 				txt = string.gsub( txt, s, "" )
 			end

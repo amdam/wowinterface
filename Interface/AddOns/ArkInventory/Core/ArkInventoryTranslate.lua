@@ -80,9 +80,9 @@ local updateTable = {
 
 
 local itemTable = { -- key, project, 0=name | 1=itemtype | 2=itemsubtype, item id
-	{ "WOW_ITEM_PROJECTILE_ARROW", ArkInventory.ClientCheck( nil, ArkInventory.Const.ENUM.EXPANSION.WRATH ), 3, 2512 },
-	{ "WOW_ITEM_PROJECTILE_BULLET", ArkInventory.ClientCheck( nil, ArkInventory.Const.ENUM.EXPANSION.WRATH ), 3, 2516 },
-	{ "WOW_ITEM_SOULSHARD", ArkInventory.ClientCheck( nil, ArkInventory.Const.ENUM.EXPANSION.WRATH ), 1, 6265 },
+	{ "WOW_ITEM_PROJECTILE_ARROW", ArkInventory.ClientCheck( nil, ArkInventory.ENUM.EXPANSION.WRATH ), 3, 2512 },
+	{ "WOW_ITEM_PROJECTILE_BULLET", ArkInventory.ClientCheck( nil, ArkInventory.ENUM.EXPANSION.WRATH ), 3, 2516 },
+	{ "WOW_ITEM_SOULSHARD", ArkInventory.ClientCheck( nil, ArkInventory.ENUM.EXPANSION.WRATH ), 1, 6265 },
 }
 
 

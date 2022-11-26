@@ -5,7 +5,7 @@ VER 3 0100000000000005 " " "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:shift,spec:3,talent:6/3] Void Torrent; [mod:alt] Mind Sear; Smite;
+/cast [mod:shift,spec:3,known:Void Torrent] Void Torrent; [mod:alt,known:Divine Star] Divine Star; [mod:alt,known:Halo] Halo; Smite;
 /script UIErrorsFrame:Clear()
 END
 VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
@@ -22,7 +22,7 @@ VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [modifier:alt,talent:3/3] Searing NIghtmare; Devouring Plague;
+/cast [mod:alt,known:Mind Sear] Mind Sear; Devouring Plague;
 /script UIErrorsFrame:Clear()
 END
 VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
@@ -50,12 +50,11 @@ END
 VER 3 010000000000000A " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover, help, nodead][help,nodead][@player] Power Infusion;
-/use 13
 /script UIErrorsFrame:Clear()
 END
 VER 3 010000000000000B " " "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt,spec:3] Void Eruption; Mind Blast;
+/cast [mod:alt,known:Shadow Crash] Shadow Crash; Mind Blast;
 /script UIErrorsFrame:Clear()
 END
 VER 3 010000000000000C " " "INV_MISC_QUESTIONMARK"
@@ -66,5 +65,10 @@ END
 VER 3 010000000000000D " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [mod:alt,spec:3,talent7/3] Surrender to Madness; Shadow Word: Death;
+/script UIErrorsFrame:Clear()
+END
+VER 3 010000000000000E " " "134400"
+#showtooltip
+/cast [known:Dark Ascension] Dark Ascension; [known:Void Eruption] Void Eruption;
 /script UIErrorsFrame:Clear()
 END

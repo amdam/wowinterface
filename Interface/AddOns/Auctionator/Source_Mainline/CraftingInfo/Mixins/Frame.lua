@@ -7,12 +7,19 @@ function AuctionatorCraftingInfoFrameMixin:OnLoad()
   })
   self:UpdateSearchButton()
 
-  hooksecurefunc(ProfessionsFrame.CraftingPage.SchematicForm, "Init", function(...)
+  local function Update()
     self:ShowIfRelevant()
     if self:IsVisible() then
       self:UpdateTotal()
     end
-  end)
+  end
+
+  -- Uses Init rather than an event as the event handler can fire before the
+  -- ProfessionsPane pane has finished initialising a recipe
+  hooksecurefunc(ProfessionsFrame.CraftingPage.SchematicForm, "Init", Update)
+
+  ProfessionsFrame.CraftingPage.SchematicForm:RegisterCallback(ProfessionsRecipeSchematicFormMixin.Event.AllocationsModified, Update)
+  ProfessionsFrame.CraftingPage.SchematicForm:RegisterCallback(ProfessionsRecipeSchematicFormMixin.Event.UseBestQualityModified, Update)
 
   Auctionator.API.v1.RegisterForDBUpdate(AUCTIONATOR_L_REAGENT_SEARCH, function()
     if self:IsVisible() then
@@ -28,15 +35,22 @@ function AuctionatorCraftingInfoFrameMixin:ShowIfRelevant()
     self:ClearAllPoints()
 
     local reagents = ProfessionsFrame.CraftingPage.SchematicForm.Reagents
-    local optionalReagents = ProfessionsFrame.CraftingPage.SchematicForm.OptionalReagents
+    local framesToBeBelow = {
+      ProfessionsFrame.CraftingPage.SchematicForm.OptionalReagents,
+    }
+    for _, f in ipairs(ProfessionsFrame.CraftingPage.SchematicForm.extraSlotFrames) do
+      table.insert(framesToBeBelow, f)
+    end
+    local min = reagents
+    for _, f in ipairs(framesToBeBelow) do
+      if f:GetBottom() < min:GetBottom() then
+        min = f
+      end
+    end
 
     self:SetPoint("LEFT", reagents, "LEFT", 0, -10)
 
-    if reagents:GetBottom() > optionalReagents:GetBottom() then
-      self:SetPoint("TOP", optionalReagents, "BOTTOM")
-    else
-      self:SetPoint("TOP", reagents, "BOTTOM")
-    end
+    self:SetPoint("TOP", min, "BOTTOM")
 
     self:UpdateSearchButton()
   end

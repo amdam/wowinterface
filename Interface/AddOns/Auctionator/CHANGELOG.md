@@ -1,13 +1,12 @@
 # Auctionator
 
-## [10.0.8](https://github.com/Auctionator/Auctionator/tree/10.0.8) (2022-11-09)
-[Full Changelog](https://github.com/Auctionator/Auctionator/compare/10.0.7...10.0.8) 
+## [10.0.14](https://github.com/Auctionator/Auctionator/tree/10.0.14) (2022-11-24)
+[Full Changelog](https://github.com/Auctionator/Auctionator/compare/10.0.13...10.0.14) 
 
-- [Fixes #1267] Unable to drag items in shopping lists  
-- Attempt workaround #1264, again (Blizz API missing quantity for some reagents)  
-- Mainline: Attempt to fix nil reference error in reagent tooltips [#1264]  
-- Credit Romanian translation  
-- Classic: Buying: Fix scroll resetting when selecting item at the bottom  
-- Delete FUNDING.xml  
-- Create FUNDING.yml  
-- Update Github links  
+- [Fixes #1079] Classic: Show posting history in item history view (#1278)  
+- Remove docs and spec as they are unused  
+- [Fixes #1277] Mainline: Selling: Item price doesn't update for new results  
+- Mainline: Fix split second freezes after doing a blank search in shopping tab  
+- [Fixes #1269] Mainline: Undercut scan stops without explanation (#1276)  
+    Rework SellSearch and Search queries to avoid dropped queries when the item's info is not in the Blizzard item cache.  
+- Update prices when use best quality reagents gets ticked/unticked  

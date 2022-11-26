@@ -66,3 +66,8 @@ VER 3 010000000000000C " " "INV_MISC_QUESTIONMARK"
 /cast [nomodifier] Howling Blast; /cast [modifier:alt] Death Strike
 /script UIErrorsFrame:Clear()
 END
+VER 3 010000000000000D " " "134400"
+#showtooltip
+/cast [@cursor] Death and Decay;
+/script UIErrorsFrame:Clear()
+END

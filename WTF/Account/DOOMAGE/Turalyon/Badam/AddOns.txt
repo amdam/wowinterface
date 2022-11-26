@@ -142,7 +142,7 @@ HiddenSkinTracker: disabled
 BattlegroundTargets: disabled
 WorldQuestTracker: enabled
 ElvUI_BenikUI: enabled
-AngryKeystones: enabled
+AngryKeystones: disabled
 ElvUI_EverySecondCounts: disabled
 OPie_Classic: disabled
 WeakAurasCompanion: enabled

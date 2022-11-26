@@ -2,1294 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"hey hows the s4 team looking?", -- [1]
-			"|Kq22|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			124, -- [11]
-			false, -- [12]
-			35, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGingerHeals|r",
-			[51] = 1659141736,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "GingerHeals",
-		}, -- [1]
-		{
-			"Currently we have about 27-28ish people confirmed", -- [1]
-			"|Kq22|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			166, -- [11]
-			false, -- [12]
-			35, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGingerHeals|r",
-			[51] = 1659142086,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "GingerHeals",
-		}, -- [2]
-		{
-			"Were you wanting to come back for S4?", -- [1]
-			"|Kq22|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			167, -- [11]
-			false, -- [12]
-			35, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGingerHeals|r",
-			[51] = 1659142090,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "GingerHeals",
-		}, -- [3]
-		{
-			"i was thinking about it, as long as perfect attendance isn't expected", -- [1]
-			"|Kq22|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			171, -- [11]
-			false, -- [12]
-			35, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGingerHeals|r",
-			[51] = 1659142239,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "GingerHeals",
-		}, -- [4]
-		{
-			"i had heard bench squad was going to do something in s4 but I haven't heard from them in a while so idk if those plans fell through or what", -- [1]
-			"|Kq22|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			172, -- [11]
-			false, -- [12]
-			35, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGingerHeals|r",
-			[51] = 1659142215,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "GingerHeals",
-		}, -- [5]
-		{
-			"so if there's a category for \"interested but tentative\" i'd fall into that :)", -- [1]
-			"|Kq22|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			175, -- [11]
-			false, -- [12]
-			35, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGingerHeals|r",
-			[51] = 1659142311,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "GingerHeals",
-		}, -- [6]
-		{
-			"Well we're always happy to bring you back in if BS isn't doing anything. Id have to ask Erin if the attendance would be okay to make sure though. :)", -- [1]
-			"|Kq22|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			176, -- [11]
-			false, -- [12]
-			35, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGingerHeals|r",
-			[51] = 1659142265,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "GingerHeals",
-		}, -- [7]
-		{
-			"sounds good, I'll be around when i am able and can always be benched if the groups full", -- [1]
-			"|Kq22|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			177, -- [11]
-			false, -- [12]
-			35, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGingerHeals|r",
-			[51] = 1659142412,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "GingerHeals",
-		}, -- [8]
-		{
-			"Nice, I hit up Erin but I think we'd be happy to take you - just have to confirm. You're a solid raider so I dont see any issues, especially since we're only doing norm/heroic.", -- [1]
-			"|Kq22|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			186, -- [11]
-			false, -- [12]
-			35, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGingerHeals|r",
-			[51] = 1659142522,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "GingerHeals",
-		}, -- [9]
-		{
-			"|cffffff00|Hworldmap:1970:5868:3974|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r Otaris the Provoked 100%", -- [1]
-			"Salii-Tanaris", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Salii-Tanaris", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			187, -- [11]
-			"Player-158-0B207DFF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeSalii-Tanaris|r",
-			[51] = 1659142599,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"awesome! Assuming my prior commitment to BS is no longer needed I'll see you tuesday", -- [1]
-			"|Kq22|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			192, -- [11]
-			false, -- [12]
-			35, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGingerHeals|r",
-			[51] = 1659142754,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "GingerHeals",
-		}, -- [11]
-		{
-			"Nice! Ill let you know when Erin replies too. :)", -- [1]
-			"|Kq22|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			193, -- [11]
-			false, -- [12]
-			35, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGingerHeals|r",
-			[51] = 1659142807,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "GingerHeals",
-		}, -- [12]
-		{
-			"Sounds good", -- [1]
-			"|Kq22|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			194, -- [11]
-			false, -- [12]
-			35, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcGingerHeals|r",
-			[51] = 1659142904,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "GingerHeals",
-		}, -- [13]
-		{
-			"Furidian 100.00% ~(63.46, 58.36) |cffffff00|Hworldmap:1970:6346:5836|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Kaullasso-Bloodhoof", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Kaullasso-Bloodhoof", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			71, -- [11]
-			"Player-64-02E7BD91", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Kaullasso-Bloodhoof|r",
-			[51] = 1659201872,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9041:Player-3685-0D06F612:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[Shadowmoon Burial Grounds]|h|r!", -- [1]
-			"Curses-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Curses-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			72, -- [11]
-			"Player-3685-0D06F612", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edCurses|r",
-			[51] = 1659201905,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [15]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9054:Player-3685-0D06F612:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Shadowmoon Burial Grounds]|h|r!", -- [1]
-			"Curses-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Curses-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			73, -- [11]
-			"Player-3685-0D06F612", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edCurses|r",
-			[51] = 1659201905,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [16]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:4476:Player-3685-0D06F612:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[Looking For More]|h|r!", -- [1]
-			"Curses-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Curses-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			74, -- [11]
-			"Player-3685-0D06F612", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edCurses|r",
-			[51] = 1659201906,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [17]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:13878:Player-3685-0ABFD12C:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[The Master of Revendreth]|h|r!", -- [1]
-			"Myeyeshurt-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Myeyeshurt-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			99, -- [11]
-			"Player-3685-0ABFD12C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Myeyeshurt|r",
-			[51] = 1659202124,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [18]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14206:Player-3685-0ABFD12C:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[Blade of the Primus]|h|r!", -- [1]
-			"Myeyeshurt-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Myeyeshurt-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			100, -- [11]
-			"Player-3685-0ABFD12C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Myeyeshurt|r",
-			[51] = 1659202124,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [19]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14281:Player-3685-0ABFD12C:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[The Path to Ascension]|h|r!", -- [1]
-			"Myeyeshurt-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Myeyeshurt-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			101, -- [11]
-			"Player-3685-0ABFD12C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Myeyeshurt|r",
-			[51] = 1659202124,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [20]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14164:Player-3685-0ABFD12C:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[Awaken, Ardenweald]|h|r!", -- [1]
-			"Myeyeshurt-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Myeyeshurt-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			102, -- [11]
-			"Player-3685-0ABFD12C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Myeyeshurt|r",
-			[51] = 1659202124,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [21]
-		{
-			"gluttonous overgrown will not pop up and im in the area", -- [1]
-			"Amarisola-Duskwood", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Amarisola-Duskwood", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			124, -- [11]
-			"Player-64-0EBFDECC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Amarisola-Duskwood|r",
-			[51] = 1659202358,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
-		{
-			"did you try rubbing it's vine?", -- [1]
-			"Lucavias-Turalyon", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Lucavias-Turalyon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			125, -- [11]
-			"Player-3685-0DD9FEF5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe97Lucavias|r",
-			[51] = 1659202373,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
-		{
-			"all i could do was pull it and still nothing", -- [1]
-			"Amarisola-Duskwood", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Amarisola-Duskwood", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			126, -- [11]
-			"Player-64-0EBFDECC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Amarisola-Duskwood|r",
-			[51] = 1659202348,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
-		{
-			"ED meds?", -- [1]
-			"Disastrous-Bloodhoof", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Disastrous-Bloodhoof", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			127, -- [11]
-			"Player-64-0C792275", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaDisastrous-Bloodhoof|r",
-			[51] = 1659202438,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
-		{
-			"lol", -- [1]
-			"Amarisola-Duskwood", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Amarisola-Duskwood", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			128, -- [11]
-			"Player-64-0EBFDECC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Amarisola-Duskwood|r",
-			[51] = 1659202383,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
-		{
-			"yea :)", -- [1]
-			"Stormwraith-Bloodhoof", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Stormwraith-Bloodhoof", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			129, -- [11]
-			"Player-64-0970ABB7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcStormwraith-Bloodhoof|r",
-			[51] = 1659202394,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
-		{
-			"Garudeon's up", -- [1]
-			"Ashen-Bloodhoof", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Ashen-Bloodhoof", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			131, -- [11]
-			"Player-64-0B62982E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edAshen-Bloodhoof|r",
-			[51] = 1659202484,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
-		{
-			"Furidian 90.60% ~(63.94, 59) |cffffff00|Hworldmap:1970:6394:5899|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Kaullasso-Bloodhoof", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Kaullasso-Bloodhoof", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			150, -- [11]
-			"Player-64-02E7BD91", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Kaullasso-Bloodhoof|r",
-			[51] = 1659202914,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
-		{
-			"Otiosen is up. |cffffff00|Hworldmap:1970:4342:8780|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Ashen-Bloodhoof", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Ashen-Bloodhoof", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			160, -- [11]
-			"Player-64-0B62982E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edAshen-Bloodhoof|r",
-			[51] = 1659203348,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9044:Player-3685-0ABFD12C:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[The Everbloom]|h|r!", -- [1]
-			"Myeyeshurt-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Myeyeshurt-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			162, -- [11]
-			"Player-3685-0ABFD12C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Myeyeshurt|r",
-			[51] = 1659203448,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [31]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9053:Player-3685-0ABFD12C:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Everbloom]|h|r!", -- [1]
-			"Myeyeshurt-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Myeyeshurt-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			163, -- [11]
-			"Player-3685-0ABFD12C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Myeyeshurt|r",
-			[51] = 1659203448,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [32]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9223:Player-3685-0ABFD12C:1:7:30:22:4294967295:4294967295:4294967295:4294967295|h[Weed Whacker]|h|r!", -- [1]
-			"Myeyeshurt-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Myeyeshurt-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			164, -- [11]
-			"Player-3685-0ABFD12C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Myeyeshurt|r",
-			[51] = 1659203448,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [33]
-		{
-			"Destabilized Core 100.00% ~(53.6, 45.09) |cffffff00|Hworldmap:1970:5360:4509|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Galbrek-Medivh", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Galbrek-Medivh", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			2, -- [11]
-			"Player-52-0CB3731E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Galbrek-Medivh|r",
-			[51] = 1659290601,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
-		{
-			"|cffffff00|Hworldmap:1970:4374:8837|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r Otiosen up", -- [1]
-			"Jillaco-Alexstrasza", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Jillaco-Alexstrasza", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			9, -- [11]
-			"Player-1070-01AAE5C0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeJillaco-Alexstrasza|r",
-			[51] = 1659290786,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
-		{
-			"Furudion up", -- [1]
-			"Danian-Duskwood", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Danian-Duskwood", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			26, -- [11]
-			"Player-64-0EC13BDB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeDanian-Duskwood|r",
-			[51] = 1659291114,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
-		{
-			"Otaris the Provoked 100.00% ~(58.78, 39.44) |cffffff00|Hworldmap:1970:5878:3944|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Voidthree-Turalyon", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Voidthree-Turalyon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			67, -- [11]
-			"Player-3685-0DDC39EF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Voidthree|r",
-			[51] = 1659296403,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
-		{
-			"misaligned enforcer is trapped if anyone needs", -- [1]
-			"Tãble-Sargeras", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Tãble-Sargeras", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			82, -- [11]
-			"Player-76-0B7B002E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Tãble-Sargeras|r",
-			[51] = 1659296708,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
-		{
-			"|cffffff00|Hworldmap:1970:5601:4290|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Tãble-Sargeras", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Tãble-Sargeras", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			83, -- [11]
-			"Player-76-0B7B002E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Tãble-Sargeras|r",
-			[51] = 1659296712,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
-		{
-			"Tahkwitz 100.00% ~(48.71, 39.11) |cffffff00|Hworldmap:1970:4871:3911|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Voidthree-Turalyon", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Voidthree-Turalyon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			98, -- [11]
-			"Player-3685-0DDC39EF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Voidthree|r",
-			[51] = 1659296874,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
-		{
-			"misaligned enforcer is trapped if anyone needs|cffffff00|Hworldmap:1970:5600:4290|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Tãble-Sargeras", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Tãble-Sargeras", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			99, -- [11]
-			"Player-76-0B7B002E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Tãble-Sargeras|r",
-			[51] = 1659296939,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
-		{
-			"omw", -- [1]
-			"Kynlareth-Turalyon", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Kynlareth-Turalyon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			100, -- [11]
-			"Player-3685-0D3C0A49", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Kynlareth|r",
-			[51] = 1659296902,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
-		{
-			"~2min left", -- [1]
-			"Tãble-Sargeras", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Tãble-Sargeras", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			101, -- [11]
-			"Player-76-0B7B002E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Tãble-Sargeras|r",
-			[51] = 1659296910,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
-		{
-			"Euv'ouk 100.00% ~(47.47, 45.73) |cffffff00|Hworldmap:1970:4747:4573|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Geryone-Turalyon", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Geryone-Turalyon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			30, -- [11]
-			"Player-3685-0DB96F81", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaGeryone|r",
-			[51] = 1659421078,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
-		{
-			"Sand Matriarch Ileus 100.00% ~(52.87, 47.43) |cffffff00|Hworldmap:1970:5287:4743|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Geryone-Turalyon", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Geryone-Turalyon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			39, -- [11]
-			"Player-3685-0DB96F81", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaGeryone|r",
-			[51] = 1659421145,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
-		{
-			"otaris", -- [1]
-			"Lethaline-Duskwood", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Lethaline-Duskwood", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			120, -- [11]
-			"Player-64-0C9707D2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Lethaline-Duskwood|r",
-			[51] = 1659421883,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
-		{
-			"<RA> Otaris the Provoked 96% ~(58.65, 40.36) |cffffff00|Hworldmap:1970:5865:4036|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Dnuta-Turalyon", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Dnuta-Turalyon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			122, -- [11]
-			"Player-3685-079CC780", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Dnuta|r",
-			[51] = 1659421890,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
-		{
-			"Protector of the First Ones 100.00% ~(39.77, 26.36) |cffffff00|Hworldmap:1970:3977:2636|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Geryone-Turalyon", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Geryone-Turalyon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			146, -- [11]
-			"Player-3685-0DB96F81", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaGeryone|r",
-			[51] = 1659422130,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
-		{
-			"any rares?", -- [1]
-			"Iamhavi-Sargeras", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Iamhavi-Sargeras", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			227, -- [11]
-			"Player-76-0B39019B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcIamhavi-Sargeras|r",
-			[51] = 1659423161,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
-		{
-			"Gen Z just came up", -- [1]
-			"Alythiia-Stormrage", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Alythiia-Stormrage", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			228, -- [11]
-			"Player-60-0EAAA3D1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Alythiia-Stormrage|r",
-			[51] = 1659423188,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
-		{
-			"Corrupted Arch up too", -- [1]
-			"Iamhavi-Sargeras", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Iamhavi-Sargeras", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			229, -- [11]
-			"Player-76-0B39019B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcIamhavi-Sargeras|r",
-			[51] = 1659423269,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
-		{
-			"Protector up", -- [1]
-			"Tazzaroni-Turalyon", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Tazzaroni-Turalyon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			213, -- [11]
-			"Player-3685-0DD9622B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cTazzaroni|r",
-			[51] = 1659481790,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
-		{
-			"summoning Furidian in one minute", -- [1]
-			"Dooran-Bloodhoof", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Zereth Mortis", -- [4]
-			"Dooran-Bloodhoof", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Zereth Mortis", -- [9]
-			0, -- [10]
-			234, -- [11]
-			"Player-64-05D1E19A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcDooran-Bloodhoof|r",
-			[51] = 1659482183,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
-		{
-			"Feasting is up ", -- [1]
-			"Audrianna-Duskwood", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Audrianna-Duskwood", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			235, -- [11]
-			"Player-64-0E5457D8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edAudrianna-Duskwood|r",
-			[51] = 1659482274,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
-		{
-			"his name is lavaborn see him kill him for fun ", -- [1]
-			"Rumplebump-Turalyon", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Rumplebump-Turalyon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			236, -- [11]
-			"Player-3685-09791E81", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Rumplebump|r",
-			[51] = 1659482229,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
-		{
-			"|cffffff00|Hworldmap:1970:5437:3507|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r mother", -- [1]
-			"Shrekisthere-Tichondrius", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Shrekisthere-Tichondrius", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			239, -- [11]
-			"Player-11-0E33EA52", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Shrekisthere-Tichondrius|r",
-			[51] = 1659483118,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
-		{
-			"Mother Phestis 100.00% ~(54.51, 34.37) |cffffff00|Hworldmap:1970:5450:3437|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Lacei-Stormrage", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Lacei-Stormrage", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			240, -- [11]
-			"Player-60-0EBD96F9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Lacei-Stormrage|r",
-			[51] = 1659483095,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
-		{
-			"Feasting 41.67% ~(61.12, 51.57) |cffffff00|Hworldmap:1970:6111:5157|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Neuria-Proudmoore", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Neuria-Proudmoore", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			241, -- [11]
-			"Player-5-0E278A80", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Neuria-Proudmoore|r",
-			[51] = 1659483306,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
-		{
 			"Xy'rath the Covetous 76.98% ~(63.7, 49) |cffffff00|Hworldmap:1970:6370:4900|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Lacei-Stormrage", -- [2]
 			"", -- [3]
@@ -1310,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lacei-Stormrage|r",
 			[51] = 1659483405,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [1]
 		{
 			"...", -- [1]
 			"Danian-Duskwood", -- [2]
@@ -1332,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeDanian-Duskwood|r",
 			[51] = 1659483426,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [2]
 		{
 			"Gluttonous Overgrowth 98.98% ~(52.7, 93.02) |cffffff00|Hworldmap:1970:5270:9302|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Lacei-Stormrage", -- [2]
@@ -1354,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Lacei-Stormrage|r",
 			[51] = 1659483570,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [3]
 		{
 			"Tahkwitz 44.41% ~(48.7, 37.35) |cffffff00|Hworldmap:1970:4870:3735|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Stormdorf-Turalyon", -- [2]
@@ -1376,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcStormdorf|r",
 			[51] = 1659571976,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [4]
 		{
 			"Mother Phestis 100.00% ~(54.8, 34.09) |cffffff00|Hworldmap:1970:5480:3409|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Stormdorf-Turalyon", -- [2]
@@ -1398,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcStormdorf|r",
 			[51] = 1659572436,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [5]
 		{
 			"Shifting Stargorger 90.26% ~(41.71, 22.06) |cffffff00|Hworldmap:1970:4171:2206|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Yontropekim-Elune", -- [2]
@@ -1420,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Yontropekim-Elune|r",
 			[51] = 1659574522,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [6]
 		{
 			"Garudeon (1.20m/1.20m 100.00%) 68.46 37.37 |cffffff00|Hworldmap:1970:6845:3736|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Knicknac-Elune", -- [2]
@@ -1442,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Knicknac-Elune|r",
 			[51] = 1659575148,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [7]
 		{
 			"why is stormwind such a maze", -- [1]
 			"Faelayna-Area52", -- [2]
@@ -1464,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaFaelayna-Area52|r",
 			[51] = 1667154589,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [8]
 		{
 			"alliance players are smarter", -- [1]
 			"Bofur-Turalyon", -- [2]
@@ -1486,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Bofur|r",
 			[51] = 1667154685,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [9]
 		{
 			"they can find their stuff, horde players need a giant open circle ", -- [1]
 			"Bofur-Turalyon", -- [2]
@@ -1508,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Bofur|r",
 			[51] = 1667154696,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [10]
 		{
 			"you just get used to where you play most i guess lol", -- [1]
 			"Renallis-Turalyon", -- [2]
@@ -1530,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebRenallis|r",
 			[51] = 1667154740,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [11]
 		{
 			"i want to know its raining every time i log into sw ", -- [1]
 			"Renallis-Turalyon", -- [2]
@@ -1552,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebRenallis|r",
 			[51] = 1667154775,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [12]
 		{
 			"I can make it rain on you for the right amount of gold.", -- [1]
 			"Rawrlolxd-Area52", -- [2]
@@ -1574,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffRawrlolxd-Area52|r",
 			[51] = 1667154813,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [13]
 		{
 			"ty boss", -- [1]
 			"Rawrlolxd-Area52", -- [2]
@@ -1596,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffRawrlolxd-Area52|r",
 			[51] = 1667154834,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [72]
+		}, -- [14]
 		{
 			"lol", -- [1]
 			"Renallis-Turalyon", -- [2]
@@ -1618,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebRenallis|r",
 			[51] = 1667154780,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [15]
 		{
 			"make it hail you mean lol", -- [1]
 			"Aenlanth-Turalyon", -- [2]
@@ -1640,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dAenlanth|r",
 			[51] = 1667154898,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [16]
 		{
 			"|cffffff00Trade District is under attack!|r", -- [1]
 			"", -- [2]
@@ -1662,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1667344750,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [17]
 		{
 			"what's the special move", -- [1]
 			"Superfragile-Whisperwind", -- [2]
@@ -1684,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebSuperfragile-Whisperwind|r",
 			[51] = 1667344817,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [76]
+		}, -- [18]
 		{
 			"hi there adam", -- [1]
 			"Doridos-Turalyon", -- [2]
@@ -1706,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Doridos|r",
 			[51] = 1667441764,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [77]
+		}, -- [19]
 		{
 			"hey dos", -- [1]
 			"Amdam-Turalyon", -- [2]
@@ -1728,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAmdam|r",
 			[51] = 1667441779,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [78]
+		}, -- [20]
 		{
 			"how are you and the family?", -- [1]
 			"Doridos-Turalyon", -- [2]
@@ -1750,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Doridos|r",
 			[51] = 1667441862,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [79]
+		}, -- [21]
 		{
 			"pretty good, Miles is becoming quite the character", -- [1]
 			"Amdam-Turalyon", -- [2]
@@ -1772,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAmdam|r",
 			[51] = 1667441826,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [80]
+		}, -- [22]
 		{
 			"got to experience his first trick or treating outing the other night", -- [1]
 			"Amdam-Turalyon", -- [2]
@@ -1794,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAmdam|r",
 			[51] = 1667441841,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [81]
+		}, -- [23]
 		{
 			"he was super confused but in the end he was just glad he had candy lol", -- [1]
 			"Amdam-Turalyon", -- [2]
@@ -1816,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAmdam|r",
 			[51] = 1667442051,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [82]
+		}, -- [24]
 		{
 			"how are you guys?", -- [1]
 			"Amdam-Turalyon", -- [2]
@@ -1838,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAmdam|r",
 			[51] = 1667442056,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [83]
+		}, -- [25]
 		{
 			"lol nice", -- [1]
 			"Doridos-Turalyon", -- [2]
@@ -1860,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Doridos|r",
 			[51] = 1667442008,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [84]
+		}, -- [26]
 		{
 			"we're doing well, aly's building up that reptile zoo nicely..we're going to a reptile expo nearby in a week and a half", -- [1]
 			"Doridos-Turalyon", -- [2]
@@ -1882,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Doridos|r",
 			[51] = 1667442098,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [85]
+		}, -- [27]
 		{
 			"she's pretty excited about that", -- [1]
 			"Doridos-Turalyon", -- [2]
@@ -1904,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Doridos|r",
 			[51] = 1667442111,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [86]
+		}, -- [28]
 		{
 			"a reptile zoo??", -- [1]
 			"Amdam-Turalyon", -- [2]
@@ -1926,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAmdam|r",
 			[51] = 1667442116,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [87]
+		}, -- [29]
 		{
 			"how's your cat handling that? lol", -- [1]
 			"Amdam-Turalyon", -- [2]
@@ -1948,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAmdam|r",
 			[51] = 1667442064,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [88]
+		}, -- [30]
 		{
 			"she likes to sit atop tanks and stare lol", -- [1]
 			"Doridos-Turalyon", -- [2]
@@ -1970,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Doridos|r",
 			[51] = 1667442169,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [89]
+		}, -- [31]
 		{
 			"lol gotta keep an eye on them", -- [1]
 			"Amdam-Turalyon", -- [2]
@@ -1992,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAmdam|r",
 			[51] = 1667442146,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [90]
+		}, -- [32]
 		{
 			"aly absolutely loves snakes now for whatever reason", -- [1]
 			"Doridos-Turalyon", -- [2]
@@ -2014,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Doridos|r",
 			[51] = 1667442228,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [91]
+		}, -- [33]
 		{
 			"Blame me", -- [1]
 			"Dissick-Turalyon", -- [2]
@@ -2036,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaDissick|r",
 			[51] = 1667442182,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [92]
+		}, -- [34]
 		{
 			"you got her on the reptiles huh haha", -- [1]
 			"Amdam-Turalyon", -- [2]
@@ -2058,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAmdam|r",
 			[51] = 1667442290,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [93]
+		}, -- [35]
 		{
 			"WTS Flying Mount |cffa335ee|Hitem:153594::::::::60:105::13::1:28:872:::::|h[Xiwyllag ATV]|h|r 40k / two for 60k pst or inv me. Also |cff0070dd|Hitem:1973::::::::60:105::::1:28:32:::::|h[Orb of Deception]|h|r toy 30k", -- [1]
 			"Kokiriforest-Turalyon", -- [2]
@@ -2080,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aKokiriforest|r",
 			[51] = 1667442255,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [36]
 		{
 			"She's always liked them to a degree.", -- [1]
 			"Dissick-Turalyon", -- [2]
@@ -2102,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaDissick|r",
 			[51] = 1667442263,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [95]
+		}, -- [37]
 		{
 			"She just realised snakes are much more interactive than a lizard and enjoys it.", -- [1]
 			"Dissick-Turalyon", -- [2]
@@ -2124,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaDissick|r",
 			[51] = 1667442344,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [96]
+		}, -- [38]
 		{
 			"i loved snakes crawling around on me until one pooped all over me :<", -- [1]
 			"Amdam-Turalyon", -- [2]
@@ -2146,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAmdam|r",
 			[51] = 1667442310,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [97]
+		}, -- [39]
 		{
 			"lol", -- [1]
 			"Dissick-Turalyon", -- [2]
@@ -2168,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaDissick|r",
 			[51] = 1667442329,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [98]
+		}, -- [40]
 		{
 			"gotta go pick up miles from grandmas house, talk to you dudes later", -- [1]
 			"Amdam-Turalyon", -- [2]
@@ -2190,29 +902,1305 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAmdam|r",
 			[51] = 1667442533,
 			[50] = "CHAT_MSG_GUILD",
+		}, -- [41]
+		{
+			"anybody know the schedule of the primal invasions?", -- [1]
+			"Pawpados-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Pawpados-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			64, -- [11]
+			"Player-3685-0723E940", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aPawpados|r",
+			[51] = 1668628711,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [42]
+		{
+			"ya thad be nice to know", -- [1]
+			"Ghostshot-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Ghostshot-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			65, -- [11]
+			"Player-3685-092887C0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Ghostshot|r",
+			[51] = 1668628730,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [43]
+		{
+			"2 just poped!!", -- [1]
+			"Ghostshot-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Ghostshot-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			68, -- [11]
+			"Player-3685-092887C0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Ghostshot|r",
+			[51] = 1668628855,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [44]
+		{
+			"check your map", -- [1]
+			"Ghostshot-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Ghostshot-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			79, -- [11]
+			"Player-3685-092887C0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Ghostshot|r",
+			[51] = 1668628808,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [45]
+		{
+			"yeah, looks like maybe a 5 min break in between", -- [1]
+			"Pawpados-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Pawpados-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			80, -- [11]
+			"Player-3685-0723E940", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aPawpados|r",
+			[51] = 1668628809,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [46]
+		{
+			"bleh. all ice", -- [1]
+			"Brokenbow-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Brokenbow-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			81, -- [11]
+			"Player-3685-0723EC76", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Brokenbow|r",
+			[51] = 1668628814,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [47]
+		{
+			"Badlands Water", -- [1]
+			"Malphoi-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Malphoi-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			82, -- [11]
+			"Player-3685-0DF78EBE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fMalphoi|r",
+			[51] = 1668628851,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [48]
+		{
+			"K, Fog, we get it, you like dragon porn. Relax.", -- [1]
+			"Ægar-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ægar-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			283, -- [11]
+			"Player-3685-0DF85762", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fÆgar|r",
+			[51] = 1668647001,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [49]
+		{
+			"Like people have said, that is an interpretation. There is no mechanical limitation for not flying without a mount", -- [1]
+			"Aevnass-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Aevnass-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			284, -- [11]
+			"Player-3685-0DF84143", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fAevnass|r",
+			[51] = 1668647025,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [50]
+		{
+			"like why do i have to breathe? lungs hold air i should be fine to just stay underwater forever", -- [1]
+			"Fogdormu-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Fogdormu-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			285, -- [11]
+			"Player-3685-0DF7A068", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fFogdormu|r",
+			[51] = 1668647025,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [51]
+		{
+			"Now I need to find a flying mount that fits.", -- [1]
+			"Ægar-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ægar-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			293, -- [11]
+			"Player-3685-0DF85762", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fÆgar|r",
+			[51] = 1668646994,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [52]
+		{
+			"or you can use soar", -- [1]
+			"Fogdormu-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Fogdormu-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			297, -- [11]
+			"Player-3685-0DF7A068", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fFogdormu|r",
+			[51] = 1668647075,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [53]
+		{
+			"That is a falacy Fog, but I will stop enganging low effort discussions now :D ", -- [1]
+			"Aevnass-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Aevnass-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			298, -- [11]
+			"Player-3685-0DF84143", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fAevnass|r",
+			[51] = 1668647080,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [54]
+		{
+			"this is trade chat, cmon now low effort discussions should be expected", -- [1]
+			"Fogdormu-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Fogdormu-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			301, -- [11]
+			"Player-3685-0DF7A068", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fFogdormu|r",
+			[51] = 1668647040,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [55]
+		{
+			"as well as logical fallacies", -- [1]
+			"Fogdormu-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Fogdormu-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			302, -- [11]
+			"Player-3685-0DF7A068", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fFogdormu|r",
+			[51] = 1668647055,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [56]
+		{
+			"|cffffd100|HclubFinder:ClubFinder-1-1689-3685-47613316|h[Guild: Beyond]|h|r is looking for more members! We are one of the oldest guilds on this server and still going strong! We do everything from raiding to mythic +, some pvp, old achieve runs, and more!", -- [1]
+			"Aevalya-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Aevalya-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			308, -- [11]
+			"Player-3685-0DF7D0FB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fAevalya|r",
+			[51] = 1668647299,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [57]
+		{
+			"anyone need neck?", -- [1]
+			"Bashta-Zul'jin", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bashta-Zul'jin", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			393, -- [11]
+			"Player-61-0EBA18C7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddBashta-Zul'jin|r",
+			[51] = 1668648522,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [58]
+		{
+			"I could use it", -- [1]
+			"Relinarini-Zul'jin", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relinarini-Zul'jin", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			398, -- [11]
+			"Player-61-0EC5C095", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8788eeRelinarini-Zul'jin|r",
+			[51] = 1668648483,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [59]
+		{
+			"thanks", -- [1]
+			"Relinarini-Zul'jin", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relinarini-Zul'jin", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			402, -- [11]
+			"Player-61-0EC5C095", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8788eeRelinarini-Zul'jin|r",
+			[51] = 1668648579,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [60]
+		{
+			"yepyep", -- [1]
+			"Bashta-Zul'jin", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bashta-Zul'jin", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			404, -- [11]
+			"Player-61-0EBA18C7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddBashta-Zul'jin|r",
+			[51] = 1668648584,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [61]
+		{
+			"sorry door bell", -- [1]
+			"Relinarini-Zul'jin", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relinarini-Zul'jin", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			428, -- [11]
+			"Player-61-0EC5C095", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8788eeRelinarini-Zul'jin|r",
+			[51] = 1668648838,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [62]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:16278:Player-3685-0722C2B9:1:11:16:22:4294967295:4294967295:4294967295:4294967295|h[Uldaman: Legacy of Tyr]|h|r!", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Amdam-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			456, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1668649133,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [63]
+		{
+			"ty", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Amdam-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			467, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1668649087,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [64]
+		{
+			"Isn't it every 20 minutes?", -- [1]
+			"Dazanethil-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Un'Goro Crater", -- [4]
+			"Dazanethil-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Un'Goro Crater", -- [9]
+			0, -- [10]
+			479, -- [11]
+			"Player-3685-0CD23774", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaDazanethil|r",
+			[51] = 1668649284,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [65]
+		{
+			"I feel like I have been here longer than that", -- [1]
+			"Tasha-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Un'Goro Crater", -- [4]
+			"Tasha-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Un'Goro Crater", -- [9]
+			0, -- [10]
+			480, -- [11]
+			"Player-3685-0723E5DD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8788eeTasha|r",
+			[51] = 1668649364,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [66]
+		{
+			"it depends on the number of adds u kill", -- [1]
+			"Shurenuff-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Un'Goro Crater", -- [4]
+			"Shurenuff-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Un'Goro Crater", -- [9]
+			0, -- [10]
+			481, -- [11]
+			"Player-3685-0717F13D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aShurenuff|r",
+			[51] = 1668649330,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [67]
+		{
+			"i just came from ratchet and the earth ele boss took about 15min to pop", -- [1]
+			"Ghostshot-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Un'Goro Crater", -- [4]
+			"Ghostshot-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Un'Goro Crater", -- [9]
+			0, -- [10]
+			482, -- [11]
+			"Player-3685-092887C0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Ghostshot|r",
+			[51] = 1668649338,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [68]
+		{
+			"Badlands seemed quicker too", -- [1]
+			"Tasha-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Un'Goro Crater", -- [4]
+			"Tasha-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Un'Goro Crater", -- [9]
+			0, -- [10]
+			483, -- [11]
+			"Player-3685-0723E5DD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8788eeTasha|r",
+			[51] = 1668649414,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [69]
+		{
+			"Then we came here", -- [1]
+			"Tasha-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Un'Goro Crater", -- [4]
+			"Tasha-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Un'Goro Crater", -- [9]
+			0, -- [10]
+			484, -- [11]
+			"Player-3685-0723E5DD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8788eeTasha|r",
+			[51] = 1668649417,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [70]
+		{
+			"We only have 9 minutes before it swaps", -- [1]
+			"Dazanethil-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Un'Goro Crater", -- [4]
+			"Dazanethil-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Un'Goro Crater", -- [9]
+			0, -- [10]
+			499, -- [11]
+			"Player-3685-0CD23774", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaDazanethil|r",
+			[51] = 1668649443,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [71]
+		{
+			"Guess the boss isn't showing?", -- [1]
+			"Dazanethil-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Un'Goro Crater", -- [4]
+			"Dazanethil-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Un'Goro Crater", -- [9]
+			0, -- [10]
+			543, -- [11]
+			"Player-3685-0CD23774", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaDazanethil|r",
+			[51] = 1668649751,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [72]
+		{
+			"ya i think your right", -- [1]
+			"Ghostshot-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Un'Goro Crater", -- [4]
+			"Ghostshot-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Un'Goro Crater", -- [9]
+			0, -- [10]
+			544, -- [11]
+			"Player-3685-092887C0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Ghostshot|r",
+			[51] = 1668649761,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [73]
+		{
+			"Cause theres 4 mins left", -- [1]
+			"Dazanethil-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Un'Goro Crater", -- [4]
+			"Dazanethil-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Un'Goro Crater", -- [9]
+			0, -- [10]
+			548, -- [11]
+			"Player-3685-0CD23774", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaDazanethil|r",
+			[51] = 1668649839,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [74]
+		{
+			"resets in like 3 minutes", -- [1]
+			"Jud-Bloodhoof", -- [2]
+			"", -- [3]
+			"1. General - Un'Goro Crater", -- [4]
+			"Jud-Bloodhoof", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Un'Goro Crater", -- [9]
+			0, -- [10]
+			549, -- [11]
+			"Player-64-018DA75C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dJud-Bloodhoof|r",
+			[51] = 1668649840,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [75]
+		{
+			"is there a rotation, or is it random where the new storm takes place?", -- [1]
+			"Kostik-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Un'Goro Crater", -- [4]
+			"Kostik-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Un'Goro Crater", -- [9]
+			0, -- [10]
+			550, -- [11]
+			"Player-3685-0DF3410B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffKostik|r",
+			[51] = 1668649852,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [76]
+		{
+			"So it should be back in 23-25 m inutes", -- [1]
+			"Kreyt-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Un'Goro Crater", -- [4]
+			"Kreyt-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Un'Goro Crater", -- [9]
+			0, -- [10]
+			551, -- [11]
+			"Player-3685-09E2AB75", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Kreyt|r",
+			[51] = 1668649855,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [77]
+		{
+			"It ENDS in three mins, and resets at the top of the hour I believe", -- [1]
+			"Shatterscale-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Un'Goro Crater", -- [4]
+			"Shatterscale-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Un'Goro Crater", -- [9]
+			0, -- [10]
+			554, -- [11]
+			"Player-3685-0DF78E70", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fShatterscale|r",
+			[51] = 1668649819,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [78]
+		{
+			"this hour only shadowcore", -- [1]
+			"Supersoàker-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Supersoàker-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			93, -- [11]
+			"Player-3685-0D744C49", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff0070ddSupersoàker|r",
+			[51] = 1669413687,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [79]
+		{
+			"99c", -- [1]
+			"Supersoàker-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Supersoàker-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			94, -- [11]
+			"Player-3685-0D744C49", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff0070ddSupersoàker|r",
+			[51] = 1669413689,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [80]
+		{
+			"GASP !!!", -- [1]
+			"Badhyena-Anvilmar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Badhyena-Anvilmar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			12, -- [11]
+			"Player-71-0D691404", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Badhyena-Anvilmar|r",
+			[51] = 1669416338,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [81]
+		{
+			"no dragons", -- [1]
+			"Badhyena-Anvilmar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Badhyena-Anvilmar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			14, -- [11]
+			"Player-71-0D691404", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Badhyena-Anvilmar|r",
+			[51] = 1669416344,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [82]
+		{
+			"Interrupted |cff71d5ff|Hspell:369674:0|h[Stone Spike]|h|r on Stonevault Geomancer", -- [1]
+			"Badhyena-Anvilmar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Badhyena-Anvilmar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			35, -- [11]
+			"Player-71-0D691404", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Badhyena-Anvilmar|r",
+			[51] = 1669416579,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [83]
+		{
+			"your use head ", -- [1]
+			"Badhyena-Anvilmar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Badhyena-Anvilmar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			61, -- [11]
+			"Player-71-0D691404", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Badhyena-Anvilmar|r",
+			[51] = 1669416805,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [84]
+		{
+			"lol", -- [1]
+			"Badhyena-Anvilmar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Badhyena-Anvilmar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			62, -- [11]
+			"Player-71-0D691404", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Badhyena-Anvilmar|r",
+			[51] = 1669416808,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [85]
+		{
+			"my bad", -- [1]
+			"Badhyena-Anvilmar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Badhyena-Anvilmar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			80, -- [11]
+			"Player-71-0D691404", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Badhyena-Anvilmar|r",
+			[51] = 1669416965,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [86]
+		{
+			"sigh", -- [1]
+			"Badhyena-Anvilmar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Badhyena-Anvilmar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			97, -- [11]
+			"Player-71-0D691404", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Badhyena-Anvilmar|r",
+			[51] = 1669417161,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [87]
+		{
+			"no on gun lol", -- [1]
+			"Badhyena-Anvilmar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Badhyena-Anvilmar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			98, -- [11]
+			"Player-71-0D691404", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Badhyena-Anvilmar|r",
+			[51] = 1669417168,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [88]
+		{
+			"need *", -- [1]
+			"Badhyena-Anvilmar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Badhyena-Anvilmar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			99, -- [11]
+			"Player-71-0D691404", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Badhyena-Anvilmar|r",
+			[51] = 1669417171,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [89]
+		{
+			"lol", -- [1]
+			"Badhyena-Anvilmar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Badhyena-Anvilmar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			100, -- [11]
+			"Player-71-0D691404", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Badhyena-Anvilmar|r",
+			[51] = 1669417179,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [90]
+		{
+			"Interrupted |cff71d5ff|Hspell:369399:0|h[Stone Bolt]|h|r on Earthen Weaver", -- [1]
+			"Badhyena-Anvilmar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Badhyena-Anvilmar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			103, -- [11]
+			"Player-71-0D691404", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Badhyena-Anvilmar|r",
+			[51] = 1669417145,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [91]
+		{
+			"anyone want these gloves", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Amdam-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			107, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1669417235,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [92]
+		{
+			"can't use lol", -- [1]
+			"Badhyena-Anvilmar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Badhyena-Anvilmar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			108, -- [11]
+			"Player-71-0D691404", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Badhyena-Anvilmar|r",
+			[51] = 1669417253,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [93]
+		{
+			"i will plz", -- [1]
+			"Ironskin-CenarionCircle", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ironskin-CenarionCircle", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			109, -- [11]
+			"Player-125-0A135B51", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaIronskin-CenarionCircle|r",
+			[51] = 1669417267,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [94]
+		{
+			".... al plate", -- [1]
+			"Badhyena-Anvilmar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Badhyena-Anvilmar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			110, -- [11]
+			"Player-71-0D691404", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Badhyena-Anvilmar|r",
+			[51] = 1669417267,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [95]
+		{
+			"ty", -- [1]
+			"Ironskin-CenarionCircle", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ironskin-CenarionCircle", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			113, -- [11]
+			"Player-125-0A135B51", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaIronskin-CenarionCircle|r",
+			[51] = 1669417284,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [96]
+		{
+			"this is frist  all plate", -- [1]
+			"Badhyena-Anvilmar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Badhyena-Anvilmar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			115, -- [11]
+			"Player-71-0D691404", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Badhyena-Anvilmar|r",
+			[51] = 1669417335,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [97]
+		{
+			"ty", -- [1]
+			"Badhyena-Anvilmar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Badhyena-Anvilmar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			153, -- [11]
+			"Player-71-0D691404", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Badhyena-Anvilmar|r",
+			[51] = 1669417654,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [98]
+		{
+			"ty", -- [1]
+			"Aanthu-CenarionCircle", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aanthu-CenarionCircle", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			157, -- [11]
+			"Player-125-09A2CB89", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aAanthu-CenarionCircle|r",
+			[51] = 1669417660,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/s *-+", -- [1]
-		"/weakauras", -- [2]
-		"hey hows the s4 team looking?", -- [3]
-		"i was thinking about it, as long as perfect attendance isn't expected", -- [4]
-		"i had heard bench squad was going to do something in s4 but I haven't heard from them in a while so idk if those plans fell through or what", -- [5]
-		"so if there's a category for \"interested but tentative\" i'd fall into that :)", -- [6]
-		"sounds good, I'll be around when i am able and can always be benched if the groups full", -- [7]
-		"awesome! Assuming my prior commitment to BS is no longer needed I'll see you tuesday", -- [8]
-		"Sounds good", -- [9]
-		"/g hey dos", -- [10]
-		"/g pretty good, Miles is becoming quite the character", -- [11]
-		"/g got to experience his first trick or treating outing the other night", -- [12]
-		"/g he was super confused but in the end he was just glad he had candy lol", -- [13]
-		"/g how are you guys?", -- [14]
-		"/g a reptile zoo??", -- [15]
-		"/g how's your cat handling that? lol", -- [16]
-		"/g lol gotta keep an eye on them", -- [17]
-		"/g you got her on the reptiles huh haha", -- [18]
-		"/g i loved snakes crawling around on me until one pooped all over me :<", -- [19]
-		"/g gotta go pick up miles from grandmas house, talk to you dudes later", -- [20]
+		"awesome! Assuming my prior commitment to BS is no longer needed I'll see you tuesday", -- [1]
+		"Sounds good", -- [2]
+		"/g hey dos", -- [3]
+		"/g pretty good, Miles is becoming quite the character", -- [4]
+		"/g got to experience his first trick or treating outing the other night", -- [5]
+		"/g he was super confused but in the end he was just glad he had candy lol", -- [6]
+		"/g how are you guys?", -- [7]
+		"/g a reptile zoo??", -- [8]
+		"/g how's your cat handling that? lol", -- [9]
+		"/g lol gotta keep an eye on them", -- [10]
+		"/g you got her on the reptiles huh haha", -- [11]
+		"/g i loved snakes crawling around on me until one pooped all over me :<", -- [12]
+		"/g gotta go pick up miles from grandmas house, talk to you dudes later", -- [13]
+		"/i ty", -- [14]
+		"/clique", -- [15]
+		"/macro", -- [16]
+		"/reload", -- [17]
+		"/i anyone want these gloves", -- [18]
+		"/ec", -- [19]
+		"/weakauras", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

@@ -1,3 +1,44 @@
+4.26 (Nov 22nd, 2022)
+Fixed Flyout Actionbars shadows
+Use ElvUI fontFlags
+Fixed the error when selecting the Widget Bars options. This should deal with #23
+Fixed DBMRangeCheckRadar style/shadow
+Fixed DBM Options skin/style
+Added WeakAuras icons and bar shadows. Credit: Merathilis
+Added missing Garrison
+Fixed Missions Datatext
+Fixed islandQueue style by removing a reference to a non existent tooltip. This will deal with ticket #22
+ProfessionsCustomerOrders style
+Fixed iLevel by using ElvUI tooltip scanning
+Fixed Bags and BagBar Style and shadow
+Added Evoker Class Crest in AFK mode
+Fixed Chat Bubble shadows
+
+4.25 (Nov 15th, 2022)
+toc update for patch v10.02
+Dashboards: Moved the MouseOver option at the dashboard creation
+Rep Dashboard: Fixed showing the bag glow when a paragon faction has pending reward
+Style mail frame tabs (thurin)
+System Dashboard: Added Text justification option
+Fixed Bags Dashboard
+Style the new Professions frame
+
+
+4.24 (Nov 12th, 2022)
+Removed Microbar button sizing. ElvUI has an option for it
+Follow ElvUI v13.01 changes. credits thurin, Repooc
+
+4.23 (Nov 10th, 2022)
+Installer cleanup and tweaks
+Update ElvUI min version
+Removed Text Y offset on Databars. It's in ElvUI now
+Several Font fixes during install
+Fixed applying the Middle DT default settings
+Fixed Aura shadows
+Updated the Actionbars with bars 13-15
+Fixed Pet Button shadows
+Prevent a dropmenu error(?)
+
 4.22 (Nov 5th, 2022)
 Updated the Patreon team
 Resize the ugly Micro buttons

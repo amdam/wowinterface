@@ -33,7 +33,7 @@ VER 3 0100000000000005 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cancelaura Spinning Crane Kick
 /startattack
-/cast [nomodifier] Rising Sun Kick; /cast [modifier:alt] Crackling Jade Lightning
+/cast [mod:alt,known:392983] Strike of the Windlord; Rising Sun Kick;
 /script UIErrorsFrame:Clear()
 END
 VER 3 0100000000000009 " " "INV_MISC_QUESTIONMARK"
@@ -46,10 +46,6 @@ VER 3 010000000000000C " " "INV_MISC_QUESTIONMARK"
 /stopcasting
 /use [@mouseover, help, nodead][help, nodead][@player] Tiger's Lust
 /script UIErrorsFrame:Clear()
-END
-VER 3 010000000000000D " " "PANDARENRACIAL_INNERPEACE"
-#showtooltip Storm, Earth, and Fire
-/cancelaura Storm, Earth, and Fire
 END
 VER 3 010000000000000E " " "ABILITY_MONK_ELUSIVEALE"
 #showtooltip Elusive Brew
@@ -72,4 +68,14 @@ VER 3 0100000000000012 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [nomodifier] Breath of Fire; /cast [modifier:alt] Leg Sweep
 /script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000013 " " "134400"
+#showtooltip
+/cast [mod:alt] Crackling Jade Lightning; [known:Whirling Dragon Punch] Whirling Dragon Punch;
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000014 " " "134400"
+#showtooltip
+/cast [mod:alt,known:Chi Burst] Chi Burst; Touch of Death;
+/script UIErrorsFrame:Clear();
 END

@@ -4,22 +4,31 @@ HHTD_SavedVariables = {
 		["Allevin - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
-		["Adamancy - Turalyon"] = {
+		["Svend - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
-		["Adamn - Turalyon"] = {
+		["Adrid - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
-		["Furrys - Turalyon"] = {
+		["Caldo - Turalyon"] = {
+			["settingsMigrated"] = false,
+		},
+		["Badam - Turalyon"] = {
+			["settingsMigrated"] = false,
+		},
+		["Adamian - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
 		["Adreya - Bloodscalp"] = {
 			["settingsMigrated"] = false,
 		},
-		["Svend - Turalyon"] = {
+		["Adamancy - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
-		["Adris - Turalyon"] = {
+		["Furrys - Turalyon"] = {
+			["settingsMigrated"] = false,
+		},
+		["Asaam - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
 		["Amdam - Turalyon"] = {
@@ -28,49 +37,52 @@ HHTD_SavedVariables = {
 		["Caris - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
-		["Badam - Turalyon"] = {
+		["Adamn - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
 		["Artoc - Silvermoon"] = {
 			["settingsMigrated"] = false,
 		},
-		["Adrid - Turalyon"] = {
-			["settingsMigrated"] = false,
-		},
 		["Dewt - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
-		["Artoc - Zul'jin"] = {
+		["Adris - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
-		["Asaam - Turalyon"] = {
+		["Broddah - Doomhammer"] = {
+			["settingsMigrated"] = false,
+		},
+		["Artoc - Zul'jin"] = {
 			["settingsMigrated"] = false,
 		},
 		["Shado - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
 	},
-	["profileKeys"] = {
-		["Allevin - Turalyon"] = "Allevin - Turalyon",
-		["Adamancy - Turalyon"] = "Adamancy - Turalyon",
-		["Adamn - Turalyon"] = "Adamn - Turalyon",
-		["Furrys - Turalyon"] = "Furrys - Turalyon",
-		["Adreya - Bloodscalp"] = "Adreya - Bloodscalp",
-		["Svend - Turalyon"] = "Svend - Turalyon",
-		["Adris - Turalyon"] = "Adris - Turalyon",
-		["Amdam - Turalyon"] = "Amdam - Turalyon",
-		["Caris - Turalyon"] = "Caris - Turalyon",
-		["Badam - Turalyon"] = "Badam - Turalyon",
-		["Artoc - Silvermoon"] = "Artoc - Silvermoon",
-		["Adrid - Turalyon"] = "Adrid - Turalyon",
-		["Dewt - Turalyon"] = "Dewt - Turalyon",
-		["Artoc - Zul'jin"] = "Artoc - Zul'jin",
-		["Asaam - Turalyon"] = "Asaam - Turalyon",
-		["Shado - Turalyon"] = "Shado - Turalyon",
-	},
 	["global"] = {
 		["settingsMigrated"] = false,
 		["oldNameEnableState"] = 2,
+	},
+	["profileKeys"] = {
+		["Allevin - Turalyon"] = "Allevin - Turalyon",
+		["Svend - Turalyon"] = "Svend - Turalyon",
+		["Adrid - Turalyon"] = "Adrid - Turalyon",
+		["Caldo - Turalyon"] = "Caldo - Turalyon",
+		["Badam - Turalyon"] = "Badam - Turalyon",
+		["Adamian - Turalyon"] = "Adamian - Turalyon",
+		["Adreya - Bloodscalp"] = "Adreya - Bloodscalp",
+		["Adamancy - Turalyon"] = "Adamancy - Turalyon",
+		["Furrys - Turalyon"] = "Furrys - Turalyon",
+		["Asaam - Turalyon"] = "Asaam - Turalyon",
+		["Amdam - Turalyon"] = "Amdam - Turalyon",
+		["Caris - Turalyon"] = "Caris - Turalyon",
+		["Adamn - Turalyon"] = "Adamn - Turalyon",
+		["Artoc - Silvermoon"] = "Artoc - Silvermoon",
+		["Dewt - Turalyon"] = "Dewt - Turalyon",
+		["Adris - Turalyon"] = "Adris - Turalyon",
+		["Broddah - Doomhammer"] = "Broddah - Doomhammer",
+		["Artoc - Zul'jin"] = "Artoc - Zul'jin",
+		["Shado - Turalyon"] = "Shado - Turalyon",
 	},
 	["namespaces"] = {
 		["Announcer"] = {

@@ -1,72 +1,67 @@
-VER 3 010000000000000A " " "Spell_Frost_FrostArmor"
-#showtooltip Unbreakable Armor
-/cast Blood Tap
-/cast Unbreakable Armor
-END
-VER 3 0100000000000009 " " "Spell_Shadow_DeathCoil"
-#showtooltip Death Coil
-/startattack
-/cast Death Coil
-/script UIErrorsFrame:Clear()
-END
-VER 3 0100000000000008 " " "Spell_DeathKnight_Butcher2"
-#showtooltip Death Strike
+VER 3 0100000000000008 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
 /startattack
 /cast [nomodifier] Death Strike; /cast [modifier:alt] Rune Tap;
 /script UIErrorsFrame:Clear()
 END
-VER 3 010000000000000C " " "SPELL_DEATHKNIGHT_MINDFREEZE"
-#showtooltip Mind Freeze
+VER 3 010000000000000C " " "INV_MISC_QUESTIONMARK"
+#showtooltip
 /cast [nomodifier] Mind Freeze; /cast [modifier:alt] Asphyxiate
 END
-VER 3 010000000000000D " " "SPELL_SHADOW_ANTIMAGICSHELL"
-#showtooltip Anti-Magic Shell
+VER 3 010000000000000D " " "INV_MISC_QUESTIONMARK"
+#showtooltip
 /cast [nomodifier] Anti-Magic Shell; /cast [modifier;alt] Anti-Magic Zone
 END
-VER 3 010000000000000B " " "INV_WEAPON_SHORTBLADE_40"
-#showtooltip Heart Strike
+VER 3 010000000000000B " " "INV_MISC_QUESTIONMARK"
+#showtooltip
 /startattack
 /cast [nomodifier] Heart Strike; /cast [modifier:alt] Blood Boil;
 /script UIErrorsFrame:Clear()
 END
-VER 3 0100000000000002 "  " "Spell_DeathKnight_EmpowerRuneBlade"
-#showtooltip Plague Strike
+VER 3 0100000000000009 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast Death Coil
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000002 "  " "INV_MISC_QUESTIONMARK"
+#showtooltip
 /startattack
 /cast [nomodifier] Plague Strike; /cast [modifier:alt] Death and Decay;
 /script UIErrorsFrame:Clear()
 END
-VER 3 0100000000000001 "  " "Spell_DeathKnight_IceTouch"
-#showtooltip Icy Touch
+VER 3 0100000000000001 "  " "INV_MISC_QUESTIONMARK"
+#showtooltip
 /startattack
 /cast [nomodifier] Icy Touch; /cast [modifier:alt] Outbreak;
 /script UIErrorsFrame:Clear()
 END
-VER 3 0100000000000003 "   " "Spell_Deathknight_DeathStrike"
-#showtooltip Blood Strike
+VER 3 0100000000000003 "   " "INV_MISC_QUESTIONMARK"
+#showtooltip
 /startattack
 /cast Blood Strike
 /script UIErrorsFrame:Clear()
 END
-VER 3 0100000000000004 "    " "Spell_Deathknight_ClassIcon"
-#showtooltip Obliterate
+VER 3 0100000000000004 "    " "INV_MISC_QUESTIONMARK"
+#showtooltip
 /startattack
 /cast Obliterate
 /script UIErrorsFrame:Clear()
 END
-VER 3 0100000000000005 "     " "Spell_DeathKnight_EmpowerRuneBlade2"
-#showtooltip Frost Strike
+VER 3 0100000000000005 "     " "INV_MISC_QUESTIONMARK"
+#showtooltip
 /startattack
 /cast Frost Strike
 /script UIErrorsFrame:Clear()
 END
-VER 3 0100000000000006 "      " "Spell_Frost_ArcticWinds"
-#showtooltip Howling Blast
+VER 3 0100000000000006 "      " "INV_MISC_QUESTIONMARK"
+#showtooltipt
 /startattack
 /cast [nomodifier] Howling Blast; /cast [modifier:alt] Icy Touch
 /script UIErrorsFrame:Clear()
 END
-VER 3 0100000000000007 "       " "Spell_DeathKnight_ScourgeStrike"
-#showtooltip Scourge Strike
+VER 3 0100000000000007 "       " "INV_MISC_QUESTIONMARK"
+#showtooltip
 /startattack
 /cast Scourge Strike
 /script UIErrorsFrame:Clear()

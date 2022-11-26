@@ -12,7 +12,7 @@ local DecorElvUIAddons = {
 	{'ElvUI_SLE', L['Shadow & Light'], 'sle'},
 	{'ElvUI_Enhanced', L['ElvUI_Enhanced'], 'enh'},
 	{'ElvUI_MerathilisUI', L['MerathilisUI'], 'mer'},
-	{'ElvUI_OptionsUI', L['ElvUI Options'], 'elv'},
+	{'ElvUI_Options', L['ElvUI Options'], 'elv'},
 }
 
 local DecorAddonSkins = {
@@ -170,6 +170,13 @@ local function SkinTable()
 				type = 'toggle',
 				name = L['Rare Tracker'],
 				disabled = function() return not IsAddOnLoaded('RareTrackerCore') end,
+			},
+			wa = {
+				order = 6,
+				type = 'toggle',
+				name = L['WeakAuras'],
+				disabled = function() return not BUI.WA end,
+				hidden = function() return BUI.MER end,
 			},
 		},
 	}

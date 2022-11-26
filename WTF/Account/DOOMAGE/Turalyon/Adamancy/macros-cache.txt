@@ -82,3 +82,8 @@ VER 3 010000000000001A " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [modifier:alt,talent:6/3] Living Bomb; Shifting Power
 END
+VER 3 010000000000001B " " "134400"
+#showtooltip
+/cast [mod:alt,known:Summon Water Elemental,@cursor] Freeze; [known:Ice Floes,mod:shift] Ice Floes; [known:Ice Nova] Ice Nova;
+/script UIErrorsFrame:Clear()
+END

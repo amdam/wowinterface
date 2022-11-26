@@ -10,12 +10,6 @@ P['unitframe']['units']['target']['power']['vertical'] = false
 P['unitframe']['units']['party']['portrait']['height'] = 0
 P['unitframe']['units']['party']['portrait']['transparent'] = false
 
--- Databars text yOffset
-P['databars']['experience']['textYoffset'] = 0
-P['databars']['azerite']['textYoffset'] = 0
-P['databars']['reputation']['textYoffset'] = 0
-P['databars']['honor']['textYoffset'] = 0
-
 -- Add Minimap styling toggle default
 P['general']['minimap']['benikuiStyle'] = true
 
@@ -116,6 +110,9 @@ P['benikui'] = {
 			['bar8'] = true,
 			['bar9'] = true,
 			['bar10'] = true,
+			['bar13'] = true,
+			['bar14'] = true,
+			['bar15'] = true,
 			['petbar'] = true,
 			['stancebar'] = true,
 			['microbar'] = true,
@@ -245,6 +242,7 @@ P['benikui']['skins'] = {
 		['inflight'] = true,
 		['kt'] = true,
 		['rt'] = true,
+		['wa'] = true,
 	},
 }
 
@@ -308,7 +306,7 @@ P['benikui']['widgetbars'] = {
 		['width'] = 222,
 		['height'] = 5,
 		['textYoffset'] = 13,
-		['barColor'] = {r = 0.192, g = 0.858, b = 0.858, a = 100},
+		['barColor'] = {r = 0.192, g = 0.858, b = 0.858, a = 1},
 		['barAutoColor'] = true,
 		['textColor'] = {r = 1, g = 1, b = 1},
 		['useDTfont'] = true,
@@ -334,6 +332,7 @@ P['benikui']['dashboards'] = {
 		['transparency'] = true,
 		['backdrop'] = true,
 		['mouseover'] = false,
+		['textAlign'] = 'LEFT',
 		['chooseSystem'] = {
 			['FPS'] = true,
 			['MS'] = true,

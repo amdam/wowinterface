@@ -2,6 +2,34 @@ local AddonName, Data = ...
 
 Data.changelog = {
 	{
+		Version = "10.0.2.0",
+		General = "This version fixes a error message and hopefully makes RBGs fully working. Please read the notes from version 9.2.7.2 below if you haven't been using a version 9.2.7.X before",
+		Sections = {
+			{
+				Header = "New Features:",
+				Entries = {
+					"Added a option to change the thickness of the borders used for your target and focus.",
+					"Added a new icon selector that is used for the combat indicator."
+				}
+			},
+			{
+				Header = "Bugfixes:",
+				Entries = {
+					"Fixed a error that occured when going from a BG into a arena reported by dankNstein_ at curseforge.",
+					"Fixed a issue when the lost health option was selected for the health text."
+				}
+			},
+			{
+				Header = "Changes:",
+				Entries = {
+					"This release should now fully workes in RBGs, thanks at l3uGsY at GitHub for testing things out and providing data :)",
+					"Non priority auras will now show if they are dispellable or cast by you.",
+					"Added back the aura scanning for enemies that are only targeted by group members and don't have any other unit IDs assigned."
+				}
+			}
+		}
+	},
+	{
 		Version = "10.0.0.3",
 		General = "This version fixed a code loop.. Please read the notes from version 9.2.7.2 below if you haven't been using a version 9.2.7.X before",
 		Sections = {

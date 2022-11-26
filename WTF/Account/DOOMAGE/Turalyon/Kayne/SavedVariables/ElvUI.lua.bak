@@ -2,666 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"That prisoner belongs to the Master. You will not take it!", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"General Kaal", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			501, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "",
-			[51] = 1667668089,
-			[50] = "CHAT_MSG_YELL",
-		}, -- [1]
-		{
-			"These halls will be your tomb!", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"General Kaal", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			504, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "",
-			[51] = 1667668142,
-			[50] = "CHAT_MSG_YELL",
-		}, -- [2]
-		{
-			"These halls will be your tomb!", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"General Kaal", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			505, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "",
-			[51] = 1667668142,
-			[50] = "CHAT_MSG_YELL",
-		}, -- [3]
-		{
-			"Wicked Rush on Pyrolisk", -- [1]
-			"Pyrolisk-Duskwood", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Pyrolisk-Duskwood", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			524, -- [11]
-			"Player-64-0894C041", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebPyrolisk-Duskwood|r",
-			[51] = 1667668260,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [4]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14197:Player-3685-0990B6B7:1:11:5:22:4294967295:4294967295:4294967295:4294967295|h[Sanguine Depths]|h|r!", -- [1]
-			"Kayne-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kayne-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			532, -- [11]
-			"Player-3685-0990B6B7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aKayne|r",
-			[51] = 1667668335,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [5]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14198:Player-3685-0990B6B7:1:11:5:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Sanguine Depths]|h|r!", -- [1]
-			"Kayne-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kayne-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			533, -- [11]
-			"Player-3685-0990B6B7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aKayne|r",
-			[51] = 1667668335,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [6]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14410:Player-3685-0990B6B7:1:11:5:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Halls of Atonement]|h|r!", -- [1]
-			"Kayne-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kayne-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			678, -- [11]
-			"Player-3685-0990B6B7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aKayne|r",
-			[51] = 1667669494,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [7]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14370:Player-3685-0990B6B7:1:11:5:22:4294967295:4294967295:4294967295:4294967295|h[Halls of Atonement]|h|r!", -- [1]
-			"Kayne-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kayne-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			679, -- [11]
-			"Player-3685-0990B6B7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aKayne|r",
-			[51] = 1667669494,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [8]
-		{
-			"tyty", -- [1]
-			"Karenator-Undermine", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Karenator-Undermine", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			691, -- [11]
-			"Player-71-0EBF58FF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffKarenator-Undermine|r",
-			[51] = 1667669500,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [9]
-		{
-			"Searing Death on Halarynne", -- [1]
-			"Halarynne-KulTiras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Halarynne-KulTiras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1019, -- [11]
-			"Player-1147-00B3790D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff0070ddHalarynne-KulTiras|r",
-			[51] = 1667670133,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [10]
-		{
-			"need ring?", -- [1]
-			"Toonology-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Toonology-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1026, -- [11]
-			"Player-3675-0A5E09CC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8788eeToonology-MoonGuard|r",
-			[51] = 1667670172,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [11]
-		{
-			"Ricocheting Blade on Halarynne", -- [1]
-			"Halarynne-KulTiras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Halarynne-KulTiras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1039, -- [11]
-			"Player-1147-00B3790D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff0070ddHalarynne-KulTiras|r",
-			[51] = 1667670336,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
-		{
-			"nice ", -- [1]
-			"Robruh-EmeraldDream", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Robruh-EmeraldDream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1063, -- [11]
-			"Player-162-0B8BECAB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffRobruh-EmeraldDream|r",
-			[51] = 1667670707,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [13]
-		{
-			"can you invite me to guild adam", -- [1]
-			"|Kq6|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1085, -- [11]
-			false, -- [12]
-			8, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dDos|r",
-			[51] = 1667670882,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [14]
-		{
-			"thanks", -- [1]
-			"Slamados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1089, -- [11]
-			"Player-3685-09BCBB0D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dSlamados|r",
-			[51] = 1667670959,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [15]
-		{
-			"no i dea why i'm not in here?", -- [1]
-			"Slamados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1090, -- [11]
-			"Player-3685-09BCBB0D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dSlamados|r",
-			[51] = 1667670902,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [16]
-		{
-			"ofc :)", -- [1]
-			"Kayne-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1091, -- [11]
-			"Player-3685-0990B6B7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aKayne|r",
-			[51] = 1667670902,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [17]
-		{
-			"you purged yourself maybe?", -- [1]
-			"Kayne-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1093, -- [11]
-			"Player-3685-0990B6B7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aKayne|r",
-			[51] = 1667670916,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [18]
-		{
-			"lol", -- [1]
-			"Kayne-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1094, -- [11]
-			"Player-3685-0990B6B7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aKayne|r",
-			[51] = 1667670916,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [19]
-		{
-			"possible lol", -- [1]
-			"Slamados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1095, -- [11]
-			"Player-3685-09BCBB0D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dSlamados|r",
-			[51] = 1667670920,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [20]
-		{
-			"any idea what you're maining in df?", -- [1]
-			"Slamados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1096, -- [11]
-			"Player-3685-09BCBB0D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dSlamados|r",
-			[51] = 1667670930,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [21]
-		{
-			"prob going to stick with mage at first at the very least", -- [1]
-			"Kayne-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1100, -- [11]
-			"Player-3685-0990B6B7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aKayne|r",
-			[51] = 1667670952,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [22]
-		{
-			"thinking a plate melee class", -- [1]
-			"Kayne-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1102, -- [11]
-			"Player-3685-0990B6B7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aKayne|r",
-			[51] = 1667670965,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [23]
-		{
-			"for a primary alt", -- [1]
-			"Kayne-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1103, -- [11]
-			"Player-3685-0990B6B7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aKayne|r",
-			[51] = 1667670969,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [24]
-		{
-			"maybe switch depending on how things shake out", -- [1]
-			"Kayne-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1109, -- [11]
-			"Player-3685-0990B6B7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aKayne|r",
-			[51] = 1667670982,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [25]
-		{
-			"they didn't change ret :(", -- [1]
-			"Slamados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1110, -- [11]
-			"Player-3685-09BCBB0D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dSlamados|r",
-			[51] = 1667670994,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [26]
-		{
-			"and i don't particularly like current ret", -- [1]
-			"Slamados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1111, -- [11]
-			"Player-3685-09BCBB0D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dSlamados|r",
-			[51] = 1667670999,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [27]
-		{
-			"yeah i dont really like the big 1 min aoe thing", -- [1]
-			"Kayne-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1112, -- [11]
-			"Player-3685-0990B6B7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aKayne|r",
-			[51] = 1667671011,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [28]
-		{
-			"ring?", -- [1]
-			"Robruh-EmeraldDream", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Robruh-EmeraldDream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1131, -- [11]
-			"Player-162-0B8BECAB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffRobruh-EmeraldDream|r",
-			[51] = 1667671179,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [29]
-		{
-			"prot warr looks pretty strong, but fury is pretty undertuned i'm hearing", -- [1]
-			"Kayne-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1132, -- [11]
-			"Player-3685-0990B6B7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aKayne|r",
-			[51] = 1667671191,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [30]
-		{
 			"and i dont really like arms playstyle", -- [1]
 			"Kayne-Turalyon", -- [2]
 			"", -- [3]
@@ -682,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aKayne|r",
 			[51] = 1667671203,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [31]
+		}, -- [1]
 		{
 			"yeah prot is doing some strong dmg while being tanky", -- [1]
 			"Slamados-Turalyon", -- [2]
@@ -704,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dSlamados|r",
 			[51] = 1667671227,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [32]
+		}, -- [2]
 		{
 			"trying to get a couple of 1handers so i can try out frost a bit", -- [1]
 			"Kayne-Turalyon", -- [2]
@@ -726,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aKayne|r",
 			[51] = 1667671230,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [33]
+		}, -- [3]
 		{
 			"i'm gonna try lvling with it now", -- [1]
 			"Slamados-Turalyon", -- [2]
@@ -748,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dSlamados|r",
 			[51] = 1667671239,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [34]
+		}, -- [4]
 		{
 			"but apparently i'm completely naked....", -- [1]
 			"Slamados-Turalyon", -- [2]
@@ -770,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dSlamados|r",
 			[51] = 1667671248,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [35]
+		}, -- [5]
 		{
 			"literally 0 gear", -- [1]
 			"Slamados-Turalyon", -- [2]
@@ -792,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dSlamados|r",
 			[51] = 1667671253,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [36]
+		}, -- [6]
 		{
 			"lol", -- [1]
 			"Kayne-Turalyon", -- [2]
@@ -814,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aKayne|r",
 			[51] = 1667671261,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [37]
+		}, -- [7]
 		{
 			"so i gotta get over that hurdle first lol", -- [1]
 			"Slamados-Turalyon", -- [2]
@@ -836,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dSlamados|r",
 			[51] = 1667671264,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [38]
+		}, -- [8]
 		{
 			"you can buy a full set of 226 in zm", -- [1]
 			"Kayne-Turalyon", -- [2]
@@ -858,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aKayne|r",
 			[51] = 1667671268,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [39]
+		}, -- [9]
 		{
 			"with anima", -- [1]
 			"Kayne-Turalyon", -- [2]
@@ -880,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aKayne|r",
 			[51] = 1667671275,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [40]
+		}, -- [10]
 		{
 			"only if you're 60", -- [1]
 			"Slamados-Turalyon", -- [2]
@@ -902,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dSlamados|r",
 			[51] = 1667671276,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [41]
+		}, -- [11]
 		{
 			"oh youre not 60", -- [1]
 			"Kayne-Turalyon", -- [2]
@@ -924,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aKayne|r",
 			[51] = 1667671282,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [42]
+		}, -- [12]
 		{
 			"i need lvl 50 gear", -- [1]
 			"Slamados-Turalyon", -- [2]
@@ -946,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dSlamados|r",
 			[51] = 1667671283,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [43]
+		}, -- [13]
 		{
 			"lol", -- [1]
 			"Kayne-Turalyon", -- [2]
@@ -968,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aKayne|r",
 			[51] = 1667671283,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [44]
+		}, -- [14]
 		{
 			"no heirlooms?", -- [1]
 			"Kayne-Turalyon", -- [2]
@@ -990,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aKayne|r",
 			[51] = 1667671289,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [45]
+		}, -- [15]
 		{
 			"let's see", -- [1]
 			"Slamados-Turalyon", -- [2]
@@ -1012,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dSlamados|r",
 			[51] = 1667671295,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [46]
+		}, -- [16]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14416:Player-3685-0990B6B7:1:11:5:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: Theater of Pain]|h|r!", -- [1]
 			"Kayne-Turalyon", -- [2]
@@ -1034,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aKayne|r",
 			[51] = 1667671296,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [47]
+		}, -- [17]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14372:Player-3685-0990B6B7:1:11:5:22:4294967295:4294967295:4294967295:4294967295|h[Theater of Pain]|h|r!", -- [1]
 			"Kayne-Turalyon", -- [2]
@@ -1056,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aKayne|r",
 			[51] = 1667671296,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [48]
+		}, -- [18]
 		{
 			"looks like i haven't upgraded to max", -- [1]
 			"Slamados-Turalyon", -- [2]
@@ -1078,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dSlamados|r",
 			[51] = 1667671321,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [49]
+		}, -- [19]
 		{
 			"maybe i should", -- [1]
 			"Slamados-Turalyon", -- [2]
@@ -1100,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dSlamados|r",
 			[51] = 1667671323,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [50]
+		}, -- [20]
 		{
 			"thats almost a full set", -- [1]
 			"Kayne-Turalyon", -- [2]
@@ -1122,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aKayne|r",
 			[51] = 1667671342,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [51]
+		}, -- [21]
 		{
 			"cept like gloves and bracers i think", -- [1]
 			"Kayne-Turalyon", -- [2]
@@ -1144,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aKayne|r",
 			[51] = 1667671351,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [52]
+		}, -- [22]
 		{
 			"and belt", -- [1]
 			"Kayne-Turalyon", -- [2]
@@ -1166,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aKayne|r",
 			[51] = 1667671360,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [53]
+		}, -- [23]
 		{
 			"wow, not a fan of how they nerfed all my cool heirloom gear", -- [1]
 			"Slamados-Turalyon", -- [2]
@@ -1188,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dSlamados|r",
 			[51] = 1667671441,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [54]
+		}, -- [24]
 		{
 			"it's now just all part of the same set, with a 6-piece bonus that's far worse", -- [1]
 			"Slamados-Turalyon", -- [2]
@@ -1210,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dSlamados|r",
 			[51] = 1667671451,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [55]
+		}, -- [25]
 		{
 			"yeah, its nice that it still scales with your level though", -- [1]
 			"Kayne-Turalyon", -- [2]
@@ -1232,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aKayne|r",
 			[51] = 1667671475,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [56]
+		}, -- [26]
 		{
 			"still better than quest gear in most cases i think", -- [1]
 			"Kayne-Turalyon", -- [2]
@@ -1254,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aKayne|r",
 			[51] = 1667671493,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [57]
+		}, -- [27]
 		{
 			"12 seconds of steed is awesome", -- [1]
 			"Dissick-Turalyon", -- [2]
@@ -1276,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaDissick|r",
 			[51] = 1667673001,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [58]
+		}, -- [28]
 		{
 			"I love bugs", -- [1]
 			"Dissick-Turalyon", -- [2]
@@ -1298,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaDissick|r",
 			[51] = 1667673010,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [59]
+		}, -- [29]
 		{
 			"wtf lol", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -1320,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1667673052,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [60]
+		}, -- [30]
 		{
 			"idfk it just happened", -- [1]
 			"Dissick-Turalyon", -- [2]
@@ -1342,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaDissick|r",
 			[51] = 1667673067,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [61]
+		}, -- [31]
 		{
 			"my little WA icon that shows how long my steed is up for showed 12 seconds", -- [1]
 			"Dissick-Turalyon", -- [2]
@@ -1364,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaDissick|r",
 			[51] = 1667673101,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [62]
+		}, -- [32]
 		{
 			"naron...u need it?", -- [1]
 			"Sautchaawgyi-Frostmourne", -- [2]
@@ -1386,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Sautchaawgyi-Frostmourne|r",
 			[51] = 1667673853,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [63]
+		}, -- [33]
 		{
 			"brb 1 min", -- [1]
 			"Orung-BleedingHollow", -- [2]
@@ -1408,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aOrung-BleedingHollow|r",
 			[51] = 1667673890,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [64]
+		}, -- [34]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15318:Player-3685-09A3CFFD:1:11:5:22:4294967295:4294967295:4294967295:4294967295|h[Flawless: Coldheart Interstitia (Layer 16)]|h|r!", -- [1]
 			"Dissick-Turalyon", -- [2]
@@ -1430,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaDissick|r",
 			[51] = 1667674055,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [65]
+		}, -- [35]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15318:Player-3685-08487D9A:1:11:5:22:4294967295:4294967295:4294967295:4294967295|h[Flawless: Coldheart Interstitia (Layer 16)]|h|r!", -- [1]
 			"Taugul-Turalyon", -- [2]
@@ -1452,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aTaugul|r",
 			[51] = 1667674055,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [66]
+		}, -- [36]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15319:Player-3685-09A3CFFD:1:11:5:22:4294967295:4294967295:4294967295:4294967295|h[Flawless: Mort'regar (Layer 16)]|h|r!", -- [1]
 			"Dissick-Turalyon", -- [2]
@@ -1474,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaDissick|r",
 			[51] = 1667675359,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [67]
+		}, -- [37]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15319:Player-3685-08487D9A:1:11:5:22:4294967295:4294967295:4294967295:4294967295|h[Flawless: Mort'regar (Layer 16)]|h|r!", -- [1]
 			"Taugul-Turalyon", -- [2]
@@ -1496,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aTaugul|r",
 			[51] = 1667675359,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [68]
+		}, -- [38]
 		{
 			"ffs", -- [1]
 			"Kayne-Turalyon", -- [2]
@@ -1518,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aKayne|r",
 			[51] = 1667675738,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [69]
+		}, -- [39]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14373:Player-3685-0990B6B7:1:11:5:22:4294967295:4294967295:4294967295:4294967295|h[De Other Side]|h|r!", -- [1]
 			"Kayne-Turalyon", -- [2]
@@ -1540,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aKayne|r",
 			[51] = 1667675882,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [70]
+		}, -- [40]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14408:Player-3685-0990B6B7:1:11:5:22:4294967295:4294967295:4294967295:4294967295|h[Heroic: De Other Side]|h|r!", -- [1]
 			"Kayne-Turalyon", -- [2]
@@ -1562,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aKayne|r",
 			[51] = 1667675882,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [71]
+		}, -- [41]
 		{
 			"ty all", -- [1]
 			"Borealis-AeriePeak", -- [2]
@@ -1584,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaBorealis-AeriePeak|r",
 			[51] = 1667675902,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [72]
+		}, -- [42]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15320:Player-3685-08487D9A:1:11:5:22:4294967295:4294967295:4294967295:4294967295|h[Flawless: The Upper Reaches (Layer 16)]|h|r!", -- [1]
 			"Taugul-Turalyon", -- [2]
@@ -1606,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aTaugul|r",
 			[51] = 1667676329,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [73]
+		}, -- [43]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15320:Player-3685-09A3CFFD:1:11:5:22:4294967295:4294967295:4294967295:4294967295|h[Flawless: The Upper Reaches (Layer 16)]|h|r!", -- [1]
 			"Dissick-Turalyon", -- [2]
@@ -1628,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaDissick|r",
 			[51] = 1667676329,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [74]
+		}, -- [44]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15317:Player-3685-08487D9A:1:11:5:22:4294967295:4294967295:4294967295:4294967295|h[Flawless: The Soulforges (Layer 16)]|h|r!", -- [1]
 			"Taugul-Turalyon", -- [2]
@@ -1650,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aTaugul|r",
 			[51] = 1667677295,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [75]
+		}, -- [45]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15317:Player-3685-09A3CFFD:1:11:5:22:4294967295:4294967295:4294967295:4294967295|h[Flawless: The Soulforges (Layer 16)]|h|r!", -- [1]
 			"Dissick-Turalyon", -- [2]
@@ -1672,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaDissick|r",
 			[51] = 1667677295,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [76]
+		}, -- [46]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15322:Player-3685-08487D9A:1:11:5:22:4294967295:4294967295:4294967295:4294967295|h[Flawless Master (Layer 16)]|h|r!", -- [1]
 			"Taugul-Turalyon", -- [2]
@@ -1694,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aTaugul|r",
 			[51] = 1667677295,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [77]
+		}, -- [47]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15322:Player-3685-09A3CFFD:1:11:5:22:4294967295:4294967295:4294967295:4294967295|h[Flawless Master (Layer 16)]|h|r!", -- [1]
 			"Dissick-Turalyon", -- [2]
@@ -1716,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaDissick|r",
 			[51] = 1667677295,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [78]
+		}, -- [48]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15324:Player-3685-08487D9A:1:11:5:22:4294967295:4294967295:4294967295:4294967295|h[Tower Ranger]|h|r!", -- [1]
 			"Taugul-Turalyon", -- [2]
@@ -1738,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aTaugul|r",
 			[51] = 1667677295,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [79]
+		}, -- [49]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15324:Player-3685-09A3CFFD:1:11:5:22:4294967295:4294967295:4294967295:4294967295|h[Tower Ranger]|h|r!", -- [1]
 			"Dissick-Turalyon", -- [2]
@@ -1760,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaDissick|r",
 			[51] = 1667677295,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [80]
+		}, -- [50]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:15654:Player-3685-09A3CFFD:1:11:5:22:4294967295:4294967295:4294967295:4294967295|h[Back from the Beyond]|h|r!", -- [1]
 			"Dissick-Turalyon", -- [2]
@@ -1782,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaDissick|r",
 			[51] = 1667677295,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [81]
+		}, -- [51]
 		{
 			"stupid power outage", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -1804,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1667945755,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [82]
+		}, -- [52]
 		{
 			"rip", -- [1]
 			"Kayne-Turalyon", -- [2]
@@ -1826,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aKayne|r",
 			[51] = 1667945785,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [83]
+		}, -- [53]
 		{
 			"yeah i don't much care for that 1 piece of gear per lockout", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -1848,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1667945937,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [84]
+		}, -- [54]
 		{
 			"really stupid system", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -1870,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1667945881,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [85]
+		}, -- [55]
 		{
 			"yeah they seem to be flexible so we'll see how it goes", -- [1]
 			"Kayne-Turalyon", -- [2]
@@ -1892,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aKayne|r",
 			[51] = 1667945964,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [86]
+		}, -- [56]
 		{
 			"may as well use a more complex dkp system", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -1914,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1667945981,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [87]
+		}, -- [57]
 		{
 			"is it possible to give soemone items and have them trade it on another realm if we join group?", -- [1]
 			"Barudin-Area52", -- [2]
@@ -1936,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Barudin-Area52|r",
 			[51] = 1667945987,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [58]
 		{
 			"im trying to get some bags on an alt xD", -- [1]
 			"Barudin-Area52", -- [2]
@@ -1958,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Barudin-Area52|r",
 			[51] = 1667945995,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [59]
 		{
 			"unfortunately no", -- [1]
 			"Skyshaper-Whisperwind", -- [2]
@@ -1980,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddSkyshaper-Whisperwind|r",
 			[51] = 1667946023,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [60]
 		{
 			"big shame", -- [1]
 			"Barudin-Area52", -- [2]
@@ -2002,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Barudin-Area52|r",
 			[51] = 1667946030,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [61]
 		{
 			"aren't there addons for that stuff, bidding dkp and what not?", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -2024,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1667946036,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [92]
+		}, -- [62]
 		{
 			"Any guilds recruiting?", -- [1]
 			"Quakevirus-Zul'jin", -- [2]
@@ -2046,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dQuakevirus-Zul'jin|r",
 			[51] = 1667946000,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [63]
 		{
 			"yeah i'm sure there are, i have not been a big fan of dkp", -- [1]
 			"Kayne-Turalyon", -- [2]
@@ -2068,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aKayne|r",
 			[51] = 1667946080,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [94]
+		}, -- [64]
 		{
 			"i think they were going for simple", -- [1]
 			"Kayne-Turalyon", -- [2]
@@ -2090,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aKayne|r",
 			[51] = 1667946091,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [95]
+		}, -- [65]
 		{
 			"ok so i don't understand, what if you already got an item, something else dropped, and nobody wants it other than you, it goes to offspec/transmog first?", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -2112,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1667946296,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [96]
+		}, -- [66]
 		{
 			"or they don't want to roll rather", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -2134,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1667946249,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [97]
+		}, -- [67]
 		{
 			"yeah thats one of the scenarios that i don't think has been considered", -- [1]
 			"Kayne-Turalyon", -- [2]
@@ -2156,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aKayne|r",
 			[51] = 1667946926,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [98]
+		}, -- [68]
 		{
 			"i guess you get it if you're unopposed even if you got something already", -- [1]
 			"Kayne-Turalyon", -- [2]
@@ -2178,28 +1518,688 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aKayne|r",
 			[51] = 1667946937,
 			[50] = "CHAT_MSG_GUILD",
+		}, -- [69]
+		{
+			"|cffffff00Trade District is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			7, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1668359719,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [70]
+		{
+			"this is so fun", -- [1]
+			"Kozaleth-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kozaleth-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			156, -- [11]
+			"Player-60-0EDD4B09", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff33937fKozaleth-Stormrage|r",
+			[51] = 1668579000,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [71]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:16278:Player-3685-0990B6B7:1:11:15:22:4294967295:4294967295:4294967295:4294967295|h[Uldaman: Legacy of Tyr]|h|r!", -- [1]
+			"Kayne-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kayne-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			201, -- [11]
+			"Player-3685-0990B6B7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aKayne|r",
+			[51] = 1668579551,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [72]
+		{
+			"gg", -- [1]
+			"Kozaleth-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kozaleth-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			212, -- [11]
+			"Player-60-0EDD4B09", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff33937fKozaleth-Stormrage|r",
+			[51] = 1668579580,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [73]
+		{
+			"WTS Flying Mount |cffa335ee|Hitem:153594::::::::60:105::13::1:28:872:::::|h[Xiwyllag ATV]|h|r 40k / two for 60k pst or inv me.", -- [1]
+			"Kokiriforest-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kokiriforest-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			328, -- [11]
+			"Player-3685-0DF2B50A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aKokiriforest|r",
+			[51] = 1668580593,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [74]
+		{
+			"|cffffd100|HclubFinder:ClubFinder-1-1689-3685-47613316|h[Guild: Beyond]|h|r  is looking for more members! We are one of the oldest guilds on this server and still going strong! We do everything from raiding to mythic +, some pvp, old achieve runs, and more! ", -- [1]
+			"Aevalya-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Aevalya-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			381, -- [11]
+			"Player-3685-0DF7D0FB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fAevalya|r",
+			[51] = 1668581474,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [75]
+		{
+			"WTS Flying Mount |cffa335ee|Hitem:153594::::::::60:105::13::1:28:872:::::|h[Xiwyllag ATV]|h|r 40k / two for 60k pst or inv me.", -- [1]
+			"Kokiriforest-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kokiriforest-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			382, -- [11]
+			"Player-3685-0DF2B50A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aKokiriforest|r",
+			[51] = 1668581552,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [76]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14796:Player-3685-0990B6B7:1:11:15:22:4294967295:4294967295:4294967295:4294967295|h[Superior]|h|r!", -- [1]
+			"Kayne-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kayne-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			555, -- [11]
+			"Player-3685-0990B6B7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aKayne|r",
+			[51] = 1668583557,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [77]
+		{
+			"|cffffd100|HclubFinder:ClubFinder-1-1689-3685-47613316|h[Guild: Beyond]|h|r  is looking for more members! We are one of the oldest guilds on this server and still going strong! We do everything from raiding to mythic +, some pvp, old achieve runs, and more!", -- [1]
+			"Aevalya-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Aevalya-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			641, -- [11]
+			"Player-3685-0DF7D0FB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fAevalya|r",
+			[51] = 1668584517,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [78]
+		{
+			"WTS Flying Mount |cffa335ee|Hitem:153594::::::::60:105::13::1:28:872:::::|h[Xiwyllag ATV]|h|r 40k / two for 60k pst or inv me.", -- [1]
+			"Kokiriforest-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kokiriforest-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			654, -- [11]
+			"Player-3685-0DF2B50A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aKokiriforest|r",
+			[51] = 1668584705,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [79]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12367:Player-3685-0990B6B7:1:11:15:22:4294967295:4294967295:4294967295:4294967295|h[Set Up Us the Bomb]|h|r!", -- [1]
+			"Kayne-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kayne-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			844, -- [11]
+			"Player-3685-0990B6B7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aKayne|r",
+			[51] = 1668586946,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [80]
+		{
+			"fail", -- [1]
+			"Mikya-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Badlands", -- [4]
+			"Mikya-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Badlands", -- [9]
+			0, -- [10]
+			14, -- [11]
+			"Player-3685-0703D328", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3fc7ebMikya|r",
+			[51] = 1668628559,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [81]
+		{
+			"anyone have any clue why a whole spec isnt working?", -- [1]
+			"Aloula-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Aloula-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			2, -- [11]
+			"Player-3685-0724F6C5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff98Aloula|r",
+			[51] = 1668641883,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [82]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:16278:Player-3685-07EB3288:1:11:16:22:4294967295:4294967295:4294967295:4294967295|h[Uldaman: Legacy of Tyr]|h|r!", -- [1]
+			"Doridos-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Doridos-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			126, -- [11]
+			"Player-3685-07EB3288", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Doridos|r",
+			[51] = 1668643079,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [83]
+		{
+			"is the fire primal invasion up?", -- [1]
+			"Gastonn-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gastonn-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			205, -- [11]
+			"Player-3685-0D06F635", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Gastonn|r",
+			[51] = 1668644670,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [84]
+		{
+			"doesnt look like", -- [1]
+			"Guillare-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Guillare-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			206, -- [11]
+			"Player-3685-0DF7F583", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fGuillare|r",
+			[51] = 1668644717,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [85]
+		{
+			"I like your character design", -- [1]
+			"Erzin-Turalyon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Erzin-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			228, -- [11]
+			"Player-3685-0DF924F8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff33937fErzin|r",
+			[51] = 1668645678,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [86]
+		{
+			"Yours too!", -- [1]
+			"Ankalagon-Turalyon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ankalagon-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			229, -- [11]
+			"Player-3685-0DF84D3D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff33937fAnkalagon|r",
+			[51] = 1668645688,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [87]
+		{
+			"Thank :D", -- [1]
+			"Erzin-Turalyon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Erzin-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			230, -- [11]
+			"Player-3685-0DF924F8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff33937fErzin|r",
+			[51] = 1668645694,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [88]
+		{
+			"we're almost twins, too", -- [1]
+			"Ankalagon-Turalyon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Ankalagon-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			231, -- [11]
+			"Player-3685-0DF84D3D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff33937fAnkalagon|r",
+			[51] = 1668645694,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [89]
+		{
+			"true", -- [1]
+			"Erzin-Turalyon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Erzin-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			232, -- [11]
+			"Player-3685-0DF924F8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff33937fErzin|r",
+			[51] = 1668645704,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [90]
+		{
+			"So so dumb that the drakthyr can't fly like the worgens run... I have fuckin wings.", -- [1]
+			"Ægar-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ægar-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			264, -- [11]
+			"Player-3685-0DF85762", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fÆgar|r",
+			[51] = 1668646955,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"they get tired", -- [1]
+			"Fogdormu-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Fogdormu-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			265, -- [11]
+			"Player-3685-0DF7A068", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fFogdormu|r",
+			[51] = 1668646974,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"this is explained in the intro area", -- [1]
+			"Fogdormu-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Fogdormu-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			266, -- [11]
+			"Player-3685-0DF7A068", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fFogdormu|r",
+			[51] = 1668646920,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"Blizzard shit the bed with this race/", -- [1]
+			"Ægar-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ægar-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			267, -- [11]
+			"Player-3685-0DF85762", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fÆgar|r",
+			[51] = 1668646993,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"it's a lame excuse", -- [1]
+			"Rangari-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Rangari-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			268, -- [11]
+			"Player-3685-0DF9570C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Rangari|r",
+			[51] = 1668647003,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"how long can you fly for irl", -- [1]
+			"Fogdormu-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Fogdormu-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			270, -- [11]
+			"Player-3685-0DF7A068", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fFogdormu|r",
+			[51] = 1668647017,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"They had to pump something out so they had dingus in marketing yell out \"dwagons! Stormy Dwagons!\" and it wtuck.", -- [1]
+			"Ægar-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ægar-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			274, -- [11]
+			"Player-3685-0DF85762", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fÆgar|r",
+			[51] = 1668647043,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"Don't think the race is bad. But he is saying like normal flying, not soar (like druids can fly)", -- [1]
+			"Aevnass-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Aevnass-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			275, -- [11]
+			"Player-3685-0DF84143", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fAevnass|r",
+			[51] = 1668647049,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"druids are birds", -- [1]
+			"Fogdormu-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Fogdormu-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			276, -- [11]
+			"Player-3685-0DF7A068", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fFogdormu|r",
+			[51] = 1668647056,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/g and i dont really like arms playstyle", -- [1]
-		"/g trying to get a couple of 1handers so i can try out frost a bit", -- [2]
-		"/g you can buy a full set of 226 in zm", -- [3]
-		"/g with anima", -- [4]
-		"/g oh youre not 60", -- [5]
-		"/g lol", -- [6]
-		"/g no heirlooms?", -- [7]
-		"/g thats almost a full set", -- [8]
-		"/g cept like gloves and bracers i think", -- [9]
-		"/g and belt", -- [10]
-		"/g yeah, its nice that it still scales with your level though", -- [11]
-		"/g still better than quest gear in most cases i think", -- [12]
-		"/i ffs", -- [13]
-		"/g rip", -- [14]
-		"/g yeah they seem to be flexible so we'll see how it goes", -- [15]
-		"/g yeah i'm sure there are, i have not been a big fan of dkp", -- [16]
-		"/g i think they were going for simple", -- [17]
-		"/g yeah thats one of the scenarios that i don't think has been considered", -- [18]
-		"/g i guess you get it if you're unopposed even if you got something already", -- [19]
+		"/g trying to get a couple of 1handers so i can try out frost a bit", -- [1]
+		"/g you can buy a full set of 226 in zm", -- [2]
+		"/g with anima", -- [3]
+		"/g oh youre not 60", -- [4]
+		"/g lol", -- [5]
+		"/g no heirlooms?", -- [6]
+		"/g thats almost a full set", -- [7]
+		"/g cept like gloves and bracers i think", -- [8]
+		"/g and belt", -- [9]
+		"/g yeah, its nice that it still scales with your level though", -- [10]
+		"/g still better than quest gear in most cases i think", -- [11]
+		"/i ffs", -- [12]
+		"/g rip", -- [13]
+		"/g yeah they seem to be flexible so we'll see how it goes", -- [14]
+		"/g yeah i'm sure there are, i have not been a big fan of dkp", -- [15]
+		"/g i think they were going for simple", -- [16]
+		"/g yeah thats one of the scenarios that i don't think has been considered", -- [17]
+		"/g i guess you get it if you're unopposed even if you got something already", -- [18]
+		"/weakauras", -- [19]
 		"/macro", -- [20]
 	},
 	["ConvertKeybindings"] = true,

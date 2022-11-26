@@ -1,17 +1,22 @@
 
 OmniCDDB = {
 	["profileKeys"] = {
+		["Allevin - Turalyon"] = "Default",
+		["Asaam - Turalyon"] = "Default",
+		["Amdam - Turalyon"] = "Default",
+		["Caldo - Turalyon"] = "Default",
+		["Badam - Turalyon"] = "Default",
+		["Christoff - Turalyon"] = "Default",
+		["Adreya - Bloodscalp"] = "Default",
+		["Amdamn - Bloodscalp"] = "Default",
 		["Abel - Turalyon"] = "Default",
 		["Adamancy - Turalyon"] = "Default",
-		["Allevin - Turalyon"] = "Default",
 		["Kayne - Turalyon"] = "Default",
-		["Amdam - Turalyon"] = "Default",
-		["Badam - Turalyon"] = "Default",
-		["Asaam - Turalyon"] = "Default",
+		["Broddah - Doomhammer"] = "Default",
+		["Adamian - Turalyon"] = "Default",
 		["Adamn - Turalyon"] = "Default",
-		["Christoff - Turalyon"] = "Default",
-		["Dreg - Turalyon"] = "Default",
 		["Adrid - Turalyon"] = "Default",
+		["Dreg - Turalyon"] = "Default",
 		["Shado - Turalyon"] = "Default",
 	},
 	["global"] = {
@@ -25,9 +30,9 @@ OmniCDDB = {
 		["BattleRes"] = {
 		},
 	},
-	["version"] = 2.51,
 	["cooldowns"] = {
 	},
+	["version"] = 2.51,
 	["profiles"] = {
 		["Default"] = {
 			["Party"] = {
@@ -42,13 +47,13 @@ OmniCDDB = {
 						["304971"] = true,
 					},
 					["manualPos"] = {
-						["raidCDBar"] = {
-							["y"] = 234.2555329901188,
-							["x"] = 880.4115584219107,
-						},
 						["interruptBar"] = {
 							["y"] = 234.2555879217616,
 							["x"] = 793.6558909120504,
+						},
+						["raidCDBar"] = {
+							["y"] = 234.2555329901188,
+							["x"] = 880.4115584219107,
 						},
 					},
 				},
@@ -67,8 +72,8 @@ OmniCDDB = {
 					},
 				},
 				["visibility"] = {
-					["none"] = true,
 					["size"] = 20,
+					["none"] = true,
 				},
 			},
 		},

@@ -16,28 +16,28 @@ local maxRetry = 5
 local objectCorrections = {
 	["item"] = {
 		[86592] = {
-			[ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.EXPANSION] = ArkInventory.Const.ENUM.EXPANSION.PANDARIA,
+			[ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.EXPANSION] = ArkInventory.ENUM.EXPANSION.PANDARIA,
 		},
 		[108257] = {
-			[ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.EXPANSION] = ArkInventory.Const.ENUM.EXPANSION.DRAENOR,
+			[ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.EXPANSION] = ArkInventory.ENUM.EXPANSION.DRAENOR,
 		},
 		[120945] = {
-			[ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.EXPANSION] = ArkInventory.Const.ENUM.EXPANSION.DRAENOR,
+			[ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.EXPANSION] = ArkInventory.ENUM.EXPANSION.DRAENOR,
 		},
 		[124461] = {
-			[ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.EXPANSION] = ArkInventory.Const.ENUM.EXPANSION.LEGION,
+			[ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.EXPANSION] = ArkInventory.ENUM.EXPANSION.LEGION,
 		},
 		[182441] = {
-			[ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.EXPANSION] = ArkInventory.Const.ENUM.EXPANSION.SHADOWLANDS,
+			[ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.EXPANSION] = ArkInventory.ENUM.EXPANSION.SHADOWLANDS,
 		},
 		[186727] = {
-			[ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.EXPANSION] = ArkInventory.Const.ENUM.EXPANSION.SHADOWLANDS,
+			[ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.EXPANSION] = ArkInventory.ENUM.EXPANSION.SHADOWLANDS,
 		},
 		[187082] = {
-			[ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.SUBTYPE] = ArkInventory.Const.ENUM.ITEMCLASS.ARMOR.COSMETIC,
+			[ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.SUBTYPE] = ArkInventory.ENUM.ITEM.TYPE.ARMOR.COSMETIC,
 		},
 		[187083] = {
-			[ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.SUBTYPE] = ArkInventory.Const.ENUM.ITEMCLASS.ARMOR.COSMETIC,
+			[ArkInventory.Const.BLIZZARD.FUNCTION.GETITEMINFO.SUBTYPE] = ArkInventory.ENUM.ITEM.TYPE.ARMOR.COSMETIC,
 		},
 		
 	},
@@ -104,12 +104,6 @@ local function UpdateObjectInfo( info, thread_id )
 ]]--
 		
 		
-		
-		
-		
-		
-		
-		
 		local key = info.hs
 		if info.class == "keystone" then
 			key = info.osd.id
@@ -124,7 +118,7 @@ local function UpdateObjectInfo( info, thread_id )
 			info.ready = C_Item.IsItemDataCachedByID( key )
 		end
 		
-		ArkInventory.OutputDebug( "attempt #", info.retry )
+		--ArkInventory.Output( "attempt #", info.retry, " ", info.hs )
 		
 		if not info.ready then
 			--ArkInventory.OutputWarning( "data not cached for ", key, ", adding to queue" )
@@ -218,7 +212,7 @@ local function UpdateObjectInfo( info, thread_id )
 					ignore, ignore, stock = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, "(%d+)", false, true, true, 0, ArkInventory.Const.Tooltip.Search.Short )
 					stock = ArkInventory.TooltipTextToNumber( stock )
 					
-				elseif info.itemsubtypeid == ArkInventory.Const.ENUM.ITEMCLASS.GEM.ARTIFACTRELIC then
+				elseif info.itemsubtypeid == ArkInventory.ENUM.ITEM.TYPE.GEM.ARTIFACTRELIC then
 					
 					ignore, ignore, ilvl = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, ArkInventory.Localise["WOW_TOOLTIP_RELIC_LEVEL"], false, true, true, 0, ArkInventory.Const.Tooltip.Search.Short )
 					ilvl = ArkInventory.TooltipTextToNumber( ilvl )
@@ -301,7 +295,7 @@ local function UpdateObjectInfo( info, thread_id )
 			info.ready = false
 		end
 		info.texture = tmp[ArkInventory.Const.BLIZZARD.FUNCTION.GETSPELLINFO.TEXTURE] or ArkInventory.Const.Texture.Missing
-		info.q = ArkInventory.Const.ENUM.ITEMQUALITY.STANDARD
+		info.q = ArkInventory.ENUM.ITEM.QUALITY.STANDARD
 		
 	elseif info.class == "battlepet" then
 		
@@ -320,7 +314,7 @@ local function UpdateObjectInfo( info, thread_id )
 		end
 		
 		info.ilvl = info.osd.level or 1
-		info.itemtypeid = ArkInventory.Const.ENUM.ITEMCLASS.BATTLEPET.PARENT
+		info.itemtypeid = ArkInventory.ENUM.ITEM.TYPE.BATTLEPET.PARENT
 		
 	elseif info.class == "currency" then
 		
@@ -350,9 +344,12 @@ local function UpdateObjectInfo( info, thread_id )
 		
 		info.ready = true
 		
+		--ArkInventory.Output( info )
 		info.texture = ""
-		info.itemtypeid = ArkInventory.Const.ENUM.ITEMCLASS.EMPTY.PARENT
-		info.itemsubtypeid = info.osd.slottype
+		info.itemtypeid = ArkInventory.ENUM.ITEM.TYPE.EMPTY.PARENT
+		info.itemsubtypeid = info.osd.bagtype
+		info.itemsubtype = ArkInventory.Const.Slot.Data[info.osd.bagtype].name
+		info.name = string.format( "%s - %s", ArkInventory.Localise["EMPTY"], info.itemsubtype )
 		
 	end
 	
@@ -367,7 +364,7 @@ local function Scan_Threaded( thread_id )
 	
 	for hs in pairs( Queue ) do
 		
-		ArkInventory.OutputDebug( "get object data for ", hs )
+		--ArkInventory.OutputDebug( "getting object data for ", hs )
 		
 		local info = cacheGetObjectInfo[hs]
 		UpdateObjectInfo( info )
@@ -441,9 +438,13 @@ end
 
 function ArkInventory.ObjectStringDecode( h, i )
 	
-	local chs = h and cacheObjectStringStandard[h]
-	if chs and cacheObjectStringDecode[chs] then
-		return cacheObjectStringDecode[chs]
+	local chs
+	
+	if h then
+		chs = h and cacheObjectStringStandard[h]
+		if chs and cacheObjectStringDecode[chs] then
+			return cacheObjectStringDecode[chs]
+		end
 	end
 	
 	local h1 = string.trim( h or "" )
@@ -816,7 +817,7 @@ function ArkInventory.GetObjectInfo( h, i )
 	info.h = info.osd.h
 	
 	info.name = ArkInventory.Localise["DATA_NOT_READY"]
-	info.q = ArkInventory.Const.ENUM.ITEMQUALITY.UNKNOWN
+	info.q = ArkInventory.ENUM.ITEM.QUALITY.UNKNOWN
 	info.rank = nil
 	info.ilvl_base = -2
 	info.ilvl = -2
@@ -831,7 +832,7 @@ function ArkInventory.GetObjectInfo( h, i )
 	info.itemtypeid = -2
 	info.itemsubtypeid = -2
 	info.binding = 0
-	info.expansion = ArkInventory.Const.ENUM.EXPANSION.CLASSIC
+	info.expansion = ArkInventory.ENUM.EXPANSION.CLASSIC
 	
 	UpdateObjectInfo( info )
 	
@@ -839,8 +840,9 @@ function ArkInventory.GetObjectInfo( h, i )
 	
 	if info.class == "copper" then
 		-- do not cache
-	elseif info.class == "empty" then
+	--elseif info.class == "empty" then
 		-- do not cache
+		
 	else
 		
 		if h and h ~= "" then
@@ -879,7 +881,7 @@ end
 
 function ArkInventory.ObjectInfoQuality( h )
 	local info = ArkInventory.GetObjectInfo( h )
-	return info.q or ArkInventory.Const.ENUM.ITEMQUALITY.UNKNOWN
+	return info.q or ArkInventory.ENUM.ITEM.QUALITY.UNKNOWN
 end
 
 function ArkInventory.ObjectInfoVendorPrice( h )

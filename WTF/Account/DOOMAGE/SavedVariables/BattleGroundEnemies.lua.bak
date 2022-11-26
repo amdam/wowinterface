@@ -1,32 +1,30 @@
 
 BattleGroundEnemiesDB = {
 	["profileKeys"] = {
+		["Allevin - Turalyon"] = "Default",
+		["Kayne - Turalyon"] = "Default",
+		["Amdam - Turalyon"] = "Default",
+		["Caldo - Turalyon"] = "Default",
+		["Badam - Turalyon"] = "Default",
+		["Kaydan - Turalyon"] = "Default",
+		["Adamian - Turalyon"] = "Default",
+		["Dreg - Turalyon"] = "Default",
+		["Amdamn - Bloodscalp"] = "Default",
 		["Abel - Turalyon"] = "Default",
 		["Adamancy - Turalyon"] = "Default",
 		["Furrys - Turalyon"] = "Default",
-		["Kayne - Turalyon"] = "Default",
-		["Amdam - Turalyon"] = "Default",
-		["Adrid - Turalyon"] = "Default",
-		["Asaam - Turalyon"] = "Default",
-		["Badam - Turalyon"] = "Default",
-		["Adamn - Turalyon"] = "Default",
-		["Kaydan - Turalyon"] = "Default",
+		["Adreya - Bloodscalp"] = "Default",
 		["Christoff - Turalyon"] = "Default",
-		["Dreg - Turalyon"] = "Default",
-		["Allevin - Turalyon"] = "Default",
+		["Broddah - Doomhammer"] = "Default",
+		["Adrid - Turalyon"] = "Default",
+		["Adamn - Turalyon"] = "Default",
+		["Aduum - Turalyon"] = "Default",
+		["Asaam - Turalyon"] = "Default",
 		["Shado - Turalyon"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["onlyShowWhenNewVersion"] = true,
-			["Allies"] = {
-				["Enabled"] = false,
-				["15"] = {
-					["Position_Y"] = 701.3445315132049,
-					["Position_X"] = 3.71113060353261,
-				},
-			},
-			["lastReadVersion"] = "9.2.7.2",
 			["Enemies"] = {
 				["40"] = {
 					["Position_Y"] = 688.5446232839204,
@@ -35,6 +33,14 @@ BattleGroundEnemiesDB = {
 				["15"] = {
 					["Position_Y"] = 635.9225172464758,
 					["Position_X"] = 1096.334051153761,
+				},
+			},
+			["lastReadVersion"] = "9.2.7.2",
+			["Allies"] = {
+				["Enabled"] = false,
+				["15"] = {
+					["Position_Y"] = 701.3445315132049,
+					["Position_X"] = 3.71113060353261,
 				},
 			},
 		},

@@ -136,7 +136,7 @@ ReagentRestocker: enabled
 TradeSkillMaster: enabled
 InsertAnyModsHereThatYourRuleMightNeed: enabled
 DBM-Core: enabled
-OPie: enabled
+OPie: disabled
 ElvUI: enabled
 HealBot: disabled
 HHTD: disabled
@@ -146,7 +146,7 @@ BattlegroundTargets: disabled
 WorldQuestTracker: enabled
 ElvUI_BenikUI: enabled
 ElvUI_EverySecondCounts: disabled
-AngryKeystones: enabled
+AngryKeystones: disabled
 WeakAurasCompanion: enabled
 OPie_Classic: disabled
 TomCats: disabled
@@ -199,3 +199,4 @@ OmniCD: disabled
 Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
 ElvUI_UnitFramePlugin: disabled
+ElvUI_Options: enabled

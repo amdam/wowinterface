@@ -28,7 +28,7 @@ END
 VER 3 010000000000000E " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast [nomodifier] Pistol Shot; /cast [modifier:alt] Marked for Death
+/cast [mod:alt,known:Marked for Death] Marked for Death; Pistol Shot;
 /script UIErrorsFrame:Clear()
 END
 VER 3 0100000000000012 " " "INV_MISC_QUESTIONMARK"
@@ -42,7 +42,7 @@ VER 3 0100000000000013 " " "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000014 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [nomodifier] Between the Eyes; /cast [modifier:alt,talent:7/2] Blade Rush; [modifier:alt,talent:7/3] Killing Spree;] 
+/cast [mod:alt,known:Echoing Reprimand] Echoing Reprimand; Between the Eyes 
 /script UIErrorsFrame:Clear()
 END
 VER 3 0100000000000015 " " "INV_MISC_QUESTIONMARK"
@@ -64,6 +64,6 @@ END
 VER 3 0100000000000018 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast [nomodifier] Eviscerate; [modifier:alt,spec:3] Black Powder
+/cast [mod:alt,spec:2] Grappling Hook; Eviscerate;
 /script UIErrorsFrame:Clear()
 END

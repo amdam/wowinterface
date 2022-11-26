@@ -6,7 +6,7 @@ AtlasLoot: disabled
 WorldQuestTracker: enabled
 ElvUI_BenikUI: enabled
 ElvUI_EverySecondCounts: disabled
-AngryKeystones: enabled
+AngryKeystones: disabled
 ArkInventory: enabled
 WeakAurasCompanion: enabled
 OPie_Classic: disabled

@@ -1,35 +1,39 @@
 
 TomTomDB = {
 	["profileKeys"] = {
-		["Trasha - Bloodscalp"] = "Default",
 		["Wake - Bloodscalp"] = "Default",
 		["Allevin - Turalyon"] = "Default",
-		["Sunsong - Whisperwind"] = "Default",
-		["Kayne - Turalyon"] = "Default",
-		["Jeryn - Bloodscalp"] = "Default",
-		["Dogs - Bloodscalp"] = "Default",
+		["Bears - Bloodscalp"] = "Default",
 		["Arnette - Bloodscalp"] = "Default",
-		["Amdam - Bloodscalp"] = "Default",
-		["Kaydan - Turalyon"] = "Default",
-		["Thugo - Bloodscalp"] = "Default",
-		["Adreya - Bloodscalp"] = "Default",
+		["Aduum - Turalyon"] = "Default",
+		["Adamian - Turalyon"] = "Default",
+		["Dreg - Turalyon"] = "Default",
+		["Abel - Turalyon"] = "Default",
+		["Adamancy - Turalyon"] = "Default",
+		["Furrys - Turalyon"] = "Default",
+		["Christos - Turalyon"] = "Default",
+		["Broddah - Doomhammer"] = "Default",
+		["Adamn - Turalyon"] = "Default",
+		["Elpy - Bloodscalp"] = "Default",
 		["Adamn - Terokkar"] = "Default",
+		["Sunsong - Whisperwind"] = "Default",
+		["Asaam - Turalyon"] = "Default",
+		["Jeryn - Bloodscalp"] = "Default",
+		["Adrid - Turalyon"] = "Default",
+		["Badam - Turalyon"] = "Default",
+		["Kaydan - Turalyon"] = "Default",
+		["Christoff - Turalyon"] = "Default",
+		["Adreya - Bloodscalp"] = "Default",
 		["Amdamn - Bloodscalp"] = "Default",
 		["Fife - The Forgotten Coast"] = "Default",
-		["Adamancy - Turalyon"] = "Default",
-		["Asaam - Turalyon"] = "Default",
-		["Furrys - Turalyon"] = "Default",
-		["Abel - Turalyon"] = "Default",
-		["Dreg - Turalyon"] = "Default",
-		["Christoff - Turalyon"] = "Default",
 		["Badam - Bloodscalp"] = "Default",
-		["Adrid - Turalyon"] = "Default",
-		["Bears - Bloodscalp"] = "Default",
-		["Badam - Turalyon"] = "Default",
-		["Christos - Turalyon"] = "Default",
-		["Adamn - Turalyon"] = "Default",
+		["Caldo - Turalyon"] = "Default",
+		["Trasha - Bloodscalp"] = "Default",
 		["Amdam - Turalyon"] = "Default",
-		["Elpy - Bloodscalp"] = "Default",
+		["Thugo - Bloodscalp"] = "Default",
+		["Dogs - Bloodscalp"] = "Default",
+		["Kayne - Turalyon"] = "Default",
+		["Amdam - Bloodscalp"] = "Default",
 		["Shado - Turalyon"] = "Default",
 	},
 	["profiles"] = {
@@ -49,7 +53,7 @@ TomTomDB = {
 					nil, -- [2]
 					"TOPRIGHT", -- [3]
 					0, -- [4]
-					-301.2959594726563, -- [5]
+					-212.4071197509766, -- [5]
 				},
 			},
 		},
@@ -58,30 +62,34 @@ TomTomDB = {
 TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
-		["Abel - Turalyon"] = "Abel - Turalyon",
-		["Adamancy - Turalyon"] = "Adamancy - Turalyon",
 		["Allevin - Turalyon"] = "Allevin - Turalyon",
 		["Kayne - Turalyon"] = "Kayne - Turalyon",
-		["Amdam - Turalyon"] = "Amdam - Turalyon",
 		["Adrid - Turalyon"] = "Adrid - Turalyon",
+		["Caldo - Turalyon"] = "Caldo - Turalyon",
+		["Aduum - Turalyon"] = "Aduum - Turalyon",
 		["Kaydan - Turalyon"] = "Kaydan - Turalyon",
 		["Christoff - Turalyon"] = "Christoff - Turalyon",
 		["Dreg - Turalyon"] = "Dreg - Turalyon",
+		["Amdamn - Bloodscalp"] = "Amdamn - Bloodscalp",
+		["Abel - Turalyon"] = "Abel - Turalyon",
+		["Adamancy - Turalyon"] = "Adamancy - Turalyon",
+		["Broddah - Doomhammer"] = "Broddah - Doomhammer",
+		["Adamian - Turalyon"] = "Adamian - Turalyon",
+		["Amdam - Turalyon"] = "Amdam - Turalyon",
 		["Asaam - Turalyon"] = "Asaam - Turalyon",
+		["Adreya - Bloodscalp"] = "Adreya - Bloodscalp",
 		["Shado - Turalyon"] = "Shado - Turalyon",
 	},
 	["profiles"] = {
-		["Abel - Turalyon"] = {
-		},
-		["Adamancy - Turalyon"] = {
-		},
 		["Allevin - Turalyon"] = {
 		},
 		["Kayne - Turalyon"] = {
 		},
-		["Amdam - Turalyon"] = {
-		},
 		["Adrid - Turalyon"] = {
+		},
+		["Caldo - Turalyon"] = {
+		},
+		["Aduum - Turalyon"] = {
 		},
 		["Kaydan - Turalyon"] = {
 		},
@@ -89,7 +97,21 @@ TomTomWaypointsM = {
 		},
 		["Dreg - Turalyon"] = {
 		},
+		["Amdamn - Bloodscalp"] = {
+		},
+		["Abel - Turalyon"] = {
+		},
+		["Adamancy - Turalyon"] = {
+		},
+		["Broddah - Doomhammer"] = {
+		},
+		["Adamian - Turalyon"] = {
+		},
+		["Amdam - Turalyon"] = {
+		},
 		["Asaam - Turalyon"] = {
+		},
+		["Adreya - Bloodscalp"] = {
 		},
 		["Shado - Turalyon"] = {
 		},

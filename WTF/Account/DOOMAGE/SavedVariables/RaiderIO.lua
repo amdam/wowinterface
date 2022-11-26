@@ -7,17 +7,19 @@ RaiderIO_Config = {
 	["showDropDownCopyURL"] = true,
 	["disableScoreColors"] = false,
 	["enableLFGTooltips"] = true,
-	["enableWhoTooltips"] = true,
+	["showSimpleScoreColors"] = false,
 	["showMainsScore"] = true,
 	["enableWhoMessages"] = true,
-	["showSimpleScoreColors"] = false,
+	["enableWhoTooltips"] = true,
 	["enableLFGDropdown"] = true,
 	["enableGuildTooltips"] = true,
 }
-RaiderIO_LastCharacter = "us-Kayne-turalyon"
+RaiderIO_LastCharacter = "us-Caldo-turalyon"
 RaiderIO_MissingCharacters = {
-	["us-Kayne-turalyon"] = true,
-	["us-Monkchikyto-area-52"] = true,
+	["us-Eurodyne-trollbane"] = true,
+	["us-Caldo-turalyon"] = true,
+	["us-Larrolld-tichondrius"] = true,
+	["us-Celdine-silver-hand"] = true,
 }
 RaiderIO_MissingServers = {
 }

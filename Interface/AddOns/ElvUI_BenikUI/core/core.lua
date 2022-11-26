@@ -40,6 +40,7 @@ BUI.AS = BUI:IsAddOnEnabled('AddOnSkins')
 BUI.CT = BUI:IsAddOnEnabled('ClassTactics')
 BUI.IF = BUI:IsAddOnEnabled('InFlight_Load')
 BUI.ZG = BUI:IsAddOnEnabled('ZygorGuidesViewer')
+BUI.WA = BUI:IsAddOnEnabled('WeakAuras')
 
 local classColor = E:ClassColor(E.myclass, true)
 
@@ -74,7 +75,7 @@ function BUI:LuaError(msg)
 	if switch == 'on' or switch == '1' then
 		for i=1, GetNumAddOns() do
 			local name = GetAddOnInfo(i)
-			if (name ~= 'ElvUI' and name ~= 'ElvUI_OptionsUI' and name ~= 'ElvUI_BenikUI') and E:IsAddOnEnabled(name) then
+			if (name ~= 'ElvUI' and name ~= 'ElvUI_Options' and name ~= 'ElvUI_Libraries' and name ~= 'ElvUI_BenikUI') and E:IsAddOnEnabled(name) then
 				DisableAddOn(name, E.myname)
 				ElvDB.BuiErrorDisabledAddOns[name] = i
 			end
@@ -169,7 +170,7 @@ function BUI:UpdateShadows()
 end
 
 function BUI:DasOptions()
-	E:ToggleOptionsUI()
+	E:ToggleOptions()
 	LibStub("AceConfigDialog-3.0-ElvUI"):SelectGroup("ElvUI", "benikui")
 end
 

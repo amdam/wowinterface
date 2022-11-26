@@ -77,3 +77,6 @@ Kui_Nameplates: disabled
 Kui_Nameplates_Core: disabled
 Kui_Nameplates_Core_Config: disabled
 OmniCD: disabled
+Blizzard_ObjectiveTracker: enabled
+Blizzard_CompactRaidFrames: enabled
+ElvUI_UnitFramePlugin: disabled

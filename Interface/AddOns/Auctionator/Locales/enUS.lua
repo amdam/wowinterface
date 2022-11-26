@@ -182,6 +182,7 @@ AUCTIONATOR_LOCALES.enUS = function()
   L["COPY_NO_LIST_SELECTED"] = "Can't copy item. No shopping list selected"
   L["COPY_ITEM_ADDED"] = "Copied %s to %s"
   L["COPY_TO_LIST"] = "Copy item to active shopping list"
+  L["EXTENDED_SEARCH_ACTIVE_TEXT"] = "%extended search active%"
 
   L["SHOPPING_TAB"] = "Shopping"
   L["SHOPPING_TAB_HEADER_2"] = "Auctionator - Shopping"
@@ -544,6 +545,7 @@ AUCTIONATOR_LOCALES.enUS = function()
   L["TOTAL_ON_SALE"] = "Total on sale: %s"
   L["TOTAL_PENDING"] = "(%s pending)"
   L["CURRENT_PRICES"] = "Current Prices"
+  L["PRICE_HISTORY"] = "Price History"
   L["REALM_HISTORY"] = "Realm History"
   L["YOUR_HISTORY"] = "Your History"
   L["EXPORT_RESULTS"] = "Export Results"

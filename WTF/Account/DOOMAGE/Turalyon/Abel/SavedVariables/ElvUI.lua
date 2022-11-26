@@ -2,358 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"or a necrotic week", -- [1]
-			"Wumborama-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			213, -- [11]
-			"Player-3685-08CF9F04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Wumborama|r",
-			[51] = 1614638988,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [1]
-		{
-			"then why do so many people play it", -- [1]
-			"Abel-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			214, -- [11]
-			"Player-3685-099FD3E3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeAbel|r",
-			[51] = 1614638991,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [2]
-		{
-			"they're bad at all 3", -- [1]
-			"Wumborama-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			215, -- [11]
-			"Player-3685-08CF9F04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Wumborama|r",
-			[51] = 1614638995,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [3]
-		{
-			"a lot of people play it because they see the high keys usually use a disc priest and then they think they can do it, but disc has a really high skill cap to it", -- [1]
-			"Wumborama-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			217, -- [11]
-			"Player-3685-08CF9F04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Wumborama|r",
-			[51] = 1614639023,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [4]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:655:Player-3685-099FD3E3:1:3:1:21:4294967295:4294967295:4294967295:4294967295|h[Opening of the Dark Portal]|h|r!", -- [1]
-			"Abel-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Abel-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			218, -- [11]
-			"Player-3685-099FD3E3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeAbel|r",
-			[51] = 1614639028,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [5]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:676:Player-3685-099FD3E3:1:3:1:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Opening of the Dark Portal]|h|r!", -- [1]
-			"Abel-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Abel-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			220, -- [11]
-			"Player-3685-099FD3E3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeAbel|r",
-			[51] = 1614639028,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [6]
-		{
-			"it requires a lot of pro-active healing, even moreso than druid", -- [1]
-			"Wumborama-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			247, -- [11]
-			"Player-3685-08CF9F04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Wumborama|r",
-			[51] = 1614639060,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [7]
-		{
-			"with druid, you can get away with not being as pro-active as much, but with disc, you need to be pro-active, since most of your healing comes through atonement", -- [1]
-			"Wumborama-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			248, -- [11]
-			"Player-3685-08CF9F04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Wumborama|r",
-			[51] = 1614639084,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [8]
-		{
-			"was reading in dungeons you can be a lot more reactive though", -- [1]
-			"Abel-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			249, -- [11]
-			"Player-3685-099FD3E3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeAbel|r",
-			[51] = 1614639088,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [9]
-		{
-			"because your aoe heal hits the whole party", -- [1]
-			"Abel-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			250, -- [11]
-			"Player-3685-099FD3E3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeAbel|r",
-			[51] = 1614639095,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [10]
-		{
-			"you only have 1 straight heal, and 2 charges on your aoe heal", -- [1]
-			"Wumborama-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			251, -- [11]
-			"Player-3685-08CF9F04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Wumborama|r",
-			[51] = 1614639098,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [11]
-		{
-			"so its quick to just top everyone off", -- [1]
-			"Abel-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			252, -- [11]
-			"Player-3685-099FD3E3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeAbel|r",
-			[51] = 1614639100,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [12]
-		{
-			"yeah i mean its only to apply attonement", -- [1]
-			"Abel-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			253, -- [11]
-			"Player-3685-099FD3E3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeAbel|r",
-			[51] = 1614639116,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [13]
-		{
-			"thats where all your healing comes from", -- [1]
-			"Abel-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			254, -- [11]
-			"Player-3685-099FD3E3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeAbel|r",
-			[51] = 1614639126,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [14]
-		{
-			"they are very bad at dealing with burst dmg", -- [1]
-			"Wumborama-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			255, -- [11]
-			"Player-3685-08CF9F04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Wumborama|r",
-			[51] = 1614639145,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [15]
-		{
-			"you'll find a lot of disc players don't run on the bad burst healing weeks", -- [1]
-			"Wumborama-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			256, -- [11]
-			"Player-3685-08CF9F04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Wumborama|r",
-			[51] = 1614639163,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [16]
-		{
 			"idk ive been in several 15 or 16 pugs with disc priest heals and they didnt have problems", -- [1]
 			"Abel-Turalyon", -- [2]
 			"", -- [3]
@@ -374,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1614639165,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [17]
+		}, -- [1]
 		{
 			"i bet bursting is miserable", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -396,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1614639183,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [18]
+		}, -- [2]
 		{
 			"topping people off between packs when there's nothing to attack", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -418,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1614639191,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [19]
+		}, -- [3]
 		{
 			"man I went to the gym after 2 months of lockdown", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -440,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1614639900,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [20]
+		}, -- [4]
 		{
 			"how'd that go", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -462,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1614639914,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [21]
+		}, -- [5]
 		{
 			"and I was struggling squatting 185 when before it felt as light as the bar as I was squatting 225 before lockdown", -- [1]
 			"Wumborama-Turalyon", -- [2]
@@ -484,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wumborama|r",
 			[51] = 1614639925,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [22]
+		}, -- [6]
 		{
 			"to be expected when you dont work out for a while lol", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -506,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1614639960,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [23]
+		}, -- [7]
 		{
 			"where?", -- [1]
 			"Edwinpg-Quel'Thalas", -- [2]
@@ -528,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Edwinpg-Quel'Thalas|r",
 			[51] = 1614640584,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [24]
+		}, -- [8]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:649:Player-3685-099FD3E3:1:3:1:21:4294967295:4294967295:4294967295:4294967295|h[The Slave Pens]|h|r!", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -550,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1614641159,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [25]
+		}, -- [9]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:669:Player-3685-099FD3E3:1:3:1:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Slave Pens]|h|r!", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -572,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1614641159,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [26]
+		}, -- [10]
 		{
 			"thanks ", -- [1]
 			"Blueberryfay-MoonGuard", -- [2]
@@ -594,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBlueberryfay-MoonGuard|r",
 			[51] = 1614641172,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [27]
+		}, -- [11]
 		{
 			"thks", -- [1]
 			"Edwinpg-Quel'Thalas", -- [2]
@@ -616,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Edwinpg-Quel'Thalas|r",
 			[51] = 1614641176,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [28]
+		}, -- [12]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:657:Player-3685-099FD3E3:1:3:1:21:4294967295:4294967295:4294967295:4294967295|h[The Shattered Halls]|h|r!", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -638,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1614642774,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [29]
+		}, -- [13]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:678:Player-3685-099FD3E3:1:3:1:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Shattered Halls]|h|r!", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -660,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1614642774,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [30]
+		}, -- [14]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4476:Player-3685-099FD3E3:1:3:1:21:4294967295:4294967295:4294967295:4294967295|h[Looking For More]|h|r!", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -682,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1614642774,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [31]
+		}, -- [15]
 		{
 			"ty for group", -- [1]
 			"Faeyt-Icecrown", -- [2]
@@ -704,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Faeyt-Icecrown|r",
 			[51] = 1614642808,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [32]
+		}, -- [16]
 		{
 			"my b didnt think that other group would get pulled", -- [1]
 			"Artanius-Fizzcrank", -- [2]
@@ -726,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Artanius-Fizzcrank|r",
 			[51] = 1614644614,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [33]
+		}, -- [17]
 		{
 			"lol", -- [1]
 			"Slumped-Daggerspine", -- [2]
@@ -748,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Slumped-Daggerspine|r",
 			[51] = 1614644658,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [34]
+		}, -- [18]
 		{
 			"this is embarrassing", -- [1]
 			"Artanius-Fizzcrank", -- [2]
@@ -770,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Artanius-Fizzcrank|r",
 			[51] = 1614645172,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [35]
+		}, -- [19]
 		{
 			"my shield broke", -- [1]
 			"Artanius-Fizzcrank", -- [2]
@@ -792,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Artanius-Fizzcrank|r",
 			[51] = 1614645176,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [36]
+		}, -- [20]
 		{
 			"oof", -- [1]
 			"Slumped-Daggerspine", -- [2]
@@ -814,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Slumped-Daggerspine|r",
 			[51] = 1614645181,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [37]
+		}, -- [21]
 		{
 			"i'm in oribos so it shoul only take a sec", -- [1]
 			"Artanius-Fizzcrank", -- [2]
@@ -836,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Artanius-Fizzcrank|r",
 			[51] = 1614645204,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [38]
+		}, -- [22]
 		{
 			"rookie move Artanius. Rookie move", -- [1]
 			"Artanius-Fizzcrank", -- [2]
@@ -858,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Artanius-Fizzcrank|r",
 			[51] = 1614645238,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [39]
+		}, -- [23]
 		{
 			"ty", -- [1]
 			"Reshiér-Trollbane", -- [2]
@@ -880,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Reshiér-Trollbane|r",
 			[51] = 1614645541,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [40]
+		}, -- [24]
 		{
 			"couldnt help that pull sorry", -- [1]
 			"Slumped-Daggerspine", -- [2]
@@ -902,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Slumped-Daggerspine|r",
 			[51] = 1614645666,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [41]
+		}, -- [25]
 		{
 			"all good", -- [1]
 			"Artanius-Fizzcrank", -- [2]
@@ -924,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Artanius-Fizzcrank|r",
 			[51] = 1614645673,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [42]
+		}, -- [26]
 		{
 			"lol trigger happy ", -- [1]
 			"Slumped-Daggerspine", -- [2]
@@ -946,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Slumped-Daggerspine|r",
 			[51] = 1614645741,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [43]
+		}, -- [27]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:651:Player-3685-099FD3E3:1:3:1:21:4294967295:4294967295:4294967295:4294967295|h[Mana-Tombs]|h|r!", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -968,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1614645817,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [44]
+		}, -- [28]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:671:Player-3685-099FD3E3:1:3:1:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: Mana-Tombs]|h|r!", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -990,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1614645817,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [45]
+		}, -- [29]
 		{
 			"thx all", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -1012,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1614645839,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [46]
+		}, -- [30]
 		{
 			"this place is awful", -- [1]
 			"Deathyamz-Stormrage", -- [2]
@@ -1034,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Deathyamz-Stormrage|r",
 			[51] = 1614646747,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [47]
+		}, -- [31]
 		{
 			"yeah some packs are easy and others global you", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -1056,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1614646766,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [48]
+		}, -- [32]
 		{
 			"lol", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -1078,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1614646767,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [49]
+		}, -- [33]
 		{
 			"rip", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -1100,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1614647063,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [50]
+		}, -- [34]
 		{
 			"Kicked |cff71d5ff|Hspell:48045:0|h[Mind Sear]|h|r", -- [1]
 			"Deathyamz-Stormrage", -- [2]
@@ -1122,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Deathyamz-Stormrage|r",
 			[51] = 1614647064,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
+		}, -- [35]
 		{
 			"Investida em Zoks", -- [1]
 			"Zoks-Nemesis", -- [2]
@@ -1144,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Zoks-Nemesis|r",
 			[51] = 1614647160,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [52]
+		}, -- [36]
 		{
 			"Kicked |cff71d5ff|Hspell:39013:0|h[Heal]|h|r", -- [1]
 			"Deathyamz-Stormrage", -- [2]
@@ -1166,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Deathyamz-Stormrage|r",
 			[51] = 1614647282,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [53]
+		}, -- [37]
 		{
 			"Kicked |cff71d5ff|Hspell:38899:0|h[Shadow Mend]|h|r", -- [1]
 			"Deathyamz-Stormrage", -- [2]
@@ -1188,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Deathyamz-Stormrage|r",
 			[51] = 1614647498,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [54]
+		}, -- [38]
 		{
 			"lol", -- [1]
 			"Rheeno-Stormrage", -- [2]
@@ -1210,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaRheeno-Stormrage|r",
 			[51] = 1614647538,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [55]
+		}, -- [39]
 		{
 			"thanks for the res", -- [1]
 			"Rheeno-Stormrage", -- [2]
@@ -1232,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaRheeno-Stormrage|r",
 			[51] = 1614647569,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [56]
+		}, -- [40]
 		{
 			"gotta stack for meteor", -- [1]
 			"Deathyamz-Stormrage", -- [2]
@@ -1254,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Deathyamz-Stormrage|r",
 			[51] = 1614647580,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [57]
+		}, -- [41]
 		{
 			"ow", -- [1]
 			"Rheeno-Stormrage", -- [2]
@@ -1276,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaRheeno-Stormrage|r",
 			[51] = 1614647692,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [58]
+		}, -- [42]
 		{
 			"Kicked |cff71d5ff|Hspell:19750:0|h[Flash of Light]|h|r", -- [1]
 			"Deathyamz-Stormrage", -- [2]
@@ -1298,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Deathyamz-Stormrage|r",
 			[51] = 1614648051,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
+		}, -- [43]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:660:Player-3685-099FD3E3:1:3:1:21:4294967295:4294967295:4294967295:4294967295|h[The Arcatraz]|h|r!", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -1320,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1614648068,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [60]
+		}, -- [44]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:681:Player-3685-099FD3E3:1:3:1:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Arcatraz]|h|r!", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -1342,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1614648068,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [61]
+		}, -- [45]
 		{
 			"thx all", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -1364,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1614648081,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [62]
+		}, -- [46]
 		{
 			"thanks guys", -- [1]
 			"Rheeno-Stormrage", -- [2]
@@ -1386,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaRheeno-Stormrage|r",
 			[51] = 1614648085,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [63]
+		}, -- [47]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14628:Player-3685-099FD3E3:1:3:1:21:4294967295:4294967295:4294967295:4294967295|h[The Road to Renown]|h|r!", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -1408,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1614648225,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [64]
+		}, -- [48]
 		{
 			"Thanks folks!", -- [1]
 			"Trini-Uldum", -- [2]
@@ -1430,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Trini-Uldum|r",
 			[51] = 1616099156,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [65]
+		}, -- [49]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14754:Player-3685-099FD3E3:1:3:18:21:4294967295:4294967295:4294967295:4294967295|h[The Forgotten One]|h|r!", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -1452,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1616103498,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [66]
+		}, -- [50]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:507:Player-3685-099FD3E3:1:3:18:21:4294967295:4294967295:4294967295:4294967295|h[1000 Quests Completed]|h|r!", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -1474,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1616107233,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [67]
+		}, -- [51]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14835:Player-3685-099FD3E3:1:3:18:21:4294967295:4294967295:4294967295:4294967295|h[A Resolute Bond]|h|r!", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -1496,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1616107259,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [68]
+		}, -- [52]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1182:Player-3685-099FD3E3:1:3:18:21:4294967295:4294967295:4294967295:4294967295|h[The Bread Winner]|h|r!", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -1518,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1616112515,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [69]
+		}, -- [53]
 		{
 			"ty all", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -1540,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1616112532,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [70]
+		}, -- [54]
 		{
 			"Summoned boss here, anyone wanna help me kill it!?", -- [1]
 			"Sabataesh-Turalyon", -- [2]
@@ -1562,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Sabataesh|r",
 			[51] = 1616117799,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [55]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-22931-3685-47611382|h[Guild: The Elders of Turalyon]|h|r: 2 Raiding Teams (10/10N 9/10H), Daily Mythics, TMog/Mount runs, special events, casuals and alts welcome, active chat. Come join us!", -- [1]
 			"Agonnex-Turalyon", -- [2]
@@ -1584,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Agonnex|r",
 			[51] = 1616121222,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [56]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14772:Player-3685-099FD3E3:1:3:19:21:4294967295:4294967295:4294967295:4294967295|h[Caught in a Bat Romance]|h|r!", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -1606,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1616176146,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [73]
+		}, -- [57]
 		{
 			"Dead Blanchy |cffffff00|Hworldmap:1525:6313:4311|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
 			"Theylin-Turalyon", -- [2]
@@ -1628,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Theylin|r",
 			[51] = 1616176410,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [58]
 		{
 			"tis bat is up", -- [1]
 			"Theylin-Turalyon", -- [2]
@@ -1650,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Theylin|r",
 			[51] = 1616177450,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [59]
 		{
 			"he drops flying mount", -- [1]
 			"Theylin-Turalyon", -- [2]
@@ -1672,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Theylin|r",
 			[51] = 1616177461,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [60]
 		{
 			"tis bat? what?", -- [1]
 			"Aanaris-Duskwood", -- [2]
@@ -1694,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Aanaris-Duskwood|r",
 			[51] = 1616177488,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [61]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14629:Player-3685-099FD3E3:1:3:19:21:4294967295:4294967295:4294967295:4294967295|h[Gaining Respect]|h|r!", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -1716,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1616177901,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [78]
+		}, -- [62]
 		{
 			"sorry, got twitchy", -- [1]
 			"Frijole-Greymane", -- [2]
@@ -1738,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Frijole-Greymane|r",
 			[51] = 1616190729,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [79]
+		}, -- [63]
 		{
 			"Embalming Ichor on Illyn", -- [1]
 			"Illyn-Thunderlord", -- [2]
@@ -1760,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Illyn-Thunderlord|r",
 			[51] = 1616191444,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [80]
+		}, -- [64]
 		{
 			"Meat Hook on Anùbís", -- [1]
 			"Anùbís-Kel'Thuzad", -- [2]
@@ -1782,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Anùbís-Kel'Thuzad|r",
 			[51] = 1616191444,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [81]
+		}, -- [65]
 		{
 			"3", -- [1]
 			"Anùbís-Kel'Thuzad", -- [2]
@@ -1804,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Anùbís-Kel'Thuzad|r",
 			[51] = 1616191445,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [82]
+		}, -- [66]
 		{
 			"2", -- [1]
 			"Anùbís-Kel'Thuzad", -- [2]
@@ -1826,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Anùbís-Kel'Thuzad|r",
 			[51] = 1616191446,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [83]
+		}, -- [67]
 		{
 			"1", -- [1]
 			"Anùbís-Kel'Thuzad", -- [2]
@@ -1848,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Anùbís-Kel'Thuzad|r",
 			[51] = 1616191447,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [84]
+		}, -- [68]
 		{
 			"Meat Hook on Abel", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -1870,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1616191462,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [85]
+		}, -- [69]
 		{
 			"2", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -1892,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1616191464,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [86]
+		}, -- [70]
 		{
 			"1", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -1914,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1616191465,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [87]
+		}, -- [71]
 		{
 			"Frozen Binds on Illyn", -- [1]
 			"Illyn-Thunderlord", -- [2]
@@ -1936,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Illyn-Thunderlord|r",
 			[51] = 1616191514,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
+		}, -- [72]
 		{
 			"Frozen Binds", -- [1]
 			"Anùbís-Kel'Thuzad", -- [2]
@@ -1958,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Anùbís-Kel'Thuzad|r",
 			[51] = 1616191523,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
+		}, -- [73]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14367:Player-3685-099FD3E3:1:3:19:21:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Necrotic Wake]|h|r!", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -1980,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1616191584,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [90]
+		}, -- [74]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14775:Player-3685-0724BC64:1:3:20:21:4294967295:4294967295:4294967295:4294967295|h[Mush Appreciated]|h|r!", -- [1]
 			"Duvai-Turalyon", -- [2]
@@ -2002,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Duvai|r",
 			[51] = 1616261609,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [91]
+		}, -- [75]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14836:Player-3685-099FD3E3:1:3:20:21:4294967295:4294967295:4294967295:4294967295|h[Unwavering Bond]|h|r!", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -2024,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1616264262,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [92]
+		}, -- [76]
 		{
 			"rez pls", -- [1]
 			"Raeya-MoonGuard", -- [2]
@@ -2046,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeRaeya-MoonGuard|r",
 			[51] = 1617329889,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [93]
+		}, -- [77]
 		{
 			"|cff71d5ff|Hspell:147362:0|h[Counter Shot]|h|r interrupted Chosen Warhound's |cff71d5ff|Hspell:333929:0|h[Bestial Howl]|h|r!", -- [1]
 			"Gíngërspícè-Stormrage", -- [2]
@@ -2068,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Gíngërspícè-Stormrage|r",
 			[51] = 1617330218,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [94]
+		}, -- [78]
 		{
 			"thx all", -- [1]
 			"Gíngërspícè-Stormrage", -- [2]
@@ -2090,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Gíngërspícè-Stormrage|r",
 			[51] = 1617330412,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [95]
+		}, -- [79]
 		{
 			"ty all", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -2112,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1617330421,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [96]
+		}, -- [80]
 		{
 			"hey when did you hit 60 on your priest?", -- [1]
 			"Taugul-Turalyon", -- [2]
@@ -2134,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Taugul|r",
 			[51] = 1627600974,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [97]
+		}, -- [81]
 		{
 			"lol months ago while everyone was afk for 4 months", -- [1]
 			"Abel-Turalyon", -- [2]
@@ -2156,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAbel|r",
 			[51] = 1627600991,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [98]
+		}, -- [82]
 		{
 			"makes sense lol", -- [1]
 			"Taugul-Turalyon", -- [2]
@@ -2178,29 +1826,381 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Taugul|r",
 			[51] = 1627600999,
 			[50] = "CHAT_MSG_GUILD",
+		}, -- [83]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14796:Player-3685-099FD3E3:1:11:21:22:4294967295:4294967295:4294967295:4294967295|h[Superior]|h|r!", -- [1]
+			"Abel-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Abel-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			85, -- [11]
+			"Player-3685-099FD3E3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffffffffAbel|r",
+			[51] = 1669104325,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [84]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:15218:Player-3685-099FD3E3:1:11:21:22:4294967295:4294967295:4294967295:4294967295|h[WoW's 18th Anniversary]|h|r!", -- [1]
+			"Abel-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Abel-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			86, -- [11]
+			"Player-3685-099FD3E3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffffffffAbel|r",
+			[51] = 1669104325,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [85]
+		{
+			"hey there big boy", -- [1]
+			"|Kq41|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			58, -- [11]
+			false, -- [12]
+			34, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372dougyfresh|r",
+			[51] = 1669488592,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [86]
+		{
+			"hello there", -- [1]
+			"|Kq41|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			59, -- [11]
+			false, -- [12]
+			34, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372dougyfresh|r",
+			[51] = 1669488545,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [87]
+		{
+			"do you need any help with your hotkeys or anything", -- [1]
+			"|Kq41|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			60, -- [11]
+			false, -- [12]
+			34, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372dougyfresh|r",
+			[51] = 1669488705,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [88]
+		{
+			"clicking abilities is for scrubs", -- [1]
+			"|Kq41|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			61, -- [11]
+			false, -- [12]
+			34, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372dougyfresh|r",
+			[51] = 1669488717,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [89]
+		{
+			"and if you're pro like me you can hit all the important things with your left hand", -- [1]
+			"|Kq41|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			62, -- [11]
+			false, -- [12]
+			34, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372dougyfresh|r",
+			[51] = 1669488673,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [90]
+		{
+			"wow", -- [1]
+			"|Kq41|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			63, -- [11]
+			false, -- [12]
+			34, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372dougyfresh|r",
+			[51] = 1669488760,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [91]
+		{
+			"yeah idk about hotkeys so i probably need help", -- [1]
+			"|Kq41|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			64, -- [11]
+			false, -- [12]
+			34, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372dougyfresh|r",
+			[51] = 1669488723,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [92]
+		{
+			"want me to come over sometime today?", -- [1]
+			"|Kq41|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			65, -- [11]
+			false, -- [12]
+			34, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372dougyfresh|r",
+			[51] = 1669488734,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [93]
+		{
+			"maybe when miles goes down for his nap", -- [1]
+			"|Kq41|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			66, -- [11]
+			false, -- [12]
+			34, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372dougyfresh|r",
+			[51] = 1669488743,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [94]
+		{
+			"yeah bro that's a good idea", -- [1]
+			"|Kq41|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			67, -- [11]
+			false, -- [12]
+			34, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372dougyfresh|r",
+			[51] = 1669488755,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [95]
+		{
+			"ok i made a priest to level with you", -- [1]
+			"|Kq41|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			68, -- [11]
+			false, -- [12]
+			34, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372dougyfresh|r",
+			[51] = 1669488782,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [96]
+		{
+			"and i think i got it to the same point in the quests you're at", -- [1]
+			"|Kq41|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			69, -- [11]
+			false, -- [12]
+			34, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372dougyfresh|r",
+			[51] = 1669488790,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [97]
+		{
+			"nice. im trying to find my next quest on the map rn", -- [1]
+			"|Kq41|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			70, -- [11]
+			false, -- [12]
+			34, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372dougyfresh|r",
+			[51] = 1669488854,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [98]
+		{
+			"let me log over and i will help", -- [1]
+			"|Kq41|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			71, -- [11]
+			false, -- [12]
+			34, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372dougyfresh|r",
+			[51] = 1669488866,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/g having always played dps and tank specs", -- [1]
-		"/g then why do so many people play it", -- [2]
-		"/g was reading in dungeons you can be a lot more reactive though", -- [3]
-		"/g because your aoe heal hits the whole party", -- [4]
-		"/g so its quick to just top everyone off", -- [5]
-		"/g yeah i mean its only to apply attonement", -- [6]
-		"/g thats where all your healing comes from", -- [7]
-		"/g idk ive been in several 15 or 16 pugs with disc priest heals and they didnt have problems", -- [8]
-		"/g i bet bursting is miserable", -- [9]
-		"/g topping people off between packs when there's nothing to attack", -- [10]
-		"/g how'd that go", -- [11]
-		"/g to be expected when you dont work out for a while lol", -- [12]
-		"/i yeah some packs are easy and others global you", -- [13]
-		"/i lol", -- [14]
-		"/i rip", -- [15]
-		"/i thx all", -- [16]
-		"/clique", -- [17]
-		"/p ty all", -- [18]
-		"/macro", -- [19]
-		"/g lol months ago while everyone was afk for 4 months", -- [20]
+		"/g topping people off between packs when there's nothing to attack", -- [1]
+		"/g how'd that go", -- [2]
+		"/g to be expected when you dont work out for a while lol", -- [3]
+		"/i yeah some packs are easy and others global you", -- [4]
+		"/i lol", -- [5]
+		"/i rip", -- [6]
+		"/i thx all", -- [7]
+		"/p ty all", -- [8]
+		"/g lol months ago while everyone was afk for 4 months", -- [9]
+		"/clique", -- [10]
+		"hey there big boy", -- [11]
+		"do you need any help with your hotkeys or anything", -- [12]
+		"clicking abilities is for scrubs", -- [13]
+		"and if you're pro like me you can hit all the important things with your left hand", -- [14]
+		"/macro", -- [15]
+		"want me to come over sometime today?", -- [16]
+		"maybe when miles goes down for his nap", -- [17]
+		"ok i made a priest to level with you", -- [18]
+		"and i think i got it to the same point in the quests you're at", -- [19]
+		"let me log over and i will help", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

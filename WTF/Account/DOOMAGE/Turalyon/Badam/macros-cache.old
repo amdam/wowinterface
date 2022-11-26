@@ -7,13 +7,13 @@ END
 VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast [nomodifier,spec:2] Bloodthirst; [nomodifier,spec:3] Devastate; [nomodifier,spec:1] Overpower; /cast [modifier:alt] Victory Rush
+/cast [mod:alt] Whirlwind; [spec:2] Bloodthirst; [spec:3] Devastate; [spec:1] Overpower;
 /script UIErrorsFrame:Clear();
 END
 VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast [nomodifier,spec:2] Raging Blow; [nomodifier,spec:3] Shield Slam; /cast [modifier:alt] Heroic Leap
+/cast [mod:alt] Heroic Leap; [spec:2,noknown:Annihilator] Raging Blow; [spec:2,known:Annihilator] Whirlwind; [spec:3] Shield Slam;
 /script UIErrorsFrame:Clear();
 END
 VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
@@ -29,7 +29,7 @@ VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000009 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] Heroic Throw; [spec:2] Odyn's Fury;
+/cast [mod:alt] Heroic Throw; [spec:2] Odyn's Fury; [spec:3] Taunt;
 /script UIErrorsFrame:Clear();
 END
 VER 3 010000000000000A " " "INV_MISC_QUESTIONMARK"

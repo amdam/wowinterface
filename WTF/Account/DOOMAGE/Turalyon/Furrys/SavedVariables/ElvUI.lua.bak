@@ -1,270 +1,6 @@
 
 ElvCharacterDB = {
-	["ChatEditHistory"] = {
-		"/simc", -- [1]
-		"/ec", -- [2]
-		"/weakauras", -- [3]
-		"/clique", -- [4]
-		"/g hi wade", -- [5]
-		"/g yeah", -- [6]
-		"/g its my last non 50 character", -- [7]
-		"/g lol chromie time doesn't reset your quest progress in an expansion you already played through when it was current", -- [8]
-		"/g and suramar quests do not award exp", -- [9]
-		"/g yeah i'm not counting on being able to play much tomorrow though", -- [10]
-		"/g expecting the inevitable ddos", -- [11]
-		"/g and high traffic", -- [12]
-		"/g yeah i'll try, by the time i'm able to get in it'll pretty much be the end of the work day anyway", -- [13]
-		"/g i'll have a lot this week too, i'm pretty much the only one on my team thats going to be working", -- [14]
-		"/g which really limits me on what i can actually get done", -- [15]
-		"/g both huh", -- [16]
-		"/macro", -- [17]
-		"/g hey Nick, sry i must have been afk when you got on", -- [18]
-		"/g i used Skada through bfa, but when prepatch came out i switched over ot details to give it a try, working well for me so far", -- [19]
-		"/g though i think Skada segments \"fights\" better", -- [20]
-	},
 	["ChatHistoryLog"] = {
-		{
-			"hey adam, doing some keys if you're still in the push mood", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Azados", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			44, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1530231349,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [1]
-		{
-			"hi arwyl", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Azados", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			69, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1530231656,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [2]
-		{
-			"hi dos!", -- [1]
-			"Evisa-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Evisa", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			84, -- [11]
-			"Player-3685-09A782AA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dEvisa|r",
-			[51] = 1530231758,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [3]
-		{
-			"'", -- [1]
-			"Furrys-Turalyon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Furrys", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			121, -- [11]
-			"Player-3685-07180DDD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff96Furrys|r",
-			[51] = 1530232105,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [4]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:842:Player-3685-09D6399F:1:6:28:18:4294967295:4294967295:4294967295:4294967295|h[Explore Teldrassil]|h|r!", -- [1]
-			"Arwyly-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Arwyly", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			172, -- [11]
-			"Player-3685-09D6399F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Arwyly|r",
-			[51] = 1530232726,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [5]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:545:Player-3685-09D6399F:1:6:28:18:4294967295:4294967295:4294967295:4294967295|h[Shave and a Haircut]|h|r!", -- [1]
-			"Arwyly-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Arwyly", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			261, -- [11]
-			"Player-3685-09D6399F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Arwyly|r",
-			[51] = 1530233518,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [6]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:11612:Player-3685-07180DDD:1:6:28:18:4294967295:4294967295:4294967295:4294967295|h[Fighting with Style: Challenging]|h|r!", -- [1]
-			"Furrys-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Furrys", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			335, -- [11]
-			"Player-3685-07180DDD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff96Furrys|r",
-			[51] = 1530234297,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [7]
-		{
-			"Horseman rise...", -- [1]
-			"Furrys-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Furrys-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			906, -- [11]
-			"Player-3685-07180DDD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Furrys|r",
-			[51] = 1603310730,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [8]
-		{
-			"Your time is nigh...", -- [1]
-			"Furrys-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Furrys-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			907, -- [11]
-			"Player-3685-07180DDD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Furrys|r",
-			[51] = 1603310732,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [9]
-		{
-			"You felt death once...", -- [1]
-			"Furrys-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Furrys-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			908, -- [11]
-			"Player-3685-07180DDD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Furrys|r",
-			[51] = 1603310734,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [10]
-		{
-			"Now, know demise!", -- [1]
-			"Furrys-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Furrys-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			910, -- [11]
-			"Player-3685-07180DDD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Furrys|r",
-			[51] = 1603310736,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [11]
 		{
 			"Horseman rise...", -- [1]
 			"Cendenarran-Lothar", -- [2]
@@ -286,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Cendenarran-Lothar|r",
 			[51] = 1603493172,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
+		}, -- [1]
 		{
 			"Horseman rise...", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -308,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1603493173,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [13]
+		}, -- [2]
 		{
 			"Your time is nigh...", -- [1]
 			"Cendenarran-Lothar", -- [2]
@@ -330,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Cendenarran-Lothar|r",
 			[51] = 1603493174,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [14]
+		}, -- [3]
 		{
 			"Your time is nigh...", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -352,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1603493175,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [15]
+		}, -- [4]
 		{
 			"You felt death once...", -- [1]
 			"Cendenarran-Lothar", -- [2]
@@ -374,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Cendenarran-Lothar|r",
 			[51] = 1603493176,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [16]
+		}, -- [5]
 		{
 			"You felt death once...", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -396,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1603493177,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [17]
+		}, -- [6]
 		{
 			"Now, know demise!", -- [1]
 			"Cendenarran-Lothar", -- [2]
@@ -418,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Cendenarran-Lothar|r",
 			[51] = 1603493179,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [18]
+		}, -- [7]
 		{
 			"Now, know demise!", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -440,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1603493180,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [19]
+		}, -- [8]
 		{
 			"Horseman rise...", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -462,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1603559629,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [20]
+		}, -- [9]
 		{
 			"Your time is nigh...", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -484,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1603559631,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [21]
+		}, -- [10]
 		{
 			"You felt death once...", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -506,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1603559633,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [22]
+		}, -- [11]
 		{
 			"Now, know demise!", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -528,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1603559636,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [23]
+		}, -- [12]
 		{
 			"Horseman rise...", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -550,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1603645756,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [24]
+		}, -- [13]
 		{
 			"Your time is nigh...", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -572,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1603645758,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [25]
+		}, -- [14]
 		{
 			"You felt death once...", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -594,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1603645760,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [26]
+		}, -- [15]
 		{
 			"Now, know demise!", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -616,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1603645763,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [27]
+		}, -- [16]
 		{
 			"THX ALL", -- [1]
 			"Lost-Turalyon", -- [2]
@@ -638,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLost|r",
 			[51] = 1603645928,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [28]
+		}, -- [17]
 		{
 			"Constance Road", -- [1]
 			"Glodaror-Bloodhoof", -- [2]
@@ -660,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Glodaror-Bloodhoof|r",
 			[51] = 1603756325,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [18]
 		{
 			"Horseman rise...", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -682,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1603756374,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [30]
+		}, -- [19]
 		{
 			"Your time is nigh...", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -704,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1603756376,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [31]
+		}, -- [20]
 		{
 			"You felt death once...", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -726,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1603756378,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [32]
+		}, -- [21]
 		{
 			"Now, know demise!", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -748,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1603756381,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [33]
+		}, -- [22]
 		{
 			"Horseman rise...", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -770,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1603837410,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [34]
+		}, -- [23]
 		{
 			"Your time is nigh...", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -792,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1603837412,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [35]
+		}, -- [24]
 		{
 			"You felt death once...", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -814,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1603837413,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [36]
+		}, -- [25]
 		{
 			"Now, know demise!", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -836,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1603837417,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [37]
+		}, -- [26]
 		{
 			"thanks guys", -- [1]
 			"Hanzori-MoonGuard", -- [2]
@@ -858,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaHanzori-MoonGuard|r",
 			[51] = 1603837558,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [38]
+		}, -- [27]
 		{
 			"Horseman rise...", -- [1]
 			"Ishnufalador-Quel'Thalas", -- [2]
@@ -880,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Ishnufalador-Quel'Thalas|r",
 			[51] = 1603927208,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [39]
+		}, -- [28]
 		{
 			"Your time is nigh...", -- [1]
 			"Ishnufalador-Quel'Thalas", -- [2]
@@ -902,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Ishnufalador-Quel'Thalas|r",
 			[51] = 1603927210,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [40]
+		}, -- [29]
 		{
 			"You felt death once...", -- [1]
 			"Ishnufalador-Quel'Thalas", -- [2]
@@ -924,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Ishnufalador-Quel'Thalas|r",
 			[51] = 1603927212,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [41]
+		}, -- [30]
 		{
 			"Now, know demise!", -- [1]
 			"Ishnufalador-Quel'Thalas", -- [2]
@@ -946,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Ishnufalador-Quel'Thalas|r",
 			[51] = 1603927215,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [42]
+		}, -- [31]
 		{
 			"Horseman rise...", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -968,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1604012545,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [43]
+		}, -- [32]
 		{
 			"Your time is nigh...", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -990,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1604012547,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
+		}, -- [33]
 		{
 			"You felt death once...", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -1012,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1604012549,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [45]
+		}, -- [34]
 		{
 			"Now, know demise!", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -1034,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1604012552,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
+		}, -- [35]
 		{
 			"Horseman rise...", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -1056,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1604168553,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [47]
+		}, -- [36]
 		{
 			"Your time is nigh...", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -1078,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1604168555,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [48]
+		}, -- [37]
 		{
 			"You felt death once...", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -1100,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1604168557,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [49]
+		}, -- [38]
 		{
 			"Now, know demise!", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -1122,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1604168560,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [50]
+		}, -- [39]
 		{
 			"When your tank is Furrys, there's nothing but worrys", -- [1]
 			"Taelyria-Turalyon", -- [2]
@@ -1144,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeTaelyria|r",
 			[51] = 1606069717,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [51]
+		}, -- [40]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-1689-3685-47613316|h[Guild: Beyond]|h|r is looking for new members! We are one of the oldest guilds on the server, and we want to have a strong start for questing, dungeons, and raids in the Shadowlands! Players of any level are welcome.", -- [1]
 			"Thaeria-Turalyon", -- [2]
@@ -1166,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcThaeria|r",
 			[51] = 1606070365,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [41]
 		{
 			"Does the exp eliminator guy not work anymore or something I can't turn my exp back on", -- [1]
 			"Lyanardrin-Turalyon", -- [2]
@@ -1188,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLyanardrin|r",
 			[51] = 1606070482,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [42]
 		{
 			"|cffffff00Trade District is under attack!|r", -- [1]
 			"", -- [2]
@@ -1210,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1606070737,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [43]
 		{
 			"|cffffff00Old Town is under attack!|r", -- [1]
 			"", -- [2]
@@ -1232,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1606071070,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [44]
 		{
 			"|cffffff00Dwarven District is under attack!|r", -- [1]
 			"", -- [2]
@@ -1254,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1606071080,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [45]
 		{
 			"|cffffff00The Wollerton Stead is under attack!|r", -- [1]
 			"", -- [2]
@@ -1276,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1606071225,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [46]
 		{
 			"|cffffff00Trade District is under attack!|r", -- [1]
 			"", -- [2]
@@ -1298,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1606071278,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [47]
 		{
 			"errrrrr how do i get to kultiras?", -- [1]
 			"Ignis-Bloodhoof", -- [2]
@@ -1320,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcIgnis-Bloodhoof|r",
 			[51] = 1606071404,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [48]
 		{
 			"i haven't opened it yet", -- [1]
 			"Ignis-Bloodhoof", -- [2]
@@ -1342,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcIgnis-Bloodhoof|r",
 			[51] = 1606071412,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [49]
 		{
 			"nvm", -- [1]
 			"Ignis-Bloodhoof", -- [2]
@@ -1364,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcIgnis-Bloodhoof|r",
 			[51] = 1606071578,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [50]
 		{
 			"there's a boat at the docks that takes you", -- [1]
 			"Eliena-Bloodhoof", -- [2]
@@ -1386,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeEliena-Bloodhoof|r",
 			[51] = 1606071586,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [51]
 		{
 			"hi adam", -- [1]
 			"Taelie-Turalyon", -- [2]
@@ -1408,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Taelie|r",
 			[51] = 1606072193,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [63]
+		}, -- [52]
 		{
 			"hi wade", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -1430,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1606072200,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [64]
+		}, -- [53]
 		{
 			"trying to get ur monk to 50", -- [1]
 			"Taelie-Turalyon", -- [2]
@@ -1452,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Taelie|r",
 			[51] = 1606072212,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [65]
+		}, -- [54]
 		{
 			"yeah", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -1474,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1606072224,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [66]
+		}, -- [55]
 		{
 			"its my last non 50 character", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -1496,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1606072232,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [67]
+		}, -- [56]
 		{
 			"cool", -- [1]
 			"Taelie-Turalyon", -- [2]
@@ -1518,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Taelie|r",
 			[51] = 1606072263,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [68]
+		}, -- [57]
 		{
 			"lol chromie time doesn't reset your quest progress in an expansion you already played through when it was current", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -1540,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1606072481,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [69]
+		}, -- [58]
 		{
 			"neat", -- [1]
 			"Taelie-Turalyon", -- [2]
@@ -1562,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Taelie|r",
 			[51] = 1606072497,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [70]
+		}, -- [59]
 		{
 			"and suramar quests do not award exp", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -1584,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1606072511,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [71]
+		}, -- [60]
 		{
 			"lame", -- [1]
 			"Taelie-Turalyon", -- [2]
@@ -1606,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Taelie|r",
 			[51] = 1606072522,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [72]
+		}, -- [61]
 		{
 			"You excited for shadowlands tomorrow bud?", -- [1]
 			"Taelie-Turalyon", -- [2]
@@ -1628,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Taelie|r",
 			[51] = 1606072531,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [73]
+		}, -- [62]
 		{
 			"yeah i'm not counting on being able to play much tomorrow though", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -1650,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1606072556,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [74]
+		}, -- [63]
 		{
 			"probably ddos'd to hell lol", -- [1]
 			"Taelie-Turalyon", -- [2]
@@ -1672,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Taelie|r",
 			[51] = 1606072565,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [75]
+		}, -- [64]
 		{
 			"expecting the inevitable ddos", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -1694,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1606072567,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [76]
+		}, -- [65]
 		{
 			"But I'm still gonna try to play", -- [1]
 			"Taelie-Turalyon", -- [2]
@@ -1716,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Taelie|r",
 			[51] = 1606072571,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [77]
+		}, -- [66]
 		{
 			"and high traffic", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -1738,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1606072575,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [78]
+		}, -- [67]
 		{
 			"yeah i'll try, by the time i'm able to get in it'll pretty much be the end of the work day anyway", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -1760,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1606072604,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [79]
+		}, -- [68]
 		{
 			"All I have is free time", -- [1]
 			"Taelie-Turalyon", -- [2]
@@ -1782,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Taelie|r",
 			[51] = 1606072682,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [80]
+		}, -- [69]
 		{
 			"i'll have a lot this week too, i'm pretty much the only one on my team thats going to be working", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -1804,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1606072703,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [81]
+		}, -- [70]
 		{
 			"which really limits me on what i can actually get done", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -1826,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1606072729,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [82]
+		}, -- [71]
 		{
 			"ya", -- [1]
 			"Taelie-Turalyon", -- [2]
@@ -1848,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Taelie|r",
 			[51] = 1606072765,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [83]
+		}, -- [72]
 		{
 			"I'm gonna level my priest and druid", -- [1]
 			"Taelie-Turalyon", -- [2]
@@ -1870,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Taelie|r",
 			[51] = 1606072878,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [84]
+		}, -- [73]
 		{
 			"both huh", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -1892,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1606072887,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [85]
+		}, -- [74]
 		{
 			"ya im healin on my priest an tankin on my druid", -- [1]
 			"Taelie-Turalyon", -- [2]
@@ -1914,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Taelie|r",
 			[51] = 1606072902,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [86]
+		}, -- [75]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12741:Player-3685-07180DDD:1:11:22:20:4294967295:4294967295:4294967295:4294967295|h[Giving a Scrap]|h|r!", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -1936,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1606079048,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [87]
+		}, -- [76]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14750:Player-3685-09322612:1:11:22:20:4294967295:4294967295:4294967295:4294967295|h[Death Rising]|h|r!", -- [1]
 			"Theidra-Turalyon", -- [2]
@@ -1958,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Theidra|r",
 			[51] = 1606079281,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [88]
+		}, -- [77]
 		{
 			"|cffffff00Trade District is under attack!|r", -- [1]
 			"", -- [2]
@@ -1980,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1606079580,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [78]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12582:Player-3685-07180DDD:1:11:22:20:4294967295:4294967295:4294967295:4294967295|h[Come Sail Away]|h|r!", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -2002,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1606079939,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [90]
+		}, -- [79]
 		{
 			"adam", -- [1]
 			"Duvai-Turalyon", -- [2]
@@ -2024,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Duvai|r",
 			[51] = 1606080644,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [91]
+		}, -- [80]
 		{
 			"people still using \"details!\" for dps shit", -- [1]
 			"Duvai-Turalyon", -- [2]
@@ -2046,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Duvai|r",
 			[51] = 1606080676,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [92]
+		}, -- [81]
 		{
 			"because its given me nothing but issues since ive been back", -- [1]
 			"Duvai-Turalyon", -- [2]
@@ -2068,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Duvai|r",
 			[51] = 1606080688,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [93]
+		}, -- [82]
 		{
 			"wtf man", -- [1]
 			"Duvai-Turalyon", -- [2]
@@ -2090,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Duvai|r",
 			[51] = 1606082415,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [94]
+		}, -- [83]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14782:Player-3685-07180DDD:1:11:22:20:4294967295:4294967295:4294967295:4294967295|h[Level 50]|h|r!", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -2112,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1606083908,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [95]
+		}, -- [84]
 		{
 			"hey Nick, sry i must have been afk when you got on", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -2134,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1606083973,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [96]
+		}, -- [85]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-203325-3685-100056214|h[Guild: GrindHouse]|h|r Is recruiting for Shadowland.  Looking for a social guild to level, run dungeons and raid with? Look no further!  Apply today and together we can build a great community.", -- [1]
 			"Brockolee-Turalyon", -- [2]
@@ -2156,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBrockolee|r",
 			[51] = 1606083983,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [86]
 		{
 			"i used Skada through bfa, but when prepatch came out i switched over ot details to give it a try, working well for me so far", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -2178,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1606084002,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [98]
+		}, -- [87]
 		{
 			"though i think Skada segments \"fights\" better", -- [1]
 			"Furrys-Turalyon", -- [2]
@@ -2200,6 +1936,271 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Furrys|r",
 			[51] = 1606084017,
 			[50] = "CHAT_MSG_GUILD",
+		}, -- [88]
+		{
+			"this computer keeps freezing :(", -- [1]
+			"|Kq14|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			44, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "TayTay",
+			[51] = 1669401672,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [89]
+		{
+			"freezing?", -- [1]
+			"|Kq14|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			45, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "TayTay",
+			[51] = 1669401688,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [90]
+		{
+			"it may be overheating", -- [1]
+			"|Kq14|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			46, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "TayTay",
+			[51] = 1669401690,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [91]
+		{
+			"the underside needs good ventilation", -- [1]
+			"|Kq14|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			47, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "TayTay",
+			[51] = 1669401701,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [92]
+		{
+			"errrr", -- [1]
+			"|Kq14|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			48, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "TayTay",
+			[51] = 1669401752,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [93]
+		{
+			"I havent even been playing that long", -- [1]
+			"|Kq14|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			52, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "TayTay",
+			[51] = 1669401779,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [94]
+		{
+			"doesnt take long for that gpu to heat up", -- [1]
+			"|Kq14|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			53, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "TayTay",
+			[51] = 1669401787,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [95]
+		{
+			"Anybody else having ridiculous wait time for Legacy of Tyr Dungeon?", -- [1]
+			"Athenix-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Athenix-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			67, -- [11]
+			"Player-3685-0715AA53", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Athenix|r",
+			[51] = 1669402245,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"Lack of tanks and heals", -- [1]
+			"Stonesour-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Stonesour-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			79, -- [11]
+			"Player-3685-07154A11", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff98Stonesour|r",
+			[51] = 1669402296,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"Got room for 2 dps and a healer for Uldaman pst", -- [1]
+			"Stonesour-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Stonesour-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			98, -- [11]
+			"Player-3685-07154A11", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff98Stonesour|r",
+			[51] = 1669402415,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"TY FOR REZ", -- [1]
+			"Chezblor-Duskwood", -- [2]
+			"", -- [3]
+			"1. General - Badlands", -- [4]
+			"Chezblor-Duskwood", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Badlands", -- [9]
+			0, -- [10]
+			418, -- [11]
+			"Player-64-08952DBB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Chezblor-Duskwood|r",
+			[51] = 1669405619,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
+	["ChatEditHistory"] = {
+		"/g hi wade", -- [1]
+		"/g yeah", -- [2]
+		"/g its my last non 50 character", -- [3]
+		"/g lol chromie time doesn't reset your quest progress in an expansion you already played through when it was current", -- [4]
+		"/g and suramar quests do not award exp", -- [5]
+		"/g yeah i'm not counting on being able to play much tomorrow though", -- [6]
+		"/g expecting the inevitable ddos", -- [7]
+		"/g and high traffic", -- [8]
+		"/g yeah i'll try, by the time i'm able to get in it'll pretty much be the end of the work day anyway", -- [9]
+		"/g i'll have a lot this week too, i'm pretty much the only one on my team thats going to be working", -- [10]
+		"/g which really limits me on what i can actually get done", -- [11]
+		"/g both huh", -- [12]
+		"/g hey Nick, sry i must have been afk when you got on", -- [13]
+		"/g i used Skada through bfa, but when prepatch came out i switched over ot details to give it a try, working well for me so far", -- [14]
+		"/g though i think Skada segments \"fights\" better", -- [15]
+		"freezing?", -- [16]
+		"it may be overheating", -- [17]
+		"the underside needs good ventilation", -- [18]
+		"doesnt take long for that gpu to heat up", -- [19]
+		"/macro", -- [20]
+	},
+	["ConvertKeybindings"] = true,
 }

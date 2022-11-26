@@ -1,19 +1,19 @@
 VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast [mod:alt,@cursor] Death and Decay; Heart Strike;
+/cast [mod:alt,known:Blooddrinker] Blooddrinker; [mod:alt,known:Consumption] Consumption; Heart Strike;
 /script UIErrorsFrame:Clear()
 END
 VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast [nomodifier,talent:4/3] Obliterate; /cast [modifier:alt,talent:4/3] Frostscythe; Obliterate
+/cast [mod:alt,known:Frostscythe] Frostscythe; Obliterate
 /script UIErrorsFrame:Clear()
 END
 VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast [nomodifier,talent:6/3] Frost Strike; /cast [modifier:alt,talent:6/3] Glacial Advance; Frost Strike
+/cast [mod:alt,known:Glacial Advance] Glacial Advance; Frost Strike
 /script UIErrorsFrame:Clear()
 END
 VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
@@ -24,7 +24,7 @@ END
 VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast [mod:alt] Bonestorm; Death Strike;
+/cast [mod:alt,known:Bonestorm] Bonestorm; Death Strike;
 /script UIErrorsFrame:Clear()
 END
 VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
@@ -58,13 +58,13 @@ VER 3 010000000000000A " " "INV_MISC_QUESTIONMARK"
 END
 VER 3 010000000000000B " " "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [nomodifier] Remorseless Winter; /cast [modifier:alt] Breath of Sindragosa
+/cast [mod:alt,known:Blinding Sleet] Blinding Sleet;  Remorseless Winter; 
 /script UIErrorsFrame:Clear()
 END
 VER 3 010000000000000C " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast [nomodifier] Howling Blast; /cast [modifier:alt] Death Strike
+/cast [mod:alt,known:Chill Streak] Chill Streak; Howling Blast;
 /script UIErrorsFrame:Clear()
 END
 VER 3 010000000000000E " " "INV_MISC_QUESTIONMARK"
@@ -85,5 +85,10 @@ END
 VER 3 0100000000000011 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [mod:alt,talent:4/3] Soul Reaper; Dark Transformation;
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000012 " " "134400"
+#showtooltip
+/cast [@cursor] Death and Decay;
 /script UIErrorsFrame:Clear()
 END
