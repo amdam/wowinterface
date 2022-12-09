@@ -338,5 +338,137 @@ ElvCharacterDB = {
 			[51] = 1669271357,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [15]
+		{
+			"icant figure out how to even build a deck anymore", -- [1]
+			"|Kq42|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			31, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "TayTay",
+			[51] = 1669317008,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [16]
+		{
+			"whats up with the over 1hr dungeon que  =(", -- [1]
+			"Badassdragon-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Badassdragon-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			41, -- [11]
+			"Player-3685-0DFC9E95", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fBadassdragon|r",
+			[51] = 1669317954,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [17]
+		{
+			"normal ppl dont play wow on thanksgiving day", -- [1]
+			"Hotpocket-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Hotpocket-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			42, -- [11]
+			"Player-3685-07093AB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3fc7ebHotpocket|r",
+			[51] = 1669317908,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [18]
+		{
+			"they have families", -- [1]
+			"Hotpocket-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Hotpocket-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			43, -- [11]
+			"Player-3685-07093AB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3fc7ebHotpocket|r",
+			[51] = 1669317911,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [19]
+		{
+			"theres a lot of un normalaround here should b e flooded lol", -- [1]
+			"Badassdragon-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Badassdragon-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			44, -- [11]
+			"Player-3685-0DFC9E95", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fBadassdragon|r",
+			[51] = 1669317990,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [20]
+		{
+			"fair point", -- [1]
+			"Hotpocket-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - Stormwind City", -- [4]
+			"Hotpocket-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Stormwind City", -- [9]
+			0, -- [10]
+			47, -- [11]
+			"Player-3685-07093AB7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3fc7ebHotpocket|r",
+			[51] = 1669317960,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [21]
 	},
 }

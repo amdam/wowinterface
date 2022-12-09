@@ -40,12 +40,18 @@ end
 
 
 function ArkInventory.Frame_Actions_Hide( )
+	
+	if not ArkInventory.Global.actions_enabled then return end
+	
 	if ARKINV_Actions then
 		ARKINV_Actions:Hide( )
 	end
+	
 end
 
 function ArkInventory.Frame_Actions_Show( )
+	
+	if not ArkInventory.Global.actions_enabled then return end
 	
 	if not ArkInventory.LoadAddOn( "ArkInventoryActions" ) then return end
 	
@@ -57,6 +63,8 @@ function ArkInventory.Frame_Actions_Show( )
 end
 
 function ArkInventory.Frame_Actions_Toggle( )
+	
+	if not ArkInventory.Global.actions_enabled then return end
 	
 	if ARKINV_Actions and ARKINV_Actions:IsVisible( ) then
 		ArkInventory.Frame_Actions_Hide( )

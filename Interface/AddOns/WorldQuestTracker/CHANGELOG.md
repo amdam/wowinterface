@@ -1,6 +1,7 @@
 # World Quest Tracker
 
-## [v10.0.0.454](https://github.com/Tercioo/World-Quest-Tracker/tree/v10.0.0.454) (2022-11-11)
-[Full Changelog](https://github.com/Tercioo/World-Quest-Tracker/compare/v10.0.0.453...v10.0.0.454) 
+## [v10.0.2.457](https://github.com/Tercioo/World-Quest-Tracker/tree/v10.0.2.457) (2022-12-03)
+[Full Changelog](https://github.com/Tercioo/World-Quest-Tracker/compare/v10.0.2.456...v10.0.2.457) 
 
-- Error fix: "Attempt to call Update() is nil value"  
+- Fix for ticket #68  
+- Ticket #69  

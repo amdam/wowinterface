@@ -4,30 +4,30 @@ CliqueDB3 = {
 	["char"] = {
 		["Abel - Turalyon"] = {
 			["spec1_profileKey"] = "Abel - Turalyon",
-			["alerthidden"] = true,
+			["spec3_profileKey"] = "Abel - Turalyon",
 			["downclick"] = false,
 			["fastooc"] = false,
+			["alerthidden"] = true,
 			["specswap"] = false,
 			["spec2_profileKey"] = "Abel - Turalyon",
-			["spec3_profileKey"] = "Abel - Turalyon",
 		},
 		["Adamancy - Turalyon"] = {
 			["spec1_profileKey"] = "Adamancy - Turalyon",
+			["fastooc"] = false,
 			["specswap"] = false,
 			["downclick"] = false,
-			["fastooc"] = false,
 			["alerthidden"] = true,
 			["spec3_profileKey"] = "Adamancy - Turalyon",
 			["spec2_profileKey"] = "Adamancy - Turalyon",
 		},
 		["Furrys - Turalyon"] = {
 			["spec1_profileKey"] = "Furrys - Turalyon",
-			["alerthidden"] = true,
+			["spec3_profileKey"] = "Furrys - Turalyon",
 			["downclick"] = false,
 			["fastooc"] = false,
+			["alerthidden"] = true,
 			["specswap"] = false,
 			["spec2_profileKey"] = "Furrys - Turalyon",
-			["spec3_profileKey"] = "Furrys - Turalyon",
 		},
 		["Svend - Turalyon"] = {
 			["spec1_profileKey"] = "Svend - Turalyon",
@@ -39,18 +39,18 @@ CliqueDB3 = {
 		},
 		["Amdam - Turalyon"] = {
 			["spec1_profileKey"] = "Amdam - Turalyon",
-			["alerthidden"] = true,
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
+			["alerthidden"] = true,
 			["spec3_profileKey"] = "Amdam - Turalyon",
 			["spec2_profileKey"] = "Amdam - Turalyon",
-			["specswap"] = false,
 		},
 		["Caldo - Turalyon"] = {
 			["spec1_profileKey"] = "Abel - Turalyon",
-			["fastooc"] = false,
 			["spec2_profileKey"] = "Abel - Turalyon",
 			["downclick"] = false,
+			["fastooc"] = false,
 			["spec3_profileKey"] = "Abel - Turalyon",
 			["alerthidden"] = true,
 			["specswap"] = false,
@@ -63,23 +63,23 @@ CliqueDB3 = {
 			["spec2_profileKey"] = "Asaam - Turalyon",
 			["spec3_profileKey"] = "Asaam - Turalyon",
 		},
+		["Adamn - Turalyon"] = {
+			["spec1_profileKey"] = "Adamn - Turalyon",
+			["spec3_profileKey"] = "Adamn - Turalyon",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["specswap"] = false,
+			["spec2_profileKey"] = "Adamn - Turalyon",
+		},
 		["Christoff - Turalyon"] = {
 			["spec1_profileKey"] = "Christoff - Turalyon",
-			["specswap"] = false,
+			["alerthidden"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
 			["spec4_profileKey"] = "Christoff - Turalyon",
+			["specswap"] = false,
 			["spec3_profileKey"] = "Christoff - Turalyon",
 			["spec2_profileKey"] = "Christoff - Turalyon",
-			["alerthidden"] = true,
-		},
-		["Adamian - Turalyon"] = {
-			["spec1_profileKey"] = "Adamian - Turalyon",
-			["alerthidden"] = true,
-			["downclick"] = false,
-			["fastooc"] = false,
-			["spec2_profileKey"] = "Adamian - Turalyon",
-			["specswap"] = false,
 		},
 		["Dreg - Turalyon"] = {
 			["spec1_profileKey"] = "Dreg - Turalyon",
@@ -90,22 +90,22 @@ CliqueDB3 = {
 			["spec2_profileKey"] = "Dreg - Turalyon",
 			["spec3_profileKey"] = "Dreg - Turalyon",
 		},
-		["Adamn - Turalyon"] = {
-			["spec1_profileKey"] = "Adamn - Turalyon",
-			["specswap"] = false,
+		["Adamian - Turalyon"] = {
+			["spec1_profileKey"] = "Adamian - Turalyon",
+			["alerthidden"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Adamn - Turalyon",
-			["spec3_profileKey"] = "Adamn - Turalyon",
+			["spec2_profileKey"] = "Adamian - Turalyon",
+			["specswap"] = false,
 		},
 		["Kayne - Turalyon"] = {
 			["spec1_profileKey"] = "Kayne - Turalyon",
-			["specswap"] = false,
+			["alerthidden"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["alerthidden"] = true,
 			["spec3_profileKey"] = "Kayne - Turalyon",
 			["spec2_profileKey"] = "Kayne - Turalyon",
+			["specswap"] = false,
 		},
 	},
 	["profileKeys"] = {
@@ -118,7 +118,7 @@ CliqueDB3 = {
 		["Aduum - Turalyon"] = "Aduum - Turalyon",
 		["Beebo - Turalyon"] = "Beebo - Turalyon",
 		["Kaydan - Turalyon"] = "Kaydan - Turalyon",
-		["Adamian - Turalyon"] = "Adamian - Turalyon",
+		["Christoff - Turalyon"] = "Caris - Turalyon",
 		["Adreya - Bloodscalp"] = "Adreya - Bloodscalp",
 		["Artoc - Zul'jin"] = "Artoc - Zul'jin",
 		["Amdamn - Bloodscalp"] = "Amdamn - Bloodscalp",
@@ -136,7 +136,7 @@ CliqueDB3 = {
 		["Badam - Turalyon"] = "Badam - Turalyon",
 		["Adris - Turalyon"] = "Adris - Turalyon",
 		["Asaam - Turalyon"] = "Asaam - Turalyon",
-		["Christoff - Turalyon"] = "Caris - Turalyon",
+		["Adamian - Turalyon"] = "Adamian - Turalyon",
 		["Shado - Turalyon"] = "Shado - Turalyon",
 	},
 	["profiles"] = {
@@ -331,7 +331,7 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Adamian - Turalyon"] = {
+		["Christoff - Turalyon"] = {
 			["bindings"] = {
 				{
 					["sets"] = {
@@ -342,52 +342,12 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON1",
-					["spell"] = "Living Flame",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 4622464,
-					["spellSubName"] = "Red",
-				}, -- [2]
-				{
 					["type"] = "menu",
 					["key"] = "BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-				}, -- [3]
-				{
-					["type"] = "spell",
-					["key"] = "CTRL-SHIFT-BUTTON1",
-					["spell"] = "Blessing of the Bronze",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 4622448,
-					["spellSubName"] = "Bronze",
-				}, -- [4]
-				{
-					["type"] = "spell",
-					["key"] = "ALT-CTRL-BUTTON1",
-					["spell"] = "Return",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 4622472,
-					["spellSubName"] = "Bronze",
-				}, -- [5]
-				{
-					["type"] = "spell",
-					["key"] = "ALT-BUTTON1",
-					["spell"] = "Emerald Blossom",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 4622457,
-					["spellSubName"] = "Green",
-				}, -- [6]
+				}, -- [2]
 			},
 		},
 		["Adreya - Bloodscalp"] = {
@@ -458,15 +418,6 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
-					["spell"] = "Resurrection",
-					["key"] = "ALT-CTRL-BUTTON1",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135955,
-					["type"] = "spell",
-				}, -- [2]
-				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON2",
 					["sets"] = {
@@ -474,7 +425,23 @@ CliqueDB3 = {
 					},
 					["icon"] = 135953,
 					["spell"] = "Renew",
+				}, -- [2]
+				{
+					["spell"] = "Resurrection",
+					["key"] = "ALT-CTRL-BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135955,
+					["type"] = "spell",
 				}, -- [3]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [4]
 				{
 					["spell"] = "Power Word: Fortitude",
 					["key"] = "CTRL-SHIFT-BUTTON1",
@@ -483,13 +450,6 @@ CliqueDB3 = {
 					},
 					["icon"] = 135987,
 					["type"] = "spell",
-				}, -- [4]
-				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
 				}, -- [5]
 				{
 					["type"] = "spell",
@@ -512,14 +472,13 @@ CliqueDB3 = {
 					["spell"] = "Leap of Faith",
 				}, -- [7]
 				{
-					["spell"] = "Mass Resurrection",
-					["key"] = "ALT-CTRL-BUTTON2",
+					["type"] = "spell",
+					["key"] = "ALT-BUTTON1",
 					["sets"] = {
 						["spec2"] = true,
-						["spec1"] = true,
 					},
-					["icon"] = 413586,
-					["type"] = "spell",
+					["icon"] = 135943,
+					["spell"] = "Prayer of Healing",
 				}, -- [8]
 				{
 					["type"] = "spell",
@@ -531,23 +490,6 @@ CliqueDB3 = {
 					["spell"] = "Flash Heal",
 				}, -- [9]
 				{
-					["type"] = "menu",
-					["key"] = "ALT-CTRL-SHIFT-BUTTON2",
-					["sets"] = {
-						["spec2"] = true,
-						["spec1"] = true,
-					},
-				}, -- [10]
-				{
-					["type"] = "spell",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["spec2"] = true,
-					},
-					["icon"] = 135944,
-					["spell"] = "Prayer of Mending",
-				}, -- [11]
-				{
 					["type"] = "spell",
 					["key"] = "BUTTON1",
 					["sets"] = {
@@ -556,15 +498,17 @@ CliqueDB3 = {
 					},
 					["icon"] = 135907,
 					["spell"] = "Flash Heal",
-				}, -- [12]
+				}, -- [10]
 				{
-					["type"] = "target",
-					["key"] = "ALT-CTRL-SHIFT-BUTTON1",
+					["spell"] = "Purify",
+					["key"] = "BUTTON3",
 					["sets"] = {
 						["spec2"] = true,
 						["spec1"] = true,
 					},
-				}, -- [13]
+					["icon"] = 135894,
+					["type"] = "spell",
+				}, -- [11]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON1",
@@ -573,24 +517,40 @@ CliqueDB3 = {
 					},
 					["icon"] = 135937,
 					["spell"] = "Holy Word: Serenity",
-				}, -- [14]
+				}, -- [12]
 				{
-					["spell"] = "Penance",
-					["key"] = "SHIFT-BUTTON1",
+					["type"] = "menu",
+					["key"] = "ALT-CTRL-SHIFT-BUTTON2",
 					["sets"] = {
+						["spec2"] = true,
 						["spec1"] = true,
 					},
-					["icon"] = 237545,
-					["type"] = "spell",
-				}, -- [15]
+				}, -- [13]
+				{
+					["type"] = "target",
+					["key"] = "ALT-CTRL-SHIFT-BUTTON1",
+					["sets"] = {
+						["spec2"] = true,
+						["spec1"] = true,
+					},
+				}, -- [14]
 				{
 					["type"] = "spell",
-					["key"] = "ALT-BUTTON2",
+					["key"] = "CTRL-BUTTON1",
 					["sets"] = {
 						["spec2"] = true,
 					},
-					["icon"] = 135887,
-					["spell"] = "Circle of Healing",
+					["icon"] = 135913,
+					["spell"] = "Heal",
+				}, -- [15]
+				{
+					["spell"] = "Power Word: Shield",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["spec1"] = true,
+					},
+					["icon"] = 135940,
+					["type"] = "spell",
 				}, -- [16]
 				{
 					["type"] = "spell",
@@ -603,31 +563,41 @@ CliqueDB3 = {
 				}, -- [17]
 				{
 					["type"] = "spell",
-					["key"] = "ALT-BUTTON1",
+					["key"] = "BUTTON2",
 					["sets"] = {
 						["spec2"] = true,
 					},
-					["icon"] = 135943,
-					["spell"] = "Prayer of Healing",
+					["icon"] = 135944,
+					["spell"] = "Prayer of Mending",
 				}, -- [18]
 				{
 					["type"] = "spell",
-					["key"] = "CTRL-BUTTON1",
+					["key"] = "ALT-BUTTON2",
 					["sets"] = {
 						["spec2"] = true,
 					},
-					["icon"] = 135913,
-					["spell"] = "Heal",
+					["icon"] = 135887,
+					["spell"] = "Circle of Healing",
 				}, -- [19]
 				{
-					["spell"] = "Power Word: Shield",
-					["key"] = "BUTTON2",
+					["spell"] = "Penance",
+					["key"] = "SHIFT-BUTTON1",
 					["sets"] = {
 						["spec1"] = true,
 					},
-					["icon"] = 135940,
+					["icon"] = 237545,
 					["type"] = "spell",
 				}, -- [20]
+				{
+					["spell"] = "Mass Resurrection",
+					["key"] = "ALT-CTRL-BUTTON2",
+					["sets"] = {
+						["spec2"] = true,
+						["spec1"] = true,
+					},
+					["icon"] = 413586,
+					["type"] = "spell",
+				}, -- [21]
 				{
 					["type"] = "spell",
 					["key"] = "CTRL-BUTTON2",
@@ -636,16 +606,6 @@ CliqueDB3 = {
 					},
 					["icon"] = 135953,
 					["spell"] = "Renew",
-				}, -- [21]
-				{
-					["spell"] = "Purify",
-					["key"] = "BUTTON3",
-					["sets"] = {
-						["spec2"] = true,
-						["spec1"] = true,
-					},
-					["icon"] = 135894,
-					["type"] = "spell",
 				}, -- [22]
 				{
 					["spell"] = "Power Word: Radiance",
@@ -669,13 +629,6 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
-				{
 					["spell"] = "Remove Curse",
 					["key"] = "BUTTON3",
 					["sets"] = {
@@ -683,16 +636,14 @@ CliqueDB3 = {
 					},
 					["icon"] = 136082,
 					["type"] = "spell",
-				}, -- [3]
+				}, -- [2]
 				{
-					["type"] = "spell",
-					["key"] = "CTRL-SHIFT-BUTTON2",
+					["type"] = "menu",
+					["key"] = "BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135754,
-					["spell"] = "Focus Magic",
-				}, -- [4]
+				}, -- [3]
 				{
 					["spell"] = "Arcane Intellect",
 					["key"] = "CTRL-SHIFT-BUTTON1",
@@ -701,7 +652,36 @@ CliqueDB3 = {
 					},
 					["icon"] = 135932,
 					["type"] = "spell",
+				}, -- [4]
+				{
+					["type"] = "spell",
+					["key"] = "CTRL-SHIFT-BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135754,
+					["spell"] = "Focus Magic",
 				}, -- [5]
+				{
+					["type"] = "spell",
+					["key"] = "NUMPAD8",
+					["sets"] = {
+						["global"] = true,
+						["default"] = true,
+					},
+					["icon"] = 575585,
+					["spell"] = "Mass Polymorph",
+				}, -- [6]
+				{
+					["type"] = "spell",
+					["key"] = "NUMPAD4",
+					["sets"] = {
+						["global"] = true,
+						["default"] = true,
+					},
+					["icon"] = 610877,
+					["spell"] = "Ice Floes",
+				}, -- [7]
 			},
 		},
 		["Adamn - Turalyon"] = {
@@ -752,24 +732,6 @@ CliqueDB3 = {
 					},
 				}, -- [3]
 				{
-					["spell"] = "Renewing Mist",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["spec2"] = true,
-					},
-					["icon"] = 627487,
-					["type"] = "spell",
-				}, -- [4]
-				{
-					["spell"] = "Life Cocoon",
-					["key"] = "SHIFT-BUTTON3",
-					["sets"] = {
-						["spec2"] = true,
-					},
-					["icon"] = 627485,
-					["type"] = "spell",
-				}, -- [5]
-				{
 					["type"] = "spell",
 					["key"] = "ALT-BUTTON1",
 					["sets"] = {
@@ -777,6 +739,24 @@ CliqueDB3 = {
 					},
 					["icon"] = 606549,
 					["spell"] = "Refreshing Jade Wind",
+				}, -- [4]
+				{
+					["spell"] = "Vivify",
+					["key"] = "SHIFT-BUTTON1",
+					["sets"] = {
+						["spec2"] = true,
+					},
+					["icon"] = 1360980,
+					["type"] = "spell",
+				}, -- [5]
+				{
+					["spell"] = "Renewing Mist",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["spec2"] = true,
+					},
+					["icon"] = 627487,
+					["type"] = "spell",
 				}, -- [6]
 				{
 					["sets"] = {
@@ -804,23 +784,6 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [9]
 				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["spec3"] = true,
-						["spec1"] = true,
-					},
-				}, -- [10]
-				{
-					["spell"] = "Vivify",
-					["key"] = "SHIFT-BUTTON1",
-					["sets"] = {
-						["spec2"] = true,
-					},
-					["icon"] = 1360980,
-					["type"] = "spell",
-				}, -- [11]
-				{
 					["spell"] = "Reawaken",
 					["key"] = "ALT-CTRL-BUTTON2",
 					["sets"] = {
@@ -828,7 +791,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 1056569,
 					["type"] = "spell",
-				}, -- [12]
+				}, -- [10]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON2",
@@ -837,6 +800,23 @@ CliqueDB3 = {
 					},
 					["icon"] = 775461,
 					["spell"] = "Enveloping Mist",
+				}, -- [11]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["spec3"] = true,
+						["spec1"] = true,
+					},
+				}, -- [12]
+				{
+					["spell"] = "Life Cocoon",
+					["key"] = "SHIFT-BUTTON3",
+					["sets"] = {
+						["spec2"] = true,
+					},
+					["icon"] = 627485,
+					["type"] = "spell",
 				}, -- [13]
 				{
 					["spell"] = "Soothing Mist",
@@ -900,13 +880,22 @@ CliqueDB3 = {
 				}, -- [1]
 				{
 					["type"] = "spell",
+					["key"] = "CTRL-SHIFT-BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136051,
+					["spell"] = "Lightning Shield",
+				}, -- [2]
+				{
+					["type"] = "spell",
 					["key"] = "CTRL-SHIFT-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135863,
 					["spell"] = "Water Walking",
-				}, -- [2]
+				}, -- [3]
 				{
 					["type"] = "spell",
 					["key"] = "ALT-CTRL-BUTTON1",
@@ -915,15 +904,6 @@ CliqueDB3 = {
 					},
 					["icon"] = 136077,
 					["spell"] = "Ancestral Spirit",
-				}, -- [3]
-				{
-					["type"] = "spell",
-					["key"] = "CTRL-SHIFT-BUTTON1",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136051,
-					["spell"] = "Lightning Shield",
 				}, -- [4]
 				{
 					["type"] = "spell",
@@ -936,30 +916,31 @@ CliqueDB3 = {
 					["spell"] = "Ancestral Vision",
 				}, -- [5]
 				{
-					["type"] = "spell",
-					["key"] = "BUTTON1",
+					["type"] = "menu",
+					["key"] = "BUTTON2",
 					["sets"] = {
-						["spec3"] = true,
+						["spec2"] = true,
+						["spec1"] = true,
 					},
-					["icon"] = 136044,
-					["spell"] = "Healing Surge",
 				}, -- [6]
 				{
-					["type"] = "menu",
-					["key"] = "ALT-CTRL-SHIFT-BUTTON2",
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON1",
 					["sets"] = {
 						["spec3"] = true,
 					},
+					["icon"] = 136043,
+					["spell"] = "Healing Wave",
 				}, -- [7]
 				{
 					["type"] = "spell",
-					["key"] = "NUMPAD4",
+					["key"] = "CTRL-BUTTON1",
 					["sets"] = {
 						["spec3"] = true,
 						["global"] = true,
 					},
-					["icon"] = 136098,
-					["spell"] = "Earthen Wall Totem",
+					["icon"] = 462328,
+					["spell"] = "Unleash Life",
 				}, -- [8]
 				{
 					["type"] = "spell",
@@ -999,20 +980,19 @@ CliqueDB3 = {
 					["spell"] = "Riptide",
 				}, -- [12]
 				{
-					["type"] = "target",
-					["sets"] = {
-						["spec1"] = true,
-						["spec2"] = true,
-					},
+					["type"] = "spell",
 					["key"] = "BUTTON1",
-					["unit"] = "mouseover",
+					["sets"] = {
+						["spec3"] = true,
+					},
+					["icon"] = 136044,
+					["spell"] = "Healing Surge",
 				}, -- [13]
 				{
 					["type"] = "menu",
-					["key"] = "BUTTON2",
+					["key"] = "ALT-CTRL-SHIFT-BUTTON2",
 					["sets"] = {
-						["spec2"] = true,
-						["spec1"] = true,
+						["spec3"] = true,
 					},
 				}, -- [14]
 				{
@@ -1026,22 +1006,22 @@ CliqueDB3 = {
 				}, -- [15]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON1",
-					["sets"] = {
-						["spec3"] = true,
-					},
-					["icon"] = 136043,
-					["spell"] = "Healing Wave",
-				}, -- [16]
-				{
-					["type"] = "spell",
-					["key"] = "CTRL-BUTTON1",
+					["key"] = "NUMPAD4",
 					["sets"] = {
 						["spec3"] = true,
 						["global"] = true,
 					},
-					["icon"] = 462328,
-					["spell"] = "Unleash Life",
+					["icon"] = 136098,
+					["spell"] = "Earthen Wall Totem",
+				}, -- [16]
+				{
+					["type"] = "target",
+					["sets"] = {
+						["spec1"] = true,
+						["spec2"] = true,
+					},
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
 				}, -- [17]
 				{
 					["type"] = "target",
@@ -1063,6 +1043,13 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+				{
 					["spell"] = "Redemption",
 					["key"] = "ALT-CTRL-BUTTON1",
 					["sets"] = {
@@ -1070,13 +1057,6 @@ CliqueDB3 = {
 					},
 					["icon"] = 135955,
 					["type"] = "spell",
-				}, -- [2]
-				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
 				}, -- [3]
 				{
 					["type"] = "spell",
@@ -1101,29 +1081,38 @@ CliqueDB3 = {
 				}, -- [5]
 				{
 					["type"] = "spell",
-					["key"] = "CTRL-BUTTON2",
-					["sets"] = {
-						["spec1"] = true,
-					},
-					["icon"] = 236249,
-					["spell"] = "Bestow Faith",
-				}, -- [6]
-				{
-					["spell"] = "Flash of Light",
-					["key"] = "SHIFT-BUTTON1",
+					["key"] = "BUTTON2",
 					["sets"] = {
 						["spec1"] = true,
 					},
 					["icon"] = 135907,
-					["type"] = "spell",
-				}, -- [7]
+					["spell"] = "Flash of Light",
+				}, -- [6]
 				{
-					["type"] = "target",
-					["key"] = "ALT-CTRL-SHIFT-BUTTON1",
+					["type"] = "menu",
+					["key"] = "ALT-CTRL-SHIFT-BUTTON2",
 					["sets"] = {
 						["spec1"] = true,
 					},
+				}, -- [7]
+				{
+					["spell"] = "Beacon of Faith",
+					["key"] = "ALT-BUTTON2",
+					["sets"] = {
+						["spec1"] = true,
+					},
+					["icon"] = 1030095,
+					["type"] = "spell",
 				}, -- [8]
+				{
+					["spell"] = "Cleanse",
+					["key"] = "BUTTON3",
+					["sets"] = {
+						["spec1"] = true,
+					},
+					["icon"] = 135949,
+					["type"] = "spell",
+				}, -- [9]
 				{
 					["spell"] = "Beacon of Light",
 					["key"] = "ALT-BUTTON1",
@@ -1132,24 +1121,15 @@ CliqueDB3 = {
 					},
 					["icon"] = 236247,
 					["type"] = "spell",
-				}, -- [9]
-				{
-					["type"] = "spell",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["spec1"] = true,
-					},
-					["icon"] = 133192,
-					["spell"] = "Word of Glory",
 				}, -- [10]
 				{
-					["spell"] = "Light of the Martyr",
-					["key"] = "CTRL-BUTTON1",
+					["type"] = "spell",
+					["key"] = "CTRL-BUTTON2",
 					["sets"] = {
 						["spec1"] = true,
 					},
-					["icon"] = 1360762,
-					["type"] = "spell",
+					["icon"] = 236249,
+					["spell"] = "Bestow Faith",
 				}, -- [11]
 				{
 					["type"] = "spell",
@@ -1162,13 +1142,11 @@ CliqueDB3 = {
 					["spell"] = "Cleanse Toxins",
 				}, -- [12]
 				{
-					["spell"] = "Absolution",
-					["key"] = "ALT-CTRL-BUTTON2",
+					["type"] = "target",
+					["key"] = "ALT-CTRL-SHIFT-BUTTON1",
 					["sets"] = {
 						["spec1"] = true,
 					},
-					["icon"] = 1030102,
-					["type"] = "spell",
 				}, -- [13]
 				{
 					["spell"] = "Holy Light",
@@ -1180,12 +1158,12 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [14]
 				{
-					["spell"] = "Beacon of Faith",
-					["key"] = "ALT-BUTTON2",
+					["spell"] = "Absolution",
+					["key"] = "ALT-CTRL-BUTTON2",
 					["sets"] = {
 						["spec1"] = true,
 					},
-					["icon"] = 1030095,
+					["icon"] = 1030102,
 					["type"] = "spell",
 				}, -- [15]
 				{
@@ -1198,30 +1176,32 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [16]
 				{
+					["spell"] = "Light of the Martyr",
+					["key"] = "CTRL-BUTTON1",
+					["sets"] = {
+						["spec1"] = true,
+					},
+					["icon"] = 1360762,
+					["type"] = "spell",
+				}, -- [17]
+				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON1",
 					["sets"] = {
-						["spec3"] = true,
+						["spec1"] = true,
 						["spec2"] = true,
 					},
 					["icon"] = 133192,
 					["spell"] = "Word of Glory",
-				}, -- [17]
-				{
-					["spell"] = "Cleanse",
-					["key"] = "BUTTON3",
-					["sets"] = {
-						["spec1"] = true,
-					},
-					["icon"] = 135949,
-					["type"] = "spell",
 				}, -- [18]
 				{
-					["type"] = "menu",
-					["key"] = "ALT-CTRL-SHIFT-BUTTON2",
+					["spell"] = "Flash of Light",
+					["key"] = "SHIFT-BUTTON1",
 					["sets"] = {
-						["spec1"] = true,
+						["spec3"] = true,
 					},
+					["icon"] = 135907,
+					["type"] = "spell",
 				}, -- [19]
 			},
 		},
@@ -1308,36 +1288,42 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [9]
 				{
-					["type"] = "menu",
-					["key"] = "ALT-SHIFT-BUTTON2",
+					["spell"] = "Lifebloom",
+					["key"] = "BUTTON2",
 					["sets"] = {
 						["spec4"] = true,
 					},
+					["icon"] = 134206,
+					["type"] = "spell",
 				}, -- [10]
 				{
-					["type"] = "target",
-					["key"] = "ALT-SHIFT-BUTTON1",
+					["spell"] = "Swiftmend",
+					["key"] = "SHIFT-BUTTON2",
 					["sets"] = {
 						["spec4"] = true,
 					},
+					["icon"] = 134914,
+					["type"] = "spell",
 				}, -- [11]
 				{
-					["spell"] = "Revitalize",
-					["key"] = "CTRL-SHIFT-BUTTON2",
+					["spell"] = "Wild Growth",
+					["key"] = "ALT-BUTTON1",
 					["sets"] = {
 						["spec4"] = true,
 					},
-					["icon"] = 132125,
+					["icon"] = 236153,
 					["type"] = "spell",
 				}, -- [12]
 				{
 					["type"] = "spell",
-					["key"] = "ALT-BUTTON2",
+					["key"] = "BUTTON3",
 					["sets"] = {
-						["spec4"] = true,
+						["spec3"] = true,
+						["spec1"] = true,
+						["spec2"] = true,
 					},
-					["icon"] = 132137,
-					["spell"] = "Cenarion Ward",
+					["icon"] = 135952,
+					["spell"] = "Remove Corruption",
 				}, -- [13]
 				{
 					["spell"] = "Innervate",
@@ -1351,43 +1337,30 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [14]
 				{
-					["type"] = "spell",
-					["key"] = "BUTTON3",
-					["sets"] = {
-						["spec3"] = true,
-						["spec1"] = true,
-						["spec2"] = true,
-					},
-					["icon"] = 135952,
-					["spell"] = "Remove Corruption",
-				}, -- [15]
-				{
-					["spell"] = "Lifebloom",
-					["key"] = "BUTTON2",
+					["type"] = "menu",
+					["key"] = "ALT-SHIFT-BUTTON2",
 					["sets"] = {
 						["spec4"] = true,
 					},
-					["icon"] = 134206,
+				}, -- [15]
+				{
+					["spell"] = "Revitalize",
+					["key"] = "CTRL-SHIFT-BUTTON2",
+					["sets"] = {
+						["spec4"] = true,
+					},
+					["icon"] = 132125,
 					["type"] = "spell",
 				}, -- [16]
 				{
-					["spell"] = "Swiftmend",
-					["key"] = "SHIFT-BUTTON2",
+					["type"] = "spell",
+					["key"] = "ALT-BUTTON2",
 					["sets"] = {
 						["spec4"] = true,
 					},
-					["icon"] = 134914,
-					["type"] = "spell",
+					["icon"] = 132137,
+					["spell"] = "Cenarion Ward",
 				}, -- [17]
-				{
-					["spell"] = "Wild Growth",
-					["key"] = "ALT-BUTTON1",
-					["sets"] = {
-						["spec4"] = true,
-					},
-					["icon"] = 236153,
-					["type"] = "spell",
-				}, -- [18]
 				{
 					["spell"] = "Ironbark",
 					["key"] = "NUMPAD8",
@@ -1397,6 +1370,13 @@ CliqueDB3 = {
 					},
 					["icon"] = 572025,
 					["type"] = "spell",
+				}, -- [18]
+				{
+					["type"] = "target",
+					["key"] = "ALT-SHIFT-BUTTON1",
+					["sets"] = {
+						["spec4"] = true,
+					},
 				}, -- [19]
 				{
 					["spell"] = "Rejuvenation",
@@ -1513,7 +1493,7 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Christoff - Turalyon"] = {
+		["Adamian - Turalyon"] = {
 			["bindings"] = {
 				{
 					["sets"] = {
@@ -1524,12 +1504,52 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON1",
+					["spell"] = "Living Flame",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 4622464,
+					["spellSubName"] = "Red",
+				}, -- [2]
+				{
 					["type"] = "menu",
 					["key"] = "BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-				}, -- [2]
+				}, -- [3]
+				{
+					["type"] = "spell",
+					["key"] = "CTRL-SHIFT-BUTTON1",
+					["spell"] = "Blessing of the Bronze",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 4622448,
+					["spellSubName"] = "Bronze",
+				}, -- [4]
+				{
+					["type"] = "spell",
+					["key"] = "ALT-CTRL-BUTTON1",
+					["spell"] = "Return",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 4622472,
+					["spellSubName"] = "Bronze",
+				}, -- [5]
+				{
+					["type"] = "spell",
+					["key"] = "ALT-BUTTON1",
+					["spell"] = "Emerald Blossom",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 4622457,
+					["spellSubName"] = "Green",
+				}, -- [6]
 			},
 		},
 		["Shado - Turalyon"] = {

@@ -59,7 +59,7 @@ end
 local Queue = { }
 local scanning = false
 
-local function QueueAdd( hs )
+local function helper_QueueAdd( hs )
 	
 	if not C_Item.IsItemDataCachedByID( hs ) then
 		--ArkInventory.Output( "requesting [", hs, "]" )
@@ -72,7 +72,7 @@ local function QueueAdd( hs )
 	
 end
 
-local function UpdateObjectInfo( info, thread_id )
+local function helper_UpdateObjectInfo( info, thread_id )
 	
 	local tmp
 	
@@ -125,7 +125,7 @@ local function UpdateObjectInfo( info, thread_id )
 			if info.class == "keystone" then
 				ArkInventory.GetObjectInfo( key )
 			else
-				QueueAdd( key )
+				helper_QueueAdd( key )
 			end
 			--C_Item.RequestLoadItemDataByID( key )
 		end
@@ -196,7 +196,7 @@ local function UpdateObjectInfo( info, thread_id )
 			info.spell_name, info.spell_id = GetItemSpell( info.id )
 			info.rank = ArkInventory.CrossClient.GetItemReagentQuality( info.hs ) or ArkInventory.CrossClient.GetItemCraftedQuality( info.hs )
 			
-			ArkInventory.TooltipSetHyperlink( ArkInventory.Global.Tooltip.Scan, info.hs )
+			ArkInventory.TooltipSet( ArkInventory.Global.Tooltip.Scan, nil, nil, nil, info.hs )
 			if not ArkInventory.TooltipIsReady( ArkInventory.Global.Tooltip.Scan ) then
 				
 				info.ready = false
@@ -209,27 +209,27 @@ local function UpdateObjectInfo( info, thread_id )
 				
 				if info.equiploc == "INVTYPE_BAG" then
 					
-					ignore, ignore, stock = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, "(%d+)", false, true, true, 0, ArkInventory.Const.Tooltip.Search.Short )
+					ignore, ignore, stock = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, nil, "(%d+)", false, true, true, 0, ArkInventory.Const.Tooltip.Search.Short )
 					stock = ArkInventory.TooltipTextToNumber( stock )
 					
 				elseif info.itemsubtypeid == ArkInventory.ENUM.ITEM.TYPE.GEM.ARTIFACTRELIC then
 					
-					ignore, ignore, ilvl = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, ArkInventory.Localise["WOW_TOOLTIP_RELIC_LEVEL"], false, true, true, 0, ArkInventory.Const.Tooltip.Search.Short )
+					ignore, ignore, ilvl = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, nil, ArkInventory.Localise["WOW_TOOLTIP_RELIC_LEVEL"], false, true, true, 0, ArkInventory.Const.Tooltip.Search.Short )
 					ilvl = ArkInventory.TooltipTextToNumber( ilvl )
 					
 				elseif ArkInventory.CrossClient.IsAnimaItemByID( info.id ) or ArkInventory.PT_ItemInSets( info.id, "ArkInventory.Internal.ItemsWithStockValues" ) then
 					
-					ignore, ignore, stock = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, TooltipStockCapture1, false, true, false, 0, ArkInventory.Const.Tooltip.Search.Short )
+					ignore, ignore, stock = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, nil, TooltipStockCapture1, false, true, false, 0, ArkInventory.Const.Tooltip.Search.Short )
 					stock = ArkInventory.TooltipTextToNumber( stock )
 					
 					if not stock then
 						
-						ignore, ignore, stock = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, TooltipStockCapture2, false, true, false, 0, ArkInventory.Const.Tooltip.Search.Short )
+						ignore, ignore, stock = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, nil, TooltipStockCapture2, false, true, false, 0, ArkInventory.Const.Tooltip.Search.Short )
 						stock = ArkInventory.TooltipTextToNumber( stock )
 						
 						if not stock then
 							
-							ignore, ignore, stock = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, TooltipStockCapture3, false, true, false, 0, ArkInventory.Const.Tooltip.Search.Short )
+							ignore, ignore, stock = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, nil, TooltipStockCapture3, false, true, false, 0, ArkInventory.Const.Tooltip.Search.Short )
 							stock = ArkInventory.TooltipTextToNumber( stock )
 							
 						end
@@ -238,7 +238,7 @@ local function UpdateObjectInfo( info, thread_id )
 					
 				else
 					
-					ignore, ignore, ilvl = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, ArkInventory.Localise["WOW_TOOLTIP_ITEM_LEVEL"], false, true, true, 4, ArkInventory.Const.Tooltip.Search.Short )
+					ignore, ignore, ilvl = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, nil, ArkInventory.Localise["WOW_TOOLTIP_ITEM_LEVEL"], false, true, true, 4, ArkInventory.Const.Tooltip.Search.Short )
 					ilvl = ArkInventory.TooltipTextToNumber( ilvl )
 					
 				end
@@ -355,7 +355,7 @@ local function UpdateObjectInfo( info, thread_id )
 	
 end
 
-local function Scan_Threaded( thread_id )
+local function helper_Scan_Threaded( thread_id )
 	
 	ArkInventory.OutputDebug( "object queue size ", ArkInventory.Table.Elements( Queue ) )
 	
@@ -367,7 +367,7 @@ local function Scan_Threaded( thread_id )
 		--ArkInventory.OutputDebug( "getting object data for ", hs )
 		
 		local info = cacheGetObjectInfo[hs]
-		UpdateObjectInfo( info )
+		helper_UpdateObjectInfo( info )
 		
 		ArkInventory.ThreadYield( thread_id )
 		
@@ -386,27 +386,27 @@ local function Scan_Threaded( thread_id )
 	
 	if #redo then
 		for hs in pairs( redo ) do
-			QueueAdd( hs )
+			helper_QueueAdd( hs )
 		end
 	end
 	
 end
 
-local function Scan( )
+local function helper_Scan( )
 	
 	local thread_id = ArkInventory.Global.Thread.Format.ObjectData
 	
 	if not ArkInventory.Global.Thread.Use then
 		local tz = debugprofilestop( )
 		ArkInventory.OutputThread( thread_id, " start" )
-		Scan_Threaded( )
+		helper_Scan_Threaded( )
 		tz = debugprofilestop( ) - tz
 		ArkInventory.OutputThread( string.format( "%s took %0.0fms", thread_id, tz ) )
 		return
 	end
 	
 	local tf = function ( )
-		Scan_Threaded( thread_id )
+		helper_Scan_Threaded( thread_id )
 	end
 	
 	ArkInventory.ThreadStart( thread_id, tf )
@@ -427,7 +427,7 @@ function ArkInventory:EVENT_ARKINV_GETOBJECTINFO_QUEUE_UPDATE_BUCKET( ... )
 	
 	if not scanning then
 		scanning = true
-		Scan( )
+		helper_Scan( )
 		scanning = false
 	else
 		ArkInventory:SendMessage( "EVENT_ARKINV_GETOBJECTINFO_QUEUE_UPDATE_BUCKET", "BUSY" )
@@ -784,7 +784,7 @@ function ArkInventory.GetObjectInfo( h, i )
 	local info = chs and cacheGetObjectInfo[chs]
 	if info then
 		if not info.ready then
-			QueueAdd( info.osd.hs )
+			helper_QueueAdd( info.osd.hs )
 		end
 		return info
 	end
@@ -801,7 +801,7 @@ function ArkInventory.GetObjectInfo( h, i )
 	info = chs and cacheGetObjectInfo[chs]
 	if info then
 		if not info.ready then
-			QueueAdd( info.osd.hs )
+			helper_QueueAdd( info.osd.hs )
 		end
 		return info
 	end
@@ -834,30 +834,41 @@ function ArkInventory.GetObjectInfo( h, i )
 	info.binding = 0
 	info.expansion = ArkInventory.ENUM.EXPANSION.CLASSIC
 	
-	UpdateObjectInfo( info )
+	helper_UpdateObjectInfo( info )
 	
 	--ArkInventory.Output( info.ready, " = ", info )
 	
 	if info.class == "copper" then
-		-- do not cache
+		
+		-- do not cache money
+		
 	--elseif info.class == "empty" then
-		-- do not cache
+		
+		-- do not cache empty slots - why not??
 		
 	else
 		
 		if h and h ~= "" then
+			
 			cacheObjectStringStandard[h] = info.osd.hs
 			cacheGetObjectInfo[h] = info
+			
+			if info.ready then
+				ArkInventory.ItemCacheClear( h )
+			end
+			
 		end
+		
 		cacheGetObjectInfo[info.osd.hs] = info
 		cacheGetObjectInfo[info.osd.h1] = info
 		cacheGetObjectInfo[info.osd.h2] = info
+		
 		
 	end
 	
 	if not info.ready then
 		--ArkInventory.Output( "debug: object not ready ", info.h )
-		QueueAdd( info.osd.hs )
+		helper_QueueAdd( info.osd.hs )
 	end
 	
 	return info

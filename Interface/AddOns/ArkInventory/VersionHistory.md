@@ -1,4 +1,56 @@
-﻿# 3.10.08 (24-NOV-2022)
+﻿# 3.10.11 (04-DEC-2022)
+ - added - blueprint config option to main menu
+ - fixed - removed some debug output
+ - fixed - summon mount keybinding when travel form is enabled will now correctly summon a dragonriding mount when on the dragon isles
+ - fixed - wrong item quality was being saved during scanning
+ - changed - quality data is no longer saved and is retrieved when required instead
+ - fixed - missing or changed blizzard events will no longer cause errors and will generate a warning instead
+ - changed - right clicking on the LDB mount object now opens the mount config instead.  there were too many mounts for the menu system to be viable.
+ - added - mount config option to main menu
+ - added - dragonriding option in config to swap the air/land mount selection when in the dragon isles.  disabled by default.  these are per character settings.
+ - fixed - (wrath/classic) issue with tooltip unusable red text detection
+ - fixed - issue with item cache clear code
+ - fixed - dragonriding mounts in azure span
+ - changed - the default has been changed to false for pre-loading the bag and bank data (it appears to be causing some weird issues)
+ - updated - categorised some items
+
+# 3.10.10 (30-NOV-2022)
+ - fixed - when on the dragon isles your land mount will be used by default, to use a dragonriding mount press the shift button and the summon mount keybinding
+ - changed - the arkinventory icons on the default bag/bank/vault frames will now re-enable arkinventory if you have disabled it
+ - added - config > general > actions > mail > enable.  defaults to false
+ - added - config > general > actions > mail > manual.  defaults to true
+ - added - config > general > actions > vendor > enable.  defaults to false
+ - added - config > general > actions > vendor > manual.  defaults to true.
+ - added - profession tool items are now scanned, and show up in item counts
+ - fixed - toybox filters are now restored correctly after scanning
+ - changed - (dragonflight) scan tooltip functionality replaced with the new tooltip information functions
+ - fixed - (dragonflight) ItemRefTooltip should no longer disappear when the item counts refresh
+ - fixed - (classic/wrath) C_TooltipInfo issue
+ - changed - QUEST events should no longer trigger a forced refresh and will instead only set the bag window to refresh at the next update.
+ - fixed - right clicking on a no value junk item should now delete it when at a vendor/merchant
+ - added - config > profiles > controls > location > pre-load.  pre loads item data and builds the window in the background for a faster first open.  bag and bank enabled by default.
+
+# 3.10.09 (24-NOV-2022)
+ - fixed - issue with rule functions wearble/unwearble and cloaks
+ - restored - config > actions (was accidentally hidden)
+ - fixed - issue with config transmog secondary option hiding the wrong sub options
+ - restored - xml for ArkScanTooltipTemplate, OnTooltipAddMoney and OnTooltipCleared re-added both as several hundred individual MoneyFrames were being added to the scan tooltip just on entering the world.  this was the probable cause for the lag and ui crashes.
+ - removed - PLAYER_AVG_ITEM_LEVEL_UPDATE event
+ - removed - rescans should no longger trigger a full window refresh (they already update the items)
+ - added - preloading item info from the bag and bank to make their initial opens are faster.  will not happen if you enter while in combat.  opening the window before this has completed will abort the preload.
+ - added - preloading the bag and bank windows so their initial opens are faster.  will not happen if you enter while in combat.  opening the window before this has completed will abort the preload.
+ - changed - the rules module no longer triggers full window rebuilds on enable (mucks up the preload)
+ - removed - PLAYER_INTERACTION_MANAGER_FRAME_SHOW and PLAYER_INTERACTION_MANAGER_FRAME_HIDE events
+ - removed - event UNIT_INVENTORY_CHANGED
+ - changed - added yielding to every scan to alleviate any potential sources of lag
+ - changed - added extra yielding to the window draw functions
+ - changed - enforced a 25ms yield timer
+ - fixed - edit mode item menu for empty slots should now show the type of slot, not "retrieving item data"
+ - added - icons on the bag, combined bag, bank, and guild bank, frames to swap to ArkInventory control
+ - added - location sub menu to switch window back to blizzard control.
+ - fixed - issue with the conduit overlay when it had no quality set
+ 
+# 3.10.08 (24-NOV-2022)
  - no longer available
  
 # 3.10.07 (19-NOV-2022)

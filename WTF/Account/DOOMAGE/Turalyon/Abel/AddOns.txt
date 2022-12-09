@@ -51,10 +51,10 @@ ElvUI_CustomTags: disabled
 TipTacItemRef: disabled
 TipTacOptions: disabled
 TipTacTalents: disabled
-Kui_Media: disabled
-Kui_Nameplates: disabled
-Kui_Nameplates_Core: disabled
-Kui_Nameplates_Core_Config: disabled
+Kui_Media: enabled
+Kui_Nameplates: enabled
+Kui_Nameplates_Core: enabled
+Kui_Nameplates_Core_Config: enabled
 OmniCD: disabled
 Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
@@ -69,3 +69,11 @@ RaiderIO_DB_KR_F: disabled
 RaiderIO_DB_EU_R: disabled
 RaiderIO_DB_EU_M: disabled
 RaiderIO_DB_EU_F: disabled
+BattleGroundEnemies: disabled
+BigWigs: disabled
+OmniCC: disabled
+OmniCC_Config: disabled
+Plater: disabled
+TomCats-Bundled-DeathsRising: disabled
+Tukui_NamePlateFeatures: disabled
+ElvUI_Options: enabled

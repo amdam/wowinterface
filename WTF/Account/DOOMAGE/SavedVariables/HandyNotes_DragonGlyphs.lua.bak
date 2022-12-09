@@ -1,0 +1,40 @@
+
+HandyNotes_DragonGlyphsDB = {
+	["profileKeys"] = {
+		["Abel - Turalyon"] = "Abel - Turalyon",
+		["Adamancy - Turalyon"] = "Adamancy - Turalyon",
+		["Kayne - Turalyon"] = "Kayne - Turalyon",
+		["Adrid - Turalyon"] = "Adrid - Turalyon",
+		["Badam - Turalyon"] = "Badam - Turalyon",
+		["Aduum - Turalyon"] = "Aduum - Turalyon",
+		["Christoff - Turalyon"] = "Christoff - Turalyon",
+		["Adamian - Turalyon"] = "Adamian - Turalyon",
+		["Dreg - Turalyon"] = "Dreg - Turalyon",
+		["Adamn - Turalyon"] = "Adamn - Turalyon",
+		["Amdam - Turalyon"] = "Amdam - Turalyon",
+	},
+	["profiles"] = {
+		["Abel - Turalyon"] = {
+		},
+		["Adamancy - Turalyon"] = {
+		},
+		["Kayne - Turalyon"] = {
+		},
+		["Adrid - Turalyon"] = {
+		},
+		["Badam - Turalyon"] = {
+		},
+		["Aduum - Turalyon"] = {
+		},
+		["Christoff - Turalyon"] = {
+		},
+		["Adamian - Turalyon"] = {
+		},
+		["Dreg - Turalyon"] = {
+		},
+		["Adamn - Turalyon"] = {
+		},
+		["Amdam - Turalyon"] = {
+		},
+	},
+}

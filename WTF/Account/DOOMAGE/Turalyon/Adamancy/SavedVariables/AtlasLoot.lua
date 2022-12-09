@@ -9,19 +9,13 @@ AtlasLootCharDB = {
 			-26.6871948242188, -- [5]
 		},
 	},
-	["GUI"] = {
-		["classFilter"] = true,
-		["selected"] = {
-			"AtlasLoot_WrathoftheLichKing", -- [1]
-			"IcecrownCitadel", -- [2]
-			nil, -- [3]
-			1, -- [4]
-			0, -- [5]
-		},
+	["QuickLootFrame"] = {
 		["point"] = {
-			[3] = "CENTER",
-			[4] = 95.07415771484375,
-			[5] = 134.1110687255859,
+			"RIGHT", -- [1]
+			nil, -- [2]
+			"RIGHT", -- [3]
+			-225.709701538086, -- [4]
+			-111.531433105469, -- [5]
 		},
 	},
 	["SetViewFrame"] = {
@@ -32,16 +26,22 @@ AtlasLootCharDB = {
 		},
 	},
 	["__addonrevision"] = 4325,
-	["QuickLootFrame"] = {
+	["GUI"] = {
+		["classFilter"] = true,
+		["selected"] = {
+			"AtlasLoot_Factions", -- [1]
+			"BFAFACTIONS", -- [2]
+			nil, -- [3]
+			1, -- [4]
+			0, -- [5]
+		},
 		["point"] = {
-			"RIGHT", -- [1]
-			nil, -- [2]
-			"RIGHT", -- [3]
-			-225.709701538086, -- [4]
-			-111.531433105469, -- [5]
+			[3] = "CENTER",
+			[4] = 95.0742416381836,
+			[5] = 134.1110687255859,
 		},
 	},
 	["minimap"] = {
-		["minimapPos"] = 31.4234499995398,
+		["minimapPos"] = 325.5598614685819,
 	},
 }

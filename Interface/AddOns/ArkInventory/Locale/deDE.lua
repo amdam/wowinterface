@@ -571,12 +571,14 @@ if not L then return end
 --	L["CONFIG_ACTION_TYPE"] = ""
 --	L["CONFIG_ACTION_TYPE_DESC"] = ""
 --	L["CONFIG_ACTION_WHEN_DESC"] = ""
+--	L["CONFIG_ACTION_ENABLE_DESC"] = ""
 	
 --	L["CONFIG_ACTION_MANUAL_RUN"] = ""
 --	L["CONFIG_ACTION_TESTMODE"] = ""
 	
 --	L["CONFIG_ACTION_VENDOR_SELL"] = ""
 --	L["CONFIG_ACTION_VENDOR_AUTOMATIC_DESC"] = ""
+--	L["CONFIG_ACTION_VENDOR_MANUAL_DESC"] = ""
 --	L["CONFIG_ACTION_VENDOR_LIMIT"] = ""
 --	L["CONFIG_ACTION_VENDOR_LIMIT_DESC"] = ""
 --	L["CONFIG_ACTION_VENDOR_LIMIT_ABORT"] = ""
@@ -597,12 +599,15 @@ if not L then return end
 --	L["CONFIG_ACTION_VENDOR_TESTMODE"] = ""
 --	L["CONFIG_ACTION_VENDOR_TESTMODE_DESC"] = ""
 --	L["CONFIG_ACTION_VENDOR_PROCESSING_DISABLED_DESC"] = ""
+	
 --	L["CONFIG_ACTION_VENDOR_SOULBOUND_ALREADY_KNOWN_DESC"] = ""
 --	L["CONFIG_ACTION_VENDOR_SOULBOUND_EQUIPMENT_DESC"] = ""
 --	L["CONFIG_ACTION_VENDOR_SOULBOUND_ITEMLEVEL_DESC"] = ""
 	
 --	L["CONFIG_ACTION_MAIL_SEND"] = ""
 --	L["CONFIG_ACTION_MAIL_AUTOMATIC_DESC"] = ""
+--	L["CONFIG_ACTION_MAIL_MANUAL_DESC"] = ""
+--	L["CONFIG_ACTION_MAIL_TESTMODE"] = ""
 --	L["CONFIG_ACTION_MAIL_TESTMODE_DESC"] = ""
 --	L["CONFIG_ACTION_MAIL_QUALITY_CUTOFF_DESC"] = ""
 --	L["CONFIG_ACTION_MAIL_LIST_DESC"] = ""
@@ -825,6 +830,7 @@ if not L then return end
 	L["ANCHOR"] = "Position"
 	L["ANCHOR_TEXT1"] = "legt die Position fest" -- window name  (bags, bank, vault)
 	L["ANCHOR_TEXT2"] = "positioniert %1$s %2$s" -- object name (bars, items)
+--	L["ANCHOR_TEXT3"] = ""
 	L["BORDER_DESC"] = "Rahmen-Einstellungen"
 	L["FILE"] = "Datei"
 	L["HEIGHT"] = "H\195\182he"
@@ -913,6 +919,8 @@ if not L then return end
 --	L["ASSIGNED"] = ""
 --	L["ASSIGNABLE"] = ""
 --	L["OVERRIDE"] = ""
+--	L["SELECTED"] = ""
+--	L["UNSELECTED"] = ""
 	
 	
 -- libdatabroker
@@ -948,6 +956,7 @@ if not L then return end
 --	L["LDB_MOUNTS_USEFORLAND_DESC"] = ""
 --	L["LDB_MOUNTS_FLYING_DISMOUNT_DESC"] = ""
 --	L["LDB_MOUNTS_FLYING_DISMOUNT_WARNING"] = ""
+--	L["LDB_MOUNTS_FLYING_DRAGONRIDING_DESC"] = ""
 --	L["LDB_MOUNTS_SUMMON"] = ""
 --	L["LDB_MOUNTS_NODATA"] = ""
 --	L["LDB_MOUNTS_TRAVEL_FORM"] = ""

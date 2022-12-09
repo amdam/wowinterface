@@ -897,8 +897,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		{
 			["statKey"] = "ActiBlizzWalkout",
@@ -1853,8 +1853,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		{
 			["statKey"] = "BLACK_GIRLS_CODE",
@@ -2421,8 +2421,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [61]
 		["uniqueKey"] = "Artoc:Zul'jin:5",
 	},
@@ -2666,8 +2666,8 @@ DCS_ClassSpecDB = {
 		}, -- [60]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -2873,37 +2873,27 @@ DCS_ClassSpecDB = {
 			["hideAt"] = 0,
 		}, -- [50]
 		{
-			["statKey"] = "CR_CORRUPTION_RESISTANCE",
+			["statKey"] = "HONOR_LEVEL",
 			["hideAt"] = 0,
 		}, -- [51]
 		{
-			["statKey"] = "HONOR_LEVEL",
-			["hideAt"] = 0,
+			["statKey"] = "HonorCategory",
 		}, -- [52]
 		{
-			["statKey"] = "HonorCategory",
+			["statKey"] = "UserCat4",
 		}, -- [53]
 		{
-			["statKey"] = "RAINN",
+			["statKey"] = "UserCat5",
 		}, -- [54]
 		{
-			["statKey"] = "BLACK_GIRLS_CODE",
+			["statKey"] = "UserCat3",
 		}, -- [55]
 		{
-			["statKey"] = "UserCat4",
+			["statKey"] = "UserCat2",
 		}, -- [56]
 		{
-			["statKey"] = "UserCat5",
-		}, -- [57]
-		{
-			["statKey"] = "UserCat3",
-		}, -- [58]
-		{
-			["statKey"] = "UserCat2",
-		}, -- [59]
-		{
 			["statKey"] = "UserCat1",
-		}, -- [60]
+		}, -- [57]
 		["uniqueKey"] = "Abel:Turalyon:3",
 	},
 	["Kaydan:Turalyon:2"] = {
@@ -4907,8 +4897,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [49]
 		{
 			["statKey"] = "HonorCategory",
@@ -5526,8 +5516,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		{
 			["statKey"] = "HonorCategory",
@@ -5944,8 +5934,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		{
 			["statKey"] = "HonorCategory",
@@ -7295,8 +7285,8 @@ DCS_ClassSpecDB = {
 		}, -- [44]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = false,
 			["hideAt"] = 0,
+			["hidden"] = false,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -7573,8 +7563,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		{
 			["statKey"] = "HonorCategory",
@@ -8027,8 +8017,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -8968,8 +8958,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [61]
 		["uniqueKey"] = "Abel:Turalyon:2",
 	},
@@ -9217,8 +9207,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [61]
 		["uniqueKey"] = "Artoc:Silvermoon:5",
 	},
@@ -9414,8 +9404,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		{
 			["statKey"] = "HonorCategory",
@@ -10303,15 +10293,19 @@ DCS_ClassSpecDB = {
 		}, -- [42]
 		{
 			["statKey"] = "RatingCategory",
+			["hidden"] = true,
 		}, -- [43]
 		{
 			["statKey"] = "OffenseCategory",
+			["hidden"] = true,
 		}, -- [44]
 		{
 			["statKey"] = "GeneralCategory",
+			["hidden"] = true,
 		}, -- [45]
 		{
 			["statKey"] = "DefenseCategory",
+			["hidden"] = true,
 		}, -- [46]
 		{
 			["statKey"] = "SPEED",
@@ -10320,6 +10314,7 @@ DCS_ClassSpecDB = {
 		}, -- [47]
 		{
 			["statKey"] = "STAGGER",
+			["hidden"] = true,
 			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
@@ -10333,33 +10328,37 @@ DCS_ClassSpecDB = {
 		{
 			["statKey"] = "HONOR_PROGRESS",
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [50]
 		{
 			["statKey"] = "HONOR_LEVEL",
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [51]
 		{
 			["statKey"] = "HonorCategory",
+			["hidden"] = true,
 		}, -- [52]
 		{
-			["statKey"] = "BLACK_GIRLS_CODE",
+			["statKey"] = "UserCat4",
 			["hidden"] = true,
 		}, -- [53]
 		{
-			["statKey"] = "UserCat4",
+			["statKey"] = "UserCat5",
+			["hidden"] = true,
 		}, -- [54]
 		{
-			["statKey"] = "UserCat5",
+			["statKey"] = "UserCat3",
+			["hidden"] = true,
 		}, -- [55]
 		{
-			["statKey"] = "UserCat3",
+			["statKey"] = "UserCat2",
+			["hidden"] = true,
 		}, -- [56]
 		{
-			["statKey"] = "UserCat2",
-		}, -- [57]
-		{
 			["statKey"] = "UserCat1",
-		}, -- [58]
+			["hidden"] = true,
+		}, -- [57]
 		["uniqueKey"] = "Adamancy:Turalyon:3",
 	},
 	["Christoff:Turalyon:4"] = {
@@ -11250,8 +11249,8 @@ DCS_ClassSpecDB = {
 		}, -- [60]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -11448,6 +11447,183 @@ DCS_ClassSpecDB = {
 		}, -- [49]
 		["uniqueKey"] = "Beebo:Turalyon:1",
 	},
+	["Dewt:Turalyon:2"] = {
+		{
+			["statKey"] = "ItemLevelFrame",
+		}, -- [1]
+		{
+			["statKey"] = "GeneralCategory",
+		}, -- [2]
+		{
+			["statKey"] = "HEALTH",
+		}, -- [3]
+		{
+			["statKey"] = "DCS_POWER",
+		}, -- [4]
+		{
+			["statKey"] = "DCS_ALTERNATEMANA",
+		}, -- [5]
+		{
+			["statKey"] = "ITEMLEVEL",
+			["hidden"] = true,
+		}, -- [6]
+		{
+			["statKey"] = "MOVESPEED",
+		}, -- [7]
+		{
+			["statKey"] = "DURABILITY_STAT",
+		}, -- [8]
+		{
+			["statKey"] = "REPAIR_COST",
+		}, -- [9]
+		{
+			["statKey"] = "AttributesCategory",
+		}, -- [10]
+		{
+			["statKey"] = "STRENGTH",
+			["hidden"] = true,
+		}, -- [11]
+		{
+			["statKey"] = "AGILITY",
+		}, -- [12]
+		{
+			["statKey"] = "INTELLECT",
+			["hidden"] = true,
+		}, -- [13]
+		{
+			["statKey"] = "STAMINA",
+		}, -- [14]
+		{
+			["statKey"] = "ARMOR",
+		}, -- [15]
+		{
+			["statKey"] = "OffenseCategory",
+		}, -- [16]
+		{
+			["statKey"] = "ATTACK_DAMAGE",
+		}, -- [17]
+		{
+			["statKey"] = "ATTACK_AP",
+		}, -- [18]
+		{
+			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+		}, -- [19]
+		{
+			["statKey"] = "WEAPON_DPS",
+		}, -- [20]
+		{
+			["statKey"] = "SPELLPOWER",
+			["hidden"] = true,
+		}, -- [21]
+		{
+			["statKey"] = "MANAREGEN",
+			["hidden"] = true,
+		}, -- [22]
+		{
+			["statKey"] = "ENERGY_REGEN",
+		}, -- [23]
+		{
+			["statKey"] = "DCS_RUNEREGEN",
+			["hidden"] = true,
+		}, -- [24]
+		{
+			["statKey"] = "FOCUS_REGEN",
+		}, -- [25]
+		{
+			["statKey"] = "GCD",
+		}, -- [26]
+		{
+			["statKey"] = "EnhancementsCategory",
+		}, -- [27]
+		{
+			["statKey"] = "CRITCHANCE",
+			["hideAt"] = 0,
+		}, -- [28]
+		{
+			["statKey"] = "HASTE",
+			["hideAt"] = 0,
+		}, -- [29]
+		{
+			["statKey"] = "VERSATILITY",
+			["hideAt"] = 0,
+		}, -- [30]
+		{
+			["statKey"] = "MASTERY",
+			["hideAt"] = 0,
+		}, -- [31]
+		{
+			["statKey"] = "LIFESTEAL",
+			["hideAt"] = 0,
+		}, -- [32]
+		{
+			["statKey"] = "AVOIDANCE",
+			["hideAt"] = 0,
+		}, -- [33]
+		{
+			["statKey"] = "DefenseCategory",
+			["hidden"] = true,
+		}, -- [34]
+		{
+			["statKey"] = "DODGE",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [35]
+		{
+			["statKey"] = "PARRY",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [36]
+		{
+			["statKey"] = "BLOCK",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [37]
+		{
+			["statKey"] = "RatingCategory",
+			["hidden"] = true,
+		}, -- [38]
+		{
+			["statKey"] = "CRITCHANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [39]
+		{
+			["statKey"] = "HASTE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [40]
+		{
+			["statKey"] = "VERSATILITY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [41]
+		{
+			["statKey"] = "MASTERY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [42]
+		{
+			["statKey"] = "LIFESTEAL_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [43]
+		{
+			["statKey"] = "AVOIDANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [44]
+		{
+			["statKey"] = "DODGE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [45]
+		{
+			["statKey"] = "PARRY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [46]
+		["uniqueKey"] = "Dewt:Turalyon:2",
+	},
 	["Caris:Turalyon:2"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
@@ -11625,245 +11801,6 @@ DCS_ClassSpecDB = {
 			["statKey"] = "SPEED",
 		}, -- [47]
 		["uniqueKey"] = "Caris:Turalyon:2",
-	},
-	["Dreg:Turalyon:2"] = {
-		{
-			["statKey"] = "ItemLevelFrame",
-		}, -- [1]
-		{
-			["statKey"] = "GeneralCategory",
-		}, -- [2]
-		{
-			["statKey"] = "HEALTH",
-		}, -- [3]
-		{
-			["statKey"] = "DCS_POWER",
-		}, -- [4]
-		{
-			["statKey"] = "DCS_ALTERNATEMANA",
-		}, -- [5]
-		{
-			["statKey"] = "ITEMLEVEL",
-			["hidden"] = true,
-		}, -- [6]
-		{
-			["statKey"] = "MOVESPEED",
-		}, -- [7]
-		{
-			["statKey"] = "DURABILITY_STAT",
-		}, -- [8]
-		{
-			["statKey"] = "REPAIR_COST",
-		}, -- [9]
-		{
-			["statKey"] = "AttributesCategory",
-		}, -- [10]
-		{
-			["statKey"] = "STRENGTH",
-			["hidden"] = true,
-		}, -- [11]
-		{
-			["statKey"] = "AGILITY",
-		}, -- [12]
-		{
-			["statKey"] = "INTELLECT",
-			["hidden"] = true,
-		}, -- [13]
-		{
-			["statKey"] = "STAMINA",
-		}, -- [14]
-		{
-			["statKey"] = "ARMOR",
-		}, -- [15]
-		{
-			["statKey"] = "OffenseCategory",
-		}, -- [16]
-		{
-			["statKey"] = "ATTACK_DAMAGE",
-		}, -- [17]
-		{
-			["statKey"] = "ATTACK_AP",
-		}, -- [18]
-		{
-			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
-		}, -- [19]
-		{
-			["statKey"] = "WEAPON_DPS",
-		}, -- [20]
-		{
-			["statKey"] = "SPELLPOWER",
-			["hidden"] = true,
-		}, -- [21]
-		{
-			["statKey"] = "MANAREGEN",
-			["hidden"] = true,
-		}, -- [22]
-		{
-			["statKey"] = "ENERGY_REGEN",
-		}, -- [23]
-		{
-			["statKey"] = "DCS_RUNEREGEN",
-			["hidden"] = true,
-		}, -- [24]
-		{
-			["statKey"] = "FOCUS_REGEN",
-		}, -- [25]
-		{
-			["statKey"] = "GCD",
-		}, -- [26]
-		{
-			["statKey"] = "EnhancementsCategory",
-		}, -- [27]
-		{
-			["statKey"] = "CRITCHANCE",
-			["hideAt"] = 0,
-		}, -- [28]
-		{
-			["statKey"] = "HASTE",
-			["hideAt"] = 0,
-		}, -- [29]
-		{
-			["statKey"] = "VERSATILITY",
-			["hideAt"] = 0,
-		}, -- [30]
-		{
-			["statKey"] = "MASTERY",
-			["hideAt"] = 0,
-		}, -- [31]
-		{
-			["statKey"] = "LIFESTEAL",
-			["hideAt"] = 0,
-		}, -- [32]
-		{
-			["statKey"] = "AVOIDANCE",
-			["hideAt"] = 0,
-		}, -- [33]
-		{
-			["statKey"] = "DefenseCategory",
-			["hidden"] = true,
-		}, -- [34]
-		{
-			["statKey"] = "DODGE",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [35]
-		{
-			["statKey"] = "PARRY",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [36]
-		{
-			["statKey"] = "BLOCK",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [37]
-		{
-			["statKey"] = "RatingCategory",
-			["hidden"] = true,
-		}, -- [38]
-		{
-			["statKey"] = "CRITCHANCE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [39]
-		{
-			["statKey"] = "HASTE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [40]
-		{
-			["statKey"] = "VERSATILITY_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [41]
-		{
-			["statKey"] = "MASTERY_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [42]
-		{
-			["statKey"] = "LIFESTEAL_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [43]
-		{
-			["statKey"] = "AVOIDANCE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [44]
-		{
-			["statKey"] = "DODGE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [45]
-		{
-			["statKey"] = "PARRY_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [46]
-		{
-			["statKey"] = "SPEED_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [47]
-		{
-			["statKey"] = "SPEED",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [48]
-		{
-			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
-			["roles"] = {
-				"TANK", -- [1]
-			},
-		}, -- [49]
-		{
-			["statKey"] = "RATING_2V2",
-			["hideAt"] = 0,
-		}, -- [50]
-		{
-			["statKey"] = "HONOR_PROGRESS",
-			["hideAt"] = 0,
-		}, -- [51]
-		{
-			["statKey"] = "CONQUEST_PROGRESS",
-			["hideAt"] = 0,
-		}, -- [52]
-		{
-			["statKey"] = "RATING_RBG",
-			["hideAt"] = 0,
-		}, -- [53]
-		{
-			["statKey"] = "RATING_3V3",
-			["hideAt"] = 0,
-		}, -- [54]
-		{
-			["statKey"] = "CR_CORRUPTION_RESISTANCE",
-			["hideAt"] = 0,
-		}, -- [55]
-		{
-			["statKey"] = "CR_CORRUPTION",
-			["hideAt"] = 0,
-		}, -- [56]
-		{
-			["statKey"] = "CorruptionCategory",
-		}, -- [57]
-		{
-			["statKey"] = "CR_TOTAL_CORRUPTION",
-			["hideAt"] = 0,
-		}, -- [58]
-		{
-			["statKey"] = "HONOR_LEVEL",
-			["hideAt"] = 0,
-		}, -- [59]
-		{
-			["statKey"] = "HonorCategory",
-		}, -- [60]
-		{
-			["statKey"] = "ConquestCategory",
-		}, -- [61]
-		["uniqueKey"] = "Dreg:Turalyon:2",
 	},
 	["Furrys:Turalyon:1"] = {
 		{
@@ -12758,23 +12695,20 @@ DCS_ClassSpecDB = {
 			["statKey"] = "HonorCategory",
 		}, -- [52]
 		{
-			["statKey"] = "BLACK_GIRLS_CODE",
+			["statKey"] = "UserCat4",
 		}, -- [53]
 		{
-			["statKey"] = "UserCat4",
+			["statKey"] = "UserCat5",
 		}, -- [54]
 		{
-			["statKey"] = "UserCat5",
+			["statKey"] = "UserCat3",
 		}, -- [55]
 		{
-			["statKey"] = "UserCat3",
+			["statKey"] = "UserCat2",
 		}, -- [56]
 		{
-			["statKey"] = "UserCat2",
-		}, -- [57]
-		{
 			["statKey"] = "UserCat1",
-		}, -- [58]
+		}, -- [57]
 		["uniqueKey"] = "Kayne:Turalyon:3",
 	},
 	["Svend:Turalyon:3"] = {
@@ -13011,226 +12945,6 @@ DCS_ClassSpecDB = {
 		}, -- [61]
 		["uniqueKey"] = "Svend:Turalyon:3",
 	},
-	["Asaam:Turalyon:2"] = {
-		{
-			["statKey"] = "ItemLevelFrame",
-		}, -- [1]
-		{
-			["statKey"] = "HonorCategory",
-		}, -- [2]
-		{
-			["statKey"] = "HONOR_PROGRESS",
-			["hideAt"] = 0,
-		}, -- [3]
-		{
-			["statKey"] = "HONOR_LEVEL",
-			["hideAt"] = 0,
-		}, -- [4]
-		{
-			["statKey"] = "GeneralCategory",
-		}, -- [5]
-		{
-			["statKey"] = "HEALTH",
-		}, -- [6]
-		{
-			["statKey"] = "DCS_POWER",
-		}, -- [7]
-		{
-			["statKey"] = "DCS_ALTERNATEMANA",
-		}, -- [8]
-		{
-			["statKey"] = "ITEMLEVEL",
-			["hidden"] = true,
-		}, -- [9]
-		{
-			["statKey"] = "MOVESPEED",
-		}, -- [10]
-		{
-			["statKey"] = "DURABILITY_STAT",
-		}, -- [11]
-		{
-			["statKey"] = "REPAIR_COST",
-		}, -- [12]
-		{
-			["statKey"] = "AttributesCategory",
-		}, -- [13]
-		{
-			["statKey"] = "STRENGTH",
-		}, -- [14]
-		{
-			["statKey"] = "AGILITY",
-			["hidden"] = true,
-		}, -- [15]
-		{
-			["statKey"] = "INTELLECT",
-			["hidden"] = true,
-		}, -- [16]
-		{
-			["statKey"] = "STAMINA",
-		}, -- [17]
-		{
-			["statKey"] = "ARMOR",
-		}, -- [18]
-		{
-			["statKey"] = "OffenseCategory",
-		}, -- [19]
-		{
-			["statKey"] = "ATTACK_DAMAGE",
-		}, -- [20]
-		{
-			["statKey"] = "ATTACK_AP",
-		}, -- [21]
-		{
-			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
-		}, -- [22]
-		{
-			["statKey"] = "WEAPON_DPS",
-		}, -- [23]
-		{
-			["statKey"] = "SPELLPOWER",
-			["hidden"] = true,
-		}, -- [24]
-		{
-			["statKey"] = "MANAREGEN",
-			["hidden"] = true,
-		}, -- [25]
-		{
-			["statKey"] = "ENERGY_REGEN",
-		}, -- [26]
-		{
-			["statKey"] = "DCS_RUNEREGEN",
-		}, -- [27]
-		{
-			["statKey"] = "FOCUS_REGEN",
-		}, -- [28]
-		{
-			["statKey"] = "GCD",
-		}, -- [29]
-		{
-			["statKey"] = "EnhancementsCategory",
-		}, -- [30]
-		{
-			["statKey"] = "CRITCHANCE",
-			["hideAt"] = 0,
-		}, -- [31]
-		{
-			["statKey"] = "HASTE",
-			["hideAt"] = 0,
-		}, -- [32]
-		{
-			["statKey"] = "VERSATILITY",
-			["hideAt"] = 0,
-		}, -- [33]
-		{
-			["statKey"] = "MASTERY",
-			["hideAt"] = 0,
-		}, -- [34]
-		{
-			["statKey"] = "LIFESTEAL",
-			["hideAt"] = 0,
-		}, -- [35]
-		{
-			["statKey"] = "AVOIDANCE",
-			["hideAt"] = 0,
-		}, -- [36]
-		{
-			["statKey"] = "DefenseCategory",
-			["hidden"] = true,
-		}, -- [37]
-		{
-			["statKey"] = "DODGE",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [38]
-		{
-			["statKey"] = "PARRY",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [39]
-		{
-			["statKey"] = "BLOCK",
-			["hidden"] = true,
-			["hideAt"] = 0,
-		}, -- [40]
-		{
-			["statKey"] = "RatingCategory",
-			["hidden"] = true,
-		}, -- [41]
-		{
-			["statKey"] = "CRITCHANCE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [42]
-		{
-			["statKey"] = "HASTE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [43]
-		{
-			["statKey"] = "VERSATILITY_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [44]
-		{
-			["statKey"] = "MASTERY_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [45]
-		{
-			["statKey"] = "LIFESTEAL_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [46]
-		{
-			["statKey"] = "AVOIDANCE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [47]
-		{
-			["statKey"] = "DODGE_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [48]
-		{
-			["statKey"] = "PARRY_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [49]
-		{
-			["statKey"] = "SPEED_RATING",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [50]
-		{
-			["statKey"] = "SPEED",
-			["hideAt"] = 0,
-			["hidden"] = true,
-		}, -- [51]
-		{
-			["statKey"] = "STAGGER",
-			["roles"] = {
-				"TANK", -- [1]
-			},
-			["hidden"] = true,
-			["hideAt"] = 0,
-		}, -- [52]
-		{
-			["statKey"] = "UserCat4",
-		}, -- [53]
-		{
-			["statKey"] = "UserCat5",
-		}, -- [54]
-		{
-			["statKey"] = "UserCat3",
-		}, -- [55]
-		{
-			["statKey"] = "UserCat2",
-		}, -- [56]
-		{
-			["statKey"] = "UserCat1",
-		}, -- [57]
-		["uniqueKey"] = "Asaam:Turalyon:2",
-	},
 	["Amdam:Turalyon:3"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
@@ -13449,6 +13163,226 @@ DCS_ClassSpecDB = {
 			["statKey"] = "UserCat1",
 		}, -- [57]
 		["uniqueKey"] = "Amdam:Turalyon:3",
+	},
+	["Asaam:Turalyon:2"] = {
+		{
+			["statKey"] = "ItemLevelFrame",
+		}, -- [1]
+		{
+			["statKey"] = "HonorCategory",
+		}, -- [2]
+		{
+			["statKey"] = "HONOR_PROGRESS",
+			["hideAt"] = 0,
+		}, -- [3]
+		{
+			["statKey"] = "HONOR_LEVEL",
+			["hideAt"] = 0,
+		}, -- [4]
+		{
+			["statKey"] = "GeneralCategory",
+		}, -- [5]
+		{
+			["statKey"] = "HEALTH",
+		}, -- [6]
+		{
+			["statKey"] = "DCS_POWER",
+		}, -- [7]
+		{
+			["statKey"] = "DCS_ALTERNATEMANA",
+		}, -- [8]
+		{
+			["statKey"] = "ITEMLEVEL",
+			["hidden"] = true,
+		}, -- [9]
+		{
+			["statKey"] = "MOVESPEED",
+		}, -- [10]
+		{
+			["statKey"] = "DURABILITY_STAT",
+		}, -- [11]
+		{
+			["statKey"] = "REPAIR_COST",
+		}, -- [12]
+		{
+			["statKey"] = "AttributesCategory",
+		}, -- [13]
+		{
+			["statKey"] = "STRENGTH",
+		}, -- [14]
+		{
+			["statKey"] = "AGILITY",
+			["hidden"] = true,
+		}, -- [15]
+		{
+			["statKey"] = "INTELLECT",
+			["hidden"] = true,
+		}, -- [16]
+		{
+			["statKey"] = "STAMINA",
+		}, -- [17]
+		{
+			["statKey"] = "ARMOR",
+		}, -- [18]
+		{
+			["statKey"] = "OffenseCategory",
+		}, -- [19]
+		{
+			["statKey"] = "ATTACK_DAMAGE",
+		}, -- [20]
+		{
+			["statKey"] = "ATTACK_AP",
+		}, -- [21]
+		{
+			["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+		}, -- [22]
+		{
+			["statKey"] = "WEAPON_DPS",
+		}, -- [23]
+		{
+			["statKey"] = "SPELLPOWER",
+			["hidden"] = true,
+		}, -- [24]
+		{
+			["statKey"] = "MANAREGEN",
+			["hidden"] = true,
+		}, -- [25]
+		{
+			["statKey"] = "ENERGY_REGEN",
+		}, -- [26]
+		{
+			["statKey"] = "DCS_RUNEREGEN",
+		}, -- [27]
+		{
+			["statKey"] = "FOCUS_REGEN",
+		}, -- [28]
+		{
+			["statKey"] = "GCD",
+		}, -- [29]
+		{
+			["statKey"] = "EnhancementsCategory",
+		}, -- [30]
+		{
+			["statKey"] = "CRITCHANCE",
+			["hideAt"] = 0,
+		}, -- [31]
+		{
+			["statKey"] = "HASTE",
+			["hideAt"] = 0,
+		}, -- [32]
+		{
+			["statKey"] = "VERSATILITY",
+			["hideAt"] = 0,
+		}, -- [33]
+		{
+			["statKey"] = "MASTERY",
+			["hideAt"] = 0,
+		}, -- [34]
+		{
+			["statKey"] = "LIFESTEAL",
+			["hideAt"] = 0,
+		}, -- [35]
+		{
+			["statKey"] = "AVOIDANCE",
+			["hideAt"] = 0,
+		}, -- [36]
+		{
+			["statKey"] = "DefenseCategory",
+			["hidden"] = true,
+		}, -- [37]
+		{
+			["statKey"] = "DODGE",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [38]
+		{
+			["statKey"] = "PARRY",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [39]
+		{
+			["statKey"] = "BLOCK",
+			["hidden"] = true,
+			["hideAt"] = 0,
+		}, -- [40]
+		{
+			["statKey"] = "RatingCategory",
+			["hidden"] = true,
+		}, -- [41]
+		{
+			["statKey"] = "CRITCHANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [42]
+		{
+			["statKey"] = "HASTE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [43]
+		{
+			["statKey"] = "VERSATILITY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [44]
+		{
+			["statKey"] = "MASTERY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [45]
+		{
+			["statKey"] = "LIFESTEAL_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [46]
+		{
+			["statKey"] = "AVOIDANCE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [47]
+		{
+			["statKey"] = "DODGE_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [48]
+		{
+			["statKey"] = "PARRY_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [49]
+		{
+			["statKey"] = "SPEED_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [50]
+		{
+			["statKey"] = "SPEED",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [51]
+		{
+			["statKey"] = "STAGGER",
+			["roles"] = {
+				"TANK", -- [1]
+			},
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [52]
+		{
+			["statKey"] = "UserCat4",
+		}, -- [53]
+		{
+			["statKey"] = "UserCat5",
+		}, -- [54]
+		{
+			["statKey"] = "UserCat3",
+		}, -- [55]
+		{
+			["statKey"] = "UserCat2",
+		}, -- [56]
+		{
+			["statKey"] = "UserCat1",
+		}, -- [57]
+		["uniqueKey"] = "Asaam:Turalyon:2",
 	},
 	["Amdamn:Turalyon:2"] = {
 		{
@@ -13764,8 +13698,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [49]
 		{
 			["statKey"] = "HonorCategory",
@@ -14062,7 +13996,7 @@ DCS_ClassSpecDB = {
 		}, -- [68]
 		["uniqueKey"] = "Adrid:Turalyon:2",
 	},
-	["Dewt:Turalyon:2"] = {
+	["Dreg:Turalyon:2"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
 		}, -- [1]
@@ -14237,7 +14171,69 @@ DCS_ClassSpecDB = {
 			["hideAt"] = 0,
 			["hidden"] = true,
 		}, -- [46]
-		["uniqueKey"] = "Dewt:Turalyon:2",
+		{
+			["statKey"] = "SPEED_RATING",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [47]
+		{
+			["statKey"] = "SPEED",
+			["hideAt"] = 0,
+			["hidden"] = true,
+		}, -- [48]
+		{
+			["statKey"] = "STAGGER",
+			["hideAt"] = 0,
+			["roles"] = {
+				"TANK", -- [1]
+			},
+		}, -- [49]
+		{
+			["statKey"] = "RATING_2V2",
+			["hideAt"] = 0,
+		}, -- [50]
+		{
+			["statKey"] = "HONOR_PROGRESS",
+			["hideAt"] = 0,
+		}, -- [51]
+		{
+			["statKey"] = "CONQUEST_PROGRESS",
+			["hideAt"] = 0,
+		}, -- [52]
+		{
+			["statKey"] = "RATING_RBG",
+			["hideAt"] = 0,
+		}, -- [53]
+		{
+			["statKey"] = "RATING_3V3",
+			["hideAt"] = 0,
+		}, -- [54]
+		{
+			["statKey"] = "CR_CORRUPTION_RESISTANCE",
+			["hideAt"] = 0,
+		}, -- [55]
+		{
+			["statKey"] = "CR_CORRUPTION",
+			["hideAt"] = 0,
+		}, -- [56]
+		{
+			["statKey"] = "CorruptionCategory",
+		}, -- [57]
+		{
+			["statKey"] = "CR_TOTAL_CORRUPTION",
+			["hideAt"] = 0,
+		}, -- [58]
+		{
+			["statKey"] = "HONOR_LEVEL",
+			["hideAt"] = 0,
+		}, -- [59]
+		{
+			["statKey"] = "HonorCategory",
+		}, -- [60]
+		{
+			["statKey"] = "ConquestCategory",
+		}, -- [61]
+		["uniqueKey"] = "Dreg:Turalyon:2",
 	},
 	["Badam:Turalyon:3"] = {
 		{
@@ -15315,8 +15311,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		{
 			["statKey"] = "HonorCategory",
@@ -15762,8 +15758,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		{
 			["statKey"] = "HonorCategory",
@@ -15993,71 +15989,31 @@ DCS_ClassSpecDB = {
 			["hidden"] = true,
 		}, -- [49]
 		{
-			["statKey"] = "RATING_2V2",
+			["statKey"] = "HONOR_PROGRESS",
 			["hideAt"] = 0,
 		}, -- [50]
 		{
-			["statKey"] = "HONOR_PROGRESS",
+			["statKey"] = "HONOR_LEVEL",
 			["hideAt"] = 0,
 		}, -- [51]
 		{
-			["statKey"] = "CONQUEST_PROGRESS",
-			["hideAt"] = 0,
+			["statKey"] = "HonorCategory",
 		}, -- [52]
 		{
-			["statKey"] = "RATING_RBG",
-			["hideAt"] = 0,
+			["statKey"] = "UserCat4",
 		}, -- [53]
 		{
-			["statKey"] = "RATING_3V3",
-			["hideAt"] = 0,
+			["statKey"] = "UserCat5",
 		}, -- [54]
 		{
-			["statKey"] = "CR_CORRUPTION_RESISTANCE",
-			["hideAt"] = 0,
+			["statKey"] = "UserCat3",
 		}, -- [55]
 		{
-			["statKey"] = "CR_CORRUPTION",
-			["hideAt"] = 0,
+			["statKey"] = "UserCat2",
 		}, -- [56]
 		{
-			["statKey"] = "CorruptionCategory",
+			["statKey"] = "UserCat1",
 		}, -- [57]
-		{
-			["statKey"] = "CR_TOTAL_CORRUPTION",
-			["hideAt"] = 0,
-		}, -- [58]
-		{
-			["statKey"] = "HONOR_LEVEL",
-			["hideAt"] = 0,
-		}, -- [59]
-		{
-			["statKey"] = "HonorCategory",
-		}, -- [60]
-		{
-			["statKey"] = "ConquestCategory",
-		}, -- [61]
-		{
-			["statKey"] = "WOMEN_IN__ANIMATION",
-		}, -- [62]
-		{
-			["statKey"] = "WOMEN_IN_GAMES_INTL",
-		}, -- [63]
-		{
-			["statKey"] = "RAINN",
-		}, -- [64]
-		{
-			["statKey"] = "GIRLS_WHO_CODE",
-		}, -- [65]
-		{
-			["statKey"] = "FUTURES",
-		}, -- [66]
-		{
-			["statKey"] = "ActiBlizzWalkout",
-		}, -- [67]
-		{
-			["statKey"] = "BLACK_GIRLS_CODE",
-		}, -- [68]
 		["uniqueKey"] = "Abel:Turalyon:1",
 	},
 }

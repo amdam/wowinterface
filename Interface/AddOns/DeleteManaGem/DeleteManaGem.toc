@@ -1,0 +1,6 @@
+## Interface: 100002
+## Title: Delete mana gem
+## Author: Exo
+## Version: 3.0
+
+DeleteManaGem.lua

@@ -43,7 +43,7 @@ local defaults = {
 			SpellIDFiltering_Enabled = false,
 			SpellIDFiltering_Filterlist = {},
 			DurationFilter_Enabled = false,
-			DurationFilter_CustomMaxDuration = 10
+			DurationFilter_CustomMaxDuration = 20
 		}
 	}
 }
@@ -343,7 +343,7 @@ local nonPriorityBuffs = BattleGroundEnemies:NewButtonModule({
 	defaultSettings = defaults,
 	options = nonPriorityBuffOptions,
 	events = events,
-	expansions = "All"
+	enabledInThisExpansion = true
 })
 local nonPriorityDebuffs = BattleGroundEnemies:NewButtonModule({
 	moduleName = "NonPriorityDebuffs",
@@ -352,7 +352,7 @@ local nonPriorityDebuffs = BattleGroundEnemies:NewButtonModule({
 	defaultSettings = defaults,
 	options = nonPriorityDebuffOptions,
 	events = events,
-	expansions = "All"
+	enabledInThisExpansion = true
 })
 
 local priorityBuffs = BattleGroundEnemies:NewButtonModule({
@@ -362,7 +362,7 @@ local priorityBuffs = BattleGroundEnemies:NewButtonModule({
 	defaultSettings = defaults,
 	options = priorityBuffOptions,
 	events = events,
-	expansions = "All"
+	enabledInThisExpansion = true
 })
 local priorityDebuffs = BattleGroundEnemies:NewButtonModule({
 	moduleName = "PriorityDebuffs",
@@ -371,7 +371,7 @@ local priorityDebuffs = BattleGroundEnemies:NewButtonModule({
 	defaultSettings = defaults,
 	options = priorityDebuffOptions,
 	events = events,
-	expansions = "All"
+	enabledInThisExpansion = true
 })
 
 local function createNewAuraFrame(playerButton, container)
@@ -565,7 +565,7 @@ local function AttachToPlayerButton(playerButton, filterr, isPriorityContainer)
 			end
 			if aura.duration ~= nil then
 				if customFilterConfig.DurationFilter_Enabled then
-					table_insert(conditions, aura.duration <= customFilterConfig.DurationFilter_CustomMaxDuration)
+					table_insert(conditions, aura.duration > 0 and aura.duration <= customFilterConfig.DurationFilter_CustomMaxDuration)
 				end
 			end
 

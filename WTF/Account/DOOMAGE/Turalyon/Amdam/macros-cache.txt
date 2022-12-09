@@ -1,12 +1,7 @@
-VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [talent:5/2] Holy Avenger; [talent:5/3] Seraphim;
-/script UIErrorsFrame:Clear()
-END
 VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast [@player,modifier:alt] Word of Glory ; [spec:2] Shield of the Righteous; [spec:3] Wake of Ashes; 
+/cast [mod:alt,spec:3,known:Exorcism] Wake of Ashes; [spec:2] Shield of the Righteous; [spec:3,known:Exorcism] Exorcism; [spec:3] Wake of Ashes; 
 /script UIErrorsFrame:Clear()
 END
 VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
@@ -57,7 +52,7 @@ VER 3 0100000000000010 " " "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000012 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use [@mouseover,help,nodead][help,nodead][@player] Intercession;
+/use [@mouseover] Intercession;
 /script UIErrorsFrame:Clear()
 END
 VER 3 0100000000000013 " " "INV_MISC_QUESTIONMARK"
@@ -87,7 +82,7 @@ END
 VER 3 0100000000000019 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast [modifier:alt,spec:3,talent:1/3] Execution Sentence; Hammer of Wrath
+/cast [mod:alt,spec:3,known:Execution Sentence] Execution Sentence; Hammer of Wrath
 /script UIErrorsFrame:Clear()
 END
 VER 3 010000000000001A " " "INV_MISC_QUESTIONMARK"

@@ -2,8 +2,8 @@ Version: 1
 Frame: ScriptErrorsFrame
 FrameLevel: 1
 Anchor: CENTER
-X: -49
-Y: 11
+X: -56
+Y: 9
 W: 784
 H: 260
 Frame: PlayerPowerBarAlt
@@ -20,3 +20,10 @@ X: 0
 Y: 0
 W: 365
 H: 239
+Frame: AtlasLoot_GUI-Frame
+FrameLevel: 1
+Anchor: CENTER
+X: 95
+Y: 134
+W: 920
+H: 600

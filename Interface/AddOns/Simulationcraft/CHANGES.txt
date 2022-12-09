@@ -1,10 +1,10 @@
-lightweight tag f3442e5aef26736199a7ec017c9190d074236245 v10.0.2-01
+lightweight tag f5e56f72634b4a313483c47cc36045bbf453e3a0 v10.0.2-04
 Author:	Dave Hendler <sollaires@gmail.com>
-Date:	Tue Nov 15 15:17:02 2022 -0800
+Date:	Thu Dec 1 11:07:43 2022 -0800
 
-commit f3442e5aef26736199a7ec017c9190d074236245
+commit f5e56f72634b4a313483c47cc36045bbf453e3a0
 Author: Dave Hendler <sollaires@gmail.com>
-Date:   Tue Nov 15 15:17:02 2022 -0800
+Date:   Thu Dec 1 11:07:43 2022 -0800
 
-    Proper version
+    Remove Shadowlands features
 

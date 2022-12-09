@@ -2,28 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"the main issue is that you're using your library in general, it's a stupid system", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Azados", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			227, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1527956171,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [1]
-		{
 			"as long as you're accessing your library, it's locked for anyone ele", -- [1]
 			"Azados-Turalyon", -- [2]
 			"", -- [3]
@@ -44,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1527956181,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [2]
+		}, -- [1]
 		{
 			"*else", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -66,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1527956183,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [3]
+		}, -- [2]
 		{
 			"oh", -- [1]
 			"Tietra-Turalyon", -- [2]
@@ -88,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTietra|r",
 			[51] = 1527956184,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [4]
+		}, -- [3]
 		{
 			"it USED to be on a per game basis", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -110,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1527956198,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [5]
+		}, -- [4]
 		{
 			"but they didn't like people sharing with each other, which is the whole point of the system...", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -132,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1527956211,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [6]
+		}, -- [5]
 		{
 			"stupid", -- [1]
 			"Tietra-Turalyon", -- [2]
@@ -154,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTietra|r",
 			[51] = 1527956255,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [7]
+		}, -- [6]
 		{
 			"aly and i are gonna dick around in lowish stones if anyone wants to go", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -176,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1527956383,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [8]
+		}, -- [7]
 		{
 			"arwyl \"fun\"", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -198,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1527956386,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [9]
+		}, -- [8]
 		{
 			"what do you mean dick around", -- [1]
 			"Tietra-Turalyon", -- [2]
@@ -220,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTietra|r",
 			[51] = 1527956402,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [10]
+		}, -- [9]
 		{
 			"like play my hunter dick around", -- [1]
 			"Ralahala-Turalyon", -- [2]
@@ -242,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ralahala|r",
 			[51] = 1527956409,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [11]
+		}, -- [10]
 		{
 			"lol", -- [1]
 			"Ralahala-Turalyon", -- [2]
@@ -264,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ralahala|r",
 			[51] = 1527956411,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [12]
+		}, -- [11]
 		{
 			"she's practicing hunter", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -286,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1527956412,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [13]
+		}, -- [12]
 		{
 			"I thought she already knew hunter", -- [1]
 			"Tietra-Turalyon", -- [2]
@@ -308,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTietra|r",
 			[51] = 1527956420,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [14]
+		}, -- [13]
 		{
 			"she hasn't played it in like 6 months", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -330,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1527956433,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [15]
+		}, -- [14]
 		{
 			"not for m+. new talents and whatnot", -- [1]
 			"Ralahala-Turalyon", -- [2]
@@ -352,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ralahala|r",
 			[51] = 1527956434,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [16]
+		}, -- [15]
 		{
 			"maybe longer", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -374,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1527956434,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [17]
+		}, -- [16]
 		{
 			"yea sure I'll dick around", -- [1]
 			"Tietra-Turalyon", -- [2]
@@ -396,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTietra|r",
 			[51] = 1527956440,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [18]
+		}, -- [17]
 		{
 			"you can play unholy lol", -- [1]
 			"Ralahala-Turalyon", -- [2]
@@ -418,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ralahala|r",
 			[51] = 1527956448,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [19]
+		}, -- [18]
 		{
 			"eww no", -- [1]
 			"Tietra-Turalyon", -- [2]
@@ -440,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTietra|r",
 			[51] = 1527956455,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [20]
+		}, -- [19]
 		{
 			"you've seen adam, goes away for 2 weeks, bucket full of rust comes off", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -462,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1527956456,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [21]
+		}, -- [20]
 		{
 			"what", -- [1]
 			"Tietra-Turalyon", -- [2]
@@ -484,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTietra|r",
 			[51] = 1527956472,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [22]
+		}, -- [21]
 		{
 			"he's pretty good", -- [1]
 			"Tietra-Turalyon", -- [2]
@@ -506,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTietra|r",
 			[51] = 1527956475,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [23]
+		}, -- [22]
 		{
 			"when he practices lol", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -528,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1527956491,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [24]
+		}, -- [23]
 		{
 			"He doesn't need practice", -- [1]
 			"Tietra-Turalyon", -- [2]
@@ -550,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTietra|r",
 			[51] = 1527956500,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [25]
+		}, -- [24]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6609:Player-3685-093D597F:1:6:2:18:4294967295:4294967295:4294967295:4294967295|h[No Favorites]|h|r!", -- [1]
 			"Naiendra-Turalyon", -- [2]
@@ -572,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Naiendra|r",
 			[51] = 1527973178,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [26]
+		}, -- [25]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6610:Player-3685-093D597F:1:6:2:18:4294967295:4294967295:4294967295:4294967295|h[All Pets Allowed]|h|r!", -- [1]
 			"Naiendra-Turalyon", -- [2]
@@ -594,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Naiendra|r",
 			[51] = 1527973178,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [27]
+		}, -- [26]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:6581:Player-3685-093D597F:1:6:2:18:4294967295:4294967295:4294967295:4294967295|h[Pro Pet Crew]|h|r!", -- [1]
 			"Naiendra-Turalyon", -- [2]
@@ -616,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Naiendra|r",
 			[51] = 1527973507,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [28]
+		}, -- [27]
 		{
 			"hi adam", -- [1]
 			"Tietra-Turalyon", -- [2]
@@ -638,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTietra|r",
 			[51] = 1528168115,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [29]
+		}, -- [28]
 		{
 			"what does internal mail database error mean", -- [1]
 			"Aduum-Turalyon", -- [2]
@@ -660,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAduum|r",
 			[51] = 1528168476,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [30]
+		}, -- [29]
 		{
 			"i had sold auctions and i clicked open all and i didnt get all my money", -- [1]
 			"Aduum-Turalyon", -- [2]
@@ -682,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAduum|r",
 			[51] = 1528168505,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [31]
+		}, -- [30]
 		{
 			":/", -- [1]
 			"Aduum-Turalyon", -- [2]
@@ -704,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAduum|r",
 			[51] = 1528168508,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [32]
+		}, -- [31]
 		{
 			"you dun goofed son", -- [1]
 			"Tietra-Turalyon", -- [2]
@@ -726,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTietra|r",
 			[51] = 1528168519,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [33]
+		}, -- [32]
 		{
 			"so my 400k is poof?", -- [1]
 			"Aduum-Turalyon", -- [2]
@@ -748,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAduum|r",
 			[51] = 1528168562,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [34]
+		}, -- [33]
 		{
 			"no it just hasnt loaded in yet", -- [1]
 			"Tietra-Turalyon", -- [2]
@@ -770,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTietra|r",
 			[51] = 1528168604,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [35]
+		}, -- [34]
 		{
 			"into my inventory?", -- [1]
 			"Aduum-Turalyon", -- [2]
@@ -792,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAduum|r",
 			[51] = 1528168615,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [36]
+		}, -- [35]
 		{
 			"the mail", -- [1]
 			"Tietra-Turalyon", -- [2]
@@ -814,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTietra|r",
 			[51] = 1528168633,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [37]
+		}, -- [36]
 		{
 			"i saw it in the mail, i moused over it and saw the amount it was going to give me, then i clicked open all and it opened everything but i didnt get the money", -- [1]
 			"Aduum-Turalyon", -- [2]
@@ -836,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAduum|r",
 			[51] = 1528168696,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [38]
+		}, -- [37]
 		{
 			"guess i need to open a ticket...", -- [1]
 			"Aduum-Turalyon", -- [2]
@@ -858,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAduum|r",
 			[51] = 1528168762,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [39]
+		}, -- [38]
 		{
 			"it doesnt help me I already have a 23 in tikme", -- [1]
 			"Tietra-Turalyon", -- [2]
@@ -880,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTietra|r",
 			[51] = 1528169116,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [40]
+		}, -- [39]
 		{
 			"yeah all of us do", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -902,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1528169130,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [41]
+		}, -- [40]
 		{
 			"well poo", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -924,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1528169131,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [42]
+		}, -- [41]
 		{
 			"watch the 24 be a vault", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -946,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1528169136,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [43]
+		}, -- [42]
 		{
 			"i'm too tired for the 24 if we succeed", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -968,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1528169146,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [44]
+		}, -- [43]
 		{
 			"this is my last one", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -990,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1528169148,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [45]
+		}, -- [44]
 		{
 			"hey adam", -- [1]
 			"Tietra-Turalyon", -- [2]
@@ -1012,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTietra|r",
 			[51] = 1528245985,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [46]
+		}, -- [45]
 		{
 			"you wanna do a lower", -- [1]
 			"Tietra-Turalyon", -- [2]
@@ -1034,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTietra|r",
 			[51] = 1528245989,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [47]
+		}, -- [46]
 		{
 			"mythic plus", -- [1]
 			"Tietra-Turalyon", -- [2]
@@ -1056,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTietra|r",
 			[51] = 1528245993,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [48]
+		}, -- [47]
 		{
 			"23", -- [1]
 			"Tietra-Turalyon", -- [2]
@@ -1078,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTietra|r",
 			[51] = 1528245997,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [49]
+		}, -- [48]
 		{
 			"mmmmmmmmm", -- [1]
 			"Tietra-Turalyon", -- [2]
@@ -1100,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTietra|r",
 			[51] = 1528246000,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [50]
+		}, -- [49]
 		{
 			"mm i would but im gonna go work out here in about 20 minutes", -- [1]
 			"Aduum-Turalyon", -- [2]
@@ -1122,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAduum|r",
 			[51] = 1528246032,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [51]
+		}, -- [50]
 		{
 			"|cffffff00The Great Forge is under attack!|r", -- [1]
 			"", -- [2]
@@ -1144,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1528246072,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [51]
 		{
 			"|cffffff00Ironforge is under attack!|r", -- [1]
 			"", -- [2]
@@ -1166,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1528246534,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [52]
 		{
 			"|cffffff00Ironforge is under attack!|r", -- [1]
 			"", -- [2]
@@ -1188,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1528415517,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [53]
 		{
 			"|cffffff00The Great Forge is under attack!|r", -- [1]
 			"", -- [2]
@@ -1210,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1528415530,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [54]
 		{
 			"|cffffff00Ironforge is under attack!|r", -- [1]
 			"", -- [2]
@@ -1232,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1528514179,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [55]
 		{
 			"|cffffff00Ironforge is under attack!|r", -- [1]
 			"", -- [2]
@@ -1254,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1528514243,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [56]
 		{
 			"|cffffff00The Great Forge is under attack!|r", -- [1]
 			"", -- [2]
@@ -1276,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1528514287,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [57]
 		{
 			"|cffffff00The Commons is under attack!|r", -- [1]
 			"", -- [2]
@@ -1298,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1528514302,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [58]
 		{
 			"|cffffff00Ironforge is under attack!|r", -- [1]
 			"", -- [2]
@@ -1320,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1528514314,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [59]
 		{
 			"|cffffff00The Commons is under attack!|r", -- [1]
 			"", -- [2]
@@ -1342,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1528514369,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [60]
 		{
 			"how ya'll doing today?", -- [1]
 			"Putmoredots-Turalyon", -- [2]
@@ -1364,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edPutmoredots|r",
 			[51] = 1529020462,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [62]
+		}, -- [61]
 		{
 			"good, how are you?", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -1386,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1529020518,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [63]
+		}, -- [62]
 		{
 			"doing pretty good", -- [1]
 			"Putmoredots-Turalyon", -- [2]
@@ -1408,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edPutmoredots|r",
 			[51] = 1529020547,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [64]
+		}, -- [63]
 		{
 			"joey, you afk or something?", -- [1]
 			"Azados-Turalyon", -- [2]
@@ -1430,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzados|r",
 			[51] = 1529020556,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [65]
+		}, -- [64]
 		{
 			"haven't seen that shaman in a loooong time", -- [1]
 			"Pawpados-Turalyon", -- [2]
@@ -1452,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Pawpados|r",
 			[51] = 1572038854,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [66]
+		}, -- [65]
 		{
 			"wts |cffa335ee|Hitem:175009::::::::120:270::5:8:4823:6578:6579:6437:6455:6513:1502:4786:::|h[Zealous Ritualist's Reverie]|h|r ", -- [1]
 			"Crazifist-Turalyon", -- [2]
@@ -1474,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Crazifist|r",
 			[51] = 1597767149,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [66]
 		{
 			"wts |cff0070dd|Hbattlepet:328:2:3:204:26:21:BattlePet-0-00000935B8A5:38777|h[Purple Puffer]|h|r 80k", -- [1]
 			"Yolodolo-Turalyon", -- [2]
@@ -1496,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Yolodolo|r",
 			[51] = 1597878937,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [67]
 		{
 			"wts |cff0070dd|Hbattlepet:328:25:3:1400:325:260:0000000000000000:0|h[Purple Puffer]|h|r 80k way cheaper then AH ", -- [1]
 			"Yolodolo-Turalyon", -- [2]
@@ -1518,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Yolodolo|r",
 			[51] = 1597879039,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [68]
 		{
 			"wts |cff0070dd|Hbattlepet:328:2:3:204:26:21:BattlePet-0-00000935B8A5:38777|h[Purple Puffer]|h|r80k ", -- [1]
 			"Yolodolo-Turalyon", -- [2]
@@ -1540,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Yolodolo|r",
 			[51] = 1597879188,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [69]
 		{
 			"wts |cff0070dd|Hbattlepet:328:2:3:204:26:21:BattlePet-0-00000935B8A5:38777|h[Purple Puffer]|h|r80k", -- [1]
 			"Yolodolo-Turalyon", -- [2]
@@ -1562,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Yolodolo|r",
 			[51] = 1597879346,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [70]
 		{
 			"if u can find vulnerabilities and CRACK the codes on beta that will help avoid some colossal problems u would have on live", -- [1]
 			"Reì-Turalyon", -- [2]
@@ -1584,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Reì|r",
 			[51] = 1597946908,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [71]
 		{
 			"I mean its called beta testing for a reason right?", -- [1]
 			"Hagnir-Turalyon", -- [2]
@@ -1606,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHagnir|r",
 			[51] = 1597947019,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [72]
 		{
 			"its impossible to fix every game breaking glitch the game would have but rextroy in my opinion is a legend a lot of stuff bliz would not fix had it not been for him finding vulnerabilities", -- [1]
 			"Reì-Turalyon", -- [2]
@@ -1628,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Reì|r",
 			[51] = 1597947042,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [73]
 		{
 			"they need to have people like him and others goin in i hope he keeps doing what he is doing maybe we will has a better game for once", -- [1]
 			"Reì-Turalyon", -- [2]
@@ -1650,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Reì|r",
 			[51] = 1597947070,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [74]
 		{
 			"bug hunters are under appreciated for sure ", -- [1]
 			"Hagnir-Turalyon", -- [2]
@@ -1672,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHagnir|r",
 			[51] = 1597947075,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [75]
 		{
 			"imo ", -- [1]
 			"Hagnir-Turalyon", -- [2]
@@ -1694,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHagnir|r",
 			[51] = 1597947078,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [76]
 		{
 			"rextroy is like the king of bug hunters trust me he do some crazy stuff even i would of not spotted", -- [1]
 			"Reì-Turalyon", -- [2]
@@ -1716,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Reì|r",
 			[51] = 1597947106,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [77]
 		{
 			"Turalyon is on the throne, because of the prepatch event that has not been put in yet, but the TLDR is that sylvanas has kidnapped some faction leaders", -- [1]
 			"Thiccdaddy-Turalyon", -- [2]
@@ -1738,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Thiccdaddy|r",
 			[51] = 1602638427,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [78]
 		{
 			"you'll find out after the preexcap event launches ", -- [1]
 			"Mikya-Turalyon", -- [2]
@@ -1760,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMikya|r",
 			[51] = 1602638427,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [79]
 		{
 			"omg spoilers", -- [1]
 			"Mikya-Turalyon", -- [2]
@@ -1782,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMikya|r",
 			[51] = 1602638431,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [80]
 		{
 			"Because Anduin is in the Shadowlands, Turalyon was left in charge.", -- [1]
 			"Thro-Turalyon", -- [2]
@@ -1804,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaThro|r",
 			[51] = 1602638435,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [81]
 		{
 			"Good work, bois", -- [1]
 			"Mortbelle-Turalyon", -- [2]
@@ -1826,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Mortbelle|r",
 			[51] = 1602638443,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [82]
 		{
 			"if I could roll my eyes via text I would...", -- [1]
 			"Yåësérä-Turalyon", -- [2]
@@ -1848,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcYåësérä|r",
 			[51] = 1602638444,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [83]
 		{
 			"wait so when will i get the quest for that?", -- [1]
 			"Darkenling-Turalyon", -- [2]
@@ -1870,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDarkenling|r",
 			[51] = 1602638453,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [84]
 		{
 			"Soon(TM)", -- [1]
 			"Mikya-Turalyon", -- [2]
@@ -1892,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaMikya|r",
 			[51] = 1602638459,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [85]
 		{
 			"In like.. 3 weeks or so.", -- [1]
 			"Thro-Turalyon", -- [2]
@@ -1914,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaThro|r",
 			[51] = 1602638463,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [86]
 		{
 			"oh ok ty", -- [1]
 			"Darkenling-Turalyon", -- [2]
@@ -1936,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDarkenling|r",
 			[51] = 1602638468,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [87]
 		{
 			"Bet less than that", -- [1]
 			"Mortbelle-Turalyon", -- [2]
@@ -1958,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Mortbelle|r",
 			[51] = 1602638477,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [88]
 		{
 			"Don't recall the \"learn your new talents\" phase lasting that long", -- [1]
 			"Mortbelle-Turalyon", -- [2]
@@ -1980,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Mortbelle|r",
 			[51] = 1602638487,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [89]
 		{
 			"just played again after 2 months to wait for pre patch", -- [1]
 			"Darkenling-Turalyon", -- [2]
@@ -2002,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDarkenling|r",
 			[51] = 1602638506,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [90]
 		{
 			"|cff0070dd|Hbattlepet:1753:1:3:150:12:11:0000000000000000:65630|h[Bleakwater Jelly]|h|r", -- [1]
 			"Releaf-Turalyon", -- [2]
@@ -2024,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Releaf|r",
 			[51] = 1604168133,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [92]
+		}, -- [91]
 		{
 			"|cff0070dd|Hbattlepet:2548:1:3:169:10:10:0000000000000000:90140|h[Everburning Treant]|h|r", -- [1]
 			"Releaf-Turalyon", -- [2]
@@ -2046,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Releaf|r",
 			[51] = 1604168141,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [93]
+		}, -- [92]
 		{
 			"|cff0070dd|Hbattlepet:1623:1:3:158:11:11:0000000000000000:61887|h[Leviathan Hatchling]|h|r", -- [1]
 			"Releaf-Turalyon", -- [2]
@@ -2068,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Releaf|r",
 			[51] = 1604168145,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [94]
+		}, -- [93]
 		{
 			"|cff0070dd|Hbattlepet:1955:1:3:145:14:10:0000000000000000:73671|h[Magma Rageling]|h|r", -- [1]
 			"Releaf-Turalyon", -- [2]
@@ -2090,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Releaf|r",
 			[51] = 1604168147,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [95]
+		}, -- [94]
 		{
 			"|cff0070dd|Hbattlepet:2692:1:3:152:11:12:0000000000000000:91028|h[Lightless Ambusher]|h|r", -- [1]
 			"Releaf-Turalyon", -- [2]
@@ -2112,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Releaf|r",
 			[51] = 1604168153,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [96]
+		}, -- [95]
 		{
 			"|cff0070dd|Hbattlepet:1628:1:3:155:11:11:0000000000000000:0|h[Sister of Temptation]|h|r", -- [1]
 			"Releaf-Turalyon", -- [2]
@@ -2134,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Releaf|r",
 			[51] = 1604168157,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [97]
+		}, -- [96]
 		{
 			"|cff0070dd|Hbattlepet:2833:1:3:164:11:10:0000000000000000:94706|h[Void-Scarred Anubisath]|h|r", -- [1]
 			"Releaf-Turalyon", -- [2]
@@ -2156,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Releaf|r",
 			[51] = 1604168163,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [98]
+		}, -- [97]
 		{
 			"|cff0070dd|Hbattlepet:2566:1:3:157:10:12:0000000000000000:77901|h[Albatross Hatchling]|h|r", -- [1]
 			"Releaf-Turalyon", -- [2]
@@ -2178,6 +2156,28 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Releaf|r",
 			[51] = 1604168174,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [98]
+		{
+			"lf GUILD", -- [1]
+			"Darthhemi-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Darthhemi-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			22, -- [11]
+			"Player-3685-0DFE3498", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fDarthhemi|r",
+			[51] = 1669671941,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {

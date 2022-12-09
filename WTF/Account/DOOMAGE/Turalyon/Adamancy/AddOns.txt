@@ -30,7 +30,7 @@ HHTD: disabled
 Pawn: disabled
 HiddenSkinTracker: disabled
 BattlegroundTargets: disabled
-AtlasLoot: disabled
+AtlasLoot: enabled
 WorldQuestTracker: enabled
 ElvUI_BenikUI: enabled
 ElvUI_EverySecondCounts: disabled
@@ -120,10 +120,10 @@ HealBot_ru: disabled
 HealBot_es: disabled
 HealBot_tw: disabled
 HealBot_Tips: disabled
-Kui_Media: disabled
-Kui_Nameplates: disabled
-Kui_Nameplates_Core_Config: disabled
-Kui_Nameplates_Core: disabled
+Kui_Media: enabled
+Kui_Nameplates: enabled
+Kui_Nameplates_Core_Config: enabled
+Kui_Nameplates_Core: enabled
 OmniCC_Config: enabled
 Parrot: enabled
 RaiderIO: enabled
@@ -179,3 +179,5 @@ OmniCD: disabled
 Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
 ElvUI_Options: enabled
+Plater: disabled
+HandyNotes: disabled

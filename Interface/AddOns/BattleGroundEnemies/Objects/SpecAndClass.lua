@@ -42,7 +42,7 @@ local classDefaults = {
 	}
 }
 
-local events = {"SetSpecAndRole"}
+local events = {"PlayerDetailsChanged"}
 
 local class = BattleGroundEnemies:NewButtonModule({
 	moduleName = "Class",
@@ -50,7 +50,7 @@ local class = BattleGroundEnemies:NewButtonModule({
 	defaultSettings = classDefaults,
 	options = nil,
 	events = events,
-	expansions = "All"
+	enabledInThisExpansion = true
 })
 local spec = BattleGroundEnemies:NewButtonModule({
 	moduleName = "Spec",
@@ -58,7 +58,7 @@ local spec = BattleGroundEnemies:NewButtonModule({
 	defaultSettings = specDefaults,
 	options = nil,
 	events = events,
-	expansions = {WOW_PROJECT_MAINLINE}
+	enabledInThisExpansion = not not GetSpecializationInfoByID
 })
 
 
@@ -78,7 +78,9 @@ local function attachToPlayerButton(playerButton, type)
 	end)
 
 	function frame:CropImage()
-		if playerButton.PlayerSpecName and self.type == "Spec" then
+		local playerDetails = playerButton.PlayerDetails
+		if not playerDetails then return end
+		if playerDetails.PlayerSpecName and self.type == "Spec" then
 			local width = self:GetWidth()
 			local height = self:GetHeight()
 			if width and height and width > 0 and height > 0 then
@@ -89,18 +91,19 @@ local function attachToPlayerButton(playerButton, type)
 
 	frame:HookScript("OnEnter", function(self)
 		BattleGroundEnemies:ShowTooltip(self, function()
+			local playerDetails = playerButton.PlayerDetails
 			if self.type == "Class" then
-				if not playerButton.PlayerClass then return end
+				if not playerDetails.PlayerClass then return end
 				local numClasses = GetNumClasses()
 				for i = 1, numClasses do -- we could also just save the localized class name it into the button itself, but since its only used for this tooltip no need for that
 					local className, classFile, classID = GetClassInfo(i)
-					if classFile and classFile == playerButton.PlayerClass then
+					if classFile and classFile == playerDetails.PlayerClass then
 						return GameTooltip:SetText(className)
 					end
 				end
 			else --"Spec"
-				if not playerButton.PlayerSpecName then return end
-				GameTooltip:SetText(playerButton.PlayerSpecName)
+				if not playerDetails.PlayerSpecName then return end
+				GameTooltip:SetText(playerDetails.PlayerSpecName)
 			end
 		end)
 	end)
@@ -118,12 +121,14 @@ local function attachToPlayerButton(playerButton, type)
 	frame.Icon = frame:CreateTexture(nil, 'OVERLAY')
 	frame.Icon:SetAllPoints()
 
-	frame.SetSpecAndRole = function(self)
+	frame.PlayerDetailsChanged = function(self, playerDetails)
+		if not playerDetails then return end
 		if self.type == "Class" then
 			--either no spec or the player wants to always see it > display it
-			if playerButton.PlayerClass then
+			local coords = CLASS_ICON_TCOORDS[playerDetails.PlayerClass]
+			if playerDetails.PlayerClass and coords then
 				self.Icon:SetTexture("Interface\\TargetingFrame\\UI-Classes-Circles")
-				self.Icon:SetTexCoord(unpack(CLASS_ICON_TCOORDS[playerButton.PlayerClass]))
+				self.Icon:SetTexCoord(unpack(coords))
 			else
 				self.Icon:SetTexture(nil)
 			end	
@@ -142,7 +147,7 @@ local function attachToPlayerButton(playerButton, type)
 
 	frame.ApplyAllSettings = function(self)
 		self:Show()
-		self:SetSpecAndRole()
+		self:PlayerDetailsChanged(playerButton.PlayerDetails)
 	end
 	return frame
 end

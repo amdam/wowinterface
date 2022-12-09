@@ -14,7 +14,7 @@ ArkInventory.Action.Mail = { }
 
 
 
-local junk_addons = {"Scrap","SellJunk","ReagentRestocker","Peddler"}
+local junk_addons = { "Scrap", "SellJunk", "ReagentRestocker", "Peddler" }
 function ArkInventory.Action.Vendor.ProcessCheck( name )
 	for _, a in pairs( junk_addons ) do
 		--ArkInventory.Output( "checking ", a )
@@ -33,7 +33,7 @@ function ArkInventory.Action.Vendor.Check( i, codex, manual, delete )
 	
 	if i and i.h then
 		
-		local info = i.info or ArkInventory.GetObjectInfo( i.h )
+		local info = i.info or ArkInventory.GetObjectInfo( i.h, i )
 		
 		if info.ready and info.id then
 			
@@ -45,7 +45,7 @@ function ArkInventory.Action.Vendor.Check( i, codex, manual, delete )
 				
 			elseif IsAddOnLoaded( "SellJunk" ) and SellJunk then
 				
-				if ( info.q == 0 and not SellJunk:isException( i.h ) ) or ( info.q ~= 0 and SellJunk:isException( i.h ) ) then
+				if ( info.q == ArkInventory.ENUM.ITEM.QUALITY.POOR and not SellJunk:isException( i.h ) ) or ( info.q ~= ArkInventory.ENUM.ITEM.QUALITY.POOR and SellJunk:isException( i.h ) ) then
 					isMatch = true
 				end
 				
@@ -66,7 +66,7 @@ function ArkInventory.Action.Vendor.Check( i, codex, manual, delete )
 				local cat_id = ArkInventory.ItemCategoryGet( i )
 				local cat_type, cat_num = ArkInventory.CategoryIdSplit( cat_id )
 				local catset = codex.catset.ca[cat_type][cat_num]
-				if i.q <= ArkInventory.db.option.action.vendor.raritycutoff then
+				if info.q <= ArkInventory.db.option.action.vendor.raritycutoff then
 					if catset.action.t == ArkInventory.ENUM.ACTION.TYPE.VENDOR then
 						if catset.action.w == ArkInventory.ENUM.ACTION.WHEN.AUTO then
 							isMatch = true
@@ -176,13 +176,12 @@ local function ActionVendorDestroy( manual )
 	
 	-- cannot be run threaded or it will fail due to no longer being on the same execution path when it resumes
 	
-	if not manual then
-		return
-	end
+	if not manual then return end
+	if not ArkInventory.Global.Action.Vendor.process then return end
+	if not ArkInventory.db.option.action.vendor.enable then return end
+	if not ArkInventory.db.option.action.vendor.manual then return end
+	if not ArkInventory.db.option.action.vendor.delete then return end
 	
-	if not ArkInventory.db.option.action.vendor.delete then
-		return
-	end
 	
 	-- build the queue
 	local queue = { }
@@ -318,10 +317,14 @@ end
 function ArkInventory.Action.Vendor.Sell( manual )
 	
 	if not ArkInventory.Global.Action.Vendor.process then return end
+	if not ArkInventory.db.option.action.vendor.enable then return end
 	
-	if not manual and not ArkInventory.db.option.action.vendor.auto then
-		return
+	if manual then
+		if not ArkInventory.db.option.action.vendor.manual then return end
+	else
+		if not ArkInventory.db.option.action.vendor.auto then return end
 	end
+	
 	
 	if not ArkInventory.Global.Thread.Use then
 		ArkInventory.OutputWarning( ArkInventory.Localise["CONFIG_ACTION_VENDOR_SELL"], " aborted, as threads are currently disabled." )
@@ -349,24 +352,14 @@ function ArkInventory.Action.Vendor.Sell( manual )
 	
 end
 
-function ArkInventory.Action.Vendor.Destroy( manual )
-	
-	if not ArkInventory.Global.Action.Vendor.process then return end
-	
-	if not manual and not ArkInventory.db.option.action.vendor.auto then
-		return
-	end
-	
-	ActionVendorDestroy( manual )
-	
-end
 
 
 function ArkInventory.Action.Mail.Check( i, codex, manual )
 	
 	local recipient = nil
+	local info = i.info or ArkInventory.GetObjectInfo( i.h, i )
 	
-	if codex and i and i.h and i.sb ~= ArkInventory.ENUM.BIND.PICKUP and i.q <= ArkInventory.db.option.action.mail.raritycutoff then
+	if codex and i and i.h and i.sb ~= ArkInventory.ENUM.BIND.PICKUP and info.q <= ArkInventory.db.option.action.mail.raritycutoff then
 		
 		local info = i.info or ArkInventory.GetObjectInfo( i.h )
 		if info.ready and info.id then
@@ -605,9 +598,14 @@ end
 
 function ArkInventory.Action.Mail.Send( manual )
 	
-	if not manual and not ArkInventory.db.option.action.mail.auto then
-		return
+	if not ArkInventory.db.option.action.mail.enable then return end
+	
+	if manual then
+		if not ArkInventory.db.option.action.mail.manual then return end
+	else
+		if not ArkInventory.db.option.action.mail.auto then return end
 	end
+	
 	
 	if not ArkInventory.Global.Thread.Use then
 		ArkInventory.OutputWarning( ArkInventory.Localise["CONFIG_ACTION_MAIL_SEND"], " aborted, as threads are currently disabled." )
@@ -643,7 +641,7 @@ function ArkInventory.Action.ManualRun( )
 	elseif ArkInventory.Global.Mode.Merchant then
 		ArkInventory.Action.Vendor.Sell( true )
 	else
-		ArkInventory.Action.Vendor.Destroy( true )
+		ActionVendorDestroy( true )
 	end
 	
 end

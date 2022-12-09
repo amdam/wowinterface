@@ -117,8 +117,8 @@ _detalhes_database = {
 			["tank_block_size"] = 150,
 			["bar_height"] = 24,
 			["tank_block_texture"] = "Details Serenity",
-			["tank_block_height"] = 40,
 			["show_inc_bars"] = true,
+			["tank_block_height"] = 40,
 			["tank_block_powerbar_size_height"] = 10,
 			["tank_block_color"] = {
 				0.24705882, -- [1]
@@ -171,11 +171,6 @@ _detalhes_database = {
 			["arrow_anchor_y"] = 0,
 			["row_texture"] = "Details Serenity",
 			["square_grow_direction"] = "right",
-			["font_size"] = 10,
-			["author"] = "Details! Team",
-			["square_amount"] = 5,
-			["enabled"] = false,
-			["arrow_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -187,6 +182,11 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
+			["author"] = "Details! Team",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["use_spark"] = true,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -194,35 +194,39 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 10,
+			["y"] = -4.57763671875e-05,
+			["x"] = -6.103515625e-05,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["y"] = -4.57763671875e-05,
-			["use_spark"] = true,
-			["x"] = -6.103515625e-05,
-			["font_face"] = "Friz Quadrata TT",
-			["square_size"] = 32,
-			["main_frame_strata"] = "LOW",
 			["scale"] = 1,
 			["row_height"] = 20,
 			["point"] = "CENTER",
 		},
 	},
-	["character_data"] = {
-		["logons"] = 50,
+	["cached_talents"] = {
 	},
-	["last_encounter"] = "Kor'kron Dark Shaman",
+	["announce_prepots"] = {
+		["enabled"] = false,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
 	["announce_damagerecord"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["last_day"] = "25",
-	["cached_talents"] = {
+	["character_data"] = {
+		["logons"] = 52,
 	},
+	["last_encounter"] = "Kor'kron Dark Shaman",
 	["local_instances_config"] = {
 		{
 			["modo"] = 2,
@@ -247,7 +251,7 @@ _detalhes_database = {
 				["normal"] = {
 					["y"] = -529.1874084472656,
 					["x"] = 927.92041015625,
-					["w"] = 414.8147888183594,
+					["w"] = 414.8146362304688,
 					["h"] = 160.3703460693359,
 				},
 				["solo"] = {
@@ -282,8 +286,8 @@ _detalhes_database = {
 				["normal"] = {
 					["y"] = -373.40966796875,
 					["x"] = 927.92041015625,
-					["w"] = 414.8147888183594,
-					["h"] = 111.1851959228516,
+					["w"] = 414.8146362304688,
+					["h"] = 111.1852111816406,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -302,7 +306,7 @@ _detalhes_database = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["combat_counter"] = 1594,
+	["combat_counter"] = 1598,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -435,11 +439,7 @@ _detalhes_database = {
 		["frame"] = {
 		},
 	},
-	["announce_prepots"] = {
-		["enabled"] = false,
-		["channel"] = "SELF",
-		["reverse"] = false,
-	},
+	["last_day"] = "27",
 	["announce_cooldowns"] = {
 		["ignored_cooldowns"] = {
 		},

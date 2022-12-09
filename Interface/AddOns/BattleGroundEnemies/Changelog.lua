@@ -2,6 +2,93 @@ local AddonName, Data = ...
 
 Data.changelog = {
 	{
+		Version = "10.0.2.5",
+		Sections = {
+			{
+				Header = "Changes:",
+				Entries = {
+					"Non Priority buffs and debuffs are now disabled for bg size 15 players since it leads to too much clutter.",
+				}
+			},
+		}
+	},
+	{
+		Version = "10.0.2.4",
+		Sections = {
+			{
+				Header = "Bugfixes:",
+				Entries = {
+					"Fixed the flickering health bar.",
+				}
+			},
+			{
+				Header = "Changes:",
+				Entries = {
+					"The addon will now check for up to 15 arena unitIDs, this is helpful in the Arena Brawl Packed House.",
+				}
+			},
+		}
+	},
+	{
+		Version = "10.0.2.3",
+		Sections = {
+			{
+				Header = "Bugfixes:",
+				Entries = {
+					"Fix for the brawl Packed House.",
+				}
+			},
+			{
+				Header = "Changes:",
+				Entries = {
+					"Reworked the way the addon handles player updates from diferent player sources. The addon now stores data from all that sources and combines them to create player bars. This also fixes the addon in the brawl Packed House."
+				}
+			},
+		}
+	},
+	{
+		Version = "10.0.2.2",
+		Sections = {
+			{
+				Header = "Bugfixes:",
+				Entries = {
+					"Removed leftover message from development, thanks to Doyansu233 and Clarkis2001 aat Curseforge for the report.",
+					"Fixed an error that prevented targeting of enemy players in arena after they changed name, in arena the addon will now always target by unitID instad of playername, this is helpful for stealth players expecially since the addon can't update in combat due to Blizzards restrictions."
+				}
+			}
+		}
+	},
+	{
+		Version = "10.0.2.1",
+		General = "This version fixes some problems i found during solo shuffle arenas and adds some features. It adds some allied races and improved auras.",
+		Sections = {
+			{
+				Header = "New Features:",
+				Entries = {
+					"Added racials Bag of Tricks, Fireblood, Light's Judgment, Bull Rush, Haymaker and Arcane Pulse",
+					"The addon will now also show auras without a duration in the highest priority module.",
+					"The addon will now use the scoreboard info to show the player names in the prep room before the first round starts when in a solo shuffle"
+				}
+			},
+			{
+				Header = "Changes:",
+				Entries = {
+					"The addon will now show non priority buffs and debuffs that are applied by the player by or are dispellable by default.",
+					"The enemy players are now always sorted by arena id when in arena, by default arena1 is the top player"
+				}
+			},
+			{
+				Header = "Bugfixes:",
+				Entries = {
+					"When the duration filter is enabled for auras it will only show the aura if it actually has a duration.",
+					"Update LibSpellIconSelector library to avoid taint. Thanks to zaphon at GitHub for the report.",
+					"Improved the handling of update in combat. This mostly affected name changes of stealth units at the beginning of an arena while in combat.",
+					"Fixed error reported by Thenetbug at Curseforge that happened in rated Battlegrounds when the combat log scanning was getting switched off."
+				}
+			}
+		}
+	},
+	{
 		Version = "10.0.2.0",
 		General = "This version fixes a error message and hopefully makes RBGs fully working. Please read the notes from version 9.2.7.2 below if you haven't been using a version 9.2.7.X before",
 		Sections = {

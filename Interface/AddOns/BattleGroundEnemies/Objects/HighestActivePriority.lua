@@ -44,7 +44,7 @@ local spec_HighestActivePriority = BattleGroundEnemies:NewButtonModule({
 	defaultSettings = defaultSettings,
 	options = options,
 	events = {"ShouldQueryAuras", "CareAboutThisAura", "BeforeFullAuraUpdate", "NewAura", "AfterFullAuraUpdate", "GotInterrupted", "UnitDied"},
-	expansions = "All"
+	enabledInThisExpansion = true
 })
 
 
@@ -101,11 +101,8 @@ function spec_HighestActivePriority:AttachToPlayerButton(playerButton)
 		for i = 1, #priorityAuras do
 
 			local priorityAura = priorityAuras[i]
-			if priorityAura.expirationTime < currentTime then
-			else
-				if not highestPrioritySpell or (priorityAura.Priority > highestPrioritySpell.Priority) then
-					highestPrioritySpell = priorityAura
-				end
+			if not highestPrioritySpell or (priorityAura.Priority > highestPrioritySpell.Priority) then
+				highestPrioritySpell = priorityAura
 			end
 		end
 		if frame.ActiveInterrupt then

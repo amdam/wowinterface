@@ -88,7 +88,7 @@ local itemTable = { -- key, project, 0=name | 1=itemtype | 2=itemsubtype, item i
 
 local function GetWowItemData( t, id )
 	if type( id ) ~= "table" then
-		ArkInventory.TooltipSetHyperlink( ArkInventory.Global.Tooltip.Scan, string.format( "item:%s", id ) )
+		--local tooltipInfo = ArkInventory.TooltipSet( ArkInventory.Global.Tooltip.Scan, nil, nil, nil, string.format( "item:%s", id ) )
 		local info = ArkInventory.GetObjectInfo( id )
 		if t == 1 then
 			return info.name
@@ -100,7 +100,7 @@ local function GetWowItemData( t, id )
 	else
 		local x
 		for k, v in ipairs( id ) do
-			ArkInventory.TooltipSetHyperlink( ArkInventory.Global.Tooltip.Scan, string.format( "item:%s", v ) )
+			--local tooltipInfo = ArkInventory.TooltipSet( ArkInventory.Global.Tooltip.Scan, nil, nil, nil, string.format( "item:%s", v ) )
 			local info = ArkInventory.GetObjectInfo( v )
 			if t == 1 then
 				x = info.name
@@ -193,7 +193,7 @@ local function GetWowSpellNameHelper( id )
 	else
 		-- no cached data, ask server and well hopefully get it next time
 		--ArkInventory.Output( "spell [", id, "] failed" )
-		ArkInventory.TooltipSetHyperlink( ArkInventory.Global.Tooltip.Scan, string.format( "spell:%s", id ) )
+		--local tooltipInfo = ArkInventory.TooltipSet( ArkInventory.Global.Tooltip.Scan, nil, nil, nil, string.format( "spell:%s", id ) )
 	end
 end
 
@@ -272,9 +272,9 @@ local tooltipTable = {
 
 local function GetWowTooltipTextHelper( id )
 	
-	ArkInventory.TooltipSetHyperlink( ArkInventory.Global.Tooltip.Scan, string.format( "item:%s", id ) )
+	local tooltipInfo = ArkInventory.TooltipSet( ArkInventory.Global.Tooltip.Scan, nil, nil, nil, string.format( "item:%s", id ) )
 	
-	local _, _, skill, level = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, ArkInventory.Localise["WOW_TOOLTIP_REQUIRES_SKILL"], false, true, true, 0, ArkInventory.Const.Tooltip.Search.Short )
+	local _, _, skill, level = ArkInventory.TooltipFind( ArkInventory.Global.Tooltip.Scan, nil, ArkInventory.Localise["WOW_TOOLTIP_REQUIRES_SKILL"], false, true, true, 0, ArkInventory.Const.Tooltip.Search.Short )
 	
 	if skill and level then
 		--ArkInventory.Output( "tooltip: got ", id, ", skill = ", skill, ", level = ", level )

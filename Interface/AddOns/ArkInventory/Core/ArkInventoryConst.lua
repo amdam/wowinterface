@@ -684,12 +684,14 @@ ArkInventory.Const = { -- constants
 		
 		GLOBAL = {
 			TOOLTIP = {
-				UPDATETIMER = 1, --TOOLTIP_UPDATE_TIME = 0.2
+				UPDATETIMER = 1.0, --TOOLTIP_UPDATE_TIME = 0.2
 			},
 			FONT = {
 				COLOR = {
-					UNUSABLE1 = "fefe1f1f", -- shadowlands
-					UNUSABLE2 = "ffff2020", -- dragonflight
+					UNUSABLE = {
+						["ffff2020"] = true, -- dragonflight
+						["fffe1f1f"] = true, -- classic / wrath
+					},
 				},
 			},
 			PROFESSIONRANK = {
@@ -871,6 +873,7 @@ ArkInventory.Const = { -- constants
 		Heirloom = 15,
 		Reputation = 16,
 		MountEquipment = 17,
+		TradeskillEquipment = 18,
 	},
 	
 	Offset = {
@@ -888,6 +891,7 @@ ArkInventory.Const = { -- constants
 		Heirloom = 1300,
 		Reputation = 1600,
 		MountEquipment = 6100,
+		TradeskillEquipment = 1420,
 	},
 	
 	Bag = {
@@ -949,7 +953,6 @@ ArkInventory.Const = { -- constants
 		},
 		
 		CharacterPaneOrder = {
-			["INVTYPE_NON_EQUIP"] = 0,
 			["INVTYPE_HEAD"] = 1,
 			["INVTYPE_NECK"] = 2,
 			["INVTYPE_SHOULDER"] = 3,
@@ -981,6 +984,8 @@ ArkInventory.Const = { -- constants
 			["INVTYPE_RELIC"] = 20,
 			["INVTYPE_AMMO"] = 20,
 			
+			-- stuff that needs to exist, but not get shown
+			["INVTYPE_NON_EQUIP"] = 0,
 			["INVTYPE_BAG"] = 0,
 			["INVTYPE_QUIVER"] = 0,
 			["INVTYPE_PROFESSION_TOOL"] = 0,
@@ -988,6 +993,8 @@ ArkInventory.Const = { -- constants
 		},
 		
 	},
+	
+	InventorySlotName = { "HeadSlot", "NeckSlot", "ShoulderSlot", "BackSlot", "ChestSlot", "ShirtSlot", "TabardSlot", "WristSlot", "HandsSlot", "WaistSlot", "LegsSlot", "FeetSlot", "Finger0Slot", "Finger1Slot", "Trinket0Slot", "Trinket1Slot", "MainHandSlot", "SecondaryHandSlot" },
 	
 	Window = {
 		
@@ -1000,10 +1007,10 @@ ArkInventory.Const = { -- constants
 		Draw = {
 			Init = 0, -- intital state, only exists at load, never set to init
 			Restart = 1, -- rebuild the entire window from scratch
-			Recalculate = 2, -- calculate
-			Resort = 3, -- sort
-			Refresh = 4, -- item changes
-			None = 5, -- nothing
+			Recalculate = 2, -- recalculate the window
+			Resort = 3, -- sort the items in the bars
+			Refresh = 4, -- in-place item updates
+			None = 5, -- do nothing
 		},
 		
 		Title = {
@@ -1041,6 +1048,13 @@ ArkInventory.Const = { -- constants
 		CategoryDamaged = [[Interface\Icons\Spell_Shadow_DeathCoil]],
 		CategoryEnabled = [[Interface\RAIDFRAME\ReadyCheck-Ready]],
 		CategoryDisabled = [[Interface\RAIDFRAME\ReadyCheck-NotReady]],
+		
+		UpdateTimerCustom = [[Interface\PLAYERFRAME\Deathknight-Energize-Frost]],
+		
+		List = {
+			Selected = [[Interface\RAIDFRAME\ReadyCheck-Ready]],
+			Ignored = [[Interface\RAIDFRAME\ReadyCheck-NotReady]],
+		},
 		
 		BackgroundDefault = "Solid",
 		
@@ -1151,6 +1165,9 @@ ArkInventory.Const = { -- constants
 			},
 		},
 		
+		Config = [[Interface\Garrison\Garr_TimerFill-Upgrade]],
+		Blueprint = [[Interface\ICONS\INV_Scroll_05]],
+		
 	},
 	
 	SortKeys = { -- true = keep, false = remove
@@ -1176,12 +1193,44 @@ ArkInventory.Const = { -- constants
 	
 	DatabaseDefaults = { },
 	
-	MountTypes = {
-		["l"] = 0x01, -- land
-		["a"] = 0x02, -- air
---		["s"] = 0x04, -- water surface
-		["u"] = 0x08, -- underwater
-		["x"] = 0x00, -- ignored / unknown
+	Mount = {
+		Types = { -- this value is stored in saved variables, do NOT change
+			["l"] = 0x01, -- land
+			["a"] = 0x02, -- air
+	--		["s"] = 0x04, -- water surface
+			["u"] = 0x08, -- underwater
+			["x"] = 0x00, -- ignored / unknown
+		},
+		TypeID = {
+			[242] = "a", -- flying, swift spectral
+			[247] = "a", -- flying, cloud
+			[248] = "a", -- flying
+			[402] = "a", -- dragonriding
+			
+			[230] = "l", -- land
+			[241] = "l", -- qiraji battletank
+			[269] = "l", -- water surface
+			[284] = "l", -- land, chauffeured
+			[398] = "l", -- land, pterrordax (kuo'fon)
+			[407] = "l", -- otter
+			[408] = "l", -- snail
+			[412] = "l", -- otter
+			
+			[231] = "u", -- underwater (sort of), turtle
+			[232] = "u", -- underwater, vash'jir seahorse
+			[254] = "u", -- underwater
+		},
+		Order = { -- display order purposes, not saved
+			["a"] = 1, -- air
+			["l"] = 2, -- land
+			["u"] = 3, -- underwater
+			["x"] = 4, -- ignored / unknown
+		},
+		Zone = {
+			AhnQiraj = { 247,320 },
+			Vashjir = { 201,204,205 },
+			DragonIsles = { 2112,2022,2023,2024,2025 },
+		},
 	},
 	
 	booleantable = { true, false },
@@ -1338,6 +1387,10 @@ ArkInventory.Const = { -- constants
 		[ArkInventory.ENUM.ITEM.TYPE.ARMOR.PLATE] = { PALADIN = 1, WARRIOR = 1, DEATHKNIGHT = 1 },
 	},
 	
+	UpdateTimer = {
+		Min = 0.01,
+		Max = 60,
+	},
 }
 
 

@@ -2,28 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:10027:Player-3685-071EEB1F:1:10:10:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Hellfire Assault]|h|r!", -- [1]
-			"Taelyria-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Taelyria-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			213, -- [11]
-			"Player-3685-071EEB1F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeTaelyria|r",
-			[51] = 1602363012,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [1]
-		{
 			"%s has earned the achievement |cffffff00|Hachievement:10032:Player-3685-071EEB1F:1:10:10:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Iron Reaver]|h|r!", -- [1]
 			"Taelyria-Turalyon", -- [2]
 			"", -- [3]
@@ -44,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeTaelyria|r",
 			[51] = 1602363081,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [2]
+		}, -- [1]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10013:Player-3685-071EEB1F:1:10:10:20:4294967295:4294967295:4294967295:4294967295|h[Waves Came Crashing Down All Around]|h|r!", -- [1]
 			"Taelyria-Turalyon", -- [2]
@@ -66,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeTaelyria|r",
 			[51] = 1602363250,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [3]
+		}, -- [2]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10023:Player-3685-071EEB1F:1:10:10:20:4294967295:4294967295:4294967295:4294967295|h[Hellbreach]|h|r!", -- [1]
 			"Taelyria-Turalyon", -- [2]
@@ -88,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeTaelyria|r",
 			[51] = 1602363250,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [4]
+		}, -- [3]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10033:Player-3685-071EEB1F:1:10:10:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Kormrok]|h|r!", -- [1]
 			"Taelyria-Turalyon", -- [2]
@@ -110,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeTaelyria|r",
 			[51] = 1602363250,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [5]
+		}, -- [4]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10034:Player-3685-071EEB1F:1:10:10:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Hellfire High Council]|h|r!", -- [1]
 			"Taelyria-Turalyon", -- [2]
@@ -132,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeTaelyria|r",
 			[51] = 1602363392,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [6]
+		}, -- [5]
 		{
 			"yeah that fixed it", -- [1]
 			"Tucci-Turalyon", -- [2]
@@ -154,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTucci|r",
 			[51] = 1602715577,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [7]
+		}, -- [6]
 		{
 			"Kul tiran women got a better idle animation", -- [1]
 			"Tucci-Turalyon", -- [2]
@@ -176,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTucci|r",
 			[51] = 1602715605,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [8]
+		}, -- [7]
 		{
 			"it's the small things that count you know?", -- [1]
 			"Tucci-Turalyon", -- [2]
@@ -198,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcTucci|r",
 			[51] = 1602715614,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [9]
+		}, -- [8]
 		{
 			"|cffffd100|HclubFinder:ClubFinder-1-1689-3685-47613316|h[Guild: Beyond]|h|r is looking for new members! We are one of the oldest guilds on the server, and we want to have a strong start for questing, dungeons, and raids in the Shadowlands! Players of any level are welcome.", -- [1]
 			"Thaeria-Turalyon", -- [2]
@@ -220,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcThaeria|r",
 			[51] = 1602955066,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
+		}, -- [9]
 		{
 			"~Stonehearth Clan~ is taking new members. Any and all are welcome. Aiming at building a fun group for Shadowlands.", -- [1]
 			"Grelin-Turalyon", -- [2]
@@ -242,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGrelin|r",
 			[51] = 1602955104,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
+		}, -- [10]
 		{
 			"Is anyone able to get an allied race character the BFA starting quest today?", -- [1]
 			"Sahregrensky-Turalyon", -- [2]
@@ -264,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cSahregrensky|r",
 			[51] = 1602955215,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
+		}, -- [11]
 		{
 			"anyone try to start bfa content after the update? how does one go about getting there now?", -- [1]
 			"Livindedgirl-Turalyon", -- [2]
@@ -286,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Livindedgirl|r",
 			[51] = 1602956156,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
+		}, -- [12]
 		{
 			"are you making a new character or choosing to level in it?", -- [1]
 			"Kadaska-Turalyon", -- [2]
@@ -308,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Kadaska|r",
 			[51] = 1602956185,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
+		}, -- [13]
 		{
 			"moving on from legion leveling i want to get to bfa", -- [1]
 			"Livindedgirl-Turalyon", -- [2]
@@ -330,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Livindedgirl|r",
 			[51] = 1602956258,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
+		}, -- [14]
 		{
 			"dungon finder only list bfa for randoms so i asume i can quest there", -- [1]
 			"Livindedgirl-Turalyon", -- [2]
@@ -352,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Livindedgirl|r",
 			[51] = 1602956372,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
+		}, -- [15]
 		{
 			"LF JC to craft 262 version of |cffffffff|Hitem:178926::::::::60:72::63:1:3524::::::|h[Shadowghast Ring]|h|r", -- [1]
 			"Rolderiene-Turalyon", -- [2]
@@ -374,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cRolderiene|r",
 			[51] = 1630253257,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
+		}, -- [16]
 		{
 			"|cffffff00Mage Quarter is under attack!|r", -- [1]
 			"", -- [2]
@@ -396,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1630253553,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
+		}, -- [17]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:16278:Player-3685-0DF84D1E:1:11:22:22:4294967295:4294967295:4294967295:4294967295|h[Uldaman: Legacy of Tyr]|h|r!", -- [1]
 			"Dracodos-Turalyon", -- [2]
@@ -418,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff33937fDracodos|r",
 			[51] = 1669183301,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [19]
+		}, -- [18]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:5180:Player-3685-0DF84D1E:1:11:22:22:4294967295:4294967295:4294967295:4294967295|h[Breaking the Sound Barrier]|h|r!", -- [1]
 			"Dracodos-Turalyon", -- [2]
@@ -440,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff33937fDracodos|r",
 			[51] = 1669184912,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [20]
+		}, -- [19]
 		{
 			"these mobs eat too many beans", -- [1]
 			"Maleric-Uther", -- [2]
@@ -462,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Maleric-Uther|r",
 			[51] = 1669186707,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
+		}, -- [20]
 		{
 			"woot", -- [1]
 			"Guygraham-Stormrage", -- [2]
@@ -484,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff98Guygraham-Stormrage|r",
 			[51] = 1669186728,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [22]
+		}, -- [21]
 		{
 			"anyone need the dimmed primeval storm", -- [1]
 			"Omori-Shu'halo", -- [2]
@@ -506,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff33937fOmori-Shu'halo|r",
 			[51] = 1669187041,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [23]
+		}, -- [22]
 		{
 			"Ty", -- [1]
 			"Thayne-Uther", -- [2]
@@ -528,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dThayne-Uther|r",
 			[51] = 1669187259,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [24]
+		}, -- [23]
 		{
 			"do we still get xp in raid", -- [1]
 			"Ragnarlock-Anvilmar", -- [2]
@@ -550,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff8788eeRagnarlock-Anvilmar|r",
 			[51] = 1669187269,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [25]
+		}, -- [24]
 		{
 			"yes", -- [1]
 			"Adamn-Turalyon", -- [2]
@@ -572,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Adamn|r",
 			[51] = 1669187220,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [26]
+		}, -- [25]
 		{
 			"just cant loot quest items", -- [1]
 			"Adamn-Turalyon", -- [2]
@@ -594,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Adamn|r",
 			[51] = 1669187226,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [27]
+		}, -- [26]
 		{
 			"anyone know how to make my target show on the minimap now? I have it on one character but not this one -.-", -- [1]
 			"Aphrødity-Dalaran", -- [2]
@@ -616,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAphrødity-Dalaran|r",
 			[51] = 1669189844,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [28]
+		}, -- [27]
 		{
 			"wish i knew", -- [1]
 			"Savandvia-Shu'halo", -- [2]
@@ -638,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebSavandvia-Shu'halo|r",
 			[51] = 1669189802,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [29]
+		}, -- [28]
 		{
 			"glade this resets in 3 mins cause this sucks", -- [1]
 			"Savandvia-Shu'halo", -- [2]
@@ -660,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebSavandvia-Shu'halo|r",
 			[51] = 1669190000,
 			[50] = "CHAT_MSG_RAID_LEADER",
-		}, -- [30]
+		}, -- [29]
 		{
 			"well thats just making me unhappy", -- [1]
 			"Alyssaoliver-Runetotem", -- [2]
@@ -682,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAlyssaoliver-Runetotem|r",
 			[51] = 1669190106,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [30]
 		{
 			"Dying?", -- [1]
 			"Mydraenai-Shu'halo", -- [2]
@@ -704,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aMydraenai-Shu'halo|r",
 			[51] = 1669190178,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [31]
 		{
 			"reset", -- [1]
 			"Alyssaoliver-Runetotem", -- [2]
@@ -726,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAlyssaoliver-Runetotem|r",
 			[51] = 1669190183,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [32]
 		{
 			"event ended", -- [1]
 			"Brewchix-Sargeras", -- [2]
@@ -748,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff98Brewchix-Sargeras|r",
 			[51] = 1669190192,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [33]
 		{
 			"gotta wait for next", -- [1]
 			"Brewchix-Sargeras", -- [2]
@@ -770,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff98Brewchix-Sargeras|r",
 			[51] = 1669190198,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [34]
 		{
 			"Great, I died before it did...", -- [1]
 			"Mydraenai-Shu'halo", -- [2]
@@ -792,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aMydraenai-Shu'halo|r",
 			[51] = 1669190201,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [35]
 		{
 			"yeh 5 minutes reset", -- [1]
 			"Alyssaoliver-Runetotem", -- [2]
@@ -814,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAlyssaoliver-Runetotem|r",
 			[51] = 1669190202,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [36]
 		{
 			"good that one sucks and they were spawning slow", -- [1]
 			"Savandvia-Shu'halo", -- [2]
@@ -836,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebSavandvia-Shu'halo|r",
 			[51] = 1669190215,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [37]
 		{
 			"ty", -- [1]
 			"Aliazana-SilverHand", -- [2]
@@ -858,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAliazana-SilverHand|r",
 			[51] = 1669190164,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [39]
+		}, -- [38]
 		{
 			"Good time to bio break.", -- [1]
 			"Mydraenai-Shu'halo", -- [2]
@@ -880,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aMydraenai-Shu'halo|r",
 			[51] = 1669190255,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [39]
 		{
 			"Spawning time is exactly half a hour.  Either that, or people are doing a VERY good job of killing the bosses at the right time to force them to spawn every half hour exactly.", -- [1]
 			"Gametommy-Eitrigg", -- [2]
@@ -902,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGametommy-Eitrigg|r",
 			[51] = 1669190288,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [40]
 		{
 			"any grps ", -- [1]
 			"Adamn-Turalyon", -- [2]
@@ -924,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Adamn|r",
 			[51] = 1669190556,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [42]
+		}, -- [41]
 		{
 			"don't use knockbacks", -- [1]
 			"Broceratops-Duskwood", -- [2]
@@ -946,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aBroceratops-Duskwood|r",
 			[51] = 1669190624,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [43]
+		}, -- [42]
 		{
 			"anyone need |cff0070dd|Hitem:199837::::::::60:251::::1:28:2425:::::|h[Dimmed Primeval Earth]|h|r have spare", -- [1]
 			"Krystyal-Bloodhoof", -- [2]
@@ -968,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aKrystyal-Bloodhoof|r",
 			[51] = 1669195198,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
+		}, -- [43]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14783:Player-3685-0722B5D5:1:11:22:22:4294967295:4294967295:4294967295:4294967295|h[Level 60]|h|r!", -- [1]
 			"Adamn-Turalyon", -- [2]
@@ -990,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Adamn|r",
 			[51] = 1669196211,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [45]
+		}, -- [44]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8956:Player-3685-0DF73B99:1:11:23:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Beastlord Darmac]|h|r!", -- [1]
 			"Feldos-Turalyon", -- [2]
@@ -1012,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff8788eeFeldos|r",
 			[51] = 1669231843,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [46]
+		}, -- [45]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8969:Player-3685-0DF73B99:1:11:23:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Operator Thogar]|h|r!", -- [1]
 			"Feldos-Turalyon", -- [2]
@@ -1034,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff8788eeFeldos|r",
 			[51] = 1669232029,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [47]
+		}, -- [46]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8972:Player-3685-0DF73B99:1:11:23:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Iron Maidens]|h|r!", -- [1]
 			"Feldos-Turalyon", -- [2]
@@ -1056,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff8788eeFeldos|r",
 			[51] = 1669232296,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [48]
+		}, -- [47]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8991:Player-3685-0DF73B99:1:11:23:22:4294967295:4294967295:4294967295:4294967295|h[Iron Assembly]|h|r!", -- [1]
 			"Feldos-Turalyon", -- [2]
@@ -1078,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff8788eeFeldos|r",
 			[51] = 1669232296,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [49]
+		}, -- [48]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8984:Player-3685-0DF73B99:1:11:23:22:4294967295:4294967295:4294967295:4294967295|h[Be Quick or Be Dead]|h|r!", -- [1]
 			"Feldos-Turalyon", -- [2]
@@ -1100,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff8788eeFeldos|r",
 			[51] = 1669232296,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [50]
+		}, -- [49]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8980:Player-3685-0DF73B99:1:11:23:22:4294967295:4294967295:4294967295:4294967295|h[Stamp Stamp Revolution]|h|r!", -- [1]
 			"Feldos-Turalyon", -- [2]
@@ -1122,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff8788eeFeldos|r",
 			[51] = 1669232443,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [51]
+		}, -- [50]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8968:Player-3685-0DF73B99:1:11:23:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Hans'gar and Franzok]|h|r!", -- [1]
 			"Feldos-Turalyon", -- [2]
@@ -1144,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff8788eeFeldos|r",
 			[51] = 1669232443,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [52]
+		}, -- [51]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8932:Player-3685-0DF73B99:1:11:23:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Flamebender Ka'graz]|h|r!", -- [1]
 			"Feldos-Turalyon", -- [2]
@@ -1166,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cff8788eeFeldos|r",
 			[51] = 1669232518,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [53]
+		}, -- [52]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:5180:Player-3685-0AB69E16:1:11:23:22:4294967295:4294967295:4294967295:4294967295|h[Breaking the Sound Barrier]|h|r!", -- [1]
 			"Icydos-Turalyon", -- [2]
@@ -1188,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebIcydos|r",
 			[51] = 1669233227,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [54]
+		}, -- [53]
 		{
 			"hmm i need to cleanse some stuff", -- [1]
 			"Zenezot-Proudmoore", -- [2]
@@ -1210,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cff33937fZenezot-Proudmoore|r",
 			[51] = 1669233556,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [55]
+		}, -- [54]
 		{
 			"it seems", -- [1]
 			"Zenezot-Proudmoore", -- [2]
@@ -1232,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cff33937fZenezot-Proudmoore|r",
 			[51] = 1669233557,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [56]
+		}, -- [55]
 		{
 			"no worries", -- [1]
 			"Saranae-Aggramar", -- [2]
@@ -1254,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aSaranae-Aggramar|r",
 			[51] = 1669233566,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [57]
+		}, -- [56]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:16278:Player-3685-0722B5D5:1:11:23:22:4294967295:4294967295:4294967295:4294967295|h[Uldaman: Legacy of Tyr]|h|r!", -- [1]
 			"Adamn-Turalyon", -- [2]
@@ -1276,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Adamn|r",
 			[51] = 1669233706,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [58]
+		}, -- [57]
 		{
 			"gg", -- [1]
 			"Furyroad-Terenas", -- [2]
@@ -1298,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dFuryroad-Terenas|r",
 			[51] = 1669233661,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [59]
+		}, -- [58]
 		{
 			"Are you Pandaren? Want to join a cool community? |cffffd100|HclubTicket:7Yemkz4T4EB|h[Join: Only Pans]|h|r", -- [1]
 			"Donzp-Area52", -- [2]
@@ -1320,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaDonzp-Area52|r",
 			[51] = 1669233795,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [59]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:16431:Player-3685-0722B5D5:1:11:23:22:4294967295:4294967295:4294967295:4294967295|h[Against the Elements]|h|r!", -- [1]
 			"Adamn-Turalyon", -- [2]
@@ -1342,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Adamn|r",
 			[51] = 1669234289,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [61]
+		}, -- [60]
 		{
 			"revash uruk ka magan moth'aga ", -- [1]
 			"Kiblast-Area52", -- [2]
@@ -1364,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff98Kiblast-Area52|r",
 			[51] = 1669234298,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
+		}, -- [61]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14796:Player-3685-0722B5D5:1:11:23:22:4294967295:4294967295:4294967295:4294967295|h[Superior]|h|r!", -- [1]
 			"Adamn-Turalyon", -- [2]
@@ -1386,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Adamn|r",
 			[51] = 1669234772,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [63]
+		}, -- [62]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:5180:Player-3685-071164DF:1:11:23:22:4294967295:4294967295:4294967295:4294967295|h[Breaking the Sound Barrier]|h|r!", -- [1]
 			"Shockados-Turalyon", -- [2]
@@ -1408,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddShockados|r",
 			[51] = 1669234839,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [64]
+		}, -- [63]
 		{
 			"|cffffff00Dwarven District is under attack!|r", -- [1]
 			"", -- [2]
@@ -1430,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1669234953,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [64]
 		{
 			"Anyone else having a problem were their character gets disconnected and then doesn't show to be in any zone?", -- [1]
 			"Denathor-Turalyon", -- [2]
@@ -1452,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Denathor|r",
 			[51] = 1669235350,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [65]
 		{
 			"yeah, happening Us and EU", -- [1]
 			"Primetime-Duskwood", -- [2]
@@ -1474,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aPrimetime-Duskwood|r",
 			[51] = 1669235394,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [66]
 		{
 			"It corrupted my game last time, just had to re-install last night", -- [1]
 			"Denathor-Turalyon", -- [2]
@@ -1496,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Denathor|r",
 			[51] = 1669235417,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [67]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8949:Player-3685-0AB69E16:1:11:23:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Kargath Bladefist]|h|r!", -- [1]
 			"Icydos-Turalyon", -- [2]
@@ -1518,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebIcydos|r",
 			[51] = 1669235429,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [69]
+		}, -- [68]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8948:Player-3685-0AB69E16:1:11:23:22:4294967295:4294967295:4294967295:4294967295|h[Flame On!]|h|r!", -- [1]
 			"Icydos-Turalyon", -- [2]
@@ -1540,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebIcydos|r",
 			[51] = 1669235429,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [70]
+		}, -- [69]
 		{
 			"And now it's happened on a 2nd character", -- [1]
 			"Denathor-Turalyon", -- [2]
@@ -1562,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Denathor|r",
 			[51] = 1669235440,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [70]
 		{
 			"|cffffff00The Canals is under attack!|r", -- [1]
 			"", -- [2]
@@ -1584,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1669235449,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [71]
 		{
 			"Do you knowwhat's causing it?", -- [1]
 			"Denathor-Turalyon", -- [2]
@@ -1606,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Denathor|r",
 			[51] = 1669235449,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [72]
 		{
 			"technology", -- [1]
 			"Primetime-Duskwood", -- [2]
@@ -1628,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aPrimetime-Duskwood|r",
 			[51] = 1669235464,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [73]
 		{
 			"|cffffff00Lion's Rest is under attack!|r", -- [1]
 			"", -- [2]
@@ -1650,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1669235468,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [74]
 		{
 			"Witchcraft!!", -- [1]
 			"Tyrelyne-Area52", -- [2]
@@ -1672,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTyrelyne-Area52|r",
 			[51] = 1669235476,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [75]
 		{
 			"burn them burn the witch", -- [1]
 			"Tyrelyne-Area52", -- [2]
@@ -1694,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTyrelyne-Area52|r",
 			[51] = 1669235484,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [76]
 		{
 			"Seriously pls", -- [1]
 			"Denathor-Turalyon", -- [2]
@@ -1716,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Denathor|r",
 			[51] = 1669235491,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [77]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8962:Player-3685-0AB69E16:1:11:23:22:4294967295:4294967295:4294967295:4294967295|h[Mythic: Brackenspore]|h|r!", -- [1]
 			"Icydos-Turalyon", -- [2]
@@ -1738,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebIcydos|r",
 			[51] = 1669235496,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [79]
+		}, -- [78]
 		{
 			"this is beyond frustrating", -- [1]
 			"Denathor-Turalyon", -- [2]
@@ -1760,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Denathor|r",
 			[51] = 1669235500,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [79]
 		{
 			"this is World of Witchcraft now?", -- [1]
 			"Primetime-Duskwood", -- [2]
@@ -1782,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aPrimetime-Duskwood|r",
 			[51] = 1669235507,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [80]
 		{
 			"sir why would you think we would know more then google", -- [1]
 			"Tyrelyne-Area52", -- [2]
@@ -1804,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTyrelyne-Area52|r",
 			[51] = 1669235510,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [81]
 		{
 			"what currency is this?", -- [1]
 			"Whiteblizard-Duskwood", -- [2]
@@ -1826,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebWhiteblizard-Duskwood|r",
 			[51] = 1669235461,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [83]
+		}, -- [82]
 		{
 			"|cffffff00Cathedral Square is under attack!|r", -- [1]
 			"", -- [2]
@@ -1848,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1669235531,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [83]
 		{
 			"Maybe someone knows, but answering with dumb ass shit dont help", -- [1]
 			"Denathor-Turalyon", -- [2]
@@ -1870,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Denathor|r",
 			[51] = 1669235543,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [84]
 		{
 			"google deez nutz", -- [1]
 			"Nabeel-Duskwood", -- [2]
@@ -1892,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaNabeel-Duskwood|r",
 			[51] = 1669235548,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [85]
 		{
 			"Use google yah numty", -- [1]
 			"Tyrelyne-Area52", -- [2]
@@ -1914,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffTyrelyne-Area52|r",
 			[51] = 1669235564,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [86]
 		{
 			"Are you Pandaren? Want to join a cool community? |cffffd100|HclubTicket:7Yemkz4T4EB|h[Join: Only Pans]|h|r", -- [1]
 			"Donzp-Area52", -- [2]
@@ -1936,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaDonzp-Area52|r",
 			[51] = 1669235570,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [87]
 		{
 			"i perfer onlyfans", -- [1]
 			"Ulfass-Bloodhoof", -- [2]
@@ -1958,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ulfass-Bloodhoof|r",
 			[51] = 1669235590,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [88]
 		{
 			"Hard to google when you dont know the Fking problem, right?", -- [1]
 			"Denathor-Turalyon", -- [2]
@@ -1980,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Denathor|r",
 			[51] = 1669235594,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [89]
 		{
 			"Honestly its probably something on the server side that is causing the intermittent character disconnects... or maybe Denathor-Turalyon.. blizz just has it out for you.. ", -- [1]
 			"Primetime-Duskwood", -- [2]
@@ -2002,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aPrimetime-Duskwood|r",
 			[51] = 1669235594,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [90]
 		{
 			"lol", -- [1]
 			"Kelwiter-Area52", -- [2]
@@ -2024,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dKelwiter-Area52|r",
 			[51] = 1669235621,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [91]
 		{
 			"|cffffff00Cathedral Square is under attack!|r", -- [1]
 			"", -- [2]
@@ -2046,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1669235631,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [92]
 		{
 			"|cffffff00Dwarven District is under attack!|r", -- [1]
 			"", -- [2]
@@ -2068,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1669235651,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [93]
 		{
 			"|cffffff00Mage Quarter is under attack!|r", -- [1]
 			"", -- [2]
@@ -2090,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1669235699,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [94]
 		{
 			"yes Mr. Ass", -- [1]
 			"Olinbain-Area52", -- [2]
@@ -2112,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddOlinbain-Area52|r",
 			[51] = 1669235714,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [95]
 		{
 			"HAHAHAHAHA", -- [1]
 			"Olinbain-Area52", -- [2]
@@ -2134,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddOlinbain-Area52|r",
 			[51] = 1669235722,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [96]
 		{
 			"|cffffff00Wizard's Sanctum is under attack!|r", -- [1]
 			"", -- [2]
@@ -2156,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1669235700,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [97]
 		{
 			"|cffa335ee|Hitem:171446::::::::60:254::13:2:6893:7881:5:9:60:28:391:29:32:30:36:45:187742::::Player-3685-092887C0:|h[Shadowsteel Greaves]|h|r3.5k |cffa335ee|Hitem:171443::::::::60:254::13:2:6893:7881:5:9:60:28:391:29:36:30:32:45:187742::::Player-3685-092887C0:|h[Shadowsteel Sabatons]|h|r3.5k", -- [1]
 			"Ghostshot-Turalyon", -- [2]
@@ -2178,6 +2156,28 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ghostshot|r",
 			[51] = 1669236771,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"and the boat goes right", -- [1]
+			"Azenoth-Turalyon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Azenoth-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			96, -- [11]
+			"Player-3685-0DF92E4D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff33937fAzenoth|r",
+			[51] = 1669692420,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {

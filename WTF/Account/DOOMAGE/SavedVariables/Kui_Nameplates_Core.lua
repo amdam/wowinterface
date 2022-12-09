@@ -7,6 +7,7 @@ KuiNameplatesCoreSaved = {
 	["226_TARGET_SIZE"] = true,
 	["profiles"] = {
 		["default"] = {
+			["execute_percent"] = 30,
 			["target_arrows_size"] = 50,
 			["target_arrows"] = true,
 			["target_glow_colour"] = {

@@ -120,8 +120,8 @@ function ArkInventoryRules.OnEnable( )
 	ArkInventory.Global.Rules.Enabled = true
 	
 	ArkInventory.ItemCacheClear( )
-	--ArkInventory.Frame_Main_Generate( nil, ArkInventory.Const.Window.Draw.Recalculate )
-	ArkInventory.Frame_Main_DrawStatus( nil, ArkInventory.Const.Window.Draw.Recalculate )
+	ArkInventory.Frame_Main_Generate( nil, ArkInventory.Const.Window.Draw.Recalculate )
+	--ArkInventory.Frame_Main_DrawStatus( nil, ArkInventory.Const.Window.Draw.Recalculate )
 	
 end
 
@@ -140,8 +140,8 @@ function ArkInventoryRules.HookOutfitter( )
 		end
 		
 		ArkInventory.ItemCacheClear( )
-		--ArkInventory.Frame_Main_Generate( nil, ArkInventory.Const.Window.Draw.Recalculate )
-		ArkInventory.Frame_Main_DrawStatus( nil, ArkInventory.Const.Window.Draw.Recalculate )
+		ArkInventory.Frame_Main_Generate( nil, ArkInventory.Const.Window.Draw.Recalculate )
+		--ArkInventory.Frame_Main_DrawStatus( nil, ArkInventory.Const.Window.Draw.Recalculate )
 		
 	else
 		
@@ -164,8 +164,8 @@ function ArkInventoryRules.HookItemRack( )
 		end
 		
 		ArkInventory.ItemCacheClear( )
-		--ArkInventory.Frame_Main_Generate( nil, ArkInventory.Const.Window.Draw.Recalculate )
-		ArkInventory.Frame_Main_DrawStatus( nil, ArkInventory.Const.Window.Draw.Recalculate )
+		ArkInventory.Frame_Main_Generate( nil, ArkInventory.Const.Window.Draw.Recalculate )
+		--ArkInventory.Frame_Main_DrawStatus( nil, ArkInventory.Const.Window.Draw.Recalculate )
 		
 	else
 		
@@ -195,8 +195,8 @@ function ArkInventoryRules.HookGearQuipper( )
 	end
 	
 	ArkInventory.ItemCacheClear( )
-	--ArkInventory.Frame_Main_Generate( nil, ArkInventory.Const.Window.Draw.Recalculate )
-	ArkInventory.Frame_Main_DrawStatus( nil, ArkInventory.Const.Window.Draw.Recalculate )
+	ArkInventory.Frame_Main_Generate( nil, ArkInventory.Const.Window.Draw.Recalculate )
+	--ArkInventory.Frame_Main_DrawStatus( nil, ArkInventory.Const.Window.Draw.Recalculate )
 	
 end
 
@@ -205,8 +205,8 @@ function ArkInventoryRules.OnDisable( )
 	ArkInventory.Global.Rules.Enabled = false
 	
 	ArkInventory.ItemCacheClear( )
-	--ArkInventory.Frame_Main_Generate( nil, ArkInventory.Const.Window.Draw.Recalculate )
-	ArkInventory.Frame_Main_DrawStatus( nil, ArkInventory.Const.Window.Draw.Recalculate )
+	ArkInventory.Frame_Main_Generate( nil, ArkInventory.Const.Window.Draw.Recalculate )
+	--ArkInventory.Frame_Main_DrawStatus( nil, ArkInventory.Const.Window.Draw.Recalculate )
 	
 	if ArkInventory.db.option.message.rules.state then
 		ArkInventory.Output( string.format( "%s %s", ArkInventory.Localise["RULES"], ArkInventory.Localise["DISABLED"] ) )
@@ -552,19 +552,21 @@ function ArkInventoryRules.System.boolean_quality( ... )
 		error( string.format( ArkInventory.Localise["RULE_FAILED_ARGUMENT_NONE_SPECIFIED"], fn ), 0 )
 	end
 	
+	--ArkInventory.Output( ArkInventoryRules.Object.h, " = ", ArkInventoryRules.Object.q )
+	
 	for ax = 1, ac do
 		
 		local arg = select( ax, ... )
 		
 		if type( arg ) == "number" then
 			
-			if arg == ArkInventoryRules.Object.q then
+			if arg == ArkInventoryRules.Object.info.q then
 				return true
 			end
 			
 		elseif type( arg ) == "string" then
 			
-			if string.lower( string.trim( arg ) ) == string.lower( _G[string.format( "ITEM_QUALITY%d_DESC", ArkInventoryRules.Object.q )] or "" ) then
+			if string.lower( string.trim( arg ) ) == string.lower( _G[string.format( "ITEM_QUALITY%d_DESC", ArkInventoryRules.Object.info.q )] or "" ) then
 				return true
 			end
 			
@@ -885,7 +887,7 @@ function ArkInventoryRules.System.boolean_tooltip( ... )
 			error( string.format( ArkInventory.Localise["RULE_FAILED_ARGUMENT_IS_NOT"], fn, ax, ArkInventory.Localise["STRING"] ), 0 )
 		end
 		
-		if ArkInventory.TooltipContains( ArkInventoryRules.Tooltip, string.trim( arg ) ) then
+		if ArkInventory.TooltipContains( ArkInventoryRules.Tooltip, nil, string.trim( arg ) ) then
 			return true
 		end
 	
@@ -1457,7 +1459,7 @@ function ArkInventoryRules.System.boolean_usable( ignore_known, ignore_level )
 	local ignore_known = not not ignore_known
 	local ignore_level = not not ignore_level
 	
-	ArkInventory.ScanTooltipSet( ArkInventoryRules.Tooltip, nil, nil, nil, ArkInventoryRules.Object.h )
+	ArkInventory.TooltipSet( ArkInventoryRules.Tooltip, nil, nil, nil, ArkInventoryRules.Object.h )
 	return ArkInventory.TooltipCanUse( ArkInventoryRules.Tooltip, nil, ignore_known, ignore_level )
 	
 end
@@ -1701,7 +1703,7 @@ function ArkInventoryRules.System.boolean_mounttype( ... )
 				error( string.format( ArkInventory.Localise["RULE_FAILED_ARGUMENT_IS_NOT"], fn, ax, ArkInventory.Localise["STRING"] ), 0 )
 			end
 			
-			local ex = ArkInventory.Const.MountTypes[string.lower( string.trim( arg ) )]
+			local ex = ArkInventory.Const.Mount.Types[string.lower( string.trim( arg ) )]
 			if ex == md.mt then
 				return true
 			end
@@ -3118,9 +3120,9 @@ function ArkInventoryRules.SetObject( tbl )
 	if i.h then
 		
 		if i.test_rule then
-			ArkInventory.ScanTooltipSet( ArkInventoryRules.Tooltip, nil, nil, nil, i.h )
+			ArkInventory.TooltipSet( ArkInventoryRules.Tooltip, nil, nil, nil, i.h )
 		else
-			ArkInventory.ScanTooltipSet( ArkInventoryRules.Tooltip, i.loc_id, i.bag_id, i.slot_id, i.h, i )
+			ArkInventory.TooltipSet( ArkInventoryRules.Tooltip, i.loc_id, i.bag_id, i.slot_id, i.h, i )
 		end
 		
 		if not ArkInventory.TooltipIsReady( ArkInventoryRules.Tooltip ) then
@@ -3132,7 +3134,6 @@ function ArkInventoryRules.SetObject( tbl )
 		
 		-- empty slots
 		ArkInventoryRules.Tooltip:ClearLines( )
-		--ArkInventory.HookTooltipClearLines( ArkInventoryRules.Tooltip )
 		
 	end
 	

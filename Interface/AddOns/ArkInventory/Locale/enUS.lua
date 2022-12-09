@@ -573,12 +573,14 @@ if not L then return end
 	L["CONFIG_ACTION_TYPE"] = "%s: %s - %s"
 	L["CONFIG_ACTION_TYPE_DESC"] = "Set the action type for %s to %s"
 	L["CONFIG_ACTION_WHEN_DESC"] = "Set when the action for %s runs to %s"
+	L["CONFIG_ACTION_ENABLE_DESC"] = "Enable the %s action"
 	
 	L["CONFIG_ACTION_MANUAL_RUN"] = "Manual Action (Vendor, Mail)"
 	L["CONFIG_ACTION_TESTMODE"] = "Test Mode"
 	
 	L["CONFIG_ACTION_VENDOR_SELL"] = "Vendor items"
-	L["CONFIG_ACTION_VENDOR_AUTOMATIC_DESC"] = "Process all junk action items as soon as you open a vendor"
+	L["CONFIG_ACTION_VENDOR_AUTOMATIC_DESC"] = "Process automatic junk action items when you open a vendor"
+	L["CONFIG_ACTION_VENDOR_MANUAL_DESC"] = "Process all junk action items when you press the manual action keybinding at a vendor"
 	L["CONFIG_ACTION_VENDOR_LIMIT"] = "Limit to Buyback"
 	L["CONFIG_ACTION_VENDOR_LIMIT_DESC"] = "As a safety precaution stop selling your junk items when the buyback limit (%i) is reached"
 	L["CONFIG_ACTION_VENDOR_LIMIT_ABORT"] = "Processing aborted due to buyback limit (%s) being reached."
@@ -588,7 +590,7 @@ if not L then return end
 	L["CONFIG_ACTION_VENDOR_LIST_DESC"] = "Display a notification for each item that is sold or destroyed."
 	L["CONFIG_ACTION_VENDOR_LIST_SELL_DESC"] = "Sold: %s x %s for %s"
 	L["CONFIG_ACTION_VENDOR_TIMER_DESC"] = "the number of millseconds to wait before processing the next item"
-	L["CONFIG_ACTION_VENDOR_COMBAT_DESC"] = "When enabled will keep selling/destroying while in combat"
+	L["CONFIG_ACTION_VENDOR_COMBAT_DESC"] = "If enabled will keep selling/destroying items while in combat"
 	
 	L["CONFIG_ACTION_VENDOR_DESTROY"] = "Destroy junk items"
 	L["CONFIG_ACTION_VENDOR_DESTROY_DESC"] = "Delete items that cannot be vendored (have no sell price)\n\nnote - you can only delete items via the keybinding, and only one item at a time, or by right clicking on the item when at a vendor."
@@ -599,12 +601,14 @@ if not L then return end
 	L["CONFIG_ACTION_VENDOR_TESTMODE"] = "Test mode is enabled, no items were actually sold."
 	L["CONFIG_ACTION_VENDOR_TESTMODE_DESC"] = "When this option is enabled no items are actually sold or destroyed.\n\nUse with the List option to see what would normally get sold or destroyed."
 	L["CONFIG_ACTION_VENDOR_PROCESSING_DISABLED_DESC"] = "All junk selling options have been disabled due to the %s addon being loaded"
+	
 	L["CONFIG_ACTION_VENDOR_SOULBOUND_ALREADY_KNOWN_DESC"] = "Categorise any soulbound item (typically recipes), that you already know, as junk"
 	L["CONFIG_ACTION_VENDOR_SOULBOUND_EQUIPMENT_DESC"] = "Categorise soulbound equipable items, that you cannot use, as junk"
-	L["CONFIG_ACTION_VENDOR_SOULBOUND_ITEMLEVEL_DESC"] = "Ignore item level requirement when categorising soulbound equipable items, that you cannot use, as junk"
+	L["CONFIG_ACTION_VENDOR_SOULBOUND_ITEMLEVEL_DESC"] = "Ignore the item level requirement when categorising soulbound equipable items, that you cannot use, as junk"
 	
 	L["CONFIG_ACTION_MAIL_SEND"] = "Send items"
-	L["CONFIG_ACTION_MAIL_AUTOMATIC_DESC"] = "Process all mail action items as soon as you open a mailbox"
+	L["CONFIG_ACTION_MAIL_AUTOMATIC_DESC"] = "Process automatic mail action items when you open a mailbox"
+	L["CONFIG_ACTION_MAIL_MANUAL_DESC"] = "Process all mail action items when you press the manual action keybinding at a mailbox"
 	L["CONFIG_ACTION_MAIL_TESTMODE"] = "Test mode is enabled, no items were actually sent."
 	L["CONFIG_ACTION_MAIL_TESTMODE_DESC"] = "When this option is enabled no items are actually sent.\n\nUse with the List option to see what would normally get sent."
 	L["CONFIG_ACTION_MAIL_QUALITY_CUTOFF_DESC"] = "Only send an item if its quality is at or below: %s%s|r"
@@ -829,6 +833,7 @@ if not L then return end
 	L["ANCHOR"] = "Anchor Point"
 	L["ANCHOR_TEXT1"] = "set the anchor point for the %1$s window" -- window name  (bags, bank, vault)
 	L["ANCHOR_TEXT2"] = "set the anchor point for the %1$s" -- object name (bars, items)
+	L["ANCHOR_TEXT3"] = "set which corner of the %1$s the %2$s should start from" -- object parent name (window, bar), object name (bars, items)
 	L["BORDER_DESC"] = "border options"
 	L["FILE"] = "File"
 	L["HEIGHT"] = "Height"
@@ -917,6 +922,8 @@ if not L then return end
 	L["ASSIGNED"] = "Assigned"
 	L["ASSIGNABLE"] = "Assignable"
 	L["OVERRIDE"] = "Override"
+	L["SELECTED"] = "Selected"
+	L["UNSELECTED"] = "Unselected"
 	
 	
 -- libdatabroker
@@ -952,6 +959,7 @@ if not L then return end
 	L["LDB_MOUNTS_USEFORLAND_DESC"] = "adds your %1$s mounts to your %2$s mount selections"
 	L["LDB_MOUNTS_FLYING_DISMOUNT_DESC"] = "Enabled = allows you to dismount while flying.\n\nDisabled = you need to land before you can dismount\n\nnote: does not effect spell casting while flying, use the interface options to set that"
 	L["LDB_MOUNTS_FLYING_DISMOUNT_WARNING"] = "You are currently flying, please land to select another mount"
+	L["LDB_MOUNTS_FLYING_DRAGONRIDING_DESC"] = "swap air and land mounts when in the dragon isles so that the summon mount keybinding will get dragonriding mounts by default.\n\nYou will need to hold shift to get an alternative land mount"
 	L["LDB_MOUNTS_SUMMON"] = "Summon Mount"
 	L["LDB_MOUNTS_NODATA"] = "Unknown / Changed"
 	L["LDB_MOUNTS_TRAVEL_FORM"] = "Use %1$s"

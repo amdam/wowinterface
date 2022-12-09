@@ -106,8 +106,8 @@ local healthBar = BattleGroundEnemies:NewButtonModule({
 	localizedModuleName = L.HealthBar,
 	defaultSettings = defaultSettings,
 	options = options,
-	events = {"UpdateHealth", "OnNewPlayer"},
-	expansions = "All"
+	events = {"UpdateHealth", "PlayerDetailsChanged"},
+	enabledInThisExpansion = true
 })
 
 
@@ -183,25 +183,29 @@ function healthBar:AttachToPlayerButton(playerButton)
 
 
 	playerButton.healthBar.UpdateHealthText = function(self, health, maxHealth)
-		local config = self.config
-		if not config.HealthTextEnabled then return end
-		if config.HealthTextType == "health" then
-			health = AbbreviateLargeNumbers(health)
-			self.HealthText:SetText(health);
-			self.HealthText:Show()
-		elseif config.HealthTextType == "losthealth" then
-			local healthLost = maxHealth - health
-			if ( healthLost > 0 ) then
-				healthLost = AbbreviateLargeNumbers(healthLost)
-				self.HealthText:SetText("-"..healthLost)
+		if health and maxHealth then
+			local config = self.config
+			if not config.HealthTextEnabled then return end
+			if config.HealthTextType == "health" then
+				health = AbbreviateLargeNumbers(health)
+				self.HealthText:SetText(health);
+				self.HealthText:Show()
+			elseif config.HealthTextType == "losthealth" then
+				local healthLost = maxHealth - health
+				if ( healthLost > 0 ) then
+					healthLost = AbbreviateLargeNumbers(healthLost)
+					self.HealthText:SetText("-"..healthLost)
+					self.HealthText:Show()
+				else
+					self.HealthText:Hide()
+				end
+			elseif (config.HealthTextType == "perc") and (maxHealth > 0) then
+				local perc = math.ceil(100 * (health/maxHealth))
+				self.HealthText:SetFormattedText("%d%%", perc);
 				self.HealthText:Show()
 			else
 				self.HealthText:Hide()
 			end
-		elseif (config.HealthTextType == "perc") and (maxHealth > 0) then
-			local perc = math.ceil(100 * (health/maxHealth))
-			self.HealthText:SetFormattedText("%d%%", perc);
-			self.HealthText:Show()
 		else
 			self.HealthText:Hide()
 		end
@@ -223,11 +227,14 @@ function healthBar:AttachToPlayerButton(playerButton)
 		end
 	end
 
-	function playerButton.healthBar:OnNewPlayer()
-		local color = playerButton.PlayerClassColor
+	function playerButton.healthBar:PlayerDetailsChanged()
+		local playerDetails = playerButton.PlayerDetails
+		if not playerDetails then return end
+		local color = playerDetails.PlayerClassColor
 		self:SetStatusBarColor(color.r,color.g,color.b)
 		self:SetMinMaxValues(0, 1)
 		self:SetValue(1)
+		self:UpdateHealthText(false, false)
 
 		playerButton.totalAbsorbOverlay:Hide()
 		playerButton.totalAbsorb:Hide()
