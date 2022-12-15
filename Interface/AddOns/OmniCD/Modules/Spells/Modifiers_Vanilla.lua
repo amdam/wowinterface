@@ -1,7 +1,5 @@
 local E = select(2, ...):unpack()
 
-local BLANK = {}
-
 E.spell_cdmod_talents = {
 
 	[3044] = {
@@ -135,7 +133,7 @@ E.spell_cdmod_talents = {
 
 E.spell_cdmod_talents_mult = {}
 
-E.spell_chmod_talents = BLANK
+E.spell_chmod_talents = E.BLANK
 
 E.spell_cdmod_by_haste = {
 	[19434] = 3,
@@ -145,7 +143,7 @@ E.spell_cdmod_by_haste = {
 
 
 
-E.spell_cdmod_by_aura_mult = BLANK
+E.spell_cdmod_by_aura_mult = E.BLANK
 
 E.spell_noreset_onencounterend = {
 	[20608] = true,
@@ -472,7 +470,7 @@ for i = 1, #talentRanks do
 	end
 end
 
-E.spell_merged_updateoncast = BLANK
+E.spell_merged_updateoncast = E.BLANK
 
 for k, v in pairs(E.spell_merged_updateoncast) do
 	if not v[2] then
@@ -481,7 +479,7 @@ for k, v in pairs(E.spell_merged_updateoncast) do
 	end
 end
 
-E.spellcast_shared_cdstart = BLANK
+E.spellcast_shared_cdstart = E.BLANK
 
 E.spellcast_cdreset = {
 	[23989] = {
@@ -502,15 +500,15 @@ E.spellcast_cdreset = {
 	},
 }
 
-E.spellcast_cdr = BLANK
-E.spellcast_cdr_powerspender = BLANK
-E.sync_cdr_by_powerconsumed = BLANK
+E.spellcast_cdr = E.BLANK
+E.spellcast_cdr_powerspender = E.BLANK
+E.sync_cdr_by_powerconsumed = E.BLANK
 
 
 
 
 
-E.spell_aura_freespender = BLANK
+E.spell_aura_freespender = E.BLANK
 
 E.spell_auraremoved_cdstart_preactive = {
 	[17116] = 17116,
@@ -547,33 +545,33 @@ E.spell_auraapplied_processspell = {
 	[11129] = 11129,
 }
 
-E.spell_dispel_cdstart = BLANK
+E.spell_dispel_cdstart = E.BLANK
 
-E.spell_auraapplied_disablespell = BLANK
+E.spell_auraapplied_disablespell = E.BLANK
 
-E.selfLimitedMinMaxReducer = BLANK
-E.spell_damage_cdr_totem = BLANK
-E.spell_damage_cdr_pet = BLANK
-E.spell_damage_cdr = BLANK
-E.spell_energize_cdr = BLANK
-E.spell_interrupt_cdr = BLANK
-E.cdrr_heartstopaura_blackList = BLANK
-E.runeforge_bonus_to_descid = BLANK
-E.runeforge_specid = BLANK
-E.runeforge_desc_to_powerid = BLANK
-E.runeforge_unity = BLANK
-E.covenant_to_spellid = BLANK
-E.covenant_abilities = BLANK
-E.spell_benevolent_faerie_majorcd = BLANK
-E.covenant_cdmod_conduits = BLANK
-E.covenant_chmod_conduits = BLANK
-E.covenant_cdmod_items_mult = BLANK
-E.soulbind_conduits_rank = BLANK
-E.soulbind_abilities = BLANK
-E.spell_cdmod_conduits = BLANK
-E.spell_cdmod_conduits_mult = BLANK
-E.spell_symbol_of_hope_majorcd = BLANK
-E.spell_major_cd = BLANK
+E.selfLimitedMinMaxReducer = E.BLANK
+E.spell_damage_cdr_totem = E.BLANK
+E.spell_damage_cdr_pet = E.BLANK
+E.spell_damage_cdr = E.BLANK
+E.spell_energize_cdr = E.BLANK
+E.spell_interrupt_cdr = E.BLANK
+E.cdrr_heartstopaura_blackList = E.BLANK
+E.runeforge_bonus_to_descid = E.BLANK
+E.runeforge_specid = E.BLANK
+E.runeforge_desc_to_powerid = E.BLANK
+E.runeforge_unity = E.BLANK
+E.covenant_to_spellid = E.BLANK
+E.covenant_abilities = E.BLANK
+E.spell_benevolent_faerie_majorcd = E.BLANK
+E.covenant_cdmod_conduits = E.BLANK
+E.covenant_chmod_conduits = E.BLANK
+E.covenant_cdmod_items_mult = E.BLANK
+E.soulbind_conduits_rank = E.BLANK
+E.soulbind_abilities = E.BLANK
+E.spell_cdmod_conduits = E.BLANK
+E.spell_cdmod_conduits_mult = E.BLANK
+E.spell_symbol_of_hope_majorcd = E.BLANK
+E.spell_major_cd = E.BLANK
 
 
 
@@ -894,14 +892,14 @@ E.item_set_bonus = {
 	[16432] = { 22738, 4 },
 }
 
-E.item_unity = BLANK
+E.item_unity = E.BLANK
 
 
 
 
 
-E.sync_cooldowns = BLANK
-E.sync_in_raid = BLANK
-E.sync_periodic = BLANK
+E.sync_cooldowns = E.BLANK
+E.sync_in_raid = E.BLANK
+E.sync_periodic = E.BLANK
 
 E:ProcessSpellDB()

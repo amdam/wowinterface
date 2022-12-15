@@ -16,19 +16,20 @@ OmniCCDB = {
 		["Amdamn - Bloodscalp"] = "Default",
 		["Abel - Turalyon"] = "Default",
 		["Adamancy - Turalyon"] = "Default",
+		["Shado - Turalyon"] = "Default",
 		["Furrys - Turalyon"] = "Default",
-		["Adreya - Bloodscalp"] = "Default",
 		["Adrid - Turalyon"] = "Default",
 		["Artoc - Zul'jin"] = "Default",
-		["Aduum - Turalyon"] = "Default",
+		["Christifur - Turalyon"] = "Default",
 		["Svend - Turalyon"] = "Default",
 		["Broddah - Doomhammer"] = "Default",
-		["Artoc - Silvermoon"] = "Default",
 		["Kayne - Turalyon"] = "Default",
+		["Artoc - Silvermoon"] = "Default",
+		["Aduum - Turalyon"] = "Default",
 		["Adamn - Turalyon"] = "Default",
-		["Christifur - Turalyon"] = "Default",
 		["Adamian - Turalyon"] = "Default",
-		["Shado - Turalyon"] = "Default",
+		["Adreya - Bloodscalp"] = "Default",
+		["Adomic - Turalyon"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -119,7 +120,6 @@ OmniCCDB = {
 	},
 }
 OmniCC4Config = {
-	["engine"] = "AniUpdater",
 	["groupSettings"] = {
 		["base"] = {
 			["styles"] = {
@@ -237,6 +237,8 @@ OmniCC4Config = {
 			["scaleText"] = true,
 		},
 	},
+	["engine"] = "AniUpdater",
+	["version"] = "8.2.5",
 	["groups"] = {
 		{
 			["id"] = "Ignore",
@@ -247,5 +249,4 @@ OmniCC4Config = {
 			["enabled"] = true,
 		}, -- [1]
 	},
-	["version"] = "8.2.5",
 }

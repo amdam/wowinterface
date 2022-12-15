@@ -2,1019 +2,1503 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"2", -- [1]
-			"Normest-BleedingHollow", -- [2]
+			"Yes chef!", -- [1]
+			"Crazyterran-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Normest-BleedingHollow", -- [5]
+			"Crazyterran-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			25, -- [11]
-			"Player-73-0EBFD70B", -- [12]
+			695, -- [11]
+			"Player-3685-0725217A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaNormest-BleedingHollow|r",
-			[51] = 1670566285,
+			[52] = "|cfff48cbaCrazyterran|r",
+			[51] = 1670746354,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [1]
 		{
-			"1", -- [1]
-			"Normest-BleedingHollow", -- [2]
+			"Yes chef!", -- [1]
+			"Paarthos-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Normest-BleedingHollow", -- [5]
+			"Paarthos-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			26, -- [11]
-			"Player-73-0EBFD70B", -- [12]
+			696, -- [11]
+			"Player-3685-0AFC9F09", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaNormest-BleedingHollow|r",
-			[51] = 1670566286,
+			[52] = "|cff3fc7ebPaarthos|r",
+			[51] = 1670746356,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [2]
 		{
-			"ALL GOLD ALL DAY BAYBEE", -- [1]
-			"Polylord-Agamaggan", -- [2]
+			"Yes chef!", -- [1]
+			"Dragcat-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Polylord-Agamaggan", -- [5]
+			"Dragcat-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			78, -- [11]
-			"Player-1129-0B905518", -- [12]
+			697, -- [11]
+			"Player-3685-0DF81663", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebPolylord-Agamaggan|r",
-			[51] = 1670566515,
+			[52] = "|cff33937fDragcat|r",
+			[51] = 1670746357,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [3]
 		{
-			"ty all, gg", -- [1]
-			"Amdam-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Ziatakraa-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Amdam-Turalyon", -- [5]
+			"Ziatakraa-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			93, -- [11]
-			"Player-3685-0722C2B9", -- [12]
+			699, -- [11]
+			"Player-3685-0D595B1D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670566584,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffff7c0aZiatakraa|r",
+			[51] = 1670746357,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [4]
 		{
-			"thanks", -- [1]
-			"Katum-BleedingHollow", -- [2]
+			"Yes chef!", -- [1]
+			"Hallicgos-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Katum-BleedingHollow", -- [5]
+			"Hallicgos-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			114, -- [11]
-			"Player-73-0CACC866", -- [12]
+			700, -- [11]
+			"Player-3685-0DF7BD88", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dKatum-BleedingHollow|r",
-			[51] = 1670566659,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff33937fHallicgos|r",
+			[51] = 1670746357,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [5]
 		{
-			"brb 10 sec", -- [1]
-			"Dragondsnut-Mal'Ganis", -- [2]
+			"Yes chef!", -- [1]
+			"Toolzilla-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Dragondsnut-Mal'Ganis", -- [5]
+			"Toolzilla-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			217, -- [11]
-			"Player-3684-0DF829FC", -- [12]
+			702, -- [11]
+			"Player-3685-0DF842BA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff33937fDragondsnut-Mal'Ganis|r",
-			[51] = 1670567210,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff33937fToolzilla|r",
+			[51] = 1670746359,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [6]
 		{
-			"'k", -- [1]
-			"Dragondsnut-Mal'Ganis", -- [2]
+			"Yes chef!", -- [1]
+			"Mjolfurion-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Dragondsnut-Mal'Ganis", -- [5]
+			"Mjolfurion-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			218, -- [11]
-			"Player-3684-0DF829FC", -- [12]
+			703, -- [11]
+			"Player-3685-0DEEC965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff33937fDragondsnut-Mal'Ganis|r",
-			[51] = 1670567172,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffff7c0aMjolfurion|r",
+			[51] = 1670746359,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [7]
 		{
-			"Chillstorm on Isamoo", -- [1]
-			"Isamoo-Mal'Ganis", -- [2]
+			"Yes chef!", -- [1]
+			"Narisa-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Isamoo-Mal'Ganis", -- [5]
+			"Narisa-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			244, -- [11]
-			"Player-3684-0725274E", -- [12]
+			704, -- [11]
+			"Player-3685-06F689CD", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aIsamoo-Mal'Ganis|r",
-			[51] = 1670567364,
+			[52] = "|cffffffffNarisa|r",
+			[51] = 1670746359,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [8]
 		{
-			"3", -- [1]
-			"Isamoo-Mal'Ganis", -- [2]
+			"Yes chef!", -- [1]
+			"Hexz-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Isamoo-Mal'Ganis", -- [5]
+			"Hexz-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			245, -- [11]
-			"Player-3684-0725274E", -- [12]
+			705, -- [11]
+			"Player-3685-0D95C13A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aIsamoo-Mal'Ganis|r",
-			[51] = 1670567364,
+			[52] = "|cffa330c9Hexz|r",
+			[51] = 1670746360,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [9]
 		{
-			"2", -- [1]
-			"Isamoo-Mal'Ganis", -- [2]
+			"Yes chef!", -- [1]
+			"Oruund-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Isamoo-Mal'Ganis", -- [5]
+			"Oruund-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			246, -- [11]
-			"Player-3684-0725274E", -- [12]
+			707, -- [11]
+			"Player-3685-0DFF25BB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aIsamoo-Mal'Ganis|r",
-			[51] = 1670567365,
+			[52] = "|cffc41e3aOruund|r",
+			[51] = 1670746361,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [10]
 		{
-			"1", -- [1]
-			"Isamoo-Mal'Ganis", -- [2]
+			"Yes chef!", -- [1]
+			"Dranor-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Isamoo-Mal'Ganis", -- [5]
+			"Dranor-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			247, -- [11]
-			"Player-3684-0725274E", -- [12]
+			708, -- [11]
+			"Player-3685-0DF64E9C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aIsamoo-Mal'Ganis|r",
-			[51] = 1670567366,
+			[52] = "|cffc41e3aDranor|r",
+			[51] = 1670746362,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [11]
 		{
-			"need those?", -- [1]
-			"Amdam-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Holybo-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Amdam-Turalyon", -- [5]
+			"Holybo-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			260, -- [11]
-			"Player-3685-0722C2B9", -- [12]
+			711, -- [11]
+			"Player-3685-0D9942E9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670567517,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaHolybo|r",
+			[51] = 1670746367,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [12]
 		{
-			"yes", -- [1]
-			"Irerolled-Mal'Ganis", -- [2]
+			"Yes chef!", -- [1]
+			"Rendezz-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Irerolled-Mal'Ganis", -- [5]
+			"Rendezz-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			261, -- [11]
-			"Player-3684-0DD9769B", -- [12]
+			714, -- [11]
+			"Player-3685-07D85641", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dIrerolled-Mal'Ganis|r",
-			[51] = 1670567519,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffff7c0aRendezz|r",
+			[51] = 1670746370,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [13]
 		{
-			"sorry", -- [1]
-			"Irerolled-Mal'Ganis", -- [2]
+			"Yes chef!", -- [1]
+			"Spellthief-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Irerolled-Mal'Ganis", -- [5]
+			"Spellthief-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			263, -- [11]
-			"Player-3684-0DD9769B", -- [12]
+			716, -- [11]
+			"Player-3685-0724D016", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dIrerolled-Mal'Ganis|r",
-			[51] = 1670567468,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff3fc7ebSpellthief|r",
+			[51] = 1670746373,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [14]
 		{
-			"np, gz", -- [1]
-			"Amdam-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Icebladez-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Amdam-Turalyon", -- [5]
+			"Icebladez-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			264, -- [11]
-			"Player-3685-0722C2B9", -- [12]
+			717, -- [11]
+			"Player-3685-0799FDA2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670567472,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3fc7ebIcebladez|r",
+			[51] = 1670746373,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [15]
 		{
-			"ty", -- [1]
-			"Irerolled-Mal'Ganis", -- [2]
+			"Yes chef!", -- [1]
+			"Anyanka-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Irerolled-Mal'Ganis", -- [5]
+			"Anyanka-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			265, -- [11]
-			"Player-3684-0DD9769B", -- [12]
+			720, -- [11]
+			"Player-3685-0A29A9A3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dIrerolled-Mal'Ganis|r",
-			[51] = 1670567477,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa330c9Anyanka|r",
+			[51] = 1670746374,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [16]
 		{
-			"Living Bomb on Isamoo", -- [1]
-			"Isamoo-Mal'Ganis", -- [2]
+			"Yes chef!", -- [1]
+			"Cydramorti-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Isamoo-Mal'Ganis", -- [5]
+			"Cydramorti-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			277, -- [11]
-			"Player-3684-0725274E", -- [12]
+			725, -- [11]
+			"Player-3685-0AB19074", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aIsamoo-Mal'Ganis|r",
-			[51] = 1670567581,
+			[52] = "|cffc41e3aCydramorti|r",
+			[51] = 1670746323,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [17]
 		{
-			"3", -- [1]
-			"Isamoo-Mal'Ganis", -- [2]
+			"Yes chef!", -- [1]
+			"Tiir-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Isamoo-Mal'Ganis", -- [5]
+			"Tiir-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			278, -- [11]
-			"Player-3684-0725274E", -- [12]
+			727, -- [11]
+			"Player-3685-07227133", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aIsamoo-Mal'Ganis|r",
-			[51] = 1670567583,
+			[52] = "|cffffffffTiir|r",
+			[51] = 1670746325,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [18]
 		{
-			"2", -- [1]
-			"Isamoo-Mal'Ganis", -- [2]
+			"Yes chef!", -- [1]
+			"Maev-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Isamoo-Mal'Ganis", -- [5]
+			"Maev-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			279, -- [11]
-			"Player-3684-0725274E", -- [12]
+			728, -- [11]
+			"Player-3685-0DDA8B1F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aIsamoo-Mal'Ganis|r",
-			[51] = 1670567584,
+			[52] = "|cfff48cbaMaev|r",
+			[51] = 1670746327,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [19]
 		{
-			"1", -- [1]
-			"Isamoo-Mal'Ganis", -- [2]
+			"Yes chef!", -- [1]
+			"Toasties-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Isamoo-Mal'Ganis", -- [5]
+			"Toasties-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			280, -- [11]
-			"Player-3684-0725274E", -- [12]
+			729, -- [11]
+			"Player-3685-072387E2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aIsamoo-Mal'Ganis|r",
-			[51] = 1670567585,
+			[52] = "|cff0070ddToasties|r",
+			[51] = 1670746327,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [20]
 		{
-			"3", -- [1]
-			"Isamoo-Mal'Ganis", -- [2]
+			"Yes chef!", -- [1]
+			"Cadburry-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Isamoo-Mal'Ganis", -- [5]
+			"Cadburry-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			288, -- [11]
-			"Player-3684-0725274E", -- [12]
+			732, -- [11]
+			"Player-3685-0C0AD22D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aIsamoo-Mal'Ganis|r",
-			[51] = 1670567663,
+			[52] = "|cffa330c9Cadburry|r",
+			[51] = 1670746330,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [21]
 		{
-			"2", -- [1]
-			"Isamoo-Mal'Ganis", -- [2]
-			"", -- [3]
+			"this shit is confusing", -- [1]
+			"Seeding-Turalyon", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Isamoo-Mal'Ganis", -- [5]
+			"Seeding-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			0, -- [10]
-			289, -- [11]
-			"Player-3684-0725274E", -- [12]
+			7, -- [10]
+			733, -- [11]
+			"Player-3685-0DFEDF26", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aIsamoo-Mal'Ganis|r",
-			[51] = 1670567664,
+			[52] = "|cffff7c0aSeeding|r",
+			[51] = 1670746330,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [22]
 		{
-			"1", -- [1]
-			"Isamoo-Mal'Ganis", -- [2]
+			"Yes chef!", -- [1]
+			"Dentedplate-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Isamoo-Mal'Ganis", -- [5]
+			"Dentedplate-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			290, -- [11]
-			"Player-3684-0725274E", -- [12]
+			734, -- [11]
+			"Player-3685-0710B100", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aIsamoo-Mal'Ganis|r",
-			[51] = 1670567665,
+			[52] = "|cffc69b6dDentedplate|r",
+			[51] = 1670746392,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [23]
 		{
-			"gg", -- [1]
-			"Dragondsnut-Mal'Ganis", -- [2]
+			"Yes chef!", -- [1]
+			"Redemon-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Dragondsnut-Mal'Ganis", -- [5]
+			"Redemon-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			364, -- [11]
-			"Player-3684-0DF829FC", -- [12]
+			736, -- [11]
+			"Player-3685-0AD25CB2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff33937fDragondsnut-Mal'Ganis|r",
-			[51] = 1670568129,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa330c9Redemon|r",
+			[51] = 1670746392,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [24]
 		{
-			"anyone doing more?", -- [1]
-			"Amdam-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Zordez-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Amdam-Turalyon", -- [5]
+			"Zordez-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			368, -- [11]
-			"Player-3685-0722C2B9", -- [12]
+			737, -- [11]
+			"Player-3685-0E012543", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670568188,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffff468Zordez|r",
+			[51] = 1670746394,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [25]
 		{
-			"ty for group", -- [1]
-			"Amdam-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Seeding-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Amdam-Turalyon", -- [5]
+			"Seeding-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			370, -- [11]
-			"Player-3685-0722C2B9", -- [12]
+			739, -- [11]
+			"Player-3685-0DFEDF26", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670568280,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffff7c0aSeeding|r",
+			[51] = 1670746396,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [26]
 		{
-			"healer needs a sec", -- [1]
-			"Knoxdemon-Vashj", -- [2]
+			"Yes chef!", -- [1]
+			"Georgigeo-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Knoxdemon-Vashj", -- [5]
+			"Georgigeo-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			453, -- [11]
-			"Player-127-0A62E363", -- [12]
+			740, -- [11]
+			"Player-3685-0D2AA7A4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa330c9Knoxdemon-Vashj|r",
-			[51] = 1670568930,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffaad372Georgigeo|r",
+			[51] = 1670746396,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [27]
 		{
-			"Static Spear on Brownmatt", -- [1]
-			"Brownmatt-Area52", -- [2]
+			"Yes chef!", -- [1]
+			"Tahroo-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Brownmatt-Area52", -- [5]
+			"Tahroo-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			526, -- [11]
-			"Player-3676-0DA629B3", -- [12]
+			741, -- [11]
+			"Player-3685-07204507", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dBrownmatt-Area52|r",
-			[51] = 1670570061,
+			[52] = "|cfff48cbaTahroo|r",
+			[51] = 1670746397,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [28]
 		{
-			"ty all", -- [1]
-			"Amdam-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Altaneen-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Amdam-Turalyon", -- [5]
+			"Altaneen-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			543, -- [11]
-			"Player-3685-0722C2B9", -- [12]
+			743, -- [11]
+			"Player-3685-0724FF83", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670570152,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3fc7ebAltaneen|r",
+			[51] = 1670746399,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [29]
 		{
-			"ty all", -- [1]
-			"Axson-Vashj", -- [2]
+			"Yes chef!", -- [1]
+			"Nyctes-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Axson-Vashj", -- [5]
+			"Nyctes-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			545, -- [11]
-			"Player-127-0A602134", -- [12]
+			744, -- [11]
+			"Player-3685-0AA00E41", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aAxson-Vashj|r",
-			[51] = 1670570158,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffffffffNyctes|r",
+			[51] = 1670746402,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [30]
 		{
-			"wp", -- [1]
-			"Critcalblast-Vashj", -- [2]
+			"Yes chef!", -- [1]
+			"Moosher-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Critcalblast-Vashj", -- [5]
+			"Moosher-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			546, -- [11]
-			"Player-127-09205B8F", -- [12]
+			745, -- [11]
+			"Player-3685-0DFFED07", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc41e3aCritcalblast-Vashj|r",
-			[51] = 1670570159,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff33937fMoosher|r",
+			[51] = 1670746402,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [31]
 		{
-			"hello, there", -- [1]
-			"Swampdonkey-Garrosh", -- [2]
+			"Yes chef!", -- [1]
+			"Beng-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Swampdonkey-Garrosh", -- [5]
+			"Beng-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			558, -- [11]
-			"Player-1136-0921D832", -- [12]
+			746, -- [11]
+			"Player-3685-0D78630D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dSwampdonkey-Garrosh|r",
-			[51] = 1670570196,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa330c9Beng|r",
+			[51] = 1670746402,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [32]
 		{
-			"hi friends", -- [1]
-			"Renarin-Garrosh", -- [2]
+			"Yes chef!", -- [1]
+			"Materiel-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Renarin-Garrosh", -- [5]
+			"Materiel-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			563, -- [11]
-			"Player-1136-09248E5C", -- [12]
+			748, -- [11]
+			"Player-3685-0ADCCB91", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa330c9Renarin-Garrosh|r",
-			[51] = 1670570261,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaMateriel|r",
+			[51] = 1670746405,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [33]
 		{
-			"hi", -- [1]
-			"Amdam-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Callinn-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Amdam-Turalyon", -- [5]
+			"Callinn-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			564, -- [11]
-			"Player-3685-0722C2B9", -- [12]
+			750, -- [11]
+			"Player-3685-07184B19", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670570263,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaCallinn|r",
+			[51] = 1670746410,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [34]
 		{
-			"hello", -- [1]
-			"Camarro-Illidan", -- [2]
+			"Yes chef!", -- [1]
+			"Lany-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Camarro-Illidan", -- [5]
+			"Lany-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			567, -- [11]
-			"Player-57-09DCDE3F", -- [12]
+			751, -- [11]
+			"Player-3685-07236D24", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff98Camarro-Illidan|r",
-			[51] = 1670570266,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffff7c0aLany|r",
+			[51] = 1670746414,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [35]
 		{
-			"you here, am?", -- [1]
-			"Swampdonkey-Garrosh", -- [2]
+			"Yes chef!", -- [1]
+			"Msysmsysmsy-Illidan", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Swampdonkey-Garrosh", -- [5]
+			"Msysmsysmsy-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			574, -- [11]
-			"Player-1136-0921D832", -- [12]
+			757, -- [11]
+			"Player-57-0D660C04", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dSwampdonkey-Garrosh|r",
-			[51] = 1670570379,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff00ff98Msysmsysmsy-Illidan|r",
+			[51] = 1670746428,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [36]
 		{
-			"ya", -- [1]
-			"Amdam-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Mjolfurion-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Amdam-Turalyon", -- [5]
+			"Mjolfurion-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			577, -- [11]
-			"Player-3685-0722C2B9", -- [12]
+			758, -- [11]
+			"Player-3685-0DEEC965", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670570386,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffff7c0aMjolfurion|r",
+			[51] = 1670746430,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [37]
 		{
-			"alright", -- [1]
-			"Swampdonkey-Garrosh", -- [2]
+			"Yes chef!", -- [1]
+			"Dragcat-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Swampdonkey-Garrosh", -- [5]
+			"Dragcat-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			578, -- [11]
-			"Player-1136-0921D832", -- [12]
+			759, -- [11]
+			"Player-3685-0DF81663", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dSwampdonkey-Garrosh|r",
-			[51] = 1670570387,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff33937fDragcat|r",
+			[51] = 1670746431,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [38]
 		{
-			"here we go", -- [1]
-			"Swampdonkey-Garrosh", -- [2]
+			"Yes chef!", -- [1]
+			"Slatch-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Swampdonkey-Garrosh", -- [5]
+			"Slatch-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			579, -- [11]
-			"Player-1136-0921D832", -- [12]
+			760, -- [11]
+			"Player-3685-0724A7DC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dSwampdonkey-Garrosh|r",
-			[51] = 1670570390,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff00ff98Slatch|r",
+			[51] = 1670746431,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [39]
 		{
-			"need ring?", -- [1]
-			"Camarro-Illidan", -- [2]
+			"Yes chef!", -- [1]
+			"Paarthos-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Camarro-Illidan", -- [5]
+			"Paarthos-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			661, -- [11]
-			"Player-57-09DCDE3F", -- [12]
+			763, -- [11]
+			"Player-3685-0AFC9F09", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff98Camarro-Illidan|r",
-			[51] = 1670571102,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff3fc7ebPaarthos|r",
+			[51] = 1670746382,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [40]
 		{
-			"hmm nah", -- [1]
-			"Camarro-Illidan", -- [2]
-			"Common", -- [3]
+			"Yes chef!", -- [1]
+			"Eilthis-Turalyon", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Camarro-Illidan", -- [5]
+			"Eilthis-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			669, -- [11]
-			"Player-57-09DCDE3F", -- [12]
+			0, -- [10]
+			765, -- [11]
+			"Player-3685-07221BDF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff98Camarro-Illidan|r",
-			[51] = 1670571071,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffff7c0aEilthis|r",
+			[51] = 1670746385,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [41]
 		{
-			"i mean id wear it but you can have it replaces a blue ", -- [1]
-			"Camarro-Illidan", -- [2]
-			"Common", -- [3]
+			"Yes chef!", -- [1]
+			"Nadriana-Turalyon", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Camarro-Illidan", -- [5]
+			"Nadriana-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			670, -- [11]
-			"Player-57-09DCDE3F", -- [12]
+			0, -- [10]
+			766, -- [11]
+			"Player-3685-072522FD", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff98Camarro-Illidan|r",
-			[51] = 1670571080,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff3fc7ebNadriana|r",
+			[51] = 1670746386,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [42]
 		{
-			"If you dont mind, it is a blue for me", -- [1]
-			"Camarro-Illidan", -- [2]
+			"Yes chef!", -- [1]
+			"Toolzilla-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Camarro-Illidan", -- [5]
+			"Toolzilla-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			671, -- [11]
-			"Player-57-09DCDE3F", -- [12]
+			767, -- [11]
+			"Player-3685-0DF842BA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff98Camarro-Illidan|r",
-			[51] = 1670571123,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff33937fToolzilla|r",
+			[51] = 1670746387,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [43]
 		{
-			"ty!", -- [1]
-			"Camarro-Illidan", -- [2]
+			"Yes chef!", -- [1]
+			"Tiir-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Camarro-Illidan", -- [5]
+			"Tiir-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			676, -- [11]
-			"Player-57-09DCDE3F", -- [12]
+			769, -- [11]
+			"Player-3685-07227133", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff98Camarro-Illidan|r",
-			[51] = 1670571134,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffffffffTiir|r",
+			[51] = 1670746391,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [44]
 		{
-			"np", -- [1]
-			"Camarro-Illidan", -- [2]
-			"Common", -- [3]
+			"Yes chef!", -- [1]
+			"Messiahm-Illidan", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Camarro-Illidan", -- [5]
+			"Messiahm-Illidan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			679, -- [11]
-			"Player-57-09DCDE3F", -- [12]
+			0, -- [10]
+			772, -- [11]
+			"Player-57-0B5950BC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff98Camarro-Illidan|r",
-			[51] = 1670571136,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff00ff98Messiahm-Illidan|r",
+			[51] = 1670746463,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [45]
 		{
-			"4th ring ive gotten today :/", -- [1]
-			"Camarro-Illidan", -- [2]
+			"Yes chef!", -- [1]
+			"Boomkim-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Boomkim-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			774, -- [11]
+			"Player-3685-071CB0BD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aBoomkim|r",
+			[51] = 1670746468,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [46]
+		{
+			"Yes chef!", -- [1]
+			"Spellthief-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Spellthief-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			778, -- [11]
+			"Player-3685-0724D016", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc7ebSpellthief|r",
+			[51] = 1670746476,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [47]
+		{
+			"Yes chef!", -- [1]
+			"Icebladez-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Icebladez-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			779, -- [11]
+			"Player-3685-0799FDA2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc7ebIcebladez|r",
+			[51] = 1670746476,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [48]
+		{
+			"Yes chef!", -- [1]
+			"Humpin-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Humpin-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			780, -- [11]
+			"Player-3685-07163EA4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aHumpin|r",
+			[51] = 1670746476,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [49]
+		{
+			"Yes chef!", -- [1]
+			"Beng-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Beng-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			782, -- [11]
+			"Player-3685-0D78630D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Beng|r",
+			[51] = 1670746479,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [50]
+		{
+			"Yes chef!", -- [1]
+			"Georgigeo-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Georgigeo-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			784, -- [11]
+			"Player-3685-0D2AA7A4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Georgigeo|r",
+			[51] = 1670746479,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [51]
+		{
+			"Yes chef!", -- [1]
+			"Moosher-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Moosher-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			785, -- [11]
+			"Player-3685-0DFFED07", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff33937fMoosher|r",
+			[51] = 1670746483,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [52]
+		{
+			"Yes chef!", -- [1]
+			"Redemon-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Redemon-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			786, -- [11]
+			"Player-3685-0AD25CB2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Redemon|r",
+			[51] = 1670746483,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [53]
+		{
+			"Yes chef!", -- [1]
+			"Nyctes-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nyctes-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			789, -- [11]
+			"Player-3685-0AA00E41", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffffffffNyctes|r",
+			[51] = 1670746485,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [54]
+		{
+			"Yes chef!", -- [1]
+			"Kodswallop-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kodswallop-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			791, -- [11]
+			"Player-3685-07251F04", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Kodswallop|r",
+			[51] = 1670746488,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [55]
+		{
+			"revash zug KA throm ", -- [1]
+			"Mjolfurion-Turalyon", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Mjolfurion-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			796, -- [11]
+			"Player-3685-0DEEC965", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aMjolfurion|r",
+			[51] = 1670746493,
+			[50] = "CHAT_MSG_YELL",
+		}, -- [56]
+		{
+			"ha l", -- [1]
+			"Rendezz-Turalyon", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Rendezz-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			801, -- [11]
+			"Player-3685-07D85641", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aRendezz|r",
+			[51] = 1670746442,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [57]
+		{
+			"Yes chef!", -- [1]
+			"Callinn-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Callinn-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			803, -- [11]
+			"Player-3685-07184B19", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaCallinn|r",
+			[51] = 1670746445,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [58]
+		{
+			"il nuk no'ku", -- [1]
+			"Rendezz-Turalyon", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Rendezz-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			804, -- [11]
+			"Player-3685-07D85641", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aRendezz|r",
+			[51] = 1670746446,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [59]
+		{
+			"Yes chef!", -- [1]
+			"Rendezz-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Rendezz-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			806, -- [11]
+			"Player-3685-07D85641", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aRendezz|r",
+			[51] = 1670746450,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [60]
+		{
+			"Yes chef!", -- [1]
+			"Xenafreak-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xenafreak-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			807, -- [11]
+			"Player-3685-0725053B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dXenafreak|r",
+			[51] = 1670746450,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [61]
+		{
+			"Yes chef!", -- [1]
+			"Hexdstrike-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hexdstrike-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			808, -- [11]
+			"Player-3685-0AD755F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff98Hexdstrike|r",
+			[51] = 1670746450,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [62]
+		{
+			"Yes chef!", -- [1]
+			"Dentedplate-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dentedplate-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			809, -- [11]
+			"Player-3685-0710B100", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dDentedplate|r",
+			[51] = 1670746450,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [63]
+		{
+			"Yes chef!", -- [1]
+			"Naudin-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Naudin-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			818, -- [11]
+			"Player-3685-06F79FAE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc7ebNaudin|r",
+			[51] = 1670746536,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [64]
+		{
+			"Yes chef!", -- [1]
+			"Tahroo-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tahroo-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			819, -- [11]
+			"Player-3685-07204507", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaTahroo|r",
+			[51] = 1670746537,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [65]
+		{
+			"Yes chef!", -- [1]
+			"Zordez-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Zordez-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			820, -- [11]
+			"Player-3685-0E012543", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Zordez|r",
+			[51] = 1670746539,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [66]
+		{
+			"revash zug KA throm ", -- [1]
+			"Mjolfurion-Turalyon", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Mjolfurion-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			850, -- [11]
+			"Player-3685-0DEEC965", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aMjolfurion|r",
+			[51] = 1670746583,
+			[50] = "CHAT_MSG_YELL",
+		}, -- [67]
+		{
+			"What the fuck.", -- [1]
+			"Seeding-Turalyon", -- [2]
 			"Common", -- [3]
 			"", -- [4]
-			"Camarro-Illidan", -- [5]
+			"Seeding-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			7, -- [10]
-			680, -- [11]
-			"Player-57-09DCDE3F", -- [12]
+			851, -- [11]
+			"Player-3685-0DFEDF26", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff98Camarro-Illidan|r",
-			[51] = 1670571142,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [46]
+			[52] = "|cffff7c0aSeeding|r",
+			[51] = 1670746589,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [68]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:16432:Player-3685-0722C2B9:1:12:8:22:4294967295:4294967295:4294967295:4294967295|h[Ready for Raiding VIII]|h|r!", -- [1]
+			"%s has earned the achievement |cffffff00|Hachievement:16363:Player-3685-0722C2B9:1:12:11:22:4294967295:4294967295:4294967295:4294967295|h[Just Don't Ask Me to Spell It]|h|r!", -- [1]
 			"Amdam-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1024,7 +1508,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			719, -- [11]
+			1374, -- [11]
 			"Player-3685-0722C2B9", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1032,11 +1516,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670571572,
+			[51] = 1670832754,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [47]
+		}, -- [69]
 		{
-			"ty all, gg", -- [1]
+			"%s has earned the achievement |cffffff00|Hachievement:16460:Player-3685-0722C2B9:1:12:12:22:4294967295:4294967295:4294967295:4294967295|h[Explore the Azure Span]|h|r!", -- [1]
 			"Amdam-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1046,7 +1530,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			781, -- [11]
+			1376, -- [11]
 			"Player-3685-0722C2B9", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1054,11 +1538,275 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670572046,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [48]
+			[51] = 1670900961,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [70]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:15794:Player-3685-07250229:1:12:8:22:4294967295:4294967295:4294967295:4294967295|h[A New Friend]|h|r!", -- [1]
+			"|cffffd000|Htrade:Player-3685-0CD64011:2108:165|h[Leatherworking]|h|r lv 100 lfw", -- [1]
+			"Llalow-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Llalow-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1581, -- [11]
+			"Player-3685-0CD64011", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aLlalow|r",
+			[51] = 1670902734,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [71]
+		{
+			"\"", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Amdam-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			1750, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1670903330,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [72]
+		{
+			"2.2☻633333333333333333333325232238+ +", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Amdam-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			1751, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1670903339,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [73]
+		{
+			"?||+?>\":||", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Amdam-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			1752, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1670903293,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [74]
+		{
+			"||'\\21+", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Amdam-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			1753, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1670903295,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [75]
+		{
+			"you never answered me", -- [1]
+			"|Kq32|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			56, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1670910259,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [76]
+		{
+			"answered you? what did you ask?", -- [1]
+			"|Kq32|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			57, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1670910275,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [77]
+		{
+			"why cant i hear the npc's talk", -- [1]
+			"|Kq32|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			58, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1670910298,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [78]
+		{
+			"only the main questline has voiced dialog", -- [1]
+			"|Kq32|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			59, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1670910318,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [79]
+		{
+			"what were the three items again", -- [1]
+			"Tideran-Turalyon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Tideran-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			206, -- [11]
+			"Player-3685-0A0D6969", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTideran|r",
+			[51] = 1670913284,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [80]
+		{
+			"Come on down to 30.43/77.94 for Dragonbane Keep, starts in 20 minutes. You KNOW you are out of quests and are bored!", -- [1]
+			"Justynne-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - The Waking Shores", -- [4]
+			"Justynne-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - The Waking Shores", -- [9]
+			0, -- [10]
+			2, -- [11]
+			"Player-3685-0DE8D0B0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8788eeJustynne|r",
+			[51] = 1670913606,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [81]
+		{
+			"10 minutes before siege on Dragonbane, could use more", -- [1]
+			"Justynne-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - The Waking Shores", -- [4]
+			"Justynne-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - The Waking Shores", -- [9]
+			0, -- [10]
+			74, -- [11]
+			"Player-3685-0DE8D0B0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8788eeJustynne|r",
+			[51] = 1670914107,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [82]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:16575:Player-3685-07250229:1:12:12:22:4294967295:4294967295:4294967295:4294967295|h[Waking Shores Glyph Hunter]|h|r!", -- [1]
 			"Suniza-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1068,7 +1816,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			791, -- [11]
+			260, -- [11]
 			"Player-3685-07250229", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1076,1131 +1824,383 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffff468Suniza|r",
-			[51] = 1670572111,
+			[51] = 1670915309,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [49]
+		}, -- [83]
 		{
-			"any leatherworkers?", -- [1]
-			"Qt-Turalyon", -- [2]
+			"dammit", -- [1]
+			"Wumborama-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			22, -- [11]
+			"Player-3685-08CF9F04", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Wumborama|r",
+			[51] = 1671036949,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [84]
+		{
+			"I need like dos to spam me with heals", -- [1]
+			"Wumborama-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			23, -- [11]
+			"Player-3685-08CF9F04", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Wumborama|r",
+			[51] = 1671036954,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [85]
+		{
+			"for this snail lol", -- [1]
+			"Wumborama-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			25, -- [11]
+			"Player-3685-08CF9F04", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Wumborama|r",
+			[51] = 1671036958,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [86]
+		{
+			"anyone have their quest |cffffff00|Hquest:66221:2401|h[Moving On]|h|r bugg?", -- [1]
+			"Dracò-Turalyon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Qt-Turalyon", -- [5]
+			"Dracò-Turalyon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			810, -- [11]
-			"Player-3685-0DC1E30E", -- [12]
+			25, -- [11]
+			"Player-3685-0DF907D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa330c9Qt|r",
-			[51] = 1670572215,
+			[52] = "|cff33937fDracò|r",
+			[51] = 1671091407,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
-		{
-			"forgot how tf we get there from org", -- [1]
-			"Dungadank-Illidan", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dungadank-Illidan", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			814, -- [11]
-			"Player-57-0C158AA9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Dungadank-Illidan|r",
-			[51] = 1670572274,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [51]
-		{
-			"i think twilight highlands portal may be fastest", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Amdam-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			815, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670572289,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [52]
-		{
-			"summon me please", -- [1]
-			"Yiba-Nemesis", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Yiba-Nemesis", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			816, -- [11]
-			"Player-3208-0AEACB51", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff0070ddYiba-Nemesis|r",
-			[51] = 1670572376,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [53]
-		{
-			"any leatherworkers spec'd into primordial / elemental mastery?", -- [1]
-			"Qt-Turalyon", -- [2]
-			"", -- [3]
-			"6. Trade (Services) - City", -- [4]
-			"Qt-Turalyon", -- [5]
-			"", -- [6]
-			42, -- [7]
-			6, -- [8]
-			"Trade (Services) - City", -- [9]
-			0, -- [10]
-			817, -- [11]
-			"Player-3685-0DC1E30E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa330c9Qt|r",
-			[51] = 1670572323,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
-		{
-			"camp", -- [1]
-			"Camarro-Illidan", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Camarro-Illidan", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			822, -- [11]
-			"Player-57-09DCDE3F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff98Camarro-Illidan|r",
-			[51] = 1670572401,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [55]
-		{
-			"[地下城]|cffffff00|Hquest:71093:2555|h[提尔的遗产：往昔秘密]|h|r 已接受", -- [1]
-			"Sentnel-Illidan", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Sentnel-Illidan", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			830, -- [11]
-			"Player-57-0D3F6C79", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aSentnel-Illidan|r",
-			[51] = 1670572567,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [56]
-		{
-			"Amdam, 感谢你使用 |cff71d5ff|Hspell:7328:0|h[救赎]|h|r 复活我. :)", -- [1]
-			"Sentnel-Illidan", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Sentnel-Illidan", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			898, -- [11]
-			"Player-57-0D3F6C79", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aSentnel-Illidan|r",
-			[51] = 1670573095,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [57]
-		{
-			"Amdam使用了|cff71d5ff|Hspell:391054:0|h[代祷]|h|r -> Yiba", -- [1]
-			"Sentnel-Illidan", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Sentnel-Illidan", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			926, -- [11]
-			"Player-57-0D3F6C79", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aSentnel-Illidan|r",
-			[51] = 1670573239,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [58]
-		{
-			"omg", -- [1]
-			"Lfhealsplz-Illidan", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lfhealsplz-Illidan", -- [5]
-			"DND", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			934, -- [11]
-			"Player-57-0D667769", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dLfhealsplz-Illidan|r",
-			[51] = 1670573337,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [59]
-		{
-			"two shotted", -- [1]
-			"Lfhealsplz-Illidan", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lfhealsplz-Illidan", -- [5]
-			"DND", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			935, -- [11]
-			"Player-57-0D667769", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dLfhealsplz-Illidan|r",
-			[51] = 1670573288,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [60]
-		{
-			"[地下城]|cffffff00|Hquest:71093:2555|h[提尔的遗产：往昔秘密]|h|r 找回提尔的圆盘的回忆 1/1", -- [1]
-			"Sentnel-Illidan", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Sentnel-Illidan", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			986, -- [11]
-			"Player-57-0D3F6C79", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aSentnel-Illidan|r",
-			[51] = 1670573614,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [61]
-		{
-			"Sentnel 时光渗陷", -- [1]
-			"Sentnel-Illidan", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Sentnel-Illidan", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1001, -- [11]
-			"Player-57-0D3F6C79", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aSentnel-Illidan|r",
-			[51] = 1670573816,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
-		{
-			"ggs", -- [1]
-			"Lfhealsplz-Illidan", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lfhealsplz-Illidan", -- [5]
-			"DND", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1030, -- [11]
-			"Player-57-0D667769", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dLfhealsplz-Illidan|r",
-			[51] = 1670573838,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [63]
-		{
-			"ty all, gg", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Amdam-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1031, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670573844,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [64]
-		{
-			"gg", -- [1]
-			"Dungadank-Illidan", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dungadank-Illidan", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1032, -- [11]
-			"Player-57-0C158AA9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Dungadank-Illidan|r",
-			[51] = 1670573844,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [65]
-		{
-			"do you have 2 372 trinkets?", -- [1]
-			"Santacap-Area52", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santacap-Area52", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1055, -- [11]
-			"Player-3676-0DFE8920", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dSantacap-Area52|r",
-			[51] = 1670573955,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [66]
-		{
-			"who?", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Amdam-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1059, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670573973,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [67]
-		{
-			"you ", -- [1]
-			"Santacap-Area52", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santacap-Area52", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1060, -- [11]
-			"Player-3676-0DFE8920", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dSantacap-Area52|r",
-			[51] = 1670574041,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [68]
-		{
-			"ha", -- [1]
-			"Santacap-Area52", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santacap-Area52", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1061, -- [11]
-			"Player-3676-0DFE8920", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dSantacap-Area52|r",
-			[51] = 1670574042,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [69]
-		{
-			"nope just 1", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Amdam-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1062, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670574049,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [70]
-		{
-			"was gonna pay you to roll prot spec on the tree guy", -- [1]
-			"Santacap-Area52", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santacap-Area52", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1063, -- [11]
-			"Player-3676-0DFE8920", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dSantacap-Area52|r",
-			[51] = 1670574053,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [71]
-		{
-			"and its ass :<", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Amdam-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1064, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670574054,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [72]
-		{
-			"kk", -- [1]
-			"Santacap-Area52", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santacap-Area52", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1065, -- [11]
-			"Player-3676-0DFE8920", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dSantacap-Area52|r",
-			[51] = 1670574055,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [73]
-		{
-			"yea i can run prot for that boss", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Amdam-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1071, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670574060,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [74]
-		{
-			"would just miss out on a weapon, which i dont need either", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Amdam-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1073, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670574067,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [75]
-		{
-			"cant trade unless you have 2 372s i think", -- [1]
-			"Santacap-Area52", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santacap-Area52", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1074, -- [11]
-			"Player-3676-0DFE8920", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dSantacap-Area52|r",
-			[51] = 1670574084,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [76]
-		{
-			"i can roll dps spec on other bosses", -- [1]
-			"Santacap-Area52", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santacap-Area52", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1075, -- [11]
-			"Player-3676-0DFE8920", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dSantacap-Area52|r",
-			[51] = 1670574097,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [77]
-		{
-			"i mean i have 2 on-use 272s", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Amdam-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1076, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670574160,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [78]
-		{
-			"and if I can trade I will", -- [1]
-			"Santacap-Area52", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santacap-Area52", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1077, -- [11]
-			"Player-3676-0DFE8920", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dSantacap-Area52|r",
-			[51] = 1670574162,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [79]
-		{
-			"i just dont wear them both", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Amdam-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1078, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670574166,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [80]
-		{
-			"ohh nice", -- [1]
-			"Santacap-Area52", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santacap-Area52", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1079, -- [11]
-			"Player-3676-0DFE8920", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dSantacap-Area52|r",
-			[51] = 1670574167,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [81]
-		{
-			"only piece i need in this dungeon", -- [1]
-			"Santacap-Area52", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santacap-Area52", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1080, -- [11]
-			"Player-3676-0DFE8920", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dSantacap-Area52|r",
-			[51] = 1670574217,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [82]
-		{
-			"that dps trinket off the first boss would be nice", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Amdam-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1082, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670574233,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [83]
-		{
-			"evening", -- [1]
-			"Khalium-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Khalium-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1083, -- [11]
-			"Player-5-0ABC3C5D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8788eeKhalium-Proudmoore|r",
-			[51] = 1670574182,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [84]
-		{
-			"yo", -- [1]
-			"Santacap-Area52", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Santacap-Area52", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1084, -- [11]
-			"Player-3676-0DFE8920", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dSantacap-Area52|r",
-			[51] = 1670574185,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [85]
-		{
-			"hey hey", -- [1]
-			"Onehealer-Area52", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Onehealer-Area52", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1085, -- [11]
-			"Player-3676-0CF763AE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffOnehealer-Area52|r",
-			[51] = 1670574187,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [86]
-		{
-			"i'll swap to prot for tree tho", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Amdam-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1086, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670574189,
-			[50] = "CHAT_MSG_PARTY",
 		}, -- [87]
 		{
-			"thanks", -- [1]
-			"Santacap-Area52", -- [2]
+			"alexstraza is not here :( i cant figure it out getting flustered lol", -- [1]
+			"Dracò-Turalyon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Santacap-Area52", -- [5]
+			"2. Trade - City", -- [4]
+			"Dracò-Turalyon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1087, -- [11]
-			"Player-3676-0DFE8920", -- [12]
+			27, -- [11]
+			"Player-3685-0DF907D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dSantacap-Area52|r",
-			[51] = 1670574203,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			true, -- [17]
+			[52] = "|cff33937fDracò|r",
+			[51] = 1671091423,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [88]
 		{
-			"i can do dps for the other ones", -- [1]
-			"Santacap-Area52", -- [2]
+			"hilarious, boss is not up yet", -- [1]
+			"Kagamishizen-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Santacap-Area52", -- [5]
+			"Kagamishizen-Proudmoore", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1089, -- [11]
-			"Player-3676-0DFE8920", -- [12]
+			90, -- [11]
+			"Player-5-0AB4D66D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dSantacap-Area52|r",
-			[51] = 1670574208,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffff7c0aKagamishizen-Proudmoore|r",
+			[51] = 1671091767,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [89]
 		{
-			"sounds good", -- [1]
-			"Amdam-Turalyon", -- [2]
+			"some dude pulled it and now it despawned", -- [1]
+			"Saltzpyre-Nazjatar", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Amdam-Turalyon", -- [5]
+			"Saltzpyre-Nazjatar", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1090, -- [11]
-			"Player-3685-0722C2B9", -- [12]
+			99, -- [11]
+			"Player-77-0D35AB3D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670574279,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaSaltzpyre-Nazjatar|r",
+			[51] = 1671091801,
+			[50] = "CHAT_MSG_RAID_LEADER",
 		}, -- [90]
 		{
-			"anyone?", -- [1]
-			"Santacap-Area52", -- [2]
+			"he was, but then someone fought him and lost", -- [1]
+			"Thebigdude-GrizzlyHills", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Santacap-Area52", -- [5]
+			"Thebigdude-GrizzlyHills", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1267, -- [11]
-			"Player-3676-0DFE8920", -- [12]
+			100, -- [11]
+			"Player-1175-0E8892D4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dSantacap-Area52|r",
-			[51] = 1670575129,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffaad372Thebigdude-GrizzlyHills|r",
+			[51] = 1671091803,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [91]
 		{
-			"no ty", -- [1]
-			"Amdam-Turalyon", -- [2]
+			"He didn't lose, he was deemed unworthy.", -- [1]
+			"Brandex-Lightbringer", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Amdam-Turalyon", -- [5]
+			"Brandex-Lightbringer", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1269, -- [11]
-			"Player-3685-0722C2B9", -- [12]
+			106, -- [11]
+			"Player-3694-069AD8DF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670575084,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaBrandex-Lightbringer|r",
+			[51] = 1671091824,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [92]
 		{
-			"if you go prot for this i will lvoe you", -- [1]
-			"Santacap-Area52", -- [2]
+			"whats the spawn timer on this?", -- [1]
+			"Xingxong-Cenarius", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Santacap-Area52", -- [5]
+			"Xingxong-Cenarius", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1284, -- [11]
-			"Player-3676-0DFE8920", -- [12]
+			112, -- [11]
+			"Player-1168-0822CDF3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dSantacap-Area52|r",
-			[51] = 1670575258,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff0070ddXingxong-Cenarius|r",
+			[51] = 1671091881,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [93]
 		{
-			"done", -- [1]
-			"Amdam-Turalyon", -- [2]
+			"the UI glitching is sooo bad", -- [1]
+			"Stier-Stormrage", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Amdam-Turalyon", -- [5]
+			"1. General - The Waking Shores", -- [4]
+			"Stier-Stormrage", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			1, -- [7]
+			1, -- [8]
+			"General - The Waking Shores", -- [9]
 			0, -- [10]
-			1286, -- [11]
-			"Player-3685-0722C2B9", -- [12]
+			149, -- [11]
+			"Player-60-0E8FB91E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670575205,
-			[50] = "CHAT_MSG_PARTY",
+			true, -- [17]
+			[52] = "|cffaad372Stier-Stormrage|r",
+			[51] = 1671091984,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [94]
 		{
-			"rip", -- [1]
-			"Amdam-Turalyon", -- [2]
+			"party or raid frames constantly disappearing and then appearing....", -- [1]
+			"Stier-Stormrage", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Amdam-Turalyon", -- [5]
+			"1. General - The Waking Shores", -- [4]
+			"Stier-Stormrage", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			1, -- [7]
+			1, -- [8]
+			"General - The Waking Shores", -- [9]
 			0, -- [10]
-			1306, -- [11]
-			"Player-3685-0722C2B9", -- [12]
+			150, -- [11]
+			"Player-60-0E8FB91E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670575354,
-			[50] = "CHAT_MSG_PARTY",
+			true, -- [17]
+			[52] = "|cffaad372Stier-Stormrage|r",
+			[51] = 1671091993,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [95]
 		{
-			"thanks all, gg", -- [1]
-			"Khalium-Proudmoore", -- [2]
+			"NINJATURTLE!", -- [1]
+			"Ninjaslasher-Frostmourne", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Khalium-Proudmoore", -- [5]
+			"Ninjaslasher-Frostmourne", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1340, -- [11]
-			"Player-5-0ABC3C5D", -- [12]
+			152, -- [11]
+			"Player-3725-0C046F4E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8788eeKhalium-Proudmoore|r",
-			[51] = 1670575713,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffaad372Ninjaslasher-Frostmourne|r",
+			[51] = 1671092051,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [96]
 		{
-			"ty all", -- [1]
-			"Amdam-Turalyon", -- [2]
+			"ty", -- [1]
+			"Rodamon-Moonrunner", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Amdam-Turalyon", -- [5]
+			"Rodamon-Moonrunner", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1341, -- [11]
-			"Player-3685-0722C2B9", -- [12]
+			221, -- [11]
+			"Player-1175-0D8C3CE2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670575720,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaRodamon-Moonrunner|r",
+			[51] = 1671092167,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [97]
 		{
-			"lol same gear", -- [1]
-			"Santacap-Area52", -- [2]
+			"ty!", -- [1]
+			"Reiði-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Santacap-Area52", -- [5]
+			"Reiði-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1342, -- [11]
-			"Player-3676-0DFE8920", -- [12]
+			239, -- [11]
+			"Player-162-0B90AFE6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dSantacap-Area52|r",
-			[51] = 1670575722,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc69b6dReiði-EmeraldDream|r",
+			[51] = 1671092173,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [98]
 		{
 			"ty", -- [1]
-			"Santacap-Area52", -- [2]
+			"Graenold-Stormrage", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Santacap-Area52", -- [5]
+			"Graenold-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1343, -- [11]
-			"Player-3676-0DFE8920", -- [12]
+			244, -- [11]
+			"Player-60-0EE46007", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dSantacap-Area52|r",
-			[51] = 1670575723,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff48cbaGraenold-Stormrage|r",
+			[51] = 1671092176,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/cw Camarro-Illidan np", -- [1]
-		"/cw Camarro-Illidan 4th ring ive gotten today :/", -- [2]
-		"/raidinfo", -- [3]
-		"/p i think twilight highlands portal may be fastest", -- [4]
-		"/p ty all, gg", -- [5]
-		"/p who?", -- [6]
-		"/p nope just 1", -- [7]
-		"/p and its ass :<", -- [8]
-		"/p yea i can run prot for that boss", -- [9]
-		"/p would just miss out on a weapon, which i dont need either", -- [10]
-		"/p i mean i have 2 on-use 272s", -- [11]
-		"/p i just dont wear them both", -- [12]
-		"/p that dps trinket off the first boss would be nice", -- [13]
-		"/p i'll swap to prot for tree tho", -- [14]
-		"/p sounds good", -- [15]
-		"/p no ty", -- [16]
-		"/p done", -- [17]
-		"/p rip", -- [18]
-		"/reload", -- [19]
-		"/p ty all", -- [20]
+		"/p i'll swap to prot for tree tho", -- [1]
+		"/p sounds good", -- [2]
+		"/p no ty", -- [3]
+		"/p rip", -- [4]
+		"/p ty all", -- [5]
+		"hey man, how you liking evoker so far?", -- [6]
+		"/way #2024 45.63 54.82 Case of Fresh Gleamfish", -- [7]
+		"/p done", -- [8]
+		"/wa", -- [9]
+		"/clique", -- [10]
+		"/ec", -- [11]
+		"/macro", -- [12]
+		"/reload", -- [13]
+		"/time", -- [14]
+		"/s \"", -- [15]
+		"/s 2.2☻633333333333333333333325232238+ +", -- [16]
+		"/s ?||+?>\":||", -- [17]
+		"/s ||'\\21+", -- [18]
+		"answered you? what did you ask?", -- [19]
+		"only the main questline has voiced dialog", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

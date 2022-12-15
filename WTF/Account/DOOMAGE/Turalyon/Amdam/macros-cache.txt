@@ -13,7 +13,7 @@ END
 VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /stopcasting
-/use [@mouseover, help, nodead][help, nodead][@player] Blessing of Protection
+/use [@mouseover, help, nodead][help, nodead][@player] Blessing of Summer;
 /script UIErrorsFrame:Clear()
 END
 VER 3 0100000000000009 " " "SPELL_HOLY_LAYONHANDS"
@@ -37,7 +37,7 @@ END
 VER 3 010000000000000C " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /stopcasting
-/use [@mouseover, help, nodead][help, nodead][@player] Cleanse Toxins
+/use [@mouseover,help,nodead,known:Cleanse][help, nodead,known:Cleanse][@player,known:Cleanse] Cleanse; [@mouseover, help, nodead][help, nodead][@player] Cleanse Toxins
 /script UIErrorsFrame:Clear()
 END
 VER 3 010000000000000F " " "INV_MISC_QUESTIONMARK"

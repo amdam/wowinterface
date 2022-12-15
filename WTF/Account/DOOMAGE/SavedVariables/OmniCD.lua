@@ -11,13 +11,14 @@ OmniCDDB = {
 		["Amdamn - Bloodscalp"] = "Default",
 		["Abel - Turalyon"] = "Default",
 		["Adamancy - Turalyon"] = "Default",
-		["Kayne - Turalyon"] = "Default",
-		["Broddah - Doomhammer"] = "Default",
-		["Adamian - Turalyon"] = "Default",
-		["Adamn - Turalyon"] = "Default",
-		["Adrid - Turalyon"] = "Default",
-		["Dreg - Turalyon"] = "Default",
 		["Shado - Turalyon"] = "Default",
+		["Adamian - Turalyon"] = "Default",
+		["Broddah - Doomhammer"] = "Default",
+		["Adrid - Turalyon"] = "Default",
+		["Adamn - Turalyon"] = "Default",
+		["Dreg - Turalyon"] = "Default",
+		["Kayne - Turalyon"] = "Default",
+		["Adomic - Turalyon"] = "Default",
 	},
 	["global"] = {
 		["disableElvMsg"] = true,
@@ -32,19 +33,20 @@ OmniCDDB = {
 	},
 	["cooldowns"] = {
 	},
-	["version"] = 2.51,
+	["version"] = 3,
 	["profiles"] = {
 		["Default"] = {
 			["Party"] = {
 				["party"] = {
-					["general"] = {
-						["showPlayer"] = true,
-					},
-					["spells"] = {
-						["31661"] = true,
-						["66"] = true,
-						["314791"] = false,
-						["304971"] = true,
+					["extraBars"] = {
+						["raidBar0"] = {
+							["manualPos"] = {
+								["raidBar0"] = {
+									["y"] = 230.7001739621228,
+									["x"] = 819.9667562153627,
+								},
+							},
+						},
 					},
 					["manualPos"] = {
 						["interruptBar"] = {
@@ -56,18 +58,21 @@ OmniCDDB = {
 							["x"] = 880.4115584219107,
 						},
 					},
+					["general"] = {
+						["showPlayer"] = true,
+					},
 				},
 				["noneZoneSetting"] = "party",
 				["arena"] = {
 					["extraBars"] = {
-						["interruptBar"] = {
+						["raidBar0"] = {
 							["enabled"] = true,
-						},
-					},
-					["manualPos"] = {
-						["interruptBar"] = {
-							["y"] = 384.30001527071,
-							["x"] = 682.3667263335665,
+							["manualPos"] = {
+								["raidBar0"] = {
+									["y"] = 384.30001527071,
+									["x"] = 682.3667263335665,
+								},
+							},
 						},
 					},
 				},

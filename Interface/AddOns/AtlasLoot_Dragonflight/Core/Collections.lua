@@ -1,4 +1,4 @@
--- $Id: Collections.lua 12 2022-12-05 14:19:53Z arithmandar $
+-- $Id: Collections.lua 14 2022-12-15 17:02:00Z arithmandar $
 -----------------------------------------------------------------------
 -- Upvalued Lua API.
 -----------------------------------------------------------------------
@@ -96,7 +96,7 @@ data["MOUNTS"] = {
 	{
 		{
 			name = AL["Mounts"],
-			[NORMAL_DIFF] = {
+			[ALLIANCE_DIFF] = {
 				{  1, 192601, "mount" }, -- Loyal Magmammoth
 				{  2, 192761, "mount" }, -- Tamed Skitterfly
 				{  3, 192762, "mount" }, -- Azure Skitterfly
@@ -104,7 +104,7 @@ data["MOUNTS"] = {
 				{  5, 192775, "mount" }, -- Stormhide Salamanther
 				{  6, 192777, "mount" }, -- Magmashell
 				{  7, 192779 }, -- Scorchpath
-				{  8, 192784, "mount" }, -- Shellack
+				{  8, 192784, "ac16295" }, -- Shellack
 				{  9, 192786, [PRICE_EXTRA_ITTYPE] = "magmote:1000" }, -- Slumbering Worldsnail Shell
 				{ 10, 192791, "mount" }, -- Plainswalker Bearer
 --				{ 11, 192792 }, -- PH Thunder Lizard Green
@@ -117,14 +117,14 @@ data["MOUNTS"] = {
 --				{ 18, 192802 }, -- PH Primal Tallstrider Black
 --				{ 19, 192803 }, -- PH Primal Tallstrider Red
 				{ 13, 192804 }, -- Restless Hornstrider
-				{ 14, 192806, "mount" }, -- Raging Magmammoth
+				{ 14, 192806, "ac16355" }, -- Raging Magmammoth
 --				{ 22, 192807 }, -- PH Lava Mammoth Yellow
 				{ 15, 194034, "mount" }, -- Renewed Proto-Drake
 				{ 16, 194106, "mount" }, -- Highland Drake
 				{ 17, 194521, "mount" }, -- Cliffside Wylderdrake
 				{ 18, 194549, "mount" }, -- Windborne Velocidrake
 				{ 19, 194705, "mount" }, -- Highland Drake
-				{ 20, 198654, "mount" }, -- Otterworldly Ottuk Carrier
+				{ 20, 198654, "ac15834" }, -- Otterworldly Ottuk Carrier
 				{ 21, 198808, "mount" }, -- Guardian Vorquin
 				{ 22, 198809, "mount" }, -- Armored Vorquin Leystrider
 				{ 23, 198810, "mount" }, -- Swift Armored Vorquin
@@ -148,7 +148,10 @@ data["MOUNTS"] = {
 				{ 111, 201788, "mount" }, -- Vicious Sabertooth
 				{ 112, 201789, "mount" }, -- Vicious Sabertooth
 				{ 113, 202086, "mount" }, -- Crimson Gladiator's Drake
-
+			},
+			[HORDE_DIFF] = {
+				GetItemsFromDiff = ALLIANCE_DIFF,
+				{ 20, 198654, "ac15833" }, -- Otterworldly Ottuk Carrier
 			},
 		},
 	},

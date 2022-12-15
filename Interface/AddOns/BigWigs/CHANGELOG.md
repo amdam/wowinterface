@@ -1,7 +1,8 @@
 # BigWigs
 
-## [v254.4](https://github.com/BigWigsMods/BigWigs/tree/v254.4) (2022-12-05)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v254.3...v254.4) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
+## [v255.2](https://github.com/BigWigsMods/BigWigs/tree/v255.2) (2022-12-15)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v255.1...v255.2) [Previous Releases](https://github.com/BigWigsMods/BigWigs/releases)
 
-- Plugins/BossBlock: Brackenhide talking heads  
-- Update deDE (#1298)  
+- Update option files  
+- VaultOfTheIncarnates/Raszageth: Updates  
+- VaultOfTheIncarnates/RaszagethTheStormEater: Update NPC id  

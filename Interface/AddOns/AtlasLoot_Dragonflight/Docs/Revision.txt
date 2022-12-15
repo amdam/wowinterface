@@ -1,6 +1,10 @@
-﻿$Id: Revision.txt 12 2022-12-05 14:19:53Z arithmandar $
+﻿$Id: Revision.txt 14 2022-12-15 17:02:00Z arithmandar $
 Revision History:
 =================
+
+* v1.05 (Dec. 15, 2022)
+==========================
+- Added PvP Season 1 gears
 
 * v1.04 (Dec. 05, 2022)
 ==========================

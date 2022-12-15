@@ -53,8 +53,6 @@ end
 
 L = BigWigs:NewBossLocale("Dathea, Ascended", "zhTW")
 if L then
-	-- L.marks_on_me = "%d Mark" -- {Stacks} Conductive Mark on the player
-
 	-- L.conductive_marks = "Marks"
 	-- L.conductive_mark = "Mark"
 	-- L.raging_burst = "New Tornadoes"
@@ -119,7 +117,7 @@ end
 
 L = BigWigs:NewBossLocale("Raszageth the Storm-Eater", "zhTW")
 if L then
-
+	--L.lighting_devastation_trigger = "deep breath" -- Raszageth takes a deep breath...
 end
 
 L = BigWigs:NewBossLocale("Vault of the Incarnates Trash", "zhTW")

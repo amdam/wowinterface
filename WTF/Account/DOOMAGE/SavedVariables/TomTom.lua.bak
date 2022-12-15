@@ -26,6 +26,7 @@ TomTomDB = {
 		["Adreya - Bloodscalp"] = "Default",
 		["Amdamn - Bloodscalp"] = "Default",
 		["Fife - The Forgotten Coast"] = "Default",
+		["Adomic - Turalyon"] = "Default",
 		["Badam - Bloodscalp"] = "Default",
 		["Caldo - Turalyon"] = "Default",
 		["Amdam - Bloodscalp"] = "Default",
@@ -53,7 +54,7 @@ TomTomDB = {
 					nil, -- [2]
 					"TOPRIGHT", -- [3]
 					0, -- [4]
-					-212.4071197509766, -- [5]
+					-306.6292724609375, -- [5]
 				},
 			},
 		},
@@ -73,6 +74,7 @@ TomTomWaypointsM = {
 		["Amdamn - Bloodscalp"] = "Amdamn - Bloodscalp",
 		["Abel - Turalyon"] = "Abel - Turalyon",
 		["Adamancy - Turalyon"] = "Adamancy - Turalyon",
+		["Adomic - Turalyon"] = "Adomic - Turalyon",
 		["Broddah - Doomhammer"] = "Broddah - Doomhammer",
 		["Adamian - Turalyon"] = "Adamian - Turalyon",
 		["Adreya - Bloodscalp"] = "Adreya - Bloodscalp",
@@ -102,6 +104,8 @@ TomTomWaypointsM = {
 		["Abel - Turalyon"] = {
 		},
 		["Adamancy - Turalyon"] = {
+		},
+		["Adomic - Turalyon"] = {
 		},
 		["Broddah - Doomhammer"] = {
 		},

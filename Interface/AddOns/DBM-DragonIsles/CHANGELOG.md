@@ -1,11 +1,10 @@
 # <DBM> World Bosses (Dragonflight)
 
-## [10.0.5](https://github.com/DeadlyBossMods/DBM-Retail/tree/10.0.5) (2022-12-06)
-[Full Changelog](https://github.com/DeadlyBossMods/DBM-Retail/compare/10.0.4...10.0.5) [Previous Releases](https://github.com/DeadlyBossMods/DBM-Retail/releases)
+## [10.0.8](https://github.com/DeadlyBossMods/DBM-Retail/tree/10.0.8) (2022-12-15)
+[Full Changelog](https://github.com/DeadlyBossMods/DBM-Retail/compare/10.0.7...10.0.8) [Previous Releases](https://github.com/DeadlyBossMods/DBM-Retail/releases)
 
-- Improve detection of missing dragonflight dungeon mods so more players are alerted they need to get themm separately Fixed a bug where outdoors dragonflight zones were uncategorized by trivial filter  
-- Retire out shadowlands module from retail main download and split into own module  
-- Fix DBM core not functioning on wrath 3.4.1, although it's not perfect, cause classic only half merged retail stuff  
-- These tables should not be so bitchy. lua is so inconsistent, some tables error if they don't have , on last entry and others error if they do.  
-- Drycode 2/4 world bosses  
-- bump alpha  
+- Prep emergency retial tag  
+- Push major bugfix that caused brood encounter mod not to work at all on broodkeeper encounter, and instead load with final boss instead. (how did no one report this in 3 days of raid being open :o). This is a serious fuckup of epic proportions that broken two mods i worked really hard on. 'm so sorry :(  
+- Don't announce non tanks eating a frontal on Kurog. That can be spammy and it's not DBMs job to monitor players in wrong place :D  
+- Hackfix: Fix C Overlows when rendering stats.  
+- Bump alpha  

@@ -28,10 +28,13 @@ HHTD_SavedVariables = {
 		["Furrys - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
-		["Asaam - Turalyon"] = {
+		["Shado - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
 		["Amdam - Turalyon"] = {
+			["settingsMigrated"] = false,
+		},
+		["Dewt - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
 		["Caris - Turalyon"] = {
@@ -40,28 +43,24 @@ HHTD_SavedVariables = {
 		["Adamn - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
-		["Artoc - Silvermoon"] = {
+		["Broddah - Doomhammer"] = {
 			["settingsMigrated"] = false,
 		},
-		["Dewt - Turalyon"] = {
+		["Artoc - Silvermoon"] = {
 			["settingsMigrated"] = false,
 		},
 		["Adris - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
-		["Broddah - Doomhammer"] = {
-			["settingsMigrated"] = false,
-		},
 		["Artoc - Zul'jin"] = {
 			["settingsMigrated"] = false,
 		},
-		["Shado - Turalyon"] = {
+		["Asaam - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
-	},
-	["global"] = {
-		["settingsMigrated"] = false,
-		["oldNameEnableState"] = 2,
+		["Adomic - Turalyon"] = {
+			["settingsMigrated"] = false,
+		},
 	},
 	["profileKeys"] = {
 		["Allevin - Turalyon"] = "Allevin - Turalyon",
@@ -73,16 +72,21 @@ HHTD_SavedVariables = {
 		["Adreya - Bloodscalp"] = "Adreya - Bloodscalp",
 		["Adamancy - Turalyon"] = "Adamancy - Turalyon",
 		["Furrys - Turalyon"] = "Furrys - Turalyon",
-		["Asaam - Turalyon"] = "Asaam - Turalyon",
+		["Shado - Turalyon"] = "Shado - Turalyon",
 		["Amdam - Turalyon"] = "Amdam - Turalyon",
+		["Dewt - Turalyon"] = "Dewt - Turalyon",
 		["Caris - Turalyon"] = "Caris - Turalyon",
 		["Adamn - Turalyon"] = "Adamn - Turalyon",
-		["Artoc - Silvermoon"] = "Artoc - Silvermoon",
-		["Dewt - Turalyon"] = "Dewt - Turalyon",
-		["Adris - Turalyon"] = "Adris - Turalyon",
 		["Broddah - Doomhammer"] = "Broddah - Doomhammer",
+		["Artoc - Silvermoon"] = "Artoc - Silvermoon",
+		["Adris - Turalyon"] = "Adris - Turalyon",
 		["Artoc - Zul'jin"] = "Artoc - Zul'jin",
-		["Shado - Turalyon"] = "Shado - Turalyon",
+		["Asaam - Turalyon"] = "Asaam - Turalyon",
+		["Adomic - Turalyon"] = "Adomic - Turalyon",
+	},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 2,
 	},
 	["namespaces"] = {
 		["Announcer"] = {

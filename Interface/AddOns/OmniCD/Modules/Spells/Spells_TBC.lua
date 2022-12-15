@@ -298,10 +298,9 @@ E.spell_db = {
 	},
 }
 
-local BLANK = {}
-E.iconFix = BLANK
-E.buffFix = BLANK
-E.buffFixNoCLEU = BLANK
+E.iconFix = E.BLANK
+E.buffFix = E.BLANK
+E.buffFixNoCLEU = E.BLANK
 
 E.spellDefaults = {
 	42292,
@@ -406,5 +405,6 @@ E.spellDefaults = {
 }
 
 E.raidDefaults = {
+	16979, 2139, 1766, 8042, 19244, 6552, 72,
 	740,
 }

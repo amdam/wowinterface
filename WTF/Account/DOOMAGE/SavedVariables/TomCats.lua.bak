@@ -9,30 +9,41 @@ TomCats_Account = {
 	["loveisintheair"] = {
 	},
 	["discoveriesVersion"] = "2.4.35",
-	["lastVersionSeen"] = "2.4.35",
+	["lastVersionSeen"] = "2.4.42",
 	["preferences"] = {
-		["TomCats-HallowsEndMinimapButton"] = {
-			["hidden"] = false,
-			["position"] = -2.514,
-		},
-		["MapOptions"] = {
-			["iconScale"] = 1,
-			["iconAnimationEnabled"] = true,
-		},
+		["dragonGlyphsTipShown"] = true,
 		["TomCats-LunarFestivalMinimapButton"] = {
 			["hidden"] = false,
 			["position"] = -2.514,
-		},
-		["TomCats-LoveIsInTheAirMinimapButton"] = {
-			["hidden"] = false,
-			["position"] = -3.262,
 		},
 		["TomCats-MinimapButton"] = {
 			["hidden"] = false,
 			["position"] = -2.888,
 		},
-		["betaEnabled"] = false,
 		["defaultVignetteIcon"] = "default",
+		["MapOptions"] = {
+			["iconScale"] = 1,
+			["iconAnimationEnabled"] = true,
+		},
+		["dragonGlyphsEnabled"] = false,
+		["TomCats-HallowsEndMinimapButton"] = {
+			["hidden"] = false,
+			["position"] = -2.514,
+		},
+		["betaEnabled"] = false,
+		["TomCats-LoveIsInTheAirMinimapButton"] = {
+			["hidden"] = false,
+			["position"] = -3.262,
+		},
+	},
+	["dragonflyingglyphs"] = {
+		["autoEnabled"] = true,
+		["preferences"] = {
+		},
+		["iconsEnabled"] = true,
+		["discovered"] = false,
+		["iconScale"] = 0.8,
+		["arrowEnabled"] = true,
 	},
 	["primalstorms"] = {
 		["preferences"] = {
@@ -42,10 +53,10 @@ TomCats_Account = {
 			},
 			["dimmedItems"] = {
 				["Caldo-Turalyon"] = {
-					["AIR"] = 0,
 					["EARTH"] = 0,
-					["WATER"] = 0,
 					["FIRE"] = 0,
+					["WATER"] = 0,
+					["AIR"] = 0,
 				},
 			},
 			["WindowLocation"] = {

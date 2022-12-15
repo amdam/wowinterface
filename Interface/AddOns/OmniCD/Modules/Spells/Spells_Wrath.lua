@@ -359,10 +359,9 @@ E.spell_db = {
 	},
 }
 
-local BLANK = {}
-E.iconFix = BLANK
-E.buffFix = BLANK
-E.buffFixNoCLEU = BLANK
+E.iconFix = E.BLANK
+E.buffFix = E.BLANK
+E.buffFixNoCLEU = E.BLANK
 E.spell_requiredLevel = {}
 
 E.spellDefaults = {
@@ -506,6 +505,7 @@ E.spellDefaults = {
 }
 
 E.raidDefaults = {
+	47528, 16979, 26090, 2139, 1766, 57994, 19244, 6552, 72,
 	51052,
 	740,
 	31821,

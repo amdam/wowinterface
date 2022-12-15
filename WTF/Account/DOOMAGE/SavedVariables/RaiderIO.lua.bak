@@ -16,18 +16,17 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "us-Adamancy-turalyon"
 RaiderIO_MissingCharacters = {
-	["us-Shaÿdfury-duskwood"] = true,
-	["us-Mäge-turalyon"] = true,
-	["us-Okkgar-turalyon"] = true,
-	["us-Malevola-duskwood"] = true,
-	["us-Maev-turalyon"] = true,
-	["us-Psychodruid-turalyon"] = true,
 	["us-Adamancy-turalyon"] = true,
-	["us-Ekco-turalyon"] = true,
-	["us-Gaspacho-duskwood"] = true,
-	["us-Synergetica-turalyon"] = true,
-	["us-Iuchiban-turalyon"] = true,
-	["us-Wickedintent-bloodhoof"] = true,
+	["us-Mandarb-turalyon"] = true,
+	["us-Hikary-turalyon"] = true,
+	["us-Imabank-turalyon"] = true,
+	["us-Ayna-turalyon"] = true,
+	["us-Cyno-turalyon"] = true,
+	["us-Tebaronfrost-turalyon"] = true,
+	["us-Brokenbow-turalyon"] = true,
+	["us-Lissiandra-turalyon"] = true,
+	["us-Zimgar-turalyon"] = true,
+	["us-Shootsstuff-turalyon"] = true,
 }
 RaiderIO_MissingServers = {
 }

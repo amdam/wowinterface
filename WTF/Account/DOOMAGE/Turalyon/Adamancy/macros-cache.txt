@@ -82,3 +82,14 @@ VER 3 010000000000001C " " "134400"
 /cast [mod:alt,known:Nether Tempest] Nether Tempest; [mod:shift,known:Conjure Mana Gem] Mana Gem; Touch of the Magi;
 /script UIErrorsFrame:Clear()
 END
+VER 3 010000000000001D " " "134400"
+#showtooltip Arcane Surge
+/use 13
+/cast Arcane Surge;
+/script UIErrorsFrame:Clear()
+END
+VER 3 010000000000001E " " "134400"
+#showtooltip
+/cast [known:Meteor,@cursor] Meteor; [known:Shifting Power] Shifting Power;
+/script UIErrorsFrame:Clear()
+END

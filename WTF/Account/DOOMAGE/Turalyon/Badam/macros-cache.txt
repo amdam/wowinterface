@@ -58,7 +58,7 @@ END
 VER 3 0100000000000016 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast [modifier:alt,talent:6/3] Ravager; [nomodifier] Revenge;
+/cast [mod:alt,known:Ravager] Ravager; [nomodifier] Revenge;
 /script UIErrorsFrame:Clear()
 END
 VER 3 0100000000000017 " " "INV_MISC_QUESTIONMARK"

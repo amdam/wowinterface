@@ -1,10 +1,20 @@
 ------------------------------------------------------------------------------
 -- Dragonflight
 --
+v10.0.2.2733
+	1st Trinket slot item will correctly show.
+	Talent spells are no longer checked against character level.
+	Tweaked Healing Hands CDR to match the current bugged state.
+	Fixed Shadowfiend incorrectly showing when Mindbender talent is taken.
+	Fixed Shadowfiend icon.
+	Reset cooldowns inbetween solo shufffle rounds.
+	Border thickness for icons are now fixed at 1px.
+
 v10.0.2.2732
 	Fixed anchoring in Arena Skirmishes.
 	Fixed Flow State (Evoker) progressively slowing down the CD recovery rate til it reaches 0.
 	Reworked Time Stop (Evoker, PvP Talent) and will now correctly interact with other CDRR modulators (e.g. Symbol of Hope).
+	Time Stop will apply to Wing Buffet and Tail Swipe Racial abilities.
 	Added Time Spiral free charge (Evoker).
 	Fixed Paladin talents that reduce CD by consuming Holy Power. (Matches the actual timers better but Sync is still required).
 	Fixed Psychic Scream CD.

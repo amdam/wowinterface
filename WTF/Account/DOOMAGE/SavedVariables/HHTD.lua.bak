@@ -28,6 +28,9 @@ HHTD_SavedVariables = {
 		["Furrys - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
+		["Adomic - Turalyon"] = {
+			["settingsMigrated"] = false,
+		},
 		["Asaam - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
@@ -37,19 +40,19 @@ HHTD_SavedVariables = {
 		["Caris - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
-		["Artoc - Silvermoon"] = {
+		["Broddah - Doomhammer"] = {
 			["settingsMigrated"] = false,
 		},
-		["Broddah - Doomhammer"] = {
+		["Artoc - Silvermoon"] = {
 			["settingsMigrated"] = false,
 		},
 		["Adris - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
-		["Dewt - Turalyon"] = {
+		["Adamn - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
-		["Adamn - Turalyon"] = {
+		["Dewt - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
 		["Amdam - Turalyon"] = {
@@ -67,6 +70,10 @@ HHTD_SavedVariables = {
 		["NPH"] = {
 		},
 	},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 2,
+	},
 	["profileKeys"] = {
 		["Allevin - Turalyon"] = "Allevin - Turalyon",
 		["Svend - Turalyon"] = "Svend - Turalyon",
@@ -77,19 +84,16 @@ HHTD_SavedVariables = {
 		["Adreya - Bloodscalp"] = "Adreya - Bloodscalp",
 		["Adamancy - Turalyon"] = "Adamancy - Turalyon",
 		["Furrys - Turalyon"] = "Furrys - Turalyon",
+		["Adomic - Turalyon"] = "Adomic - Turalyon",
 		["Asaam - Turalyon"] = "Asaam - Turalyon",
 		["Artoc - Zul'jin"] = "Artoc - Zul'jin",
 		["Caris - Turalyon"] = "Caris - Turalyon",
-		["Artoc - Silvermoon"] = "Artoc - Silvermoon",
 		["Broddah - Doomhammer"] = "Broddah - Doomhammer",
+		["Artoc - Silvermoon"] = "Artoc - Silvermoon",
 		["Adris - Turalyon"] = "Adris - Turalyon",
-		["Dewt - Turalyon"] = "Dewt - Turalyon",
 		["Adamn - Turalyon"] = "Adamn - Turalyon",
+		["Dewt - Turalyon"] = "Dewt - Turalyon",
 		["Amdam - Turalyon"] = "Amdam - Turalyon",
 		["Shado - Turalyon"] = "Shado - Turalyon",
-	},
-	["global"] = {
-		["settingsMigrated"] = false,
-		["oldNameEnableState"] = 2,
 	},
 }

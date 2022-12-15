@@ -1,11 +1,11 @@
 ## Interface: 30401
 ## Title: OmniCD
-## Version: 3.4.1.2732
+## Version: 3.4.1.2733
 ## Author: Treebonker
 ## Notes: Tracks party cooldowns. Use /oc or /omnicd to open options
 ## X-Credits:
 ## X-License: All Rights Reserved
-## X-Localizations: enUS, deDE, esES, frFR, koKR, ruRU, zhCN, zhTW
+## X-Localizations: enUS, deDE, esMX, frFR, koKR, ruRU, zhCN, zhTW
 ## X-Website: https://www.curseforge.com/wow/addons/omnicd
 ## DefaultState: Enabled
 ## SavedVariables: OmniCDDB

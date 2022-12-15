@@ -8,6 +8,7 @@ CHANNELS
 22 0 3 1
 thebench 1 4 3
 oreo 1 5 3
+Community:395030451:1 0 6 2
 42 0 7 1
 END
 
@@ -163,6 +164,7 @@ END
 CHANNELS
 thebench
 oreo
+Community:395030451:1
 END
 
 ZONECHANNELS 2231237607425

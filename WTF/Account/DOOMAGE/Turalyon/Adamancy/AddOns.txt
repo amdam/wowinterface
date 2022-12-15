@@ -180,4 +180,4 @@ Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
 ElvUI_Options: enabled
 Plater: disabled
-HandyNotes: disabled
+HandyNotes: enabled
