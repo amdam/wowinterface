@@ -4,7 +4,7 @@ ThreatPlatesDB = {
 		["Asteriia - Turalyon"] = {
 			["specInfo"] = {
 				{
-					["name"] = "Unknown",
+					["name"] = "Beast Mastery",
 					["role"] = "DAMAGER",
 				}, -- [1]
 				{
@@ -17,12 +17,29 @@ ThreatPlatesDB = {
 				["primary"] = false,
 			},
 		},
+		["Asclepiius - Turalyon"] = {
+			["welcome"] = true,
+			["specInfo"] = {
+				{
+					["name"] = "Restoration",
+					["role"] = "HEALER",
+				}, -- [1]
+				{
+					["name"] = "Unknown",
+					["role"] = "DAMAGER",
+				}, -- [2]
+			},
+			["spec"] = {
+				["primary"] = false,
+			},
+		},
 	},
 	["global"] = {
 		["version"] = "6.008",
 	},
 	["profileKeys"] = {
 		["Asteriia - Turalyon"] = "Default",
+		["Asclepiius - Turalyon"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

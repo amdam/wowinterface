@@ -1,9 +1,10 @@
 
-OneRing_Config = {
+OneRing_Config = nil
+OPie_SavedData = {
 	["CharProfiles"] = {
 	},
-	["_GameVersion"] = "9.0.5",
-	["_OPieVersion"] = "Xe 2a (3.104)",
+	["_GameVersion"] = "10.0.2",
+	["_OPieVersion"] = "Yuzu 4 (4.112)",
 	["ProfileStorage"] = {
 		["default"] = {
 		},
@@ -17,4 +18,3 @@ OneRing_Config = {
 	},
 	["_GameLocale"] = "enUS",
 }
-OPie_SavedData = nil

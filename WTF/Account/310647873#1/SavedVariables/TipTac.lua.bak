@@ -1,8 +1,10 @@
 
 TipTac_Config = {
-	["top"] = 244.482162475586,
-	["optionsLeft"] = 809.626647949219,
+	["top"] = 118.76961517334,
+	["optionsLeft"] = 1141.23083496094,
+	["anchorWorldTipType"] = "normal",
+	["anchorWorldUnitType"] = "normal",
+	["left"] = 1591.13684082031,
+	["optionsBottom"] = 443.888885498047,
 	["targetYouText"] = "<<YOU>>",
-	["left"] = 1502.95812988281,
-	["optionsBottom"] = 407.038818359375,
 }

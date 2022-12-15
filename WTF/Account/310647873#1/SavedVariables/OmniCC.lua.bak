@@ -1,9 +1,67 @@
 
+OmniCCDB = {
+	["profileKeys"] = {
+		["Mollyporph - Turalyon"] = "Default",
+		["Asteriia - Turalyon"] = "Default",
+		["Releaf - Turalyon"] = "Default",
+		["Beefbutt - Silvermoon"] = "Default",
+	},
+	["global"] = {
+		["dbVersion"] = 6,
+		["addonVersion"] = "9.0.7",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["rules"] = {
+				{
+					["enabled"] = false,
+					["patterns"] = {
+						"Aura", -- [1]
+						"Buff", -- [2]
+						"Debuff", -- [3]
+					},
+					["name"] = "Auras",
+					["id"] = "auras",
+				}, -- [1]
+				{
+					["enabled"] = false,
+					["patterns"] = {
+						"Plate", -- [1]
+					},
+					["name"] = "Unit Nameplates",
+					["id"] = "plates",
+				}, -- [2]
+				{
+					["enabled"] = false,
+					["patterns"] = {
+						"ActionButton", -- [1]
+					},
+					["name"] = "ActionBars",
+					["id"] = "actions",
+				}, -- [3]
+			},
+			["themes"] = {
+				["Default"] = {
+					["textStyles"] = {
+						["soon"] = {
+						},
+						["seconds"] = {
+						},
+						["minutes"] = {
+						},
+					},
+					["spiralOpacity"] = 1.00999997742474,
+					["minEffectDuration"] = 30.0000004470348,
+					["minDuration"] = 2.00000002980232,
+				},
+			},
+		},
+	},
+}
 OmniCC4Config = {
-	["version"] = "6.0.10",
 	["groupSettings"] = {
 		["base"] = {
-			["minDuration"] = 2,
+			["minDuration"] = 2.00000002980232,
 			["styles"] = {
 				["seconds"] = {
 				},
@@ -20,36 +78,12 @@ OmniCC4Config = {
 			},
 			["tenthsDuration"] = 0,
 			["minSize"] = 0.5,
-			["minEffectDuration"] = 30,
+			["minEffectDuration"] = 30.0000004470348,
 			["mmSSDuration"] = 0,
 			["spiralOpacity"] = 1.00999997742474,
 		},
-		["Ignore"] = {
-			["enabled"] = false,
-			["styles"] = {
-				["seconds"] = {
-				},
-				["minutes"] = {
-				},
-				["soon"] = {
-				},
-				["hours"] = {
-				},
-				["charging"] = {
-				},
-				["controlled"] = {
-				},
-			},
-		},
 	},
 	["groups"] = {
-		{
-			["id"] = "Ignore",
-			["rules"] = {
-				"LossOfControl", -- [1]
-				"TotemFrame", -- [2]
-			},
-			["enabled"] = true,
-		}, -- [1]
 	},
+	["version"] = "8.1.1",
 }

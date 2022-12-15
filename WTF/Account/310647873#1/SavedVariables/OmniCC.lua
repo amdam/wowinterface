@@ -1,93 +1,68 @@
 
 OmniCCDB = {
-	["profileKeys"] = {
-		["Releaf - Turalyon"] = "Default",
-	},
 	["global"] = {
 		["dbVersion"] = 6,
-		["addonVersion"] = "9.0.8",
+		["addonVersion"] = "9.0.7",
+	},
+	["profileKeys"] = {
+		["Beefbutt - Silvermoon"] = "Default",
+		["Mollyporph - Turalyon"] = "Default",
+		["Releaf - Turalyon"] = "Default",
+		["Asteriia - Turalyon"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["rules"] = {
 				{
-					["patterns"] = {
-						"LossOfControl", -- [1]
-						"TotemFrame", -- [2]
-					},
-					["id"] = "Ignore",
-					["priority"] = 1,
-					["theme"] = "Ignore",
-				}, -- [1]
-				{
-					["id"] = "auras",
+					["enabled"] = false,
 					["patterns"] = {
 						"Aura", -- [1]
 						"Buff", -- [2]
 						"Debuff", -- [3]
 					},
 					["name"] = "Auras",
-					["enabled"] = false,
-				}, -- [2]
+					["id"] = "auras",
+				}, -- [1]
 				{
-					["id"] = "plates",
+					["enabled"] = false,
 					["patterns"] = {
 						"Plate", -- [1]
 					},
 					["name"] = "Unit Nameplates",
-					["enabled"] = false,
-				}, -- [3]
+					["id"] = "plates",
+				}, -- [2]
 				{
-					["id"] = "actions",
+					["enabled"] = false,
 					["patterns"] = {
 						"ActionButton", -- [1]
 					},
 					["name"] = "ActionBars",
-					["enabled"] = false,
-				}, -- [4]
+					["id"] = "actions",
+				}, -- [3]
 			},
 			["themes"] = {
 				["Default"] = {
 					["textStyles"] = {
-						["soon"] = {
-						},
 						["seconds"] = {
+						},
+						["soon"] = {
 						},
 						["minutes"] = {
 						},
 					},
 					["spiralOpacity"] = 1.00999997742474,
-				},
-				["Ignore"] = {
-					["textStyles"] = {
-						["soon"] = {
-						},
-						["seconds"] = {
-						},
-						["minutes"] = {
-						},
-					},
-					["enableText"] = false,
+					["minEffectDuration"] = 30.0000004470348,
+					["minDuration"] = 2.00000002980232,
 				},
 			},
 		},
 	},
 }
 OmniCC4Config = {
-	["groups"] = {
-		{
-			["id"] = "Ignore",
-			["rules"] = {
-				"LossOfControl", -- [1]
-				"TotemFrame", -- [2]
-			},
-			["enabled"] = true,
-		}, -- [1]
-	},
-	["version"] = "6.0.10",
+	["version"] = "8.1.1",
 	["groupSettings"] = {
 		["base"] = {
-			["minDuration"] = 2,
+			["minDuration"] = 2.00000002980232,
 			["styles"] = {
 				["seconds"] = {
 				},
@@ -104,26 +79,11 @@ OmniCC4Config = {
 			},
 			["tenthsDuration"] = 0,
 			["minSize"] = 0.5,
-			["minEffectDuration"] = 30,
+			["minEffectDuration"] = 30.0000004470348,
 			["mmSSDuration"] = 0,
 			["spiralOpacity"] = 1.00999997742474,
 		},
-		["Ignore"] = {
-			["enabled"] = false,
-			["styles"] = {
-				["seconds"] = {
-				},
-				["minutes"] = {
-				},
-				["soon"] = {
-				},
-				["hours"] = {
-				},
-				["charging"] = {
-				},
-				["controlled"] = {
-				},
-			},
-		},
+	},
+	["groups"] = {
 	},
 }

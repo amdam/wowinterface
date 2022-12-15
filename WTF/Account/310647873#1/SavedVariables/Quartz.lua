@@ -14,20 +14,15 @@ Quartz3DB = {
 				["Default"] = {
 					["x"] = 950.256469726562,
 				},
-				["Turalyon"] = {
-					["x"] = 950.256469726562,
-				},
 			},
 		},
-		["Mirror"] = {
+		["LibDualSpec-1.0"] = {
 		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
-					["x"] = 925.256469726562,
-				},
-				["Turalyon"] = {
-					["x"] = 925.256469726562,
+					["y"] = 210.874877929688,
+					["x"] = 966.461120605469,
 				},
 			},
 		},
@@ -35,53 +30,53 @@ Quartz3DB = {
 		},
 		["GCD"] = {
 		},
-		["Procs"] = {
+		["Focus"] = {
 			["profiles"] = {
 				["Default"] = {
-					["spells"] = {
-						["heroism"] = {
-							["sound"] = "None",
-						},
-						["bloodlust"] = {
-							["sound"] = "None",
-						},
-					},
-					["fixCustomProcCaps"] = false,
+					["h"] = 47,
+					["w"] = 505,
+					["y"] = 553.226501464844,
+					["x"] = 376.333221435547,
 				},
 			},
 		},
 		["Target"] = {
 			["profiles"] = {
 				["Default"] = {
-					["x"] = 950.256469726562,
-				},
-				["Turalyon"] = {
-					["x"] = 950.256469726562,
+					["h"] = 42,
+					["w"] = 425,
+					["y"] = 210.823852539062,
+					["x"] = 1045.82507324219,
 				},
 			},
 		},
 		["Range"] = {
 		},
-		["Focus"] = {
-			["profiles"] = {
-				["Default"] = {
-					["x"] = 950.256469726562,
-				},
-				["Turalyon"] = {
-					["x"] = 950.256469726562,
-				},
-			},
+		["Mirror"] = {
 		},
 		["Latency"] = {
 		},
 	},
 	["profileKeys"] = {
-		["Asteriia - Turalyon"] = "Turalyon",
+		["Asteriia - Turalyon"] = "Default",
+		["Bambooty - Turalyon"] = "Default",
+		["Beefbutt - Silvermoon"] = "Default",
+		["Mollyporph - Turalyon"] = "Default",
+		["Lisbela - Cairne"] = "Default",
+		["Releaf - Turalyon"] = "Default",
+		["Pallywag - Turalyon"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
-		},
-		["Turalyon"] = {
+			["modules"] = {
+				["Swing"] = false,
+				["GCD"] = false,
+				["Buff"] = false,
+				["Target"] = false,
+				["Flight"] = false,
+				["Pet"] = false,
+				["Mirror"] = false,
+			},
 		},
 	},
 }

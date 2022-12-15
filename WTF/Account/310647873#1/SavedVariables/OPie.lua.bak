@@ -1,9 +1,10 @@
 
-OneRing_Config = {
+OneRing_Config = nil
+OPie_SavedData = {
 	["CharProfiles"] = {
 	},
-	["_GameVersion"] = "7.3.5",
-	["_OPieVersion"] = "Vanilla 2 (3.91)",
+	["_GameVersion"] = "10.0.2",
+	["_OPieVersion"] = "Yuzu 4 (4.112)",
 	["ProfileStorage"] = {
 		["default"] = {
 		},
@@ -11,7 +12,7 @@ OneRing_Config = {
 	["PersistentStorage"] = {
 		["RingKeeper"] = {
 			["OPieFlagStore"] = {
-				["FlushedDefaultColors"] = true,
+				["StoreVersion"] = 2,
 			},
 		},
 	},

@@ -21,4 +21,6 @@ RaiderIO_MissingCharacters = {
 	["us-Eagal-turalyon"] = true,
 	["us-Redshock-turalyon"] = true,
 }
+RaiderIO_MissingServers = nil
 RaiderIO_CachedRuns = nil
+RaiderIO_RWF = nil

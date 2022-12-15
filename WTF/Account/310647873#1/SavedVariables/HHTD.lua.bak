@@ -4,6 +4,17 @@ HHTD_SavedVariables = {
 		["Releaf - Turalyon"] = {
 			["settingsMigrated"] = false,
 		},
+		["Bambooty - Turalyon"] = {
+			["settingsMigrated"] = false,
+		},
+	},
+	["profileKeys"] = {
+		["Releaf - Turalyon"] = "Releaf - Turalyon",
+		["Bambooty - Turalyon"] = "Bambooty - Turalyon",
+	},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 0,
 	},
 	["namespaces"] = {
 		["Announcer"] = {
@@ -12,12 +23,5 @@ HHTD_SavedVariables = {
 		},
 		["NPH"] = {
 		},
-	},
-	["profileKeys"] = {
-		["Releaf - Turalyon"] = "Releaf - Turalyon",
-	},
-	["global"] = {
-		["settingsMigrated"] = false,
-		["oldNameEnableState"] = 0,
 	},
 }
