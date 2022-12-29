@@ -7,37 +7,38 @@ CliqueDB3 = {
 			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Beefbutt - Silvermoon",
-			["spec2_profileKey"] = "Beefbutt - Silvermoon",
 			["spec4_profileKey"] = "Beefbutt - Silvermoon",
+			["spec2_profileKey"] = "Beefbutt - Silvermoon",
+			["spec3_profileKey"] = "Beefbutt - Silvermoon",
 		},
 		["Releaf - Turalyon"] = {
 			["spec1_profileKey"] = "Releaf - Turalyon",
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Releaf - Turalyon",
+			["alerthidden"] = true,
 			["downclick"] = false,
 			["spec4_profileKey"] = "Releaf - Turalyon",
 			["spec3_profileKey"] = "Releaf - Turalyon",
-			["alerthidden"] = true,
+			["spec2_profileKey"] = "Releaf - Turalyon",
 			["specswap"] = false,
 		},
 	},
 	["profileKeys"] = {
 		["Asteriia - Turalyon"] = "Asteriia - Turalyon",
 		["Beefbutt - Silvermoon"] = "Beefbutt - Silvermoon",
+		["Aureys - Turalyon"] = "Aureys - Turalyon",
 		["Mollyporph - Turalyon"] = "Mollyporph - Turalyon",
-		["Releaf - Turalyon"] = "Releaf - Turalyon",
 		["Moozers - Turalyon"] = "Moozers - Turalyon",
+		["Releaf - Turalyon"] = "Releaf - Turalyon",
 		["Pallywag - Turalyon"] = "Pallywag - Turalyon",
 	},
 	["profiles"] = {
 		["Asteriia - Turalyon"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -51,6 +52,25 @@ CliqueDB3 = {
 			},
 		},
 		["Beefbutt - Silvermoon"] = {
+			["bindings"] = {
+				{
+					["sets"] = {
+						["default"] = true,
+					},
+					["type"] = "target",
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
+		["Aureys - Turalyon"] = {
 			["bindings"] = {
 				{
 					["type"] = "target",
@@ -72,10 +92,10 @@ CliqueDB3 = {
 		["Mollyporph - Turalyon"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -88,7 +108,7 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Releaf - Turalyon"] = {
+		["Moozers - Turalyon"] = {
 			["bindings"] = {
 				{
 					["sets"] = {
@@ -105,15 +125,25 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 				}, -- [2]
+			},
+		},
+		["Releaf - Turalyon"] = {
+			["bindings"] = {
 				{
-					["type"] = "spell",
-					["key"] = "NUMPAD5",
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 132132,
-					["spell"] = "Revive",
-				}, -- [3]
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
 				{
 					["type"] = "spell",
 					["key"] = "NUMPAD4",
@@ -122,6 +152,15 @@ CliqueDB3 = {
 					},
 					["icon"] = 136080,
 					["spell"] = "Rebirth",
+				}, -- [3]
+				{
+					["spell"] = "Nature's Cure",
+					["key"] = "BUTTON3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 236288,
+					["type"] = "spell",
 				}, -- [4]
 				{
 					["spell"] = "Regrowth",
@@ -133,13 +172,13 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [5]
 				{
-					["spell"] = "Nature's Cure",
-					["key"] = "BUTTON3",
+					["type"] = "spell",
+					["key"] = "NUMPAD5",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 236288,
-					["type"] = "spell",
+					["icon"] = 132132,
+					["spell"] = "Revive",
 				}, -- [6]
 				{
 					["type"] = "spell",
@@ -152,23 +191,23 @@ CliqueDB3 = {
 					["spell"] = "Stampeding Roar",
 				}, -- [7]
 				{
-					["spell"] = "Swiftmend",
-					["key"] = "NUMPAD1",
-					["sets"] = {
-						["spec4"] = true,
-						["spec1"] = true,
-					},
-					["icon"] = 134914,
-					["type"] = "spell",
-				}, -- [8]
-				{
 					["spell"] = "Rejuvenation",
 					["key"] = "BUTTON1",
 					["sets"] = {
-						["spec4"] = true,
 						["spec1"] = true,
+						["spec4"] = true,
 					},
 					["icon"] = 136081,
+					["type"] = "spell",
+				}, -- [8]
+				{
+					["spell"] = "Innervate",
+					["key"] = "ALT-NUMPAD3",
+					["sets"] = {
+						["spec1"] = true,
+						["spec4"] = true,
+					},
+					["icon"] = 136048,
 					["type"] = "spell",
 				}, -- [9]
 				{
@@ -181,32 +220,15 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [10]
 				{
-					["spell"] = "Innervate",
-					["key"] = "ALT-NUMPAD3",
+					["spell"] = "Swiftmend",
+					["key"] = "NUMPAD1",
 					["sets"] = {
-						["spec4"] = true,
 						["spec1"] = true,
+						["spec4"] = true,
 					},
-					["icon"] = 136048,
+					["icon"] = 134914,
 					["type"] = "spell",
 				}, -- [11]
-				{
-					["spell"] = "Wild Growth",
-					["key"] = "ALT-NUMPAD2",
-					["sets"] = {
-						["spec4"] = true,
-						["spec1"] = true,
-					},
-					["icon"] = 236153,
-					["type"] = "spell",
-				}, -- [12]
-				{
-					["type"] = "menu",
-					["key"] = "CTRL-SHIFT-BUTTON2",
-					["sets"] = {
-						["spec4"] = true,
-					},
-				}, -- [13]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON3",
@@ -217,7 +239,14 @@ CliqueDB3 = {
 					},
 					["icon"] = 135952,
 					["spell"] = "Remove Corruption",
-				}, -- [14]
+				}, -- [12]
+				{
+					["type"] = "menu",
+					["key"] = "CTRL-SHIFT-BUTTON2",
+					["sets"] = {
+						["spec4"] = true,
+					},
+				}, -- [13]
 				{
 					["spell"] = "Ironbark",
 					["key"] = "NUMPAD3",
@@ -225,6 +254,16 @@ CliqueDB3 = {
 						["spec4"] = true,
 					},
 					["icon"] = 572025,
+					["type"] = "spell",
+				}, -- [14]
+				{
+					["spell"] = "Wild Growth",
+					["key"] = "ALT-NUMPAD2",
+					["sets"] = {
+						["spec1"] = true,
+						["spec4"] = true,
+					},
+					["icon"] = 236153,
 					["type"] = "spell",
 				}, -- [15]
 				{
@@ -245,32 +284,13 @@ CliqueDB3 = {
 				}, -- [17]
 			},
 		},
-		["Moozers - Turalyon"] = {
-			["bindings"] = {
-				{
-					["type"] = "target",
-					["sets"] = {
-						["default"] = true,
-					},
-					["key"] = "BUTTON1",
-					["unit"] = "mouseover",
-				}, -- [1]
-				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
-			},
-		},
 		["Pallywag - Turalyon"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]

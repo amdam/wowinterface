@@ -1,5 +1,5 @@
 
 BigWigs3DB = nil
-BigWigs3IconDB = {
+BigWigsIconDB = {
 }
-BigWigsStatisticsDB = nil
+BigWigsStatsDB = nil

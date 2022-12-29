@@ -8,13 +8,11 @@ ParrotDB = {
 				},
 			},
 		},
-		["Cooldowns"] = {
+		["LibDualSpec-1.0"] = {
 		},
 		["Suppressions"] = {
 		},
-		["LibDualSpec-1.0"] = {
-		},
-		["Display"] = {
+		["Cooldowns"] = {
 		},
 		["ScrollAreas"] = {
 			["profiles"] = {
@@ -23,37 +21,39 @@ ParrotDB = {
 						["Notification"] = {
 							["stickyDirection"] = "UP;CENTER",
 							["direction"] = "UP;CENTER",
-							["stickyAnimationStyle"] = "Pow",
+							["yOffset"] = 406.822265625,
 							["iconSide"] = "LEFT",
 							["xOffset"] = 0.71124267578125,
 							["size"] = 150,
 							["animationStyle"] = "Straight",
-							["yOffset"] = 406.822265625,
-						},
-						["Incoming"] = {
-							["stickyDirection"] = "DOWN;RIGHT",
-							["direction"] = "DOWN;LEFT",
 							["stickyAnimationStyle"] = "Pow",
-							["iconSide"] = "RIGHT",
-							["xOffset"] = -440.4446411132813,
-							["size"] = 260,
-							["animationStyle"] = "Parabola",
-							["yOffset"] = 17.64453125,
 						},
 						["Outgoing"] = {
 							["stickyDirection"] = "DOWN;LEFT",
 							["direction"] = "DOWN;RIGHT",
-							["stickyAnimationStyle"] = "Pow",
+							["yOffset"] = 23.3333740234375,
 							["iconSide"] = "LEFT",
 							["xOffset"] = 422.6673583984375,
 							["size"] = 260,
 							["animationStyle"] = "Parabola",
-							["yOffset"] = 23.3333740234375,
+							["stickyAnimationStyle"] = "Pow",
+						},
+						["Incoming"] = {
+							["stickyDirection"] = "DOWN;RIGHT",
+							["direction"] = "DOWN;LEFT",
+							["yOffset"] = 17.64453125,
+							["iconSide"] = "RIGHT",
+							["xOffset"] = -440.4446411132813,
+							["size"] = 260,
+							["animationStyle"] = "Parabola",
+							["stickyAnimationStyle"] = "Pow",
 						},
 					},
 					["dbver"] = 2,
 				},
 			},
+		},
+		["Display"] = {
 		},
 		["Triggers"] = {
 			["profiles"] = {
@@ -65,6 +65,7 @@ ParrotDB = {
 	},
 	["profileKeys"] = {
 		["Releaf - Turalyon"] = "Default",
+		["Aureys - Turalyon"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

@@ -1,14 +1,15 @@
 
 OmniCCDB = {
-	["global"] = {
-		["dbVersion"] = 6,
-		["addonVersion"] = "9.0.7",
-	},
 	["profileKeys"] = {
-		["Beefbutt - Silvermoon"] = "Default",
 		["Mollyporph - Turalyon"] = "Default",
+		["Beefbutt - Silvermoon"] = "Default",
+		["Aureys - Turalyon"] = "Default",
 		["Releaf - Turalyon"] = "Default",
 		["Asteriia - Turalyon"] = "Default",
+	},
+	["global"] = {
+		["dbVersion"] = 6,
+		["addonVersion"] = "10.0.2",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -39,13 +40,23 @@ OmniCCDB = {
 					["name"] = "ActionBars",
 					["id"] = "actions",
 				}, -- [3]
+				{
+					["patterns"] = {
+						"PlaterMainAuraIcon", -- [1]
+						"PlaterSecondaryAuraIcon", -- [2]
+						"ExtraIconRowIcon", -- [3]
+					},
+					["id"] = "Plater Nameplates Rule",
+					["priority"] = 4,
+					["theme"] = "Plater Nameplates Theme",
+				}, -- [4]
 			},
 			["themes"] = {
 				["Default"] = {
 					["textStyles"] = {
-						["seconds"] = {
-						},
 						["soon"] = {
+						},
+						["seconds"] = {
 						},
 						["minutes"] = {
 						},
@@ -54,11 +65,23 @@ OmniCCDB = {
 					["minEffectDuration"] = 30.0000004470348,
 					["minDuration"] = 2.00000002980232,
 				},
+				["Plater Nameplates Theme"] = {
+					["textStyles"] = {
+						["soon"] = {
+						},
+						["seconds"] = {
+						},
+						["minutes"] = {
+						},
+					},
+				},
 			},
 		},
 	},
 }
 OmniCC4Config = {
+	["groups"] = {
+	},
 	["version"] = "8.1.1",
 	["groupSettings"] = {
 		["base"] = {
@@ -83,7 +106,5 @@ OmniCC4Config = {
 			["mmSSDuration"] = 0,
 			["spiralOpacity"] = 1.00999997742474,
 		},
-	},
-	["groups"] = {
 	},
 }

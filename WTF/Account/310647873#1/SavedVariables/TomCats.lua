@@ -1,8 +1,11 @@
 
 TomCats_Account = {
+	["errorLog"] = {
+		["version"] = "2.4.43",
+	},
 	["hallowsend"] = {
 	},
-	["lastExpirationWarning"] = 0,
+	["lastExpirationWarning"] = 1672249815,
 	["discoveriesResetCount"] = 0,
 	["lunarfestival"] = {
 	},
@@ -50,6 +53,7 @@ TomCats_Account = {
 		},
 	},
 	["discoveries"] = {
+		["version"] = "0",
 		["vignetteAtlases"] = {
 		},
 		["vignettes"] = {

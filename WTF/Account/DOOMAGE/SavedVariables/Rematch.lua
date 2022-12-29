@@ -27,7 +27,6 @@ RematchSettings = {
 	["SpecialSlots"] = {
 	},
 	["XPos"] = 852.7777099609375,
-	["NotesFont"] = "GameFontHighlight",
 	["HidePetToast"] = true,
 	["QueueSanctuary"] = {
 	},
@@ -36,15 +35,13 @@ RematchSettings = {
 		["FavoritesFirst"] = true,
 	},
 	["AllowHiddenPetsDefaulted"] = true,
-	["BackupCount"] = 0,
 	["TeamGroups"] = {
 		{
 			"General", -- [1]
 			"Interface\\Icons\\PetJournalPortrait", -- [2]
 		}, -- [1]
 	},
-	["FavoriteFilters"] = {
-	},
+	["NotesFont"] = "GameFontHighlight",
 	["Filters"] = {
 		["Other"] = {
 		},
@@ -77,8 +74,9 @@ RematchSettings = {
 	},
 	["ExpandedOptHeaders"] = {
 	},
+	["FavoriteFilters"] = {
+	},
 	["CustomScaleValue"] = 100,
-	["JournalUsed"] = true,
 	["PreferredMode"] = 1,
 	["ExpandedTargetHeaders"] = {
 	},

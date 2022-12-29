@@ -13,3 +13,17 @@ X: 0
 Y: 0
 W: 365
 H: 240
+Frame: RematchDialog
+FrameLevel: 1
+Anchor: CENTER
+X: 156
+Y: 88
+W: 300
+H: 176
+Frame: RematchPetCard
+FrameLevel: 1
+Anchor: TOPLEFT
+X: 271
+Y: -75
+W: 260
+H: 416

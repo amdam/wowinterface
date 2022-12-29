@@ -1,13 +1,16 @@
 
 SimulationCraftDB = {
 	["profileKeys"] = {
-		["Releaf - Turalyon"] = "Releaf - Turalyon",
 		["Bambooty - Turalyon"] = "Bambooty - Turalyon",
+		["Releaf - Turalyon"] = "Releaf - Turalyon",
+		["Aureys - Turalyon"] = "Aureys - Turalyon",
 	},
 	["profiles"] = {
+		["Bambooty - Turalyon"] = {
+		},
 		["Releaf - Turalyon"] = {
 		},
-		["Bambooty - Turalyon"] = {
+		["Aureys - Turalyon"] = {
 		},
 	},
 }

@@ -1,7 +1,7 @@
 
 TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 	["global"] = {
-		["version"] = 99999.99,
+		["version"] = "v1.5",
 		["scripts"] = {
 			["AllInOne"] = {
 			},
@@ -27,8 +27,9 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 	},
 	["profileKeys"] = {
 		["Asteriia - Turalyon"] = "Default",
-		["Releaf - Turalyon"] = "Default",
 		["Mollyporph - Turalyon"] = "Default",
+		["Releaf - Turalyon"] = "Default",
+		["Aureys - Turalyon"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -37,6 +38,9 @@ TD_DB_BATTLEPETSCRIPT_GLOBAL = {
 				"Base", -- [2]
 				"FirstEnemy", -- [3]
 				"AllInOne", -- [4]
+			},
+			["minimap"] = {
+				["minimapPos"] = 47.57738956620162,
 			},
 		},
 	},

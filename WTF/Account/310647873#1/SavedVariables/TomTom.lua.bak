@@ -2,6 +2,7 @@
 TomTomDB = {
 	["profileKeys"] = {
 		["Releaf - Turalyon"] = "Default",
+		["Aureys - Turalyon"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -10,8 +11,8 @@ TomTomDB = {
 					"CENTER", -- [1]
 					nil, -- [2]
 					"CENTER", -- [3]
-					46.22213363647461, -- [4]
-					91.02237701416016, -- [5]
+					201.2445373535156, -- [4]
+					89.60014343261719, -- [5]
 				},
 			},
 			["block"] = {
@@ -30,9 +31,12 @@ TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
 		["Releaf - Turalyon"] = "Releaf - Turalyon",
+		["Aureys - Turalyon"] = "Aureys - Turalyon",
 	},
 	["profiles"] = {
 		["Releaf - Turalyon"] = {
+		},
+		["Aureys - Turalyon"] = {
 		},
 	},
 }

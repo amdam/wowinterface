@@ -2,12 +2,11 @@
 HandyNotes_DragonflightDB = {
 	["profileKeys"] = {
 		["Badam - Turalyon"] = "Default",
-		["Amdam - Turalyon"] = "Default",
-		["Allevin - Turalyon"] = "Default",
-		["Aduum - Turalyon"] = "Default",
-		["Asaam - Turalyon"] = "Default",
-		["Adamancy - Turalyon"] = "Default",
 		["Adomic - Turalyon"] = "Default",
+		["Adamancy - Turalyon"] = "Default",
+		["Asaam - Turalyon"] = "Default",
+		["Aduum - Turalyon"] = "Default",
+		["Amdam - Turalyon"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

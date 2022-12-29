@@ -3,6 +3,7 @@ OmniCDDB = {
 	["profileKeys"] = {
 		["Bambooty - Turalyon"] = "Default",
 		["Releaf - Turalyon"] = "Default",
+		["Aureys - Turalyon"] = "Default",
 	},
 	["namespaces"] = {
 		["LibDualSpec-1.0"] = {

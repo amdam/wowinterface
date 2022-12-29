@@ -2,1071 +2,37 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"go to low keys ", -- [1]
-			"Jaxamus-Lightning'sBlade", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:9041:Player-3685-0DF91BA1:1:12:15:22:4294967295:4294967295:4294967295:4294967295|h[Shadowmoon Burial Grounds]|h|r!", -- [1]
+			"Berejitsu-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Jaxamus-Lightning'sBlade", -- [5]
+			"Berejitsu-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			494, -- [11]
-			"Player-104-0C6F221F", -- [12]
+			102, -- [11]
+			"Player-3685-0DF91BA1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aJaxamus-Lightning'sBlade|r",
-			[51] = 1671817438,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00ff98Berejitsu|r",
+			[51] = 1671128397,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [1]
 		{
-			"first boss was bugged i had no beams", -- [1]
-			"Adamancy-Turalyon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:16647:Player-3685-0DCC0EEA:1:12:15:22:4294967295:4294967295:4294967295:4294967295|h[Dragonflight Keystone Explorer: Season One]|h|r!", -- [1]
+			"Addler-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"Addler-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			0, -- [10]
-			495, -- [11]
-			"Player-3685-07F1620A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1671817380,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [2]
-		{
-			"low keys or youtube", -- [1]
-			"Raegwar-Illidan", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Raegwar-Illidan", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			496, -- [11]
-			"Player-57-0D647E34", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dRaegwar-Illidan|r",
-			[51] = 1671817385,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [3]
-		{
-			"the moons ", -- [1]
-			"Jaxamus-Lightning'sBlade", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jaxamus-Lightning'sBlade", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			497, -- [11]
-			"Player-104-0C6F221F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aJaxamus-Lightning'sBlade|r",
-			[51] = 1671817386,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [4]
-		{
-			"were on the ground ", -- [1]
-			"Jaxamus-Lightning'sBlade", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jaxamus-Lightning'sBlade", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			498, -- [11]
-			"Player-104-0C6F221F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aJaxamus-Lightning'sBlade|r",
-			[51] = 1671817389,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [5]
-		{
-			"yea i stood on the full moon on the first one and i died...", -- [1]
-			"Adamancy-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			499, -- [11]
-			"Player-3685-07F1620A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1671817400,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [6]
-		{
-			"gg thanks for invite", -- [1]
-			"Raegwar-Illidan", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Raegwar-Illidan", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			500, -- [11]
-			"Player-57-0D647E34", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dRaegwar-Illidan|r",
-			[51] = 1671817410,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [7]
-		{
-			"nah u didnt", -- [1]
-			"Tealtail-Illidan", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Tealtail-Illidan", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			505, -- [11]
-			"Player-57-0BFBF780", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Tealtail-Illidan|r",
-			[51] = 1671817411,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [8]
-		{
-			"do you have lockpicking?", -- [1]
-			"|Kq38|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			509, -- [11]
-			false, -- [12]
-			44, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aTayTay|r",
-			[51] = 1671817488,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [9]
-		{
-			"no", -- [1]
-			"|Kq38|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			510, -- [11]
-			false, -- [12]
-			44, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aTayTay|r",
-			[51] = 1671817492,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [10]
-		{
-			"rogue only", -- [1]
-			"|Kq38|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			511, -- [11]
-			false, -- [12]
-			44, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aTayTay|r",
-			[51] = 1671817559,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [11]
-		{
-			"thats it i quit mage", -- [1]
-			"Adamancy-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			515, -- [11]
-			"Player-3685-07F1620A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1671817526,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [12]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:16444:Player-3685-0A6DD907:1:12:23:22:4294967295:4294967295:4294967295:4294967295|h[Leftovers' Revenge]|h|r!", -- [1]
-			"Astiria-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Astiria-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			518, -- [11]
-			"Player-3685-0A6DD907", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffAstiria|r",
-			[51] = 1671817547,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [13]
-		{
-			"What happened?", -- [1]
-			"Aeohunt-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			519, -- [11]
-			"Player-3685-0DE56D82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Aeohunt|r",
-			[51] = 1671817551,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [14]
-		{
-			"tired of being humiliated in the few keys i can actually get into", -- [1]
-			"Adamancy-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			520, -- [11]
-			"Player-3685-07F1620A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1671817617,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [15]
-		{
-			"mage that bad right now?", -- [1]
-			"Grimmaxwell-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			522, -- [11]
-			"Player-3685-07D4402D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8788eeGrimmaxwell|r",
-			[51] = 1671817602,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [16]
-		{
-			"i dont need randos telling me i need to learn mechancis before applying for a +10", -- [1]
-			"Adamancy-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			523, -- [11]
-			"Player-3685-07F1620A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1671817603,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [17]
-		{
-			"i made 1 mistake during a key that i had never done on tyran before to a mechanic that is trivial when its not tyrannical", -- [1]
-			"Adamancy-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			525, -- [11]
-			"Player-3685-07F1620A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1671817628,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [18]
-		{
-			"tbh it's only a +10, they need to calm down", -- [1]
-			"Aeohunt-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			530, -- [11]
-			"Player-3685-0DE56D82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Aeohunt|r",
-			[51] = 1671817666,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [19]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:16400:Player-3685-07D4402D:1:12:23:22:4294967295:4294967295:4294967295:4294967295|h[Explore the Waking Shores]|h|r!", -- [1]
-			"Grimmaxwell-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Grimmaxwell-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			531, -- [11]
-			"Player-3685-07D4402D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8788eeGrimmaxwell|r",
-			[51] = 1671817671,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [20]
-		{
-			"well internet heroes are really brave at criticizing from behind their keyboards.", -- [1]
-			"Chihua-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			532, -- [11]
-			"Player-3685-0720284E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Chihua|r",
-			[51] = 1671817672,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [21]
-		{
-			"It's not like a +2-", -- [1]
-			"Aeohunt-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			533, -- [11]
-			"Player-3685-0DE56D82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Aeohunt|r",
-			[51] = 1671817734,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [22]
-		{
-			"+20*", -- [1]
-			"Aeohunt-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			534, -- [11]
-			"Player-3685-0DE56D82", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Aeohunt|r",
-			[51] = 1671817680,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [23]
-		{
-			"they're probably people that wouldn't make eye contact with you in person let alone criticize you :P", -- [1]
-			"Chihua-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			535, -- [11]
-			"Player-3685-0720284E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Chihua|r",
-			[51] = 1671817691,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [24]
-		{
-			"i asked them how i'm supposed to learn mechanics if i dont queue for keys", -- [1]
-			"Adamancy-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			536, -- [11]
-			"Player-3685-07F1620A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1671817695,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [25]
-		{
-			"and they said \"do low keys\"", -- [1]
-			"Adamancy-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			537, -- [11]
-			"Player-3685-07F1620A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1671817702,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [26]
-		{
-			"but the mech i didnt know would not have killed me on a low key lol", -- [1]
-			"Adamancy-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			538, -- [11]
-			"Player-3685-07F1620A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1671817709,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [27]
-		{
-			"a 10 is a low key lol", -- [1]
-			"Chihua-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			539, -- [11]
-			"Player-3685-0720284E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Chihua|r",
-			[51] = 1671817710,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [28]
-		{
-			"you don't need to die to learn mechanics", -- [1]
-			"Lucavian-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			540, -- [11]
-			"Player-3685-0DD4A5B3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaLucavian|r",
-			[51] = 1671817722,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [29]
-		{
-			"but what does this have to do with being a mage?", -- [1]
-			"Lucavian-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			541, -- [11]
-			"Player-3685-0DD4A5B3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaLucavian|r",
-			[51] = 1671817731,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [30]
-		{
-			"like nerzhul has beam things that apparently do more damage the closer you stand to them", -- [1]
-			"Adamancy-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			543, -- [11]
-			"Player-3685-07F1620A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1671817733,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [31]
-		{
-			"because bad keys are bad, and good keys are still kinda bad", -- [1]
-			"Adamancy-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			544, -- [11]
-			"Player-3685-07F1620A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1671817754,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [32]
-		{
-			"usually i have good runs to offset the ones i fuck up in", -- [1]
-			"Adamancy-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			545, -- [11]
-			"Player-3685-07F1620A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1671817762,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [33]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:15805:Player-3685-0A6DD907:1:12:23:22:4294967295:4294967295:4294967295:4294967295|h[Level 70]|h|r!", -- [1]
-			"Astiria-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Astiria-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			546, -- [11]
-			"Player-3685-0A6DD907", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffAstiria|r",
-			[51] = 1671817768,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [34]
-		{
-			"ahh", -- [1]
-			"Lucavian-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			547, -- [11]
-			"Player-3685-0DD4A5B3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaLucavian|r",
-			[51] = 1671817778,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [35]
-		{
-			"ive come to dread doing them because i feel like i sandbag every group i run with", -- [1]
-			"Adamancy-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			548, -- [11]
-			"Player-3685-07F1620A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1671817785,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [36]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:16536:Player-3685-0703D328:1:12:23:22:4294967295:4294967295:4294967295:4294967295|h[True Friends with Wrathion]|h|r!", -- [1]
-			"Mikya-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mikya-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			549, -- [11]
-			"Player-3685-0703D328", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMikya|r",
-			[51] = 1671817791,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [37]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:16494:Player-3685-0703D328:1:12:23:22:4294967295:4294967295:4294967295:4294967295|h[Loyalty to the Prince]|h|r!", -- [1]
-			"Mikya-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mikya-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			550, -- [11]
-			"Player-3685-0703D328", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMikya|r",
-			[51] = 1671817792,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [38]
-		{
-			"I think maybe people need to start remember its a game.  A silly old game lol", -- [1]
-			"Chihua-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			553, -- [11]
-			"Player-3685-0720284E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Chihua|r",
-			[51] = 1671817831,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [39]
-		{
-			"no", -- [1]
-			"Mikya-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			560, -- [11]
-			"Player-3685-0703D328", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMikya|r",
-			[51] = 1671817917,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [40]
-		{
-			"+10's are extremely serious business", -- [1]
-			"Mikya-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			562, -- [11]
-			"Player-3685-0703D328", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMikya|r",
-			[51] = 1671817865,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [41]
-		{
-			"also if they leave me lying dead on the ground after a boss and make me run back to them all the way from the entrance of the instance instead of rezzing me they don't get to complain about my overall being 22k", -- [1]
-			"Adamancy-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			563, -- [11]
-			"Player-3685-07F1620A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1671817874,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [42]
-		{
-			"gitgud or kick", -- [1]
-			"Mikya-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			564, -- [11]
-			"Player-3685-0703D328", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebMikya|r",
-			[51] = 1671817880,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [43]
-		{
-			"lmao", -- [1]
-			"Llyia-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2888, -- [11]
-			"Player-3685-071162AA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffLlyia|r",
-			[51] = 1671919798,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [44]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:16398:Player-3685-09DEE65A:1:12:24:22:4294967295:4294967295:4294967295:4294967295|h[Sojourner of Thaldraszus]|h|r!", -- [1]
-			"Fanim-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fanim-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2968, -- [11]
-			"Player-3685-09DEE65A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dFanim|r",
-			[51] = 1671920207,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [45]
-		{
-			"LF anyone to make |cffa335ee|Hitem:191492::::::::70:105::13:4:8836:8840:8902:8800:3:28:2164:38:6:40:201::::Player-3685-0DF7A36B:|h[Alacritous Alchemist Stone |A:Professions-ChatIcon-Quality-Tier3:17:18::1|a]|h|r Rank 5 life changing tip involved", -- [1]
-			"Hawtkitty-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Hawtkitty-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			22, -- [11]
-			"Player-3685-0700BED9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aHawtkitty|r",
-			[51] = 1672001728,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
-		{
-			"|cffffd000|Htrade:Player-3685-0E0565FB:195116:755|h[Jewelcrafting]|h|r LFW, can craft |cffa335ee|Hitem:193001::::::::70:65::13:1:3524:2:40:260:38:8:::::|h[Elemental Lariat |A:Professions-ChatIcon-Quality-Tier5:17:17::1|a]|h|r (BiS for most classes). Did you get a rank 3 or 4 crafted with a public order? Send it to me for a rank 5 recraft. Can also craft |cffa335ee|Hitem:192999::::::::70:65::13:1:3524:2:40:258:38:8:::::|h[Signet of Titanic Insight |A:Professions-ChatIcon-Quality-Tier5:17:17::1|a]|h|r |cffa335ee|Hitem:194082::::::::70:65::13:2:3524:8850:2:40:400:38:8:::::|h[Band of New Beginnings |A:Professions-ChatIcon-Quality-Tier5:17:17::1|a]|h|r, PST", -- [1]
-			"Baliskner-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Baliskner-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			43, -- [11]
-			"Player-3685-0E0565FB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaBaliskner|r",
-			[51] = 1672001770,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
-		{
-			"merry christmas adam", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"4. thebench", -- [4]
-			"Azados-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			4, -- [8]
-			"thebench", -- [9]
-			0, -- [10]
-			5, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1672074916,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
-		{
-			"Turboris up", -- [1]
-			"Validra-Turalyon", -- [2]
-			"", -- [3]
-			"1. General - The Waking Shores", -- [4]
-			"Validra-Turalyon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - The Waking Shores", -- [9]
 			0, -- [10]
 			111, -- [11]
 			"Player-3685-0DF9FA0C", -- [12]
@@ -1074,13 +40,145 @@ ElvCharacterDB = {
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Validra|r",
-			[51] = 1672076475,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+			false, -- [17]
+			[52] = "|cffff7c0aAddler|r",
+			[51] = 1671128781,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [2]
 		{
-			"any healer for cos 9", -- [1]
+			"pug tanks are fuggggggin MORONS", -- [1]
+			"Berejitsu-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			121, -- [11]
+			"Player-3685-0DF91BA1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff98Berejitsu|r",
+			[51] = 1671129562,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [3]
+		{
+			"but so are pug dpsers", -- [1]
+			"Berejitsu-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			122, -- [11]
+			"Player-3685-0DF91BA1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff98Berejitsu|r",
+			[51] = 1671129566,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [4]
+		{
+			"so im torn on what to do", -- [1]
+			"Berejitsu-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			123, -- [11]
+			"Player-3685-0DF91BA1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff98Berejitsu|r",
+			[51] = 1671129569,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [5]
+		{
+			"tank", -- [1]
+			"Berejitsu-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			124, -- [11]
+			"Player-3685-0DF91BA1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff98Berejitsu|r",
+			[51] = 1671129651,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [6]
+		{
+			"oof", -- [1]
+			"Berejitsu-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			125, -- [11]
+			"Player-3685-0DF91BA1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff98Berejitsu|r",
+			[51] = 1671129657,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [7]
+		{
+			"this dude blows ", -- [1]
+			"Berejitsu-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			126, -- [11]
+			"Player-3685-0DF91BA1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff98Berejitsu|r",
+			[51] = 1671129672,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [8]
+		{
+			"how you gonna be doing a 4 and never fucking ran this shit", -- [1]
 			"Berejitsu-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1804,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebMikya|r",
 			[51] = 1672166182,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [82]
+		}, -- [9]
 		{
 			"I'm on the fence between a 402 mythic piece or tier gloves at 395 =/", -- [1]
 			"Wadewilson-Turalyon", -- [2]
@@ -1826,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Wadewilson|r",
 			[51] = 1672166188,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [83]
+		}, -- [10]
 		{
 			"though don't get tricked", -- [1]
 			"Mikya-Turalyon", -- [2]
@@ -1848,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebMikya|r",
 			[51] = 1672166194,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [84]
+		}, -- [11]
 		{
 			"do your 4 mythics for your free 402 piece from the weekly first", -- [1]
 			"Mikya-Turalyon", -- [2]
@@ -1870,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebMikya|r",
 			[51] = 1672166206,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [85]
+		}, -- [12]
 		{
 			"storm, how good is your bs for making 1h weapons?", -- [1]
 			"Sotzo-Turalyon", -- [2]
@@ -1892,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Sotzo|r",
 			[51] = 1672166208,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [86]
+		}, -- [13]
 		{
 			"so you don't get the same slot that you picked from your vault", -- [1]
 			"Mikya-Turalyon", -- [2]
@@ -1914,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebMikya|r",
 			[51] = 1672166215,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [87]
+		}, -- [14]
 		{
 			"possible to get a 405 with my infusion or nah?", -- [1]
 			"Sotzo-Turalyon", -- [2]
@@ -1936,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Sotzo|r",
 			[51] = 1672166225,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [88]
+		}, -- [15]
 		{
 			"ive got 3 of these bad boys |cffa335ee|Hitem:197921::::::::70:70:::::::::|h[Primal Infusion]|h|r", -- [1]
 			"Criaharn-Turalyon", -- [2]
@@ -1958,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaCriaharn|r",
 			[51] = 1672166241,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [89]
+		}, -- [16]
 		{
 			"but only 1 |cffa335ee|Hitem:190453::::::::70:70:::::::::|h[Spark of Ingenuity]|h|r", -- [1]
 			"Criaharn-Turalyon", -- [2]
@@ -1980,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaCriaharn|r",
 			[51] = 1672166247,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [90]
+		}, -- [17]
 		{
 			"WTB |cffa335ee|Hitem:200058::::::::70:105:::::::::|h[Enchant Weapon - Wafting Devotion |A:Professions-ChatIcon-Quality-Tier3:17:18::1|a]|h|r 45k", -- [1]
 			"Seeding-Turalyon", -- [2]
@@ -1998,11 +1096,11 @@ ElvCharacterDB = {
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aSeeding|r",
-			[51] = 1672185131,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+			false, -- [17]
+			[52] = "|cff00ff98Berejitsu|r",
+			[51] = 1671129907,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [18]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:16548:Player-3685-0701EBC2:1:12:27:22:4294967295:4294967295:4294967295:4294967295|h[It Takes a Tuskarr Buddy]|h|r!", -- [1]
 			"Annya-Turalyon", -- [2]
@@ -2021,10 +1119,10 @@ ElvCharacterDB = {
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebAnnya|r",
-			[51] = 1672185206,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [92]
+			[52] = "|cff3fc7ebMikya|r",
+			[51] = 1671129912,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [19]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:16536:Player-3685-07F1620A:1:12:27:22:4294967295:4294967295:4294967295:4294967295|h[True Friends with Wrathion]|h|r!", -- [1]
 			"Adamancy-Turalyon", -- [2]
@@ -2043,10 +1141,10 @@ ElvCharacterDB = {
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1672186542,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [93]
+			[52] = "|cff00ff98Berejitsu|r",
+			[51] = 1671130244,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [20]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:16494:Player-3685-07F1620A:1:12:27:22:4294967295:4294967295:4294967295:4294967295|h[Loyalty to the Prince]|h|r!", -- [1]
 			"Adamancy-Turalyon", -- [2]
@@ -2065,10 +1163,10 @@ ElvCharacterDB = {
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1672186542,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [94]
+			[52] = "|cff3fc7ebMikya|r",
+			[51] = 1671130307,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [21]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:16568:Player-3685-0A45C722:1:12:27:22:4294967295:4294967295:4294967295:4294967295|h[Great Shots Galore!]|h|r!", -- [1]
 			"Sotzo-Turalyon", -- [2]
@@ -2087,10 +1185,10 @@ ElvCharacterDB = {
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa330c9Sotzo|r",
-			[51] = 1672186560,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [95]
+			[52] = "|cff00ff98Berejitsu|r",
+			[51] = 1671130467,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [22]
 		{
 			"shots", -- [1]
 			"Stormherald-Turalyon", -- [2]
@@ -2112,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dStormherald|r",
 			[51] = 1672186651,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [96]
+		}, -- [23]
 		{
 			"Lf Bs able to make |cffa335ee|Hitem:190507::::::::70:577::13:1:3524:2:40:189:38:5:::::|h[Primal Molten Longsword |A:Professions-ChatIcon-Quality-Tier2:17:23::1|a]|h|r at 405, my mats pst.", -- [1]
 			"Sotzo-Turalyon", -- [2]
@@ -2130,11 +1228,11 @@ ElvCharacterDB = {
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa330c9Sotzo|r",
-			[51] = 1672271670,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+			false, -- [17]
+			[52] = "|cff00ff98Berejitsu|r",
+			[51] = 1671130474,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [24]
 		{
 			"ohhh thats why no sadly i went into swords thinking 2h", -- [1]
 			"Tefdk-Turalyon", -- [2]
@@ -2156,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTefdk|r",
 			[51] = 1672271673,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [98]
+		}, -- [25]
 		{
 			"then swapped and went axes", -- [1]
 			"Tefdk-Turalyon", -- [2]
@@ -2178,29 +1276,1635 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTefdk|r",
 			[51] = 1672271679,
 			[50] = "CHAT_MSG_GUILD",
+		}, -- [26]
+		{
+			"Hey baby", -- [1]
+			"|Kq14|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			230, -- [11]
+			false, -- [12]
+			45, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671146502,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [27]
+		{
+			"well hello", -- [1]
+			"|Kq14|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			234, -- [11]
+			false, -- [12]
+			45, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671146462,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [28]
+		{
+			"what do you say we make a not so silent night?", -- [1]
+			"|Kq14|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			297, -- [11]
+			false, -- [12]
+			45, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671146686,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [29]
+		{
+			"hah christmas pickup lines", -- [1]
+			"|Kq14|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			323, -- [11]
+			false, -- [12]
+			45, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671146788,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [30]
+		{
+			"what are my favorite stats again?", -- [1]
+			"|Kq14|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			338, -- [11]
+			false, -- [12]
+			45, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671146871,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [31]
+		{
+			"for balance?", -- [1]
+			"|Kq14|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			340, -- [11]
+			false, -- [12]
+			45, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671146914,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [32]
+		{
+			"sure", -- [1]
+			"|Kq14|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			344, -- [11]
+			false, -- [12]
+			45, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671146921,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [33]
+		{
+			"intellect > mastery >= haste >> crit > vers", -- [1]
+			"|Kq14|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			372, -- [11]
+			false, -- [12]
+			45, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671146969,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [34]
+		{
+			"so mastery haste", -- [1]
+			"|Kq14|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			384, -- [11]
+			false, -- [12]
+			45, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671146991,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [35]
+		{
+			"I'm dreaming of a white christmas", -- [1]
+			"|Kq14|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			460, -- [11]
+			false, -- [12]
+			45, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671147121,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [36]
+		{
+			"but im not talking about snow :)", -- [1]
+			"|Kq14|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			465, -- [11]
+			false, -- [12]
+			45, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671147204,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [37]
+		{
+			"woow", -- [1]
+			"|Kq14|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			466, -- [11]
+			false, -- [12]
+			45, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671147208,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [38]
+		{
+			"you could shimmy down my chimney tonight ", -- [1]
+			"|Kq14|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			473, -- [11]
+			false, -- [12]
+			45, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671147268,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [39]
+		{
+			"anyone need dps for any keys?", -- [1]
+			"Adamancy-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			507, -- [11]
+			"Player-3685-07F1620A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc7ebAdamancy|r",
+			[51] = 1671147838,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [40]
+		{
+			"(Maui): ^", -- [1]
+			"Maùi-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			508, -- [11]
+			"Player-3685-0DF83339", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff33937fMaùi|r",
+			[51] = 1671147871,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [41]
+		{
+			"Why is it the hunters that don't interrupt", -- [1]
+			"Daleberto-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			518, -- [11]
+			"Player-3685-0DAC6AD8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8788eeDaleberto|r",
+			[51] = 1671147963,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [42]
+		{
+			"are the ones bitching that there's no interrupts", -- [1]
+			"Daleberto-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			519, -- [11]
+			"Player-3685-0DAC6AD8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8788eeDaleberto|r",
+			[51] = 1671147969,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [43]
+		{
+			"because they are", -- [1]
+			"Criaharn-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			520, -- [11]
+			"Player-3685-0D2B7D46", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaCriaharn|r",
+			[51] = 1671147982,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [44]
+		{
+			"real stupid", -- [1]
+			"Criaharn-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			521, -- [11]
+			"Player-3685-0D2B7D46", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaCriaharn|r",
+			[51] = 1671147987,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [45]
+		{
+			"tru", -- [1]
+			"Daleberto-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			522, -- [11]
+			"Player-3685-0DAC6AD8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8788eeDaleberto|r",
+			[51] = 1671147992,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [46]
+		{
+			"But interupting is a dps loss. ", -- [1]
+			"Aeohunt-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			681, -- [11]
+			"Player-3685-0DE56D82", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Aeohunt|r",
+			[51] = 1671148604,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [47]
+		{
+			"Lol :P", -- [1]
+			"Aeohunt-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			682, -- [11]
+			"Player-3685-0DE56D82", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Aeohunt|r",
+			[51] = 1671148613,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [48]
+		{
+			"so is wiping because of no interrupts lol", -- [1]
+			"Adamancy-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			684, -- [11]
+			"Player-3685-07F1620A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc7ebAdamancy|r",
+			[51] = 1671148632,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [49]
+		{
+			"so is being stunned for 10 seconds", -- [1]
+			"Daleberto-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			685, -- [11]
+			"Player-3685-0DAC6AD8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8788eeDaleberto|r",
+			[51] = 1671148643,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [50]
+		{
+			"Hunters.", -- [1]
+			"Whispe-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			686, -- [11]
+			"Player-3685-0717D14B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aWhispe|r",
+			[51] = 1671148643,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [51]
+		{
+			"I agree. Hunters...", -- [1]
+			"Aeohunt-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			687, -- [11]
+			"Player-3685-0DE56D82", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Aeohunt|r",
+			[51] = 1671148651,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [52]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:16576:Player-3685-08D331C7:1:12:15:22:4294967295:4294967295:4294967295:4294967295|h[Ohn'ahran Plains Glyph Hunter]|h|r!", -- [1]
+			"Ronoak-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ronoak-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			719, -- [11]
+			"Player-3685-08D331C7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc7ebRonoak|r",
+			[51] = 1671148845,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [53]
+		{
+			"I love it when you level cause you discover a new zone.", -- [1]
+			"Ronoak-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			832, -- [11]
+			"Player-3685-08D331C7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc7ebRonoak|r",
+			[51] = 1671149020,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [54]
+		{
+			"hello grass", -- [1]
+			"Whispe-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			850, -- [11]
+			"Player-3685-0717D14B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aWhispe|r",
+			[51] = 1671149078,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [55]
+		{
+			"ty for the level", -- [1]
+			"Whispe-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			851, -- [11]
+			"Player-3685-0717D14B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aWhispe|r",
+			[51] = 1671149081,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [56]
+		{
+			"lol", -- [1]
+			"Ronoak-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			858, -- [11]
+			"Player-3685-08D331C7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc7ebRonoak|r",
+			[51] = 1671149153,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [57]
+		{
+			"come play with me", -- [1]
+			"|Kq14|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			943, -- [11]
+			false, -- [12]
+			45, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671149957,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [58]
+		{
+			"o", -- [1]
+			"|Kq14|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			945, -- [11]
+			false, -- [12]
+			45, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671149973,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [59]
+		{
+			"ok", -- [1]
+			"|Kq14|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			946, -- [11]
+			false, -- [12]
+			45, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671149975,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [60]
+		{
+			"do you fish (in game)?", -- [1]
+			"Hamanu-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hamanu-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4, -- [11]
+			"Player-3685-0DF7D7DB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff33937fHamanu|r",
+			[51] = 1671420863,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [61]
+		{
+			"sometimes if i need to for quests and stuff ya", -- [1]
+			"Hamanu-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hamanu-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			5, -- [11]
+			"Player-3685-0DF7D7DB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff33937fHamanu|r",
+			[51] = 1671420951,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [62]
+		{
+			"put a work order in with me if you want a free |cffffd000|Henchant:382329|h[Dragon Isles Engineering: Khaz'gorite Fisherfriend]|h|r", -- [1]
+			"Hamanu-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hamanu-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			6, -- [11]
+			"Player-3685-0DF7D7DB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff33937fHamanu|r",
+			[51] = 1671420909,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [63]
+		{
+			"oo nice, let me get some mats", -- [1]
+			"Hamanu-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hamanu-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			7, -- [11]
+			"Player-3685-0DF7D7DB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff33937fHamanu|r",
+			[51] = 1671421005,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [64]
+		{
+			"no mats", -- [1]
+			"Hamanu-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hamanu-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			9, -- [11]
+			"Player-3685-0DF7D7DB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff33937fHamanu|r",
+			[51] = 1671421012,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [65]
+		{
+			"all mine, just free for guildies that might use it", -- [1]
+			"Hamanu-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hamanu-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			10, -- [11]
+			"Player-3685-0DF7D7DB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff33937fHamanu|r",
+			[51] = 1671420966,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [66]
+		{
+			"cool i put in a personal order", -- [1]
+			"Hamanu-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hamanu-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			12, -- [11]
+			"Player-3685-0DF7D7DB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff33937fHamanu|r",
+			[51] = 1671421071,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [67]
+		{
+			"where do i trade in |cffa335ee|Hitem:190454::::::::70:1467:::::::::|h[Primal Chaos]|h|r and |cff0070dd|Hitem:190456::::::::70:1467:::::::::|h[Artisan's Mettle]|h|r i got so ma ny", -- [1]
+			"Dracò-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dracò-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			13, -- [11]
+			"Player-3685-0DF907D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff33937fDracò|r",
+			[51] = 1671421078,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [68]
+		{
+			"it's in the mail", -- [1]
+			"Hamanu-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hamanu-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			16, -- [11]
+			"Player-3685-0DF7D7DB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff33937fHamanu|r",
+			[51] = 1671421030,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [69]
+		{
+			"free now?", -- [1]
+			"Wandappy-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Wandappy-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			138, -- [11]
+			"Player-3685-07251FD1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddWandappy|r",
+			[51] = 1671421341,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [70]
+		{
+			"yeah", -- [1]
+			"Wandappy-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Wandappy-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			140, -- [11]
+			"Player-3685-07251FD1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddWandappy|r",
+			[51] = 1671421417,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [71]
+		{
+			"where to?", -- [1]
+			"Adamancy-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Adamancy-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			182, -- [11]
+			"Player-3685-07F1620A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc7ebAdamancy|r",
+			[51] = 1671421546,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [72]
+		{
+			"vaults", -- [1]
+			"Wandappy-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Wandappy-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			185, -- [11]
+			"Player-3685-07251FD1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddWandappy|r",
+			[51] = 1671421554,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [73]
+		{
+			"azure vault", -- [1]
+			"Tefdk-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tefdk-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			186, -- [11]
+			"Player-3685-0DEA20EF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aTefdk|r",
+			[51] = 1671421554,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [74]
+		{
+			"I'm at the stone", -- [1]
+			"Wandappy-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Wandappy-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			187, -- [11]
+			"Player-3685-07251FD1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddWandappy|r",
+			[51] = 1671421556,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [75]
+		{
+			"omw", -- [1]
+			"Adamancy-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Adamancy-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			188, -- [11]
+			"Player-3685-07F1620A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc7ebAdamancy|r",
+			[51] = 1671421559,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [76]
+		{
+			"No food (0): ", -- [1]
+			"Wandappy-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Wandappy-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			202, -- [11]
+			"Player-3685-07251FD1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddWandappy|r",
+			[51] = 1671421674,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [77]
+		{
+			"No flask (3): Verbs, Adamancy, Wandappy", -- [1]
+			"Wandappy-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Wandappy-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			203, -- [11]
+			"Player-3685-07251FD1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddWandappy|r",
+			[51] = 1671421674,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [78]
+		{
+			"Party Buffs All", -- [1]
+			"Wandappy-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Wandappy-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			204, -- [11]
+			"Player-3685-07251FD1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddWandappy|r",
+			[51] = 1671421674,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [79]
+		{
+			"we're in discord adam", -- [1]
+			"Wandappy-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Wandappy-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			205, -- [11]
+			"Player-3685-07251FD1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddWandappy|r",
+			[51] = 1671421677,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [80]
+		{
+			"oh im on my laptop, need me in there?", -- [1]
+			"Adamancy-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Adamancy-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			206, -- [11]
+			"Player-3685-07F1620A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc7ebAdamancy|r",
+			[51] = 1671421636,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [81]
+		{
+			"i can go get on my other pc with mic", -- [1]
+			"Adamancy-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Adamancy-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			207, -- [11]
+			"Player-3685-07F1620A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc7ebAdamancy|r",
+			[51] = 1671421643,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [82]
+		{
+			"nope", -- [1]
+			"Tefdk-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tefdk-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			208, -- [11]
+			"Player-3685-0DEA20EF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aTefdk|r",
+			[51] = 1671421643,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [83]
+		{
+			"there's a spot we're jumping down", -- [1]
+			"Wandappy-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Wandappy-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			209, -- [11]
+			"Player-3685-07251FD1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddWandappy|r",
+			[51] = 1671421646,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [84]
+		{
+			"just follow", -- [1]
+			"Wandappy-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Wandappy-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			210, -- [11]
+			"Player-3685-07251FD1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddWandappy|r",
+			[51] = 1671421648,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [85]
+		{
+			"ok", -- [1]
+			"Adamancy-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Adamancy-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			211, -- [11]
+			"Player-3685-07F1620A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc7ebAdamancy|r",
+			[51] = 1671421716,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [86]
+		{
+			"Interrupted Conjured Lasher's |cff71d5ff|Hspell:387564:0|h[Mystic Vapors]|h|r!", -- [1]
+			"Tefdk-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tefdk-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			217, -- [11]
+			"Player-3685-0DEA20EF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aTefdk|r",
+			[51] = 1671421736,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [87]
+		{
+			"{rt6}", -- [1]
+			"Tefdk-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tefdk-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			220, -- [11]
+			"Player-3685-0DEA20EF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aTefdk|r",
+			[51] = 1671421691,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [88]
+		{
+			"Interrupted Arcane Tender's |cff71d5ff|Hspell:375596:0|h[Erratic Growth]|h|r!", -- [1]
+			"Tefdk-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tefdk-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			229, -- [11]
+			"Player-3685-0DEA20EF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aTefdk|r",
+			[51] = 1671421710,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [89]
+		{
+			"Interrupted Conjured Lasher's |cff71d5ff|Hspell:387564:0|h[Mystic Vapors]|h|r!", -- [1]
+			"Tefdk-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tefdk-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			230, -- [11]
+			"Player-3685-0DEA20EF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aTefdk|r",
+			[51] = 1671421790,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [90]
+		{
+			"{rt7}", -- [1]
+			"Tefdk-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tefdk-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			238, -- [11]
+			"Player-3685-0DEA20EF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aTefdk|r",
+			[51] = 1671421833,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [91]
+		{
+			"Interrupted Conjured Lasher's |cff71d5ff|Hspell:387564:0|h[Mystic Vapors]|h|r!", -- [1]
+			"Tefdk-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tefdk-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			245, -- [11]
+			"Player-3685-0DEA20EF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aTefdk|r",
+			[51] = 1671421842,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [92]
+		{
+			"Interrupted Arcane Tender's |cff71d5ff|Hspell:375596:0|h[Erratic Growth]|h|r!", -- [1]
+			"Verbs-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Verbs-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			248, -- [11]
+			"Player-3685-0DE34138", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Verbs|r",
+			[51] = 1671421811,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [93]
+		{
+			"Interrupted Arcane Tender's |cff71d5ff|Hspell:375596:0|h[Erratic Growth]|h|r!", -- [1]
+			"Tefdk-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tefdk-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			249, -- [11]
+			"Player-3685-0DEA20EF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aTefdk|r",
+			[51] = 1671421893,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [94]
+		{
+			"{rt6}", -- [1]
+			"Tefdk-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tefdk-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			251, -- [11]
+			"Player-3685-0DEA20EF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aTefdk|r",
+			[51] = 1671421912,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [95]
+		{
+			"{rt2}1", -- [1]
+			"Tefdk-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tefdk-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			263, -- [11]
+			"Player-3685-0DEA20EF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aTefdk|r",
+			[51] = 1671421940,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [96]
+		{
+			"{rt6}", -- [1]
+			"Tefdk-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tefdk-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			274, -- [11]
+			"Player-3685-0DEA20EF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aTefdk|r",
+			[51] = 1671421997,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [97]
+		{
+			"Interrupted Arcane Elemental's |cff71d5ff|Hspell:371306:0|h[Arcane Bolt]|h|r!", -- [1]
+			"Tefdk-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tefdk-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			282, -- [11]
+			"Player-3685-0DEA20EF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aTefdk|r",
+			[51] = 1671422066,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [98]
+		{
+			"Interrupted Arcane Elemental's |cff71d5ff|Hspell:371306:0|h[Arcane Bolt]|h|r!", -- [1]
+			"Verbs-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Verbs-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			283, -- [11]
+			"Player-3685-0DE34138", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Verbs|r",
+			[51] = 1671422134,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/p isnt there supposed to be a moon beam or something that says which moon is safe?", -- [1]
-		"/p yea", -- [2]
-		"/p how do i do that without applying for keys", -- [3]
-		"/p first boss was bugged i had no beams", -- [4]
-		"/p yea i stood on the full moon on the first one and i died...", -- [5]
-		"no", -- [6]
-		"rogue only", -- [7]
-		"/g thats it i quit mage", -- [8]
-		"/g tired of being humiliated in the few keys i can actually get into", -- [9]
-		"/g i dont need randos telling me i need to learn mechancis before applying for a +10", -- [10]
-		"/g i made 1 mistake during a key that i had never done on tyran before to a mechanic that is trivial when its not tyrannical", -- [11]
-		"/g i asked them how i'm supposed to learn mechanics if i dont queue for keys", -- [12]
-		"/g and they said \"do low keys\"", -- [13]
-		"/g but the mech i didnt know would not have killed me on a low key lol", -- [14]
-		"/g like nerzhul has beam things that apparently do more damage the closer you stand to them", -- [15]
-		"/g because bad keys are bad, and good keys are still kinda bad", -- [16]
-		"/g usually i have good runs to offset the ones i fuck up in", -- [17]
-		"/g ive come to dread doing them because i feel like i sandbag every group i run with", -- [18]
-		"/g also if they leave me lying dead on the ground after a boss and make me run back to them all the way from the entrance of the instance instead of rezzing me they don't get to complain about my overall being 22k", -- [19]
-		"/simc", -- [20]
+		"/beckon", -- [1]
+		"well hello", -- [2]
+		"hah christmas pickup lines", -- [3]
+		"for balance?", -- [4]
+		"intellect > mastery >= haste >> crit > vers", -- [5]
+		"so mastery haste", -- [6]
+		"woow", -- [7]
+		"/g anyone need dps for any keys?", -- [8]
+		"/g so is wiping because of no interrupts lol", -- [9]
+		"o", -- [10]
+		"ok", -- [11]
+		"/cw Hamanu-Turalyon sometimes if i need to for quests and stuff ya", -- [12]
+		"/cw Hamanu-Turalyon oo nice, let me get some mats", -- [13]
+		"/cw Hamanu-Turalyon cool i put in a personal order", -- [14]
+		"/cw Wandappy-Turalyon yeah", -- [15]
+		"/p where to?", -- [16]
+		"/p omw", -- [17]
+		"/p oh im on my laptop, need me in there?", -- [18]
+		"/p i can go get on my other pc with mic", -- [19]
+		"/p ok", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }
