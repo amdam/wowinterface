@@ -1644,23 +1644,20 @@ DCS_ClassSpecDB = {
 			["statKey"] = "HonorCategory",
 		}, -- [52]
 		{
-			["statKey"] = "BLACK_GIRLS_CODE",
+			["statKey"] = "UserCat4",
 		}, -- [53]
 		{
-			["statKey"] = "UserCat4",
+			["statKey"] = "UserCat5",
 		}, -- [54]
 		{
-			["statKey"] = "UserCat5",
+			["statKey"] = "UserCat3",
 		}, -- [55]
 		{
-			["statKey"] = "UserCat3",
+			["statKey"] = "UserCat2",
 		}, -- [56]
 		{
-			["statKey"] = "UserCat2",
-		}, -- [57]
-		{
 			["statKey"] = "UserCat1",
-		}, -- [58]
+		}, -- [57]
 		["uniqueKey"] = "Amdam:Turalyon:2",
 	},
 	["Shado:Turalyon:2"] = {
@@ -3467,71 +3464,58 @@ DCS_ClassSpecDB = {
 			},
 		}, -- [49]
 		{
-			["statKey"] = "CR_CORRUPTION",
+			["statKey"] = "RATING_2V2",
 			["hideAt"] = 0,
 		}, -- [50]
 		{
-			["statKey"] = "RATING_2V2",
-			["hideAt"] = 0,
+			["statKey"] = "WOMEN_IN__ANIMATION",
 		}, -- [51]
 		{
-			["statKey"] = "CONQUEST_PROGRESS",
-			["hideAt"] = 0,
-		}, -- [52]
-		{
-			["statKey"] = "WOMEN_IN__ANIMATION",
-		}, -- [53]
-		{
-			["statKey"] = "CR_CORRUPTION_RESISTANCE",
-			["hideAt"] = 0,
-		}, -- [54]
-		{
 			["statKey"] = "CorruptionCategory",
-		}, -- [55]
-		{
-			["statKey"] = "WOMEN_IN_GAMES_INTL",
-		}, -- [56]
+		}, -- [52]
 		{
 			["statKey"] = "CR_TOTAL_CORRUPTION",
 			["hideAt"] = 0,
-		}, -- [57]
+		}, -- [53]
 		{
 			["statKey"] = "HONOR_LEVEL",
 			["hideAt"] = 0,
-		}, -- [58]
-		{
-			["statKey"] = "RAINN",
-		}, -- [59]
+		}, -- [54]
 		{
 			["statKey"] = "GIRLS_WHO_CODE",
-		}, -- [60]
-		{
-			["statKey"] = "FUTURES",
-		}, -- [61]
+		}, -- [55]
 		{
 			["statKey"] = "ActiBlizzWalkout",
-		}, -- [62]
+		}, -- [56]
 		{
 			["statKey"] = "HonorCategory",
-		}, -- [63]
+		}, -- [57]
 		{
 			["statKey"] = "HONOR_PROGRESS",
 			["hideAt"] = 0,
-		}, -- [64]
-		{
-			["statKey"] = "RATING_RBG",
-			["hideAt"] = 0,
-		}, -- [65]
+		}, -- [58]
 		{
 			["statKey"] = "RATING_3V3",
 			["hideAt"] = 0,
-		}, -- [66]
-		{
-			["statKey"] = "ConquestCategory",
-		}, -- [67]
+		}, -- [59]
 		{
 			["statKey"] = "BLACK_GIRLS_CODE",
-		}, -- [68]
+		}, -- [60]
+		{
+			["statKey"] = "UserCat4",
+		}, -- [61]
+		{
+			["statKey"] = "UserCat5",
+		}, -- [62]
+		{
+			["statKey"] = "UserCat3",
+		}, -- [63]
+		{
+			["statKey"] = "UserCat2",
+		}, -- [64]
+		{
+			["statKey"] = "UserCat1",
+		}, -- [65]
 		["uniqueKey"] = "Allevin:Turalyon:2",
 	},
 	["Adomic:Turalyon:2"] = {
@@ -8694,71 +8678,54 @@ DCS_ClassSpecDB = {
 			},
 		}, -- [49]
 		{
-			["statKey"] = "RATING_2V2",
+			["statKey"] = "HONOR_PROGRESS",
 			["hideAt"] = 0,
 		}, -- [50]
 		{
-			["statKey"] = "HONOR_PROGRESS",
+			["statKey"] = "RATING_RBG",
 			["hideAt"] = 0,
 		}, -- [51]
 		{
-			["statKey"] = "CONQUEST_PROGRESS",
+			["statKey"] = "CR_CORRUPTION_RESISTANCE",
 			["hideAt"] = 0,
 		}, -- [52]
 		{
-			["statKey"] = "RATING_RBG",
-			["hideAt"] = 0,
-		}, -- [53]
-		{
-			["statKey"] = "RATING_3V3",
-			["hideAt"] = 0,
-		}, -- [54]
-		{
-			["statKey"] = "CR_CORRUPTION_RESISTANCE",
-			["hideAt"] = 0,
-		}, -- [55]
-		{
-			["statKey"] = "CR_CORRUPTION",
-			["hideAt"] = 0,
-		}, -- [56]
-		{
 			["statKey"] = "CorruptionCategory",
-		}, -- [57]
-		{
-			["statKey"] = "CR_TOTAL_CORRUPTION",
-			["hideAt"] = 0,
-		}, -- [58]
+		}, -- [53]
 		{
 			["statKey"] = "HONOR_LEVEL",
 			["hideAt"] = 0,
-		}, -- [59]
+		}, -- [54]
 		{
 			["statKey"] = "HonorCategory",
-		}, -- [60]
-		{
-			["statKey"] = "ConquestCategory",
-		}, -- [61]
+		}, -- [55]
 		{
 			["statKey"] = "WOMEN_IN__ANIMATION",
-		}, -- [62]
-		{
-			["statKey"] = "WOMEN_IN_GAMES_INTL",
-		}, -- [63]
+		}, -- [56]
 		{
 			["statKey"] = "RAINN",
-		}, -- [64]
-		{
-			["statKey"] = "GIRLS_WHO_CODE",
-		}, -- [65]
+		}, -- [57]
 		{
 			["statKey"] = "FUTURES",
-		}, -- [66]
-		{
-			["statKey"] = "ActiBlizzWalkout",
-		}, -- [67]
+		}, -- [58]
 		{
 			["statKey"] = "BLACK_GIRLS_CODE",
-		}, -- [68]
+		}, -- [59]
+		{
+			["statKey"] = "UserCat4",
+		}, -- [60]
+		{
+			["statKey"] = "UserCat5",
+		}, -- [61]
+		{
+			["statKey"] = "UserCat3",
+		}, -- [62]
+		{
+			["statKey"] = "UserCat2",
+		}, -- [63]
+		{
+			["statKey"] = "UserCat1",
+		}, -- [64]
 		["uniqueKey"] = "Allevin:Turalyon:3",
 	},
 	["Dogs:Turalyon:1"] = {

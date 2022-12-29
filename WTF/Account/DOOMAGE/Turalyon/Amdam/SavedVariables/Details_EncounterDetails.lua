@@ -2,13 +2,13 @@
 EncounterDetailsDB = {
 	["emotes"] = {
 		{
-			["boss"] = "Decatriarch Wratheye",
+			["boss"] = "Umbrelskul",
 		}, -- [1]
 		{
-			["boss"] = "Treemouth",
+			["boss"] = "Telash Greywing",
 		}, -- [2]
 		{
-			["boss"] = "Gutshot",
+			["boss"] = "Azureblade",
 		}, -- [3]
 	},
 	["encounter_spells"] = {
@@ -2369,6 +2369,7 @@ EncounterDetailsDB = {
 			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Crackling Vortex",
 		},
@@ -14008,14 +14009,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Musgrave-Thrall",
 		},
-		[361200] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[365295] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Lihuvim",
+			["source"] = "Anduin Wrynn",
 		},
 		[154526] = {
 			["school"] = 2,
@@ -14044,13 +14044,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ahri'ok Dugru",
 		},
-		[332535] = {
+		[361200] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Baroness Frieda",
+			["source"] = "Lihuvim",
 		},
 		[349939] = {
 			["school"] = 1,
@@ -16565,13 +16566,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fleshrender Nok'gar",
 		},
-		[87024] = {
+		[372538] = {
 			["school"] = 4,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Leyliah-Area52",
+			["source"] = "Lava Flare",
 		},
 		[162243] = {
 			["school"] = 1,
@@ -16592,17 +16594,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Wrathbone Sorcerer",
 		},
-		[384823] = {
+		[87024] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Blazebound Firestorm",
+			["source"] = "Leyliah-Area52",
 		},
 		[47743] = {
 			["school"] = 64,
@@ -16645,14 +16643,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Prototype of Duty",
 		},
-		[372538] = {
+		[384823] = {
 			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Lava Flare",
+			["source"] = "Blazebound Firestorm",
 		},
 		[342732] = {
 			["school"] = 1,
@@ -18122,13 +18123,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lord Stavros",
 		},
-		[365295] = {
-			["school"] = 32,
+		[332535] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Anduin Wrynn",
+			["source"] = "Baroness Frieda",
 		},
 		[362347] = {
 			["school"] = 1,

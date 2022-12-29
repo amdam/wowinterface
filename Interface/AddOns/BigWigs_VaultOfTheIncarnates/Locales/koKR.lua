@@ -33,8 +33,6 @@ if L then
 	 L.conductive_marks = "표식" -- Conductive Marks
 	 L.conductive_mark = "표식" -- Singular
 
-	 L.custom_off_chain_lightning = "연쇄 번개는 기본적으로 꺼져있습니다. 활성화해서 연쇄 번개를 활성화하십시오."
-
 	 L.custom_on_stop_timers = "항상 능력 바 표시Always show ability bars"
 	 L.custom_on_stop_timers_desc = "항상 표시될 능력: 전도성 표식"
 end
@@ -75,10 +73,18 @@ if L then
 	-- L.ultimate_desc = "Display timers for Ultimate abilities (Searing Carnage, Absolute Zero, Seismic Rupture, Thundering Strike) when we don't know what alter the boss is at."
 	-- L.ultimate_bartext = "%s [Ult]" -- {Spell} [Ult]
 
+	-- L.add_bartext = "%s [추가 몹]" -- "{Spell} [Add]"
+
+	L.Fire = "화염"
+	L.Frost = "냉기"
+	L.Earth = "대지"
+	L.Storm = "폭풍"
+
 	 -- 불
 	 L.magma_burst = "웅덩이 생성"
 	 L.molten_rupture = "웨이브 조심"
 	 L.searing_carnage = "살육"
+	 -- L.raging_inferno = "Soak Pools"
 
 	 -- 냉기
 	 L.biting_chill = "추위 도트"
@@ -113,11 +119,12 @@ if L then
 	 L.icy_shroud = "치유량 흡수 껍질"
 	 L.broodkeepers_fury = "분노"
 	 L.frozen_shroud = "속박"
+	--  L.detonating_stoneslam = "Tank Soak"
 end
 
 L = BigWigs:NewBossLocale("Raszageth the Storm-Eater", "koKR")
 if L then
-	--L.lighting_devastation_trigger = "deep breath"
+	--L.lighting_devastation_trigger = "deep breath" -- Raszageth takes a deep breath...
 end
 
 L = BigWigs:NewBossLocale("Vault of the Incarnates Trash", "koKR")

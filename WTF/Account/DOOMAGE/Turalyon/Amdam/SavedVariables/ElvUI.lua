@@ -2,1645 +2,1689 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"Yes chef!", -- [1]
-			"Crazyterran-Turalyon", -- [2]
+			"okayy thanks", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Crazyterran-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			695, -- [11]
-			"Player-3685-0725217A", -- [12]
-			0, -- [13]
+			1482, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaCrazyterran|r",
-			[51] = 1670746354,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671519400,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [1]
 		{
-			"Yes chef!", -- [1]
-			"Paarthos-Turalyon", -- [2]
+			"got it :) ", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Paarthos-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			696, -- [11]
-			"Player-3685-0AFC9F09", -- [12]
-			0, -- [13]
+			1528, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebPaarthos|r",
-			[51] = 1670746356,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671519560,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [2]
 		{
-			"Yes chef!", -- [1]
-			"Dragcat-Turalyon", -- [2]
+			"i killed all of it and then it started to respawn :<", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Dragcat-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			697, -- [11]
-			"Player-3685-0DF81663", -- [12]
-			0, -- [13]
+			1539, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff33937fDragcat|r",
-			[51] = 1670746357,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671519553,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [3]
 		{
-			"Yes chef!", -- [1]
-			"Ziatakraa-Turalyon", -- [2]
+			"haha", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Ziatakraa-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			699, -- [11]
-			"Player-3685-0D595B1D", -- [12]
-			0, -- [13]
+			1540, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aZiatakraa|r",
-			[51] = 1670746357,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671519620,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [4]
 		{
-			"Yes chef!", -- [1]
-			"Hallicgos-Turalyon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:504:Player-3685-0E047A03:1:12:19:22:4294967295:4294967295:4294967295:4294967295|h[100 Quests Completed]|h|r!", -- [1]
+			"Notalama-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Hallicgos-Turalyon", -- [5]
+			"Notalama-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			700, -- [11]
-			"Player-3685-0DF7BD88", -- [12]
+			1548, -- [11]
+			"Player-3685-0E047A03", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff33937fHallicgos|r",
-			[51] = 1670746357,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff33937fNotalama|r",
+			[51] = 1671519693,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [5]
 		{
-			"Yes chef!", -- [1]
-			"Toolzilla-Turalyon", -- [2]
+			"um", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Toolzilla-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			702, -- [11]
-			"Player-3685-0DF842BA", -- [12]
-			0, -- [13]
+			1549, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff33937fToolzilla|r",
-			[51] = 1670746359,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671519698,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [6]
 		{
-			"Yes chef!", -- [1]
-			"Mjolfurion-Turalyon", -- [2]
+			"you got a dagger", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mjolfurion-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			703, -- [11]
-			"Player-3685-0DEEC965", -- [12]
-			0, -- [13]
+			1550, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aMjolfurion|r",
-			[51] = 1670746359,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671519715,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [7]
 		{
-			"Yes chef!", -- [1]
-			"Narisa-Turalyon", -- [2]
+			"where's your offhand?", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Narisa-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			704, -- [11]
-			"Player-3685-06F689CD", -- [12]
-			0, -- [13]
+			1551, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffNarisa|r",
-			[51] = 1670746359,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671519665,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [8]
 		{
-			"Yes chef!", -- [1]
-			"Hexz-Turalyon", -- [2]
+			"huh?", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Hexz-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			705, -- [11]
-			"Player-3685-0D95C13A", -- [12]
-			0, -- [13]
+			1553, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa330c9Hexz|r",
-			[51] = 1670746360,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671519739,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [9]
 		{
-			"Yes chef!", -- [1]
-			"Oruund-Turalyon", -- [2]
+			"your weapon", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Oruund-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			707, -- [11]
-			"Player-3685-0DFF25BB", -- [12]
-			0, -- [13]
+			1554, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc41e3aOruund|r",
-			[51] = 1670746361,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671519750,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [10]
 		{
-			"Yes chef!", -- [1]
-			"Dranor-Turalyon", -- [2]
+			"what about it", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Dranor-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			708, -- [11]
-			"Player-3685-0DF64E9C", -- [12]
-			0, -- [13]
+			1556, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc41e3aDranor|r",
-			[51] = 1670746362,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671519837,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [11]
 		{
-			"Yes chef!", -- [1]
-			"Holybo-Turalyon", -- [2]
+			"its a 1 handed weapon", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Holybo-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			711, -- [11]
-			"Player-3685-0D9942E9", -- [12]
-			0, -- [13]
+			1557, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaHolybo|r",
-			[51] = 1670746367,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671519785,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [12]
 		{
-			"Yes chef!", -- [1]
-			"Rendezz-Turalyon", -- [2]
+			"you can use an offhand with it", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rendezz-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			714, -- [11]
-			"Player-3685-07D85641", -- [12]
-			0, -- [13]
+			1558, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aRendezz|r",
-			[51] = 1670746370,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671519789,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [13]
 		{
-			"Yes chef!", -- [1]
-			"Spellthief-Turalyon", -- [2]
+			"oh", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Spellthief-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			716, -- [11]
-			"Player-3685-0724D016", -- [12]
-			0, -- [13]
+			1559, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebSpellthief|r",
-			[51] = 1670746373,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671519874,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [14]
 		{
-			"Yes chef!", -- [1]
-			"Icebladez-Turalyon", -- [2]
+			"i dont have one", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Icebladez-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			717, -- [11]
-			"Player-3685-0799FDA2", -- [12]
-			0, -- [13]
+			1560, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebIcebladez|r",
-			[51] = 1670746373,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671519855,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [15]
 		{
-			"Yes chef!", -- [1]
-			"Anyanka-Turalyon", -- [2]
+			"hmm", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Anyanka-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			720, -- [11]
-			"Player-3685-0A29A9A3", -- [12]
-			0, -- [13]
+			1561, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa330c9Anyanka|r",
-			[51] = 1670746374,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671519950,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [16]
 		{
-			"Yes chef!", -- [1]
-			"Cydramorti-Turalyon", -- [2]
+			"you can get one from a vendor in town if you have enough of this stuff", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cydramorti-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			725, -- [11]
-			"Player-3685-0AB19074", -- [12]
-			0, -- [13]
+			1562, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc41e3aCydramorti|r",
-			[51] = 1670746323,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671519904,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [17]
 		{
-			"Yes chef!", -- [1]
-			"Tiir-Turalyon", -- [2]
+			"|Hitem:195184::::::::70:102::26:1:7963:2:9:69:28:2154:::::|h[Bronze Tower]|h", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Tiir-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			727, -- [11]
-			"Player-3685-07227133", -- [12]
-			0, -- [13]
+			1563, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffTiir|r",
-			[51] = 1670746325,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671519907,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [18]
 		{
-			"Yes chef!", -- [1]
-			"Maev-Turalyon", -- [2]
+			"|Hcurrency:2118:0|h[Elemental Overflow]|h", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Maev-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			728, -- [11]
-			"Player-3685-0DDA8B1F", -- [12]
-			0, -- [13]
+			1564, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaMaev|r",
-			[51] = 1670746327,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671519911,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [19]
 		{
-			"Yes chef!", -- [1]
-			"Toasties-Turalyon", -- [2]
+			"idk how to do that", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Toasties-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			729, -- [11]
-			"Player-3685-072387E2", -- [12]
-			0, -- [13]
+			1565, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddToasties|r",
-			[51] = 1670746327,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671520002,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [20]
 		{
-			"Yes chef!", -- [1]
-			"Cadburry-Turalyon", -- [2]
+			"we just gotta find an elemental storm somewhere and kill mobs in the area", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Cadburry-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			732, -- [11]
-			"Player-3685-0C0AD22D", -- [12]
-			0, -- [13]
+			1566, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa330c9Cadburry|r",
-			[51] = 1670746330,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671520040,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [21]
 		{
-			"this shit is confusing", -- [1]
-			"Seeding-Turalyon", -- [2]
-			"Common", -- [3]
+			"everything will drop that stuff, you can buy any slot gear with it", -- [1]
+			"|Kq19|k", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Seeding-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			733, -- [11]
-			"Player-3685-0DFEDF26", -- [12]
-			0, -- [13]
+			0, -- [10]
+			1567, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aSeeding|r",
-			[51] = 1670746330,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671520063,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [22]
 		{
-			"Yes chef!", -- [1]
-			"Dentedplate-Turalyon", -- [2]
+			"or we can do dungeons", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Dentedplate-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			734, -- [11]
-			"Player-3685-0710B100", -- [12]
-			0, -- [13]
+			1568, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dDentedplate|r",
-			[51] = 1670746392,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671520076,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [23]
 		{
-			"Yes chef!", -- [1]
-			"Redemon-Turalyon", -- [2]
+			"ew", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Redemon-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			736, -- [11]
-			"Player-3685-0AD25CB2", -- [12]
-			0, -- [13]
+			1569, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa330c9Redemon|r",
-			[51] = 1670746392,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671520023,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [24]
 		{
-			"Yes chef!", -- [1]
-			"Zordez-Turalyon", -- [2]
+			"omg this is knowledgo", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Zordez-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			737, -- [11]
-			"Player-3685-0E012543", -- [12]
-			0, -- [13]
+			1655, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffff468Zordez|r",
-			[51] = 1670746394,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671520739,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [25]
 		{
-			"Yes chef!", -- [1]
-			"Seeding-Turalyon", -- [2]
+			"what?", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Seeding-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			739, -- [11]
-			"Player-3685-0DFEDF26", -- [12]
-			0, -- [13]
+			1662, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aSeeding|r",
-			[51] = 1670746396,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671520694,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [26]
 		{
-			"Yes chef!", -- [1]
-			"Georgigeo-Turalyon", -- [2]
+			"these items are for knowlwdge ", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Georgigeo-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			740, -- [11]
-			"Player-3685-0D2AA7A4", -- [12]
-			0, -- [13]
+			1669, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Georgigeo|r",
-			[51] = 1670746396,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671520769,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [27]
 		{
-			"Yes chef!", -- [1]
-			"Tahroo-Turalyon", -- [2]
+			"yeah the treasures?", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Tahroo-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			741, -- [11]
-			"Player-3685-07204507", -- [12]
-			0, -- [13]
+			1675, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaTahroo|r",
-			[51] = 1670746397,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671520779,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [28]
 		{
-			"Yes chef!", -- [1]
-			"Altaneen-Turalyon", -- [2]
+			"yeah ughhh", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Altaneen-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			743, -- [11]
-			"Player-3685-0724FF83", -- [12]
-			0, -- [13]
+			1684, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebAltaneen|r",
-			[51] = 1670746399,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671520789,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [29]
 		{
-			"Yes chef!", -- [1]
-			"Nyctes-Turalyon", -- [2]
+			"you need knowledge to craft the highest quality stuff", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Nyctes-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			744, -- [11]
-			"Player-3685-0AA00E41", -- [12]
-			0, -- [13]
+			1692, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffNyctes|r",
-			[51] = 1670746402,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671520744,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [30]
 		{
-			"Yes chef!", -- [1]
-			"Moosher-Turalyon", -- [2]
+			"which seems to be the only stuff that makes any money", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Moosher-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			745, -- [11]
-			"Player-3685-0DFFED07", -- [12]
-			0, -- [13]
+			1695, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff33937fMoosher|r",
-			[51] = 1670746402,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671520749,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [31]
 		{
-			"Yes chef!", -- [1]
-			"Beng-Turalyon", -- [2]
+			"im sitting heRE AT LVL 47 TRYING TO FIGURE OUT WHY IT DIDNT WORK", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Beng-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			746, -- [11]
-			"Player-3685-0D78630D", -- [12]
-			0, -- [13]
+			1717, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa330c9Beng|r",
-			[51] = 1670746402,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671520833,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [32]
 		{
-			"Yes chef!", -- [1]
-			"Materiel-Turalyon", -- [2]
+			"oops", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Materiel-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			748, -- [11]
-			"Player-3685-0ADCCB91", -- [12]
-			0, -- [13]
+			1721, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaMateriel|r",
-			[51] = 1670746405,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671520837,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [33]
 		{
-			"Yes chef!", -- [1]
-			"Callinn-Turalyon", -- [2]
+			"lol", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Callinn-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			750, -- [11]
-			"Player-3685-07184B19", -- [12]
-			0, -- [13]
+			1726, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaCallinn|r",
-			[51] = 1670746410,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671520841,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [34]
 		{
-			"Yes chef!", -- [1]
-			"Lany-Turalyon", -- [2]
+			"ughhhhhhhhh", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lany-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			751, -- [11]
-			"Player-3685-07236D24", -- [12]
-			0, -- [13]
+			1731, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aLany|r",
-			[51] = 1670746414,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671520850,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [35]
 		{
-			"Yes chef!", -- [1]
-			"Msysmsysmsy-Illidan", -- [2]
+			"maybe you'll learn a good recipe", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Msysmsysmsy-Illidan", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			757, -- [11]
-			"Player-57-0D660C04", -- [12]
-			0, -- [13]
+			1734, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff98Msysmsysmsy-Illidan|r",
-			[51] = 1670746428,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671520855,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [36]
 		{
-			"Yes chef!", -- [1]
-			"Mjolfurion-Turalyon", -- [2]
+			"from putting points in your knowledge", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mjolfurion-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			758, -- [11]
-			"Player-3685-0DEEC965", -- [12]
-			0, -- [13]
+			1741, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aMjolfurion|r",
-			[51] = 1670746430,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671520802,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [37]
 		{
-			"Yes chef!", -- [1]
-			"Dragcat-Turalyon", -- [2]
+			"i cant even spend it", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Dragcat-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			759, -- [11]
-			"Player-3685-0DF81663", -- [12]
-			0, -- [13]
+			1747, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff33937fDragcat|r",
-			[51] = 1670746431,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671520810,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [38]
 		{
-			"Yes chef!", -- [1]
-			"Slatch-Turalyon", -- [2]
+			"your knowledge?", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Slatch-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			760, -- [11]
-			"Player-3685-0724A7DC", -- [12]
-			0, -- [13]
+			1756, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff98Slatch|r",
-			[51] = 1670746431,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671520884,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [39]
 		{
-			"Yes chef!", -- [1]
-			"Paarthos-Turalyon", -- [2]
+			"it wont let me", -- [1]
+			"|Kq19|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Paarthos-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			763, -- [11]
-			"Player-3685-0AFC9F09", -- [12]
-			0, -- [13]
+			1758, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebPaarthos|r",
-			[51] = 1670746382,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671520889,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [40]
 		{
-			"Yes chef!", -- [1]
-			"Eilthis-Turalyon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:15794:Player-3685-0E047A03:1:12:19:22:4294967295:4294967295:4294967295:4294967295|h[A New Friend]|h|r!", -- [1]
+			"Notalama-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eilthis-Turalyon", -- [5]
+			"Notalama-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			765, -- [11]
-			"Player-3685-07221BDF", -- [12]
+			1963, -- [11]
+			"Player-3685-0E047A03", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aEilthis|r",
-			[51] = 1670746385,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff33937fNotalama|r",
+			[51] = 1671523142,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [41]
 		{
-			"Yes chef!", -- [1]
-			"Nadriana-Turalyon", -- [2]
-			"", -- [3]
+			"ruk ", -- [1]
+			"Ghostduster-Turalyon", -- [2]
+			"Orcish", -- [3]
 			"", -- [4]
-			"Nadriana-Turalyon", -- [5]
+			"Ghostduster-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			0, -- [10]
-			766, -- [11]
-			"Player-3685-072522FD", -- [12]
+			1, -- [10]
+			1992, -- [11]
+			"Player-3685-0DCA6287", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebNadriana|r",
-			[51] = 1670746386,
+			[52] = "|cffaad372Ghostduster|r",
+			[51] = 1671523475,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [42]
 		{
-			"Yes chef!", -- [1]
-			"Toolzilla-Turalyon", -- [2]
-			"", -- [3]
+			"magan", -- [1]
+			"Ghostduster-Turalyon", -- [2]
+			"Orcish", -- [3]
 			"", -- [4]
-			"Toolzilla-Turalyon", -- [5]
+			"Ghostduster-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			0, -- [10]
-			767, -- [11]
-			"Player-3685-0DF842BA", -- [12]
+			1, -- [10]
+			2002, -- [11]
+			"Player-3685-0DCA6287", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff33937fToolzilla|r",
-			[51] = 1670746387,
+			[52] = "|cffaad372Ghostduster|r",
+			[51] = 1671523514,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [43]
 		{
-			"Yes chef!", -- [1]
-			"Tiir-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Tiir-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			769, -- [11]
-			"Player-3685-07227133", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffTiir|r",
-			[51] = 1670746391,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
-		{
-			"Yes chef!", -- [1]
-			"Messiahm-Illidan", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Messiahm-Illidan", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			772, -- [11]
-			"Player-57-0B5950BC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff98Messiahm-Illidan|r",
-			[51] = 1670746463,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [45]
-		{
-			"Yes chef!", -- [1]
-			"Boomkim-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Boomkim-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			774, -- [11]
-			"Player-3685-071CB0BD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aBoomkim|r",
-			[51] = 1670746468,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
-		{
-			"Yes chef!", -- [1]
-			"Spellthief-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Spellthief-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			778, -- [11]
-			"Player-3685-0724D016", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebSpellthief|r",
-			[51] = 1670746476,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [47]
-		{
-			"Yes chef!", -- [1]
-			"Icebladez-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Icebladez-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			779, -- [11]
-			"Player-3685-0799FDA2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebIcebladez|r",
-			[51] = 1670746476,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [48]
-		{
-			"Yes chef!", -- [1]
-			"Humpin-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Humpin-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			780, -- [11]
-			"Player-3685-07163EA4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aHumpin|r",
-			[51] = 1670746476,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [49]
-		{
-			"Yes chef!", -- [1]
-			"Beng-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Beng-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			782, -- [11]
-			"Player-3685-0D78630D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Beng|r",
-			[51] = 1670746479,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [50]
-		{
-			"Yes chef!", -- [1]
-			"Georgigeo-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Georgigeo-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			784, -- [11]
-			"Player-3685-0D2AA7A4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Georgigeo|r",
-			[51] = 1670746479,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
-		{
-			"Yes chef!", -- [1]
-			"Moosher-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Moosher-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			785, -- [11]
-			"Player-3685-0DFFED07", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff33937fMoosher|r",
-			[51] = 1670746483,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [52]
-		{
-			"Yes chef!", -- [1]
-			"Redemon-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Redemon-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			786, -- [11]
-			"Player-3685-0AD25CB2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Redemon|r",
-			[51] = 1670746483,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [53]
-		{
-			"Yes chef!", -- [1]
-			"Nyctes-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nyctes-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			789, -- [11]
-			"Player-3685-0AA00E41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffNyctes|r",
-			[51] = 1670746485,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [54]
-		{
-			"Yes chef!", -- [1]
-			"Kodswallop-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kodswallop-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			791, -- [11]
-			"Player-3685-07251F04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Kodswallop|r",
-			[51] = 1670746488,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [55]
-		{
-			"revash zug KA throm ", -- [1]
-			"Mjolfurion-Turalyon", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Mjolfurion-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			796, -- [11]
-			"Player-3685-0DEEC965", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aMjolfurion|r",
-			[51] = 1670746493,
-			[50] = "CHAT_MSG_YELL",
-		}, -- [56]
-		{
-			"ha l", -- [1]
-			"Rendezz-Turalyon", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Rendezz-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			801, -- [11]
-			"Player-3685-07D85641", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aRendezz|r",
-			[51] = 1670746442,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [57]
-		{
-			"Yes chef!", -- [1]
-			"Callinn-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Callinn-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			803, -- [11]
-			"Player-3685-07184B19", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaCallinn|r",
-			[51] = 1670746445,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [58]
-		{
-			"il nuk no'ku", -- [1]
-			"Rendezz-Turalyon", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Rendezz-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			804, -- [11]
-			"Player-3685-07D85641", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aRendezz|r",
-			[51] = 1670746446,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
-		{
-			"Yes chef!", -- [1]
-			"Rendezz-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rendezz-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			806, -- [11]
-			"Player-3685-07D85641", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aRendezz|r",
-			[51] = 1670746450,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [60]
-		{
-			"Yes chef!", -- [1]
-			"Xenafreak-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Xenafreak-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			807, -- [11]
-			"Player-3685-0725053B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dXenafreak|r",
-			[51] = 1670746450,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
-		{
-			"Yes chef!", -- [1]
-			"Hexdstrike-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Hexdstrike-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			808, -- [11]
-			"Player-3685-0AD755F7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff98Hexdstrike|r",
-			[51] = 1670746450,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
-		{
-			"Yes chef!", -- [1]
-			"Dentedplate-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dentedplate-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			809, -- [11]
-			"Player-3685-0710B100", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dDentedplate|r",
-			[51] = 1670746450,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [63]
-		{
-			"Yes chef!", -- [1]
-			"Naudin-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Naudin-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			818, -- [11]
-			"Player-3685-06F79FAE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebNaudin|r",
-			[51] = 1670746536,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [64]
-		{
-			"Yes chef!", -- [1]
-			"Tahroo-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Tahroo-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			819, -- [11]
-			"Player-3685-07204507", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaTahroo|r",
-			[51] = 1670746537,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [65]
-		{
-			"Yes chef!", -- [1]
-			"Zordez-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zordez-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			820, -- [11]
-			"Player-3685-0E012543", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Zordez|r",
-			[51] = 1670746539,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [66]
-		{
-			"revash zug KA throm ", -- [1]
-			"Mjolfurion-Turalyon", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Mjolfurion-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			1, -- [10]
-			850, -- [11]
-			"Player-3685-0DEEC965", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aMjolfurion|r",
-			[51] = 1670746583,
-			[50] = "CHAT_MSG_YELL",
-		}, -- [67]
-		{
-			"What the fuck.", -- [1]
-			"Seeding-Turalyon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Seeding-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			851, -- [11]
-			"Player-3685-0DFEDF26", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aSeeding|r",
-			[51] = 1670746589,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [68]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:16363:Player-3685-0722C2B9:1:12:11:22:4294967295:4294967295:4294967295:4294967295|h[Just Don't Ask Me to Spell It]|h|r!", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Amdam-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1374, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670832754,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [69]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:16460:Player-3685-0722C2B9:1:12:12:22:4294967295:4294967295:4294967295:4294967295|h[Explore the Azure Span]|h|r!", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Amdam-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1376, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670900961,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [70]
-		{
-			"|cffffd000|Htrade:Player-3685-0CD64011:2108:165|h[Leatherworking]|h|r lv 100 lfw", -- [1]
-			"Llalow-Turalyon", -- [2]
+			"LF JC to make |cffa335ee|Hitem:193001::::::::70:62:::::::::|h[Elemental Lariat]|h|r", -- [1]
+			"Misgnomer-Turalyon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Llalow-Turalyon", -- [5]
+			"Misgnomer-Turalyon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			1581, -- [11]
-			"Player-3685-0CD64011", -- [12]
+			894, -- [11]
+			"Player-3685-0DFA440B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffff7c0aLlalow|r",
-			[51] = 1670902734,
+			[52] = "|cff3fc7ebMisgnomer|r",
+			[51] = 1671571663,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [44]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:16571:Player-3685-0722C2B9:1:12:21:22:4294967295:4294967295:4294967295:4294967295|h[Well Supplied]|h|r!", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Amdam-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2040, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1671659695,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [45]
+		{
+			"nvm some dude showed up", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2421, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671662530,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [46]
+		{
+			"im here", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2424, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671662541,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [47]
+		{
+			"oh hahahaha", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2429, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671662546,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [48]
+		{
+			"already did all the wqs on my mage so i logged over to paladin", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2434, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671662570,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [49]
+		{
+			"i brezed you", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2445, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671662627,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [50]
+		{
+			"lol i tried to root him", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2446, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671662628,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [51]
+		{
+			"he was an elite", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2447, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671662635,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [52]
+		{
+			"i avoid those lol", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2448, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671662639,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [53]
+		{
+			"i didnt know you could do that in the workl", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2449, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671662584,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [54]
+		{
+			"yeah you can do it anywhere", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2450, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671662655,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [55]
+		{
+			"and paladins can brez now", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2451, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671662658,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [56]
+		{
+			"just have to be in party", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2453, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671662670,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [57]
+		{
+			"watch out for big guy", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2455, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671662680,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [58]
+		{
+			"all done?", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2469, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671662735,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [59]
+		{
+			"yes", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2472, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671662705,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [60]
+		{
+			"i got a trincket ", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2475, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671662772,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [61]
+		{
+			"nice", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2476, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671662782,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [62]
+		{
+			"wanna do the world boss?", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2479, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671662793,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [63]
+		{
+			"sure", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2480, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671662806,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [64]
+		{
+			"let me finish fishing this ", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2483, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671662814,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [65]
+		{
+			"im getting blue fish", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2484, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671662818,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [66]
+		{
+			"|Hquest:69929:110|h[Strunraan]|h", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2485, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671662819,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [67]
+		{
+			"ok lets go", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2491, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671662850,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [68]
+		{
+			"quick before it fills", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2500, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671662934,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [69]
+		{
+			"Honeyßèár使用了|cff71d5ff|Hspell:20484:0|h[复生]|h|r -> 未知目标", -- [1]
+			"Simimasan-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Simimasan-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2523, -- [11]
+			"Player-60-0EE3CE08", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff98Simimasan-Stormrage|r",
+			[51] = 1671662954,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [70]
+		{
+			"dont stnad in watyer", -- [1]
+			"Limeenjoyer-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Limeenjoyer-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2526, -- [11]
+			"Player-60-0ED82D55", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aLimeenjoyer-Stormrage|r",
+			[51] = 1671662967,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [71]
 		{
-			"\"", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"Common", -- [3]
+			"ugh fuck", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Amdam-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			1750, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
+			0, -- [10]
+			2527, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670903330,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671662971,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [72]
 		{
-			"2.2☻633333333333333333333325232238+ +", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"Common", -- [3]
+			"Emilucky使用了|cff71d5ff|Hspell:20484:0|h[复生]|h|r -> 未知目标", -- [1]
+			"Simimasan-Stormrage", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Amdam-Turalyon", -- [5]
+			"Simimasan-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			1751, -- [11]
-			"Player-3685-0722C2B9", -- [12]
+			0, -- [10]
+			2530, -- [11]
+			"Player-60-0EE3CE08", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670903339,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00ff98Simimasan-Stormrage|r",
+			[51] = 1671663137,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [73]
 		{
-			"?||+?>\":||", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"Common", -- [3]
+			"[史诗精英世界任务]|cffffff00|Hquest:69929:2471|h[斯图恩兰]|h|r 消灭斯图恩兰 1/1", -- [1]
+			"Simimasan-Stormrage", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Amdam-Turalyon", -- [5]
+			"Simimasan-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			1752, -- [11]
-			"Player-3685-0722C2B9", -- [12]
+			0, -- [10]
+			2578, -- [11]
+			"Player-60-0EE3CE08", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670903293,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00ff98Simimasan-Stormrage|r",
+			[51] = 1671663155,
+			[50] = "CHAT_MSG_RAID",
 		}, -- [74]
 		{
-			"||'\\21+", -- [1]
+			"[每周]|cffffff00|Hquest:72375:2437|h[援助联军：群岛呼唤]|h|r 在巨龙群岛各地获得声望 790/3000", -- [1]
+			"Simimasan-Stormrage", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Simimasan-Stormrage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2584, -- [11]
+			"Player-60-0EE3CE08", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff98Simimasan-Stormrage|r",
+			[51] = 1671663155,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [75]
+		{
+			"Come stretch your paws (wings?) with |cffffd100|HclubFinder:ClubFinder-1-155216-3685-95039213|h[Guild: Herd of Cats]|h|r in Dragonflight! Recruiting moar DPS for raid, Thurs 8-10/Sat 8-11pm server. Join us for Mythic Mondays! All are welcome :)", -- [1]
+			"Sandara-Turalyon", -- [2]
+			"", -- [3]
+			"1. General - The Azure Span", -- [4]
+			"Sandara-Turalyon", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - The Azure Span", -- [9]
+			0, -- [10]
+			11, -- [11]
+			"Player-3685-0704B2B4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff0070ddSandara|r",
+			[51] = 1671687568,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [76]
+		{
+			" hello", -- [1]
 			"Amdam-Turalyon", -- [2]
-			"Common", -- [3]
+			"", -- [3]
 			"", -- [4]
 			"Amdam-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			7, -- [10]
-			1753, -- [11]
+			0, -- [10]
+			28, -- [11]
 			"Player-3685-0722C2B9", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1648,12 +1692,188 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1670903295,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [75]
+			[51] = 1671687725,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [77]
 		{
-			"you never answered me", -- [1]
-			"|Kq32|k", -- [2]
+			"ni", -- [1]
+			"|Kq44|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			32, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671687830,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [78]
+		{
+			"morning", -- [1]
+			"|Kq40|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			42, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671729155,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [79]
+		{
+			"look who I just bought |Hbattlepet:248:1:3:152:12:12:BattlePet-0-000021130B36:30414|h[Pandaren Monk]|h", -- [1]
+			"|Kq40|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			47, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671729178,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [80]
+		{
+			"oh is here a sale?", -- [1]
+			"|Kq40|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			51, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671729196,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [81]
+		{
+			"lil xt is too ", -- [1]
+			"|Kq40|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			52, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671729209,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [82]
+		{
+			"apparently they are discontuning them after jan 3rd", -- [1]
+			"|Kq40|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			53, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671729344,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [83]
+		{
+			"look my bis neckalce got crafted |Hitem:193001::::::::70:70::13:8:8836:8840:8902:8960:8784:8780:8802:8793:6:28:2164:29:49:30:32:38:8:40:260:48:194566::::Player-3685-0DE34138:|h[Elemental Lariat ]|h", -- [1]
+			"|Kq40|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			54, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671729349,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [84]
+		{
+			"so you know, if you need another christmas present for me...", -- [1]
+			"|Kq40|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			55, -- [11]
+			false, -- [12]
+			44, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671729369,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [85]
+		{
+			"woah", -- [1]
+			"|Kq40|k", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1670,12 +1890,12 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffff7c0aTayTay|r",
-			[51] = 1670910259,
+			[51] = 1671729391,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [76]
+		}, -- [86]
 		{
-			"answered you? what did you ask?", -- [1]
-			"|Kq32|k", -- [2]
+			"looks like i already have lil xt", -- [1]
+			"|Kq40|k", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1692,12 +1912,12 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffff7c0aTayTay|r",
-			[51] = 1670910275,
+			[51] = 1671729363,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [77]
+		}, -- [87]
 		{
-			"why cant i hear the npc's talk", -- [1]
-			"|Kq32|k", -- [2]
+			"you don't have it?", -- [1]
+			"|Kq40|k", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1714,12 +1934,12 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffff7c0aTayTay|r",
-			[51] = 1670910298,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [78]
+			[51] = 1671729427,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [88]
 		{
-			"only the main questline has voiced dialog", -- [1]
-			"|Kq32|k", -- [2]
+			"lil k.t.", -- [1]
+			"|Kq40|k", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1736,471 +1956,251 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffff7c0aTayTay|r",
-			[51] = 1670910318,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [79]
-		{
-			"what were the three items again", -- [1]
-			"Tideran-Turalyon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Tideran-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			206, -- [11]
-			"Player-3685-0A0D6969", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aTideran|r",
-			[51] = 1670913284,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [80]
-		{
-			"Come on down to 30.43/77.94 for Dragonbane Keep, starts in 20 minutes. You KNOW you are out of quests and are bored!", -- [1]
-			"Justynne-Turalyon", -- [2]
-			"", -- [3]
-			"1. General - The Waking Shores", -- [4]
-			"Justynne-Turalyon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - The Waking Shores", -- [9]
-			0, -- [10]
-			2, -- [11]
-			"Player-3685-0DE8D0B0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8788eeJustynne|r",
-			[51] = 1670913606,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
-		{
-			"10 minutes before siege on Dragonbane, could use more", -- [1]
-			"Justynne-Turalyon", -- [2]
-			"", -- [3]
-			"1. General - The Waking Shores", -- [4]
-			"Justynne-Turalyon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - The Waking Shores", -- [9]
-			0, -- [10]
-			74, -- [11]
-			"Player-3685-0DE8D0B0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8788eeJustynne|r",
-			[51] = 1670914107,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:16575:Player-3685-07250229:1:12:12:22:4294967295:4294967295:4294967295:4294967295|h[Waking Shores Glyph Hunter]|h|r!", -- [1]
-			"Suniza-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Suniza-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			260, -- [11]
-			"Player-3685-07250229", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Suniza|r",
-			[51] = 1670915309,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [83]
-		{
-			"dammit", -- [1]
-			"Wumborama-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			22, -- [11]
-			"Player-3685-08CF9F04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Wumborama|r",
-			[51] = 1671036949,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [84]
-		{
-			"I need like dos to spam me with heals", -- [1]
-			"Wumborama-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			23, -- [11]
-			"Player-3685-08CF9F04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Wumborama|r",
-			[51] = 1671036954,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [85]
-		{
-			"for this snail lol", -- [1]
-			"Wumborama-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			25, -- [11]
-			"Player-3685-08CF9F04", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Wumborama|r",
-			[51] = 1671036958,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [86]
-		{
-			"anyone have their quest |cffffff00|Hquest:66221:2401|h[Moving On]|h|r bugg?", -- [1]
-			"Dracò-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dracò-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			25, -- [11]
-			"Player-3685-0DF907D0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff33937fDracò|r",
-			[51] = 1671091407,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
-		{
-			"alexstraza is not here :( i cant figure it out getting flustered lol", -- [1]
-			"Dracò-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dracò-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			27, -- [11]
-			"Player-3685-0DF907D0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff33937fDracò|r",
-			[51] = 1671091423,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
-		{
-			"hilarious, boss is not up yet", -- [1]
-			"Kagamishizen-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kagamishizen-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			90, -- [11]
-			"Player-5-0AB4D66D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aKagamishizen-Proudmoore|r",
-			[51] = 1671091767,
-			[50] = "CHAT_MSG_RAID",
+			[51] = 1671729452,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [89]
 		{
-			"some dude pulled it and now it despawned", -- [1]
-			"Saltzpyre-Nazjatar", -- [2]
+			"oh that", -- [1]
+			"|Kq40|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Saltzpyre-Nazjatar", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			99, -- [11]
-			"Player-77-0D35AB3D", -- [12]
-			0, -- [13]
+			60, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaSaltzpyre-Nazjatar|r",
-			[51] = 1671091801,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671729492,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [90]
 		{
-			"he was, but then someone fought him and lost", -- [1]
-			"Thebigdude-GrizzlyHills", -- [2]
+			"look on battle net", -- [1]
+			"|Kq40|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Thebigdude-GrizzlyHills", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			100, -- [11]
-			"Player-1175-0E8892D4", -- [12]
-			0, -- [13]
+			61, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Thebigdude-GrizzlyHills|r",
-			[51] = 1671091803,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671729516,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [91]
 		{
-			"He didn't lose, he was deemed unworthy.", -- [1]
-			"Brandex-Lightbringer", -- [2]
+			"can you use |Hitem:192887::::::::70:70::13:1:3524:2:40:289:38:1:::::|h[Elemental Harmony ]|h", -- [1]
+			"|Kq40|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Brandex-Lightbringer", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			106, -- [11]
-			"Player-3694-069AD8DF", -- [12]
-			0, -- [13]
+			168, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaBrandex-Lightbringer|r",
-			[51] = 1671091824,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671729841,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [92]
 		{
-			"whats the spawn timer on this?", -- [1]
-			"Xingxong-Cenarius", -- [2]
+			"idk", -- [1]
+			"|Kq40|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Xingxong-Cenarius", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			112, -- [11]
-			"Player-1168-0822CDF3", -- [12]
-			0, -- [13]
+			242, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff0070ddXingxong-Cenarius|r",
-			[51] = 1671091881,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671730333,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [93]
 		{
-			"the UI glitching is sooo bad", -- [1]
-			"Stier-Stormrage", -- [2]
+			"how the f do i fish these crabs", -- [1]
+			"|Kq40|k", -- [2]
 			"", -- [3]
-			"1. General - The Waking Shores", -- [4]
-			"Stier-Stormrage", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - The Waking Shores", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			149, -- [11]
-			"Player-60-0E8FB91E", -- [12]
-			0, -- [13]
+			497, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Stier-Stormrage|r",
-			[51] = 1671091984,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671730769,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [94]
 		{
-			"party or raid frames constantly disappearing and then appearing....", -- [1]
-			"Stier-Stormrage", -- [2]
+			"use the special action button", -- [1]
+			"|Kq40|k", -- [2]
 			"", -- [3]
-			"1. General - The Waking Shores", -- [4]
-			"Stier-Stormrage", -- [5]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - The Waking Shores", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			150, -- [11]
-			"Player-60-0E8FB91E", -- [12]
-			0, -- [13]
+			546, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Stier-Stormrage|r",
-			[51] = 1671091993,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671730807,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [95]
 		{
-			"NINJATURTLE!", -- [1]
-			"Ninjaslasher-Frostmourne", -- [2]
+			"or just kill them", -- [1]
+			"|Kq40|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Ninjaslasher-Frostmourne", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			152, -- [11]
-			"Player-3725-0C046F4E", -- [12]
-			0, -- [13]
+			551, -- [11]
+			false, -- [12]
+			44, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Ninjaslasher-Frostmourne|r",
-			[51] = 1671092051,
-			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffff7c0aTayTay|r",
+			[51] = 1671730809,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [96]
 		{
-			"ty", -- [1]
-			"Rodamon-Moonrunner", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:15924:Player-3685-0DB0E514:1:12:23:22:4294967295:4294967295:4294967295:4294967295|h[Thaldraszus: Bronze]|h|r!", -- [1]
+			"Ironclad-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Rodamon-Moonrunner", -- [5]
+			"Ironclad-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			221, -- [11]
-			"Player-1175-0D8C3CE2", -- [12]
+			2, -- [11]
+			"Player-3685-0DB0E514", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaRodamon-Moonrunner|r",
-			[51] = 1671092167,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc69b6dIronclad|r",
+			[51] = 1671856371,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [97]
 		{
-			"ty!", -- [1]
-			"Reiði-EmeraldDream", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:15925:Player-3685-0DB0E514:1:12:23:22:4294967295:4294967295:4294967295:4294967295|h[Thaldraszus: Silver]|h|r!", -- [1]
+			"Ironclad-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Reiði-EmeraldDream", -- [5]
+			"Ironclad-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			239, -- [11]
-			"Player-162-0B90AFE6", -- [12]
+			3, -- [11]
+			"Player-3685-0DB0E514", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dReiði-EmeraldDream|r",
-			[51] = 1671092173,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc69b6dIronclad|r",
+			[51] = 1671856371,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [98]
 		{
-			"ty", -- [1]
-			"Graenold-Stormrage", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:15926:Player-3685-0DB0E514:1:12:23:22:4294967295:4294967295:4294967295:4294967295|h[Thaldraszus: Gold]|h|r!", -- [1]
+			"Ironclad-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Graenold-Stormrage", -- [5]
+			"Ironclad-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			244, -- [11]
-			"Player-60-0EE46007", -- [12]
+			28, -- [11]
+			"Player-3685-0DB0E514", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaGraenold-Stormrage|r",
-			[51] = 1671092176,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc69b6dIronclad|r",
+			[51] = 1671856547,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/p i'll swap to prot for tree tho", -- [1]
-		"/p sounds good", -- [2]
-		"/p no ty", -- [3]
-		"/p rip", -- [4]
-		"/p ty all", -- [5]
-		"hey man, how you liking evoker so far?", -- [6]
-		"/way #2024 45.63 54.82 Case of Fresh Gleamfish", -- [7]
-		"/p done", -- [8]
-		"/wa", -- [9]
-		"/clique", -- [10]
-		"/ec", -- [11]
-		"/macro", -- [12]
-		"/reload", -- [13]
-		"/time", -- [14]
-		"/s \"", -- [15]
-		"/s 2.2☻633333333333333333333325232238+ +", -- [16]
-		"/s ?||+?>\":||", -- [17]
-		"/s ||'\\21+", -- [18]
-		"answered you? what did you ask?", -- [19]
-		"only the main questline has voiced dialog", -- [20]
+		"and paladins can brez now", -- [1]
+		"just have to be in party", -- [2]
+		"watch out for big guy", -- [3]
+		"all done?", -- [4]
+		"nice", -- [5]
+		"sure", -- [6]
+		"let me finish fishing this", -- [7]
+		"im getting blue fish", -- [8]
+		"ok lets go", -- [9]
+		"quick before it fills", -- [10]
+		"/p  hello", -- [11]
+		"oh is here a sale?", -- [12]
+		"look my bis neckalce got crafted |cffa335ee|Hitem:193001::::::::70:70::13:8:8836:8840:8902:8960:8784:8780:8802:8793:6:28:2164:29:49:30:32:38:8:40:260:48:194566::::Player-3685-0DE34138:|h[Elemental Lariat |A:Professions-ChatIcon-Quality-Tier5:17:17::1|a]|h|r", -- [13]
+		"looks like i already have lil xt", -- [14]
+		"you don't have it?", -- [15]
+		"oh that", -- [16]
+		"can you use |cff0070dd|Hitem:192887::::::::70:70::13:1:3524:2:40:289:38:1:::::|h[Elemental Harmony |A:Professions-ChatIcon-Quality-Tier1:17:15::1|a]|h|r", -- [17]
+		"use the special action button", -- [18]
+		"or just kill them", -- [19]
+		"/way 46.23 40.84", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

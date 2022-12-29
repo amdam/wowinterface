@@ -30,7 +30,7 @@ HHTD: disabled
 Pawn: disabled
 HiddenSkinTracker: disabled
 BattlegroundTargets: disabled
-AtlasLoot: enabled
+AtlasLoot: disabled
 WorldQuestTracker: enabled
 ElvUI_BenikUI: enabled
 ElvUI_EverySecondCounts: disabled
@@ -40,7 +40,7 @@ RaiderIO_DB_KR_H_R: disabled
 RaiderIO_DB_KR_A_R: disabled
 RaiderIO_DB_EU_H_R: disabled
 RaiderIO_DB_EU_A_R: disabled
-AngryKeystones: disabled
+AngryKeystones: enabled
 WeakAurasCompanion: enabled
 OPie_Classic: disabled
 ElvUI_VisualAuraTimers: disabled
@@ -175,7 +175,7 @@ RaiderIO_DB_KR_M: disabled
 RaiderIO_DB_EU_R: disabled
 RaiderIO_DB_EU_M: disabled
 ElvUI_UnitFramePlugin: disabled
-OmniCD: disabled
+OmniCD: enabled
 Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
 ElvUI_Options: enabled

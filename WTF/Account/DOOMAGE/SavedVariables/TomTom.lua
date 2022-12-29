@@ -75,11 +75,12 @@ TomTomWaypointsM = {
 		["Abel - Turalyon"] = "Abel - Turalyon",
 		["Adamancy - Turalyon"] = "Adamancy - Turalyon",
 		["Shado - Turalyon"] = "Shado - Turalyon",
-		["Broddah - Doomhammer"] = "Broddah - Doomhammer",
 		["Amdam - Turalyon"] = "Amdam - Turalyon",
+		["Broddah - Doomhammer"] = "Broddah - Doomhammer",
 		["Asaam - Turalyon"] = "Asaam - Turalyon",
 		["Adreya - Bloodscalp"] = "Adreya - Bloodscalp",
 		["Adamian - Turalyon"] = "Adamian - Turalyon",
+		["Badam - Turalyon"] = "Badam - Turalyon",
 		["Adomic - Turalyon"] = "Adomic - Turalyon",
 	},
 	["profiles"] = {
@@ -107,15 +108,17 @@ TomTomWaypointsM = {
 		},
 		["Shado - Turalyon"] = {
 		},
-		["Broddah - Doomhammer"] = {
-		},
 		["Amdam - Turalyon"] = {
+		},
+		["Broddah - Doomhammer"] = {
 		},
 		["Asaam - Turalyon"] = {
 		},
 		["Adreya - Bloodscalp"] = {
 		},
 		["Adamian - Turalyon"] = {
+		},
+		["Badam - Turalyon"] = {
 		},
 		["Adomic - Turalyon"] = {
 		},

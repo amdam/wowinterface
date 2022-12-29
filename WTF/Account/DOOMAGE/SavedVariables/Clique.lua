@@ -13,12 +13,12 @@ CliqueDB3 = {
 		},
 		["Adamancy - Turalyon"] = {
 			["spec1_profileKey"] = "Adamancy - Turalyon",
-			["fastooc"] = false,
-			["spec2_profileKey"] = "Adamancy - Turalyon",
-			["downclick"] = false,
 			["specswap"] = false,
+			["downclick"] = false,
+			["fastooc"] = false,
 			["alerthidden"] = true,
 			["spec3_profileKey"] = "Adamancy - Turalyon",
+			["spec2_profileKey"] = "Adamancy - Turalyon",
 		},
 		["Furrys - Turalyon"] = {
 			["spec1_profileKey"] = "Furrys - Turalyon",
@@ -37,6 +37,14 @@ CliqueDB3 = {
 			["spec3_profileKey"] = "Svend - Turalyon",
 			["spec2_profileKey"] = "Svend - Turalyon",
 		},
+		["Asaam - Turalyon"] = {
+			["spec1_profileKey"] = "Asaam - Turalyon",
+			["spec3_profileKey"] = "Asaam - Turalyon",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["specswap"] = false,
+			["spec2_profileKey"] = "Asaam - Turalyon",
+		},
 		["Amdam - Turalyon"] = {
 			["spec1_profileKey"] = "Amdam - Turalyon",
 			["specswap"] = false,
@@ -54,14 +62,6 @@ CliqueDB3 = {
 			["spec3_profileKey"] = "Abel - Turalyon",
 			["alerthidden"] = true,
 			["specswap"] = false,
-		},
-		["Asaam - Turalyon"] = {
-			["spec1_profileKey"] = "Asaam - Turalyon",
-			["spec3_profileKey"] = "Asaam - Turalyon",
-			["downclick"] = false,
-			["fastooc"] = false,
-			["specswap"] = false,
-			["spec2_profileKey"] = "Asaam - Turalyon",
 		},
 		["Adamian - Turalyon"] = {
 			["spec1_profileKey"] = "Adamian - Turalyon",
@@ -1183,21 +1183,22 @@ CliqueDB3 = {
 					["spell"] = "Word of Glory",
 				}, -- [8]
 				{
+					["spell"] = "Flash of Light",
+					["key"] = "SHIFT-BUTTON1",
+					["sets"] = {
+						["spec3"] = true,
+						["spec1"] = true,
+					},
+					["icon"] = 135907,
+					["type"] = "spell",
+				}, -- [9]
+				{
 					["spell"] = "Beacon of Faith",
 					["key"] = "CTRL-SHIFT-BUTTON2",
 					["sets"] = {
 						["spec1"] = true,
 					},
 					["icon"] = 1030095,
-					["type"] = "spell",
-				}, -- [9]
-				{
-					["spell"] = "Holy Shock",
-					["key"] = "BUTTON1",
-					["sets"] = {
-						["spec1"] = true,
-					},
-					["icon"] = 135972,
 					["type"] = "spell",
 				}, -- [10]
 				{
@@ -1229,14 +1230,13 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [13]
 				{
-					["spell"] = "Flash of Light",
-					["key"] = "SHIFT-BUTTON1",
+					["type"] = "spell",
+					["key"] = "CTRL-BUTTON2",
 					["sets"] = {
-						["spec3"] = true,
 						["spec1"] = true,
 					},
-					["icon"] = 135907,
-					["type"] = "spell",
+					["icon"] = 236249,
+					["spell"] = "Bestow Faith",
 				}, -- [14]
 				{
 					["type"] = "menu",
@@ -1274,21 +1274,21 @@ CliqueDB3 = {
 				}, -- [18]
 				{
 					["type"] = "spell",
-					["key"] = "CTRL-BUTTON2",
-					["sets"] = {
-						["spec1"] = true,
-					},
-					["icon"] = 236249,
-					["spell"] = "Bestow Faith",
-				}, -- [19]
-				{
-					["type"] = "spell",
 					["key"] = "BUTTON2",
 					["sets"] = {
 						["spec1"] = true,
 					},
 					["icon"] = 133192,
 					["spell"] = "Word of Glory",
+				}, -- [19]
+				{
+					["spell"] = "Holy Shock",
+					["key"] = "BUTTON1",
+					["sets"] = {
+						["spec1"] = true,
+					},
+					["icon"] = 135972,
+					["type"] = "spell",
 				}, -- [20]
 				{
 					["type"] = "target",

@@ -505,7 +505,12 @@ function NP:Update_StatusBars()
 	for bar in pairs(NP.StatusBars) do
 		local sf = NP:StyleFilterChanges(bar:GetParent())
 		if not sf.HealthTexture then
-			bar:SetStatusBarTexture(LSM:Fetch('statusbar', NP.db.statusbar) or E.media.normTex)
+			local texture = LSM:Fetch('statusbar', NP.db.statusbar) or E.media.normTex
+			if bar.SetStatusBarTexture then
+				bar:SetStatusBarTexture(texture)
+			else
+				bar:SetTexture(texture)
+			end
 		end
 	end
 end
@@ -545,12 +550,12 @@ function NP:ToggleStaticPlate()
 	local isStatic = NP.db.units.PLAYER.useStaticPosition
 
 	if playerEnabled and isStatic then
-		E:EnableMover('ElvNP_PlayerMover')
+		E:EnableMover(_G.ElvNP_Player.mover.name)
 		_G.ElvNP_Player:Enable()
 		_G.ElvNP_StaticSecure:Show()
 	else
 		NP:DisablePlate(_G.ElvNP_Player)
-		E:DisableMover('ElvNP_PlayerMover')
+		E:DisableMover(_G.ElvNP_Player.mover.name)
 		_G.ElvNP_Player:Disable()
 		_G.ElvNP_StaticSecure:Hide()
 	end
@@ -743,6 +748,12 @@ function NP:NamePlateCallBack(nameplate, event, unit)
 		NP:UpdatePlateType(nameplate)
 		NP:UpdatePlateSize(nameplate)
 
+		nameplate.softTargetFrame = nameplate.blizzPlate and nameplate.blizzPlate.SoftTargetFrame
+		if nameplate.softTargetFrame then
+			nameplate.softTargetFrame:SetParent(nameplate)
+			nameplate.softTargetFrame:SetIgnoreParentAlpha(true)
+		end
+
 		if nameplate.widgetsOnly then
 			NP:DisablePlate(nameplate)
 
@@ -750,7 +761,7 @@ function NP:NamePlateCallBack(nameplate, event, unit)
 				nameplate.RaisedElement:Hide()
 			end
 
-			nameplate.widgetContainer = nameplate.blizzPlate.WidgetContainer
+			nameplate.widgetContainer = nameplate.blizzPlate and nameplate.blizzPlate.WidgetContainer
 			if nameplate.widgetContainer then
 				nameplate.widgetContainer:SetParent(nameplate)
 				nameplate.widgetContainer:ClearAllPoints()
@@ -789,6 +800,11 @@ function NP:NamePlateCallBack(nameplate, event, unit)
 			NP:UpdatePlateGUID(nameplate)
 		end
 
+		if nameplate.softTargetFrame then
+			nameplate.softTargetFrame:SetParent(nameplate.blizzPlate)
+			nameplate.softTargetFrame:SetIgnoreParentAlpha(false)
+		end
+
 		if not nameplate.widgetsOnly then
 			NP:BossMods_UpdateIcon(nameplate, true)
 
@@ -825,7 +841,7 @@ function NP:HideInterfaceOptions()
 	for _, x in pairs(optionsTable) do
 		local o = _G['InterfaceOptionsNamesPanelUnitNameplates' .. x]
 		if o then
-			o:SetSize(0.0001, 0.0001)
+			o:SetSize(0.00001, 0.00001)
 			o:SetAlpha(0)
 			o:Hide()
 		end

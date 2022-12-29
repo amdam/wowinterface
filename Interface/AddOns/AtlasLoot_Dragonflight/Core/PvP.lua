@@ -167,25 +167,25 @@ data["DFSEASON1"] = {
 		{ -- Non-Set Gear
 			name = AL["Non-Set Gear"],
 			[ALLIANCE_DIFF] = {
-				{  1, 202086, "mount" }, -- Crimson Gladiator's Drake
-				{  2, 201789, "mount" }, -- Vicious Sabertooth
-				{  3, 201250 }, -- Victorious Contender's Strongbox
-				{  4, 201836 }, -- Aspects' Token of Merit
-				{  5, 201792 }, -- Highland Drake: Embodiment of the Crimson Gladiator
-				{  6, 202047 }, -- Gleaming Incarnate Thunderstone
+				{ 1, 201449 }, -- Crimson Aspirant's Badge of Ferocity
+				{ 2, 201452 }, -- Crimson Aspirant's Emblem
+				{ 3, 201450 }, -- Crimson Aspirant's Medallion
+				{ 4, 201451 }, -- Crimson Aspirant's Insignia of Alacrity
+				{ 5, 201453 }, -- Crimson Aspirant's Sigil of Adaptation
+
+				{ 16, 201807 }, -- Crimson Gladiator's Badge of Ferocity
+				{ 17, 201809 }, -- Crimson Gladiator's Emblem
+				{ 18, 201810 }, -- Crimson Gladiator's Medallion
+				{ 19, 201808 }, -- Crimson Gladiator's Insignia of Alacrity
+				{ 20, 201811 }, -- Crimson Gladiator's Sigil of Adaptation
+
+				{ 22, 202086, "mount" }, -- Crimson Gladiator's Drake
+				{ 23, 201789, "mount" }, -- Vicious Sabertooth
+				{ 24, 201250 }, -- Victorious Contender's Strongbox
+				{ 25, 201836 }, -- Aspects' Token of Merit
+				{ 26, 201792 }, -- Highland Drake: Embodiment of the Crimson Gladiator
+				{ 27, 202047 }, -- Gleaming Incarnate Thunderstone
 				
-				{  8 , 201449 }, -- Crimson Aspirant's Badge of Ferocity
-				{  9 , 201452 }, -- Crimson Aspirant's Emblem
-				{ 10, 201450 }, -- Crimson Aspirant's Medallion
-				{ 11, 201451 }, -- Crimson Aspirant's Insignia of Alacrity
-				{ 12, 201453 }, -- Crimson Aspirant's Sigil of Adaptation
-
-				{ 23, 201807 }, -- Crimson Gladiator's Badge of Ferocity
-				{ 24, 201809 }, -- Crimson Gladiator's Emblem
-				{ 25, 201810 }, -- Crimson Gladiator's Medallion
-				{ 26, 201808 }, -- Crimson Gladiator's Insignia of Alacrity
-				{ 27, 201811 }, -- Crimson Gladiator's Sigil of Adaptation
-
 				{ 101, 199090 }, -- Drakebreaker's Impaler
 				{ 102, 199078 }, -- Drakebreaker's Shiv
 				{ 103, 199091 }, -- Drakebreaker's Javelin
@@ -267,7 +267,7 @@ data["DFSEASON1"] = {
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
-				{ 2, 201788, "mount" }, -- Vicious Sabertooth
+				{ 23, 201788, "mount" }, -- Vicious Sabertooth
 			},
 		},
 		{ -- Mail
@@ -415,7 +415,7 @@ data["DFSEASON1"] = {
 			},
 		},
 		{ -- EVOKER
-			name = "|c"..RAID_CLASS_COLORS["EVOKER"]["colorStr"]..ALIL["EVOKER"],
+			name = ATLASLOOT_EVOKER_COLOR..ALIL["EVOKER"],
 			[ALLIANCE_DIFF] = {
 				{ 1 , 201504 }, -- Crimson Gladiator's Chain Vest
 				{ 2 , 201505 }, -- Crimson Gladiator's Chain Tunic
@@ -441,10 +441,28 @@ data["DFSEASON1"] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
---[[
 		{ -- DEATHKNIGHT
 			name = ATLASLOOT_DEATHKNIGHT_COLOR..ALIL["DEATHKNIGHT"],
 			[ALLIANCE_DIFF] = {
+				{ 1 , 201520 }, -- Crimson Gladiator's Plate Chestguard
+				{ 2 , 201521 }, -- Crimson Gladiator's Plate Chestplate
+				{ 3 , 201522 }, -- Crimson Gladiator's Plate Warboots
+				{ 4 , 201523 }, -- Crimson Gladiator's Plate Stompers
+				{ 5 , 201524 }, -- Crimson Gladiator's Plate Gauntlets
+				{ 6 , 201525 }, -- Crimson Gladiator's Plate Handguards
+				{ 7 , 201526 }, -- Crimson Gladiator's Plate Helm
+				{ 8 , 201527 }, -- Crimson Gladiator's Plate Helmet
+				{ 9 , 201528 }, -- Crimson Gladiator's Plate Legguards
+				{ 10, 201529 }, -- Crimson Gladiator's Plate Wargreaves
+				{ 11, 201530 }, -- Crimson Gladiator's Plate Shoulders
+				{ 12, 201531 }, -- Crimson Gladiator's Plate Pauldrons
+				{ 13, 201532 }, -- Crimson Gladiator's Plate Girdle
+				{ 14, 201533 }, -- Crimson Gladiator's Plate Greatbelt
+				{ 15, 201534 }, -- Crimson Gladiator's Plate Wristguards
+				{ 16, 201535 }, -- Crimson Gladiator's Plate Vambraces
+				{ 17, 201911 }, -- Crimson Gladiator's Cloak
+				{ 18, 201912 }, -- Crimson Gladiator's Drape
+				{ 19, 201913 }, -- Crimson Gladiator's Shawl
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
@@ -453,12 +471,30 @@ data["DFSEASON1"] = {
 		{ -- DEMONHUNTER
 			name = ATLASLOOT_DEMONHUNTER_COLOR..ALIL["DEMONHUNTER"],
 			[ALLIANCE_DIFF] = {
+				{ 1 , 201568 }, -- Crimson Gladiator's Leather Vest
+				{ 2 , 201569 }, -- Crimson Gladiator's Leather Jerkin
+				{ 3 , 201570 }, -- Crimson Gladiator's Leather Boots
+				{ 4 , 201571 }, -- Crimson Gladiator's Leather Treads
+				{ 5 , 201572 }, -- Crimson Gladiator's Leather Gloves
+				{ 6 , 201573 }, -- Crimson Gladiator's Leather Grips
+				{ 7 , 201574 }, -- Crimson Gladiator's Leather Helm
+				{ 8 , 201575 }, -- Crimson Gladiator's Leather Mask
+				{ 9 , 201576 }, -- Crimson Gladiator's Leather Breeches
+				{ 10, 201577 }, -- Crimson Gladiator's Leather Legwraps
+				{ 11, 201578 }, -- Crimson Gladiator's Leather Spaulders
+				{ 12, 201579 }, -- Crimson Gladiator's Leather Shoulderpads
+				{ 13, 201580 }, -- Crimson Gladiator's Leather Belt
+				{ 14, 201581 }, -- Crimson Gladiator's Leather Strap
+				{ 15, 201582 }, -- Crimson Gladiator's Leather Wristwraps
+				{ 16, 201583 }, -- Crimson Gladiator's Leather Wristguards
+				{ 17, 201890 }, -- Crimson Gladiator's Cloak
+				{ 18, 201891 }, -- Crimson Gladiator's Drape
+				{ 19, 201892 }, -- Crimson Gladiator's Shawl
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
-]]
 		{ -- DRUID
 			name = ATLASLOOT_DRUID_COLOR..ALIL["DRUID"],
 			[ALLIANCE_DIFF] = {
@@ -513,16 +549,33 @@ data["DFSEASON1"] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
---[[
 		{ -- MAGE
 			name = ATLASLOOT_MAGE_COLOR..ALIL["MAGE"],
 			[ALLIANCE_DIFF] = {
+				{ 1 , 201472 }, -- Crimson Gladiator's Silk Tunic
+				{ 2 , 201473 }, -- Crimson Gladiator's Silk Blouse
+				{ 3 , 201474 }, -- Crimson Gladiator's Silk Slippers
+				{ 4 , 201475 }, -- Crimson Gladiator's Silk Treads
+				{ 5 , 201476 }, -- Crimson Gladiator's Silk Gloves
+				{ 6 , 201477 }, -- Crimson Gladiator's Silk Handwraps
+				{ 7 , 201478 }, -- Crimson Gladiator's Silk Hood
+				{ 8 , 201479 }, -- Crimson Gladiator's Silk Guise
+				{ 9 , 201480 }, -- Crimson Gladiator's Silk Leggings
+				{ 10, 201481 }, -- Crimson Gladiator's Silk Trousers
+				{ 11, 201482 }, -- Crimson Gladiator's Silk Mantle
+				{ 12, 201483 }, -- Crimson Gladiator's Silk Amice
+				{ 13, 201484 }, -- Crimson Gladiator's Silk Cord
+				{ 14, 201485 }, -- Crimson Gladiator's Silk Belt
+				{ 15, 201486 }, -- Crimson Gladiator's Silk Wristwraps
+				{ 16, 201487 }, -- Crimson Gladiator's Silk Armbands
+				{ 17, 201797 }, -- Crimson Gladiator's Cloak
+				{ 18, 201798 }, -- Crimson Gladiator's Drape
+				{ 19, 201799 }, -- Crimson Gladiator's Shawl
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
-]]
 		{ -- MONK
 			name = ATLASLOOT_MONK_COLOR..ALIL["MONK"],
 			[ALLIANCE_DIFF] = {
@@ -577,16 +630,33 @@ data["DFSEASON1"] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
---[[
 		{ -- PRIEST
 			name = ATLASLOOT_PRIEST_COLOR..ALIL["PRIEST"],
 			[ALLIANCE_DIFF] = {
+				{ 1 , 201536 }, -- Crimson Gladiator's Silk Robe
+				{ 2 , 201537 }, -- Crimson Gladiator's Silk Vestments
+				{ 3 , 201538 }, -- Crimson Gladiator's Silk Slippers
+				{ 4 , 201539 }, -- Crimson Gladiator's Silk Treads
+				{ 5 , 201540 }, -- Crimson Gladiator's Silk Gloves
+				{ 6 , 201541 }, -- Crimson Gladiator's Silk Handwraps
+				{ 7 , 201542 }, -- Crimson Gladiator's Silk Hood
+				{ 8 , 201543 }, -- Crimson Gladiator's Silk Guise
+				{ 9 , 201544 }, -- Crimson Gladiator's Silk Leggings
+				{ 10, 201545 }, -- Crimson Gladiator's Silk Trousers
+				{ 11, 201546 }, -- Crimson Gladiator's Silk Mantle
+				{ 12, 201547 }, -- Crimson Gladiator's Silk Amice
+				{ 13, 201548 }, -- Crimson Gladiator's Silk Cord
+				{ 14, 201549 }, -- Crimson Gladiator's Silk Belt
+				{ 15, 201550 }, -- Crimson Gladiator's Silk Wristwraps
+				{ 16, 201551 }, -- Crimson Gladiator's Silk Armbands
+				{ 17, 201884 }, -- Crimson Gladiator's Cloak
+				{ 18, 201885 }, -- Crimson Gladiator's Drape
+				{ 19, 201886 }, -- Crimson Gladiator's Shawl
 			},
 			[HORDE_DIFF] = {
 				GetItemsFromDiff = ALLIANCE_DIFF,
 			},
 		},
-]]
 		{ -- ROGUE
 			name = ATLASLOOT_ROGUE_COLOR..ALIL["ROGUE"],
 			[ALLIANCE_DIFF] = {

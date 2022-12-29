@@ -1,13 +1,13 @@
 VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast [nomodifier,spec:2][modifier:alt,spec:3][nomodifier,spec:1] Execute; /cast [modifier:alt,spec:2][nomodifier,spec:3][modifier:alt,spec:1]  Ignore Pain;
+/cast [mod:alt,spec:3] Execute; [spec:3] Ignore Pain; Execute;
 /script UIErrorsFrame:Clear();
 END
 VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast [mod:alt] Whirlwind; [spec:2] Bloodthirst; [spec:3] Devastate; [spec:1] Overpower;
+/cast [mod:alt] Victory Rush; [spec:2] Bloodthirst; [spec:3] Devastate; [spec:1] Overpower;
 /script UIErrorsFrame:Clear();
 END
 VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
@@ -23,18 +23,18 @@ END
 VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast [nomodifier] Thunder Clap; /cast [modifier:alt] Shockwave
+/cast [mod:alt,known:Shockwave] Shockwave; Thunder Clap;.
 /script UIErrorsFrame:Clear();
 END
 VER 3 0100000000000009 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:alt] Heroic Throw; [spec:2] Odyn's Fury; [spec:3] Taunt;
+/cast [mod:alt,known:Spear of Bastion,@cursor] Spear of Bastion; [mod:alt] Heroic Throw; [spec:2] Odyn's Fury; [spec:3] Taunt;
 /script UIErrorsFrame:Clear();
 END
 VER 3 010000000000000A " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast [nomodifier] Rampage; /cast [modifier:alt] Siegebreaker
+/cast [mod:alt,known:Shockwave] Shockwave; Rampage;
 /script UIErrorsFrame:Clear();
 END
 VER 3 010000000000000F " " "SPELL_HOLY_ASHESTOASHES"
@@ -52,13 +52,13 @@ END
 VER 3 0100000000000011 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast [mod:alt,known:Storm of Swords] Slam; Whirlwind;
+/cast [mod:alt,known:Ravager,@cursor] Ravager; Whirlwind;
 /script UIErrorsFrame:Clear()
 END
 VER 3 0100000000000016 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast [modifier:alt,talent:6/3] Ravager; [nomodifier] Revenge;
+/cast [mod:alt,known:Ravager,@cursor] Ravager; Revenge;
 /script UIErrorsFrame:Clear()
 END
 VER 3 0100000000000017 " " "INV_MISC_QUESTIONMARK"
@@ -68,7 +68,7 @@ VER 3 0100000000000017 " " "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000018 " " "458972"
 #showtooltip
-/cast [known:Recklessness] Recklessness;
+/cast [nospec:3] Recklessness;
 /cast [known:Avatar] Avatar;
 /use 13
 /script UIErrorsFrame:Clear()

@@ -75,6 +75,7 @@ TomTomWaypointsM = {
 		["Abel - Turalyon"] = "Abel - Turalyon",
 		["Adamancy - Turalyon"] = "Adamancy - Turalyon",
 		["Adomic - Turalyon"] = "Adomic - Turalyon",
+		["Badam - Turalyon"] = "Badam - Turalyon",
 		["Broddah - Doomhammer"] = "Broddah - Doomhammer",
 		["Adamian - Turalyon"] = "Adamian - Turalyon",
 		["Adreya - Bloodscalp"] = "Adreya - Bloodscalp",
@@ -106,6 +107,8 @@ TomTomWaypointsM = {
 		["Adamancy - Turalyon"] = {
 		},
 		["Adomic - Turalyon"] = {
+		},
+		["Badam - Turalyon"] = {
 		},
 		["Broddah - Doomhammer"] = {
 		},

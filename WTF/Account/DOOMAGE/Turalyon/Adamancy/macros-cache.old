@@ -74,7 +74,7 @@ VER 3 010000000000001A " " "INV_MISC_QUESTIONMARK"
 END
 VER 3 010000000000001B " " "134400"
 #showtooltip
-/cast [mod:alt,known:Summon Water Elemental,@cursor] Freeze; [known:Ice Floes,mod:shift] Ice Floes; [known:Ice Nova] Ice Nova;
+/cast [mod:alt,known:Summon Water Elemental,@cursor] Freeze; [mod:alt,known:Meteor,@cursor] Meteor; [known:Ice Floes,mod:shift] Ice Floes; [known:Ice Nova] Ice Nova;
 /script UIErrorsFrame:Clear()
 END
 VER 3 010000000000001C " " "134400"
@@ -86,5 +86,16 @@ VER 3 010000000000001D " " "134400"
 #showtooltip Arcane Surge
 /use 13
 /cast Arcane Surge;
+/script UIErrorsFrame:Clear()
+END
+VER 3 010000000000001E " " "134400"
+#showtooltip
+/cast [known:Meteor,@cursor] Meteor; [known:Shifting Power] Shifting Power;
+/script UIErrorsFrame:Clear()
+END
+VER 3 010000000000001F " " "134400"
+#showtooltip Conjure Mana Gem
+/click DeleteManaGem;
+/cast Conjure Mana Gem;
 /script UIErrorsFrame:Clear()
 END

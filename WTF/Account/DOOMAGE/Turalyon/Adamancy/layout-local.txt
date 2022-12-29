@@ -27,10 +27,3 @@ X: 402
 Y: 247
 W: 210
 H: 175
-Frame: AtlasLoot_GUI-Frame
-FrameLevel: 1
-Anchor: CENTER
-X: 95
-Y: 133
-W: 920
-H: 600

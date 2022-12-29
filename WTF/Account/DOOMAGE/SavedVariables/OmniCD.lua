@@ -77,7 +77,6 @@ OmniCDDB = {
 					},
 				},
 				["visibility"] = {
-					["size"] = 20,
 					["none"] = true,
 				},
 			},

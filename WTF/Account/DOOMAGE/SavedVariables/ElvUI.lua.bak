@@ -95,31 +95,58 @@ ElvDB = {
 			["settings"] = {
 				["Currencies"] = {
 					["tooltipData"] = {
-						[5] = {
+						nil, -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						nil, -- [4]
+						{
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							true, -- [4]
+						}, -- [5]
+						nil, -- [6]
+						nil, -- [7]
+						{
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							true, -- [4]
+						}, -- [8]
+						nil, -- [9]
+						nil, -- [10]
+						nil, -- [11]
+						{
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							true, -- [4]
+						}, -- [12]
+						[22] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
 						},
-						[10] = {
+						[30] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
 						},
-						[14] = {
+						[42] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
 						},
-						[28] = {
+						[44] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
 						},
-						[39] = {
+						[50] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
@@ -12398,7 +12425,7 @@ ElvDB = {
 					["horizontalSpacing"] = 3,
 				},
 			},
-			["dbConverted"] = 13.1,
+			["dbConverted"] = 13.15,
 			["layoutSet"] = "dpsCaster",
 			["movers"] = {
 				["ElvUF_FocusCastbarMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-553,223",
@@ -12501,7 +12528,7 @@ ElvDB = {
 			},
 			["unitframe"] = {
 				["fontSize"] = 15,
-				["font"] = "Bui Tukui",
+				["statusbar"] = "BuiFlat",
 				["units"] = {
 					["targettargettarget"] = {
 						["health"] = {
@@ -12649,33 +12676,37 @@ ElvDB = {
 							["yOffset"] = -25,
 						},
 					},
+					["raid2"] = {
+						["numGroups"] = 6,
+					},
 					["focustarget"] = {
 						["enable"] = true,
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["pet"] = {
-						["power"] = {
+					["targettarget"] = {
+						["debuffs"] = {
 							["enable"] = false,
-							["height"] = 5,
 						},
-						["infoPanel"] = {
-							["transparent"] = true,
+						["portrait"] = {
+							["overlay"] = true,
+							["camDistanceScale"] = 1,
+						},
+						["threatStyle"] = "GLOW",
+						["power"] = {
+							["height"] = 5,
 						},
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
-						["portrait"] = {
-							["overlay"] = true,
+						["width"] = 110,
+						["infoPanel"] = {
+							["height"] = 12,
+							["transparent"] = true,
 						},
-						["height"] = 24,
-						["buffs"] = {
-							["enable"] = true,
-						},
-						["castbar"] = {
-							["enable"] = false,
-							["height"] = 10,
+						["name"] = {
+							["text_format"] = "[name:medium]",
 						},
 					},
 					["player"] = {
@@ -12813,6 +12844,39 @@ ElvDB = {
 						},
 						["verticalSpacing"] = 5,
 					},
+					["pettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pet"] = {
+						["power"] = {
+							["enable"] = false,
+							["height"] = 5,
+						},
+						["infoPanel"] = {
+							["transparent"] = true,
+						},
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+						["portrait"] = {
+							["overlay"] = true,
+						},
+						["height"] = 24,
+						["buffs"] = {
+							["enable"] = true,
+						},
+						["castbar"] = {
+							["enable"] = false,
+							["height"] = 10,
+						},
+					},
+					["arena"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
 					["boss"] = {
 						["debuffs"] = {
 							["sizeOverride"] = 24,
@@ -12847,40 +12911,6 @@ ElvDB = {
 							["iconXOffset"] = 2,
 							["iconPosition"] = "RIGHT",
 							["iconAttached"] = false,
-						},
-					},
-					["pettarget"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["arena"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["targettarget"] = {
-						["debuffs"] = {
-							["enable"] = false,
-						},
-						["portrait"] = {
-							["overlay"] = true,
-							["camDistanceScale"] = 1,
-						},
-						["threatStyle"] = "GLOW",
-						["power"] = {
-							["height"] = 5,
-						},
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-						["width"] = 110,
-						["infoPanel"] = {
-							["height"] = 12,
-							["transparent"] = true,
-						},
-						["name"] = {
-							["text_format"] = "[name:medium]",
 						},
 					},
 					["party"] = {
@@ -12970,7 +13000,7 @@ ElvDB = {
 						},
 					},
 				},
-				["statusbar"] = "BuiFlat",
+				["font"] = "Bui Tukui",
 				["colors"] = {
 					["healthclass"] = true,
 					["castReactionColor"] = true,
@@ -13076,8 +13106,8 @@ ElvDB = {
 				},
 				["microbar"] = {
 					["enabled"] = true,
-					["buttons"] = 11,
 					["mouseover"] = true,
+					["buttons"] = 11,
 				},
 				["bar2"] = {
 					["buttonSize"] = 18,
@@ -19199,7 +19229,7 @@ ElvDB = {
 			["Kayne"] = 526304587,
 			["Sterbodhehm"] = 4,
 			["Allevin"] = 62342594,
-			["Adamancy"] = 21246559441,
+			["Adamancy"] = 21174065868,
 			["Beebo"] = 100000,
 			["Furrys"] = 658313354,
 			["Adomic"] = 2544400,
@@ -19207,14 +19237,14 @@ ElvDB = {
 			["Caldo"] = 1877668,
 			["Adris"] = 18699145,
 			["Christoff"] = 1432287753,
-			["Amdam"] = 14714284312,
+			["Amdam"] = 14834177391,
 			["Abel"] = 427884735,
 			["Christifur"] = 279127,
 			["Dreg"] = 323903796,
 			["Asaam"] = 16284118,
 			["Caris"] = 864072247,
 			["Svend"] = 8378,
-			["Badam"] = 3018664374,
+			["Badam"] = 3061066381,
 			["Adrid"] = 1502016263,
 			["Shado"] = 611702,
 			["Adamn"] = 2854129854,
@@ -19789,23 +19819,8 @@ ElvPrivateDB = {
 			["install_complete"] = "10.69",
 		},
 		["Adamancy - Turalyon"] = {
-			["general"] = {
-				["normTex"] = "BuiFlat",
-				["chatBubbleFont"] = "Expressway",
-				["glossTex"] = "BuiFlat",
-			},
-			["bags"] = {
-				["enable"] = false,
-			},
-			["nameplates"] = {
-				["enable"] = false,
-			},
 			["benikui"] = {
-				["expressway"] = true,
 				["install_complete"] = "3.32",
-				["session"] = {
-					["day"] = 4,
-				},
 				["dashboards"] = {
 					["tokens"] = {
 						["chooseTokens"] = {
@@ -19821,11 +19836,26 @@ ElvPrivateDB = {
 						},
 					},
 				},
+				["session"] = {
+					["day"] = 4,
+				},
+				["expressway"] = true,
+			},
+			["general"] = {
+				["normTex"] = "BuiFlat",
+				["chatBubbleFont"] = "Expressway",
+				["glossTex"] = "BuiFlat",
 			},
 			["skins"] = {
 				["parchmentRemover"] = {
 					["enable"] = true,
 				},
+			},
+			["nameplates"] = {
+				["enable"] = false,
+			},
+			["bags"] = {
+				["enable"] = false,
 			},
 			["theme"] = "class",
 			["install_complete"] = "10.69",
@@ -19894,13 +19924,13 @@ ElvPrivateDB = {
 			["install_complete"] = 13.06,
 		},
 		["Allevin - Turalyon"] = {
+			["nameplates"] = {
+				["enable"] = false,
+			},
 			["benikui"] = {
 				["session"] = {
 					["day"] = 7,
 				},
-			},
-			["nameplates"] = {
-				["enable"] = false,
 			},
 			["bags"] = {
 				["enable"] = false,
@@ -19914,15 +19944,25 @@ ElvPrivateDB = {
 				["chatBubbleFont"] = "Expressway",
 				["glossTex"] = "BuiFlat",
 			},
+			["bags"] = {
+				["enable"] = false,
+			},
+			["nameplates"] = {
+				["enable"] = false,
+			},
 			["benikui"] = {
 				["expressway"] = true,
 				["dashboards"] = {
 					["tokens"] = {
 						["chooseTokens"] = {
-							[1560] = false,
-							[1721] = false,
-							[1718] = false,
 							[1580] = false,
+							[2118] = true,
+							[2003] = true,
+							[1721] = false,
+							[2122] = true,
+							[1560] = false,
+							[1718] = false,
+							[1813] = false,
 						},
 					},
 				},
@@ -19930,12 +19970,6 @@ ElvPrivateDB = {
 					["day"] = 3,
 				},
 				["install_complete"] = "3.32",
-			},
-			["nameplates"] = {
-				["enable"] = false,
-			},
-			["bags"] = {
-				["enable"] = false,
 			},
 			["theme"] = "class",
 			["install_complete"] = "10.69",
@@ -19996,9 +20030,9 @@ ElvPrivateDB = {
 						[1129] = false,
 						[1191] = false,
 						[61] = false,
-						[677] = false,
+						[614] = false,
 						[738] = false,
-						[1716] = false,
+						[1149] = false,
 						[994] = false,
 						[1535] = false,
 						[1299] = false,
@@ -20036,9 +20070,9 @@ ElvPrivateDB = {
 						[1560] = false,
 						[1356] = false,
 						[1173] = false,
-						[1149] = false,
+						[1716] = false,
 						[944] = false,
-						[614] = false,
+						[677] = false,
 						[241] = false,
 						[1416] = false,
 					},
@@ -20046,16 +20080,6 @@ ElvPrivateDB = {
 			},
 		},
 		["Amdam - Turalyon"] = {
-			["skins"] = {
-				["parchmentRemover"] = {
-					["enable"] = true,
-				},
-			},
-			["general"] = {
-				["normTex"] = "BuiFlat",
-				["chatBubbleFont"] = "Expressway",
-				["glossTex"] = "BuiFlat",
-			},
 			["benikui"] = {
 				["install_complete"] = "3.32",
 				["dashboards"] = {
@@ -20077,8 +20101,18 @@ ElvPrivateDB = {
 				},
 				["expressway"] = true,
 			},
+			["general"] = {
+				["normTex"] = "BuiFlat",
+				["chatBubbleFont"] = "Expressway",
+				["glossTex"] = "BuiFlat",
+			},
 			["nameplates"] = {
 				["enable"] = false,
+			},
+			["skins"] = {
+				["parchmentRemover"] = {
+					["enable"] = true,
+				},
 			},
 			["bags"] = {
 				["enable"] = false,
@@ -20116,10 +20150,10 @@ ElvPrivateDB = {
 						[1314] = false,
 						[1129] = false,
 						[1173] = false,
-						[677] = false,
+						[1275] = false,
 						[1299] = false,
 						[738] = false,
-						[614] = false,
+						[1149] = false,
 						[1342] = false,
 						[1220] = false,
 						[697] = false,
@@ -20156,8 +20190,8 @@ ElvPrivateDB = {
 						[385] = false,
 						[1226] = false,
 						[1356] = false,
-						[1149] = false,
-						[1275] = false,
+						[614] = false,
+						[677] = false,
 						[944] = false,
 						[1191] = false,
 						[241] = false,

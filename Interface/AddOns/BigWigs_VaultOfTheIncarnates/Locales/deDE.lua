@@ -33,8 +33,6 @@ if L then
 	L.conductive_marks = "Zeichen" -- Conductive Marks
 	L.conductive_mark = "Zeichen" -- Singular
 
-	L.custom_off_chain_lightning = "Kettenblitzschlag ist standardmäßig deaktiviert, diese Option zum Aktivieren einschalten."
-
 	L.custom_on_stop_timers = "Fähigkeitenleisten immer anzeigen"
 	L.custom_on_stop_timers_desc = "Fähigkeiten, welche immer angezeigt werden: Leitfähiges Zeichen"
 end
@@ -75,10 +73,18 @@ if L then
 	L.ultimate_desc = "Zeigt Timer für ultimative Fähigkeiten an (Sengendes Gemetzel, Absoluter Nullpunkt, Seismischer Riss, Donnerschlag) wenn nicht bekannt ist, an welchem Altar der Boss ist."
 	L.ultimate_bartext = "%s [Ultimativ]" -- {Spell} [Ult]
 
+	L.add_bartext = "%s [Add]" -- "{Spell} [Add]"
+
+	L.Fire = "Feuer"
+	L.Frost = "Frost"
+	L.Earth = "Erde"
+	L.Storm = "Sturm"
+
 	-- -- Fire
 	L.magma_burst = "Pfützen"
 	L.molten_rupture = "Wellen"
 	L.searing_carnage = "Tanzen"
+	L.raging_inferno = "Pfützen soaken"
 
 	-- -- Frost
 	L.biting_chill = "Kälte DoT"
@@ -96,7 +102,7 @@ if L then
 	L.thundering_strike = "Soaks"
 
 	-- -- General
-	L.primal_attunement = "Soft Enrage"
+	L.primal_attunement = "Soft Berserker"
 
 	-- -- Stage 2
 	L.violent_upheaval = "Säulen"
@@ -113,11 +119,40 @@ if L then
 	L.icy_shroud = "Heilung absorbiert"
 	L.broodkeepers_fury = "Wut (Bruthüterin)"
 	L.frozen_shroud = "Bewegungsunfähig / Absorbtion"
+	-- L.detonating_stoneslam = "Tank Soak"
 end
 
 L = BigWigs:NewBossLocale("Raszageth the Storm-Eater", "deDE")
 if L then
-	--L.lighting_devastation_trigger = "deep breath" -- Raszageth takes a deep breath...
+	L.lighting_devastation_trigger = "tief Luft" -- Raszageth takes a deep breath...
+
+	-- Stage One: The Winds of Change
+	L.hurricane_wing = "Rückstoß"
+	L.volatile_current = "Funken"
+	L.thunderous_blast = "Einschlag"
+	L.lightning_breath = "Atem"
+	L.lightning_strikes = "Schläge"
+	L.electric_scales = "Schlachtzugschaden"
+	L.electric_lash = "Peitschen"
+	-- Intermission: The Primalist Strike
+	L.lightning_devastation = "Atem"
+	L.shattering_shroud = "Heilung absorbiert"
+	-- Stage Two: Surging Power
+	L.stormsurge = "Absorbtionsschild"
+	L.stormcharged = "Positiv oder Negativ"
+	L.positive = "Positiv"
+	L.negative = "Negativ"
+	L.focused_charge = "Schadensbuff"
+	L.tempest_wing = "Sturmwelle"
+	L.fulminating_charge = "Ladungen"
+	L.fulminating_charge_debuff = "Ladung"
+	-- Intermission: The Vault Falters
+	L.storm_break = "Teleport"
+	L.ball_lightning = "Kugeln"
+	-- Stage Three: Storm Incarnate
+	L.magnetic_charge = "Magnetische Ladung"
+	-- Mythic
+	L.storm_eater = "Sturmfresserin"
 end
 
 L = BigWigs:NewBossLocale("Vault of the Incarnates Trash", "deDE")

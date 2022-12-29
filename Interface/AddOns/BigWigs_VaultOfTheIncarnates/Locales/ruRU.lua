@@ -33,8 +33,6 @@ if L then
 	L.conductive_marks = "Знаки" -- Conductive Marks
 	L.conductive_mark = "Знак" -- Singular
 
-	L.custom_off_chain_lightning = "Цепная молния выключена по умолчанию. Нажмите, что бы включить её."
-
 	L.custom_on_stop_timers = "Всегда показывать полосы способностей"
 	L.custom_on_stop_timers_desc = "Будут показываться следующие способности:  Знак проводимости"
 end
@@ -72,13 +70,21 @@ if L then
 	L.avoid_bartext = "%s [додж]" -- {Spell} [Avoid]
 
 	L.ultimate = "Ультимативные способности"
-	L.ultimate_desc = "Display timers for Ultimate abilities (Огненная бойня, Абсолютный нуль, Сейсмический разлом, Громовой удар) when we don't know what alter the boss is at."
+	L.ultimate_desc = "Показывать таймеры для ультимативных способностей (Огненная бойня, Абсолютный нуль, Сейсмический разлом, Громовой удар) когда неизвестен альтарь босса."
 	L.ultimate_bartext = "%s [ульт.]" -- {Spell} [Ult]
+
+	-- L.add_bartext = "%s [Add]" -- "{Spell} [Add]"
+
+	L.Fire = "огонь"
+	L.Frost = "лед"
+	L.Earth = "Земля"
+	L.Storm = "буря"
 
 	-- Fire
 	L.magma_burst = "Лужи"
 	L.molten_rupture = "Волны"
 	L.searing_carnage = "Танец"
+	-- L.raging_inferno = "Soak Pools"
 
 	-- Frost
 	L.biting_chill = "Фрост ДоТ"
@@ -109,15 +115,16 @@ if L then
 	L.greatstaff_of_the_broodkeeper = "Великий Посох"
 	L.greatstaffs_wrath = "Лазер"
 	L.clutchwatchers_rage = "Ярость"
-	L.rapid_incubation = "Инкуцбация"
-	L.icy_shroud = "Хил Абсорб"
-	L.broodkeepers_fury = "Неистовство"
-	L.frozen_shroud = "Хил Абсорб и рут"
+	L.rapid_incubation = "Инкубация"
+	L.icy_shroud = "Абсорб"
+	L.broodkeepers_fury = "Стаки"
+	L.frozen_shroud = "Абсорб + Рут"
+	-- L.detonating_stoneslam = "Tank Soak"
 end
 
 L = BigWigs:NewBossLocale("Raszageth the Storm-Eater", "ruRU")
 if L then
-	--L.lighting_devastation_trigger = "deep breath"
+	L.lighting_devastation_trigger = "Глубокое дыхание" -- Raszageth takes a deep breath...
 end
 
 L = BigWigs:NewBossLocale("Vault of the Incarnates Trash", "ruRU")

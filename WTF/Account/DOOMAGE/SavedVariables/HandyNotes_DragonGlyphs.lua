@@ -3,6 +3,7 @@ HandyNotes_DragonGlyphsDB = {
 	["profileKeys"] = {
 		["Abel - Turalyon"] = "Abel - Turalyon",
 		["Adamancy - Turalyon"] = "Adamancy - Turalyon",
+		["Allevin - Turalyon"] = "Allevin - Turalyon",
 		["Kayne - Turalyon"] = "Kayne - Turalyon",
 		["Asaam - Turalyon"] = "Asaam - Turalyon",
 		["Adrid - Turalyon"] = "Adrid - Turalyon",
@@ -19,6 +20,8 @@ HandyNotes_DragonGlyphsDB = {
 		["Abel - Turalyon"] = {
 		},
 		["Adamancy - Turalyon"] = {
+		},
+		["Allevin - Turalyon"] = {
 		},
 		["Kayne - Turalyon"] = {
 		},

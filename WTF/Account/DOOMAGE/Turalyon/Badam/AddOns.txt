@@ -24,7 +24,7 @@ Quartz_Tradeskill: disabled
 PowerAuras: disabled
 Parrot: enabled
 PallyPower: disabled
-OPie: disabled
+OPie: enabled
 NugComboBar: disabled
 LootCouncil_Lite: disabled
 GridStatusRaidDebuff: enabled
@@ -75,9 +75,9 @@ XPerl_RaidFrames: disabled
 XPerl_Target: disabled
 XPerl_Tutorial: disabled
 XPerl_TargetTarget: disabled
-BigWigs: disabled
+BigWigs: enabled
 TinyTip: enabled
-TomTom: disabled
+TomTom: enabled
 Informant: disabled
 Enchantrix-Barker: disabled
 Enchantrix: disabled
@@ -142,7 +142,7 @@ HiddenSkinTracker: disabled
 BattlegroundTargets: disabled
 WorldQuestTracker: enabled
 ElvUI_BenikUI: enabled
-AngryKeystones: disabled
+AngryKeystones: enabled
 ElvUI_EverySecondCounts: disabled
 OPie_Classic: disabled
 WeakAurasCompanion: enabled
@@ -165,7 +165,7 @@ RaiderIO_DB_KR_H_R: disabled
 RaiderIO_DB_KR_A_R: disabled
 RaiderIO_DB_EU_H_R: disabled
 RaiderIO_DB_EU_A_R: disabled
-AdvancedInterfaceOptions: disabled
+AdvancedInterfaceOptions: enabled
 HealBot_Data: disabled
 HealBot_en: disabled
 MythicDungeonTools: enabled
@@ -179,7 +179,7 @@ Kui_Media: enabled
 Kui_Nameplates: enabled
 Kui_Nameplates_Core: enabled
 Kui_Nameplates_Core_Config: enabled
-OmniCD: disabled
+OmniCD: enabled
 Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
 ElvUI_CustomTags: disabled
@@ -195,3 +195,16 @@ RaiderIO_DB_EU_R: disabled
 RaiderIO_DB_EU_M: disabled
 RaiderIO_DB_EU_F: disabled
 Plater: disabled
+ElvUI_Options: enabled
+Tukui_NamePlateFeatures: disabled
+VenturePlan: disabled
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled
+Blizzard_CombatText: enabled
+LittleWigs: enabled
+BigWigs_DragonIsles: enabled
+BigWigs_VaultOfTheIncarnates: enabled
+LittleWigs_Legion: enabled
+LittleWigs_WarlordsOfDraenor: enabled
+LittleWigs_MistsOfPandaria: enabled

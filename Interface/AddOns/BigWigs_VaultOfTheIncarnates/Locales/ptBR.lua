@@ -33,8 +33,6 @@ if L then
 	L.conductive_marks = "Marcas" -- Marcas Condutoras
 	L.conductive_mark = "Marca" -- Singular
 
-	L.custom_off_chain_lightning = "A Cadeia de Raios está desativada por padrão, habilite isso para ativar a Cadeia de Raios."
-
 	L.custom_on_stop_timers = "Sempre mostrar as barras de habilidade"
 	L.custom_on_stop_timers_desc = "Habilidades que sempre serão mostradas: Marca Condutora"
 end
@@ -75,23 +73,31 @@ if L then
 	L.ultimate_desc = "Mostra temporizadores para habilidades finais (Chacina Calcinante, Zero Absoluto, Ruptura Sísmica, Raio e Trovão) quando não sabemos em que altar o chefe está."
 	L.ultimate_bartext = "%s [Final]" -- {Spell} [Ult]
 
+	-- L.add_bartext = "%s [Add]" -- "{Spell} [Add]"
+
+	L.Fire = "Fogo"
+	L.Frost = "Gelo"
+	L.Earth = "Terra"
+	L.Storm = "Tempestade"
+
 	-- Fire
 	L.magma_burst = "Poças"
 	L.molten_rupture = "Ondas"
 	L.searing_carnage = "Dança"
+	-- L.raging_inferno = "Soak Pools"
 
-	-- -- Frost
+	-- Frost
 	L.biting_chill = "DoT Congelante"
 	L.frigid_torrent = "Orbes"
 	L.absolute_zero = "Soaks"
 	L.absolute_zero_melee = "Soak Melee"
 	L.absolute_zero_ranged = "Soak Ranged"
 
-	-- -- Earth
+	-- Earth
 	L.enveloping_earth = "Cura Absorvida"
 	L.erupting_bedrock = "Terremotos"
 
-	-- -- Storm
+	-- Storm
 	L.lightning_crash = "Relâmpago"
 	L.thundering_strike = "Soaks"
 
@@ -112,12 +118,13 @@ if L then
 	L.rapid_incubation = "Ovos Imbuídos"
 	L.icy_shroud = "Cura Absorvida"
 	L.broodkeepers_fury = "Fúria"
-	L.frozen_shroud = "Enraizamento e Cura Absorvida"
+	L.frozen_shroud = "Enraizamento e Cura Absorvida" -- XXX these should be short
+	-- L.detonating_stoneslam = "Tank Soak"
 end
 
 L = BigWigs:NewBossLocale("Raszageth the Storm-Eater", "ptBR")
 if L then
-	--L.lighting_devastation_trigger = "deep breath"
+	--L.lighting_devastation_trigger = "deep breath" -- Raszageth takes a deep breath...
 end
 
 L = BigWigs:NewBossLocale("Vault of the Incarnates Trash", "ptBR")

@@ -146,7 +146,7 @@ BattlegroundTargets: disabled
 WorldQuestTracker: enabled
 ElvUI_BenikUI: enabled
 ElvUI_EverySecondCounts: disabled
-AngryKeystones: disabled
+AngryKeystones: enabled
 WeakAurasCompanion: enabled
 OPie_Classic: disabled
 TomCats: disabled

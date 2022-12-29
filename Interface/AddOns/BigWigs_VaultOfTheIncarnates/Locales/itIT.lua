@@ -33,8 +33,6 @@ if L then
 	-- L.conductive_marks = "Marks" -- Conductive Marks
 	-- L.conductive_mark = "Mark" -- Singular
 
-	-- L.custom_off_chain_lightning = "Chain Lightning is off by default, enable this to enable chain lightning."
-
 	-- L.custom_on_stop_timers = "Always show ability bars"
 	-- L.custom_on_stop_timers_desc = "Abilities that will always be shown: Conductive Mark"
 end
@@ -75,30 +73,38 @@ if L then
 	-- L.ultimate_desc = "Display timers for Ultimate abilities (Searing Carnage, Absolute Zero, Seismic Rupture, Thundering Strike) when we don't know what alter the boss is at."
 	-- L.ultimate_bartext = "%s [Ult]" -- {Spell} [Ult]
 
-	-- -- Fire
+	L.add_bartext = "%s [Add]" -- "{Spell} [Add]"
+
+	L.Fire = "Fuoco"
+	L.Frost = "Gelo"
+	L.Earth = "Terra"
+	L.Storm = "Tempesta"
+
+	-- Fire
 	-- L.magma_burst = "Pools"
 	-- L.molten_rupture = "Waves"
 	-- L.searing_carnage = "Dance"
+	-- L.raging_inferno = "Soak Pools"
 
-	-- -- Frost
+	-- Frost
 	-- L.biting_chill = "Chill DoT"
 	-- L.frigid_torrent = "Orbs"
 	-- L.absolute_zero = "Soaks"
 	-- L.absolute_zero_melee = "Melee Soak"
 	-- L.absolute_zero_ranged = "Ranged Soak"
 
-	-- -- Earth
+	-- Earth
 	-- L.enveloping_earth = "Heal Absorb"
 	-- L.erupting_bedrock = "Quakes"
 
-	-- -- Storm
+	-- Storm
 	-- L.lightning_crash = "Zaps"
 	-- L.thundering_strike = "Soaks"
 
-	-- -- General
+	-- General
 	-- L.primal_attunement = "Soft Enrage"
 
-	-- -- Stage 2
+	-- Stage 2
 	-- L.violent_upheaval = "Pillars"
 end
 
@@ -113,11 +119,12 @@ if L then
 	-- L.icy_shroud = "Heal Absorb"
 	-- L.broodkeepers_fury = "Fury"
 	-- L.frozen_shroud = "Root Absorb"
+	-- L.detonating_stoneslam = "Tank Soak"
 end
 
 L = BigWigs:NewBossLocale("Raszageth the Storm-Eater", "itIT")
 if L then
-	--L.lighting_devastation_trigger = "deep breath"
+	--L.lighting_devastation_trigger = "deep breath" -- Raszageth takes a deep breath...
 end
 
 L = BigWigs:NewBossLocale("Vault of the Incarnates Trash", "itIT")
