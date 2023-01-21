@@ -1,0 +1,87 @@
+VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [mod:alt,spec:3] Execute; [spec:3] Ignore Pain; Execute;
+/script UIErrorsFrame:Clear();
+END
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [mod:alt] Victory Rush; [spec:2] Bloodthirst; [spec:3] Devastate; [spec:1] Overpower;
+/script UIErrorsFrame:Clear();
+END
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Heroic Leap; [spec:2,noknown:Annihilator] Raging Blow; [spec:2,known:Annihilator] Slam; [spec:3] Shield Slam;
+/script UIErrorsFrame:Clear();
+END
+VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, nodead][help, nodead][@player] Intervene
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [mod:alt,known:Shockwave] Shockwave; Thunder Clap;.
+/script UIErrorsFrame:Clear();
+END
+VER 3 0100000000000009 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt,known:Spear of Bastion,@player] Spear of Bastion; [mod:alt] Heroic Throw; [spec:2] Odyn's Fury; [spec:3] Taunt;
+/script UIErrorsFrame:Clear();
+END
+VER 3 010000000000000A " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [mod:alt,known:Shockwave] Shockwave; Rampage;
+/script UIErrorsFrame:Clear();
+END
+VER 3 010000000000000F " " "SPELL_HOLY_ASHESTOASHES"
+#showtooltip Last Stand
+/cast Last Stand
+/use Fortitude of the Zandalari
+/use Healthstone
+END
+VER 3 0100000000000010 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [nomodifier][modifier:alt,notalent:3/3] Skullsplitter; /cast [modifier:alt,talent:3/3] Rend
+/script UIErrorsFrame:Clear();
+END
+VER 3 0100000000000011 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [mod:alt,known:Ravager,@player] Ravager; Whirlwind;
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000016 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [mod:alt,known:Ravager] Ravager; Revenge;
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000017 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:6/2] Avatar; [talent:6/3] Deadly Calm;
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000018 " " "458972"
+#showtooltip
+/use 13
+/cast [nospec:3] Recklessness;
+/cast [known:Avatar] Avatar;
+/use 13
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000019 " " "134400"
+#showtooltip
+/cast [@player] Spear of Bastion;
+/script UIErrorsFrame:Clear();
+END
+VER 3 010000000000000E "  " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast [nomodifier] Mortal Strike; /cast [modifier:alt] Heroic Leap
+/script UIErrorsFrame:Clear();
+END
