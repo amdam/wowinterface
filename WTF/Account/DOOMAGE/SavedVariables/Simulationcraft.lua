@@ -7,28 +7,28 @@ SimulationCraftDB = {
 		["Adrid - Turalyon"] = "Adrid - Turalyon",
 		["Caldo - Turalyon"] = "Caldo - Turalyon",
 		["Aduum - Turalyon"] = "Aduum - Turalyon",
-		["Adomic - Turalyon"] = "Adomic - Turalyon",
+		["Shado - Turalyon"] = "Shado - Turalyon",
 		["Kaydan - Turalyon"] = "Kaydan - Turalyon",
 		["Christoff - Turalyon"] = "Christoff - Turalyon",
 		["Dreg - Turalyon"] = "Dreg - Turalyon",
-		["Adamian - Turalyon"] = "Adamian - Turalyon",
+		["Artoc - Zul'jin"] = "Artoc - Zul'jin",
 		["Amdamn - Bloodscalp"] = "Amdamn - Bloodscalp",
 		["Abel - Turalyon"] = "Abel - Turalyon",
 		["Adamancy - Turalyon"] = "Adamancy - Turalyon",
-		["Asaam - Turalyon"] = "Asaam - Turalyon",
-		["Furrys - Turalyon"] = "Furrys - Turalyon",
-		["Adamn - Turalyon"] = "Adamn - Turalyon",
-		["Svend - Turalyon"] = "Svend - Turalyon",
-		["Broddah - Doomhammer"] = "Broddah - Doomhammer",
-		["Allevin - Turalyon"] = "Allevin - Turalyon",
-		["Caris - Turalyon"] = "Caris - Turalyon",
-		["Amdam - Turalyon"] = "Amdam - Turalyon",
-		["Artoc - Silvermoon"] = "Artoc - Silvermoon",
-		["Adreya - Bloodscalp"] = "Adreya - Bloodscalp",
-		["Adris - Turalyon"] = "Adris - Turalyon",
 		["Badam - Turalyon"] = "Badam - Turalyon",
-		["Artoc - Zul'jin"] = "Artoc - Zul'jin",
-		["Shado - Turalyon"] = "Shado - Turalyon",
+		["Furrys - Turalyon"] = "Furrys - Turalyon",
+		["Adris - Turalyon"] = "Adris - Turalyon",
+		["Adreya - Bloodscalp"] = "Adreya - Bloodscalp",
+		["Artoc - Silvermoon"] = "Artoc - Silvermoon",
+		["Amdam - Turalyon"] = "Amdam - Turalyon",
+		["Caris - Turalyon"] = "Caris - Turalyon",
+		["Allevin - Turalyon"] = "Allevin - Turalyon",
+		["Broddah - Doomhammer"] = "Broddah - Doomhammer",
+		["Svend - Turalyon"] = "Svend - Turalyon",
+		["Adamn - Turalyon"] = "Adamn - Turalyon",
+		["Asaam - Turalyon"] = "Asaam - Turalyon",
+		["Adamian - Turalyon"] = "Adamian - Turalyon",
+		["Adomic - Turalyon"] = "Adomic - Turalyon",
 	},
 	["profiles"] = {
 		["Christifur - Turalyon"] = {
@@ -50,7 +50,7 @@ SimulationCraftDB = {
 		},
 		["Aduum - Turalyon"] = {
 		},
-		["Adomic - Turalyon"] = {
+		["Shado - Turalyon"] = {
 		},
 		["Kaydan - Turalyon"] = {
 		},
@@ -58,48 +58,52 @@ SimulationCraftDB = {
 		},
 		["Dreg - Turalyon"] = {
 		},
-		["Adamian - Turalyon"] = {
+		["Artoc - Zul'jin"] = {
 		},
 		["Amdamn - Bloodscalp"] = {
 		},
 		["Abel - Turalyon"] = {
 		},
 		["Adamancy - Turalyon"] = {
+			["minimap"] = {
+				["minimapPos"] = 42.40893992104903,
+			},
 			["frame"] = {
 				["ofsx"] = -20.74081993103027,
 				["ofsy"] = 16.00015830993652,
 			},
-			["minimap"] = {
-				["minimapPos"] = 42.40893992104903,
-			},
 		},
-		["Asaam - Turalyon"] = {
+		["Badam - Turalyon"] = {
+			["frame"] = {
+				["ofsx"] = 7.780948362778872e-05,
+				["ofsy"] = 3.890474181389436e-05,
+			},
 		},
 		["Furrys - Turalyon"] = {
 		},
-		["Adamn - Turalyon"] = {
-		},
-		["Svend - Turalyon"] = {
-		},
-		["Broddah - Doomhammer"] = {
-		},
-		["Allevin - Turalyon"] = {
-		},
-		["Caris - Turalyon"] = {
-		},
-		["Amdam - Turalyon"] = {
-		},
-		["Artoc - Silvermoon"] = {
+		["Adris - Turalyon"] = {
 		},
 		["Adreya - Bloodscalp"] = {
 		},
-		["Adris - Turalyon"] = {
+		["Artoc - Silvermoon"] = {
 		},
-		["Badam - Turalyon"] = {
+		["Amdam - Turalyon"] = {
 		},
-		["Artoc - Zul'jin"] = {
+		["Caris - Turalyon"] = {
 		},
-		["Shado - Turalyon"] = {
+		["Allevin - Turalyon"] = {
+		},
+		["Broddah - Doomhammer"] = {
+		},
+		["Svend - Turalyon"] = {
+		},
+		["Adamn - Turalyon"] = {
+		},
+		["Asaam - Turalyon"] = {
+		},
+		["Adamian - Turalyon"] = {
+		},
+		["Adomic - Turalyon"] = {
 		},
 	},
 }

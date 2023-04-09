@@ -136,7 +136,7 @@ DBMVaultoftheIncarnates_SavedStats = {
 		["challengePulls"] = 0,
 	},
 	["2499"] = {
-		["normalPulls"] = 0,
+		["normalPulls"] = 1,
 		["challengeKills"] = 0,
 		["challengeBestRank"] = 0,
 		["mythicKills"] = 0,
@@ -161,7 +161,7 @@ DBMVaultoftheIncarnates_SavedStats = {
 		["mythicKills"] = 0,
 		["lfr25Kills"] = 0,
 		["heroic25Pulls"] = 0,
-		["lfr25Pulls"] = 0,
+		["lfr25Pulls"] = 2,
 		["normal25Pulls"] = 0,
 		["normalKills"] = 0,
 		["heroic25Kills"] = 0,

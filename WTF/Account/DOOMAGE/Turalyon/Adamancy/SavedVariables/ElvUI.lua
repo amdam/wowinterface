@@ -2,33 +2,77 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"It's going to be a long fight, trying not to burn all my cds early", -- [1]
-			"Bovinehymn-Malfurion", -- [2]
+			"your in luck Bere it proced to a 418 :)", -- [1]
+			"Tefdk-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bovinehymn-Malfurion", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			834, -- [11]
-			"Player-1175-0EEEC1C7", -- [12]
+			809, -- [11]
+			"Player-3685-0DEA20EF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffBovinehymn-Malfurion|r",
-			[51] = 1674260560,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc41e3aTefdk|r",
+			[51] = 1677629672,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [1]
 		{
-			"yeap", -- [1]
+			"wooo", -- [1]
 			"Berejitsu-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Berejitsu-Turalyon", -- [5]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			815, -- [11]
+			"Player-3685-0DF91BA1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff98Berejitsu|r",
+			[51] = 1677629677,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [2]
+		{
+			"and with a missive thought forsure was gonna be 415", -- [1]
+			"Tefdk-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			823, -- [11]
+			"Player-3685-0DEA20EF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aTefdk|r",
+			[51] = 1677629757,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [3]
+		{
+			"ugh recrafts are expensive", -- [1]
+			"Berejitsu-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
@@ -42,65 +86,21 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff00ff98Berejitsu|r",
-			[51] = 1674260566,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [2]
-		{
-			"last try make it a good one", -- [1]
-			"Bashnblock-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Bashnblock-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			836, -- [11]
-			"Player-3685-0DEF7503", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dBashnblock|r",
-			[51] = 1674260566,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [3]
-		{
-			"on the 2nd storm phase might need them fo rrecovery", -- [1]
-			"Adamancy-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			838, -- [11]
-			"Player-3685-07F1620A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260576,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1677629736,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [4]
 		{
-			"rofl", -- [1]
+			"my other one is a 415", -- [1]
 			"Berejitsu-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Berejitsu-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			843, -- [11]
+			837, -- [11]
 			"Player-3685-0DF91BA1", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -108,77 +108,77 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff00ff98Berejitsu|r",
-			[51] = 1674260548,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1677629745,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [5]
 		{
-			"Consistent damage, then the last tick hit me for 275k.", -- [1]
-			"Bovinehymn-Malfurion", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:16545:Player-3685-07F1620A:1:3:3:23:4294967295:4294967295:4294967295:4294967295|h[The Best at What I Do]|h|r!", -- [1]
+			"Adamancy-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bovinehymn-Malfurion", -- [5]
+			"Adamancy-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			857, -- [11]
-			"Player-1175-0EEEC1C7", -- [12]
+			206, -- [11]
+			"Player-3685-07F1620A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffBovinehymn-Malfurion|r",
-			[51] = 1674260629,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3fc7ebAdamancy|r",
+			[51] = 1677911590,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [6]
 		{
-			"What", -- [1]
-			"Bovinehymn-Malfurion", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:16532:Player-3685-0701EBC2:1:3:3:23:4294967295:4294967295:4294967295:4294967295|h[Friends with Sabellian]|h|r!", -- [1]
+			"Annya-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bovinehymn-Malfurion", -- [5]
+			"Annya-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			858, -- [11]
-			"Player-1175-0EEEC1C7", -- [12]
+			270, -- [11]
+			"Player-3685-0701EBC2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffBovinehymn-Malfurion|r",
-			[51] = 1674260632,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3fc7ebAnnya|r",
+			[51] = 1677912116,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [7]
 		{
-			"buggy af", -- [1]
-			"Berejitsu-Turalyon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:16760:Player-3685-0701EBC2:1:3:3:23:4294967295:4294967295:4294967295:4294967295|h[The Obsidian Bloodline]|h|r!", -- [1]
+			"Annya-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Berejitsu-Turalyon", -- [5]
+			"Annya-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			859, -- [11]
-			"Player-3685-0DF91BA1", -- [12]
+			271, -- [11]
+			"Player-3685-0701EBC2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff98Berejitsu|r",
-			[51] = 1674260637,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3fc7ebAnnya|r",
+			[51] = 1677912116,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [8]
 		{
-			"yeah that doesnt seem right ", -- [1]
+			"%s has earned the achievement |cffffff00|Hachievement:16528:Player-3685-07F1620A:1:3:3:23:4294967295:4294967295:4294967295:4294967295|h[Joining the Khansguard]|h|r!", -- [1]
 			"Adamancy-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -188,7 +188,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			860, -- [11]
+			334, -- [11]
 			"Player-3685-07F1620A", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -196,11 +196,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260587,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1677912494,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [9]
 		{
-			"we want to keep trying?", -- [1]
+			"%s has earned the achievement |cffffff00|Hachievement:16549:Player-3685-07F1620A:1:3:3:23:4294967295:4294967295:4294967295:4294967295|h[Popular Around the Isles]|h|r!", -- [1]
 			"Adamancy-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -210,7 +210,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			861, -- [11]
+			335, -- [11]
 			"Player-3685-07F1620A", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -218,451 +218,451 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260604,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1677912494,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [10]
 		{
-			"vote who wants to fishinh", -- [1]
-			"Bashnblock-Turalyon", -- [2]
+			"keys?", -- [1]
+			"|Kq25|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bashnblock-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			862, -- [11]
-			"Player-3685-0DEF7503", -- [12]
-			0, -- [13]
+			2786, -- [11]
+			false, -- [12]
+			8, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dBashnblock|r",
-			[51] = 1674260605,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff48cbaDos|r",
+			[51] = 1677957815,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [11]
 		{
-			"i have adhd", -- [1]
-			"Berejitsu-Turalyon", -- [2]
+			"anyone know, can i get get blizzard gear with gold? plz help", -- [1]
+			"Ghostshot-Turalyon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Berejitsu-Turalyon", -- [5]
+			"1. General - Valdrakken", -- [4]
+			"Ghostshot-Turalyon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			1, -- [7]
+			1, -- [8]
+			"General - Valdrakken", -- [9]
 			0, -- [10]
-			864, -- [11]
-			"Player-3685-0DF91BA1", -- [12]
+			2799, -- [11]
+			"Player-3685-092887C0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff98Berejitsu|r",
-			[51] = 1674260674,
-			[50] = "CHAT_MSG_PARTY",
+			true, -- [17]
+			[52] = "|cffaad372Ghostshot|r",
+			[51] = 1677957944,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [12]
 		{
-			"got tired of this run 20 mins ago lol", -- [1]
-			"Berejitsu-Turalyon", -- [2]
+			"most definitely", -- [1]
+			"|Kq25|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Berejitsu-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			865, -- [11]
-			"Player-3685-0DF91BA1", -- [12]
-			0, -- [13]
+			2807, -- [11]
+			false, -- [12]
+			8, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff98Berejitsu|r",
-			[51] = 1674260680,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaDos|r",
+			[51] = 1677957900,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [13]
 		{
-			"Let's give it one more good ol' college try", -- [1]
-			"Bovinehymn-Malfurion", -- [2]
+			"ill hop in disc in a min", -- [1]
+			"|Kq25|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bovinehymn-Malfurion", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			866, -- [11]
-			"Player-1175-0EEEC1C7", -- [12]
-			0, -- [13]
+			2813, -- [11]
+			false, -- [12]
+			8, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffBovinehymn-Malfurion|r",
-			[51] = 1674260697,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaDos|r",
+			[51] = 1677957983,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [14]
 		{
-			"ya i should have taken a break after the last one before doing this lol", -- [1]
-			"Bashnblock-Turalyon", -- [2]
+			"Which Blizzard gear?", -- [1]
+			"Valinald-Turalyon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Bashnblock-Turalyon", -- [5]
+			"1. General - Valdrakken", -- [4]
+			"Valinald-Turalyon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			1, -- [7]
+			1, -- [8]
+			"General - Valdrakken", -- [9]
 			0, -- [10]
-			867, -- [11]
-			"Player-3685-0DEF7503", -- [12]
+			2814, -- [11]
+			"Player-3685-0723D2D7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dBashnblock|r",
-			[51] = 1674260698,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			true, -- [17]
+			[52] = "|cffc69b6dValinald|r",
+			[51] = 1677957992,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [15]
 		{
-			"If we don't get it done let's just call it", -- [1]
-			"Bovinehymn-Malfurion", -- [2]
+			"hat/shirt", -- [1]
+			"Ghostshot-Turalyon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Bovinehymn-Malfurion", -- [5]
+			"1. General - Valdrakken", -- [4]
+			"Ghostshot-Turalyon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			1, -- [7]
+			1, -- [8]
+			"General - Valdrakken", -- [9]
 			0, -- [10]
-			868, -- [11]
-			"Player-1175-0EEEC1C7", -- [12]
+			2815, -- [11]
+			"Player-3685-092887C0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffBovinehymn-Malfurion|r",
-			[51] = 1674260643,
-			[50] = "CHAT_MSG_PARTY",
+			true, -- [17]
+			[52] = "|cffaad372Ghostshot|r",
+			[51] = 1677957999,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [16]
 		{
-			"odyn is tougher than this imo lol", -- [1]
-			"Berejitsu-Turalyon", -- [2]
+			"the answer is no", -- [1]
+			"Pitlamper-Turalyon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Berejitsu-Turalyon", -- [5]
+			"1. General - Valdrakken", -- [4]
+			"Pitlamper-Turalyon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			1, -- [7]
+			1, -- [8]
+			"General - Valdrakken", -- [9]
 			0, -- [10]
-			869, -- [11]
-			"Player-3685-0DF91BA1", -- [12]
+			2816, -- [11]
+			"Player-3685-07136782", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff98Berejitsu|r",
-			[51] = 1674260658,
-			[50] = "CHAT_MSG_PARTY",
+			true, -- [17]
+			[52] = "|cffaad372Pitlamper|r",
+			[51] = 1677958017,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [17]
 		{
-			"just remember as the fight goes on longer she hits harder and harder", -- [1]
-			"Adamancy-Turalyon", -- [2]
+			"you can not directly use in game currency to pay for real world items", -- [1]
+			"Pitlamper-Turalyon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"1. General - Valdrakken", -- [4]
+			"Pitlamper-Turalyon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			1, -- [7]
+			1, -- [8]
+			"General - Valdrakken", -- [9]
 			0, -- [10]
-			870, -- [11]
-			"Player-3685-07F1620A", -- [12]
+			2819, -- [11]
+			"Player-3685-07136782", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260662,
-			[50] = "CHAT_MSG_PARTY",
+			true, -- [17]
+			[52] = "|cffaad372Pitlamper|r",
+			[51] = 1677957969,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [18]
 		{
-			"just bc of the symbols ticking 100k every second", -- [1]
-			"Berejitsu-Turalyon", -- [2]
+			"Orders for |cff0070dd|Hitem:191231::::::::70:104::13:2:3524:8953:2:40:137:38:4:::::|h[Alchemist's Brilliant Mixing Rod |A:Professions-ChatIcon-Quality-Tier1:17:15::1|a]|h|r and |cff0070dd|Hitem:193544::::::::70:104::13:1:3524:2:40:438:38:4:::::|h[Master's Wildercloth Alchemist's Robe |A:Professions-ChatIcon-Quality-Tier1:17:15::1|a]|h|r up to the public. ", -- [1]
+			"Bearlyhere-Turalyon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Berejitsu-Turalyon", -- [5]
+			"2. Trade - City", -- [4]
+			"Bearlyhere-Turalyon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			871, -- [11]
-			"Player-3685-0DF91BA1", -- [12]
+			7, -- [11]
+			"Player-3685-0DD48AC3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff98Berejitsu|r",
-			[51] = 1674260666,
-			[50] = "CHAT_MSG_PARTY",
+			true, -- [17]
+			[52] = "|cffff7c0aBearlyhere|r",
+			[51] = 1678039565,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [19]
 		{
-			"Not for a healer it isn't. XD", -- [1]
-			"Bovinehymn-Malfurion", -- [2]
+			"there i extended that brack lockout for 2 weeks so i can recraft them again soon", -- [1]
+			"Tefmonk-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bovinehymn-Malfurion", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			872, -- [11]
-			"Player-1175-0EEEC1C7", -- [12]
+			199, -- [11]
+			"Player-3685-0DE5B493", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffBovinehymn-Malfurion|r",
-			[51] = 1674260668,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00ff98Tefmonk|r",
+			[51] = 1678240454,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [20]
 		{
-			"no odyn is easyier imo", -- [1]
-			"Bashnblock-Turalyon", -- [2]
+			"crafting/recrafting guaranteed 418 |cffa335ee|Hitem:198323::::::::70:66::13:1:3524:2:40:616:38:7:::::|h[Lightweight Ocular Lenses |A:Professions-ChatIcon-Quality-Tier4:17:17::1|a]|h|r, no charge, pst for more info", -- [1]
+			"Azados-Turalyon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Bashnblock-Turalyon", -- [5]
+			"2. Trade - City", -- [4]
+			"Azados-Turalyon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			874, -- [11]
-			"Player-3685-0DEF7503", -- [12]
+			256, -- [11]
+			"Player-3685-07251D87", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dBashnblock|r",
-			[51] = 1674260752,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			true, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1678395945,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [21]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:16498:Player-3685-0724885E:1:1:20:23:4294967295:4294967295:4294967295:4294967295|h[Elemental Overflow]|h|r!", -- [1]
-			"Falerwinn-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Briznot-Duskwood", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Falerwinn-Turalyon", -- [5]
+			"Briznot-Duskwood", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			875, -- [11]
-			"Player-3685-0724885E", -- [12]
+			592, -- [11]
+			"Player-64-0E901E85", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dFalerwinn|r",
-			[51] = 1674260754,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff8788eeBriznot-Duskwood|r",
+			[51] = 1678397788,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [22]
 		{
-			"Tank Odyn mid, use addon so you don't have to think and know exactly where to go for rune", -- [1]
-			"Bovinehymn-Malfurion", -- [2]
+			"Yes chef!", -- [1]
+			"Halitosiss-Bloodhoof", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bovinehymn-Malfurion", -- [5]
+			"Halitosiss-Bloodhoof", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			876, -- [11]
-			"Player-1175-0EEEC1C7", -- [12]
+			593, -- [11]
+			"Player-64-0EDD1834", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffBovinehymn-Malfurion|r",
-			[51] = 1674260702,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff33937fHalitosiss-Bloodhoof|r",
+			[51] = 1678397789,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [23]
 		{
-			"easy", -- [1]
-			"Bovinehymn-Malfurion", -- [2]
+			"Yes chef!", -- [1]
+			"Soulshredder-Bloodhoof", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bovinehymn-Malfurion", -- [5]
+			"Soulshredder-Bloodhoof", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			877, -- [11]
-			"Player-1175-0EEEC1C7", -- [12]
+			594, -- [11]
+			"Player-64-0324AE3D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffBovinehymn-Malfurion|r",
-			[51] = 1674260703,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff8788eeSoulshredder-Bloodhoof|r",
+			[51] = 1678397789,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [24]
 		{
-			"2 mins on lust cd", -- [1]
-			"Adamancy-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Chihua-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"Chihua-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			878, -- [11]
-			"Player-3685-07F1620A", -- [12]
+			595, -- [11]
+			"Player-3685-0720284E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260708,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffaad372Chihua|r",
+			[51] = 1678397789,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [25]
 		{
-			"last try we wait too mins", -- [1]
-			"Bashnblock-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Adamancy-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bashnblock-Turalyon", -- [5]
+			"Adamancy-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			879, -- [11]
-			"Player-3685-0DEF7503", -- [12]
+			596, -- [11]
+			"Player-3685-07F1620A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dBashnblock|r",
-			[51] = 1674260797,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff3fc7ebAdamancy|r",
+			[51] = 1678397790,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [26]
 		{
-			"i mean its a 4-5 min fight anyway =P", -- [1]
-			"Berejitsu-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Vileheart-Bloodhoof", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Berejitsu-Turalyon", -- [5]
+			"Vileheart-Bloodhoof", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			880, -- [11]
-			"Player-3685-0DF91BA1", -- [12]
+			598, -- [11]
+			"Player-64-0046C4CD", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff98Berejitsu|r",
-			[51] = 1674260811,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3fc7ebVileheart-Bloodhoof|r",
+			[51] = 1678397791,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [27]
 		{
-			"best to stack it at the beginning with all our cds tho", -- [1]
-			"Adamancy-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Summon-Duskwood", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"Summon-Duskwood", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			881, -- [11]
-			"Player-3685-07F1620A", -- [12]
+			599, -- [11]
+			"Player-64-088A6EB9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260763,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff8788eeSummon-Duskwood|r",
+			[51] = 1678397792,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [28]
 		{
-			"get the most out of it", -- [1]
-			"Adamancy-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Moochad-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"Moochad-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			882, -- [11]
-			"Player-3685-07F1620A", -- [12]
+			600, -- [11]
+			"Player-3685-0DFD7CC8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260766,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc69b6dMoochad|r",
+			[51] = 1678397795,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [29]
 		{
-			"yup", -- [1]
-			"Bashnblock-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Phel-Bloodhoof", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bashnblock-Turalyon", -- [5]
+			"Phel-Bloodhoof", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			883, -- [11]
-			"Player-3685-0DEF7503", -- [12]
+			609, -- [11]
+			"Player-64-034C3932", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dBashnblock|r",
-			[51] = 1674260770,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc41e3aPhel-Bloodhoof|r",
+			[51] = 1678397868,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [30]
 		{
-			"rdy in 30 sec", -- [1]
+			"Yes chef!", -- [1]
 			"Adamancy-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -672,7 +672,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			884, -- [11]
+			611, -- [11]
 			"Player-3685-07F1620A", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -680,253 +680,253 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260779,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1678397869,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [31]
 		{
-			"k rdy", -- [1]
-			"Adamancy-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Harolmar-Bloodhoof", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"Harolmar-Bloodhoof", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			888, -- [11]
-			"Player-3685-07F1620A", -- [12]
+			614, -- [11]
+			"Player-64-0D8EC881", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260867,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc41e3aHarolmar-Bloodhoof|r",
+			[51] = 1678397869,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [32]
 		{
-			"{rt6}", -- [1]
-			"Berejitsu-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Jainia-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Berejitsu-Turalyon", -- [5]
+			"Jainia-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			893, -- [11]
-			"Player-3685-0DF91BA1", -- [12]
+			624, -- [11]
+			"Player-3685-0717E7AF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff98Berejitsu|r",
-			[51] = 1674260825,
+			[52] = "|cffffffffJainia|r",
+			[51] = 1678397878,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [33]
 		{
-			"{rt6}", -- [1]
-			"Jadior-Illidan", -- [2]
+			"Yes chef!", -- [1]
+			"Ferocitus-Duskwood", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Jadior-Illidan", -- [5]
+			"Ferocitus-Duskwood", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			894, -- [11]
-			"Player-57-0D655F76", -- [12]
+			625, -- [11]
+			"Player-64-08988AA8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa330c9Jadior-Illidan|r",
-			[51] = 1674260825,
+			[52] = "|cff3fc7ebFerocitus-Duskwood|r",
+			[51] = 1678397878,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [34]
 		{
-			"{rt7}", -- [1]
-			"Bovinehymn-Malfurion", -- [2]
+			"Yes chef!", -- [1]
+			"Aaturian-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bovinehymn-Malfurion", -- [5]
+			"Aaturian-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			895, -- [11]
-			"Player-1175-0EEEC1C7", -- [12]
+			626, -- [11]
+			"Player-3685-07C276EC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffBovinehymn-Malfurion|r",
-			[51] = 1674260825,
+			[52] = "|cfff48cbaAaturian|r",
+			[51] = 1678397879,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [35]
 		{
-			"{rt7}", -- [1]
-			"Adamancy-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Eviani-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"Eviani-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			897, -- [11]
-			"Player-3685-07F1620A", -- [12]
+			627, -- [11]
+			"Player-3685-09CA469F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260825,
+			[52] = "|cffff7c0aEviani|r",
+			[51] = 1678397879,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [36]
 		{
-			"{rt7}", -- [1]
-			"Adamancy-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Keijospawn-Duskwood", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"Keijospawn-Duskwood", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			899, -- [11]
-			"Player-3685-07F1620A", -- [12]
+			628, -- [11]
+			"Player-64-0A9A9EFA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260825,
+			[52] = "|cffa330c9Keijospawn-Duskwood|r",
+			[51] = 1678397820,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [37]
 		{
-			"{rt7}", -- [1]
-			"Adamancy-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Paniku-Bloodhoof", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"Paniku-Bloodhoof", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			904, -- [11]
-			"Player-3685-07F1620A", -- [12]
+			630, -- [11]
+			"Player-64-0C7190F5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260826,
+			[52] = "|cff8788eePaniku-Bloodhoof|r",
+			[51] = 1678397821,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [38]
 		{
-			"{rt7}", -- [1]
-			"Adamancy-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Gloqowej-Bloodhoof", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"Gloqowej-Bloodhoof", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			907, -- [11]
-			"Player-3685-07F1620A", -- [12]
+			633, -- [11]
+			"Player-64-0E9F639B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260827,
+			[52] = "|cffaad372Gloqowej-Bloodhoof|r",
+			[51] = 1678397823,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [39]
 		{
-			"{rt7}", -- [1]
-			"Adamancy-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Babalao-Duskwood", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"Babalao-Duskwood", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			912, -- [11]
-			"Player-3685-07F1620A", -- [12]
+			637, -- [11]
+			"Player-64-0E79B97B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260828,
+			[52] = "|cff0070ddBabalao-Duskwood|r",
+			[51] = 1678397824,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [40]
 		{
-			"{rt7}", -- [1]
-			"Adamancy-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Dracthyrius-Duskwood", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"Dracthyrius-Duskwood", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			914, -- [11]
-			"Player-3685-07F1620A", -- [12]
+			639, -- [11]
+			"Player-64-0EDDCEF6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260829,
+			[52] = "|cff33937fDracthyrius-Duskwood|r",
+			[51] = 1678397824,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [41]
 		{
-			"{rt7}", -- [1]
-			"Adamancy-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Celene-Duskwood", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"Celene-Duskwood", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			920, -- [11]
-			"Player-3685-07F1620A", -- [12]
+			642, -- [11]
+			"Player-64-0EDC9C70", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260829,
+			[52] = "|cff33937fCelene-Duskwood|r",
+			[51] = 1678397829,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [42]
 		{
-			"{rt7}", -- [1]
+			"Yes chef!", -- [1]
 			"Adamancy-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -936,7 +936,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			922, -- [11]
+			643, -- [11]
 			"Player-3685-07F1620A", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -944,231 +944,231 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260830,
+			[51] = 1678397829,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [43]
 		{
-			"{rt7}", -- [1]
-			"Adamancy-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Scaleybuns-Duskwood", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"Scaleybuns-Duskwood", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			926, -- [11]
-			"Player-3685-07F1620A", -- [12]
+			646, -- [11]
+			"Player-64-0EDCDDCB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260831,
+			[52] = "|cff33937fScaleybuns-Duskwood|r",
+			[51] = 1678397834,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [44]
 		{
-			"Clear", -- [1]
-			"Adamancy-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Tog-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"Tog-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			930, -- [11]
-			"Player-3685-07F1620A", -- [12]
+			648, -- [11]
+			"Player-3685-072450C5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260831,
+			[52] = "|cffc69b6dTog|r",
+			[51] = 1678397834,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [45]
 		{
-			"Clear", -- [1]
-			"Jadior-Illidan", -- [2]
+			"Yes chef!", -- [1]
+			"Flessa-Duskwood", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Jadior-Illidan", -- [5]
+			"Flessa-Duskwood", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			931, -- [11]
-			"Player-57-0D655F76", -- [12]
+			649, -- [11]
+			"Player-64-08890D83", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa330c9Jadior-Illidan|r",
-			[51] = 1674260831,
+			[52] = "|cffaad372Flessa-Duskwood|r",
+			[51] = 1678397834,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [46]
 		{
-			"Clear", -- [1]
-			"Bashnblock-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Halitosiss-Bloodhoof", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bashnblock-Turalyon", -- [5]
+			"Halitosiss-Bloodhoof", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			939, -- [11]
-			"Player-3685-0DEF7503", -- [12]
+			661, -- [11]
+			"Player-64-0EDD1834", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dBashnblock|r",
-			[51] = 1674260834,
+			[52] = "|cff33937fHalitosiss-Bloodhoof|r",
+			[51] = 1678397853,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [47]
 		{
-			"Clear", -- [1]
-			"Berejitsu-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Chihua-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Berejitsu-Turalyon", -- [5]
+			"Chihua-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			940, -- [11]
-			"Player-3685-0DF91BA1", -- [12]
+			663, -- [11]
+			"Player-3685-0720284E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff98Berejitsu|r",
-			[51] = 1674260834,
+			[52] = "|cffaad372Chihua|r",
+			[51] = 1678397854,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [48]
 		{
-			"Cleared", -- [1]
-			"Berejitsu-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Soulshredder-Bloodhoof", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Berejitsu-Turalyon", -- [5]
+			"Soulshredder-Bloodhoof", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			941, -- [11]
-			"Player-3685-0DF91BA1", -- [12]
+			670, -- [11]
+			"Player-64-0324AE3D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff98Berejitsu|r",
-			[51] = 1674260834,
+			[52] = "|cff8788eeSoulshredder-Bloodhoof|r",
+			[51] = 1678397855,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [49]
 		{
-			"Clear", -- [1]
-			"Bovinehymn-Malfurion", -- [2]
+			"Yes chef!", -- [1]
+			"Vileheart-Bloodhoof", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bovinehymn-Malfurion", -- [5]
+			"Vileheart-Bloodhoof", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			942, -- [11]
-			"Player-1175-0EEEC1C7", -- [12]
+			671, -- [11]
+			"Player-64-0046C4CD", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffBovinehymn-Malfurion|r",
-			[51] = 1674260834,
+			[52] = "|cff3fc7ebVileheart-Bloodhoof|r",
+			[51] = 1678397858,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [50]
 		{
-			"Expel Light on Bovinehymn", -- [1]
-			"Bovinehymn-Malfurion", -- [2]
+			"Yes chef!", -- [1]
+			"Summon-Duskwood", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bovinehymn-Malfurion", -- [5]
+			"Summon-Duskwood", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			948, -- [11]
-			"Player-1175-0EEEC1C7", -- [12]
+			679, -- [11]
+			"Player-64-088A6EB9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffBovinehymn-Malfurion|r",
-			[51] = 1674260912,
+			[52] = "|cff8788eeSummon-Duskwood|r",
+			[51] = 1678397859,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [51]
 		{
-			"{rt7}", -- [1]
-			"Bashnblock-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Vitt-Bloodhoof", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bashnblock-Turalyon", -- [5]
+			"Vitt-Bloodhoof", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			957, -- [11]
-			"Player-3685-0DEF7503", -- [12]
+			680, -- [11]
+			"Player-64-0D906E38", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dBashnblock|r",
-			[51] = 1674260895,
+			[52] = "|cff3fc7ebVitt-Bloodhoof|r",
+			[51] = 1678397859,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [52]
 		{
-			"{rt6}", -- [1]
-			"Berejitsu-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Jagur-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Berejitsu-Turalyon", -- [5]
+			"Jagur-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			958, -- [11]
-			"Player-3685-0DF91BA1", -- [12]
+			685, -- [11]
+			"Player-3685-0DA103FE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff98Berejitsu|r",
-			[51] = 1674260895,
+			[52] = "|cffaad372Jagur|r",
+			[51] = 1678397861,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [53]
 		{
-			"{rt7}", -- [1]
+			"Yes chef!", -- [1]
 			"Adamancy-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1178,7 +1178,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			960, -- [11]
+			689, -- [11]
 			"Player-3685-07F1620A", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1186,583 +1186,583 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260895,
+			[51] = 1678397864,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [54]
 		{
-			"{rt6}", -- [1]
-			"Jadior-Illidan", -- [2]
+			"Yes chef!", -- [1]
+			"Longdruid-Duskwood", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Jadior-Illidan", -- [5]
+			"Longdruid-Duskwood", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			961, -- [11]
-			"Player-57-0D655F76", -- [12]
+			693, -- [11]
+			"Player-64-0A570699", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa330c9Jadior-Illidan|r",
-			[51] = 1674260895,
+			[52] = "|cffff7c0aLongdruid-Duskwood|r",
+			[51] = 1678397935,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [55]
 		{
-			"{rt7}", -- [1]
-			"Adamancy-Turalyon", -- [2]
+			"dude, did you know on 2nd boss in nokhud, you can run out of melee, taunt the boss, spell reflect, and the tank taunts back", -- [1]
+			"|Kq23|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			962, -- [11]
-			"Player-3685-07F1620A", -- [12]
-			0, -- [13]
+			36, -- [11]
+			false, -- [12]
+			8, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260895,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff48cbaDos|r",
+			[51] = 1678400998,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [56]
 		{
-			"{rt6}", -- [1]
-			"Bovinehymn-Malfurion", -- [2]
+			"wind burst will be your top dmg guaranteed", -- [1]
+			"|Kq23|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bovinehymn-Malfurion", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			963, -- [11]
-			"Player-1175-0EEEC1C7", -- [12]
-			0, -- [13]
+			37, -- [11]
+			false, -- [12]
+			8, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffBovinehymn-Malfurion|r",
-			[51] = 1674260895,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff48cbaDos|r",
+			[51] = 1678400944,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [57]
 		{
-			"{rt7}", -- [1]
-			"Adamancy-Turalyon", -- [2]
+			"on the storm boss?", -- [1]
+			"|Kq23|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			969, -- [11]
-			"Player-3685-07F1620A", -- [12]
-			0, -- [13]
+			39, -- [11]
+			false, -- [12]
+			8, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260896,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff48cbaDos|r",
+			[51] = 1678400957,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [58]
 		{
-			"{rt7}", -- [1]
-			"Adamancy-Turalyon", -- [2]
+			"yeah", -- [1]
+			"|Kq23|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			971, -- [11]
-			"Player-3685-07F1620A", -- [12]
-			0, -- [13]
+			40, -- [11]
+			false, -- [12]
+			8, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260897,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff48cbaDos|r",
+			[51] = 1678400960,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [59]
 		{
-			"{rt7}", -- [1]
-			"Adamancy-Turalyon", -- [2]
+			"it hits incredibly hard", -- [1]
+			"|Kq23|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			976, -- [11]
-			"Player-3685-07F1620A", -- [12]
-			0, -- [13]
+			41, -- [11]
+			false, -- [12]
+			8, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260898,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff48cbaDos|r",
+			[51] = 1678400963,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [60]
 		{
-			"Clear", -- [1]
-			"Adamancy-Turalyon", -- [2]
+			"damn thats a nice trick lol", -- [1]
+			"|Kq23|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			978, -- [11]
-			"Player-3685-07F1620A", -- [12]
-			0, -- [13]
+			42, -- [11]
+			false, -- [12]
+			8, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260898,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff48cbaDos|r",
+			[51] = 1678400972,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [61]
 		{
-			"Clear", -- [1]
-			"Jadior-Illidan", -- [2]
+			"like 5-600k", -- [1]
+			"|Kq23|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Jadior-Illidan", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			979, -- [11]
-			"Player-57-0D655F76", -- [12]
-			0, -- [13]
+			43, -- [11]
+			false, -- [12]
+			8, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa330c9Jadior-Illidan|r",
-			[51] = 1674260898,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff48cbaDos|r",
+			[51] = 1678400973,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [62]
 		{
-			"{rt7}5", -- [1]
-			"Bashnblock-Turalyon", -- [2]
+			"probably adds 20-20k dps", -- [1]
+			"|Kq23|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bashnblock-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			989, -- [11]
-			"Player-3685-0DEF7503", -- [12]
-			0, -- [13]
+			46, -- [11]
+			false, -- [12]
+			8, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dBashnblock|r",
-			[51] = 1674260905,
-			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaDos|r",
+			[51] = 1678401056,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [63]
 		{
-			"{rt6}5", -- [1]
-			"Berejitsu-Turalyon", -- [2]
+			"going to have to try it so i look like im pumping at least lol", -- [1]
+			"|Kq23|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Berejitsu-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			990, -- [11]
-			"Player-3685-0DF91BA1", -- [12]
-			0, -- [13]
+			47, -- [11]
+			false, -- [12]
+			8, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff98Berejitsu|r",
-			[51] = 1674260905,
-			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaDos|r",
+			[51] = 1678401056,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 		}, -- [64]
 		{
-			"{rt6}5", -- [1]
-			"Bovinehymn-Malfurion", -- [2]
+			"*20-25", -- [1]
+			"|Kq23|k", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bovinehymn-Malfurion", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			991, -- [11]
-			"Player-1175-0EEEC1C7", -- [12]
-			0, -- [13]
+			49, -- [11]
+			false, -- [12]
+			8, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffBovinehymn-Malfurion|r",
-			[51] = 1674260905,
-			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaDos|r",
+			[51] = 1678401002,
+			[50] = "CHAT_MSG_BN_WHISPER",
 		}, -- [65]
 		{
-			"{rt7}4", -- [1]
-			"Bashnblock-Turalyon", -- [2]
+			"LF someone to recraft |cffa335ee|Hitem:193001::192984:192948:192948::::70:258::13:9:8836:8840:8902:8960:8783:8782:8802:8793:8845:7:28:2164:29:40:30:36:38:8:40:260:48:194566:49:197921::::Player-3685-0DE34138:|h[Elemental Lariat |A:Professions-ChatIcon-Quality-Tier5:17:17::1|a]|h|r to 415+", -- [1]
+			"Swolfze-Turalyon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Bashnblock-Turalyon", -- [5]
+			"2. Trade - City", -- [4]
+			"Swolfze-Turalyon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			992, -- [11]
-			"Player-3685-0DEF7503", -- [12]
+			86, -- [11]
+			"Player-3685-0E14F092", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dBashnblock|r",
-			[51] = 1674260906,
-			[50] = "CHAT_MSG_YELL",
+			true, -- [17]
+			[52] = "|cffffffffSwolfze|r",
+			[51] = 1678401608,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [66]
 		{
-			"{rt6}4", -- [1]
-			"Berejitsu-Turalyon", -- [2]
+			"LF 402 Upgrade |cffa335ee|Hitem:194898:6655:::::::70:63::13:5:8836:8840:8902:8802:8793:6:28:2164:29:40:30:32:38:8:40:676:48:194566::::Player-3685-0DA9DA72:|h[Illuminating Pillar of the Isles |A:Professions-ChatIcon-Quality-Tier5:17:17::1|a]|h|r", -- [1]
+			"Grumagus-Turalyon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Berejitsu-Turalyon", -- [5]
+			"2. Trade - City", -- [4]
+			"Grumagus-Turalyon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			993, -- [11]
-			"Player-3685-0DF91BA1", -- [12]
+			404, -- [11]
+			"Player-3685-0E149ABE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff98Berejitsu|r",
-			[51] = 1674260906,
-			[50] = "CHAT_MSG_YELL",
+			true, -- [17]
+			[52] = "|cff3fc7ebGrumagus|r",
+			[51] = 1678821485,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [67]
 		{
-			"{rt6}4", -- [1]
-			"Bovinehymn-Malfurion", -- [2]
+			"|cffa335ee|Hitem:195526::::::::70:263::5:5:40:7936:7980:1485:8767::::::|h[Seal of Filial Duty]|h|r or |cffa335ee|Hitem:194308::::::::70:263::5:4:7980:6652:1485:8767::::::|h[Manic Grieftorch]|h|r", -- [1]
+			"Bioshock-Turalyon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Bovinehymn-Malfurion", -- [5]
+			"2. Trade - City", -- [4]
+			"Bioshock-Turalyon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			994, -- [11]
-			"Player-1175-0EEEC1C7", -- [12]
+			405, -- [11]
+			"Player-3685-0A6B03A9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffBovinehymn-Malfurion|r",
-			[51] = 1674260906,
-			[50] = "CHAT_MSG_YELL",
+			true, -- [17]
+			[52] = "|cff0070ddBioshock|r",
+			[51] = 1678821498,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [68]
 		{
-			"{rt7}3", -- [1]
-			"Bashnblock-Turalyon", -- [2]
+			"ez, ring", -- [1]
+			"Grumagus-Turalyon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Bashnblock-Turalyon", -- [5]
+			"2. Trade - City", -- [4]
+			"Grumagus-Turalyon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			998, -- [11]
-			"Player-3685-0DEF7503", -- [12]
+			407, -- [11]
+			"Player-3685-0E149ABE", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dBashnblock|r",
-			[51] = 1674260907,
-			[50] = "CHAT_MSG_YELL",
+			true, -- [17]
+			[52] = "|cff3fc7ebGrumagus|r",
+			[51] = 1678821520,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [69]
 		{
-			"{rt6}3", -- [1]
-			"Berejitsu-Turalyon", -- [2]
+			"Yeah Im thinking too", -- [1]
+			"Bioshock-Turalyon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Berejitsu-Turalyon", -- [5]
+			"2. Trade - City", -- [4]
+			"Bioshock-Turalyon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1001, -- [11]
-			"Player-3685-0DF91BA1", -- [12]
+			408, -- [11]
+			"Player-3685-0A6B03A9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff98Berejitsu|r",
-			[51] = 1674260907,
-			[50] = "CHAT_MSG_YELL",
+			true, -- [17]
+			[52] = "|cff0070ddBioshock|r",
+			[51] = 1678821590,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [70]
 		{
-			"{rt7}2", -- [1]
-			"Bashnblock-Turalyon", -- [2]
+			"Grieftorch would be dope but i already have icon and puzzle box", -- [1]
+			"Bioshock-Turalyon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Bashnblock-Turalyon", -- [5]
+			"2. Trade - City", -- [4]
+			"Bioshock-Turalyon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1002, -- [11]
-			"Player-3685-0DEF7503", -- [12]
+			412, -- [11]
+			"Player-3685-0A6B03A9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dBashnblock|r",
-			[51] = 1674260908,
-			[50] = "CHAT_MSG_YELL",
+			true, -- [17]
+			[52] = "|cff0070ddBioshock|r",
+			[51] = 1678821548,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [71]
 		{
-			"{rt6}2", -- [1]
-			"Berejitsu-Turalyon", -- [2]
+			"loot specialist 29.2 48.5", -- [1]
+			"Sallix-Turalyon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Berejitsu-Turalyon", -- [5]
+			"1. General - The Forbidden Reach", -- [4]
+			"Sallix-Turalyon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			1, -- [7]
+			1, -- [8]
+			"General - The Forbidden Reach", -- [9]
 			0, -- [10]
-			1003, -- [11]
-			"Player-3685-0DF91BA1", -- [12]
+			2251, -- [11]
+			"Player-3685-0E0EECC1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff98Berejitsu|r",
-			[51] = 1674260908,
-			[50] = "CHAT_MSG_YELL",
+			true, -- [17]
+			[52] = "|cff8788eeSallix|r",
+			[51] = 1679789760,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [72]
 		{
-			"{rt6}2", -- [1]
-			"Bovinehymn-Malfurion", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:16499:Player-3685-07F1620A:1:3:25:23:4294967295:4294967295:4294967295:4294967295|h[Elemental Overflowing]|h|r!", -- [1]
+			"Adamancy-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bovinehymn-Malfurion", -- [5]
+			"Adamancy-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1005, -- [11]
-			"Player-1175-0EEEC1C7", -- [12]
+			2269, -- [11]
+			"Player-3685-07F1620A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffBovinehymn-Malfurion|r",
-			[51] = 1674260908,
-			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff3fc7ebAdamancy|r",
+			[51] = 1679789958,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [73]
 		{
-			"{rt7}1", -- [1]
-			"Bashnblock-Turalyon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:16500:Player-3685-07F1620A:1:3:25:23:4294967295:4294967295:4294967295:4294967295|h[Elemental Overload]|h|r!", -- [1]
+			"Adamancy-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bashnblock-Turalyon", -- [5]
+			"Adamancy-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1006, -- [11]
-			"Player-3685-0DEF7503", -- [12]
+			2300, -- [11]
+			"Player-3685-07F1620A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dBashnblock|r",
-			[51] = 1674260969,
-			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff3fc7ebAdamancy|r",
+			[51] = 1679790271,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [74]
 		{
-			"{rt6}1", -- [1]
-			"Berejitsu-Turalyon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:12903:Player-3685-0703D328:1:3:25:23:4294967295:4294967295:4294967295:4294967295|h[Honor Level 40]|h|r!", -- [1]
+			"Mikya-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Berejitsu-Turalyon", -- [5]
+			"Mikya-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1007, -- [11]
-			"Player-3685-0DF91BA1", -- [12]
+			2325, -- [11]
+			"Player-3685-0703D328", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff98Berejitsu|r",
-			[51] = 1674260969,
-			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff3fc7ebMikya|r",
+			[51] = 1679790695,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [75]
 		{
-			"{rt6}1", -- [1]
-			"Bovinehymn-Malfurion", -- [2]
+			"summoning Kangalo 56.4 59.2", -- [1]
+			"Sallix-Turalyon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Bovinehymn-Malfurion", -- [5]
+			"1. General - The Forbidden Reach", -- [4]
+			"Sallix-Turalyon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			1, -- [7]
+			1, -- [8]
+			"General - The Forbidden Reach", -- [9]
 			0, -- [10]
-			1008, -- [11]
-			"Player-1175-0EEEC1C7", -- [12]
+			2511, -- [11]
+			"Player-3685-0E0EECC1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffBovinehymn-Malfurion|r",
-			[51] = 1674260969,
-			[50] = "CHAT_MSG_YELL",
+			true, -- [17]
+			[52] = "|cff8788eeSallix|r",
+			[51] = 1679792174,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [76]
 		{
-			"cmon man", -- [1]
-			"Berejitsu-Turalyon", -- [2]
+			"thx for heads up1", -- [1]
+			"Bagfries-Turalyon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Berejitsu-Turalyon", -- [5]
+			"1. General - The Forbidden Reach", -- [4]
+			"Bagfries-Turalyon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			1, -- [7]
+			1, -- [8]
+			"General - The Forbidden Reach", -- [9]
 			0, -- [10]
-			1022, -- [11]
-			"Player-3685-0DF91BA1", -- [12]
+			2522, -- [11]
+			"Player-3685-0DF7EE01", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff98Berejitsu|r",
-			[51] = 1674260962,
-			[50] = "CHAT_MSG_PARTY",
+			true, -- [17]
+			[52] = "|cff33937fBagfries|r",
+			[51] = 1679792306,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [77]
 		{
-			"{rt7}", -- [1]
-			"Bovinehymn-Malfurion", -- [2]
+			"np bag", -- [1]
+			"Sallix-Turalyon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Bovinehymn-Malfurion", -- [5]
+			"1. General - The Forbidden Reach", -- [4]
+			"Sallix-Turalyon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			1, -- [7]
+			1, -- [8]
+			"General - The Forbidden Reach", -- [9]
 			0, -- [10]
-			1025, -- [11]
-			"Player-1175-0EEEC1C7", -- [12]
+			2523, -- [11]
+			"Player-3685-0E0EECC1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffBovinehymn-Malfurion|r",
-			[51] = 1674260965,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cff8788eeSallix|r",
+			[51] = 1679792322,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [78]
 		{
-			"{rt6}", -- [1]
-			"Adamancy-Turalyon", -- [2]
+			"it dead?", -- [1]
+			"Stormdorf-Turalyon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"1. General - The Forbidden Reach", -- [4]
+			"Stormdorf-Turalyon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			1, -- [7]
+			1, -- [8]
+			"General - The Forbidden Reach", -- [9]
 			0, -- [10]
-			1026, -- [11]
-			"Player-3685-07F1620A", -- [12]
+			2527, -- [11]
+			"Player-3685-0DDA9A09", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260965,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cff0070ddStormdorf|r",
+			[51] = 1679792346,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [79]
 		{
-			"{rt6}", -- [1]
-			"Adamancy-Turalyon", -- [2]
+			"ya", -- [1]
+			"Kiyofu-Turalyon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"1. General - The Forbidden Reach", -- [4]
+			"Kiyofu-Turalyon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			1, -- [7]
+			1, -- [8]
+			"General - The Forbidden Reach", -- [9]
 			0, -- [10]
-			1028, -- [11]
-			"Player-3685-07F1620A", -- [12]
+			2528, -- [11]
+			"Player-3685-08E76C64", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260965,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cff8788eeKiyofu|r",
+			[51] = 1679792357,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [80]
 		{
-			"{rt6}", -- [1]
+			"%s has earned the achievement |cffffff00|Hachievement:17524:Player-3685-07F1620A:1:3:25:23:4294967295:4294967295:4294967295:4294967295|h[Adventurer of the Forbidden Reach]|h|r!", -- [1]
 			"Adamancy-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1772,7 +1772,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1029, -- [11]
+			2569, -- [11]
 			"Player-3685-07F1620A", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1780,65 +1780,65 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260967,
-			[50] = "CHAT_MSG_SAY",
+			[51] = 1679792904,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [81]
 		{
-			"{rt6}", -- [1]
-			"Adamancy-Turalyon", -- [2]
+			"we're kicking all the nonmages", -- [1]
+			"Mikya-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1032, -- [11]
-			"Player-3685-07F1620A", -- [12]
+			2634, -- [11]
+			"Player-3685-0703D328", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674260967,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3fc7ebMikya|r",
+			[51] = 1679793305,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [82]
 		{
-			"No realy cds left", -- [1]
-			"Bovinehymn-Malfurion", -- [2]
+			"this is a mage only guild", -- [1]
+			"Mikya-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bovinehymn-Malfurion", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1034, -- [11]
-			"Player-1175-0EEEC1C7", -- [12]
+			2635, -- [11]
+			"Player-3685-0703D328", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffBovinehymn-Malfurion|r",
-			[51] = 1674260968,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3fc7ebMikya|r",
+			[51] = 1679793309,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [83]
 		{
-			"{rt6}", -- [1]
+			"finally", -- [1]
 			"Adamancy-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1035, -- [11]
+			2637, -- [11]
 			"Player-3685-07F1620A", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1846,165 +1846,165 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674261028,
-			[50] = "CHAT_MSG_SAY",
+			[51] = 1679793321,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [84]
 		{
-			"{rt6}", -- [1]
-			"Adamancy-Turalyon", -- [2]
+			"mage guild best guild", -- [1]
+			"Annya-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1040, -- [11]
-			"Player-3685-07F1620A", -- [12]
+			2638, -- [11]
+			"Player-3685-0701EBC2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674261029,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3fc7ebAnnya|r",
+			[51] = 1679793394,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [85]
 		{
-			"real*", -- [1]
-			"Bovinehymn-Malfurion", -- [2]
+			"Fellowship of the Blink", -- [1]
+			"Kryptikal-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bovinehymn-Malfurion", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1045, -- [11]
-			"Player-1175-0EEEC1C7", -- [12]
+			2639, -- [11]
+			"Player-3685-0E162EB9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffBovinehymn-Malfurion|r",
-			[51] = 1674261032,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff3fc7ebKryptikal|r",
+			[51] = 1679793407,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [86]
 		{
-			"that explo", -- [1]
-			"Berejitsu-Turalyon", -- [2]
+			"LF someone to recraft |cffa335ee|Hitem:193000:6556:192948::::::70:258::13:7:8836:8840:8902:8780:8802:8793:8845:7:28:2164:29:49:30:32:38:8:40:259:49:194566:50:197921::::Player-3685-0DF80F1C:|h[Ring-Bound Hourglass |A:Professions-ChatIcon-Quality-Tier5:17:17::1|a]|h|r", -- [1]
+			"Swolfze-Turalyon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Berejitsu-Turalyon", -- [5]
+			"2. Trade - City", -- [4]
+			"Swolfze-Turalyon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1049, -- [11]
-			"Player-3685-0DF91BA1", -- [12]
+			2905, -- [11]
+			"Player-3685-0E14F092", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff98Berejitsu|r",
-			[51] = 1674261034,
-			[50] = "CHAT_MSG_PARTY",
+			true, -- [17]
+			[52] = "|cffffffffSwolfze|r",
+			[51] = 1679794503,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [87]
 		{
-			"{rt7}5", -- [1]
-			"Bovinehymn-Malfurion", -- [2]
+			"Any lariat crafters on?  need to do first infusion on one to 405", -- [1]
+			"Hypnotica-Turalyon", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Bovinehymn-Malfurion", -- [5]
+			"2. Trade - City", -- [4]
+			"Hypnotica-Turalyon", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1050, -- [11]
-			"Player-1175-0EEEC1C7", -- [12]
+			2955, -- [11]
+			"Player-3685-07251D41", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffBovinehymn-Malfurion|r",
-			[51] = 1674261035,
-			[50] = "CHAT_MSG_YELL",
+			true, -- [17]
+			[52] = "|cffffffffHypnotica|r",
+			[51] = 1679795168,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [88]
 		{
-			"{rt7}4", -- [1]
-			"Bovinehymn-Malfurion", -- [2]
+			"Yes chef!", -- [1]
+			"Adamancy-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bovinehymn-Malfurion", -- [5]
+			"Adamancy-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1051, -- [11]
-			"Player-1175-0EEEC1C7", -- [12]
+			451, -- [11]
+			"Player-3685-07F1620A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffBovinehymn-Malfurion|r",
-			[51] = 1674261036,
-			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff3fc7ebAdamancy|r",
+			[51] = 1679969289,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [89]
 		{
-			"{rt7}3", -- [1]
-			"Bovinehymn-Malfurion", -- [2]
+			"Yes chef!", -- [1]
+			"Myosotis-Duskwood", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bovinehymn-Malfurion", -- [5]
+			"Myosotis-Duskwood", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1054, -- [11]
-			"Player-1175-0EEEC1C7", -- [12]
+			452, -- [11]
+			"Player-64-0F00357C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffBovinehymn-Malfurion|r",
-			[51] = 1674261037,
-			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffaad372Myosotis-Duskwood|r",
+			[51] = 1679969292,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [90]
 		{
-			"shouldnt have gone off", -- [1]
-			"Berejitsu-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Emilynn-Duskwood", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Berejitsu-Turalyon", -- [5]
+			"Emilynn-Duskwood", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1055, -- [11]
-			"Player-3685-0DF91BA1", -- [12]
+			457, -- [11]
+			"Player-64-0892525D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff98Berejitsu|r",
-			[51] = 1674261037,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffaad372Emilynn-Duskwood|r",
+			[51] = 1679969301,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [91]
 		{
-			"almost had it", -- [1]
+			"Yes chef!", -- [1]
 			"Adamancy-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -2014,7 +2014,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1056, -- [11]
+			459, -- [11]
 			"Player-3685-07F1620A", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2022,185 +2022,185 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674261038,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1679969311,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [92]
 		{
-			"{rt7}2", -- [1]
-			"Bovinehymn-Malfurion", -- [2]
+			"Yes chef!", -- [1]
+			"Katryona-Bloodhoof", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bovinehymn-Malfurion", -- [5]
+			"Katryona-Bloodhoof", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1058, -- [11]
-			"Player-1175-0EEEC1C7", -- [12]
+			467, -- [11]
+			"Player-64-0362AF8D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffBovinehymn-Malfurion|r",
-			[51] = 1674261038,
-			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffff7c0aKatryona-Bloodhoof|r",
+			[51] = 1679969328,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [93]
 		{
-			"{rt7}1", -- [1]
-			"Bovinehymn-Malfurion", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:12559:Player-3685-072486FC:1:3:27:23:4294967295:4294967295:4294967295:4294967295|h[Explore Zuldazar]|h|r!", -- [1]
+			"Sonyana-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bovinehymn-Malfurion", -- [5]
+			"Sonyana-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1059, -- [11]
-			"Player-1175-0EEEC1C7", -- [12]
+			477, -- [11]
+			"Player-3685-072486FC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffBovinehymn-Malfurion|r",
-			[51] = 1674261039,
-			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffff7c0aSonyana|r",
+			[51] = 1679969362,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [94]
 		{
-			"ty all", -- [1]
-			"Berejitsu-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Goodytoshoes-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Berejitsu-Turalyon", -- [5]
+			"Goodytoshoes-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1061, -- [11]
-			"Player-3685-0DF91BA1", -- [12]
+			482, -- [11]
+			"Player-3685-06FB228E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff98Berejitsu|r",
-			[51] = 1674261045,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc69b6dGoodytoshoes|r",
+			[51] = 1679969374,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [95]
 		{
-			"gl", -- [1]
-			"Berejitsu-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Katryona-Bloodhoof", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Berejitsu-Turalyon", -- [5]
+			"Katryona-Bloodhoof", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1062, -- [11]
-			"Player-3685-0DF91BA1", -- [12]
+			485, -- [11]
+			"Player-64-0362AF8D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff98Berejitsu|r",
-			[51] = 1674261046,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffff7c0aKatryona-Bloodhoof|r",
+			[51] = 1679969377,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [96]
 		{
-			"bye guys", -- [1]
-			"Jadior-Illidan", -- [2]
+			"Yes chef!", -- [1]
+			"Gavenrhett-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Jadior-Illidan", -- [5]
+			"Gavenrhett-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1064, -- [11]
-			"Player-57-0D655F76", -- [12]
+			502, -- [11]
+			"Player-3685-0DF7D206", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa330c9Jadior-Illidan|r",
-			[51] = 1674261050,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff33937fGavenrhett|r",
+			[51] = 1679969488,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [97]
 		{
-			"Aye", -- [1]
-			"Bovinehymn-Malfurion", -- [2]
+			"Yes chef!", -- [1]
+			"Goodytoshoes-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Bovinehymn-Malfurion", -- [5]
+			"Goodytoshoes-Turalyon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1065, -- [11]
-			"Player-1175-0EEEC1C7", -- [12]
+			503, -- [11]
+			"Player-3685-06FB228E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffBovinehymn-Malfurion|r",
-			[51] = 1674261052,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffc69b6dGoodytoshoes|r",
+			[51] = 1679969492,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [98]
 		{
-			"thx for sticking it out this long", -- [1]
-			"Adamancy-Turalyon", -- [2]
+			"Yes chef!", -- [1]
+			"Emilynn-Duskwood", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adamancy-Turalyon", -- [5]
+			"Emilynn-Duskwood", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1067, -- [11]
-			"Player-3685-07F1620A", -- [12]
+			505, -- [11]
+			"Player-64-0892525D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc7ebAdamancy|r",
-			[51] = 1674261000,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffaad372Emilynn-Duskwood|r",
+			[51] = 1679969496,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/p no it tracks the tank", -- [1]
-		"/p nah youre supposed to use it to move to the other side", -- [2]
-		"/p no lust this time unfortunately", -- [3]
-		"/p thats crap her target didnt even change for that cast", -- [4]
-		"/p she randomly picks someone to cast arcing lightning", -- [5]
-		"/p its like a 90k instant cast", -- [6]
-		"/p her target usually switches to that person like half second before she does it", -- [7]
-		"/p can usually iceblock the first one but she didnt even change targets that time", -- [8]
-		"/p yeah sucks its random who she picks", -- [9]
-		"/p on the 2nd storm phase might need them fo rrecovery", -- [10]
-		"/p yeah that doesnt seem right", -- [11]
-		"/p we want to keep trying?", -- [12]
-		"/p just remember as the fight goes on longer she hits harder and harder", -- [13]
-		"/p 2 mins on lust cd", -- [14]
-		"/p best to stack it at the beginning with all our cds tho", -- [15]
-		"/p get the most out of it", -- [16]
-		"/p rdy in 30 sec", -- [17]
-		"/p k rdy", -- [18]
-		"/p almost had it", -- [19]
-		"/p thx for sticking it out this long", -- [20]
+		"/p dont forget soothe/tranq", -- [1]
+		"/g what the hell happened", -- [2]
+		"/g that was a terrible idea lol", -- [3]
+		"/g and we split dps bad on that one", -- [4]
+		"/p everyone is eligible for target", -- [5]
+		"/p doesnt matter, we are all considered ranged", -- [6]
+		"/p nope not this one", -- [7]
+		"/g yeah he dumb", -- [8]
+		"/p gg", -- [9]
+		"/p yeah its kinda tough with 3 ranged", -- [10]
+		"/p :||", -- [11]
+		"yeah im down for some in a few, need to clean up a mess first", -- [12]
+		"/wave", -- [13]
+		"/knp", -- [14]
+		"most definitely", -- [15]
+		"ill hop in disc in a min", -- [16]
+		"on the storm boss?", -- [17]
+		"damn thats a nice trick lol", -- [18]
+		"going to have to try it so i look like im pumping at least lol", -- [19]
+		"/g finally", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

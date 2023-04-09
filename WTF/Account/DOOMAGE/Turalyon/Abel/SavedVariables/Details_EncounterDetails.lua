@@ -1329,14 +1329,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lord Chamberlain",
 		},
-		[334488] = {
-			["school"] = 1,
+		[104318] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Surgeon Stitchflesh",
+			["source"] = "Wild Imp",
 		},
 		[128239] = {
 			["school"] = 1,
@@ -1362,12 +1360,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shadowmoon Acolyte",
 		},
-		[121181] = {
-			["school"] = 4,
+		[334488] = {
+			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Harthak Flameseeker",
+			["source"] = "Surgeon Stitchflesh",
 		},
 		[39013] = {
 			["school"] = 2,
@@ -1607,14 +1607,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Drust Harvester",
 		},
-		[324667] = {
-			["school"] = 8,
+		[30991] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Globgrog",
+			["source"] = "Shattered Hand Assassin",
 		},
 		[321976] = {
 			["school"] = 8,
@@ -1740,12 +1740,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Domina Venomblade",
 		},
-		[31550] = {
-			["school"] = 1,
+		[39019] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Temporus",
+			["source"] = "Harbinger Skyriss",
 		},
 		[112944] = {
 			["school"] = 1,
@@ -1771,14 +1774,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Malignant Spawn",
 		},
-		[121185] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[106877] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Kargesh Highguard",
+			["source"] = "Sha of Violence",
 		},
 		[40248] = {
 			["school"] = 1,
@@ -1800,14 +1802,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Domina Venomblade",
 		},
-		[107356] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[106334] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Corrupted Taran Zhu",
+			["source"] = "Wise Mari",
 		},
 		[31422] = {
 			["school"] = 64,
@@ -1895,19 +1895,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shattered Hand Legionnaire",
 		},
-		[106334] = {
-			["school"] = 16,
+		[107356] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Wise Mari",
+			["source"] = "Corrupted Taran Zhu",
 		},
-		[322240] = {
-			["school"] = 8,
+		[121185] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Malignant Spawn",
+			["source"] = "Kargesh Highguard",
 		},
 		[119684] = {
 			["school"] = 1,
@@ -2218,15 +2222,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Harbinger Skyriss",
 		},
-		[32365] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[327233] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Nexus-Prince Shaffar",
+			["source"] = "Plaguebelcher",
 		},
 		[106439] = {
 			["school"] = 1,
@@ -2246,14 +2248,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sha of Doubt",
 		},
-		[118958] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[323552] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Glintrok Ironhide",
+			["source"] = "High Adjudicator Aleez",
 		},
 		[319702] = {
 			["school"] = 32,
@@ -2262,16 +2264,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Echelon",
 		},
-		[325700] = {
-			["school"] = 32,
+		[32365] = {
+			["school"] = 16,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Depraved Collector",
+			["source"] = "Nexus-Prince Shaffar",
 		},
 		[323150] = {
 			["school"] = 1,
@@ -2339,14 +2340,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Echelon",
 		},
-		[323552] = {
-			["school"] = 32,
+		[38592] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "High Adjudicator Aleez",
+			["source"] = "Temporus",
 		},
 		[320358] = {
 			["school"] = 1,
@@ -2401,14 +2402,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Pestilence Slime",
 		},
-		[114386] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[15496] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Yan-Zhu the Uncasked",
+			["source"] = "Blood Guard Porung",
 		},
 		[106055] = {
 			["school"] = 1,
@@ -2759,14 +2759,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Zoks-Nemesis",
 		},
-		[119946] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[102572] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Mu'Shiba",
+			["source"] = "Azure Serpent",
 		},
 		[231843] = {
 			["school"] = 1,
@@ -2776,13 +2774,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Zoks-Nemesis",
 		},
-		[102572] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Azure Serpent",
-		},
 		[36020] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -2791,6 +2782,15 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Shattered Hand Brawler",
+		},
+		[119946] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Mu'Shiba",
 		},
 		[106413] = {
 			["school"] = 4,
@@ -3062,14 +3062,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Illusionary Vulpin",
 		},
-		[38592] = {
+		[118958] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Temporus",
+			["source"] = "Glintrok Ironhide",
 		},
 		[320614] = {
 			["school"] = 1,
@@ -3108,13 +3108,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Master Snowdrift",
 		},
-		[15496] = {
-			["school"] = 1,
+		[22273] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Blood Guard Porung",
+			["source"] = "Ethereal Sorcerer",
 		},
 		[321893] = {
 			["school"] = 16,
@@ -3133,21 +3133,25 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Reanimated Mage",
 		},
-		[327233] = {
-			["school"] = 8,
+		[325700] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Plaguebelcher",
-		},
-		[22273] = {
-			["school"] = 64,
-			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Depraved Collector",
+		},
+		[114386] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ethereal Sorcerer",
+			["source"] = "Yan-Zhu the Uncasked",
 		},
 		[321894] = {
 			["school"] = 32,
@@ -3245,16 +3249,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Xuen",
 		},
-		[39019] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Harbinger Skyriss",
-		},
 		[35953] = {
 			["school"] = 32,
 			["token"] = {
@@ -3262,6 +3256,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Grand Warlock Nethekurse",
+		},
+		[31550] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Temporus",
 		},
 		[341443] = {
 			["school"] = 1,
@@ -3272,13 +3273,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Erupting Ooze",
 		},
-		[106877] = {
-			["school"] = 32,
+		[322240] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Sha of Violence",
+			["source"] = "Malignant Spawn",
 		},
 		[34920] = {
 			["school"] = 1,
@@ -3387,14 +3387,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shattered Hand Assassin",
 		},
-		[30991] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[324667] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Shattered Hand Assassin",
+			["source"] = "Globgrog",
 		},
 		[15615] = {
 			["school"] = 1,
@@ -3480,12 +3480,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Quagmirran",
 		},
-		[104318] = {
+		[121181] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Wild Imp",
+			["source"] = "Harthak Flameseeker",
 		},
 		[324459] = {
 			["school"] = 1,

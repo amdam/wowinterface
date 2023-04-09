@@ -2,183 +2,7 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"any blacksmith that can craft |cffa335ee|Hitem:190507::::::::70:577:::::::::|h[Primal Molten Longsword]|h|r", -- [1]
-			"Remuremu-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Remuremu-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			7680, -- [11]
-			"Player-3685-08CF610D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa330c9Remuremu|r",
-			[51] = 1673827060,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"LF leatherworker Venom-Steeped Stompers Rank 5 PST", -- [1]
-			"Kazekiame-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Kazekiame-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			8026, -- [11]
-			"Player-3685-0DF2337F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff0070ddKazekiame|r",
-			[51] = 1673827368,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"An illusion! What are you hiding?", -- [1]
-			"Waitmana-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Waitmana-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			9269, -- [11]
-			"Player-3685-0ABF007E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffWaitmana|r",
-			[51] = 1673828598,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [3]
-		{
-			"|cffffd000|Htrade:Player-3685-0E077772:2018:164|h[Blacksmithing]|h|r", -- [1]
-			"Tatsher-Turalyon", -- [2]
-			"", -- [3]
-			"1. General - Valdrakken", -- [4]
-			"Tatsher-Turalyon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Valdrakken", -- [9]
-			0, -- [10]
-			14605, -- [11]
-			"Player-3685-0E077772", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc69b6dTatsher|r",
-			[51] = 1673833710,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"|cffffd000|Htrade:Player-3685-0E077772:45357:773|h[Inscription]|h|r", -- [1]
-			"Tatsher-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Tatsher-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			14617, -- [11]
-			"Player-3685-0E077772", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc69b6dTatsher|r",
-			[51] = 1673833781,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"|cffffd000|Htrade:Player-3685-07119BEB:195097:164|h[Blacksmithing]|h|r", -- [1]
-			"Stcupertino-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Stcupertino-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			14636, -- [11]
-			"Player-3685-07119BEB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaStcupertino|r",
-			[51] = 1673833754,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"LF Blacksmith -> Short Blades: anyone able to R5 (418) a fully loaded |cffa335ee|Hitem:190506:6643:::::::70:105::13:8:8836:8840:8902:8801:8846:8792:8175:8960:8:28:2164:29:40:30:49:38:7:40:191:44:198046:45:194569:46:191534::::Player-3685-07A6AE4F:|h[Primal Molten Spellblade |A:Professions-ChatIcon-Quality-Tier4:17:17::1|a]|h|r made with max quality mats?? pst", -- [1]
-			"Karyisa-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Karyisa-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			14716, -- [11]
-			"Player-3685-0CFE6EB2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aKaryisa|r",
-			[51] = 1673833969,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"LF leatherworker Venom-Steeped Stompers Rank 4 or 5 PST", -- [1]
-			"Kazekiame-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Kazekiame-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3436, -- [11]
-			"Player-3685-0DF2337F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff0070ddKazekiame|r",
-			[51] = 1673924756,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"hey dos, can i sent you a recraft for this |cff0070dd|Hitem:198235::::::::70:70::13:4:8843:8842:8805:8862:5:28:2164:29:80:38:6:40:579:48:198536::::Player-3685-07251D87:|h[Lapidary's Khaz'gorite Clamps |A:Professions-ChatIcon-Quality-Tier3:17:18::1|a]|h|r?", -- [1]
+			"though i havent noticed back to back procs, wasnt watching for them", -- [1]
 			"Amdam-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -188,7 +12,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3115, -- [11]
+			1548, -- [11]
 			"Player-3685-0722C2B9", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -196,11 +20,187 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674240320,
+			[51] = 1681073840,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [1]
+		{
+			"ok i shouldnt be flagged anymore", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1549, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681073887,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [2]
+		{
+			"why am i still flagged", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1551, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681073982,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [3]
+		{
+			"hmm no wings, were you more than 40 yds away?", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1552, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681073986,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [4]
+		{
+			"the heck", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1554, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681074029,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [5]
+		{
+			"not flagged or anything", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1555, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681074031,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [6]
+		{
+			"your wings are broken", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1556, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681074035,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [7]
+		{
+			"wtf happened", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1557, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681074038,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [8]
+		{
+			"rippp lol", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1558, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681074042,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [9]
 		{
-			"sure buddy", -- [1]
+			"which talent is it?", -- [1]
 			"Azados-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -210,7 +210,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3142, -- [11]
+			1711, -- [11]
 			"Player-3685-07251D87", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -218,12 +218,12 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674240405,
+			[51] = 1681074024,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [10]
 		{
-			"try rank 2s first", -- [1]
-			"Azados-Turalyon", -- [2]
+			"its not a talent, just a baseline passive ret gets", -- [1]
+			"Amdam-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -232,19 +232,19 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3154, -- [11]
-			"Player-3685-07251D87", -- [12]
+			1712, -- [11]
+			"Player-3685-0722C2B9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674240415,
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681074102,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [11]
 		{
-			"the gears and capacitor are cheap at r3 so just a matter of the ore", -- [1]
+			"|cff71d5ff|Hspell:404752:0|h[Instrument of Retribution]|h|r", -- [1]
 			"Amdam-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -254,7 +254,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3166, -- [11]
+			1713, -- [11]
 			"Player-3685-0722C2B9", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -262,11 +262,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674240365,
+			[51] = 1681074107,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [12]
 		{
-			"my skill is mongo right now", -- [1]
+			"that's really weird", -- [1]
 			"Azados-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -276,7 +276,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3177, -- [11]
+			1715, -- [11]
 			"Player-3685-07251D87", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -284,12 +284,12 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674240375,
+			[51] = 1681074158,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [13]
 		{
-			"i get my final 13 skill points next week", -- [1]
-			"Azados-Turalyon", -- [2]
+			"there it is", -- [1]
+			"Amdam-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -298,19 +298,19 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3233, -- [11]
-			"Player-3685-07251D87", -- [12]
+			1717, -- [11]
+			"Player-3685-0722C2B9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674240425,
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681074178,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [14]
 		{
-			"then that's it, no more skill points forever", -- [1]
+			"got bugged out with warmode probably", -- [1]
 			"Azados-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -320,7 +320,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3243, -- [11]
+			1718, -- [11]
 			"Player-3685-07251D87", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -328,12 +328,12 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674240433,
+			[51] = 1681074127,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [15]
 		{
-			"for profession gear?", -- [1]
-			"Amdam-Turalyon", -- [2]
+			"or being flagged", -- [1]
+			"Azados-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -342,20 +342,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3264, -- [11]
-			"Player-3685-0722C2B9", -- [12]
+			1719, -- [11]
+			"Player-3685-07251D87", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674240512,
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681074131,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [16]
 		{
-			"for anything", -- [1]
-			"Azados-Turalyon", -- [2]
+			"i could see that", -- [1]
+			"Amdam-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -364,19 +364,19 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3271, -- [11]
-			"Player-3685-07251D87", -- [12]
+			1720, -- [11]
+			"Player-3685-0722C2B9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674240517,
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681074134,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [17]
 		{
-			"oh damn youre maxed on skill?", -- [1]
+			"or we waited out the icd", -- [1]
 			"Amdam-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -386,7 +386,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3289, -- [11]
+			1721, -- [11]
 			"Player-3685-0722C2B9", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -394,12 +394,12 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674240535,
+			[51] = 1681074138,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [18]
 		{
-			"i'm capped skill in making everything, save those 13 points", -- [1]
-			"Azados-Turalyon", -- [2]
+			"but that was a long time", -- [1]
+			"Amdam-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -408,19 +408,19 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3293, -- [11]
-			"Player-3685-07251D87", -- [12]
+			1722, -- [11]
+			"Player-3685-0722C2B9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674240537,
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681074143,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [19]
 		{
-			"not that it matters honestly, cause you still need inspire to max rank", -- [1]
+			"you tried source unit soft friend already?", -- [1]
 			"Azados-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -430,7 +430,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3316, -- [11]
+			1723, -- [11]
 			"Player-3685-07251D87", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -438,12 +438,12 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674240497,
+			[51] = 1681074211,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [20]
 		{
-			"stupid system", -- [1]
-			"Azados-Turalyon", -- [2]
+			"yeah thats what its on now", -- [1]
+			"Amdam-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -452,20 +452,20 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3319, -- [11]
-			"Player-3685-07251D87", -- [12]
+			1724, -- [11]
+			"Player-3685-0722C2B9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674240499,
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681074219,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [21]
 		{
-			"way too high, i'm 40 points over", -- [1]
-			"Azados-Turalyon", -- [2]
+			"would player just be myself?", -- [1]
+			"Amdam-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -474,19 +474,19 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3348, -- [11]
-			"Player-3685-07251D87", -- [12]
+			1725, -- [11]
+			"Player-3685-0722C2B9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674240583,
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681074191,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [22]
 		{
-			"did you still wanna use the rank 3 capacitor?", -- [1]
+			"typically", -- [1]
 			"Azados-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -496,7 +496,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3362, -- [11]
+			1726, -- [11]
 			"Player-3685-07251D87", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -504,11 +504,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674240593,
+			[51] = 1681074198,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [23]
 		{
-			"yeah though keeps the prices of max rank stuff high enough to make some gold off it", -- [1]
+			"can give it a try i guess", -- [1]
 			"Amdam-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -518,7 +518,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3372, -- [11]
+			1728, -- [11]
 			"Player-3685-0722C2B9", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -526,12 +526,12 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674240599,
+			[51] = 1681074274,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [24]
 		{
-			"let me see", -- [1]
-			"Amdam-Turalyon", -- [2]
+			"icd for sure", -- [1]
+			"Azados-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -540,479 +540,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3406, -- [11]
-			"Player-3685-0722C2B9", -- [12]
+			1730, -- [11]
+			"Player-3685-07251D87", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674240565,
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681074297,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [25]
-		{
-			"yea let me send you a r2", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3451, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674240605,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [26]
-		{
-			"the gears are pretty much the same price, so it's just the capacitor", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3454, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674240607,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [27]
-		{
-			"ok lets give that a try", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3522, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674240666,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [28]
-		{
-			"nice, thanks my friend", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3549, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674240751,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [29]
-		{
-			"np, ore in the mail", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3560, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674240758,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [30]
-		{
-			"you making any money off your professions?", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3626, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674240814,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [31]
-		{
-			"i've made a little off tailoring", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3647, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674240833,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [32]
-		{
-			"alchemy is dead..i haven't made a cent since launch", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3666, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674240791,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [33]
-		{
-			"using my azureweave and chronocloth cds", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3669, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674240792,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [34]
-		{
-			"all goods are cheaper at rank 3 than the cost to make them", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3682, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674240801,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [35]
-		{
-			"yeah i've noticed that's the case with most mid-tier crafting reagents", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3707, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674240880,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [36]
-		{
-			"it's fucked dude, people are stupid, instead of auctioning off their materials, they use them to make goods, and lose on major profit", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3726, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674240899,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [37]
-		{
-			"and ruin the market for the rest of us artisans", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3734, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674240844,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [38]
-		{
-			"bags are listed for a pretty nice profit margin right now but no one seems to want to buy them lol", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3744, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674240852,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [39]
-		{
-			"even the reagent bag which is surprising, because its quite a bit bigger than the quest one you get", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3778, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674240939,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [40]
-		{
-			"oh wow there's a 36? shit", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3834, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674240916,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [41]
-		{
-			"i'm now up to 26% inspire chance to proc r3 |cffffd000|Henchant:374467|h[Dragon Isles Jewelcrafting: Fierce Illimited Diamond]|h|r or |cffffd000|Henchant:374468|h[Dragon Isles Jewelcrafting: Skillful Illimited Diamond]|h|r", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3844, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674240922,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [42]
-		{
-			"but it's 16k lol, what", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3847, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674240923,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [43]
-		{
-			"yep :p", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3854, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674240991,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [44]
-		{
-			"it's actually kind of annoying you can't recraft those", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3869, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674241005,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [45]
-		{
-			"gotta use a fresh gem each time", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3873, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674241008,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [46]
 		{
 			"yeah", -- [1]
 			"Amdam-Turalyon", -- [2]
@@ -1024,7 +562,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3882, -- [11]
+			1732, -- [11]
 			"Player-3685-0722C2B9", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1032,11 +570,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674241018,
+			[51] = 1681074299,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [47]
+		}, -- [26]
 		{
-			"need to get some more knowledge and boost my inspiration", -- [1]
+			"its not documented anywhere i can find", -- [1]
 			"Amdam-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1046,7 +584,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3899, -- [11]
+			1733, -- [11]
 			"Player-3685-0722C2B9", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1054,11 +592,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674240975,
+			[51] = 1681074264,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [48]
+		}, -- [27]
 		{
-			"i know some gemsmiths are up at the 40% mark", -- [1]
+			"can you go to your combat log and see what it said for getting the buff?", -- [1]
 			"Azados-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1068,7 +606,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3940, -- [11]
+			1736, -- [11]
 			"Player-3685-07251D87", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1076,11 +614,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674241022,
+			[51] = 1681074394,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [49]
+		}, -- [28]
 		{
-			"yeah i thinki can hit that if i go for the inspire spec, i'm just about to start into that", -- [1]
+			"hm my log doesnt show very much... how do i look at the whole unfiltered combat log?", -- [1]
 			"Amdam-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1090,7 +628,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4212, -- [11]
+			1741, -- [11]
 			"Player-3685-0722C2B9", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1098,11 +636,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674241421,
+			[51] = 1681074452,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [50]
+		}, -- [29]
 		{
-			"i can make goggles/bracers quite cheaply if you get to that point where you have sparks to spend on them", -- [1]
+			"oh you're right, it doesn't show when you gain wings", -- [1]
 			"Azados-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1112,7 +650,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4239, -- [11]
+			1743, -- [11]
 			"Player-3685-07251D87", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1120,11 +658,33 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674241393,
+			[51] = 1681074440,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [51]
+		}, -- [30]
 		{
-			"fuck man, sparks should have been once a week", -- [1]
+			"would have to enable warcraftlogs logging and look in that ", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1745, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681074524,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [31]
+		{
+			"ok send me the aura again, have a different idea", -- [1]
 			"Azados-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1134,7 +694,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4282, -- [11]
+			1750, -- [11]
 			"Player-3685-07251D87", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1142,11 +702,55 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674241449,
+			[51] = 1681074596,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [52]
+		}, -- [32]
 		{
-			"this artificial gating gets old fast", -- [1]
+			"[WeakAuras: Amdam-Turalyon - instrument of retribution]", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1752, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681074545,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [33]
+		{
+			"maybe its easier to track like a weapon enchant proc instead of basing it off combat log death", -- [1]
+			"Dotsvader-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1756, -- [11]
+			"Player-3685-0DD571F7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8788eeDotsvader|r",
+			[51] = 1681074603,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [34]
+		{
+			"[WeakAuras: Azados-Turalyon - instrument of retribution]", -- [1]
 			"Azados-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1156,7 +760,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4293, -- [11]
+			1757, -- [11]
 			"Player-3685-07251D87", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1164,11 +768,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674241458,
+			[51] = 1681074684,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [53]
+		}, -- [35]
 		{
-			"i'm sitting on 4 concentrated infusions", -- [1]
+			"ok changed the 2nd trigger", -- [1]
 			"Azados-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1178,7 +782,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4304, -- [11]
+			1758, -- [11]
 			"Player-3685-07251D87", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1186,11 +790,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674241542,
+			[51] = 1681074688,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [54]
+		}, -- [36]
 		{
-			"i can't even make 4 crafted pieces if i wanted to", -- [1]
+			"made it fire off aura being applied of wings", -- [1]
 			"Azados-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1200,7 +804,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4307, -- [11]
+			1759, -- [11]
 			"Player-3685-07251D87", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1208,33 +812,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674241549,
+			[51] = 1681074699,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [55]
+		}, -- [37]
 		{
-			"damn i haven't even been able to get 1 concentrated infusion yet", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4536, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674242351,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [56]
-		{
-			"not able to run 16+?", -- [1]
+			"so technically it may fire off when you manually cast wings and someone is already dead, but i can't eliminate that", -- [1]
 			"Azados-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1244,7 +826,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4537, -- [11]
+			1760, -- [11]
 			"Player-3685-07251D87", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1252,11 +834,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674242431,
+			[51] = 1681074672,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [57]
+		}, -- [38]
 		{
-			"m+ pugging is absolute cancer now,", -- [1]
+			"then it should trigger when i cast it too yeah", -- [1]
 			"Amdam-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1266,7 +848,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4538, -- [11]
+			1761, -- [11]
 			"Player-3685-0722C2B9", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1274,11 +856,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674242438,
+			[51] = 1681074677,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [58]
+		}, -- [39]
 		{
-			"yeah it's horrid", -- [1]
+			"probably need lua knowledge to write an appopriate script", -- [1]
 			"Azados-Turalyon", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1288,7 +870,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4539, -- [11]
+			1763, -- [11]
 			"Player-3685-07251D87", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1296,911 +878,1329 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674242447,
+			[51] = 1681074682,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [59]
+		}, -- [40]
 		{
-			"i certainly can, but its hard to get into groups as a non meta class", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4540, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674242454,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [60]
-		{
-			"i guess i'm lucky in that it's the only content i do", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4541, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674242459,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [61]
-		{
-			"for example yesterday i ran 4 keys", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4542, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674242416,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [62]
-		{
-			"and yet i'm still outgeared by heroic raiders lol", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4543, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674242421,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [63]
-		{
-			"oh well", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4544, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674242422,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [64]
-		{
-			"just ask me when you need keys dude", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4545, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674242496,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [65]
-		{
-			"\"ran\" i use very loosely, because every single one of them we failed at explosives and someone left on like the 2nd pull ", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4546, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674242497,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [66]
-		{
-			"on all 4 runs", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4547, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674242507,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [67]
-		{
-			"dude, key leaving is huge this season", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4548, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674242469,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [68]
-		{
-			"yeah people are absolutely intolerant of mistakes", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4549, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674242478,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [69]
-		{
-			"like, i'm anxiously waiting for some implementation of leaving penalties, or at least records", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4550, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674242560,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [70]
-		{
-			"and people that run the keys i can actually get into (12s and 13s) are absolute dogshit so there's always a wipe", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4551, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674242562,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [71]
-		{
-			"raider io should show how many times you left a key", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4554, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674242568,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [72]
-		{
-			"yeah it really should", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4555, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674242576,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [73]
-		{
-			"leave a key? -50 points for that dungeon", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4556, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674242530,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [74]
-		{
-			"that would be amazing", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4557, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674242540,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [75]
-		{
-			"if the only thing that could lower your rating was leaving a key", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4558, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674242613,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [76]
-		{
-			"it would have to be smart enough to know if you were the first leaver though", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4559, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674242629,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [77]
-		{
-			"bc everyone leaves once the first person does, and you shouldn't be penalized in that case", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4560, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674242587,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [78]
-		{
-			"i may hit you up at some point today or tomorrow, my mage has a 15 AA key that i need to run for a score", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4561, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674242694,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [79]
-		{
-			"still missing one for that", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4562, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674242697,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [80]
-		{
-			"sure", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4563, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674242642,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [81]
-		{
-			"then i'll just need a nokhud and i think i'll hit ksm", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4564, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674242644,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [82]
-		{
-			"trying to practice arcane, my muscle memory for aoe burst is still not quite fully retrained", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4566, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674242737,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [83]
-		{
-			"been opportunistically trying to do meme keys on this char too, ret is pretty fun", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4567, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674242792,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [84]
-		{
-			"with the exception of exorcism which feels bad to press", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4568, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674242811,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [85]
-		{
-			"radiant decree is spicy af", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4569, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674242764,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [86]
-		{
-			"brb", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			4570, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674242853,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [87]
-		{
-			"Annoying Addon: Sanella-Zangarmarsh cast |cff71d5ff|Hspell:32182:0|h[Heroism]|h|r!", -- [1]
-			"Gosplat-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Gosplat-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			170, -- [11]
-			"Player-5-07286360", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaGosplat-Proudmoore|r",
-			[51] = 1674243228,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [88]
-		{
-			"Annoying Addon: Talac-Zul'jin cast |cff71d5ff|Hspell:272678:0|h[Primal Rage]|h|r!", -- [1]
-			"Gosplat-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Gosplat-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			180, -- [11]
-			"Player-5-07286360", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaGosplat-Proudmoore|r",
-			[51] = 1674243258,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [89]
-		{
-			"don't tank it in the water", -- [1]
-			"Necroraken-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necroraken-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			184, -- [11]
-			"Player-5-0E3CE253", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff98Necroraken-Proudmoore|r",
-			[51] = 1674243274,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [90]
-		{
-			"you are killing everyone", -- [1]
-			"Necroraken-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Necroraken-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			187, -- [11]
-			"Player-5-0E3CE253", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff98Necroraken-Proudmoore|r",
-			[51] = 1674243277,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [91]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:16550:Player-3685-0722C2B9:1:1:20:23:4294967295:4294967295:4294967295:4294967295|h[Giving Back to Nature]|h|r!", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Amdam-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			350, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674243824,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [92]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:16572:Player-3685-0722C2B9:1:1:20:23:4294967295:4294967295:4294967295:4294967295|h[Legendary Photograph]|h|r!", -- [1]
-			"Amdam-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Amdam-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			362, -- [11]
-			"Player-3685-0722C2B9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAmdam|r",
-			[51] = 1674243888,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [93]
-		{
-			"yeah ret's in a good spot", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			459, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674245069,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [94]
-		{
-			"back", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			609, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674249365,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [95]
-		{
-			"[WeakAuras: Azados-Turalyon - Group Finder Custom Extension]", -- [1]
-			"Azados-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			669, -- [11]
-			"Player-3685-07251D87", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaAzados|r",
-			[51] = 1674251589,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [96]
-		{
-			"|cffffd100|HclubTicket:vPKzBbOslK9|h[Join: Fueled by Spite Raid and Mythic Team]|h|r Main focus is linking skilled players together for M+ or Hero Raid. We are recruiting horde and ally - all realms.", -- [1]
-			"Gandex-Mannoroth", -- [2]
-			"", -- [3]
-			"1. General - Ohn'ahran Plains", -- [4]
-			"Gandex-Mannoroth", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Ohn'ahran Plains", -- [9]
-			0, -- [10]
-			754, -- [11]
-			"Player-77-0D1AA6FC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Gandex-Mannoroth|r",
-			[51] = 1674252729,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
-		{
-			"lf crafter for a 405 agil weapon", -- [1]
-			"Dentreian-Turalyon", -- [2]
+			"LF |cffa335ee|Hitem:193001::192945:192945:192945::::70:256::13:8:8836:8840:8902:8960:8784:8782:8801:8790:6:28:2164:29:40:30:49:38:7:40:260:48:192552::::Player-3685-0D9010B2:|h[Elemental Lariat |A:Professions-ChatIcon-Quality-Tier4:17:17::1|a]|h|r 418 recraft", -- [1]
+			"Awakening-Turalyon", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Dentreian-Turalyon", -- [5]
+			"Awakening-Turalyon", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			903, -- [11]
-			"Player-3685-0D7A3BD3", -- [12]
+			1764, -- [11]
+			"Player-3685-0E17DF77", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffff468Dentreian|r",
-			[51] = 1674253145,
+			[52] = "|cffffffffAwakening|r",
+			[51] = 1681074745,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [41]
+		{
+			"yeah i could dig through their api docs", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1767, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681074764,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [42]
+		{
+			"try this though, i'm curious", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1769, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681074773,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [43]
+		{
+			"wow, still on cd??", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1771, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681074734,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [44]
+		{
+			"wtf is the cooldown on this thing", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1772, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681074741,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [45]
+		{
+			"yeah thats so long wth", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1773, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681074742,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [46]
+		{
+			"5 min?", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1774, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681074823,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [47]
+		{
+			"couldn't be as absurd as 10", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1775, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681074828,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [48]
+		{
+			"must be something like that, its only 9 sec of wings lol", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1776, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681074836,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [49]
+		{
+			"卄乇ㄥㄥ　ㄚ乇卂卄　乃尺ㄖㄒ卄乇尺", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Amdam-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1778, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681074780,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [50]
+		{
+			"there we go", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1779, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681074784,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [51]
+		{
+			"ah yeah", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1780, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681074791,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [52]
+		{
+			"now pop wings", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1781, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681074791,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [53]
+		{
+			"卄乇ㄥㄥ　ㄚ乇卂卄　乃尺ㄖㄒ卄乇尺", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Amdam-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1782, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681074796,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [54]
+		{
+			"yeah unavoidable", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1783, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681074801,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [55]
+		{
+			"no wait", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1784, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681074865,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [56]
+		{
+			"found it", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1785, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681074869,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [57]
+		{
+			"[WeakAuras: Azados-Turalyon - instrument of retribution]", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1786, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681074845,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [58]
+		{
+			"bam, added trigger for duration of wings less than 10 sec", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1787, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681074852,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [59]
+		{
+			"will never fire on regular wings", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1788, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681074857,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [60]
+		{
+			"ooh i see what you did", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1789, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681074905,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [61]
+		{
+			"i'm sure one script could easily accomplish this, but i don't wanna learn lua", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1794, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681074998,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [62]
+		{
+			"yeah lua is not THAT bad, its just not real helpful unless youre also familiar with wow's api", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1797, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681074963,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [63]
+		{
+			"ok pop wings", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1810, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681075051,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [64]
+		{
+			"yay", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1814, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681075058,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [65]
+		{
+			"nice", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1816, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681075059,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [66]
+		{
+			"dude, this icd though", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1821, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681075072,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [67]
+		{
+			"might have gotten annoying to see that every minute lol", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1823, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681075073,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [68]
+		{
+			"are we sure it isn't bugged?", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1830, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681075030,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [69]
+		{
+			"no reports of it being bugged in paladin discord", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1836, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681075106,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [70]
+		{
+			"if it is bugged no one knows about it", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1839, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681075116,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [71]
+		{
+			"but thats not impossible because its not something people generally take into account when theorycrafting", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1841, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681075132,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [72]
+		{
+			"you can't game this", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1843, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681075085,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [73]
+		{
+			"so yeah, not terribly useful", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1844, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681075093,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [74]
+		{
+			"yeah", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1845, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681075100,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [75]
+		{
+			"卄乇ㄥㄥ　ㄚ乇卂卄　乃尺ㄖㄒ卄乇尺", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Amdam-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1847, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681075167,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [76]
+		{
+			"looks like we got it", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1848, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681075173,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [77]
+		{
+			"nice, cant wait to try it out lol", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1849, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681075198,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [78]
+		{
+			"lol bait a group wipe", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1851, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681075147,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [79]
+		{
+			"could just queue for lfr razageth", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1853, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681075232,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [80]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:16498:Player-3685-0989F59A:1:4:9:23:4294967295:4294967295:4294967295:4294967295|h[Elemental Overflow]|h|r!", -- [1]
+			"Brewteaful-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Brewteaful-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1854, -- [11]
+			"Player-3685-0989F59A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff98Brewteaful|r",
+			[51] = 1681075237,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [81]
+		{
+			"will see some wipes there pretty quick lol", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1855, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681075240,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [82]
+		{
+			"is that a wipe fest?", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1857, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681075241,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [83]
+		{
+			"yeah people suck", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1863, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681075247,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [84]
+		{
+			"you go to these platforms to kill some adds and she flies through breathing storm fire dragon breath every once in a while", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1903, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681075299,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [85]
+		{
+			"so if you dont watch for it and dodge you ded", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1910, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681075306,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [86]
+		{
+			"aha", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1912, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681075317,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [87]
+		{
+			"and most lfr players have their heads parked inside their asses so they cant see the breath coming", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1919, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681075268,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [88]
+		{
+			"i haven't set foot in that raid yet", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1929, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681075365,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [89]
+		{
+			"you sticking around for a dungeon adam?", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Azados-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1930, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681075325,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [90]
+		{
+			"you guys going to do one?", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Amdam-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1933, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681075336,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [91]
+		{
+			"actually taylor just told me her parents are coming over", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Amdam-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1934, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681075414,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [92]
+		{
+			"and i need to spread some grass seed today sometime anyway", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Amdam-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1936, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681075437,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [93]
+		{
+			"alright, you out?", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Azados-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1937, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681075394,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [94]
+		{
+			"yeah i'll check back later if i have time if you guys are still running", -- [1]
+			"Amdam-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Amdam-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1938, -- [11]
+			"Player-3685-0722C2B9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAmdam|r",
+			[51] = 1681075404,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [95]
+		{
+			"alrighty", -- [1]
+			"Azados-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Azados-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1939, -- [11]
+			"Player-3685-07251D87", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaAzados|r",
+			[51] = 1681075413,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [96]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:16499:Player-3685-0989F59A:1:4:9:23:4294967295:4294967295:4294967295:4294967295|h[Elemental Overflowing]|h|r!", -- [1]
+			"Brewteaful-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Brewteaful-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1956, -- [11]
+			"Player-3685-0989F59A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff98Brewteaful|r",
+			[51] = 1681075582,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [97]
+		{
+			"L ogerin kil il L aaz ka ro'th lok'tar ", -- [1]
+			"Trapsalot-Turalyon", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Trapsalot-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			1, -- [10]
+			2037, -- [11]
+			"Player-3685-07251988", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Trapsalot|r",
+			[51] = 1681076397,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [98]
 		{
-			"LF 5star craft |cffa335ee|Hitem:190506::::::::70:105::13:6:8836:8840:8902:8801:8846:8792:7:28:2164:29:49:30:36:38:7:40:191:44:198046:45:194569::::Player-3685-0E01AE76:|h[Primal Molten Spellblade |A:Professions-ChatIcon-Quality-Tier4:17:17::1|a]|h|r pst", -- [1]
-			"Jubzington-Turalyon", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:9041:Player-3685-0989F59A:1:4:9:23:4294967295:4294967295:4294967295:4294967295|h[Shadowmoon Burial Grounds]|h|r!", -- [1]
+			"Brewteaful-Turalyon", -- [2]
 			"", -- [3]
-			"6. Trade (Services) - City", -- [4]
-			"Jubzington-Turalyon", -- [5]
+			"", -- [4]
+			"Brewteaful-Turalyon", -- [5]
 			"", -- [6]
-			42, -- [7]
-			6, -- [8]
-			"Trade (Services) - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1098, -- [11]
-			"Player-3685-0E06339D", -- [12]
+			2071, -- [11]
+			"Player-3685-0989F59A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aJubzington|r",
-			[51] = 1674261604,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff00ff98Brewteaful|r",
+			[51] = 1681076781,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/g for example yesterday i ran 4 keys", -- [1]
-		"/g \"ran\" i use very loosely, because every single one of them we failed at explosives and someone left on like the 2nd pull", -- [2]
-		"/g on all 4 runs", -- [3]
-		"/g yeah people are absolutely intolerant of mistakes", -- [4]
-		"/g and people that run the keys i can actually get into (12s and 13s) are absolute dogshit so there's always a wipe", -- [5]
-		"/afk", -- [6]
-		"/g yeah it really should", -- [7]
-		"/g that would be amazing", -- [8]
-		"/g if the only thing that could lower your rating was leaving a key", -- [9]
-		"/g it would have to be smart enough to know if you were the first leaver though", -- [10]
-		"/g bc everyone leaves once the first person does, and you shouldn't be penalized in that case", -- [11]
-		"/g i may hit you up at some point today or tomorrow, my mage has a 15 AA key that i need to run for a score", -- [12]
-		"/g still missing one for that", -- [13]
-		"/g then i'll just need a nokhud and i think i'll hit ksm", -- [14]
-		"/g trying to practice arcane, my muscle memory for aoe burst is still not quite fully retrained", -- [15]
-		"/g been opportunistically trying to do meme keys on this char too, ret is pretty fun", -- [16]
-		"/g with the exception of exorcism which feels bad to press", -- [17]
-		"/g radiant decree is spicy af", -- [18]
-		"/g brb", -- [19]
-		"/thank", -- [20]
+		"/wa", -- [1]
+		"/g ooh i see what you did", -- [2]
+		"/g yeah lua is not THAT bad, its just not real helpful unless youre also familiar with wow's api", -- [3]
+		"/g nice", -- [4]
+		"/g might have gotten annoying to see that every minute lol", -- [5]
+		"/g no reports of it being bugged in paladin discord", -- [6]
+		"/g if it is bugged no one knows about it", -- [7]
+		"/g but thats not impossible because its not something people generally take into account when theorycrafting", -- [8]
+		"/g yeah", -- [9]
+		"/g nice, cant wait to try it out lol", -- [10]
+		"/g could just queue for lfr razageth", -- [11]
+		"/g will see some wipes there pretty quick lol", -- [12]
+		"/g yeah people suck", -- [13]
+		"/g you go to these platforms to kill some adds and she flies through breathing storm fire dragon breath every once in a while", -- [14]
+		"/g so if you dont watch for it and dodge you ded", -- [15]
+		"/g and most lfr players have their heads parked inside their asses so they cant see the breath coming", -- [16]
+		"/p you guys going to do one?", -- [17]
+		"/p actually taylor just told me her parents are coming over", -- [18]
+		"/p and i need to spread some grass seed today sometime anyway", -- [19]
+		"/p yeah i'll check back later if i have time if you guys are still running", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

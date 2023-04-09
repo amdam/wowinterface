@@ -29,7 +29,7 @@ OmniCCDB = {
 	},
 	["global"] = {
 		["dbVersion"] = 6,
-		["addonVersion"] = "10.0.2",
+		["addonVersion"] = "10.0.5",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -89,7 +89,6 @@ OmniCCDB = {
 							["scale"] = 1.50000001490116,
 						},
 					},
-					["fontFace"] = "Fonts\\FRIZQT__.TTF",
 					["minDuration"] = 3,
 					["spiralOpacity"] = 1.00999997742474,
 					["version"] = "3.1.4",
@@ -109,7 +108,6 @@ OmniCCDB = {
 							["r"] = 1,
 						},
 					},
-					["fontFace"] = "Fonts\\FRIZQT__.TTF",
 					["minDuration"] = 3,
 					["enableText"] = false,
 					["spiralOpacity"] = 1,

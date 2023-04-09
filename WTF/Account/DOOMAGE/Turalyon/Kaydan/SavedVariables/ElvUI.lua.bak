@@ -2,711 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"is away from keyboard.", -- [1]
-			"Sasukegg-Gnomeregan", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Sasukegg-Gnomeregan", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1611, -- [11]
-			"Player-153-0A5406CC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Sasukegg-Gnomeregan|r",
-			[51] = 1587493632,
-			[50] = "CHAT_MSG_EMOTE",
-		}, -- [1]
-		{
-			"is away from keyboard.", -- [1]
-			"Sasukegg-Gnomeregan", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Sasukegg-Gnomeregan", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1612, -- [11]
-			"Player-153-0A5406CC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Sasukegg-Gnomeregan|r",
-			[51] = 1587493632,
-			[50] = "CHAT_MSG_EMOTE",
-		}, -- [2]
-		{
-			"is away from keyboard.", -- [1]
-			"Sasukegg-Gnomeregan", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Sasukegg-Gnomeregan", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1613, -- [11]
-			"Player-153-0A5406CC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Sasukegg-Gnomeregan|r",
-			[51] = 1587493632,
-			[50] = "CHAT_MSG_EMOTE",
-		}, -- [3]
-		{
-			"is away from keyboard.", -- [1]
-			"Sasukegg-Gnomeregan", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Sasukegg-Gnomeregan", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1614, -- [11]
-			"Player-153-0A5406CC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe95Sasukegg-Gnomeregan|r",
-			[51] = 1587493633,
-			[50] = "CHAT_MSG_EMOTE",
-		}, -- [4]
-		{
-			"<Astral> 12/12M Now offering raid services ( aotc, mythic kills, Jaina mount ) || M+ || HM Mechagon || Freehold leveling || Vision carries (0-5mask) || Help support your local guild! We're cheaper than Gallywix. Pst for pricing / More info. ", -- [1]
-			"Hexotic-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Hexotic-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1615, -- [11]
-			"Player-3685-0AA6AB57", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcHexotic|r",
-			[51] = 1587493638,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"<Astral> 12/12M Now offering raid services ( aotc, mythic kills, Jaina mount ) || M+ || HM Mechagon || Freehold leveling || Vision carries (0-5mask) || Help support your local guild! We're cheaper than Gallywix. Pst for pricing / More info. ", -- [1]
-			"Hexotic-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Hexotic-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1653, -- [11]
-			"Player-3685-0AA6AB57", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcHexotic|r",
-			[51] = 1587494308,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"lol tinycamas", -- [1]
-			"|Kq20|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2022, -- [11]
-			false, -- [12]
-			36, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367AceWarrior99|r",
-			[51] = 1587498722,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "AceWarrior99",
-		}, -- [7]
-		{
-			"back ", -- [1]
-			"Bønitalèè-Area52", -- [2]
-			"", -- [3]
-			"1. General - Stormsong Valley", -- [4]
-			"Bønitalèè-Area52", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Stormsong Valley", -- [9]
-			0, -- [10]
-			2147, -- [11]
-			"Player-3676-06F468B6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec5e9Bønitalèè-Area52|r",
-			[51] = 1587500166,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"|cffffff00Warbeast Kraal is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Zuldazar", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Zuldazar", -- [9]
-			0, -- [10]
-			2227, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1587500964,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"I hate dinasawers!", -- [1]
-			"Mosh-Turalyon", -- [2]
-			"", -- [3]
-			"1. General - Vol'dun", -- [4]
-			"Mosh-Turalyon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Vol'dun", -- [9]
-			0, -- [10]
-			728, -- [11]
-			"Player-3685-0723AEDB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Mosh|r",
-			[51] = 1587511597,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"i thought you said dishwashers", -- [1]
-			"Llork-Turalyon", -- [2]
-			"", -- [3]
-			"1. General - Vol'dun", -- [4]
-			"Llork-Turalyon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Vol'dun", -- [9]
-			0, -- [10]
-			729, -- [11]
-			"Player-3685-0A34668A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcLlork|r",
-			[51] = 1587511617,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"lovely useful appliances", -- [1]
-			"Llork-Turalyon", -- [2]
-			"", -- [3]
-			"1. General - Vol'dun", -- [4]
-			"Llork-Turalyon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Vol'dun", -- [9]
-			0, -- [10]
-			730, -- [11]
-			"Player-3685-0A34668A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcLlork|r",
-			[51] = 1587511627,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"anyone wanna kill dunegorger?", -- [1]
-			"Jarshey-Turalyon", -- [2]
-			"", -- [3]
-			"1. General - Vol'dun", -- [4]
-			"Jarshey-Turalyon", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Vol'dun", -- [9]
-			0, -- [10]
-			844, -- [11]
-			"Player-3685-0710E646", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00fe95Jarshey|r",
-			[51] = 1587512615,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
-		{
-			"<Synthesis> is selling: 11/12M Nyalotha - Mythic Nzoth Kill/Mount Scheduling - AOTC & Heroic Full Clear - Mythic Jaina Mounts - Mechagon Mount & R4 Essence - M+ Carries - Horrific Visions Carries - Cheaper than Gallywix!! GOLD ONLY! PST for details", -- [1]
-			"Abradan-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Abradan-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			733, -- [11]
-			"Player-3685-09414DFD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Abradan|r",
-			[51] = 1587582510,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"how much does synthesis charge for say a mythic 0", -- [1]
-			"Dorathea-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dorathea-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			738, -- [11]
-			"Player-3685-0AB51E02", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cDorathea|r",
-			[51] = 1587582698,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"please tell me you're kidding", -- [1]
-			"Mythirax-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mythirax-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			739, -- [11]
-			"Player-3685-09EBC498", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Mythirax|r",
-			[51] = 1587582716,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"im not i just dont have any friends..and i want a better weapon", -- [1]
-			"Dorathea-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dorathea-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			740, -- [11]
-			"Player-3685-0AB51E02", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cDorathea|r",
-			[51] = 1587582734,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
-		{
-			"Start a group in group finder for a zero. You'll have people that want to run with you easy", -- [1]
-			"Mythirax-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mythirax-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			741, -- [11]
-			"Player-3685-09EBC498", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Mythirax|r",
-			[51] = 1587582755,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
-		{
-			"no cost", -- [1]
-			"Mythirax-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mythirax-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			742, -- [11]
-			"Player-3685-09EBC498", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Mythirax|r",
-			[51] = 1587582760,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
-		{
-			"ok i was going to try that but didnt think anyone would be interested.. ty :) stay safe :)", -- [1]
-			"Dorathea-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dorathea-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			744, -- [11]
-			"Player-3685-0AB51E02", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cDorathea|r",
-			[51] = 1587582783,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
-		{
-			"People will hit you up for zero's you as well", -- [1]
-			"Mythirax-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mythirax-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			745, -- [11]
-			"Player-3685-09EBC498", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Mythirax|r",
-			[51] = 1587582799,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
-		{
-			"WTS |cffa335ee|Hitem:159840::::::::120:70::54:2:1472:4786:::|h[Teebu's Scorching Straight Sword]|h|r pst", -- [1]
-			"Kenziebear-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Kenziebear-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			746, -- [11]
-			"Player-3685-07244693", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Kenziebear|r",
-			[51] = 1587582857,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
-		{
-			"<Sleepless Knights> Currently looking for members to grow with! We are looking for Semi - hardcore/ Casual raiders for our Tues/Thu groups. Daily Heroic/Mythic dungeons and PvP content. Casual members are welcome! Very active with discord! PST for info.", -- [1]
-			"Ariánna-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ariánna-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			747, -- [11]
-			"Player-3685-0ABE4335", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffefefeAriánna|r",
-			[51] = 1587582901,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
-		{
-			"WTS Xmogz|cff1eff00|Hitem:164561::::::::120:260::11::::|h[Firekin Amice]|h|r|cffa335ee|Hitem:78263::::::::120:260::14::::|h[Replica Darkmantle Cap]|h|r|cffa335ee|Hitem:151993::::::::120:260::4:4:3613:40:1457:3528:::|h[Leggings of the Sable Stalkers]|h|r", -- [1]
-			"Bønës-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bønës-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			748, -- [11]
-			"Player-3685-07180F01", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Bønës|r",
-			[51] = 1587582992,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
-		{
-			"|cffa335ee|Hitem:78262::::::::120:260::14::::|h[Replica Darkmantle Boots]|h|r", -- [1]
-			"Bønës-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bønës-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			749, -- [11]
-			"Player-3685-07180F01", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffef367Bønës|r",
-			[51] = 1587583009,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
-		{
-			"WTS |cff0070dd|Hitem:83090::::::::120:63::::::|h[Sapphire Panther]|h|r|cff0070dd|Hitem:83088::::::::120:63::::::|h[Jade Panther]|h|r|cff0070dd|Hitem:83089::::::::120:63::::::|h[Sunstone Panther]|h|r|cff0070dd|Hitem:83087::::::::120:63::::::|h[Ruby Panther]|h|r|cffa335ee|Hitem:82453::::::::120:63::::::|h[Jeweled Onyx Panther]|h|r", -- [1]
-			"Portalchan-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Portalchan-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			750, -- [11]
-			"Player-3685-09E4A78D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec5e9Portalchan|r",
-			[51] = 1587583079,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
-		{
-			"<Synthesis> is selling: 11/12M Nyalotha - Mythic Nzoth Kill/Mount Scheduling - AOTC & Heroic Full Clear - Mythic Jaina Mounts - Mechagon Mount & R4 Essence - M+ Carries - Horrific Visions Carries - Cheaper than Gallywix!! GOLD ONLY! PST for details", -- [1]
-			"Abradan-Turalyon", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Abradan-Turalyon", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			751, -- [11]
-			"Player-3685-09414DFD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Abradan|r",
-			[51] = 1587583374,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
-		{
-			"whya re we both HORDE SCUM!?!", -- [1]
-			"|Kq19|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1382, -- [11]
-			false, -- [12]
-			4, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcMrPhelan|r",
-			[51] = 1587588979,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [28]
-		{
-			"haha gotta become filth to unlock them allied races", -- [1]
-			"|Kq19|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1383, -- [11]
-			false, -- [12]
-			4, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "MrPhelan",
-			[51] = 1587589004,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [29]
-		{
-			"while that rep buff is plump", -- [1]
-			"|Kq19|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1384, -- [11]
-			false, -- [12]
-			4, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "MrPhelan",
-			[51] = 1587589010,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [30]
-		{
-			"true.", -- [1]
-			"|Kq19|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1385, -- [11]
-			false, -- [12]
-			4, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367MrPhelan|r",
-			[51] = 1587589019,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [31]
-		{
-			"I do not want", -- [1]
-			"|Kq19|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1386, -- [11]
-			false, -- [12]
-			4, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367MrPhelan|r",
-			[51] = 1587589028,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [32]
-		{
 			"to do", -- [1]
 			"|Kq19|k", -- [2]
 			"", -- [3]
@@ -727,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589030,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [33]
+		}, -- [1]
 		{
 			"vuldunai stuff tho", -- [1]
 			"|Kq19|k", -- [2]
@@ -749,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589035,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [34]
+		}, -- [2]
 		{
 			"or any horde shit", -- [1]
 			"|Kq19|k", -- [2]
@@ -771,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589038,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [35]
+		}, -- [3]
 		{
 			"at all", -- [1]
 			"|Kq19|k", -- [2]
@@ -793,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589039,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [36]
+		}, -- [4]
 		{
 			"i did the whole zone yesterday", -- [1]
 			"|Kq19|k", -- [2]
@@ -815,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589075,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [37]
+		}, -- [5]
 		{
 			"where'd it putyou?", -- [1]
 			"|Kq19|k", -- [2]
@@ -837,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589083,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [38]
+		}, -- [6]
 		{
 			"got me to about 1/3 of the way through revered", -- [1]
 			"|Kq19|k", -- [2]
@@ -859,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589085,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [39]
+		}, -- [7]
 		{
 			"holy", -- [1]
 			"|Kq19|k", -- [2]
@@ -881,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589089,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [40]
+		}, -- [8]
 		{
 			"plus all the wqs", -- [1]
 			"|Kq19|k", -- [2]
@@ -903,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589091,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [41]
+		}, -- [9]
 		{
 			"i'm almost exalted with honorbound already", -- [1]
 			"|Kq19|k", -- [2]
@@ -925,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589106,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [42]
+		}, -- [10]
 		{
 			"doin the assaults gives a lot of rep", -- [1]
 			"|Kq19|k", -- [2]
@@ -947,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589114,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [43]
+		}, -- [11]
 		{
 			"the emisaries haven't been particularly helpful yet but those will be a nice chunk too", -- [1]
 			"|Kq19|k", -- [2]
@@ -969,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589130,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [44]
+		}, -- [12]
 		{
 			"how long have you been doin git?", -- [1]
 			"|Kq19|k", -- [2]
@@ -991,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589159,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [45]
+		}, -- [13]
 		{
 			"just started yesterday but i had this toon 120 for a while", -- [1]
 			"|Kq19|k", -- [2]
@@ -1013,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589175,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [46]
+		}, -- [14]
 		{
 			"so i had some rep already from leveling", -- [1]
 			"|Kq19|k", -- [2]
@@ -1035,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589184,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [47]
+		}, -- [15]
 		{
 			"I have a 120 shaman but it's like shit geared and I dunno wtf to do", -- [1]
 			"|Kq19|k", -- [2]
@@ -1057,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589186,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [48]
+		}, -- [16]
 		{
 			"I leveled during", -- [1]
 			"|Kq19|k", -- [2]
@@ -1079,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589195,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [49]
+		}, -- [17]
 		{
 			"classic AV", -- [1]
 			"|Kq19|k", -- [2]
@@ -1101,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589197,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [50]
+		}, -- [18]
 		{
 			"so", -- [1]
 			"|Kq19|k", -- [2]
@@ -1123,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589198,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [51]
+		}, -- [19]
 		{
 			"lmao", -- [1]
 			"|Kq19|k", -- [2]
@@ -1145,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589200,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [52]
+		}, -- [20]
 		{
 			"im shit geared too, i just sent some of my corrupted token things to this char and i can smash the wq open world content easy", -- [1]
 			"|Kq19|k", -- [2]
@@ -1167,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589216,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [53]
+		}, -- [21]
 		{
 			" haven't tried to unlock visions or antyhing, just doing wqs for rep", -- [1]
 			"|Kq19|k", -- [2]
@@ -1189,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589229,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [54]
+		}, -- [22]
 		{
 			"you're also a 2 button character", -- [1]
 			"|Kq19|k", -- [2]
@@ -1211,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589231,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [55]
+		}, -- [23]
 		{
 			"who does infinite damage", -- [1]
 			"|Kq19|k", -- [2]
@@ -1233,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589239,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [56]
+		}, -- [24]
 		{
 			"with no gear", -- [1]
 			"|Kq19|k", -- [2]
@@ -1255,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589241,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [57]
+		}, -- [25]
 		{
 			"yep another reason i picked dh for my horde toon", -- [1]
 			"|Kq19|k", -- [2]
@@ -1277,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589242,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [58]
+		}, -- [26]
 		{
 			"lol", -- [1]
 			"|Kq19|k", -- [2]
@@ -1299,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589242,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [59]
+		}, -- [27]
 		{
 			"19.6k/21000 with honorbound", -- [1]
 			"|Kq19|k", -- [2]
@@ -1321,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589440,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [60]
+		}, -- [28]
 		{
 			"dang", -- [1]
 			"|Kq19|k", -- [2]
@@ -1343,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589444,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [61]
+		}, -- [29]
 		{
 			"got 2k rep from the assault", -- [1]
 			"|Kq19|k", -- [2]
@@ -1365,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589452,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [62]
+		}, -- [30]
 		{
 			"just from the turn-in", -- [1]
 			"|Kq19|k", -- [2]
@@ -1387,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589457,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [63]
+		}, -- [31]
 		{
 			"not counting the wqs", -- [1]
 			"|Kq19|k", -- [2]
@@ -1409,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367MrPhelan|r",
 			[51] = 1587589460,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [64]
+		}, -- [32]
 		{
 			"ON YER ASS", -- [1]
 			"Bloodymara-Turalyon", -- [2]
@@ -1431,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Bloodymara|r",
 			[51] = 1587669427,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [65]
+		}, -- [33]
 		{
 			"<Synthesis> is selling: 11/12M Nyalotha - Mythic Nzoth Kill/Mount Scheduling - AOTC & Heroic Full Clear - Mythic Jaina Mounts - Mechagon Mount & R4 Essence - M+ Carries - Horrific Visions Carries - Cheaper than Gallywix!! GOLD ONLY! PST for details", -- [1]
 			"Guldabra-Turalyon", -- [2]
@@ -1453,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecGuldabra|r",
 			[51] = 1587670682,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [34]
 		{
 			"is there a way for a low level grounded character to get on the wall of org to get a tabbard for the uc?", -- [1]
 			"Drazhar-Turalyon", -- [2]
@@ -1475,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Drazhar|r",
 			[51] = 1587670965,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [35]
 		{
 			"<Synthesis> is selling: 11/12M Nyalotha - Mythic Nzoth Kill/Mount Scheduling - AOTC & Heroic Full Clear - Mythic Jaina Mounts - Mechagon Mount & R4 Essence - M+ Carries - Horrific Visions Carries - Cheaper than Gallywix!! GOLD ONLY! PST for details", -- [1]
 			"Abrakin-Turalyon", -- [2]
@@ -1497,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Abrakin|r",
 			[51] = 1587672732,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [36]
 		{
 			"oh, its in the new portal room", -- [1]
 			"Kanthnda-Turalyon", -- [2]
@@ -1519,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Kanthnda|r",
 			[51] = 1587672740,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [37]
 		{
 			"<Synthesis> is selling: 11/12M Nyalotha - Mythic Nzoth Kill/Mount Scheduling - AOTC & Heroic Full Clear - Mythic Jaina Mounts - Mechagon Mount & R4 Essence - M+ Carries - Horrific Visions Carries - Cheaper than Gallywix!! GOLD ONLY! PST for details", -- [1]
 			"Weebra-Turalyon", -- [2]
@@ -1541,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWeebra|r",
 			[51] = 1587675677,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [38]
 		{
 			"I have nothing left to learn!", -- [1]
 			"Mosh-Turalyon", -- [2]
@@ -1563,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Mosh|r",
 			[51] = 1587675677,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [39]
 		{
 			"Hey all you cool cats and kittens <Astral> 12/12M is now offering raid services (AOTC, mythic kills, Jaina mount) || M+ || HM Mechagon || Freehold leveling || Horrific Vision carries || Help support your local guild! We're cheaper than Gallywix. PST ", -- [1]
 			"Renko-Turalyon", -- [2]
@@ -1585,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Renko|r",
 			[51] = 1587675677,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [40]
 		{
 			"|cffffff00The Mugambala is under attack!|r", -- [1]
 			"", -- [2]
@@ -1607,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1587830228,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [41]
 		{
 			"|cffffff00The Old Seawall is under attack!|r", -- [1]
 			"", -- [2]
@@ -1629,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1587830404,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [42]
 		{
 			"|cffffff00The Sliver is under attack!|r", -- [1]
 			"", -- [2]
@@ -1651,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1587830812,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [43]
 		{
 			"|cffffff00Zuldazar is under attack!|r", -- [1]
 			"", -- [2]
@@ -1673,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1587830912,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [44]
 		{
 			"|cffffff00The Sliver is under attack!|r", -- [1]
 			"", -- [2]
@@ -1695,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1587831069,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [45]
 		{
 			"|cffffff00Warport Rastari is under attack!|r", -- [1]
 			"", -- [2]
@@ -1717,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1587917482,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [46]
 		{
 			"Wts horrific vision carries. 0-5mask, 440-470 corrupted piece of gear. Help support your local shaman!! Pst for pricing. Ready to start a run anytime! || Astral selling Aotc N'zoth at 11 - 11:15pm est. WE ONLY SELL FOR GOLD! Pst to get it done :D ", -- [1]
 			"Hexotic-Turalyon", -- [2]
@@ -1739,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcHexotic|r",
 			[51] = 1588040823,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [47]
 		{
 			"<Synthesis> 12/12M, GOLD ONLY Sales!!! 12/12M Nyalotha & Mythic Nzoth Kill/Mount Scheduling - AOTC & Heroic Full Clear - Mythic Jaina Mount - HardMode Mechagon - M+ Carries - Horrific Visions Carries - Cheaper than Gallywix! PST for details", -- [1]
 			"Abrakadabra-Turalyon", -- [2]
@@ -1761,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec5e9Abrakadabra|r",
 			[51] = 1588114533,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [48]
 		{
 			"sump vack", -- [1]
 			"Hermetica-Nagrand", -- [2]
@@ -1783,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Hermetica-Nagrand|r",
 			[51] = 1588115450,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [49]
 		{
 			"20300/21000 reeeeeeeeeeeeeeee", -- [1]
 			"Xanfae-Area52", -- [2]
@@ -1805,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Xanfae-Area52|r",
 			[51] = 1588175089,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [50]
 		{
 			"rip lmao", -- [1]
 			"Itris-Moonrunner", -- [2]
@@ -1827,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Itris-Moonrunner|r",
 			[51] = 1588175106,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [51]
 		{
 			"is that all the WQ's for you?", -- [1]
 			"Algtheswift-Turalyon", -- [2]
@@ -1849,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Algtheswift|r",
 			[51] = 1588175110,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [52]
 		{
 			"and I could only get 20700 if I did every other WQ with a contract", -- [1]
 			"Xanfae-Area52", -- [2]
@@ -1871,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Xanfae-Area52|r",
 			[51] = 1588175170,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [53]
 		{
 			"oh well tomorrow I guess", -- [1]
 			"Xanfae-Area52", -- [2]
@@ -1893,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Xanfae-Area52|r",
 			[51] = 1588175174,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [54]
 		{
 			":(", -- [1]
 			"Algtheswift-Turalyon", -- [2]
@@ -1915,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Algtheswift|r",
 			[51] = 1588175185,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [55]
 		{
 			"invasion in 2 hours though!", -- [1]
 			"Hanikah-Area52", -- [2]
@@ -1937,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Hanikah-Area52|r",
 			[51] = 1588175189,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [56]
 		{
 			"in Vol'dun ^^", -- [1]
 			"Hanikah-Area52", -- [2]
@@ -1959,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Hanikah-Area52|r",
 			[51] = 1588175202,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [57]
 		{
 			"spoilers", -- [1]
 			"Allivardish-Area52", -- [2]
@@ -1981,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Allivardish-Area52|r",
 			[51] = 1588175212,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [58]
 		{
 			"Naz and Mech rep tho <<<<<", -- [1]
 			"Boofin-Duskwood", -- [2]
@@ -2003,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Boofin-Duskwood|r",
 			[51] = 1588175227,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [59]
 		{
 			"i'm at 20447/21000 and only two quests on map", -- [1]
 			"Allivardish-Area52", -- [2]
@@ -2025,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Allivardish-Area52|r",
 			[51] = 1588175230,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [60]
 		{
 			"It's okay the assault will be your last bit of rep :)", -- [1]
 			"Kelethia-Area52", -- [2]
@@ -2047,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeKelethia-Area52|r",
 			[51] = 1588175249,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [61]
 		{
 			"and one of them is battle pet and i can't win:(", -- [1]
 			"Allivardish-Area52", -- [2]
@@ -2069,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Allivardish-Area52|r",
 			[51] = 1588175253,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [62]
 		{
 			"sure you can", -- [1]
 			"Lukeduke-Area52", -- [2]
@@ -2091,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Lukeduke-Area52|r",
 			[51] = 1588175267,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [63]
 		{
 			"Is an assult gonna hapen today?", -- [1]
 			"Porkmist-Area52", -- [2]
@@ -2113,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe95Porkmist-Area52|r",
 			[51] = 1588175282,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [64]
 		{
 			"these enemies give good xp", -- [1]
 			"Midraak-Area52", -- [2]
@@ -2135,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Midraak-Area52|r",
 			[51] = 1588175285,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [65]
 		{
 			"Yes", -- [1]
 			"Kelethia-Area52", -- [2]
@@ -2157,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeKelethia-Area52|r",
 			[51] = 1588175286,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [66]
 		{
 			"57% into revered myself and still doing the Tortollan area here. Getting close", -- [1]
 			"Fillyestra-Area52", -- [2]
@@ -2179,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcFillyestra-Area52|r",
 			[51] = 1588175289,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [99]
+		}, -- [67]
 		{
 			"Will go p2w soon:D", -- [1]
 			"Allivardish-Area52", -- [2]
@@ -2201,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Allivardish-Area52|r",
 			[51] = 1588175291,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [100]
+		}, -- [68]
 		{
 			"help", -- [1]
 			"Midraak-Area52", -- [2]
@@ -2223,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Midraak-Area52|r",
 			[51] = 1588175339,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [101]
+		}, -- [69]
 		{
 			"Yeah but is the invasion in Voldun?", -- [1]
 			"Xanfae-Area52", -- [2]
@@ -2245,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Xanfae-Area52|r",
 			[51] = 1588175423,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [102]
+		}, -- [70]
 		{
 			"Yes!", -- [1]
 			"Kelethia-Area52", -- [2]
@@ -2267,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeKelethia-Area52|r",
 			[51] = 1588175428,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [103]
+		}, -- [71]
 		{
 			"whats an invasion and what do we get", -- [1]
 			"Midraak-Area52", -- [2]
@@ -2289,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Midraak-Area52|r",
 			[51] = 1588175441,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [104]
+		}, -- [72]
 		{
 			"It's an assault where the alliance invades the horde", -- [1]
 			"Kelethia-Area52", -- [2]
@@ -2311,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeKelethia-Area52|r",
 			[51] = 1588175456,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [105]
+		}, -- [73]
 		{
 			"i thought the invasion was just honorbound?", -- [1]
 			"Itris-Moonrunner", -- [2]
@@ -2333,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Itris-Moonrunner|r",
 			[51] = 1588175461,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [106]
+		}, -- [74]
 		{
 			"You get 1500 rep with the faction its in", -- [1]
 			"Kelethia-Area52", -- [2]
@@ -2355,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeKelethia-Area52|r",
 			[51] = 1588175467,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [107]
+		}, -- [75]
 		{
 			"Honorbound + the zone its in", -- [1]
 			"Xanfae-Area52", -- [2]
@@ -2377,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Xanfae-Area52|r",
 			[51] = 1588175470,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [108]
+		}, -- [76]
 		{
 			"|cffffff00|Hquest:51198:-1:120:120:0|h[Fertilizer Duty]|h|r can any of you lazy twats just wait for your own drops? LOL", -- [1]
 			"Boofin-Duskwood", -- [2]
@@ -2399,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Boofin-Duskwood|r",
 			[51] = 1588175472,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [109]
+		}, -- [77]
 		{
 			"You do 4 invasion world quest type thing and get good rep for that area", -- [1]
 			"Tallula-Turalyon", -- [2]
@@ -2421,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tallula|r",
 			[51] = 1588175479,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [110]
+		}, -- [78]
 		{
 			" taking me 20 mins to finish since everyone keeps stealin the shit", -- [1]
 			"Boofin-Duskwood", -- [2]
@@ -2443,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Boofin-Duskwood|r",
 			[51] = 1588175486,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [111]
+		}, -- [79]
 		{
 			"damn ive been avoiding those for no reason lmao", -- [1]
 			"Itris-Moonrunner", -- [2]
@@ -2465,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Itris-Moonrunner|r",
 			[51] = 1588175487,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [112]
+		}, -- [80]
 		{
 			"I don't know why any of this matters I have every class at 120 anyways lol", -- [1]
 			"Xanfae-Area52", -- [2]
@@ -2487,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Xanfae-Area52|r",
 			[51] = 1588175495,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [113]
+		}, -- [81]
 		{
 			"173 rep left, fucking hell", -- [1]
 			"Allivardish-Area52", -- [2]
@@ -2509,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Allivardish-Area52|r",
 			[51] = 1588175516,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [114]
+		}, -- [82]
 		{
 			"thats painful", -- [1]
 			"Tallula-Turalyon", -- [2]
@@ -2531,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tallula|r",
 			[51] = 1588175525,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [115]
+		}, -- [83]
 		{
 			"<Sleepless Knights> Currently looking for members to grow with! We are looking for Semi - hardcore/ Casual raiders for our second raid team. Daily Heroic/Mythic dungeons and PvP content. Casual members are welcome! Very active with discord! PST for info.", -- [1]
 			"Drákon-Turalyon", -- [2]
@@ -2553,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cDrákon|r",
 			[51] = 1588351007,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [116]
+		}, -- [84]
 		{
 			"WTB coffee", -- [1]
 			"Skairipa-Turalyon", -- [2]
@@ -2575,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecSkairipa|r",
 			[51] = 1588351024,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [117]
+		}, -- [85]
 		{
 			"To cap off: If you trust for-profit corporations, which have continually dismantled civil protections through political interference, to run our healthcare system in an ETHICAL WAY, then you're misguided. Governments face checks and balances, at least.", -- [1]
 			"Moonscar-Moonrunner", -- [2]
@@ -2597,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Moonscar-Moonrunner|r",
 			[51] = 1588353202,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [118]
+		}, -- [86]
 		{
 			"ive literally never understood corporate bootlicking", -- [1]
 			"Evilis-Khadgar", -- [2]
@@ -2619,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Evilis-Khadgar|r",
 			[51] = 1588353253,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [119]
+		}, -- [87]
 		{
 			"Look up Citizens United Vs. FEC to begin understanding corporate influence on politics. Follow up by looking up recent events on the dismantling of antitrust laws. Super PACs have also begun to be de-regulated.", -- [1]
 			"Moonscar-Moonrunner", -- [2]
@@ -2641,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Moonscar-Moonrunner|r",
 			[51] = 1588353311,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [120]
+		}, -- [88]
 		{
 			"It's all infuriating and immoral stuff. Happy reading :)", -- [1]
 			"Moonscar-Moonrunner", -- [2]
@@ -2663,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Moonscar-Moonrunner|r",
 			[51] = 1588353335,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [121]
+		}, -- [89]
 		{
 			"|cffffff00Xibala is under attack!|r", -- [1]
 			"", -- [2]
@@ -2685,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1588434871,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [122]
+		}, -- [90]
 		{
 			"I'm returning to the game after being away after a couple yeaers. Is there anyone who would be willing to answer a question about addons?", -- [1]
 			"Xàth-Turalyon", -- [2]
@@ -2707,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecXàth|r",
 			[51] = 1588435537,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [123]
+		}, -- [91]
 		{
 			"High Guard Reshef 98.55% ~(47.51, 77.19)", -- [1]
 			"Auravenator-Gnomeregan", -- [2]
@@ -2729,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Auravenator-Gnomeregan|r",
 			[51] = 1588436667,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [124]
+		}, -- [92]
 		{
 			"<Synthesis> 12/12M, Gold Only Sales!!! 12/12M Nyalotha & Mythic Nzoth Kill/Mount - AOTC & Heroic Full Clear - Mythic Jaina Mount - HardMode Mechagon - M+ Carries - Horrific Visions Carries! PST for details", -- [1]
 			"Abradan-Turalyon", -- [2]
@@ -2751,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Abradan|r",
 			[51] = 1588440132,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [125]
+		}, -- [93]
 		{
 			"Stormhowl 57.86% ~(26.65, 73.21)", -- [1]
 			"Knifer-Bloodhoof", -- [2]
@@ -2773,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecKnifer-Bloodhoof|r",
 			[51] = 1588523771,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [126]
+		}, -- [94]
 		{
 			"Heixi the Stonelord 84.38% ~(29.1, 39.45)", -- [1]
 			"Knifer-Bloodhoof", -- [2]
@@ -2795,29 +2090,117 @@ ElvCharacterDB = {
 			[52] = "|cff8686ecKnifer-Bloodhoof|r",
 			[51] = 1588524094,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [127]
+		}, -- [95]
+		{
+			"LF armorsmith for 418 allied wristguards of companionship", -- [1]
+			"Kaydan-Turalyon", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kaydan-Turalyon", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2550, -- [11]
+			"Player-3685-0A95F80C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa330c9Kaydan|r",
+			[51] = 1680378637,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"Heroic Raid VOTI || Full clear 8/8 boss - 260k gold || only Raszageth(AoTC) - 120k", -- [1]
+			"Kissme-Turalyon", -- [2]
+			"", -- [3]
+			"5. Trade (Services) - City", -- [4]
+			"Kissme-Turalyon", -- [5]
+			"", -- [6]
+			42, -- [7]
+			5, -- [8]
+			"Trade (Services) - City", -- [9]
+			0, -- [10]
+			2552, -- [11]
+			"Player-3685-0E18F5D6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffKissme|r",
+			[51] = 1680378721,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"thx for the bracers friend", -- [1]
+			"Grumpyknight-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Grumpyknight-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1809, -- [11]
+			"Player-3685-0E0F4F9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aGrumpyknight|r",
+			[51] = 1680743472,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [98]
+		{
+			"are you able to proc 418 on those? I can send you a recraft", -- [1]
+			"Grumpyknight-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Grumpyknight-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1811, -- [11]
+			"Player-3685-0E0F4F9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aGrumpyknight|r",
+			[51] = 1680743560,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/macro", -- [1]
-		"lol tinycamas", -- [2]
-		"haha gotta become filth to unlock them allied races", -- [3]
-		"while that rep buff is plump", -- [4]
-		"i did the whole zone yesterday", -- [5]
-		"got me to about 1/3 of the way through revered", -- [6]
-		"plus all the wqs", -- [7]
-		"i'm almost exalted with honorbound already", -- [8]
-		"doin the assaults gives a lot of rep", -- [9]
-		"the emisaries haven't been particularly helpful yet but those will be a nice chunk too", -- [10]
-		"just started yesterday but i had this toon 120 for a while", -- [11]
-		"so i had some rep already from leveling", -- [12]
-		"im shit geared too, i just sent some of my corrupted token things to this char and i can smash the wq open world content easy", -- [13]
-		"haven't tried to unlock visions or antyhing, just doing wqs for rep", -- [14]
-		"yep another reason i picked dh for my horde toon", -- [15]
-		"lol", -- [16]
-		"19.6k/21000 with honorbound", -- [17]
-		"got 2k rep from the assault", -- [18]
-		"just from the turn-in", -- [19]
-		"not counting the wqs", -- [20]
+		"got me to about 1/3 of the way through revered", -- [1]
+		"plus all the wqs", -- [2]
+		"i'm almost exalted with honorbound already", -- [3]
+		"doin the assaults gives a lot of rep", -- [4]
+		"the emisaries haven't been particularly helpful yet but those will be a nice chunk too", -- [5]
+		"just started yesterday but i had this toon 120 for a while", -- [6]
+		"so i had some rep already from leveling", -- [7]
+		"im shit geared too, i just sent some of my corrupted token things to this char and i can smash the wq open world content easy", -- [8]
+		"haven't tried to unlock visions or antyhing, just doing wqs for rep", -- [9]
+		"yep another reason i picked dh for my horde toon", -- [10]
+		"lol", -- [11]
+		"19.6k/21000 with honorbound", -- [12]
+		"got 2k rep from the assault", -- [13]
+		"just from the turn-in", -- [14]
+		"not counting the wqs", -- [15]
+		"/2 LF armorsmith for 418 allied wristguards of companionship", -- [16]
+		"/who blacksmith", -- [17]
+		"/who", -- [18]
+		"/cw grumpyknight thx for the bracers friend", -- [19]
+		"/cw grumpyknight are you able to proc 418 on those? I can send you a recraft", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

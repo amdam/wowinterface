@@ -208,3 +208,12 @@ BigWigs_VaultOfTheIncarnates: enabled
 LittleWigs_Legion: enabled
 LittleWigs_WarlordsOfDraenor: enabled
 LittleWigs_MistsOfPandaria: enabled
+ElvUI_ExtraDataTexts: disabled
+ElvUI_SecondsToBuff: disabled
+BigWigs_Voice: enabled
+ElvUI_BuffHighlight: disabled
+LittleWigs_Classic: enabled
+LittleWigs_Shadowlands: enabled
+LittleWigs_BurningCrusade: enabled
+ElvUI_ChatTweaks: disabled
+WunderUI: disabled

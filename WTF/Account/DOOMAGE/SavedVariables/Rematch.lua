@@ -27,10 +27,9 @@ RematchSettings = {
 	["SpecialSlots"] = {
 	},
 	["XPos"] = 852.7777099609375,
-	["FavoriteFilters"] = {
-	},
+	["JournalUsed"] = true,
 	["HidePetToast"] = true,
-	["LevelingQueue"] = {
+	["FavoriteFilters"] = {
 	},
 	["Sort"] = {
 		["Order"] = 1,
@@ -44,7 +43,8 @@ RematchSettings = {
 			"Interface\\Icons\\PetJournalPortrait", -- [2]
 		}, -- [1]
 	},
-	["NotesFont"] = "GameFontHighlight",
+	["LevelingQueue"] = {
+	},
 	["Filters"] = {
 		["Other"] = {
 		},
@@ -52,13 +52,13 @@ RematchSettings = {
 		},
 		["Script"] = {
 		},
-		["Moveset"] = {
+		["Types"] = {
 		},
-		["Tough"] = {
+		["Favorite"] = {
 		},
-		["Level"] = {
+		["Collected"] = {
 		},
-		["Strong"] = {
+		["Sources"] = {
 		},
 		["Similar"] = {
 		},
@@ -66,21 +66,20 @@ RematchSettings = {
 		},
 		["Rarity"] = {
 		},
-		["Sources"] = {
+		["Strong"] = {
 		},
-		["Collected"] = {
+		["Level"] = {
 		},
-		["Favorite"] = {
+		["Tough"] = {
 		},
-		["Types"] = {
+		["Moveset"] = {
 		},
 	},
 	["ExpandedOptHeaders"] = {
 	},
-	["SelectedTab"] = 1,
-	["QueueSanctuary"] = {
-	},
-	["QueueSortOrder"] = 1,
+	["CustomScaleValue"] = 100,
+	["NotesFont"] = "GameFontHighlight",
+	["ElvUIToastDefaulted"] = true,
 	["ExpandedTargetHeaders"] = {
 	},
 	["PreferredMode"] = 1,
@@ -89,10 +88,11 @@ RematchSettings = {
 	},
 	["JournalPanel"] = 1,
 	["CornerPos"] = "BOTTOMLEFT",
-	["ElvUIToastDefaulted"] = true,
-	["JournalUsed"] = true,
+	["QueueSortOrder"] = 1,
+	["QueueSanctuary"] = {
+	},
 	["YPos"] = 338,
-	["CustomScaleValue"] = 100,
+	["SelectedTab"] = 1,
 	["PetNotes"] = {
 	},
 }

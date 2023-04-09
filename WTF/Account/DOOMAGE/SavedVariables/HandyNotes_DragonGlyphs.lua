@@ -4,16 +4,17 @@ HandyNotes_DragonGlyphsDB = {
 		["Abel - Turalyon"] = "Abel - Turalyon",
 		["Adamancy - Turalyon"] = "Adamancy - Turalyon",
 		["Allevin - Turalyon"] = "Allevin - Turalyon",
-		["Kayne - Turalyon"] = "Kayne - Turalyon",
 		["Asaam - Turalyon"] = "Asaam - Turalyon",
-		["Adrid - Turalyon"] = "Adrid - Turalyon",
-		["Amdam - Turalyon"] = "Amdam - Turalyon",
-		["Aduum - Turalyon"] = "Aduum - Turalyon",
-		["Adamn - Turalyon"] = "Adamn - Turalyon",
-		["Adamian - Turalyon"] = "Adamian - Turalyon",
-		["Christoff - Turalyon"] = "Christoff - Turalyon",
-		["Dreg - Turalyon"] = "Dreg - Turalyon",
+		["Kayne - Turalyon"] = "Kayne - Turalyon",
 		["Badam - Turalyon"] = "Badam - Turalyon",
+		["Amdam - Turalyon"] = "Amdam - Turalyon",
+		["Adamn - Turalyon"] = "Adamn - Turalyon",
+		["Aduum - Turalyon"] = "Aduum - Turalyon",
+		["Christoff - Turalyon"] = "Christoff - Turalyon",
+		["Kaydan - Turalyon"] = "Kaydan - Turalyon",
+		["Adamian - Turalyon"] = "Adamian - Turalyon",
+		["Dreg - Turalyon"] = "Dreg - Turalyon",
+		["Adrid - Turalyon"] = "Adrid - Turalyon",
 		["Adomic - Turalyon"] = "Adomic - Turalyon",
 	},
 	["profiles"] = {
@@ -23,25 +24,27 @@ HandyNotes_DragonGlyphsDB = {
 		},
 		["Allevin - Turalyon"] = {
 		},
-		["Kayne - Turalyon"] = {
-		},
 		["Asaam - Turalyon"] = {
 		},
-		["Adrid - Turalyon"] = {
+		["Kayne - Turalyon"] = {
+		},
+		["Badam - Turalyon"] = {
 		},
 		["Amdam - Turalyon"] = {
 		},
-		["Aduum - Turalyon"] = {
-		},
 		["Adamn - Turalyon"] = {
 		},
-		["Adamian - Turalyon"] = {
+		["Aduum - Turalyon"] = {
 		},
 		["Christoff - Turalyon"] = {
 		},
+		["Kaydan - Turalyon"] = {
+		},
+		["Adamian - Turalyon"] = {
+		},
 		["Dreg - Turalyon"] = {
 		},
-		["Badam - Turalyon"] = {
+		["Adrid - Turalyon"] = {
 		},
 		["Adomic - Turalyon"] = {
 		},

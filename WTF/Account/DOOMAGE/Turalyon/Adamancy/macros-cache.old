@@ -11,7 +11,7 @@ VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:shift,known:Blast Wave] Blast Wave; [mod:alt,spec:2,known:Flamestrike,@cursor] Flamestrike; [mod:alt,spec:3,@cursor] Blizzard; [spec:2] Pyroblast; [spec:3] Flurry; [spec:1,nochanneling] Arcane Missiles;
+/cast [mod:shift,known:Blast Wave] Blast Wave; [mod:alt,spec:2,known:Flamestrike,@cursor] Flamestrike; [mod:alt,spec:3,@cursor] Blizzard; [mod:alt,spec:1] Ice Nova; [spec:2] Pyroblast; [spec:3] Flurry; [spec:1,nochanneling] Arcane Missiles;
 END
 VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -74,7 +74,7 @@ VER 3 010000000000001A " " "INV_MISC_QUESTIONMARK"
 END
 VER 3 010000000000001B " " "134400"
 #showtooltip
-/cast [mod:alt,known:Summon Water Elemental,@cursor] Freeze; [known:Ice Floes,mod:shift] Ice Floes; [known:Ice Nova] Ice Nova;
+/cast [mod:alt] Cone of Cold; [known:Ice Floes,mod:shift] Ice Floes; [known:Ice Nova] Ice Nova; Cone of Cold;;
 /script UIErrorsFrame:Clear()
 END
 VER 3 010000000000001C " " "134400"

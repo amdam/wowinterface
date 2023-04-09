@@ -73,3 +73,8 @@ BattleGroundEnemies: disabled
 Plater: disabled
 Tukui_NamePlateFeatures: disabled
 TomCats-Bundled-DeathsRising: disabled
+ElvUI_ExtraDataTexts: disabled
+ElvUI_SecondsToBuff: disabled
+ElvUI_BuffHighlight: disabled
+ElvUI_ChatTweaks: disabled
+WunderUI: disabled

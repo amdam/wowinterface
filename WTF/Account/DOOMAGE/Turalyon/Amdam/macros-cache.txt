@@ -66,6 +66,7 @@ VER 3 0100000000000015 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast Avenging Wrath
 /use 13
+/use 14
 /script UIErrorsFrame:Clear()
 END
 VER 3 0100000000000017 " " "INV_MISC_QUESTIONMARK"
@@ -95,5 +96,10 @@ END
 VER 3 010000000000001B " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@focus,known:Repentance] Repentance; [known:Blinding Light] Blinding Light;
+/script UIErrorsFrame:Clear()
+END
+VER 3 010000000000001C " " "134400"
+#showtooltip
+/cast [@focus,exists][] Rebuke;
 /script UIErrorsFrame:Clear()
 END

@@ -76,3 +76,8 @@ OmniCD: disabled
 Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
 ElvUI_UnitFramePlugin: disabled
+ElvUI_ChatTweaks: disabled
+ElvUI_ExtraDataTexts: disabled
+ElvUI_SecondsToBuff: disabled
+ElvUI_BuffHighlight: disabled
+WunderUI: disabled

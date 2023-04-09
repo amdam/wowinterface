@@ -3,13 +3,10 @@ OneRing_Config = nil
 OPie_SavedData = {
 	["CharProfiles"] = {
 	},
-	["_GameVersion"] = "10.0.2",
-	["_OPieVersion"] = "Yuzu 5b (4.114)",
+	["_GameVersion"] = "10.0.7",
+	["_OPieVersion"] = "Yuzu 7 (4.114)",
 	["ProfileStorage"] = {
 		["default"] = {
-			["RotationTokens"] = {
-				["OPCMPe"] = "OPCMEh",
-			},
 			["Bindings"] = {
 				["ipmentSets1"] = false,
 				["CommonTrades"] = false,
@@ -161,9 +158,9 @@ OPie_SavedData = {
 					["id"] = 2656,
 				}, -- [11]
 				["name"] = "Trade Skills",
-				["version"] = 4,
 				["save"] = true,
 				["hotkey"] = "ALT-T",
+				["version"] = 4,
 			},
 			["OPieFlagStore"] = {
 				["StoreVersion"] = 2,
@@ -383,10 +380,10 @@ OPie_SavedData = {
 					["show"] = "[spec:73/72] hide;",
 					["sliceToken"] = "ABuesXRQAcr",
 				}, -- [8]
-				["name"] = "Equipment Sets",
+				["limit"] = "Badam-Turalyon",
 				["save"] = true,
 				["hotkey"] = "NUMPAD5",
-				["limit"] = "Badam-Turalyon",
+				["name"] = "Equipment Sets",
 			},
 		},
 	},

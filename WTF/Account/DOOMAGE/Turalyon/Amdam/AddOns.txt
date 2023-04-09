@@ -211,3 +211,13 @@ LittleWigs: enabled
 BigWigs_DragonIsles: enabled
 LittleWigs_WarlordsOfDraenor: enabled
 BigWigs_VaultOfTheIncarnates: enabled
+ElvUI_ExtraDataTexts: disabled
+ElvUI_SecondsToBuff: disabled
+LittleWigs_Legion: enabled
+BigWigs_Voice: enabled
+ElvUI_BuffHighlight: disabled
+LittleWigs_Classic: enabled
+LittleWigs_BurningCrusade: enabled
+LittleWigs_WrathOfTheLichKing: enabled
+ElvUI_ChatTweaks: disabled
+WunderUI: disabled
